@@ -1712,7 +1712,7 @@ Sección de evento locales registrados
 
 Pantalla para registrar un nuevo evento
 
-<img src="./assets\chapter-4\wireframesAppWeb/png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/9 Mock Ups.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
