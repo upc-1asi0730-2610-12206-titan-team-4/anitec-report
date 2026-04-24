@@ -1717,7 +1717,72 @@ Pantalla para registrar un nuevo evento
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
-!--Bruno--!
+Pantalla para consultar el historial Clínico de un animal en específico
+
+<img src="./assets\chapter-4\wireframesAppWeb/10 Mock.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para ver el detalle de un informe médico de un animal en específico
+
+<img src="./assets\chapter-4\wireframesAppWeb/11 Mock.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para agregar un informe médico a un animal en específico
+
+<img src="./assets\chapter-4\wireframesAppWeb/12 Mock.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para escoger un informe médico para editar de un animal registrado
+
+<img src="./assets\chapter-4\wireframesAppWeb/13 Mock.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+
+Pantalla para editar un informe médico seleccionado registrado para un animal
+
+<img src="./assets\chapter-4\wireframesAppWeb/Mock14.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Mensaje para escoger el informe del historial clínico a eliminar de un animal
+
+<img src="./assets\chapter-4\wireframesAppWeb/Mock 15.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Sección que registra ingresos y egresos de los ganaderos 
+
+<img src="./assets\chapter-4\wireframesAppWeb/16 Mock.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Dashboard donde se presentan los reportes generados
+
+<img src="./assets\chapter-4\wireframesAppWeb/Mock 17.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+</div>
 
 #### 4.4.4. Web Applications User Flow Diagrams.
 !--Luciana--!
