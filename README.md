@@ -1654,6 +1654,69 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 #### 4.4.3. Web Applications Mock-ups.
 En esta sección se exponen y analizan los mockups de la aplicación web AgroDigital, diseñada para el sector ganadero. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario y la gestión eficiente del ganado. Asimismo, se incluye el enlace para acceder al contenido. [Enlace al figma](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1)
 
+Pantalla de login en la aplicación
+
+<img src="./assets\chapter-4\wireframesAppWeb/Login.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+
+
+Pantalla para registrarse en la aplicación
+
+<img src="./assets\chapter-4\wireframesAppWeb/Create an account.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla de inicio dentro de la aplicación
+
+<img src="./assets\chapter-4\wireframesAppWeb/Welcome.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para consultar mayor detalle sobre un animal
+
+<img src="./assets\chapter-4\wireframesAppWeb/Animal Details.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para eliminar la información registrada sobre un animal
+
+<img src="./assets\chapter-4\wireframesAppWeb/close the number.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para añadir un nuevo animal
+
+<img src="./assets\chapter-4\wireframesAppWeb/Municipal.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Sección de evento locales registrados
+
+<img src="./assets\chapter-4\wireframesAppWeb/New evento.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
+
+Pantalla para registrar un nuevo evento
+
+<img src="./assets\chapter-4\wireframesAppWeb/png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+
 !--Bruno--!
 
 #### 4.4.4. Web Applications User Flow Diagrams.
