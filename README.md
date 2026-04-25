@@ -809,6 +809,23 @@ Enlace para acceder al [EventStorming](https://miro.com/app/board/uXjVHctvlP0=/?
 
 ### 2.5. Ubiquitous Language.
 
+El glosario que se presenta a continuación constituye la base del lenguaje común entre el equipo de desarrollo Titan y los expertos del dominio. Siguiendo los principios de Eric Evans, estos términos eliminan la ambigüedad y serán utilizados de forma consistente en la documentación, el código y la interfaz de usuario de la solución.
+
+| Term (English) | Término (Español) | Definition (Definición) |
+| :--- | :--- | :--- |
+| **Livestock Owner** | Ganadero | Usuario responsable de la administración operativa y financiera de la hacienda, encargado de registrar eventos diarios y tomar decisiones de producción. |
+| **Veterinarian** | Veterinario | Profesional especializado encargado de la salud animal, responsable de emitir diagnósticos, prescribir tratamientos y validar historiales clínicos. |
+| **Livestock Unit** | Unidad Ganadera | Cada ejemplar individual bajo gestión dentro del sistema, identificado de forma única para su seguimiento sanitario y productivo. |
+| **Health Record** | Registro Sanitario | Documento digital que centraliza el historial de vacunas, enfermedades y procedimientos médicos realizados a un animal. |
+| **Sanitary Alert** | Alerta Sanitaria | Notificación automática generada por el sistema para informar sobre vencimientos de vacunas o brotes epidemiológicos detectados en la zona. |
+| **Growth Performance** | Desempeño de Crecimiento | Indicador basado en la ganancia media de peso diaria (GMD) que permite evaluar la eficiencia alimenticia y el valor de mercado del animal. |
+| **Veterinary History** | Historial Veterinario | Expediente clínico consolidado que permite al especialista revisar antecedentes médicos antes de realizar una intervención. |
+| **Treatment Protocol** | Protocolo de Tratamiento | Conjunto de instrucciones médicas y fármacos asignados a un animal para tratar una afección diagnosticada por el veterinario. |
+| **Traceability** | Trazabilidad | Capacidad de reconstruir el historial completo de un animal (origen, salud, peso, movimientos) a lo largo de toda su vida productiva. |
+| **Offline Synchronization** | Sincronización Offline | Capacidad técnica que permite al ganadero registrar datos sin conexión a internet y sincronizarlos automáticamente al recuperar señal. |
+| **Cattle ID / Ear Tag** | Identificador / Arete | Dispositivo de identificación única colocado en el animal que vincula su identidad física con su registro digital en la plataforma. |
+| **Farm Management** | Gestión de Hacienda | Administración de los recursos, personal y actividades que ocurren dentro de la unidad productiva ganadera. |
+
 ## Capítulo III: Requirements Specification
 
 ### 3.1. User Stories.
