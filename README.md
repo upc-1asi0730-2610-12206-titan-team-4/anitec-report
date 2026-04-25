@@ -783,11 +783,11 @@ El mapeo de este recorrido comienza con el primer contacto del cliente con la ap
 
 User Ganadero:
 
-![User-Ganadero-Journey](assets/chapter-2/user_ganaderos_journey.png)
+![User-Ganadero-Journey](assets/chapter-2/User-Ganadero-Journey.png)
 
 User Veterinario:
 
-![User-Veterinario-Journey](assets/chapter-2/user_veterinarios_journey.png)
+![User-Veterinario-Journey](assets/chapter-2/User-Veterinario-Journey.png)
 
 #### 2.3.4. Empathy Mapping.
 
