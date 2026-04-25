@@ -809,7 +809,7 @@ Enlace para acceder al [EventStorming](https://miro.com/app/board/uXjVHctvlP0=/?
 
 ### 2.5. Ubiquitous Language.
 
-El glosario que se presenta a continuación constituye la base del lenguaje común entre el equipo de desarrollo Titan y los expertos del dominio. Siguiendo los principios de Eric Evans, estos términos eliminan la ambigüedad y serán utilizados de forma consistente en la documentación, el código y la interfaz de usuario de la solución.
+Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2003)** en su obra *Domain-Driven Design: Tackling Complexity in the Heart of Software*, se presenta el siguiente glosario. Este conjunto de términos constituye el lenguaje común del proyecto, eliminando ambigüedades entre el equipo de ingeniería y los expertos del dominio ganadero.
 
 | Term (English) | Término (Español) | Definition (Definición) |
 | :--- | :--- | :--- |
@@ -823,7 +823,6 @@ El glosario que se presenta a continuación constituye la base del lenguaje com�
 | **Treatment Protocol** | Protocolo de Tratamiento | Conjunto de instrucciones médicas y fármacos asignados a un animal para tratar una afección diagnosticada por el veterinario. |
 | **Traceability** | Trazabilidad | Capacidad de reconstruir el historial completo de un animal (origen, salud, peso, movimientos) a lo largo de toda su vida productiva. |
 | **Offline Synchronization** | Sincronización Offline | Capacidad técnica que permite al ganadero registrar datos sin conexión a internet y sincronizarlos automáticamente al recuperar señal. |
-| **Cattle ID / Ear Tag** | Identificador / Arete | Dispositivo de identificación única colocado en el animal que vincula su identidad física con su registro digital en la plataforma. |
 | **Farm Management** | Gestión de Hacienda | Administración de los recursos, personal y actividades que ocurren dentro de la unidad productiva ganadera. |
 
 ## Capítulo III: Requirements Specification
