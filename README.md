@@ -746,15 +746,15 @@ En esta sección se presentarán los artefactos resultantes del proceso de anál
 
 #### 2.3.1. User Personas.
 
-A continuación, se presentan los perfiles ficticios diseñados para representar a los segmentos de usuarios identificados durante la fase de entrevistas. Estos perfiles detallan aspectos demográficos, rasgos de personalidad, motivaciones y comportamientos, así como los principales objetivos y retos que enfrentan en su día a día. De igual forma, se analiza su interacción con soluciones tecnológicas similares. Toda la información presentada ha sido sintetizada a partir de los datos recolectados en las entrevistas y organizada mediante la plataforma UXPressia.
+A continuación, se presentan los User Personas diseñados para representar a los segmentos objetivo identificados durante la fase de investigación. Estos arquetipos detallan variables demográficas, rasgos psicográficos, motivaciones y comportamientos, así como los pains (frustraciones) y gains (objetivos) que enfrentan en su gestión diaria. Asimismo, se analiza su nivel digital y su interacción con soluciones tecnológicas del sector agropecuario. Toda la información ha sido sintetizada a partir de los insights recolectados en las entrevistas y estructurada mediante la plataforma UXPressia para garantizar una representación fiel de las necesidades del usuario.
 
 ###### User Persona: Ganaderos
 
-![User-Persona Ganadero](assets/chapter-2/user_persona_ganaderos.png)
+![User-Persona Ganadero](assets/chapter-2/user_persona_ganadero.png)
 
 ###### User Persona: Veterinarios
 
-![User-Persona Veterinario](assets/chapter-2/user_persona_veterinarios.png)
+![User-Persona Veterinario](assets/chapter-2/user_persona_veterinario.png)
 
 #### 2.3.2. User Task Matrix.
 
