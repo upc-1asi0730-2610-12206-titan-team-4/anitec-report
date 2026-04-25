@@ -760,20 +760,20 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 A través de la User Task Matrix, es posible desglosar detalladamente cada una de las actividades y tareas que los usuarios realizan al interactuar con nuestra plataforma. Al categorizar estas acciones en función de su importancia y recurrencia, logramos priorizar estratégicamente los esfuerzos de diseño y desarrollo, asegurando así una experiencia de usuario optimizada y eficiente.
 
-| **User Task**                                      | ** (Frecuencia)** | ** (Importancia)** | ** (Frecuencia)** | ** (Importancia)** |
+| **User Task**                                      | **Jorge Rivas (Frecuencia)** | **Jorge Rivas (Importancia)** | **Valeria Mendoza (Frecuencia)** | **Valeria Mendoza (Importancia)** |
 |------------------------------------------------|------------------------|-------------------------|------------------------|-------------------------|
-| Registrar un nuevo animal                      |               |                     |                  |                   |
-| Actualizar registro sanitario                  |                   |                     |                  |                     |
-| Consultar calendario de vacunación             |                   |                     |                   |                     |
-| Recibir alertas automáticas                    |               |                     |               |                     |
-| Registrar peso y ganancia media diaria         |                   |                   |                   |                   |
-| Generar y revisar reportes de productividad    |               |                   |                   |                   |
-| Compartir registros con asociación o compradores |                |                   |                  |                      |
-| Acceder a módulos de formación ("Academia ganadera") |          |                      |               |                   |
-| Planificar ciclos de reproducción              |                  |                   |                  |                   |
-| Revisar historial completo de un animal        |               |                     |               |                     |
+| Registrar un nuevo animal                      | Sometimes              | High                    | Rarely                 | Medium                  |
+| Actualizar registro sanitario                  | Often                  | High                    | Always                 | High                    |
+| Consultar calendario de vacunación             | Often                  | High                    | Often                  | High                    |
+| Recibir alertas automáticas                    | Sometimes              | High                    | Sometimes              | High                    |
+| Registrar peso y ganancia media diaria         | Often                  | Medium                  | Often                  | Medium                  |
+| Generar y revisar reportes de productividad    | Sometimes              | Medium                  | Often                  | Medium                  |
+| Compartir registros con asociación o compradores | Rarely               | Medium                  | Rarely                 | Low                     |
+| Acceder a módulos de formación ("Academia ganadera") | Sometimes         | Low                     | Sometimes              | Medium                  |
+| Planificar ciclos de reproducción              | Rarely                 | Medium                  | Rarely                 | Medium                  |
+| Revisar historial completo de un animal        | Sometimes              | High                    | Sometimes              | High                    |
 
-La User Task Matrix revela que...
+La User Task Matrix revela que tanto Jorge como Valeria comparten tareas críticas de actualización sanitaria y recepción de alertas automáticas con alta frecuencia e importancia, seguidas por la consulta del calendario de vacunación y el registro de peso para el control de ganancia media diaria. Mientras Jorge prioriza en su día a día el registro inicial de animales y la revisión de históricos para procesos de venta o inspecciones, Valeria enfoca su actividad en la actualización técnica de datos sanitarios y la generación de reportes de productividad tras cada visita. Al clasificar estas tareas según su recurrencia y valor estratégico, el equipo de desarrollo de AniTec puede enfocar el MVP en las funciones de mayor impacto, postergando los módulos de formación y los reportes avanzados para fases posteriores del proyecto.
 
 #### 2.3.3. User Journey Mapping.
 
