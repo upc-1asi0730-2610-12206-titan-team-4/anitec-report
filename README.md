@@ -692,12 +692,12 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 **Entrevista a Ganaderos**
 
-|Entrevistado 1|nombre|
+|Entrevistado 1|Vicente Alacutte|
 |-|-|
-|Edad|nro|
-|Distrito|nombre dist|
-|<img width="1292" alt="Entrevista1" src= >|descripcion|
-|Timing:  |URL: 
+|Edad:62|nro 1|
+|Distrito: Lima/Canta| Santa Rosa de Quives|
+|<img src=".\assets\chapter-2\Entrevista 1.png" width="360"> </td>| En la entrevista realizada a Vicente Huamán Alacute, ganadero con más de 30 años de experiencia que gestiona un hato de 25 cabezas de vacuno, se validó la necesidad crítica de digitalizar la gestión pecuaria a través de una herramienta como AniTec. Actualmente, el entrevistado depende de un cuadernillo físico y registros aislados en Excel, enfrentando problemas de desorden, pérdida de información y la "fragilidad de la memoria" ante tareas complejas como el control de enfermedades, alimentación y reproducción. Don Vicente enfatizó que la tecnología es el camino para profesionalizar el sector, señalando que un registro digital no solo optimiza la operatividad interna mediante alertas y trazabilidad, sino que otorga confianza al comprador al momento de la venta. Finalmente, hizo un llamado a que la aplicación sea extremadamente sencilla y accesible para el hombre de campo, confirmando que, si la herramienta es intuitiva, existe una disposición total para adoptar la plataforma y abandonar los métodos manuales en favor de una ganadería más inteligente y eficiente.|
+|Timing: 7:43|URL: https://drive.google.com/file/d/13oRRly8TR7Kus-jWqxyd3qEBK7DW4CRg/view?usp=sharing 
 
 |Entrevistado 2|nombre|
 |-|-|
