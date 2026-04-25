@@ -800,6 +800,13 @@ User Veterinario:
 ![User-Mapping-Empathy](assets/chapter-2/User-Veterinario-Empathy.png)
 
 ### 2.4. Big Picture EventStorming.
+
+El presente Big Picture Event Storming se ha desarrollado de manera colaborativa utilizando la plataforma Miro, siguiendo la metodología de Philippe Bourgau para explorar el dominio del negocio de forma holística y establecer un entendimiento compartido. A través de un proceso iterativo en este entorno digital, que incluyó la generación de eventos de dominio, el ordenamiento cronológico y el análisis de causas mediante comandos y actores, se ha logrado mapear la complejidad del sector ganadero en una narrativa visual coherente. Este artefacto no solo permite identificar los puntos de fricción y las oportunidades de automatización en la gestión de AniTec, sino que también sienta las bases para el diseño de una arquitectura de software alineada con la realidad operativa de los ganaderos y veterinarios.
+
+![Event-Storming](assets/chapter-2/Event-Storming.png)
+
+Enlace para acceder al [EventStorming](https://miro.com/app/board/uXjVHctvlP0=/?share_link_id=607392522182)
+
 ### 2.5. Ubiquitous Language.
 
 ## Capítulo III: Requirements Specification
