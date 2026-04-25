@@ -793,11 +793,11 @@ User Veterinario:
 
 User Ganadero:
 
-![User-Ganaderos-Empathy](assets/chapter-2/user_ganaderos_empathy.png)
+![User-Ganaderos-Empathy](assets/chapter-2/User-Ganadero-Empathy.png)
 
 User Veterinario:
 
-![User-Mapping-Empathy](assets/chapter-2/user_veterinarios_empathy.png)
+![User-Mapping-Empathy](assets/chapter-2/User-Veterinario-Empathy.png)
 
 ### 2.4. Big Picture EventStorming.
 ### 2.5. Ubiquitous Language.
