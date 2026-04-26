@@ -1679,10 +1679,10 @@ En esta sección se exponen y analizan los mockups de la aplicación web AgroDig
 
 Pantalla de login en la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Login.png" width="500">
+<div align="center"> <img src="./assets\chapter-4\wireframesAppWeb/Login.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
-  </p>
+</p>
 
 
 Pantalla para registrarse en la aplicación
@@ -1988,6 +1988,7 @@ Comprende las herramientas a utilizar para el diseño de la experiencia de usuar
 | Figma | Diseño de wireframes, mockups y prototipos de la landing page y la aplicación web de AniTec. | https://www.figma.com |
 | Canva | Creación de recursos visuales como banners, íconos e imágenes para la identidad visual del producto. | https://www.canva.com |
 | UXPressia | Elaboración de User Personas y Customer Journey Maps para comprender el comportamiento y necesidades del usuario. | https://uxpressia.com |
+| Lucidchart |Aplicación para crear diagramas. Se utilizará para diseñar flujos de usuario, wireflows y el diagrama de clases del sistema.|https://www.lucidchart.com/|
 
 **Software Development**
 
@@ -2020,23 +2021,138 @@ Agrupa herramientas a emplear para documentar la arquitectura, procesos, modelos
 
 #### 5.1.2. Source Code Management.
 
-En esta sección, el equipo de desarrollo de **AniTec** define los mecanismos y la estructura organizativa utilizados para el control de versiones y el seguimiento de cambios, empleando **GitHub** como plataforma principal.
+En esta sección, el equipo de desarrollo de AniTec define los mecanismos y la estructura organizativa utilizados para el control de versiones y el seguimiento de cambios, empleando **GitHub** como plataforma principal.
 
 Para ello, se configuraron repositorios remotos donde se almacena el código fuente, se documentan las modificaciones y se facilita la colaboración eficiente entre los miembros del equipo a lo largo de todo el ciclo de desarrollo de la aplicación.
 
 Se utiliza GitHub como sistema centralizado para el versionado y la gestión colaborativa.
 Los repositorios oficiales del proyecto AniTec son los siguientes:
 
+- AniTec Documentation: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report 
 - Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page 
-- Aplicación Web (frontend de AniTec): 
-- Backend / Servicios Web (API del sistema): 
+- Aplicación Web (frontend de AniTec): - 
+- Backend / Servicios Web (API del sistema): -
 
+**Workflow de Control de Versiones (GitFlow)**
 
+Para la gestión del desarrollo, se implementa el modelo GitFlow, el cual establece una estructura de ramas que permite organizar el trabajo del equipo de forma controlada y escalable.
 
-Cada repositorio cuenta con flujos de trabajo independientes, integraciones de despliegue automático (por ejemplo, en Render u otra plataforma) y procesos de integración y despliegue continuo (CI/CD) configurados mediante GitHub Actions.
+**Estructura de branches (Ramas)**
+- *main*: Contiene la versión estable y productiva del sistema.
+- *develop*: Rama de integración donde se consolidan las funcionalidades en desarrollo antes de su liberación.
+- *Feature branches*: Cada funcionalidad específica contará con una rama independiente. Al completarse su desarrollo, se integrará a la rama principal de desarrollo. La nomenclatura seguirá el formato "feature/descripción-funcionalidad" para garantizar claridad y unicidad.
+- *Release branches*: Estas bifurcaciones representarán versiones candidatas de la rama develop, preparadas para su eventual incorporación a master. Su identificación se basará en el Versionamiento Semántico estándar.
+- *Hotfix branches*: Se implementarán para resolver de manera ágil errores críticos detectados en producción que afecten directamente la funcionalidad del sistema.
+
+*Versionamiento Semántico:* El control de versiones aplicará estrictamente los principios del Versionamiento Semántico 2.0.0 (SemVer)
+
+*Convenciones de Commits:* Los mensajes de confirmación seguirán el estándar Conventional Commits, con el objetivo de mantener un historial de cambios claro, consistente y trazable a lo largo del desarrollo del proyecto AniTec.
+La estructura básica será:
+
+ `git commit -m "<type>[optional scope]:<title>" -m"<description">`
 
 #### 5.1.3. Source Code Style Guide & Conventions.
+
+En esta sección, el equipo de desarrollo de AniTec define las convenciones de nomenclatura y estilo de código adoptadas para garantizar consistencia, legibilidad y mantenibilidad en todos los componentes del sistema. 
+
+**Convenciones Generales**
+
+- Uso obligatorio del idioma inglés en todo el código fuente.
+- Nombres descriptivos y semánticos.
+- Evitar abreviaciones innecesarias.
+- Mantener consistencia en estilos a lo largo del proyecto.
+- Código estructurado, modular y reutilizable.
+- Uso de nomenclatura `kebab-case` para clases y nombres de archivos.
+
+---
+
+**HTML y CSS**
+
+Se adoptan las recomendaciones de:
+- Google HTML/CSS Style Guide  
+- HTML Style Guide and Coding Conventions  
+
+**Convenciones aplicadas:**
+- Uso de etiquetas semánticas (`<header>`, `<section>`, `<article>`, etc.).
+- Indentación de 2 espacios.
+- Uso de clases en formato `kebab-case` (ej. `animal-card`, `main-header`).
+- Separación clara entre estructura (HTML) y estilo (CSS).
+- Evitar estilos en línea (inline styles).
+
+---
+
+**JavaScript**
+
+Se adoptan las guías:
+- Google JavaScript Style Guide  
+- MDN JavaScript Guidelines  
+
+**Convenciones aplicadas:**
+- Uso de `camelCase` para variables y funciones (ej. `getAnimalData`).
+- Uso de `PascalCase` para clases (ej. `AnimalService`).
+- Uso de `const` y `let` en lugar de `var`.
+- Funciones pequeñas y con una única responsabilidad.
+- Manejo adecuado de promesas (`async/await`).
+- Uso de módulos para organizar el código.
+
+---
+
+**Framework Frontend**
+
+Se adopta:
+- Vue Style Guide  
+
+**Convenciones aplicadas:**
+- Componentes en `PascalCase` (ej. `AnimalCard.vue`).
+- Separación de lógica, template y estilos dentro del componente.
+- Props claramente tipadas y documentadas.
+- Reutilización de componentes.
+
+---
+
+**C# / Backend (.NET)**
+
+Se adoptan:
+- C# Coding Conventions  
+- Microsoft ASP.NET Core Coding Guidelines  
+
+**Convenciones aplicadas:**
+- Uso de `PascalCase` para clases, métodos y propiedades.
+- Uso de `camelCase` para variables locales y parámetros.
+- Prefijo `_` para variables privadas (ej. `_animalRepository`).
+- Métodos con nombres verbales (ej. `GetAnimals`, `CreateAnimal`).
+- Separación en capas (Controllers, Services, Repositories).
+- Uso de inyección de dependencias.
+
 #### 5.1.4. Software Deployment Configuration.
+
+En esta sección se describe la configuración y el proceso de despliegue de los distintos componentes del sistema AniTec, detallando los pasos necesarios para publicar cada producto digital a partir de sus respectivos repositorios de código fuente.
+
+El despliegue se ha estructurado de forma independiente para cada componente: Landing Page, Aplicación Web (Frontend) y Web Services (Backend), permitiendo una gestión modular, escalable y mantenible.
+
+**Despliegue de Landing Page**
+
+La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publicación de sitios web estáticos directamente desde el repositorio.
+
+**Repositorio:**
+- https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+
+**Pasos de despliegue:**
+1. Subir el código fuente (HTML, CSS, JavaScript) al repositorio.
+2. Configurar la rama `main` como fuente de despliegue en GitHub Pages.
+3. Activar la opción **Pages** en la configuración del repositorio.
+4. GitHub genera automáticamente una URL pública para acceder al sitio.
+
+**Resultado:**
+La Landing Page queda disponible en una URL accesible desde cualquier navegador. Link: 
+
+<div align="center">
+<img src="./assets\chapter-5\landingEvidence.png" width="800">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
+</div>
+
 ### 5.2. Landing Page, Services & Applications Implementation.
 #### 5.2.1. Sprint 1.
 ##### 5.2.1.1. Sprint Planning 1.
