@@ -1143,22 +1143,231 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
     </tr>
     <tr>
       <td><b>US25</b></td>
-      <td>Landing: Exploración de Contenido y Navegación</td>
-      <td><b>Como</b> visitante, <b>quiero</b> navegar fluidamente por la página y visualizar la propuesta de valor, funcionalidades, planes y testimonios, <b>para</b> evaluar integralmente la conveniencia de la plataforma.</td>
+      <td>Landing inicio: Visualización de Propuesta de Valor</td>
+      <td><b>Como</b> visitante, <b>quiero</b> visualizar la propuesta de valor principal de AniTec en la página de inicio, <b>para</b> comprender rápidamente qué solución ofrece la plataforma.</td>
       <td>
-        - <b>Dado que</b> el visitante ingresa a la landing page, <b>Cuando</b> interactúa con el menú principal, <b>Entonces</b> el sistema realiza un desplazamiento hacia la sección correspondiente.<br><br>
-        - <b>Dado que</b> el visitante explora la web, <b>Cuando</b> hace scroll por la página, <b>Entonces</b> el sistema despliega el contenido de forma estructurada (módulos, planes de precios y opiniones de usuarios) adaptándose al tamaño de su pantalla.
+        - <b>Dado que</b> el visitante accede al home de AniTec, <b>Cuando</b> la página carga correctamente, <b>Entonces</b> el sistema muestra el título "Gestiona tu Ganado con Tecnología Innovadora" y la descripción del valor agregado.<br><br>
+        - <b>Dado que</b> el visitante observa la sección hero, <b>Cuando</b> hace scroll, <b>Entonces</b> el sistema despliega las métricas clave (+500 ganaderos, +120 veterinarios, +5,000 animals).
       </td>
       <td>EP07</td>
     </tr>
     <tr>
       <td><b>US26</b></td>
-      <td>Landing: Conversión y Llamados a la Acción (CTAs)</td>
-      <td><b>Como</b> visitante, <b>quiero</b> utilizar los botones de acción principal, <b>para</b> acceder al sistema, crear una cuenta o visualizar una demostración.</td>
+      <td>Landing inicio: Exploración de Segmentos</td>
+      <td><b>Como</b> visitante, <b>quiero</b> explorar los dos segmentos objetivo de AniTec en la página de inicio, <b>para</b> identificar si la plataforma es relevante para mi rol.</td>
       <td>
-        - <b>Dado que</b> el visitante desea acceder o registrarse, <b>Cuando</b> hace clic en botones como "Comenzar Gratis" o "Iniciar Sesión", <b>Entonces</b> el sistema lo redirige al flujo de autenticación de la aplicación web.<br><br>
-        - <b>Dado que</b> el visitante desea probar la plataforma antes de registrarse, <b>Cuando</b> hace clic en "Ver Demo", <b>Entonces</b> el sistema lo redirige al entorno interactivo de demostración.<br><br>
-        - <b>Dado que</b> el visitante desea ingresar a su cuenta creada en la plataforma, <b>Cuando</b> hace clic en "Iniciar Sesión", <b>Entonces</b> el sistema lo redirige al entorno interactivo de la aplicación web.
+        - <b>Dado que</b> el visitante visualiza la sección "Diseñado para Ganaderos y Veterinarios", <b>Cuando</b> hace clic en "ganaderos", <b>Entonces</b> el sistema lo redirige a la página de ganaderos.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "veterinarios", <b>Cuando</b> selecciona el segmento, <b>Entonces</b> el sistema lo redirige a la página de veterinarios.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US27</b></td>
+      <td>Landing inicio: Visualización de Métricas e Impacto</td>
+      <td><b>Como</b> visitante, <b>quiero</b> observar las métricas de impacto de AniTec, <b>para</b> confiar en la efectividad de la plataforma.</td>
+      <td>
+        - <b>Dado que</b> el visitante accede a la sección de métricas, <b>Cuando</b> visualiza las estadísticas (85% menos información perdida, 2h ahorro diario), <b>Entonces</b> el sistema muestra los indicadores de manera clara y visual.<br><br>
+        - <b>Dado que</b> el visitante verifica las cifras de ganaderos confían, <b>Cuando</b> observa "+500 ganaderos trust", <b>Entonces</b> el sistema presenta el número actualizado.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US28</b></td>
+      <td>Landing inicio: Navegación entre Secciones</td>
+      <td><b>Como</b> visitante, <b>quiero</b> navegar entre las diferentes secciones de la landing page, <b>para</b> explorar todo el contenido de manera fluida.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Pricing" en el menú, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema realiza scroll hacia la sección de precios.<br><br>
+        - <b>Dado que</b> el visitante hace scroll por la página, <b>Cuando</b>reach the features section, <b>Entonces</b> el sistema carga las animaciones de entrada de manera fluida.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US29</b></td>
+      <td>Landing inicio: Acceso a Precios y Planes</td>
+      <td><b>Como</b> visitante interesado, <b>quiero</b> revisar los planes y precios de AniTec, <b>para</b> evaluar cuál plan se ajusta a mis necesidades.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Pricing" o "Precios", <b>Cuando</b> navigation reaches the pricing section, <b>Entonces</b> el sistema muestra los tres planes (Basic $0, Professional $19, Enterprise $49).<br><br>
+        - <b>Dado que</b> el visitante hace clic en "Elegir Plan" del plan Professional, <b>Cuando</b> selecciona el botón, <b>Entonces</b> el sistema abre el formulario de registro.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US30</b></td>
+      <td>Landing nosotros: Información del Equipo</td>
+      <td><b>Como</b> visitante, <b>quiero</b> conocer al equipo detrás de AniTec, <b>para</b> identificar a los creadores y su experiencia.</td>
+      <td>
+        - <b>Dado que</b> el visitante accede a la página "About Us", <b>Cuando</b> la página carga, <b>Entonces</b> el sistema muestra la información del equipo Titan y los perfiles de los integrantes.<br><br>
+        - <b>Dado que</b> el visitante visualiza la misión y visión, <b>Cuando</b> hace scroll hacia la sección, <b>Entonces</b> el sistema despliega los valores corporativa de la startup.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US31</b></td>
+      <td>Landing nosotros: Conocimiento del Proceso</td>
+      <td><b>Como</b> visitante, <b>quiero</b> entender el proceso de desarrollo y tecnología utilizada, <b>para</b> evaluar la viabilidad técnica del proyecto.</td>
+      <td>
+        - <b>Dado que</b> el visitante explora la sección de proceso, <b>Cuando</b> hace scroll hacia "Nuestro Proceso", <b>Entonces</b> el sistema muestra el timeline con las fases del desarrollo.<br><br>
+        - <b>Dado que</b> el visitante visualiza las tecnologías, <b>Cuando</b> observa el stack tecnológico (VueJS, .NET, SQL Server), <b>Entonces</b> el sistema presenta los logos y descripciones de cada tecnología.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US32</b></td>
+      <td>Landing nosotros: Contacto y Redes Sociales</td>
+      <td><b>Como</b> visitante, <b>quiero</b> encontrar información de contacto y redes sociales, <b>para</b> poder comunicar consultas o sugerencias.</td>
+      <td>
+        - <b>Dado que</b> el visitante Busca opciones de contacto, <b>Cuando</b> reach the footer o sección de contacto, <b>Entonces</b> el sistema muestra los enlaces a redes sociales (Facebook, Instagram, Twitter, LinkedIn, YouTube).<br><br>
+        - <b>Dado que</b> el visitante hace clic en una red social, <b>Cuando</b> selecciona el icono, <b>Entonces</b> el sistema abre la página oficial de AniTec en una nueva pestaña.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US33</b></td>
+      <td>Landing nosotros: Política de Privacidad</td>
+      <td><b>Como</b> visitante, <b>quiero</b> revisar la política de privacidad y términos, <b>para</b> entender cómo se protegen mis datos.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Privacy Policy", <b>Cuando</b> selecciona el enlace en el footer, <b>Entonces</b> el sistema despliega el documento completo de privacidad.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "Terms of Service", <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema muestra los términos y condiciones del servicio.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US34</b></td>
+      <td>Landing nosotros: Navegación General</td>
+      <td><b>Como</b> visitante, <b>quiero</b> navegar fluidamente por todas las secciones de About Us, <b>para</b> explorar el contenido completo de la página.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Home" desde About Us, <b>Cuando</b> selecciona el enlace, <b>Entonces</b> el sistema redirige a la página principal.<br><br>
+        - <b>Dado que</b> el visitante utiliza el menú de navegación, <b>Cuando</b> hace Scroll, <b>Entonces</b> el sistema mantiene el header fijo para facilitar la navegación.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US35</b></td>
+      <td>Landing nosotros: Llamados a la Acción</td>
+      <td><b>Como</b> visitante, <b>quiero</b> acceder a los CTAs de conversión en About Us, <b>para</b> iniciar mi registro o contactarme con el equipo.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Start Free Now", <b>Cuando</b> selecciona el botón CTA, <b>Entonces</b> el sistema redirige al flujo de autenticación.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "Contact", <b>Cuando</b> selecciona el botón de contacto, <b>Entonces</b> el sistema abre el formulario de contacto o muestra la información de email.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US36</b></td>
+      <td>Landing ganaderos: Exploración de Contenido Específico</td>
+      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> explorar el contenido específico para ganaderos, <b>para</b> evaluar si AniTec se ajusta a mis necesidades.</td>
+      <td>
+        - <b>Dado que</b> el visitante accede a la página de ganaderos, <b>Cuando</b> la página carga, <b>Entonces</b> el sistema muestra el hero con "Digitize Your Livestock Today" y las características específicas para ganaderos.<br><br>
+        - <b>Dado que</b> el visitante hace scroll, <b>Cuando</b> visualiza la sección de módulos, <b>Entonces</b> el sistema presenta los 4 módulos (Gestión de Animales, Control Sanitario, Reproducción, Gestión Económica).
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US37</b></td>
+      <td>Landing ganaderos: Visualización de Testimonios</td>
+      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> leer testimonios de otros ganaderos, <b>para</b> evaluar la confianza en la plataforma.</td>
+      <td>
+        - <b>Dado que</b> el visitante alcanza la sección de testimonios, <b>Cuando</b> hace scroll hacia "What ganaderos Say", <b>Entonces</b> el sistema muestra las tarjetas de testimonios con fotos, nombres y países.<br><br>
+        - <b>Dado que</b> el visitante observa las estrellas de calificación, <b>Cuando</b> visualiza cada testimonio, <b>Entonces</b> el sistema presenta 5 estrellas para indicar satisfacción.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US38</b></td>
+      <td>Landing ganaderos: Comparación de Métodos</td>
+      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> visualizar la comparación entre el método tradicional y AniTec, <b>para</b> entender los beneficios de digitalizar.</td>
+      <td>
+        - <b>Dado que</b> el visitante llega a la sección "Traditional vs AniTec", <b>Cuando</b> visualiza las tarjetas comparativas, <b>Entonces</b> el sistema muestra las ventajas del método tradicional vs AniTec (8 beneficios contrastados).<br><br>
+        - <b>Dado que</b> el visitante observa las estadísticas de impacto, <b>Cuando</b> hace scroll hacia las métricas finales, <b>Entonces</b> el sistema presenta: 85% reducción de tiempo, 100% trazabilidad, 30% aumento en productividad.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US39</b></td>
+      <td>Landing ganaderos: Llamado a la Acción Final</td>
+      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> acceder al CTA final de la página, <b>para</b> iniciar mi registro o prueba gratuita.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Start Free Now", <b>Cuando</b> selecciona el botón CTA, <b>Entonces</b> el sistema redirige a la página de precios o formulario de registro.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "View How It Works", <b>Cuando</b> selecciona el botón secundario, <b>Entonces</b> el sistema abre el contenido explicativo o video demostrativo.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US40</b></td>
+      <td>Landing ganaderos: Información de Precios</td>
+      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> acceder a la información de precios desde la página, <b>para</b> evaluar los planes disponibles.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Pricing" desde el menú, <b>Cuando</b> selecciona el enlace, <b>Entonces</b> el sistema navega a la sección de precios en la página principal.<br><br>
+        - <b>Dado que</b> el visitante hace clic en el botón de precios desde el CTA, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema muestra los planes con precios actualizados.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US41</b></td>
+      <td>Landing ganaderos: Navegación entre páginas</td>
+      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> navegar a otras páginas desde la página de ganaderos, <b>para</b> explorar contenido adicional.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Home" desde el menú, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema redirige a la página principal.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "veterinarios" desde el menú, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema navega a la página de veterinarios para explorar el otro segmento.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US42</b></td>
+      <td>Landing veterinarios: Contenido Específico del Segmento</td>
+      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> explorar el contenido diseñado para veterinarios, <b>para</b> evaluar si AniTec se adapta a mi práctica profesional.</td>
+      <td>
+        - <b>Dado que</b> el visitante accede a la página de veterinarios, <b>Cuando</b> la página carga, <b>Entonces</b> el sistema muestra el hero con "Optimize Your Veterinary Practice" y badge "Herramienta Profesional #1".<br><br>
+        - <b>Dado que</b> el visitante hace scroll, <b>Cuando</b> se ubica en la sección, <b>Entonces</b> el sistema despliega las 6 funcionalidades clave (Búsqueda de Pacientes, Registro de Visitas, Recetas Digitales, Seguimiento, Compartir con Ganadero, Reportes Profesionales).
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US43</b></td>
+      <td>Landing veterinarios: Casos de Uso</td>
+      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> leer los casos de uso específicos de la herramienta, <b>para</b> comprender cómo AniTec facilita mi trabajo diario.</td>
+      <td>
+        - <b>Dado que</b> el visitante se ubica en la sección de "Casos de Uso", <b>Cuando</b> hace scroll hacia la sección, <b>Entonces</b> el sistema muestra 4 casos (Visita de Campo, Emergencia Ganadera, Seguimiento de Tratamiento, Coordinación con Colegas).<br><br>
+        - <b>Dado que</b> el visitante visualiza las imágenes de cada caso, <b>Cuando</b> las observa, <b>Entonces</b> el sistema presenta una imagen representativa para cada escenario con overlay descriptivo.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US44</b></td>
+      <td>Landing veterinarios: Testimonios del Segmento</td>
+      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> leer testimonios de otros veterinarios, <b>para</b> evaluar la confiabilidad de la plataforma.</td>
+      <td>
+        - <b>Dado que</b> el visitante se ubica en la sección de testimonios, <b>Cuando</b> hace scroll hacia "What veterinarios Say", <b>Entonces</b> el sistema muestra las tarjetas de testimonios con fotos de veterinarios, nombres, países y calificaciones.<br><br>
+        - <b>Dado que</b> el testimonio incluye la especialidad del veterinario, <b>Cuando</b> lo visualiza, <b>Entonces</b> el sistema presenta información como "Médico Veterinario, Perú" o "Veterinaria Ganadera, México".
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US45</b></td>
+      <td>Landing veterinarios: Llamado a la Acción</td>
+      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> acceder a los CTAs para iniciar mi uso de AniTec, <b>para</b> comenzar a utilizar la plataforma en mi práctica profesional.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Start Free Now", <b>Cuando</b> selecciona el botón CTA principal, <b>Entonces</b> el sistema redirige al formulario de registro o flujo de autenticación.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "View How It Works", <b>Cuando</b> selecciona el botón secundario, <b>Entonces</b> el sistema abre el contenido demostrativo o video explicativo de la plataforma.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US46</b></td>
+      <td>Landing veterinarios: Acceso a Precios</td>
+      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> revisar los planes y precios desde la página de veterinarios, <b>para</b> evaluar la inversión necesaria.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Pricing" desde el menú, <b>Cuando</b> selecciona el enlace, <b>Entonces</b> el sistema navega a la sección de precios en index.html.<br><br>
+        - <b>Dado que</b> el visitante hace clic en el botón de precios desde el CTA final, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema muestra los planes con precios para su comparación.
+      </td>
+      <td>EP07</td>
+    </tr>
+    <tr>
+      <td><b>US47</b></td>
+      <td>Landing veterinarios: Navegación Entre páginas</td>
+      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> navegar a otras páginas desde la página de veterinarios, <b>para</b> explorar el contenido completo del sitio.</td>
+      <td>
+        - <b>Dado que</b> el visitante hace clic en "Home", <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema redirige a la página principal.<br><br>
+        - <b>Dado que</b> el visitante hace clic en "ganaderos" o "About Us", <b>Cuando</b> selecciona cualquier enlace del menú, <b>Entonces</b> el sistema navega a la página correspondiente sin recargar la aplicación completa.
       </td>
       <td>EP07</td>
     </tr>
