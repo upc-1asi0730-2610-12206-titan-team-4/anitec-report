@@ -803,9 +803,17 @@ User Veterinario:
 
 El presente Big Picture Event Storming se ha desarrollado de manera colaborativa utilizando la plataforma Miro, siguiendo la metodología de Philippe Bourgau para explorar el dominio del negocio de forma holística y establecer un entendimiento compartido. A través de un proceso iterativo en este entorno digital, que incluyó la generación de eventos de dominio, el ordenamiento cronológico y el análisis de causas mediante comandos y actores, se ha logrado mapear la complejidad del sector ganadero en una narrativa visual coherente. Este artefacto no solo permite identificar los puntos de fricción y las oportunidades de automatización en la gestión de AniTec, sino que también sienta las bases para el diseño de una arquitectura de software alineada con la realidad operativa de los ganaderos y veterinarios.
 
-![Event-Storming](assets/chapter-2/Event-Storming.png)
 
-Enlace para acceder al [EventStorming](https://miro.com/app/board/uXjVHctvlP0=/?share_link_id=607392522182)
+![Event-Storming](assets/chapter-2/EventStormingPaso1.jpeg)
+
+
+![Event-Storming](assets/chapter-2/EventStormingPaso2.jpeg)
+
+
+![Event-Storming](assets/chapter-2/EventStormingPaso3.jpeg)
+
+
+Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517)
 
 ### 2.5. Ubiquitous Language.
 
@@ -2045,6 +2053,110 @@ El Domain-Driven Design (DDD) tiene como objetivo central establecer un entendim
 Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se detallan a continuación los primeros tres niveles del modelo C4, implementados mediante Structurizr, los cuales brindan una visión clara y estructurada del sistema en desarrollo.
 
 #### 4.6.1. Design Level EventStorming
+
+<div align="center">
+  <p>
+    <b>Step 4: Pivotal Events</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 5: Commands</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso5.jpeg" alt="Step5" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 6: Policys </b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso6.jpeg" alt="Step6" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 7: Read Models </b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso7.jpeg" alt="Step7" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 8: External Systems</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 9: Aggregates</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 10 - bounded context canvas</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso10.1.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 10 - bounded context canvas </b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso10.2.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 10 - bounded context canvas</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso10.3.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Step 10 - bounded context canvas</b>
+  </p>
+  <img src=".\assets\chapter-2\EventStormingPaso10.4.jpeg" alt="Step4" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboracion Propia</i>
+  </p>
+</div>
+
+
+
+
 #### 4.6.2. Software Architecture Context Diagram.
 
 
