@@ -94,8 +94,8 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ## Student Outcomes
 |Criterio especifico|Acciones realizadas|Conclusiones|
 |-|:-|-|
-|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería| TB1:  Josep Melgarejo  Jorge Ayala   Huaman Bruno  Abigail Raymundo  Luciana Sanchez  ||
-|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.| TB1:  Josep Melgarejo  Jorge Ayala   Huaman Bruno  Abigail Raymundo  Luciana Sanchez ||
+|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería| **TB1:**<br>  Josep Melgarejo: <br>  Jorge Ayala: <br> Bruno Huaman: <br> Abigail Raymundo: <br> Luciana Sanchez: Redacté las épicas, historias de usuario y críterios de aceptación impresindibles y oportunos para el funcionamiento de nuestra aplicación web.  |**TB1:**<br> Durante el desarrollo de AniTec, los avances y resultados del proyecto se comunicaron de forma clara y precisa a usuarios y stakeholders, garantizando que las funcionalidades de la plataforma respondieran adecuadamente a sus expectativas y necesidades.|
+|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.| **TB1:**<br>  Josep Melgarejo: <br>  Jorge Ayala <br>   Huaman Bruno <br> Abigail Raymundo <br>  Luciana Sanchez: Expuse al grupo de trabajo las epicas e historias de usuario oportunas para nuestro trabajo que deberíamos desarrollar. |**TB1:**<br> Como equipo, establecimos canales de comunicación eficaces para entregar el proyecto dentro del plazo establecido. Compartimos los resultados con los Ganaderos y veterinarios, quienes, a través de entrevistas y reuniones, expresaron su satisfacción con la plataforma. Estas interacciones nos permitieron mejorar el diseño y las funcionalidades de AniTec.|
 
 
 ## Contenido
@@ -697,7 +697,7 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 |Edad:62|nro 1|
 |Distrito: Lima/Canta| Santa Rosa de Quives|
 |<img src=".\assets\chapter-2\Entrevista 1.png" width="360"> </td>| En la entrevista realizada a Vicente Huamán Alacute, ganadero con más de 30 años de experiencia que gestiona un hato de 25 cabezas de vacuno, se validó la necesidad crítica de digitalizar la gestión pecuaria a través de una herramienta como AniTec. Actualmente, el entrevistado depende de un cuadernillo físico y registros aislados en Excel, enfrentando problemas de desorden, pérdida de información y la "fragilidad de la memoria" ante tareas complejas como el control de enfermedades, alimentación y reproducción. Don Vicente enfatizó que la tecnología es el camino para profesionalizar el sector, señalando que un registro digital no solo optimiza la operatividad interna mediante alertas y trazabilidad, sino que otorga confianza al comprador al momento de la venta. Finalmente, hizo un llamado a que la aplicación sea extremadamente sencilla y accesible para el hombre de campo, confirmando que, si la herramienta es intuitiva, existe una disposición total para adoptar la plataforma y abandonar los métodos manuales en favor de una ganadería más inteligente y eficiente.|
-|Timing: 7:43|URL: https://drive.google.com/file/d/13oRRly8TR7Kus-jWqxyd3qEBK7DW4CRg/view?usp=sharing 
+|Timing: 00:07:43|URL: https://drive.google.com/file/d/13oRRly8TR7Kus-jWqxyd3qEBK7DW4CRg/view?usp=sharing 
 
 |Entrevistado 2|nombre|
 |-|-|
@@ -718,17 +718,17 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 |Entrevistado 4|nombre|
 |-|-|
-|Edad|nro|
-|Distrito|nombre dist|
-|<img width="1292" alt="Entrevista4" src= >|descripcion|
-|Timing:  |URL: 
+|Edad|24 años|
+|Distrito|Camaná, Arequipa|
+|<img width="360" alt="Entrevista4" src="assets/chapter-2/entrevistaVet1.png">|La entrevista a Angela Mendoza, veterinaria de 24 años con 2 años de experiencia en la sierra sur del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo mayormente manual y fragmentado, utilizando cuadernos físicos, Excel básico y herramientas informales como WhatsApp. Esta situación genera problemas frecuentes como pérdida de datos, falta de trazabilidad y dependencia del ganadero para acceder al historial del animal, lo que incluso ha afectado la efectividad de algunos tratamientos. A pesar de ello, muestra una alta disposición a adoptar soluciones digitales, siempre que sean simples, rápidas y accesibles.|
+|Timing: 00:06:55 |URL: 
 
 |Entrevistado 5|nombre|
 |-|-|
 |Edad|nro|
 |Distrito|nombre dist|
-|<img width="1292" alt="Entrevista5" src= >|descripcion|
-|Timing:  |URL: 
+|<img width="360" alt="Entrevista5" src= >|descripcion|
+|Timing:  |URL: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQBlOk72Iv8fRaC_thWrWuQbARpG660UkHBrJyKW1aMQzSM?e=SEnYQf 
 
 #### 2.2.3. Análisis de entrevistas.
 
