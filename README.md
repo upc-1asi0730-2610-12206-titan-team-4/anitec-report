@@ -1485,6 +1485,12 @@ Pantalla para registrarse en la aplicación
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
+Pantalla para escoger el plan
+
+<img src="./assets\chapter-4\wireframesAppWeb/Wireframe - 2.1.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
 
 Pantalla de inicio dentro de la aplicación
 
@@ -1612,7 +1618,7 @@ Dashboard donde se presentan los reportes generados
 #### 4.4.2. Web Applications Wireflow Diagrams.
 En esta sección se presentan los Wireflows para cada objetivo del usuario. Para ello se consideró los User Persona correspondientes. Cada diagrama muestra el flujo de interacción. Enlace para acceder a los wireflows en Figma: [Web Application Wireflows](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1)
 
-- **Registro e Inicio del Ganadero:** El presente wireflow corresponde al flujo de interacción del usuario ganadero desde el registro o inicio de sesión hasta el acceso a la aplicación.
+- **Registro e Inicio del Ganadero:** El presente wireflow corresponde al flujo de interacción del usuario ganadero desde el registro, y selección del plan de la cuenta, o inicio de sesión hasta el acceso a la aplicación.
 
 <div align="center">
 <img src="./assets\chapter-4\wireframesAppWeb/Wireflow1.png" width="800">
@@ -1677,9 +1683,13 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 #### 4.4.3. Web Applications Mock-ups.
 En esta sección se exponen y analizan los mockups de la aplicación web AgroDigital, diseñada para el sector ganadero. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario y la gestión eficiente del ganado. Asimismo, se incluye el enlace para acceder al contenido. [Enlace al figma](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1)
 
+
+
+<div align="center"> 
+
 Pantalla de login en la aplicación
 
-<div align="center"> <img src="./assets\chapter-4\wireframesAppWeb/Login.png" width="500">
+ <img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 1.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -1687,11 +1697,17 @@ Pantalla de login en la aplicación
 
 Pantalla para registrarse en la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Create an account.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 2.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
+Pantalla para escoger el plan
+
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 3.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
 
 Pantalla de inicio dentro de la aplicación
 
