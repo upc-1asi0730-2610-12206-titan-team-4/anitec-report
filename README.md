@@ -94,8 +94,8 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ## Student Outcomes
 |Criterio especifico|Acciones realizadas|Conclusiones|
 |-|:-|-|
-|Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería| **TB1:**<br>  Josep Melgarejo: <br>  Jorge Ayala: <br> Bruno Huaman: <br> Abigail Raymundo: <br> Luciana Sanchez: Redacté las épicas, historias de usuario y críterios de aceptación impresindibles y oportunos para el funcionamiento de nuestra aplicación web.  |**TB1:**<br> Durante el desarrollo de AniTec, los avances y resultados del proyecto se comunicaron de forma clara y precisa a usuarios y stakeholders, garantizando que las funcionalidades de la plataforma respondieran adecuadamente a sus expectativas y necesidades.|
-|Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.| **TB1:**<br>  Josep Melgarejo: <br>  Jorge Ayala <br>   Huaman Bruno <br> Abigail Raymundo <br>  Luciana Sanchez: Expuse al grupo de trabajo las epicas e historias de usuario oportunas para nuestro trabajo que deberíamos desarrollar. |**TB1:**<br> Como equipo, establecimos canales de comunicación eficaces para entregar el proyecto dentro del plazo establecido. Compartimos los resultados con los Ganaderos y veterinarios, quienes, a través de entrevistas y reuniones, expresaron su satisfacción con la plataforma. Estas interacciones nos permitieron mejorar el diseño y las funcionalidades de AniTec.|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **TB1:**<br>  Josep Melgarejo: <br>  Jorge Ayala: <br> Bruno Huaman: <br> Abigail Raymundo: <br> Luciana Sanchez: Participé en la definición de las épicas, historias de usuario y criterios de aceptación, aportando ideas y coordinando con mis compañeros para tomar decisiones en conjunto y distribuir responsabilidades durante este entregable. |**TB1:**<br> El equipo ejerció un liderazgo conjunto al coordinar responsabilidades y tomar decisiones de manera colaborativa. Esto permitió organizar eficientemente todo el primer entregable y asegurar que el desarrollo de AniTec respondiera a los objetivos planteados y a las necesidades de nuestros usuarios.|
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:**<br>  Josep Melgarejo: <br>  Jorge Ayala <br>   Huaman Bruno <br> Abigail Raymundo <br>  Luciana Sanchez: Propuse y expliqué al equipo las épicas e historias de usuario necesarias para el desarrollo del proyecto, promoviendo la participación de todos los integrantes. |**TB1:**<br> Gracias a la planificación y al trabajo colaborativo, el equipo logró cumplir los objetivos dentro del plazo establecido. Además, la comunicación constante y la retroalimentación de ganaderos y veterinarios permitieron mejorar la aplicación web, evidenciando un entorno orientado a resultados.|
 
 
 ## Contenido
@@ -1957,24 +1957,66 @@ Se presenta el diagrama de la base de datos relacional:
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ### 5.1. Software Configuration Management.
+En esta sección se detallan todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar la Landing Page y Aplicación Web de AniTec. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
 #### 5.1.1. Software Development Environment Configuration.
 
-En este apartado se describe la configuración del entorno de desarrollo de AniTec, establecida para garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo.
-Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida de la ejecución, desde la gestión del proyecto hasta el despliegue y la documentación técnica.
-| Plataforma / Herramienta | Descripción | Enlace|
-|------------------------|-------------|-------|
-|GitHub|Sistema de gestión de versiones construido sobre Git que facilita la colaboración entre desarrolladores, el manejo de ramas, el seguimiento de cambios y la automatización de procesos de integración y despliegue continuo (CI/CD).|https://github.com |
-|Git|Sistema de control de versiones diseñado para registrar y administrar las distintas iteraciones del código fuente. Será implementado para conservar un registro detallado de todas las modificaciones realizadas al proyecto, facilitando así la identificación y solución de incidencias. Los desarrolladores interactuarán con esta herramienta mediante terminal o línea de comandos en sus equipos locales.|https://git-scm.com/|
-|Canva | Aplicación complementaria para el diseño visual de materiales gráficos, como banners, íconos e imágenes promocionales de la marca AniTec | https://www.canva.com |
-|Trello| Herramienta para gestionar flujos de trabajo en proyectos ágiles. Se usará para monitorear y actualizar el estado de tareas e historias de usuario durante el sprint. | https://trello.com |
-|Figma| Plataforma de diseño de prototipos e interfaces digitales. Se empleará para crear los diseños de la aplicación en su versión web. | https://www.figma.com |
-|Lucidchart| Aplicación para crear diagramas. Se utilizará para diseñar flujos de usuario, wireflows y el diagrama de clases del sistema. | https://lucidchart.com |
-| Miro | Plataforma de colaboración visual en línea utilizada como pizarra infinita para dinámicas grupales. Herramienta principal para ejecutar el Big Picture Event Storming, permitiendo mapear los eventos de dominio, identificar contextos delimitados (Bounded Contexts) y definir el flujo de trabajo de Gantracer de forma colaborativa. | https://miro.com/ |
-|Vertabelo| Plataforma especializada para el modelado y documentación de bases de datos relacionales, utilizada para diseñar la estructura de datos del sistema de gestión de tableros, columnas y tareas. | https://vertabelo.com |
-|Structurizr| Herramienta usada para representar la arquitectura C4 de AniTec (Contexto, Contenedor, Componente, Código), mostrando la relación entre los módulos principales | https://structurizr.com |
-|UXPressia| Empleada para diseñar User Personas y Customer Journey Maps, permitiendo comprender mejor las necesidades, frustraciones y objetivos de los usuarios al gestionar tareas dentro de la aplicación. | https://uxpressia.com |
-|Gherkin| Lenguaje para especificar criterios de aceptación en formato Given-When-Then. Ayudará a definir los requerimientos de las user stories. | https://cucumber.io/docs/gherkin/ |
-| Visual Studio Code | IDE seleccionado para desarrollo por su versatilidad, soporte multiplataforma y amplia gama de extensiones útiles para el proyecto. | https://code.visualstudio.com/ |
+En este apartado se describe la configuración del entorno de desarrollo de AniTec, establecida para garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo. Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida de la ejecución, desde la gestión del proyecto hasta el despliegue y la documentación técnica.
+
+**Project Management**
+
+Esta categoría agrupa las herramientas a utilizar para la planificación, organización y seguimiento del trabajo del equipo durante el desarrollo del proyecto.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+|------------------------|--------------------------|--------|
+| Trello | Gestión del backlog del proyecto AniTec, planificación de sprints y seguimiento del progreso de tareas e historias de usuario. | https://trello.com |
+
+**Requirements Management**
+
+Incluye herramientas orientadas a la identificación, análisis y definición de los requerimientos funcionales y no funcionales del sistema.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+|------------------------|--------------------------|--------|
+| Gherkin | Definición estructurada de criterios de aceptación de las user stories mediante el formato Given-When-Then. | https://cucumber.io/docs/gherkin/ |
+| Miro | Ejecución de dinámicas como Event Storming para identificar procesos, eventos y flujos del sistema AniTec. | https://miro.com/ |
+
+**Product UX/UI Design**
+
+Comprende las herramientas a utilizar para el diseño de la experiencia de usuario, interfaces y validación visual del producto digital.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+|------------------------|--------------------------|--------|
+| Figma | Diseño de wireframes, mockups y prototipos de la landing page y la aplicación web de AniTec. | https://www.figma.com |
+| Canva | Creación de recursos visuales como banners, íconos e imágenes para la identidad visual del producto. | https://www.canva.com |
+| UXPressia | Elaboración de User Personas y Customer Journey Maps para comprender el comportamiento y necesidades del usuario. | https://uxpressia.com |
+
+**Software Development**
+
+Incluye herramientas que serán destinadas a la implementación técnica del sistema, desarrollo del código y control de versiones.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+|------------------------|--------------------------|--------|
+| GitHub | Gestión del repositorio del proyecto AniTec, control de versiones, manejo de ramas y colaboración entre desarrolladores. | https://github.com |
+| Visual Studio Code | Entorno de desarrollo utilizado para la redacción y gestión del informe mediante archivos en formato Markdown (.md), facilitando la organización, edición estructurada y control de versiones del contenido. | https://code.visualstudio.com/ |
+| WebStorm | Entorno especializado para el desarrollo del frontend de la aplicación web AniTec, aprovechando su soporte avanzado para JavaScript y frameworks modernos. | https://www.jetbrains.com/webstorm/ |
+| Rider | Entorno especializado para el desarrollo del backend del sistema (en caso de utilizar .NET), permitiendo implementar la lógica de negocio y servicios. | https://www.jetbrains.com/rider/ |
+
+**Software Deployment**
+
+Se incluyen las herramientas a utilizar para la publicación y disponibilidad del sistema en entornos accesibles para los usuarios.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+|------------------------|--------------------------|--------|
+| GitHub Pages | Despliegue de la landing page de AniTec mediante hosting estático accesible a través de una URL pública. | https://pages.github.com |
+
+**Software Documentation**
+
+Agrupa herramientas a emplear para documentar la arquitectura, procesos, modelos y estructura del sistema.
+
+| Plataforma / Herramienta | Propósito en el proyecto | Enlace |
+|------------------------|--------------------------|--------|
+| Lucidchart | Elaboración de diagramas de flujo, wireflows y diagramas de clases del sistema. | https://lucidchart.com |
+| Structurizr | Modelado de la arquitectura del sistema mediante el enfoque C4 (contexto, contenedores y componentes). | https://structurizr.com |
+| Vertabelo | Diseño y documentación del modelo de base de datos relacional del sistema AniTec. | https://vertabelo.com |
 
 #### 5.1.2. Source Code Management.
 
@@ -1985,9 +2027,11 @@ Para ello, se configuraron repositorios remotos donde se almacena el código fue
 Se utiliza GitHub como sistema centralizado para el versionado y la gestión colaborativa.
 Los repositorios oficiales del proyecto AniTec son los siguientes:
 
-- Landing Page: https://github.com/upc-1asi0730-12206-anitec-team-4/landing-page 
-- Aplicación Web (frontend de AniTec): https://github.com/upc-1asi0730-12206-anitec-team-4/frontend
-- Backend / Servicios Web (API del sistema): https://github.com/upc-1asi0730-12206-anitec-team-4/backend
+- Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page 
+- Aplicación Web (frontend de AniTec): 
+- Backend / Servicios Web (API del sistema): 
+
+
 
 Cada repositorio cuenta con flujos de trabajo independientes, integraciones de despliegue automático (por ejemplo, en Render u otra plataforma) y procesos de integración y despliegue continuo (CI/CD) configurados mediante GitHub Actions.
 
