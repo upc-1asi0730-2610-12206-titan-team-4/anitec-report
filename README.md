@@ -1464,7 +1464,7 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
 
 ### 3.2. Impact Mapping.
 
-<img width="1240" height="1328" alt="Impact map" src="https://github.com/user-attachments/assets/28ba5ab1-fd9c-4218-bcd4-25f515acae83" />
+<img width="1240" height="1328" alt="Impact map" src="./assets/chapter-3/impactMapping.jpeg" />
 
 
 
