@@ -734,33 +734,15 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 ##### Análisis del segmento de Ganaderos
 
-Resumen entrevistas
+En primer lugar, el 100% de los entrevistados son adultos mayores de 50 años (con edades de 54, 62 y 65 años), lo que representa a una generación que, aunque valora los métodos tradicionales, reconoce la necesidad de modernizarse. Asimismo, el 100% de los ganaderos gestiona su información mediante métodos manuales, como cuadernos, hojas sueltas o un Excel básico, lo que genera problemas de desorden y la recurrente "fragilidad de la memoria" en tareas críticas. Respecto a la experiencia, el 100% cuenta con una trayectoria sólida en el campo, destacando casos con más de 30 años de labor pecuaria.
 
-### Análisis del segmento de Veterinarios
+Un hallazgo clave es que el 100% de este segmento manifiesta una disposición total a adoptar la tecnología, siempre y cuando la plataforma sea intuitiva y sencilla para el hombre de campo. El 66% (Vicente y Rebeca) enfatiza que el uso del celular es su principal medio tecnológico, mientras que el 33% (Porfirio) señala el factor económico (capital) como una barrera potencial. Finalmente, el 100% coincide en que la digitalización no solo evitaría la pérdida de datos sobre salud y reproducción, sino que otorgaría una mayor confianza y trazabilidad frente a compradores y procesos de formalización.
 
-### Análisis de Entrevistas: Segmento Veterinario
+##### Análisis del segmento de Veterinarios
 
-#### Contexto y Diagnóstico Operativo
-Las entrevistas realizadas a los médicos veterinarios en las regiones de la Sierra Sur y Selva Central revelan que la gestión ganadera actual se sustenta en una infraestructura de datos analógica y vulnerable. La práctica profesional se ve limitada por la fragmentación de la información, donde el conocimiento del historial del animal reside únicamente en la memoria del ganadero o en registros físicos propensos al deterioro.
+En primer lugar, el 100% de los entrevistados pertenece a una generación joven de profesionales, con edades de 24 y 27 años, lo que facilita su apertura hacia soluciones digitales. A su vez, el 100% cuenta con experiencia directa en zonas rurales y descentralizadas (Sierra Sur y Selva Central), donde la gestión de la información es mayoritariamente manual o fragmentada mediante WhatsApp. El 100% de los veterinarios señala que la dependencia de registros analógicos del ganadero provoca pérdida de trazabilidad, afectando directamente la efectividad de los tratamientos médicos al no contar con historiales clínicos previos.
 
-#### Identificación de Puntos Críticos (Pain Points)
-
-#### Brecha de Trazabilidad y Seguridad
-* **Vulnerabilidad de Registros:** El uso de cuadernos y notas físicas implica un alto riesgo de pérdida de datos por factores climáticos o extravío, eliminando cualquier posibilidad de auditoría sanitaria a largo plazo.
-* **Dependencia Informativa:** El veterinario carece de autonomía para consultar antecedentes, dependiendo totalmente de la disposición del ganadero para acceder a la información del hato.
-
-#### Impacto en la Práctica Clínica
-* **Ineficiencia en Tratamientos:** Se ha reportado que la falta de un historial clínico centralizado impacta negativamente en la efectividad de las intervenciones médicas y diagnósticas.
-* **Caos en la Planificación:** La ausencia de calendarios digitales impide una programación rigurosa de vacunaciones y desparasitaciones, fundamentales para la bioseguridad regional.
-
-#### Requerimientos Funcionales Prioritarios
-Para que la solución sea adoptada, los profesionales destacan pilares tecnológicos esenciales:
-* **Acceso Inmediato (Cloud Computing):** Capacidad de consultar el historial clínico completo desde cualquier lugar para agilizar diagnósticos en campo.
-* **Gestión de Alertas y Eventos:** Un sistema de notificaciones en tiempo real para el seguimiento de visitas médicas y calendarios sanitarios.
-* **Interfaz de Alta Eficiencia:** El software debe ser intuitivo y minimizar la carga administrativa, permitiendo registros rápidos durante la labor técnica.
-
-#### Conclusión y Oportunidad de Mercado
-Existe un entorno favorable para la transformación digital debido a la frustración con las herramientas actuales, como Excel y WhatsApp, y la alta disposición de los veterinarios jóvenes por adoptar estándares profesionales. AniTec tiene la oportunidad de actuar como el integrador de valor que conecte la labor del veterinario con la rentabilidad del ganadero mediante la transparencia y centralización de datos.
+Asimismo, el 100% de este segmento traslada sus notas físicas a herramientas básicas como Excel para intentar organizar la información, pero coinciden en que no es suficiente para una gestión profesional. Un punto crítico resaltado por ambos profesionales es la necesidad de un calendario sanitario y recordatorios automáticos, lo que optimizaría su labor técnica y la bioseguridad en las regiones donde operan. Finalmente, el 100% muestra una disposición inmediata para utilizar una plataforma centralizada que permita una comunicación rápida y segura con el productor, elevando el estándar de la práctica veterinaria en el sector rural.
 
 ### 2.3. Needfinding.
 
