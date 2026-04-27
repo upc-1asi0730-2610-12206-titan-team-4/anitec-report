@@ -723,12 +723,12 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 |<img width="360" alt="Entrevista4" src="assets/chapter-2/entrevistaVet1.png">|La entrevista a Angela Mendoza, veterinaria de 24 años con 2 años de experiencia en la sierra sur del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo mayormente manual y fragmentado, utilizando cuadernos físicos, Excel básico y herramientas informales como WhatsApp. Esta situación genera problemas frecuentes como pérdida de datos, falta de trazabilidad y dependencia del ganadero para acceder al historial del animal, lo que incluso ha afectado la efectividad de algunos tratamientos. A pesar de ello, muestra una alta disposición a adoptar soluciones digitales, siempre que sean simples, rápidas y accesibles.|
 |Timing: 00:06:55 |URL: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQBlOk72Iv8fRaC_thWrWuQbARpG660UkHBrJyKW1aMQzSM?e=SEnYQf
 
-|Entrevistado 5|Aldahir Arturo Santos Medina|
+|Entrevistado 5|Aldahir Santos|
 |-|-|
 |Edad|27|
 |Distrito|Ventanilla, Lima|
 |<img width="360" alt="Entrevista4" src="assets/chapter-2/entrevistaVet2.png">|La entrevista a Aldahir Arturo Santos Medina, veterinario de 27 años con 6 años de experiencia en la selva central del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo predominantemente manual, basado en notas y cuadernos físicos. Esta dependencia de registros analógicos genera problemas críticos como el desorden, la pérdida de datos y la falta de trazabilidad, especialmente cuando se integran nuevos animales sin historial clínico previo, lo cual afecta directamente la planificación y efectividad de tratamientos y vacunaciones.|
-|Timing: 00:08:09  |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAQdEL0e0xyqU9_BqPYyP9T8?e=4OVck6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D   
+|Timing: 00:08:09  |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KdBhPi
 
 #### 2.2.3. Análisis de entrevistas.
 
