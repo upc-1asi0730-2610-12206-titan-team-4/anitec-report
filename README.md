@@ -83,12 +83,18 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 
 **TB1**
 
-![Commit_Graph]()
-![Commit_Graph_Individual1]()
-![Commit_Graph_Individual2]()
-![Commit_Graph_Individual3]()
+![Commit_Graph](assets/chapter-1/CommitOvertime.png)
+![Commit_Graph_Individual1](assets/chapter-1/Comit1.png)
 
-![Pull_Graphs]()
+![Commit_Graph_Individual1](assets/chapter-1/Comit2.png)
+
+![Commit_Graph_Individual1](assets/chapter-1/Comit3.png)
+
+![Commit_Graph_Individual1](assets/chapter-1/Comit4.png)
+
+![Commit_Graph_Individual1](assets/chapter-1/Comit5.png)
+
+![Pull_Graphs](assets/chapter-1/GraficosCap1.jpeg)
 
 
 ## Student Outcomes
@@ -3256,82 +3262,20 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
 
 **Commits Realizados:**
 
-<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-    <tbody>
-        <tr>
-            <td>Repository</td>
-            <td>Branch</td>
-            <td>Commit Id</td>
-            <td>Commit message</td>
-            <td>Commit body</td>
-            <td>Commit on (Date)</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>f3a2b1c</td>
-            <td>feat: create initial landing page structure</td>
-            <td>Create base HTML structure with DOCTYPE, meta tags, and linked CSS/JS files</td>
-            <td>2026-04-17</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>7d8e9f0</td>
-            <td>feat: implement hero section</td>
-            <td>Add hero section with headline, metrics, and CTA buttons</td>
-            <td>2026-04-18</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>2b4c6d8</td>
-            <td>feat: add index page segments section</td>
-            <td>Create segments section showcasing ranchers and veterinarians</td>
-            <td>2026-04-19</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>a192b37</td>
-            <td>feat: implement about us page</td>
-            <td>Add about us page with team info and process timeline</td>
-            <td>2026-04-20</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>e5f6a71</td>
-            <td>feat: implement ranchers page</td>
-            <td>Add ranchers page with modules, testimonials, and comparison</td>
-            <td>2026-04-21</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>c8d9e02</td>
-            <td>feat: implement veterinarians page</td>
-            <td>Add veterinarians page with features, use cases, and testimonials</td>
-            <td>2026-04-22</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>4b5a6f9</td>
-            <td>style: add responsive styles</td>
-            <td>Apply responsive design for mobile devices</td>
-            <td>2026-04-23</td>
-        </tr>
-        <tr>
-            <td>anitec-landing-page</td>
-            <td>main</td>
-            <td>9e2f1a8</td>
-            <td>chore: add SEO meta tags</td>
-            <td>Add SEO optimization and social media meta tags</td>
-            <td>2026-04-24</td>
-        </tr>
-    </tbody>
-</table>
+<div align="center">
+  <p>
+    <b>Coomits</b>
+  </p>
+  <img src=".\assets\chapter-5\cap5Commits.jpeg" alt="Step5" width="600">
+</div>
+
+
+<div align="center">
+  <p>
+    <b>Coomits</b>
+  </p>
+  <img src=".\assets\chapter-5\cap5Commits2.jpeg" alt="Step5" width="600">
+</div>
 
 El equipo realizó un total de 8 commits en el repositorio de Landing Page durante el Sprint 1. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios. Los commits fueron realizados de forma regular, evitando commits muy grandes que dificulten la revisión de código y el rollback en caso de problemas.
 
@@ -3399,58 +3343,13 @@ El equipo adoptó un enfoque de trabajo colaborativo, donde los miembros se reun
 
 **Métricas de Colaboración:**
 
-<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-    <tbody>
-        <tr>
-            <td><b>Miembro</b></td>
-            <td><b>Repositorio</b></td>
-            <td><b>Commits</b></td>
-            <td><b>Líneas additions</b></td>
-            <td><b>Líneas eliminadas</b></td>
-            <td><b>PRs merged</b></td>
-        </tr>
-        <tr>
-            <td>Ayala Fernandez, Jorge Brayan</td>
-            <td>anitec-landing-page</td>
-            <td>3</td>
-            <td>+450</td>
-            <td>-40</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Huaman Gallardo, Bruno Aldair</td>
-            <td>anitec-landing-page</td>
-            <td>2</td>
-            <td>+380</td>
-            <td>-25</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Melgarejo Quiroz, Josep Eliu</td>
-            <td>anitec-landing-page</td>
-            <td>2</td>
-            <td>+320</td>
-            <td>-15</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Raymundo Villarroel, Nadhim Abigail</td>
-            <td>anitec-landing-page</td>
-            <td>2</td>
-            <td>+280</td>
-            <td>-20</td>
-            <td>2</td>
-        </tr>
-        <tr>
-            <td>Sanchez Silva, Luciana Celeste</td>
-            <td>anitec-landing-page</td>
-            <td>2</td>
-            <td>+290</td>
-            <td>-18</td>
-            <td>2</td>
-        </tr>
-    </tbody>
-</table>
+<div align="center">
+  <p>
+    <b>Coomits graficas</b>
+  </p>
+  <img src=".\assets\chapter-5\GraficasComits.jpeg" alt="Step5" width="600">
+</div>
+
 
 **Reflexiones del Equipo:**
 
