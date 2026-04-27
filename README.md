@@ -2595,7 +2595,7 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   <p>
     <b>Diagrama de Contexto C4 - AniTec</b>
   </p>
-  <img src="./assets/chapter-4/Diagrama-Contexto-AniTec.png" alt="Diagrama de Contexto C4 - AniTec" width="600">
+  <img src="./assets/chapter-4/DiagramaContextoAnitec.png" alt="Diagrama de Contexto C4 - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
