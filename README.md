@@ -2922,7 +2922,7 @@ La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publica
 4. GitHub genera automáticamente una URL pública para acceder al sitio.
 
 **Resultado:**
-La Landing Page queda disponible en una URL accesible desde cualquier navegador. Link: 
+La Landing Page queda disponible en una URL accesible desde cualquier navegador. Link: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 <div align="center">
 <img src="./assets/chapter-5/landing-page-evidence.png" width="800">
