@@ -94,8 +94,13 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ## Student Outcomes
 |Criterio especifico|Acciones realizadas|Conclusiones|
 |-|:-|-|
+<<<<<<< HEAD
 |Trabaja en equipo para proporcionar liderazgo en forma conjunta| **TB1:**<br>  **Josep Melgarejo**: <br>  **Jorge Ayala**: Participé de manera activa en la creación de la Landing Page del producto (AniTec) y generé historias de usuario de la Landing conforme a lo avanzado. De igual manera, colaboré en la consecución de la redacción del Sprint 1, el cual se trató del mismo tema. De tal manera colaboramos activamente todos en el proyecto. <br> **Bruno Huaman**: <br> **Abigail Raymundo**: <br> **Luciana Sanchez**: Participé en la definición de las épicas, historias de usuario y criterios de aceptación, aportando ideas y coordinando con mis compañeros para tomar decisiones en conjunto y distribuir responsabilidades durante este entregable. |**TB1:**<br> El equipo ejerció un liderazgo conjunto al coordinar responsabilidades y tomar decisiones de manera colaborativa. Esto permitió organizar eficientemente todo el primer entregable y asegurar que el desarrollo de AniTec respondiera a los objetivos planteados y a las necesidades de nuestros usuarios.|
 |Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:**<br>  **Josep Melgarejo**: <br>  **Jorge Ayala**: Expliqué y anucié a mi grupo de trabajo los avances que realicé a lo largo de los avances y commits que hice respecto a la Landing, terminando con la versión final de esta y planificando nuevos cambios para mejorarla aún más para una siguiente versión de lanzamiento. <br> **Bruno Huaman**: <br> **Abigail Raymundo**: <br>  **Luciana Sanchez**: Propuse y expliqué al equipo las épicas e historias de usuario necesarias para el desarrollo del proyecto, promoviendo la participación de todos los integrantes. |**TB1:**<br> Gracias a la planificación y al trabajo colaborativo, el equipo logró cumplir los objetivos dentro del plazo establecido. Además, la comunicación constante y la retroalimentación de ganaderos y veterinarios permitieron mejorar la aplicación web, evidenciando un entorno orientado a resultados.|
+=======
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **TB1:**<br>  Josep Melgarejo: Participe en el desarrollo de el event storming, Los diagramas C4, El diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros para decisiones importantes en dichas actividades, logrando un trabajo satisfactorio <br>  Jorge Ayala: <br> Bruno Huaman: <br> Abigail Raymundo: <br> Luciana Sanchez: Participé en la definición de las épicas, historias de usuario y criterios de aceptación, aportando ideas y coordinando con mis compañeros para tomar decisiones en conjunto y distribuir responsabilidades durante este entregable. |**TB1:**<br> El equipo ejerció un liderazgo conjunto al coordinar responsabilidades y tomar decisiones de manera colaborativa. Esto permitió organizar eficientemente todo el primer entregable y asegurar que el desarrollo de AniTec respondiera a los objetivos planteados y a las necesidades de nuestros usuarios.|
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:**<br>  Josep Melgarejo: Propuse y explique al equipo la estructura del event storming y los diferentes diagramas que se me fue encargado, gracias a ello logre aclarar ideas y proponer mejoras en el trabajo logrando un mejor desempeño en el equipo. <br>  Jorge Ayala <br>   Huaman Bruno <br> Abigail Raymundo <br>  Luciana Sanchez: Propuse y expliqué al equipo las épicas e historias de usuario necesarias para el desarrollo del proyecto, promoviendo la participación de todos los integrantes. |**TB1:**<br> Gracias a la planificación y al trabajo colaborativo, el equipo logró cumplir los objetivos dentro del plazo establecido. Además, la comunicación constante y la retroalimentación de ganaderos y veterinarios permitieron mejorar la aplicación web, evidenciando un entorno orientado a resultados.|
+>>>>>>> 3782c1b57da3a946e5a3ef5b9fb8d0b91f7a298b
 
 
 ## Contenido
@@ -736,9 +741,31 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 Resumen entrevistas
 
-##### Análisis del segmento de Veterinarios
+### Análisis del segmento de Veterinarios
 
-Resumen entrevistas
+### Análisis de Entrevistas: Segmento Veterinario
+
+#### Contexto y Diagnóstico Operativo
+Las entrevistas realizadas a los médicos veterinarios en las regiones de la Sierra Sur y Selva Central revelan que la gestión ganadera actual se sustenta en una infraestructura de datos analógica y vulnerable. La práctica profesional se ve limitada por la fragmentación de la información, donde el conocimiento del historial del animal reside únicamente en la memoria del ganadero o en registros físicos propensos al deterioro.
+
+#### Identificación de Puntos Críticos (Pain Points)
+
+#### Brecha de Trazabilidad y Seguridad
+* **Vulnerabilidad de Registros:** El uso de cuadernos y notas físicas implica un alto riesgo de pérdida de datos por factores climáticos o extravío, eliminando cualquier posibilidad de auditoría sanitaria a largo plazo.
+* **Dependencia Informativa:** El veterinario carece de autonomía para consultar antecedentes, dependiendo totalmente de la disposición del ganadero para acceder a la información del hato.
+
+#### Impacto en la Práctica Clínica
+* **Ineficiencia en Tratamientos:** Se ha reportado que la falta de un historial clínico centralizado impacta negativamente en la efectividad de las intervenciones médicas y diagnósticas.
+* **Caos en la Planificación:** La ausencia de calendarios digitales impide una programación rigurosa de vacunaciones y desparasitaciones, fundamentales para la bioseguridad regional.
+
+#### Requerimientos Funcionales Prioritarios
+Para que la solución sea adoptada, los profesionales destacan pilares tecnológicos esenciales:
+* **Acceso Inmediato (Cloud Computing):** Capacidad de consultar el historial clínico completo desde cualquier lugar para agilizar diagnósticos en campo.
+* **Gestión de Alertas y Eventos:** Un sistema de notificaciones en tiempo real para el seguimiento de visitas médicas y calendarios sanitarios.
+* **Interfaz de Alta Eficiencia:** El software debe ser intuitivo y minimizar la carga administrativa, permitiendo registros rápidos durante la labor técnica.
+
+#### Conclusión y Oportunidad de Mercado
+Existe un entorno favorable para la transformación digital debido a la frustración con las herramientas actuales, como Excel y WhatsApp, y la alta disposición de los veterinarios jóvenes por adoptar estándares profesionales. AniTec tiene la oportunidad de actuar como el integrador de valor que conecte la labor del veterinario con la rentabilidad del ganadero mediante la transparencia y centralización de datos.
 
 ### 2.3. Needfinding.
 
@@ -2285,7 +2312,7 @@ En esta sección se exponen y analizan los mockups de la aplicación web AgroDig
 
 Pantalla de login en la aplicación
 
- <img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 1.png" width="500">
+ <img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 1.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2293,21 +2320,21 @@ Pantalla de login en la aplicación
 
 Pantalla para registrarse en la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 2.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 2.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para escoger el plan
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 3.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 3.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla de inicio dentro de la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 4.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 4.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2315,7 +2342,7 @@ Pantalla de inicio dentro de la aplicación
 
 Pantalla para consultar mayor detalle sobre un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 5.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 5.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2323,7 +2350,7 @@ Pantalla para consultar mayor detalle sobre un animal
 
 Pantalla para eliminar la información registrada sobre un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 6.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 6.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2331,7 +2358,7 @@ Pantalla para eliminar la información registrada sobre un animal
 
 Pantalla para añadir un nuevo animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 7.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 7.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2339,7 +2366,7 @@ Pantalla para añadir un nuevo animal
 
 Sección de evento locales registrados
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 8.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 8.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2347,14 +2374,14 @@ Sección de evento locales registrados
 
 Pantalla para registrar un nuevo evento
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 9.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 9.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar el historial Clínico de un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 10.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 10.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2362,21 +2389,21 @@ Pantalla para consultar el historial Clínico de un animal en específico
 
 Pantalla para ver las visitas médicas registradas para un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 11.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 11.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para ver el detalle de un informe médico de un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 12.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 12.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para agregar un informe médico a un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 13.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 13.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2384,7 +2411,7 @@ Pantalla para agregar un informe médico a un animal en específico
 
 Pantalla para escoger un informe médico para editar de un animal registrado
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 14.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 14.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2393,7 +2420,7 @@ Pantalla para escoger un informe médico para editar de un animal registrado
 
 Pantalla para editar un informe médico seleccionado registrado para un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 15.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 15.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2401,7 +2428,7 @@ Pantalla para editar un informe médico seleccionado registrado para un animal
 
 Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 16.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 16.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2409,7 +2436,7 @@ Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
 Sección que registra ingresos y egresos de los ganaderos 
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 17.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 17.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2417,7 +2444,7 @@ Sección que registra ingresos y egresos de los ganaderos
 
 Dashboard donde se presentan los reportes generados
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 18.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 18.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2426,10 +2453,29 @@ Dashboard donde se presentan los reportes generados
 </div>
 
 #### 4.4.4. Web Applications User Flow Diagrams.
-!--Luciana--!
+En esta parte se detallan los diagramas de flujo de usuario, donde se describen las rutas posibles dentro de la aplicación y las decisiones que puede tomar el usuario. Estos diagramas garantizan una navegación clara y alineada con los objetivos funcionales.
+
+<div align="center">
+
+<img src="./assets\chapter-4\userFlow1.png" width="800">
+<img src="./assets\chapter-4\userFlow2.png" width="800">
+<img src="./assets\chapter-4\userFlow3.png" width="800">
+<img src="./assets\chapter-4\userFlow4.png" width="800">
+<img src="./assets\chapter-4\userFlow5.png" width="800">
+<img src="./assets\chapter-4\userFlow6.png" width="800">
+</div>
 
 ### 4.5. Web Applications Prototyping.
-!--Luciana--!
+
+<div align="center">
+
+| Evidencia |
+|-|
+|<img src="./assets\chapter-4\prototypingEvidence.png" width="600"> <img src="./assets\chapter-4\prototypingEvidence2.png" width="600">|
+| Enlace |
+| https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw |
+
+</div>
 
 ### 4.6. Domain-Driven Software Architecture.
 
@@ -2564,7 +2610,7 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   <p>
     <b>Diagrama de Contexto C4 - AniTec</b>
   </p>
-  <img src="./assets/chapter-4/Diagrama-Contexto-AniTec.png" alt="Diagrama de Contexto C4 - AniTec" width="600">
+  <img src="./assets/chapter-4/DiagramaContextoAnitec.png" alt="Diagrama de Contexto C4 - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2576,7 +2622,7 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   <p>
     <b>Diagrama de Contenedores C4 - AniTec</b>
   </p>
-  <img src="./assets/chapter-4/Diagrama-Contenedores-Anitec.png" alt="Diagrama de Contenedores C4 - AniTec" width="600">
+  <img src="./assets/chapter-4/DiagramaContenedoresAnitec.png" alt="Diagrama de Contenedores C4 - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2668,6 +2714,7 @@ Enlace para acceder al [diseño del diagrama de clases](https://lucid.app/lucidc
 
 #### 4.7.2. Class Dictionary.
 
+
 Diccionario de clases usado para el desarrollo de AgroDigital
 
 | Clase | Descripción |
@@ -2686,10 +2733,21 @@ Diccionario de clases usado para el desarrollo de AgroDigital
 |**FiltroReporte**|Objeto de transferencia de datos (DTO) encargado de encapsular los parámetros de segmentación requeridos por el motor de analítica. Permite delimitar la extracción de información mediante criterios específicos como la clasificación taxonómica (especie), intervalos cronológicos del ciclo de vida (rango de edad) y la condición clínica de los ejemplares (estado de salud), optimizando la precisión de los resultados obtenidos.|
 
 ### 4.8. Database Design.
+
+
+
 #### 4.8.1. Database Diagram.
 Se presenta el diagrama de la base de datos relacional:
+
+
 <div align="center">
-  <img src="./assets\chapter-4\Diagrama-BDD-Anitec.png" alt="Diagrama de BDD - AniTec" width="600">
+  <p>
+    <b>Diagrama de base de datos de AniTec</b>
+  </p>
+  <img src="./assets\chapter-4\DiagramaBaseDeDatosAnitec.jpeg" alt="BaseDatos" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
 </div>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
