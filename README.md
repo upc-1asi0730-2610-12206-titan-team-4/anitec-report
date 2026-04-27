@@ -2729,6 +2729,12 @@ Diccionario de clases usado para el desarrollo de AgroDigital
 
 ### 4.8. Database Design.
 
+
+
+#### 4.8.1. Database Diagram.
+Se presenta el diagrama de la base de datos relacional:
+
+
 <div align="center">
   <p>
     <b>Diagrama de base de datos de AniTec</b>
@@ -2737,13 +2743,6 @@ Diccionario de clases usado para el desarrollo de AgroDigital
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
-</div>
-
-
-#### 4.8.1. Database Diagram.
-Se presenta el diagrama de la base de datos relacional:
-<div align="center">
-  <img src="./assets\chapter-4\Diagrama-BDD-Anitec.png" alt="Diagrama de BDD - AniTec" width="600">
 </div>
 
 ## Capítulo V: Product Implementation, Validation & Deployment
