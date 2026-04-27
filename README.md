@@ -100,8 +100,8 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ## Student Outcomes
 |Criterio especifico|Acciones realizadas|Conclusiones|
 |-|:-|-|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **TB1:**<br>  Josep Melgarejo: Participe en el desarrollo de el event storming, Los diagramas C4, El diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros para decisiones importantes en dichas actividades, logrando un trabajo satisfactorio <br>  Jorge Ayala: <br> Bruno Huaman: <br> Abigail Raymundo: <br> Luciana Sanchez: Participé en la definición de las épicas, historias de usuario y criterios de aceptación, aportando ideas y coordinando con mis compañeros para tomar decisiones en conjunto y distribuir responsabilidades durante este entregable. |**TB1:**<br> El equipo ejerció un liderazgo conjunto al coordinar responsabilidades y tomar decisiones de manera colaborativa. Esto permitió organizar eficientemente todo el primer entregable y asegurar que el desarrollo de AniTec respondiera a los objetivos planteados y a las necesidades de nuestros usuarios.|
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:**<br>  Josep Melgarejo: Propuse y explique al equipo la estructura del event storming y los diferentes diagramas que se me fue encargado, gracias a ello logre aclarar ideas y proponer mejoras en el trabajo logrando un mejor desempeño en el equipo. <br>  Jorge Ayala <br>   Huaman Bruno <br> Abigail Raymundo <br>  Luciana Sanchez: Propuse y expliqué al equipo las épicas e historias de usuario necesarias para el desarrollo del proyecto, promoviendo la participación de todos los integrantes. |**TB1:**<br> Gracias a la planificación y al trabajo colaborativo, el equipo logró cumplir los objetivos dentro del plazo establecido. Además, la comunicación constante y la retroalimentación de ganaderos y veterinarios permitieron mejorar la aplicación web, evidenciando un entorno orientado a resultados.|
+|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **TB1:**<br>  **Josep Melgarejo**: Participe en el desarrollo de el event storming, Los diagramas C4, El diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros para decisiones importantes en dichas actividades, logrando un trabajo satisfactorio. <br>  **Jorge Ayala**: Participé de manera activa en la creación de la Landing Page del producto (AniTec) y generé historias de usuario de la Landing conforme a lo avanzado. De igual manera, colaboré en la consecución de la redacción del Sprint 1, el cual se trató del mismo tema. De tal manera colaboramos activamente todos en el proyecto. <br> **Bruno Huaman**: Lideré la fase estratégica mediante la elaboración del Impact Mapping, conectando los objetivos de negocio con las necesidades de los ganaderos y veterinarios. Además, coordiné la distribución de responsabilidades para asegurar que cada historia de usuario estuviera alineada con los impactos deseados. <br> **Abigail Raymundo**: <br> **Luciana Sanchez**: Participé en la definición de las épicas, historias de usuario y criterios de aceptación, aportando ideas y coordinando con mis compañeros para tomar decisiones en conjunto y distribuir responsabilidades durante este entregable. |**TB1:**<br> El equipo ejerció un liderazgo conjunto al coordinar responsabilidades y tomar decisiones de manera colaborativa. Esto permitió organizar eficientemente todo el primer entregable y asegurar que el desarrollo de AniTec respondiera a los objetivos planteados y a las necesidades de nuestros usuarios.|
+|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.| **TB1:**<br>  **Josep Melgarejo**: Propuse y explique al equipo la estructura del event storming y los diferentes diagramas que se me fue encargado, gracias a ello logre aclarar ideas y proponer mejoras en el trabajo logrando un mejor desempeño en el equipo. <br>  **Jorge Ayala**: Expliqué y anuncié a mi grupo de trabajo los avances que realicé a lo largo de los avances y commits que hice respecto a la Landing, terminando con la versión final de esta y planificando nuevos cambios para mejorarla aún más para una siguiente versión de lanzamiento. <br> **Bruno Huaman**: Fomenté la lluvia de ideas para definir las 47 historias de usuario del backlog, asegurando que se incluyeran funcionalidades críticas como el modo offline y el dashboard de analítica. Planifiqué las metas a corto plazo para cumplir con el cronograma del entregable <br> **Abigail Raymundo**: <br>  **Luciana Sanchez**: Propuse y expliqué al equipo las épicas e historias de usuario necesarias para el desarrollo del proyecto, promoviendo la participación de todos los integrantes. |**TB1:**<br> Gracias a la planificación y al trabajo colaborativo, el equipo logró cumplir los objetivos dentro del plazo establecido. Además, la comunicación constante y la retroalimentación de ganaderos y veterinarios permitieron mejorar la aplicación web, evidenciando un entorno orientado a resultados.|
 
 
 ## Contenido
@@ -700,24 +700,24 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 |Entrevistado 1|Vicente Alacutte|
 |-|-|
-|Edad:62|nro 1|
+|Edad:|62 años|
 |Distrito: Lima/Canta| Santa Rosa de Quives|
 |<img src=".\assets\chapter-2\Entrevista 1.png" width="360"> </td>| En la entrevista realizada a Vicente Huamán Alacute, ganadero con más de 30 años de experiencia que gestiona un hato de 25 cabezas de vacuno, se validó la necesidad crítica de digitalizar la gestión pecuaria a través de una herramienta como AniTec. Actualmente, el entrevistado depende de un cuadernillo físico y registros aislados en Excel, enfrentando problemas de desorden, pérdida de información y la "fragilidad de la memoria" ante tareas complejas como el control de enfermedades, alimentación y reproducción. Don Vicente enfatizó que la tecnología es el camino para profesionalizar el sector, señalando que un registro digital no solo optimiza la operatividad interna mediante alertas y trazabilidad, sino que otorga confianza al comprador al momento de la venta. Finalmente, hizo un llamado a que la aplicación sea extremadamente sencilla y accesible para el hombre de campo, confirmando que, si la herramienta es intuitiva, existe una disposición total para adoptar la plataforma y abandonar los métodos manuales en favor de una ganadería más inteligente y eficiente.|
 |Timing: 00:07:43|URL: https://drive.google.com/file/d/13oRRly8TR7Kus-jWqxyd3qEBK7DW4CRg/view?usp=sharing 
 
-|Entrevistado 2|nombre|
+|Entrevistado 2|Rebeca Noemi Quiroz Roldan|
 |-|-|
-|Edad: 54 años|2|
-|Distrito: Lima| Rebeca Noemi Quiroz Roldan|
+|Edad:|54 años|
+|Distrito:| Lima|
 |<img src=".\assets\chapter-2\Entrevista2.jpeg" width="360">|En la entrevista la señora Rebeca Noemi menciona que gestiona un ganado vacuno en donde sus mayores problemas que enfrenta son cuando a la vaca le da mastitis y cuando los terneros enferman, tambien menciona que gestiona su ganado a traves de cuadernos y/o apuntes en hojas, Rebeca afirma no tener problemas con su gestion pero que si estaria dispuesta a usar una aplicacion que la ayude a gestionar mejor su ganado dado que la tecnologia que mas usa es su celular, ademas dice que lo que mas valora de una aplicacion asi es la seguridad, tambien Rebeca nos cuenta que la gestion de enfermedades de su ganado se la encarga a un ingeniero especializado, Le mencionamos si le gustaria que la aplicacion le recuerde diferentes tipo de evento como vacunacion o dosis de medicamentos y estuvo de acuerdo, que seria prudencial tener eso en una aplicacion como es AniTec|
 |Timing:  |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-|Entrevistado 3|nombre|
+|Entrevistado 3|Porfirio Salazar Rodriguez|
 |-|-|
-|Edad|nro|
-|Distrito|nombre dist|
-|<img width="1292" alt="Entrevista3" src= >|descripcion|
-|Timing:  |URL: 
+|Edad:|65 años|
+|Distrito:|Comas|
+|<img width="1292" alt="Entrevista3" src="./assets/chapter-1/entrevistaGan3.png" >|En la entrevista, el señor Porfirio Salazar Rodriguez nos comentó acerca de lo que se dedica a hacer en el sector de la ganadería especialmente con su especialidad el cual es la ganadería artesanal. Él, a pesar de no tener experiencia en empresas de mayor calibre, tiene a su mando a dos o tres personas con las cuales manejan cierta cantidad de ganado que tienen; sin embargo, tienen la esperanza de trascender y poder pasar a ser una empresa formal para poder manejar el tipo de ganado que le pueda generar más ingresos. Asimismo, el opina que la tecnología sin duda que le ayudaría a mejorar su productividad pero recalca que necesitaría el capital suficiente para que pueda pagar por el producto|
+|Timing: 13:55 min |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
 
 
 **Entrevista a Veterinarios**
@@ -740,33 +740,15 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 ##### Análisis del segmento de Ganaderos
 
-Resumen entrevistas
+En primer lugar, el 100% de los entrevistados son adultos mayores de 50 años (con edades de 54, 62 y 65 años), lo que representa a una generación que, aunque valora los métodos tradicionales, reconoce la necesidad de modernizarse. Asimismo, el 100% de los ganaderos gestiona su información mediante métodos manuales, como cuadernos, hojas sueltas o un Excel básico, lo que genera problemas de desorden y la recurrente "fragilidad de la memoria" en tareas críticas. Respecto a la experiencia, el 100% cuenta con una trayectoria sólida en el campo, destacando casos con más de 30 años de labor pecuaria.
 
-### Análisis del segmento de Veterinarios
+Un hallazgo clave es que el 100% de este segmento manifiesta una disposición total a adoptar la tecnología, siempre y cuando la plataforma sea intuitiva y sencilla para el hombre de campo. El 66% (Vicente y Rebeca) enfatiza que el uso del celular es su principal medio tecnológico, mientras que el 33% (Porfirio) señala el factor económico (capital) como una barrera potencial. Finalmente, el 100% coincide en que la digitalización no solo evitaría la pérdida de datos sobre salud y reproducción, sino que otorgaría una mayor confianza y trazabilidad frente a compradores y procesos de formalización.
 
-### Análisis de Entrevistas: Segmento Veterinario
+##### Análisis del segmento de Veterinarios
 
-#### Contexto y Diagnóstico Operativo
-Las entrevistas realizadas a los médicos veterinarios en las regiones de la Sierra Sur y Selva Central revelan que la gestión ganadera actual se sustenta en una infraestructura de datos analógica y vulnerable. La práctica profesional se ve limitada por la fragmentación de la información, donde el conocimiento del historial del animal reside únicamente en la memoria del ganadero o en registros físicos propensos al deterioro.
+En primer lugar, el 100% de los entrevistados pertenece a una generación joven de profesionales, con edades de 24 y 27 años, lo que facilita su apertura hacia soluciones digitales. A su vez, el 100% cuenta con experiencia directa en zonas rurales y descentralizadas (Sierra Sur y Selva Central), donde la gestión de la información es mayoritariamente manual o fragmentada mediante WhatsApp. El 100% de los veterinarios señala que la dependencia de registros analógicos del ganadero provoca pérdida de trazabilidad, afectando directamente la efectividad de los tratamientos médicos al no contar con historiales clínicos previos.
 
-#### Identificación de Puntos Críticos (Pain Points)
-
-#### Brecha de Trazabilidad y Seguridad
-* **Vulnerabilidad de Registros:** El uso de cuadernos y notas físicas implica un alto riesgo de pérdida de datos por factores climáticos o extravío, eliminando cualquier posibilidad de auditoría sanitaria a largo plazo.
-* **Dependencia Informativa:** El veterinario carece de autonomía para consultar antecedentes, dependiendo totalmente de la disposición del ganadero para acceder a la información del hato.
-
-#### Impacto en la Práctica Clínica
-* **Ineficiencia en Tratamientos:** Se ha reportado que la falta de un historial clínico centralizado impacta negativamente en la efectividad de las intervenciones médicas y diagnósticas.
-* **Caos en la Planificación:** La ausencia de calendarios digitales impide una programación rigurosa de vacunaciones y desparasitaciones, fundamentales para la bioseguridad regional.
-
-#### Requerimientos Funcionales Prioritarios
-Para que la solución sea adoptada, los profesionales destacan pilares tecnológicos esenciales:
-* **Acceso Inmediato (Cloud Computing):** Capacidad de consultar el historial clínico completo desde cualquier lugar para agilizar diagnósticos en campo.
-* **Gestión de Alertas y Eventos:** Un sistema de notificaciones en tiempo real para el seguimiento de visitas médicas y calendarios sanitarios.
-* **Interfaz de Alta Eficiencia:** El software debe ser intuitivo y minimizar la carga administrativa, permitiendo registros rápidos durante la labor técnica.
-
-#### Conclusión y Oportunidad de Mercado
-Existe un entorno favorable para la transformación digital debido a la frustración con las herramientas actuales, como Excel y WhatsApp, y la alta disposición de los veterinarios jóvenes por adoptar estándares profesionales. AniTec tiene la oportunidad de actuar como el integrador de valor que conecte la labor del veterinario con la rentabilidad del ganadero mediante la transparencia y centralización de datos.
+Asimismo, el 100% de este segmento traslada sus notas físicas a herramientas básicas como Excel para intentar organizar la información, pero coinciden en que no es suficiente para una gestión profesional. Un punto crítico resaltado por ambos profesionales es la necesidad de un calendario sanitario y recordatorios automáticos, lo que optimizaría su labor técnica y la bioseguridad en las regiones donde operan. Finalmente, el 100% muestra una disposición inmediata para utilizar una plataforma centralizada que permita una comunicación rápida y segura con el productor, elevando el estándar de la práctica veterinaria en el sector rural.
 
 ### 2.3. Needfinding.
 
@@ -2931,7 +2913,7 @@ El despliegue se ha estructurado de forma independiente para cada componente: La
 La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publicación de sitios web estáticos directamente desde el repositorio.
 
 **Repositorio:**
-- https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 **Pasos de despliegue:**
 1. Subir el código fuente (HTML, CSS, JavaScript) al repositorio.
@@ -2943,7 +2925,7 @@ La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publica
 La Landing Page queda disponible en una URL accesible desde cualquier navegador. Link: 
 
 <div align="center">
-<img src="./assets\chapter-5\landingEvidence.png" width="800">
+<img src="./assets/chapter-5/landing-page-evidence.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -3107,7 +3089,7 @@ La distribución de roles fue diseñada para fomentar la colaboración entre los
     </tbody>
 </table>
 
-La organización de líderes y colaboradores tiene relación directa con las fortalezas técnicas de cada miembro del equipo identificadas durante la conformación del equipo. Esta distribución permite que cada成员trabaje en áreas donde puede aportar mayor valor, mientras tiene la oportunidad de aprender de los líderes en otras áreas.
+La organización de líderes y colaboradores tiene relación directa con las fortalezas técnicas de cada miembro del equipo identificadas durante la conformación del equipo. Esta distribución permite que cada uno trabaje en áreas donde puede aportar mayor valor, mientras tiene la oportunidad de aprender de los líderes en otras áreas.
 
 **Distribución detallada de responsabilidades:**
 
@@ -3325,11 +3307,34 @@ Las Landing Pages implementadas incluyen las siguientes secciones principales:
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-(No hay contenido - se mantiene vacío para evidencia de documentación de servicios si aplica en futuros sprints)
+Esta documentación estuvo orientada principalmente en la parte del Landing Page por lo que no se pudo enfocar en ningún motivo al backend en la creación del servicio. En los proximos sprints se tocará aquel tema y se podrá profundizar en ello adecuadamente.
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
-(No hay contenido - se mantiene vacío para evidencia de deployment si aplica en futuros sprints)
+La landing page de AniTec fue desplegada exitosamente en **GitHub Pages**, la plataforma de hosting gratuita proporcionada por GitHub que permite publicar proyectos estáticos directamente desde un repositorio. El despliegue se realizó configurando el branch `main` como fuente de contenido estático en la configuración de GitHub Pages del repositorio `anitec-landing-page`.
+
+**Configuración del Deploy:**
+
+- **Plataforma:** GitHub Pages
+- **Repositorio:** anitex-landing-page
+- **Branch desplegado:** main
+- **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- **Ruta de archivos desplegados:** /index.html, /nosotros.html, /ganaderos.html, /veterinarios.html, /styles.css, /script.js, /assets/
+
+El proceso de deployment se configura desde la sección "Pages" en la configuración del repositorio de GitHub, seleccionando el branch `main` y la carpeta `/ (root)` como fuente. GitHub Pages construye automáticamente el sitio web estático y lo hace accesible públicamente a través de la URL segura HTTPS.
+
+**Verificación Post-Deploy:**
+
+Después del despliegue, se verificó que todas las páginas estuvieran accesibles correctamente:
+- La página principal (index.html) carga sin errores y muestra el pricing y CTA correctamente
+- Las páginas secundarias (nosotros.html, ganaderos.html, veterinarios.html) son navegables desde el menú de navegación
+- Los recursos estáticos (CSS, JavaScript, imágenes) se cargan correctamente
+- El slider de testimonios funciona de manera automática con JavaScript
+- El diseño responsive se adapta a diferentes tamaños de pantalla
+
+El sitio desplegado está disponible públicamente para usuarios externos y puede ser compartido mediante la URL de GitHub Pages para revisiones del Sprint.
+
+
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -3378,6 +3383,11 @@ El equipo identifica las siguientes lecciones de este Sprint 1:
 5. **Las estimaciones iniciales fueron acertadas pero con margen de mejora:** El equipo logró completar todas las tareas dentro del tiempo estimado, aunque algunas tareas requirieron ajuste de prioridades para cumplir con el Sprint Goal.
 
 ## Conclusiones
+
+El diseño del modelo de datos orientado por los principios de Domain-Driven Design (DDD) establece una arquitectura de software robusta, cohesiva y altamente escalable. Al segmentar el dominio en contextos delimitados (Identidad, Inventario Ganadero, Historial Clínico y Finanzas), se logra una separación de responsabilidades que facilita la integridad relacional y la trazabilidad de la información.
+
+La estructuración de Épicas y User Stories garantiza que el desarrollo de la plataforma se mantenga centrado en resolver los problemas reales de los pequeños y medianos ganaderos.
+
 ## Bibliografía
 Bourgau, P. (29 de marzo de 2022). *Step by Step Guide to run your Big Picture Event Storming*. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
 
