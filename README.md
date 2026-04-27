@@ -738,7 +738,29 @@ Resumen entrevistas
 
 ##### Análisis del segmento de Veterinarios
 
-Resumen entrevistas
+# Análisis de Entrevistas: Segmento Veterinario
+
+## Contexto y Diagnóstico Operativo
+Las entrevistas realizadas a los médicos veterinarios en las regiones de la Sierra Sur y Selva Central revelan que la gestión ganadera actual se sustenta en una infraestructura de datos analógica y vulnerable. La práctica profesional se ve limitada por la fragmentación de la información, donde el conocimiento del historial del animal reside únicamente en la memoria del ganadero o en registros físicos propensos al deterioro.
+
+## Identificación de Puntos Críticos (Pain Points)
+
+### Brecha de Trazabilidad y Seguridad
+* **Vulnerabilidad de Registros:** El uso de cuadernos y notas físicas implica un alto riesgo de pérdida de datos por factores climáticos o extravío, eliminando cualquier posibilidad de auditoría sanitaria a largo plazo.
+* **Dependencia Informativa:** El veterinario carece de autonomía para consultar antecedentes, dependiendo totalmente de la disposición del ganadero para acceder a la información del hato.
+
+### Impacto en la Práctica Clínica
+* **Ineficiencia en Tratamientos:** Se ha reportado que la falta de un historial clínico centralizado impacta negativamente en la efectividad de las intervenciones médicas y diagnósticas.
+* **Caos en la Planificación:** La ausencia de calendarios digitales impide una programación rigurosa de vacunaciones y desparasitaciones, fundamentales para la bioseguridad regional.
+
+## Requerimientos Funcionales Prioritarios
+Para que la solución sea adoptada, los profesionales destacan pilares tecnológicos esenciales:
+* **Acceso Inmediato (Cloud Computing):** Capacidad de consultar el historial clínico completo desde cualquier lugar para agilizar diagnósticos en campo.
+* **Gestión de Alertas y Eventos:** Un sistema de notificaciones en tiempo real para el seguimiento de visitas médicas y calendarios sanitarios.
+* **Interfaz de Alta Eficiencia:** El software debe ser intuitivo y minimizar la carga administrativa, permitiendo registros rápidos durante la labor técnica.
+
+## Conclusión y Oportunidad de Mercado
+Existe un entorno favorable para la transformación digital debido a la frustración con las herramientas actuales, como Excel y WhatsApp, y la alta disposición de los veterinarios jóvenes por adoptar estándares profesionales. AniTec tiene la oportunidad de actuar como el integrador de valor que conecte la labor del veterinario con la rentabilidad del ganadero mediante la transparencia y centralización de datos.
 
 ### 2.3. Needfinding.
 
