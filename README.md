@@ -2426,7 +2426,17 @@ Dashboard donde se presentan los reportes generados
 </div>
 
 #### 4.4.4. Web Applications User Flow Diagrams.
-!--Luciana--!
+En esta parte se detallan los diagramas de flujo de usuario, donde se describen las rutas posibles dentro de la aplicación y las decisiones que puede tomar el usuario. Estos diagramas garantizan una navegación clara y alineada con los objetivos funcionales.
+
+<div align="center">
+
+<img src="./assets\chapter-4\userFlow1.png" width="800">
+<img src="./assets\chapter-4\userFlow2.png" width="800">
+<img src="./assets\chapter-4\userFlow3.png" width="800">
+<img src="./assets\chapter-4\userFlow4.png" width="800">
+<img src="./assets\chapter-4\userFlow5.png" width="800">
+<img src="./assets\chapter-4\userFlow6.png" width="800">
+</div>
 
 ### 4.5. Web Applications Prototyping.
 
