@@ -725,9 +725,9 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 |Entrevistado 5|Aldahir Santos|
 |-|-|
-|Edad|27|
+|Edad|27 años|
 |Distrito|Ventanilla, Lima|
-|<img width="360" alt="Entrevista4" src="assets/chapter-2/entrevistaVet2.png">|La entrevista a Aldahir Arturo Santos Medina, veterinario de 27 años con 6 años de experiencia en la selva central del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo predominantemente manual, basado en notas y cuadernos físicos. Esta dependencia de registros analógicos genera problemas críticos como el desorden, la pérdida de datos y la falta de trazabilidad, especialmente cuando se integran nuevos animales sin historial clínico previo, lo cual afecta directamente la planificación y efectividad de tratamientos y vacunaciones.|
+|<img width="360" alt="Entrevista4" src="assets/chapter-2/entrevistaVet2.png">|La entrevista a Aldahir Arturo Santos Medina, veterinario de 27 años con 6 años de experiencia en la selva central del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo predominantemente manual, basado en notas y cuadernos físicos. Esta dependencia de registros analógicos genera problemas críticos como el desorden, la pérdida de datos y la falta de trazabilidad, especialmente cuando se integran nuevos animales sin historial clínico previo, lo cual afecta directamente la planificación y efectividad de tratamientos y vacunaciones. A pesar de su uso actual de herramientas básicas como Excel y WhatsApp, Aldahir muestra una alta disposición a adoptar una solución digital centralizada, siempre que sea intuitiva, segura y rápida. Para él, una plataforma que integre calendarios de intervención y recordatorios no solo optimizaría su labor técnica, sino que facilitaría la comunicación en tiempo real con el ganadero y elevaría el estándar de bioseguridad en la región.|
 |Timing: 00:08:09  |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=KdBhPi
 
 #### 2.2.3. Análisis de entrevistas.
