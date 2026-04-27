@@ -2285,7 +2285,7 @@ En esta sección se exponen y analizan los mockups de la aplicación web AgroDig
 
 Pantalla de login en la aplicación
 
- <img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 1.png" width="500">
+ <img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 1.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2293,21 +2293,21 @@ Pantalla de login en la aplicación
 
 Pantalla para registrarse en la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 2.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 2.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para escoger el plan
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 3.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 3.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla de inicio dentro de la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 4.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 4.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2315,7 +2315,7 @@ Pantalla de inicio dentro de la aplicación
 
 Pantalla para consultar mayor detalle sobre un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 5.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 5.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2323,7 +2323,7 @@ Pantalla para consultar mayor detalle sobre un animal
 
 Pantalla para eliminar la información registrada sobre un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 6.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 6.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2331,7 +2331,7 @@ Pantalla para eliminar la información registrada sobre un animal
 
 Pantalla para añadir un nuevo animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 7.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 7.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2339,7 +2339,7 @@ Pantalla para añadir un nuevo animal
 
 Sección de evento locales registrados
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 8.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 8.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2347,14 +2347,14 @@ Sección de evento locales registrados
 
 Pantalla para registrar un nuevo evento
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 9.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 9.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar el historial Clínico de un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 10.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 10.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2362,21 +2362,21 @@ Pantalla para consultar el historial Clínico de un animal en específico
 
 Pantalla para ver las visitas médicas registradas para un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 11.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 11.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para ver el detalle de un informe médico de un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 12.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 12.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para agregar un informe médico a un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 13.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 13.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2384,7 +2384,7 @@ Pantalla para agregar un informe médico a un animal en específico
 
 Pantalla para escoger un informe médico para editar de un animal registrado
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 14.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 14.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2393,7 +2393,7 @@ Pantalla para escoger un informe médico para editar de un animal registrado
 
 Pantalla para editar un informe médico seleccionado registrado para un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 15.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 15.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2401,7 +2401,7 @@ Pantalla para editar un informe médico seleccionado registrado para un animal
 
 Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 16.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 16.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2409,7 +2409,7 @@ Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
 Sección que registra ingresos y egresos de los ganaderos 
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 17.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 17.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2417,7 +2417,7 @@ Sección que registra ingresos y egresos de los ganaderos
 
 Dashboard donde se presentan los reportes generados
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 18.png" width="500">
+<img src="./assets\chapter-4\mock-upsAppWeb/Mock-ups- 18.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2429,7 +2429,16 @@ Dashboard donde se presentan los reportes generados
 !--Luciana--!
 
 ### 4.5. Web Applications Prototyping.
-!--Luciana--!
+
+<div align="center">
+
+| Evidencia |
+|-|
+|<img src="./assets\chapter-4\prototypingEvidence.png" width="600"> <img src="./assets\chapter-4\prototypingEvidence2.png" width="600">|
+| Enlace |
+| https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw |
+
+</div>
 
 ### 4.6. Domain-Driven Software Architecture.
 
