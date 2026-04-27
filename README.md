@@ -3484,6 +3484,11 @@ El equipo identifica las siguientes lecciones de este Sprint 1:
 5. **Las estimaciones iniciales fueron acertadas pero con margen de mejora:** El equipo logró completar todas las tareas dentro del tiempo estimado, aunque algunas tareas requirieron ajuste de prioridades para cumplir con el Sprint Goal.
 
 ## Conclusiones
+
+El diseño del modelo de datos orientado por los principios de Domain-Driven Design (DDD) establece una arquitectura de software robusta, cohesiva y altamente escalable. Al segmentar el dominio en contextos delimitados (Identidad, Inventario Ganadero, Historial Clínico y Finanzas), se logra una separación de responsabilidades que facilita la integridad relacional y la trazabilidad de la información.
+
+La estructuración de Épicas y User Stories garantiza que el desarrollo de la plataforma se mantenga centrado en resolver los problemas reales de los pequeños y medianos ganaderos.
+
 ## Bibliografía
 Bourgau, P. (29 de marzo de 2022). *Step by Step Guide to run your Big Picture Event Storming*. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
 
