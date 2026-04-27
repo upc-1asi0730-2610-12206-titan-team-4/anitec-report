@@ -721,14 +721,14 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 |Edad|24 años|
 |Distrito|Camaná, Arequipa|
 |<img width="360" alt="Entrevista4" src="assets/chapter-2/entrevistaVet1.png">|La entrevista a Angela Mendoza, veterinaria de 24 años con 2 años de experiencia en la sierra sur del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo mayormente manual y fragmentado, utilizando cuadernos físicos, Excel básico y herramientas informales como WhatsApp. Esta situación genera problemas frecuentes como pérdida de datos, falta de trazabilidad y dependencia del ganadero para acceder al historial del animal, lo que incluso ha afectado la efectividad de algunos tratamientos. A pesar de ello, muestra una alta disposición a adoptar soluciones digitales, siempre que sean simples, rápidas y accesibles.|
-|Timing: 00:06:55 |URL: 
+|Timing: 00:06:55 |URL: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQBlOk72Iv8fRaC_thWrWuQbARpG660UkHBrJyKW1aMQzSM?e=SEnYQf
 
 |Entrevistado 5|nombre|
 |-|-|
 |Edad|nro|
 |Distrito|nombre dist|
 |<img width="360" alt="Entrevista5" src= >|descripcion|
-|Timing:  |URL: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQBlOk72Iv8fRaC_thWrWuQbARpG660UkHBrJyKW1aMQzSM?e=SEnYQf 
+|Timing:  |URL:  
 
 #### 2.2.3. Análisis de entrevistas.
 
@@ -2255,7 +2255,7 @@ Pantalla para escoger el plan
 
 Pantalla de inicio dentro de la aplicación
 
-<img src="./assets\chapter-4\wireframesAppWeb/Welcome.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 4.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2263,7 +2263,7 @@ Pantalla de inicio dentro de la aplicación
 
 Pantalla para consultar mayor detalle sobre un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Animal Details.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 5.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2271,7 +2271,7 @@ Pantalla para consultar mayor detalle sobre un animal
 
 Pantalla para eliminar la información registrada sobre un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/close the number.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 6.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2279,7 +2279,7 @@ Pantalla para eliminar la información registrada sobre un animal
 
 Pantalla para añadir un nuevo animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Municipal.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 7.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2287,7 +2287,7 @@ Pantalla para añadir un nuevo animal
 
 Sección de evento locales registrados
 
-<img src="./assets\chapter-4\wireframesAppWeb/New evento.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 8.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2295,30 +2295,36 @@ Sección de evento locales registrados
 
 Pantalla para registrar un nuevo evento
 
-<img src="./assets\chapter-4\wireframesAppWeb/9 Mock Ups.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 9.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar el historial Clínico de un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/10 Mock.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 10.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
+
+Pantalla para ver las visitas médicas registradas para un animal en específico
+
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 11.png" width="500">
+<p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+</p>
 
 Pantalla para ver el detalle de un informe médico de un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/11 Mock.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 12.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
-
 Pantalla para agregar un informe médico a un animal en específico
 
-<img src="./assets\chapter-4\wireframesAppWeb/12 Mock.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 13.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2326,7 +2332,7 @@ Pantalla para agregar un informe médico a un animal en específico
 
 Pantalla para escoger un informe médico para editar de un animal registrado
 
-<img src="./assets\chapter-4\wireframesAppWeb/13 Mock.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 14.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2335,7 +2341,7 @@ Pantalla para escoger un informe médico para editar de un animal registrado
 
 Pantalla para editar un informe médico seleccionado registrado para un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock14.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 15.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2343,7 +2349,7 @@ Pantalla para editar un informe médico seleccionado registrado para un animal
 
 Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock 15.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 16.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2351,7 +2357,7 @@ Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
 Sección que registra ingresos y egresos de los ganaderos 
 
-<img src="./assets\chapter-4\wireframesAppWeb/16 Mock.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 17.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2359,7 +2365,7 @@ Sección que registra ingresos y egresos de los ganaderos
 
 Dashboard donde se presentan los reportes generados
 
-<img src="./assets\chapter-4\wireframesAppWeb/Mock 17.png" width="500">
+<img src="./assets\chapter-4\wireframesAppWeb/Mock-ups- 18.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
