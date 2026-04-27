@@ -2668,6 +2668,17 @@ Enlace para acceder al [diseño del diagrama de clases](https://lucid.app/lucidc
 
 #### 4.7.2. Class Dictionary.
 
+<div align="center">
+  <p>
+    <b>Diagrama de base de datos de AniTec</b>
+  </p>
+  <img src="./assets\chapter-4\DiagramaBaseDeDatosAnitec.jpeg" alt="BaseDatos" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+
 Diccionario de clases usado para el desarrollo de AgroDigital
 
 | Clase | Descripción |
