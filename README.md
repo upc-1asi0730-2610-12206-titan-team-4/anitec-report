@@ -2709,16 +2709,6 @@ Enlace para acceder al [diseño del diagrama de clases](https://lucid.app/lucidc
 
 #### 4.7.2. Class Dictionary.
 
-<div align="center">
-  <p>
-    <b>Diagrama de base de datos de AniTec</b>
-  </p>
-  <img src="./assets\chapter-4\DiagramaBaseDeDatosAnitec.jpeg" alt="BaseDatos" width="600">
-  <p>
-    <i><b>Fuente</b>: Elaboración propia.</i>
-  </p>
-</div>
-
 
 Diccionario de clases usado para el desarrollo de AgroDigital
 
@@ -2738,6 +2728,18 @@ Diccionario de clases usado para el desarrollo de AgroDigital
 |**FiltroReporte**|Objeto de transferencia de datos (DTO) encargado de encapsular los parámetros de segmentación requeridos por el motor de analítica. Permite delimitar la extracción de información mediante criterios específicos como la clasificación taxonómica (especie), intervalos cronológicos del ciclo de vida (rango de edad) y la condición clínica de los ejemplares (estado de salud), optimizando la precisión de los resultados obtenidos.|
 
 ### 4.8. Database Design.
+
+<div align="center">
+  <p>
+    <b>Diagrama de base de datos de AniTec</b>
+  </p>
+  <img src="./assets\chapter-4\DiagramaBaseDeDatosAnitec.jpeg" alt="BaseDatos" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+
 #### 4.8.1. Database Diagram.
 Se presenta el diagrama de la base de datos relacional:
 <div align="center">
