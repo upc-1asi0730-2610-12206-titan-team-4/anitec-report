@@ -1462,6 +1462,135 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
       </td>
       <td>EP03</td>
     </tr>
+    <tr>
+  <td><b>TS01</b></td>
+  <td>Implementación del Esquema de Base de Datos Relacional</td>
+  <td><b>Como</b> desarrollador backend, <b>quiero</b> implementar el esquema de base de datos en SQL Server basado en el diseño del Capítulo 4.8, <b>para</b> garantizar la persistencia de datos de animales, usuarios y registros médicos.</td>
+  <td>
+    <b>E1: Persistencia de registros.</b> <b>Dado que</b> envío una entidad "Animal" válida (raza, edad, sexo), <b>Cuando</b> se ejecuta el guardado en la base de datos, <b>Entonces</b> el registro se almacena con un ID único y estado "Activo".<br><br>
+    <b>E2: Integridad referencial.</b> <b>Dado que</b> intento eliminar un "Animal" que tiene "Visitas Médicas" asociadas, <b>Cuando</b> se ejecuta la transacción, <b>Entonces</b> el sistema impide el borrado físico para mantener la trazabilidad histórica.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td><b>TS02</b></td>
+  <td>Configuración de la Solución .NET bajo patrón DDD</td>
+  <td><b>Como</b> arquitecto de software, <b>quiero</b> estructurar la solución .NET siguiendo los Bounded Contexts identificados (Authentication, Livestock, Sanitary, Financial, Reporting), <b>para</b> asegurar un código mantenible y escalable.</td>
+  <td>
+    <b>E1: Separación de capas.</b> <b>Dado que</b> defino una entidad en la capa de "Domain", <b>Cuando</b> intento acceder directamente a clases de "Infrastructure", <b>Entonces</b> el compilador debe restringir la referencia para respetar el principio de inversión de dependencias.<br><br>
+    <b>E2: Inyección de dependencias.</b> <b>Dado que</b> el sistema arranca, <b>Cuando</b> se solicita un servicio de aplicación, <b>Entonces</b> el contenedor de dependencias debe instanciar correctamente sus repositorios correspondientes.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td><b>TS03</b></td>
+  <td>Implementación de Autenticación mediante JWT</td>
+  <td><b>Como</b> desarrollador backend, <b>quiero</b> configurar un sistema de tokens JWT (JSON Web Tokens), <b>para</b> permitir que ganaderos y veterinarios accedan de forma segura a sus respectivos módulos.</td>
+  <td>
+    <b>E1: Generación de token.</b> <b>Dado que</b> el usuario provee credenciales válidas, <b>Cuando</b> hace POST a /api/auth/login, <b>Entonces</b> el sistema retorna un token JWT firmado con el rol del usuario.<br><br>
+    <b>E2: Acceso restringido.</b> <b>Dado que</b> un usuario no está autenticado, <b>Cuando</b> intenta consultar la lista de animales, <b>Entonces</b> el sistema responde con un código de estado 401 Unauthorized.
+  </td>
+  <td>EP01</td>
+</tr>
+
+<tr>
+  <td><b>TS04</b></td>
+  <td>Desarrollo del Sistema de Diseño en VueJS</td>
+  <td><b>Como</b> desarrollador frontend, <b>quiero</b> implementar una librería de componentes reutilizables (Botones, Inputs, Cards) basada en la "Web Style Guide", <b>para</b> estandarizar la interfaz de la aplicación.</td>
+  <td>
+    <b>E1: Consistencia de color.</b> <b>Dado que</b> utilizo el componente "AtButton" con propiedad "primary", <b>Cuando</b> se renderiza en el navegador, <b>Entonces</b> el color de fondo debe ser #925930 según la guía de estilos.<br><br>
+    <b>E2: Adaptabilidad.</b> <b>Dado que</b> visualizo un componente "Card" en una pantalla móvil (360px), <b>Cuando</b> se carga la página, <b>Entonces</b> el componente debe ajustar su ancho al 100% del contenedor.
+  </td>
+  <td>EP07</td>
+</tr>
+
+<tr>
+  <td><b>TS05</b></td>
+  <td>Motor de Notificaciones y Alertas Sanitarias</td>
+  <td><b>Como</b> desarrollador backend, <b>quiero</b> crear un servicio que evalúe las fechas de vacunación en el historial médico, <b>para</b> generar alertas automáticas en el dashboard del ganadero.</td>
+  <td>
+    <b>E1: Detección de proximidad.</b> <b>Dado que</b> un animal tiene una vacuna programada en 48 horas, <b>Cuando</b> el proceso de verificación se ejecuta, <b>Entonces</b> se crea un registro en la tabla de "Alertas" con severidad "Media".<br><br>
+    <b>E2: Visualización global.</b> <b>Dado que</b> existen nuevas alertas sin leer, <b>Cuando</b> el usuario inicia sesión, <b>Entonces</b> el icono de campana en el frontend debe mostrar un indicador visual numérico.
+  </td>
+  <td>EP06</td>
+</tr>
+
+<tr>
+  <td><b>TS06</b></td>
+  <td>Manejo de Estado Global y Consumo de API (Pinia/Axios)</td>
+  <td><b>Como</b> desarrollador frontend, <b>quiero</b> configurar Pinia para el manejo de estado y Axios para las peticiones HTTP, <b>para</b> gestionar la información del hato de forma eficiente en el cliente.</td>
+  <td>
+    <b>E1: Caché de datos.</b> <b>Dado que</b> el usuario navega entre la lista y el detalle de un animal, <b>Cuando</b> los datos ya están en el Store de Pinia, <b>Entonces</b> el sistema no debe realizar peticiones HTTP duplicadas al servidor.<br><br>
+    <b>E2: Manejo de errores.</b> <b>Dado que</b> el servidor está caído, <b>Cuando</b> el cliente realiza una petición, <b>Entonces</b> el interceptor de Axios debe capturar el error y mostrar un mensaje global de "Servicio no disponible".
+  </td>
+  <td>EP02</td>
+</tr>
+<tr>
+  <td><b>TS07</b></td>
+  <td>Implementación de Dashboard con Gráficos Dinámicos</td>
+  <td><b>Como</b> desarrollador frontend, <b>quiero</b> integrar una librería de visualización de datos (como Chart.js o ApexCharts) en el dashboard, <b>para</b> permitir que el usuario visualice indicadores clave de rendimiento (KPIs) de forma interactiva.</td>
+  <td>
+    <b>E1: Rendering interactivo.</b> <b>Dado que</b> se cargan los datos demográficos del hato, <b>Cuando</b> el usuario visualiza el dashboard, <b>Entonces</b> el sistema renderiza un gráfico circular con la distribución por especie y un gráfico de barras por sexo según los requerimientos de la US21.<br><br>
+    <b>E2: Filtro temporal dinámico.</b> <b>Dado que</b> el usuario cambia el rango de fechas en el selector del reporte poblacional, <b>Cuando</b> se actualiza el estado de la vista, <b>Entonces</b> el gráfico de líneas de tendencias se redibuja automáticamente reflejando la evolución del ganado en ese periodo (Soporte a US23).
+  </td>
+  <td>EP06</td>
+</tr>
+<tr>
+  <td><b>TS08</b></td>
+  <td>Integración con Servicio de Almacenamiento de Objetos (Cloud Storage)</td>
+  <td><b>Como</b> desarrollador backend, <b>quiero</b> integrar un servicio de almacenamiento (como Azure Blob Storage o AWS S3), <b>para</b> permitir que los ganaderos suban fotos de sus animales y los veterinarios adjunten informes médicos en PDF.</td>
+  <td>
+    <b>E1: Carga y persistencia.</b> <b>Dado que</b> el usuario sube una imagen de un animal (raza_ejemplo.jpg), <b>Cuando</b> se procesa la solicitud, <b>Entonces</b> el sistema almacena el archivo en la nube y guarda la URL pública en la tabla "Archivo" de la base de datos.<br><br>
+    <b>E2: Validación de formato.</b> <b>Dado que</b> el archivo subido no es una imagen o PDF (ej. archivo .exe), <b>Cuando</b> se intenta subir, <b>Entonces</b> el sistema rechaza la petición con un error 415 Unsupported Media Type.
+  </td>
+  <td>EP02, EP04</td>
+</tr>
+
+<tr>
+  <td><b>TS09</b></td>
+  <td>Implementación de Sincronización Offline mediante IndexedDB</td>
+  <td><b>Como</b> desarrollador frontend, <b>quiero</b> implementar una estrategia de persistencia local en el navegador, <b>para</b> que el ganadero pueda registrar datos en el campo incluso si pierde la conexión a internet temporalmente.</td>
+  <td>
+    <b>E1: Guardado local en desconexión.</b> <b>Dado que</b> el usuario no tiene señal de internet, <b>Cuando</b> registra un nuevo animal, <b>Entonces</b> el sistema almacena los datos en IndexedDB y muestra un estado de "Pendiente de sincronización".<br><br>
+    <b>E2: Sincronización automática.</b> <b>Dado que</b> el dispositivo recupera la conexión, <b>Cuando</b> el sistema detecta red, <b>Entonces</b> envía automáticamente los registros locales al servidor y actualiza el estado en la base de datos central.
+  </td>
+  <td>EP02</td>
+</tr>
+
+<tr>
+  <td><b>TS10</b></td>
+  <td>Configuración de Documentación Automática con Swagger/OpenAPI</td>
+  <td><b>Como</b> desarrollador backend, <b>quiero</b> configurar el middleware de Swagger en la Web API de .NET, <b>para</b> que el equipo frontend tenga una referencia clara y probada de todos los endpoints disponibles.</td>
+  <td>
+    <b>E1: Generación de esquema.</b> <b>Dado que</b> la API está en ejecución, <b>Cuando</b> se accede a la ruta /swagger, <b>Entonces</b> el sistema muestra una interfaz interactiva con todos los métodos HTTP, DTOs y parámetros de seguridad JWT definidos.<br><br>
+    <b>E2: Pruebas funcionales.</b> <b>Dado que</b> el desarrollador usa la interfaz de Swagger, <b>Cuando</b> envía una petición de prueba con un token válido, <b>Entonces</b> la API responde con los datos reales de la base de datos.
+  </td>
+  <td>EP01, EP02</td>
+</tr>
+
+<tr>
+  <td><b>TS11</b></td>
+  <td>Configuración de Pipeline de CI/CD (GitHub Actions)</td>
+  <td><b>Como</b> líder técnico, <b>quiero</b> configurar flujos de trabajo automatizados, <b>para</b> que cada cambio aprobado en la rama "main" se despliegue automáticamente en los entornos de producción sin intervención manual.</td>
+  <td>
+    <b>E1: Integración Continua.</b> <b>Dado que</b> se realiza un Pull Request a la rama "main", <b>Cuando</b> el pipeline se activa, <b>Entonces</b> el sistema debe ejecutar las pruebas unitarias y verificar que el código compila correctamente.<br><br>
+    <b>E2: Despliegue Continuo.</b> <b>Dado que</b> las pruebas pasan satisfactoriamente, <b>Cuando</b> se hace el merge, <b>Entonces</b> GitHub Actions debe desplegar automáticamente la Landing Page en GitHub Pages y los servicios en la nube (Azure).
+  </td>
+  <td>EP07</td>
+</tr>
+
+<tr>
+  <td><b>TS12</b></td>
+  <td>Implementación de Logs de Auditoría para Registros Médicos</td>
+  <td><b>Como</b> desarrollador de seguridad, <b>quiero</b> implementar un sistema de trazabilidad de cambios (Logging), <b>para</b> saber quién, cuándo y qué se modificó en el historial clínico de un animal.</td>
+  <td>
+    <b>E1: Registro de modificación.</b> <b>Dado que</b> un veterinario edita un tratamiento médico, <b>Cuando</b> se guarda el cambio, <b>Entonces</b> el sistema guarda automáticamente en una tabla de auditoría el valor anterior, el valor nuevo y el ID del usuario responsable.<br><br>
+    <b>E2: Integridad del log.</b> <b>Dado que</b> se genera un log de auditoría, <b>Cuando</b> se registra en el sistema, <b>Entonces</b> este registro debe ser de "solo lectura" para evitar alteraciones en el historial de seguridad.
+  </td>
+  <td>EP04</td>
+</tr>
   </tbody>
 </table>
 
