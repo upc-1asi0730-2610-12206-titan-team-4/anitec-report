@@ -701,10 +701,10 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 |Entrevistado 2|nombre|
 |-|-|
-|Edad|nro|
-|Distrito|nombre dist|
-|<img width="1292" alt="Entrevista2" src= >|descripcion|
-|Timing:  |URL: 
+|Edad: 54 años|2|
+|Distrito: Lima| Rebeca Noemi Quiroz Roldan|
+|<img src=".\assets\chapter-2\Entrevista2.jpeg" width="360">|En la entrevista la señora Rebeca Noemi menciona que gestiona un ganado vacuno en donde sus mayores problemas que enfrenta son cuando a la vaca le da mastitis y cuando los terneros enferman, tambien menciona que gestiona su ganado a traves de cuadernos y/o apuntes en hojas, Rebeca afirma no tener problemas con su gestion pero que si estaria dispuesta a usar una aplicacion que la ayude a gestionar mejor su ganado dado que la tecnologia que mas usa es su celular, ademas dice que lo que mas valora de una aplicacion asi es la seguridad, tambien Rebeca nos cuenta que la gestion de enfermedades de su ganado se la encarga a un ingeniero especializado, Le mencionamos si le gustaria que la aplicacion le recuerde diferentes tipo de evento como vacunacion o dosis de medicamentos y estuvo de acuerdo, que seria prudencial tener eso en una aplicacion como es AniTec|
+|Timing:  |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 |Entrevistado 3|nombre|
 |-|-|
@@ -803,12 +803,15 @@ User Veterinario:
 
 El presente Big Picture Event Storming se ha desarrollado de manera colaborativa utilizando la plataforma Miro, siguiendo la metodología de Philippe Bourgau para explorar el dominio del negocio de forma holística y establecer un entendimiento compartido. A través de un proceso iterativo en este entorno digital, que incluyó la generación de eventos de dominio, el ordenamiento cronológico y el análisis de causas mediante comandos y actores, se ha logrado mapear la complejidad del sector ganadero en una narrativa visual coherente. Este artefacto no solo permite identificar los puntos de fricción y las oportunidades de automatización en la gestión de AniTec, sino que también sienta las bases para el diseño de una arquitectura de software alineada con la realidad operativa de los ganaderos y veterinarios.
 
+**Paso 1:** Unstructured Exploration (Exploración no estructurada) consiste en una lluvia de ideas colaborativa donde los participantes identifican y registran domain events, que son sucesos relevantes ocurridos dentro del negocio. Estos eventos deben redactarse obligatoriamente en tiempo pasado (por ejemplo, "Animal registrado") y se colocan en notas adhesivas de color naranja sobre la superficie de modelado. En esta etapa inicial, se prioriza la cantidad y el descubrimiento de conceptos sobre el orden o la jerarquía, continuando con la actividad hasta que la generación de nuevos eventos disminuya significativamente.
 
 ![Event-Storming](assets/chapter-2/EventStormingPaso1.jpeg)
 
+**Paso 2:** Timelines, los participantes revisan los eventos de dominio generados y los organizan cronológicamente para reflejar la secuencia real del proceso empresarial. La construcción inicia con el "happy path scenario", que describe el flujo de un caso de éxito, para luego incorporar escenarios alternativos, errores o ramificaciones en la toma de decisiones. Este paso es fundamental para refinar el modelo, ya que permite identificar eventos faltantes, eliminar duplicados y corregir inconsistencias en la narrativa del negocio.
 
 ![Event-Storming](assets/chapter-2/EventStormingPaso2.jpeg)
 
+**Paso 3:** Pain Points, los participantes utilizan la línea de tiempo recién organizada para identificar los puntos críticos o ineficiencias del proceso que requieren atención especial. Estos problemas, que pueden incluir cuellos de botella, falta de documentación o pasos manuales que necesitan automatización, se marcan en el modelo utilizando notas adhesivas rosadas rotadas en forma de diamante. Hacer explícitas estas debilidades permite al equipo abordarlas posteriormente o tomarlas en cuenta conforme avanza el diseño del sistema.
 
 ![Event-Storming](assets/chapter-2/EventStormingPaso3.jpeg)
 
@@ -2381,6 +2384,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
 
 #### 4.6.1. Design Level EventStorming
 
+**Paso 4:** Pivotal Events, el equipo busca eventos de negocio significativos que marquen un cambio de fase o una transición importante en el contexto del proceso. Estos se identifican trazando una barra vertical en la superficie de modelado para separar los flujos anteriores y posteriores al evento crucial. Identificar estos hitos es fundamental, ya que funcionan como indicadores clave para definir los límites de los posibles Bounded Contexts dentro del dominio.
+
 <div align="center">
   <p>
     <b>Step 4: Pivotal Events</b>
@@ -2390,6 +2395,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
 </div>
+
+**Paso 5:** Commands, el enfoque cambia de lo que ya sucedió a lo que desencadena esos eventos, introduciendo los commands (comandos) formulados en modo imperativo. Estos se representan con notas adhesivas de color azul claro y se colocan antes de los eventos que producen; además, si un usuario específico ejecuta la acción, se añade una pequeña nota amarilla para representar al actor o rol del negocio.
 
 <div align="center">
   <p>
@@ -2401,6 +2408,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   </p>
 </div>
 
+**Paso 6:** Policies, se identifican las automation policies (políticas de automatización), que son escenarios donde un evento de dominio activa automáticamente la ejecución de un comando sin intervención directa de un actor. Estas reglas se representan con notas adhesivas de color púrpura que conectan el evento con el comando resultante, permitiendo especificar criterios de decisión o condiciones lógicas necesarias para que la acción se dispare.
+
 <div align="center">
   <p>
     <b>Step 6: Policys </b>
@@ -2410,6 +2419,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
 </div>
+
+**Paso 7:** Read Models, se introducen las vistas de datos o fuentes de información que un actor necesita consultar para tomar la decisión de ejecutar un comando. Estos se representan con notas adhesivas verdes y pueden ser pantallas del sistema, informes o notificaciones que sirven de base para la acción del usuario. En la superficie de modelado, los modelos de lectura se posicionan estratégicamente justo antes de los comandos para ilustrar el flujo de información hacia la toma de decisiones.
 
 <div align="center">
   <p>
@@ -2421,6 +2432,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   </p>
 </div>
 
+**Paso 8:** External Systems, el modelo se aumenta con sistemas externos, definidos como cualquier sistema ajeno al dominio que se está explorando. Estos se representan con notas adhesivas rosas y pueden actuar de dos formas: activando la ejecución de comandos (entrada) o recibiendo notificaciones sobre eventos de dominio (salida). Al finalizar este paso, se debe verificar que todos los comandos del modelo sean ejecutados por actores, activados por políticas o llamados por estos sistemas externos.
+
 <div align="center">
   <p>
     <b>Step 8: External Systems</b>
@@ -2431,6 +2444,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   </p>
 </div>
 
+**Paso 9:** Aggregates, los participantes organizan los conceptos relacionados en Aggregates (Agregados), que actúan como las unidades lógicas que reciben los comandos y producen los eventos resultantes. Estos se representan con notas adhesivas amarillas grandes, posicionándose físicamente en medio del flujo: con los comandos a su izquierda y los eventos a su derecha. Esta etapa es crucial para definir la consistencia y las fronteras de los datos dentro del modelo de dominio.
+
 <div align="center">
   <p>
     <b>Step 9: Aggregates</b>
@@ -2440,6 +2455,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
 </div>
+
+**Paso 10:** Bounded Contexts, se concluye la sesión de EventStorming buscando grupos de agregados que estén estrechamente relacionados entre sí. Esta relación puede darse porque los agregados representan funcionalidades similares o porque están acoplados mediante políticas de automatización. Estos grupos identificados forman los límites naturales para los Bounded Contexts (contextos delimitados), definiendo así las fronteras lógicas y técnicas de los diferentes módulos del sistema dentro del dominio de negocio.
 
 <div align="center">
   <p>
