@@ -77,7 +77,7 @@ Se explican las ramas más prominentes:
 - **develop**: Es representada por el color morado. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 - **feat/sprint1**: Es representada por el color morado. Esta rama incluye los artefactos relacionados al sprint 1 en el informe.
 
-![Branch_Graph]()
+![Branch_Graph](assets/chapter-1/branchGraph.png)
 
 Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo. 
 
