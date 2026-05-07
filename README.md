@@ -341,14 +341,15 @@ Se estima que entre el 40% y 60% de los ganaderos familiares y asociaciones podr
 
 **Problem Statement:**
 
-AniTec busca ofrecer a pequeños y medianos ganaderos una plataforma digital sencilla y accesible que les permita registrar, organizar y supervisar la información clave de su hato. El objetivo es optimizar los procesos sanitarios, reproductivos y económicos, los cuales actualmente se manejan de manera manual y poco organizada.
+El estado actual de la gestión ganadera para pequeños y medianos productores se ha centrado principalmente en controles manuales, registros en cuadernos y herramientas digitales improvisadas para administrar la información sanitaria, reproductiva y económica del hato.
 
-Hoy en día, muchos ganaderos llevan un control limitado o inexistente de su ganado, utilizando cuadernos o herramientas digitales improvisadas. Esta dependencia de métodos tradicionales genera errores en los registros, omisión de vacunas o tratamientos, pérdida de información y escasa trazabilidad, afectando la productividad, el cumplimiento normativo y la posibilidad de acceder a mejores precios.
+Lo que los productos y servicios existentes no abordan es la necesidad de contar con una plataforma digital sencilla, accesible y adaptada a productores con recursos limitados, que permita centralizar la información del ganado, automatizar procesos clave y garantizar la trazabilidad sin requerir conocimientos técnicos avanzados.
 
-La carencia de herramientas adecuadas limita la toma de decisiones informadas y sostenibles, frenando el crecimiento y competitividad de los productores.
+Nuestro producto, AniTec, abordará esta brecha mediante una plataforma digital intuitiva que permitirá registrar, organizar y supervisar la información del ganado en tiempo real, automatizando recordatorios sanitarios, seguimiento reproductivo y control económico para reducir errores, evitar pérdida de datos y facilitar la toma de decisiones.
 
-*Pregunta clave:*
-¿Cómo podemos digitalizar y automatizar la gestión de información del ganado para que los pequeños productores optimicen sus procesos sin depender de registros manuales ni perder datos importantes?
+Nuestro enfoque inicial será pequeños y medianos ganaderos que actualmente dependen de registros manuales o sistemas poco organizados para gestionar su producción.
+
+Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de registros manuales, un aumento en la precisión y frecuencia de los registros ganaderos, una mejora en el cumplimiento de vacunaciones y tratamientos, y una mayor capacidad de los productores para tomar decisiones basadas en datos.
 
 ##### 1.2.2.2. Lean UX Assumptions.
 ###### **Business Assumptions:**
