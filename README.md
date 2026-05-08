@@ -42,9 +42,9 @@
 - URL del repositorio para el desarrollo del frontend web applications (VueJS):  
 - URL del repositorio para el desarrollo del backend web applications (.NET Web API): 
 
-**TB1**
+**AV1**
 
-Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <div align="center">
 
