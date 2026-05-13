@@ -147,7 +147,7 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 |Edad|24 años|
 |Distrito|Camaná, Arequipa|
 |<img width="360" alt="Entrevista4" src="../../assets/chapter-2/entrevistaVet1.png">|La entrevista a Angela Mendoza, veterinaria de 24 años con 2 años de experiencia en la sierra sur del Perú, evidencia que el manejo de información en el ámbito ganadero sigue siendo mayormente manual y fragmentado, utilizando cuadernos físicos, Excel básico y herramientas informales como WhatsApp. Esta situación genera problemas frecuentes como pérdida de datos, falta de trazabilidad y dependencia del ganadero para acceder al historial del animal, lo que incluso ha afectado la efectividad de algunos tratamientos. A pesar de ello, muestra una alta disposición a adoptar soluciones digitales, siempre que sean simples, rápidas y accesibles.|
-|Timing: 00:06:55 |URL: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQBlOk72Iv8fRaC_thWrWuQbARpG660UkHBrJyKW1aMQzSM?e=SEnYQf
+|Timing: 00:06:55 |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pHnnWx
 
 |Entrevistado 5|Aldahir Santos|
 |-|-|
