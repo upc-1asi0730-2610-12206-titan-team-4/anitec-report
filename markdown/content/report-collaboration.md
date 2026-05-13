@@ -2,7 +2,7 @@
 
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page   
-- URL del repositorio para el desarrollo del frontend web applications (VueJS):  
+- URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend  
 - URL del repositorio para el desarrollo del backend web applications (.NET Web API): 
 
 **AV1**
