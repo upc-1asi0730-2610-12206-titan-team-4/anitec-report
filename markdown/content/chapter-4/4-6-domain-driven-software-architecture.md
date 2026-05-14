@@ -126,6 +126,7 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
 
 ## 4.6.2. Software Architecture Context Diagram.
 
+El Software Architecture Context Level Diagram presenta una vista general del sistema Anitec y sus interacciones con usuarios y sistemas externos. Este diagrama permite identificar los principales actores de la plataforma, así como los servicios externos utilizados para funcionalidades como procesamiento de pagos y envío de correos electrónicos.
 
 <div align="center">
   <p>
@@ -139,6 +140,8 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
 
 ## 4.6.3. Software Architecture Container Diagrams.
 
+El  Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos SQL Server y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
+
 <div align="center">
   <p>
     <b>Diagrama de Contenedores C4 - AniTec</b>
@@ -151,10 +154,27 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
 
 ## 4.6.4. Software Architecture Components Diagrams.
 
+Los Software Architecture Component Diagrams presentan la descomposición interna de los principales contenedores del sistema, permitiendo identificar sus componentes, responsabilidades e interacciones. Estos diagramas facilitan la comprensión de la organización lógica de la solución y las tecnologías utilizadas en su implementación.
+
+<br>
+
+El siguiente Diagrama de Componentes descompone el contenedor de la API Application de AniTec para detallar la lógica interna del sistema bajo un enfoque de Bounded Contexts. Se ilustra cómo la Single Page Application (SPA) se comunica mediante HTTPS/JSON directamente con módulos independientes como IAM (responsable de la seguridad y la gestión de suscripciones con Stripe), Animal Management, Health Management, Event management, Financial Management y Reporting. Cada componente, construido con ASP.NET Core y Entity Framework Core, encapsula las reglas de negocio para la gestión ganadera y coordina la persistencia en SQL Server, integrándose además con Resend para las notificaciones por e-mail.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Autenticacion BC C4 - AniTec</b>
+    <b>Diagrama de Componentes - API Application - AniTec</b>
+  </p>
+  <img src="../../assets/chapter-4/Diagrama-Componentes-API-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El IAM Component Diagram presenta la estructura interna del módulo de gestión de identidad y acceso de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la autenticación, validación de suscripciones, notificaciones por correo y gestión de usuarios, así como sus interacciones con servicios externos y la base de datos.
+
+<div align="center">
+  <p>
+    <b>Diagrama de Componentes - IAM - AniTec</b>
   </p>
   <img src="../../assets/chapter-4/Diagrama-Componentes-AutenticacionBC-AniTec.png" alt="C4-AutenticacionBC" width="600">
   <p>
@@ -162,9 +182,12 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   </p>
 </div>
 
+El Animal Management Component Diagram presenta la estructura interna del módulo de gestión animal de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la administración, consulta, seguimiento y persistencia de la información del ganado, así como sus interacciones con la interfaz web y la base de datos del sistema.
+
+
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Gestión animal BC C4 - AniTec</b>
+    <b>Diagrama de Componentes - Animal Management - AniTec</b>
   </p>
   <img src="../../assets/chapter-4/Diagrama-Componentes-GestionAnimalBC-Anitec.png" alt="C4-GestionAnimalBC" width="600">
   <p>
@@ -172,10 +195,12 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   </p>
 </div>
 
+El Event Management Component Diagram presenta la estructura interna del módulo de gestión de eventos de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración, consulta y registro de eventos relacionados con el ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
+
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Gestión eventos BC C4 - AniTec</b>
+    <b>Diagrama de Componentes - Event Management - AniTec</b>
   </p>
   <img src="../../assets/chapter-4/Diagrama-Componentes-GestionEventosBC-AniTec.png" alt="C4-GestionEventosBC" width="600">
   <p>
@@ -183,10 +208,11 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   </p>
 </div>
 
+El Financial Management Component Diagram presenta la estructura interna del módulo de gestión financiera de la plataforma Anitec. Este diagrama muestra los componentes encargados del registro de ingresos y gastos, cálculo de balances y generación de reportes financieros, así como las interacciones entre la interfaz web, la lógica de negocio y la base de datos del sistema.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Gestión financiera BC C4 - AniTec</b>
+    <b>Diagrama de Componentes - Financial Management - AniTec</b>
   </p>
   <img src="../../assets/chapter-4/Diagrama-Componentes-GestionFinancieraBC-AniTec.png" alt="C4-GestionFinancieraBC" width="600">
   <p>
@@ -194,9 +220,11 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   </p>
 </div>
 
+El Health Management Component Diagram presenta la estructura interna del módulo de gestión sanitaria de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración del historial clínico y las visitas médicas del ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
+
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Gestión sanitaria BC C4 - AniTec</b>
+    <b>Diagrama de Componentes - Health Management - AniTec</b>
   </p>
   <img src="../../assets/chapter-4/Diagrama-Componentes-GestionSanitariaBC-AniTec.png" alt="C4-GestionSanitariaBC" width="600">
   <p>
@@ -204,9 +232,11 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
   </p>
 </div>
 
+El Reporting & Analytics Component Diagram presenta la estructura interna del módulo de reportes y analítica de la plataforma Anitec. Este diagrama muestra los componentes responsables del procesamiento de métricas, generación de estadísticas, visualización de indicadores y administración de alertas, así como las interacciones entre la interfaz web, la lógica analítica y la persistencia de datos.
+
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Reportes BC C4 - AniTec</b>
+    <b>Diagrama de Componentes - Reporting - AniTec</b>
   </p>
   <img src="../../assets/chapter-4/Diagrama-Componentes-ReportesBC-AniTec.png" alt="C4-ReportesBC" width="600">
   <p>
