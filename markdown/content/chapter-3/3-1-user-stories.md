@@ -1,675 +1,548 @@
 # 3.1. User Stories.
 
-
 <table>
   <thead>
     <tr>
       <th>Epic / Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
+      <th>Titulo</th>
+      <th>Descripcion</th>
+      <th>Criterios de Aceptacion</th>
       <th>Relacionado con</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b>EP01</b></td>
-      <td>Autenticación y Acceso Seguro</td>
-      <td><b>Como</b> usuario del sistema (ganadero o veterinario), <b>quiero</b> gestionar mi cuenta y acceder a la plataforma mediante autenticación segura, <b>para</b> mantener la total privacidad de los datos de mi finca.</td>
+      <td><b>EP-002</b></td>
+      <td>Dashboard del ganadero</td>
+      <td>Esta epica agrupa las funcionalidades del panel principal del ganadero, donde se resumen sus fincas, animales, alertas sanitarias, actividades y datos financieros.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>EP02</b></td>
-      <td>Gestión de Inventario Ganadero (Hato)</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> gestionar el registro de mis animales (crear, consultar, editar y eliminar), incluyendo información detallada como identificación, características, estado de salud, reproducción y ubicación, <b>para</b> mantener un control digital, preciso y escalable de mi ganado.</td>
+      <td><b>US-001</b></td>
+      <td>Visualizar resumen operativo del ganadero</td>
+      <td>Como ganadero, quiero ver un resumen de mis animales, fincas, alertas y actividades para conocer rapidamente el estado de mi operacion.</td>
+      <td><b>Visualizacion de metricas del ganadero.</b><br>Given el ganadero tiene animales, fincas, eventos y registros sanitarios<br>When ingresa a su dashboard<br>Then el sistema muestra metricas calculadas con sus propios datos<br><br><b>Ganadero sin datos registrados.</b><br>Given el ganadero no tiene animales ni fincas registradas<br>When ingresa a su dashboard<br>Then el sistema muestra indicadores en cero o mensajes de estado vacio</td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td><b>US-002</b></td>
+      <td>Filtrar resumen por finca</td>
+      <td>Como ganadero, quiero filtrar mi dashboard por finca para revisar el estado de una unidad productiva especifica.</td>
+      <td><b>Seleccion de una finca.</b><br>Given el ganadero tiene mas de una finca registrada<br>When selecciona una finca especifica<br>Then el sistema actualiza los indicadores y listas usando solo los animales de esa finca<br><br><b>Seleccion de todas las fincas.</b><br>Given el ganadero esta revisando una finca especifica<br>When selecciona la opcion de todas las fincas<br>Then el sistema vuelve a mostrar la informacion agregada de todas sus fincas</td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td><b>US-003</b></td>
+      <td>Acceder a acciones rapidas del ganadero</td>
+      <td>Como ganadero, quiero acceder rapidamente al registro de animales, incidencias y eventos para reducir pasos en tareas frecuentes.</td>
+      <td><b>Registrar animal desde el dashboard.</b><br>Given el ganadero esta en su dashboard<br>When selecciona la accion de registrar animal<br>Then el sistema lo dirige al formulario de nuevo animal<br><br><b>Reportar incidencia desde el dashboard.</b><br>Given el ganadero detecta una enfermedad o problema sanitario<br>When selecciona la accion de reportar incidencia<br>Then el sistema lo dirige al formulario de evento sanitario<br><br><b>Programar visita desde el dashboard.</b><br>Given el ganadero necesita una visita o actividad futura<br>When selecciona la accion de programar visita<br>Then el sistema lo dirige al formulario de evento</td>
+      <td>EP-002</td>
+    </tr>
+    <tr>
+      <td><b>EP-003</b></td>
+      <td>Gestion de fincas del ganadero</td>
+      <td>Esta epica agrupa las funcionalidades para registrar, consultar, editar y eliminar las fincas o unidades productivas del ganadero.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>EP03</b></td>
-      <td>Gestión de Eventos Sanitarios</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> registrar y gestionar eventos sanitarios generales (vacunación, plagas, campañas), <b>para</b> planificar y controlar la salud del ganado a nivel global.</td>
+      <td><b>US-004</b></td>
+      <td>Visualizar listado de fincas en cartas</td>
+      <td>Como ganadero, quiero ver mis fincas en cartas con informacion relevante para identificar facilmente cada unidad productiva.</td>
+      <td><b>Fincas existentes.</b><br>Given el ganadero tiene fincas registradas<br>When ingresa al apartado de fincas<br>Then el sistema muestra cada finca en una carta<br>And muestra nombre, ubicacion, tipo principal y cantidad de animales<br><br><b>Sin fincas registradas.</b><br>Given el ganadero no tiene fincas registradas<br>When ingresa al apartado de fincas<br>Then el sistema muestra un mensaje indicando que no hay fincas</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td><b>US-005</b></td>
+      <td>Registrar nueva finca</td>
+      <td>Como ganadero, quiero registrar una nueva finca para organizar mis animales por ubicacion o unidad productiva.</td>
+      <td><b>Registro con datos validos.</b><br>Given el ganadero se encuentra en el formulario de nueva finca<br>When ingresa nombre, ubicacion y tipo principal validos<br>Then el sistema registra la finca<br>And la muestra en el listado de fincas<br><br><b>Registro incompleto.</b><br>Given el ganadero deja campos requeridos vacios<br>When intenta guardar la finca<br>Then el sistema no completa el registro<br>And solicita completar la informacion requerida</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td><b>US-006</b></td>
+      <td>Editar informacion de una finca</td>
+      <td>Como ganadero, quiero editar los datos de una finca para mantener actualizada su informacion.</td>
+      <td><b>Edicion exitosa.</b><br>Given existe una finca registrada<br>When el ganadero modifica su nombre, ubicacion o tipo principal<br>Then el sistema guarda los cambios<br>And muestra la informacion actualizada<br><br><b>Finca inexistente.</b><br>Given la finca solicitada no existe<br>When el ganadero intenta editarla<br>Then el sistema redirige al listado de fincas</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td><b>US-007</b></td>
+      <td>Eliminar finca</td>
+      <td>Como ganadero, quiero eliminar una finca cuando ya no forma parte de mi operacion.</td>
+      <td><b>Eliminacion confirmada.</b><br>Given existe una finca registrada<br>When el ganadero confirma su eliminacion<br>Then el sistema elimina la finca del listado<br><br><b>Eliminacion cancelada.</b><br>Given el ganadero abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el sistema conserva la finca sin cambios</td>
+      <td>EP-003</td>
+    </tr>
+    <tr>
+      <td><b>EP-004</b></td>
+      <td>Gestion de animales</td>
+      <td>Esta epica agrupa las funcionalidades para registrar y administrar animales de distintos tipos de ganado, como bovinos, ovinos, caprinos, porcinos, aves, patos, pollos, cuyes y otros.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>EP04</b></td>
-      <td>Historial Clínico por Animal</td>
-      <td><b>Como</b> ganadero o veterinario, <b>quiero</b> registrar y consultar el historial clínico de cada animal, <b>para</b> asegurar su trazabilidad y seguimiento médico individual.</td>
+      <td><b>US-008</b></td>
+      <td>Visualizar animales en cartas</td>
+      <td>Como ganadero, quiero ver mis animales en cartas para revisar rapidamente la informacion principal de cada uno.</td>
+      <td><b>Animales existentes.</b><br>Given el ganadero tiene animales registrados<br>When ingresa al apartado de animales<br>Then el sistema muestra una carta por animal<br>And muestra codigo, nombre, especie, raza, sexo, peso, estado y finca<br><br><b>Sin animales registrados.</b><br>Given el ganadero no tiene animales registrados<br>When ingresa al apartado de animales<br>Then el sistema muestra un mensaje de lista vacia</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td><b>US-009</b></td>
+      <td>Buscar animales por texto</td>
+      <td>Como ganadero, quiero buscar animales por nombre, codigo, especie o raza para encontrarlos rapidamente cuando tenga muchos registros.</td>
+      <td><b>Busqueda con coincidencias.</b><br>Given existen animales registrados<br>When el ganadero escribe un termino de busqueda que coincide con uno o mas animales<br>Then el sistema muestra solo las cartas coincidentes<br><br><b>Busqueda sin coincidencias.</b><br>Given existen animales registrados<br>When el ganadero escribe un termino sin coincidencias<br>Then el sistema muestra un mensaje indicando que no se encontraron animales</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td><b>US-010</b></td>
+      <td>Registrar animal</td>
+      <td>Como ganadero, quiero registrar un animal indicando su especie y raza para mantener trazabilidad de mi ganado.</td>
+      <td><b>Registro con datos validos.</b><br>Given el ganadero tiene al menos una finca registrada<br>When ingresa codigo, nombre, especie, raza, sexo, fecha de nacimiento, peso, estado y finca<br>Then el sistema registra el animal<br>And lo muestra en el listado correspondiente<br><br><b>Registro sin finca.</b><br>Given el ganadero no selecciona una finca<br>When intenta guardar el animal<br>Then el sistema solicita asociar el animal a una finca</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td><b>US-011</b></td>
+      <td>Editar animal</td>
+      <td>Como ganadero, quiero editar los datos de un animal para actualizar su estado, peso o informacion general.</td>
+      <td><b>Edicion exitosa.</b><br>Given existe un animal registrado<br>When el ganadero modifica sus datos y guarda<br>Then el sistema actualiza el animal<br>And muestra la informacion actualizada en su carta<br><br><b>Animal inexistente.</b><br>Given el animal no existe<br>When el ganadero intenta abrir su formulario de edicion<br>Then el sistema redirige al listado de animales</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td><b>US-012</b></td>
+      <td>Eliminar animal</td>
+      <td>Como ganadero, quiero eliminar un animal cuando ya no pertenece a mi hato o registro productivo.</td>
+      <td><b>Eliminacion confirmada.</b><br>Given existe un animal registrado<br>When el ganadero confirma la eliminacion<br>Then el sistema elimina el animal del listado<br><br><b>Eliminacion cancelada.</b><br>Given el ganadero abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el animal permanece registrado</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td><b>US-013</b></td>
+      <td>Consultar animales segun rol</td>
+      <td>Como usuario, quiero que el sistema muestre animales segun mi rol para proteger la informacion de cada ganadero.</td>
+      <td><b>Consulta como ganadero.</b><br>Given el usuario tiene rol de ganadero<br>When ingresa al apartado de animales<br>Then el sistema muestra solo los animales de sus fincas<br><br><b>Consulta como veterinario.</b><br>Given el usuario tiene rol de veterinario<br>When ingresa al apartado de animales o pacientes<br>Then el sistema muestra solo los animales de sus clientes asignados</td>
+      <td>EP-004</td>
+    </tr>
+    <tr>
+      <td><b>EP-005</b></td>
+      <td>Gestion sanitaria y clinica</td>
+      <td>Esta epica agrupa las funcionalidades para registrar enfermedades, incidencias, diagnosticos, tratamientos, recetas y seguimientos sanitarios de los animales.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>EP05</b></td>
-      <td>Control Económico y Financiero</td>
-      <td><b>Como</b> administrador de la finca, <b>quiero</b> registrar diariamente mis ingresos (ej. ventas) y egresos (ej. compra de insumos), <b>para</b> tener una visibilidad clara de mis finanzas y calcular la rentabilidad real de mi producción.</td>
+      <td><b>US-014</b></td>
+      <td>Visualizar registros sanitarios en cartas</td>
+      <td>Como usuario autorizado, quiero ver los registros sanitarios en cartas para revisar de forma clara la informacion clinica de los animales.</td>
+      <td><b>Registros existentes.</b><br>Given existen registros sanitarios asociados a animales visibles para el usuario<br>When ingresa a gestion sanitaria<br>Then el sistema muestra cada registro en una carta<br>And presenta animal, tipo, fecha, descripcion, veterinario y proxima fecha<br><br><b>Sin registros sanitarios.</b><br>Given no existen registros sanitarios visibles para el usuario<br>When ingresa a gestion sanitaria<br>Then el sistema muestra un mensaje de estado vacio</td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td><b>US-015</b></td>
+      <td>Registrar incidencia sanitaria como ganadero</td>
+      <td>Como ganadero, quiero registrar enfermedades o incidencias basicas de mis animales para dejar constancia y facilitar el seguimiento veterinario.</td>
+      <td><b>Registro de incidencia valido.</b><br>Given el ganadero selecciona un animal propio<br>When ingresa tipo, fecha, descripcion y datos de seguimiento<br>Then el sistema registra el evento sanitario para ese animal<br><br><b>Animal no disponible.</b><br>Given el animal pertenece a otro ganadero<br>When el ganadero intenta registrarle una incidencia<br>Then el sistema no lo muestra como opcion disponible</td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td><b>US-016</b></td>
+      <td>Registrar diagnostico y tratamiento como veterinario</td>
+      <td>Como veterinario, quiero registrar diagnostico, tratamiento, receta y seguimiento para documentar la atencion clinica de un animal.</td>
+      <td><b>Registro clinico completo.</b><br>Given el veterinario atiende a un animal de un cliente asignado<br>When ingresa diagnostico, tratamiento, receta, seguimiento y proxima fecha<br>Then el sistema guarda el registro sanitario<br>And lo asocia al animal correspondiente<br><br><b>Animal fuera de cartera.</b><br>Given un animal pertenece a un ganadero no asignado al veterinario<br>When el veterinario intenta registrar atencion sanitaria<br>Then el sistema no muestra ese animal como opcion</td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td><b>US-017</b></td>
+      <td>Editar registro sanitario</td>
+      <td>Como usuario autorizado, quiero editar un registro sanitario para corregir o complementar informacion clinica.</td>
+      <td><b>Edicion exitosa.</b><br>Given existe un registro sanitario visible para el usuario<br>When el usuario actualiza los datos y guarda<br>Then el sistema muestra el registro actualizado<br><br><b>Registro inexistente.</b><br>Given el registro sanitario no existe<br>When el usuario intenta editarlo<br>Then el sistema redirige a la lista de gestion sanitaria</td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td><b>US-018</b></td>
+      <td>Eliminar registro sanitario</td>
+      <td>Como usuario autorizado, quiero eliminar un registro sanitario incorrecto para mantener limpio el historial.</td>
+      <td><b>Eliminacion confirmada.</b><br>Given existe un registro sanitario<br>When el usuario confirma la eliminacion<br>Then el sistema elimina el registro del listado<br><br><b>Eliminacion cancelada.</b><br>Given el usuario abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el registro permanece sin cambios</td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td><b>US-019</b></td>
+      <td>Consultar historial clinico por animal</td>
+      <td>Como veterinario, quiero consultar el historial clinico de un animal para tomar mejores decisiones durante una atencion.</td>
+      <td><b>Animal con historial.</b><br>Given el animal tiene registros sanitarios previos<br>When el veterinario abre su historial clinico<br>Then el sistema muestra todos los registros asociados al animal<br><br><b>Animal sin historial.</b><br>Given el animal no tiene registros sanitarios previos<br>When el veterinario abre su historial clinico<br>Then el sistema muestra un estado vacio o sin registros</td>
+      <td>EP-005</td>
+    </tr>
+    <tr>
+      <td><b>EP-006</b></td>
+      <td>Gestion profesional del veterinario</td>
+      <td>Esta epica agrupa las funcionalidades para que el veterinario administre su cartera de clientes ganaderos, consulte sus fincas, revise pacientes y mantenga seguimiento sanitario.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>EP06</b></td>
-      <td>Monitoreo, Estadísticas y Alertas (Dashboard)</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> visualizar un panel de control con indicadores clave y recibir notificaciones preventivas, <b>para</b> tomar decisiones estratégicas de forma rápida y proactiva.</td>
+      <td><b>US-020</b></td>
+      <td>Visualizar dashboard profesional del veterinario</td>
+      <td>Como veterinario, quiero ver un dashboard profesional para revisar clientes, pacientes activos, registros clinicos y seguimientos pendientes.</td>
+      <td><b>Veterinario con clientes asignados.</b><br>Given el veterinario tiene ganaderos asignados<br>When ingresa a su dashboard<br>Then el sistema muestra clientes activos, pacientes, registros clinicos y seguimientos<br><br><b>Veterinario sin clientes asignados.</b><br>Given el veterinario no tiene ganaderos asignados<br>When ingresa a su dashboard<br>Then el sistema muestra metricas en cero y permite agregar clientes</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>US-021</b></td>
+      <td>Seleccionar cliente en el dashboard veterinario</td>
+      <td>Como veterinario, quiero seleccionar un cliente ganadero para revisar sus fincas y animales antes de realizar acciones clinicas.</td>
+      <td><b>Seleccion de cliente valido.</b><br>Given el veterinario tiene clientes asignados<br>When selecciona un cliente en el panel<br>Then el sistema muestra las fincas de ese cliente<br>And muestra la cantidad de animales por finca<br><br><b>Cliente sin fincas.</b><br>Given el cliente seleccionado no tiene fincas registradas<br>When el veterinario lo selecciona<br>Then el sistema muestra un mensaje indicando que no hay fincas</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>US-022</b></td>
+      <td>Visualizar clientes asignados en cartas</td>
+      <td>Como veterinario, quiero ver mis clientes en cartas con informacion completa para entender rapidamente la situacion de cada ganadero.</td>
+      <td><b>Clientes existentes.</b><br>Given el veterinario tiene clientes asignados<br>When ingresa a clientes asignados<br>Then el sistema muestra cartas con nombre, fincas, ubicacion, animales, especies, registros sanitarios y alertas<br><br><b>Sin clientes.</b><br>Given el veterinario no tiene clientes asignados<br>When ingresa a clientes asignados<br>Then el sistema muestra un mensaje indicando que no tiene clientes</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>US-023</b></td>
+      <td>Agregar cliente ganadero a la cartera del veterinario</td>
+      <td>Como veterinario, quiero buscar ganaderos registrados y enviar una peticion para agregarlos a mi cartera de clientes.</td>
+      <td><b>Busqueda de ganadero.</b><br>Given existen ganaderos registrados en la aplicacion<br>When el veterinario ingresa al panel de agregar cliente<br>Then el sistema muestra ganaderos en cartas con nombre, fincas y avatar circular<br><br><b>Envio de peticion simulada.</b><br>Given el veterinario encuentra un ganadero disponible<br>When selecciona enviar peticion<br>Then el sistema asigna automaticamente ese ganadero al veterinario<br>And lo muestra como cliente agregado<br><br><b>Busqueda sin resultados.</b><br>Given el veterinario escribe un nombre sin coincidencias<br>When el sistema filtra los ganaderos<br>Then muestra un mensaje indicando que no se encontraron ganaderos</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>US-024</b></td>
+      <td>Eliminar cliente de la cartera del veterinario</td>
+      <td>Como veterinario, quiero eliminar un cliente de mi lista para dejar de visualizar sus datos ganaderos y sanitarios.</td>
+      <td><b>Eliminacion de relacion veterinario-cliente.</b><br>Given el veterinario tiene un cliente asignado<br>When selecciona eliminar cliente<br>Then el sistema elimina la relacion entre veterinario y ganadero<br>And el cliente deja de aparecer en su lista<br><br><b>Datos del ganadero se conservan.</b><br>Given el veterinario elimina un cliente de su cartera<br>When el sistema procesa la accion<br>Then las fincas, animales y registros del ganadero se conservan en la aplicacion</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>US-025</b></td>
+      <td>Consultar pacientes por ganadero</td>
+      <td>Como veterinario, quiero seleccionar un cliente y ver sus animales para atenderlos de forma organizada.</td>
+      <td><b>Cliente con animales.</b><br>Given el veterinario selecciona un cliente con animales registrados<br>When ingresa al apartado de pacientes<br>Then el sistema muestra las cartas de animales de ese cliente<br><br><b>Filtrado por finca.</b><br>Given el cliente tiene mas de una finca<br>When el veterinario selecciona una finca especifica<br>Then el sistema muestra solo los animales de esa finca</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>US-026</b></td>
+      <td>Acceder al historial de un paciente</td>
+      <td>Como veterinario, quiero abrir el historial clinico desde la carta del paciente para revisar sus atenciones anteriores.</td>
+      <td><b>Acceso desde pacientes.</b><br>Given el veterinario esta visualizando los animales de un cliente<br>When selecciona ver historial en una carta de animal<br>Then el sistema abre el historial clinico del animal seleccionado<br><br><b>Paciente sin registros.</b><br>Given el animal no tiene registros clinicos<br>When el veterinario abre su historial<br>Then el sistema muestra que aun no existen atenciones registradas</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>EP-007</b></td>
+      <td>Calendario, eventos y recordatorios</td>
+      <td>Esta epica agrupa las funcionalidades para registrar y consultar actividades productivas, sanitarias, financieras, reproductivas y visitas veterinarias.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>EP07</b></td>
-      <td>Landing Page Comercial y de Conversión</td>
-      <td><b>Como</b> visitante interesado, <b>quiero</b> informarme sobre la propuesta de valor, características, testimonios y precios de AniTec en una web pública, <b>para</b> evaluar el producto y decidir si me registro en la plataforma.</td>
+      <td><b>US-027</b></td>
+      <td>Visualizar calendario de eventos</td>
+      <td>Como usuario, quiero ver mis eventos programados para organizar actividades ganaderas y sanitarias.</td>
+      <td><b>Eventos existentes.</b><br>Given existen eventos visibles para el usuario<br>When ingresa al apartado de eventos<br>Then el sistema muestra una lista cronologica con fecha, titulo, tipo, estado y prioridad<br><br><b>Sin eventos.</b><br>Given no existen eventos visibles para el usuario<br>When ingresa al apartado de eventos<br>Then el sistema muestra un mensaje indicando que no hay eventos programados</td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td><b>US-028</b></td>
+      <td>Crear evento o recordatorio</td>
+      <td>Como usuario, quiero crear eventos para programar controles, visitas, tareas productivas o recordatorios financieros.</td>
+      <td><b>Evento valido.</b><br>Given el usuario ingresa titulo, tipo, fecha, prioridad y estado<br>When guarda el evento<br>Then el sistema registra el evento<br>And lo muestra en el calendario<br><br><b>Evento incompleto.</b><br>Given el usuario no ingresa titulo o fecha<br>When intenta guardar el evento<br>Then el sistema solicita completar los datos requeridos</td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td><b>US-029</b></td>
+      <td>Editar evento</td>
+      <td>Como usuario, quiero editar un evento para actualizar fecha, prioridad o estado.</td>
+      <td><b>Edicion exitosa.</b><br>Given existe un evento registrado<br>When el usuario modifica sus datos y guarda<br>Then el sistema actualiza el evento en el calendario<br><br><b>Evento inexistente.</b><br>Given el evento no existe<br>When el usuario intenta editarlo<br>Then el sistema redirige al calendario</td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td><b>US-030</b></td>
+      <td>Eliminar evento</td>
+      <td>Como usuario, quiero eliminar eventos que ya no son necesarios para mantener mi calendario ordenado.</td>
+      <td><b>Eliminacion confirmada.</b><br>Given existe un evento registrado<br>When el usuario confirma la eliminacion<br>Then el sistema elimina el evento<br><br><b>Eliminacion cancelada.</b><br>Given el usuario abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el evento permanece registrado</td>
+      <td>EP-007</td>
+    </tr>
+    <tr>
+      <td><b>EP-008</b></td>
+      <td>Gestion financiera del ganadero</td>
+      <td>Esta epica agrupa las funcionalidades financieras para que el ganadero registre ingresos, egresos y revise su balance.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>US01</b></td>
-      <td>Registro de Nueva Cuenta</td>
-      <td><b>Como</b> nuevo usuario, <b>quiero</b> registrar mis datos y crear credenciales, <b>para</b> obtener una cuenta que me permita gestionar mi hato ganadero.</td>
-      <td>
-        - <b>Dado que</b> un usuario ingresa datos válidos y acepta las políticas de privacidad, <b>Cuando</b> procesa el registro, <b>Entonces</b> el sistema crea la cuenta de forma persistente y le otorga acceso automático.<br><br>
-        - <b>Dado que</b> el correo electrónico ingresado ya se encuentra registrado en la plataforma, <b>Cuando</b> se intenta procesar el registro, <b>Entonces</b> el sistema rechaza la solicitud e informa la duplicidad sin comprometer otros datos.
-      </td>
-      <td>EP01</td>
+      <td><b>US-031</b></td>
+      <td>Visualizar movimientos financieros</td>
+      <td>Como ganadero, quiero ver mis ingresos, egresos y balance para controlar la rentabilidad de mi operacion.</td>
+      <td><b>Movimientos existentes.</b><br>Given el ganadero tiene movimientos financieros registrados<br>When ingresa al apartado de finanzas<br>Then el sistema muestra ingresos, egresos, balance y detalle de movimientos<br><br><b>Sin movimientos.</b><br>Given el ganadero no tiene movimientos financieros<br>When ingresa al apartado de finanzas<br>Then el sistema muestra valores en cero o una lista vacia</td>
+      <td>EP-008</td>
     </tr>
     <tr>
-      <td><b>US02</b></td>
-      <td>Inicio de Sesión</td>
-      <td><b>Como</b> usuario registrado, <b>quiero</b> autenticarme en la plataforma, <b>para</b> acceder a mi información de forma segura.</td>
-      <td>
-        - <b>Dado que</b> un usuario provee credenciales correctas, <b>Cuando</b> solicita acceso, <b>Entonces</b> el sistema lo redirige a su panel principal.<br><br>
-        - <b>Dado que</b> el usuario ingresa una clave errónea, <b>Cuando</b> intenta acceder, <b>Entonces</b> el sistema deniega el paso.
-      </td>
-      <td>EP01</td>
+      <td><b>US-032</b></td>
+      <td>Registrar movimiento financiero</td>
+      <td>Como ganadero, quiero registrar ingresos y egresos para mantener actualizado mi balance mensual.</td>
+      <td><b>Registro de ingreso.</b><br>Given el ganadero vende productos o animales<br>When registra un movimiento de tipo ingreso con categoria, monto, fecha y descripcion<br>Then el sistema suma el monto a los ingresos<br><br><b>Registro de egreso.</b><br>Given el ganadero realiza un gasto operativo<br>When registra un movimiento de tipo egreso con categoria, monto, fecha y descripcion<br>Then el sistema suma el monto a los egresos</td>
+      <td>EP-008</td>
     </tr>
     <tr>
-      <td><b>US03</b></td>
-      <td>Recuperación de Contraseña</td>
-      <td><b>Como</b> usuario registrado, <b>quiero</b> solicitar un restablecimiento de mi clave, <b>para</b> recuperar el acceso a mi cuenta si la olvido.</td>
-     <td>
-        - <b>Dado que</b> el usuario ingresa un correo válido, <b>Cuando</b> solicita la recuperación, <b>Entonces</b> el sistema envía un enlace de restablecimiento.<br><br>
-        - <b>Dado que</b> el usuario accede al enlace recibido, <b>Cuando</b> ingresa una nueva contraseña, <b>Entonces</b> el sistema actualiza la contraseña y permite el acceso.<br><br>
-        - <b>Dado que</b> el correo no está registrado, <b>Cuando</b> el usuario solicita la recuperación, <b>Entonces</b> el sistema muestra un mensaje genérico por seguridad.
-      </td>
-      <td>EP01</td>
+      <td><b>US-033</b></td>
+      <td>Editar movimiento financiero</td>
+      <td>Como ganadero, quiero editar un movimiento financiero para corregir montos, categorias o fechas.</td>
+      <td><b>Edicion exitosa.</b><br>Given existe un movimiento financiero<br>When el ganadero modifica sus datos y guarda<br>Then el sistema actualiza el movimiento<br>And recalcula los totales financieros<br><br><b>Movimiento inexistente.</b><br>Given el movimiento no existe<br>When el ganadero intenta editarlo<br>Then el sistema redirige al listado financiero</td>
+      <td>EP-008</td>
     </tr>
     <tr>
-      <td><b>US04</b></td>
-      <td>Ingreso de Nuevo Animal</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> registrar un animal con su información taxonómica y biográfica, <b>para</b> ingresarlo a mi base de datos digital.</td>
-      <td>
-        - <b>Dado que</b> se ingresan datos obligatorios válidos, <b>Cuando</b> se confirma la creación, <b>Entonces</b> el sistema almacena el perfil del animal <b>Y</b> lo muestra en el listado actualizado.<br><br>
-        - <b>Dado que</b> falta un campo obligatorio (ej. especie), <b>Cuando</b> intenta guardar, <b>Entonces</b> el sistema bloquea la acción y resalta el error.<br><br>
-        - <b>Dado que</b> el ganadero ingresa datos en formato inválido (ej. edad negativa), <b>Cuando</b> intenta guardar, <b>Entonces</b> el sistema muestra un mensaje de error indicando que el formato es incorrecto.
-      </td>
-      <td>EP02</td>
+      <td><b>US-034</b></td>
+      <td>Eliminar movimiento financiero</td>
+      <td>Como ganadero, quiero eliminar un movimiento incorrecto para mantener mi balance limpio.</td>
+      <td><b>Eliminacion confirmada.</b><br>Given existe un movimiento financiero<br>When el ganadero confirma la eliminacion<br>Then el sistema elimina el movimiento<br>And recalcula ingresos, egresos y balance<br><br><b>Eliminacion cancelada.</b><br>Given el ganadero abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el movimiento permanece registrado</td>
+      <td>EP-008</td>
     </tr>
     <tr>
-      <td><b>US05</b></td>
-      <td>Edición de Datos del Animal</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> modificar los datos de un animal existente, <b>para</b> mantener su información actualizada.</td>
-      <td>
-        - <b>Dado que</b> el usuario modifica un campo válido de un animal, <b>Cuando</b> guarda los cambios, <b>Entonces</b> el sistema actualiza la base de datos sin alterar el identificador único.<br><br>
-        - <b>Dado que</b> el ganadero ingresa datos inválidos (ej. valores negativos), <b>Cuando</b> intenta guardar los cambios, <b>Entonces</b> el sistema bloquea la actualización y muestra mensajes de error indicando los campos correspondientes mal ingresados.<br><br>
-        - <b>Dado que</b> eL ganadero deja campos obligatorios vacíos, <b>Cuando</b> intenta guardar, <b>Entonces</b> el sistema impide la acción y resalta los campos requeridos.
-      </td>
-      <td>EP02</td>
+      <td><b>EP-009</b></td>
+      <td>Reportes y estadisticas</td>
+      <td>Esta epica agrupa las funcionalidades para visualizar metricas y graficos estadisticos basados en animales, fincas, clientes y registros sanitarios visibles para cada rol.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>US06</b></td>
-      <td>Baja / Eliminación de Animal</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> dar de baja a un animal del sistema, <b>para</b> reflejar ventas o decesos en mi inventario real.</td>
-     <td>
-        - <b>Dado que</b> el usuario selecciona eliminar un registro, E ingrese el ID del animal a eliminar y el motivo (Muerte o Venta) <b>Cuando</b> confirma la acción, <b>Entonces</b> el sistema lo remueve y actualiza el listado principal.<br><br>
-        - <b>Dado que</b> el ganadero no selecciona un motivo de baja ni el ID del animal <b>Cuando</b> intenta confirmar la eliminación, <b>Entonces</b> el sistema bloquea la acción y solicita completar los campos requeridos.
-      </td>
-      <td>EP02</td>
+      <td><b>US-035</b></td>
+      <td>Visualizar reportes del ganadero</td>
+      <td>Como ganadero, quiero ver reportes basados en mis propios animales, fincas y registros sanitarios para tomar decisiones sobre el estado sanitario y productivo de mi hato.</td>
+      <td><b>Reporte con datos propios.</b><br>Given el ganadero tiene animales, fincas y registros sanitarios registrados<br>When ingresa al apartado de reportes<br>Then el sistema muestra metricas calculadas solo con sus datos<br><br><b>Reporte sin datos.</b><br>Given el ganadero no tiene informacion registrada<br>When ingresa al apartado de reportes<br>Then el sistema muestra metricas en cero o graficos con estado sin datos</td>
+      <td>EP-009</td>
     </tr>
     <tr>
-      <td><b>US07</b></td>
-      <td>Listado de Animales</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> ver una lista de todos mis animales, <b>para</b> tener una visión general de mi inventario.</td>
-      <td>
-        - <b>Dado que</b> el usuario accede al módulo de inventario, <b>Cuando</b> carga la vista, <b>Entonces</b> el sistema retorna una lista con resúmenes básicos (especie, edad, sexo) por animal.<br><br>
-        - <b>Dado que</b> no existen animales registrados, <b>Cuando</b> el usuario accede al módulo, <b>Entonces</b> el sistema muestra un mensaje indicando que no hay datos disponibles.
-      </td>
-      <td>EP02</td>
+      <td><b>US-036</b></td>
+      <td>Visualizar reportes del veterinario</td>
+      <td>Como veterinario, quiero ver reportes sanitarios de mis clientes asignados para priorizar pacientes, seguimientos y atenciones por hato.</td>
+      <td><b>Reporte con clientes asignados.</b><br>Given el veterinario tiene clientes asignados<br>When ingresa al apartado de reportes<br>Then el sistema muestra metricas de clientes, pacientes monitoreados, registros sanitarios y seguimientos pendientes<br><br><b>Graficos sanitarios del veterinario.</b><br>Given existen registros sanitarios de animales bajo supervision del veterinario<br>When visualiza reportes<br>Then el sistema muestra graficos de registros por tipo y atenciones por hato</td>
+      <td>EP-009</td>
     </tr>
     <tr>
-      <td><b>US08</b></td>
-      <td>Búsqueda y Filtrado</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> buscar animales por ID o aplicar filtros, <b>para</b> encontrar especímenes específicos de forma rápida.</td>
-     <td>
-        - <b>Dado que</b> el usuario ingresa un término de búsqueda, <b>Cuando</b> ejecuta la consulta, <b>Entonces</b> el sistema retorna solo los registros que coinciden con el término.<br><br>
-        - <b>Dado que</b> aplica un filtro de especie, <b>Cuando</b> la vista se actualiza, <b>Entonces</b> solo se muestran los animales de dicha categoría.<br><br>
-        - <b>Dado que</b> el ganadero limpia los filtros o el término de búsqueda, <b>Cuando</b> restablece la vista, <b>Entonces</b> el sistema muestra nuevamente el listado completo de animales.
-      </td>
-      <td>EP02</td>
+      <td><b>US-037</b></td>
+      <td>Visualizar estado sanitario del hato</td>
+      <td>Como ganadero, quiero ver un grafico del estado de mis animales para identificar cuantos estan saludables, en observacion o en tratamiento.</td>
+      <td><b>Grafico con animales registrados.</b><br>Given el ganadero tiene animales registrados con diferentes estados<br>When ingresa a reportes<br>Then el sistema muestra un grafico de estado del hato con animales saludables, en observacion y en tratamiento<br><br><b>Grafico sin animales.</b><br>Given el ganadero no tiene animales registrados<br>When ingresa a reportes<br>Then el sistema muestra el grafico sin datos o con valores en cero</td>
+      <td>EP-009</td>
     </tr>
     <tr>
-      <td><b>US09</b></td>
-      <td>Ficha Detallada del Animal</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> abrir el perfil completo de un animal, <b>para</b> revisar todos sus atributos, estado reproductivo y documentos.</td>
-      <td>
-        - <b>Dado que</b> el usuario selecciona un animal del listado, <b>Cuando</b> solicita su detalle, <b>Entonces</b> el sistema expone toda su información biográfica y archivos adjuntos.
-      </td>
-      <td>EP02</td>
+      <td><b>US-038</b></td>
+      <td>Visualizar registros sanitarios por tipo</td>
+      <td>Como usuario autorizado, quiero ver los registros sanitarios agrupados por tipo para entender que atenciones son mas frecuentes.</td>
+      <td><b>Registros sanitarios existentes.</b><br>Given existen registros sanitarios visibles para el usuario<br>When ingresa al apartado de reportes<br>Then el sistema muestra un grafico con tipos como incidencia, vacuna, revision, tratamiento y diagnostico<br><br><b>Sin registros sanitarios.</b><br>Given no existen registros sanitarios visibles para el usuario<br>When visualiza el grafico<br>Then el sistema muestra valores en cero o una representacion sin datos</td>
+      <td>EP-009</td>
     </tr>
     <tr>
-      <td><b>US10</b></td>
-      <td>Visualización de Próximos Eventos</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> ver eventos programados, <b>para</b> anticipar campañas de vacunación o tareas sanitarias.</td>
-      <td>
-        - <b>Dado que</b> el usuario accede al módulo de eventos, <b>Cuando</b> carga la vista, <b>Entonces</b> el sistema muestra un listado de eventos (vacunación, tratamientos, campañas) con información básica (tipo, fecha, titulo, descripción, imagen referencial).<br><br>
-        - <b>Dado que</b> el usuario aplica filtro según tipo de evento, <b>Cuando</b> actualiza la vista, <b>Entonces</b> el sistema muestra solo los eventos que cumplen los criterios.<br><br>
-        - <b>Dado que</b> no existen eventos registrados, <b>Cuando</b> el usuario accede al módulo, <b>Entonces</b> el sistema muestra un mensaje indicando que no hay eventos disponibles.
-      </td>
-      <td>EP03</td>
+      <td><b>US-039</b></td>
+      <td>Visualizar atenciones sanitarias por hato</td>
+      <td>Como veterinario, quiero ver las atenciones sanitarias por hato para identificar que clientes requieren mas seguimiento.</td>
+      <td><b>Atenciones agrupadas por hato.</b><br>Given el veterinario tiene clientes con hatos y registros sanitarios<br>When ingresa a reportes<br>Then el sistema muestra un grafico con la cantidad de atenciones sanitarias por hato<br><br><b>Cliente sin atenciones.</b><br>Given un hato no tiene registros sanitarios asociados<br>When se genera el reporte<br>Then el sistema muestra ese hato con valor cero o sin atenciones registradas</td>
+      <td>EP-009</td>
     </tr>
     <tr>
-      <td><b>US11</b></td>
-      <td>Registro de nuevo Evento</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> registrar un nuevo evento sanitario, <b>para</b> planificar y dar seguimiento a las actividades de salud.</td>
-     <td>
-        - <b>Dado que</b> el usuario completa los campos obligatorios (tipo de evento, fecha, título y descripción), <b>Cuando</b> confirma el registro, <b>Entonces</b> el sistema crea el evento y lo muestra en el listado actualizado.<br><br>
-        - <b>Dado que</b> el usuario omite uno o más campos obligatorios, <b>Cuando</b> intenta guardar el evento, <b>Entonces</b> el sistema bloquea la acción y muestra mensajes de validación.<br><br>
-        - <b>Dado que</b> el usuario ingresa datos en formato inválido (ej. fecha incorrecta), <b>Cuando</b> intenta registrar el evento, <b>Entonces</b> el sistema muestra un mensaje de error indicando el formato esperado.
-      </td>
-      <td>EP03</td>
+      <td><b>EP-010</b></td>
+      <td>Navegacion y experiencia compartida</td>
+      <td>Esta epica agrupa funcionalidades generales de navegacion, estructura visual, estados vacios y paginas compartidas por los usuarios.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>US12</b></td>
-      <td>Búsqueda y Selección para Historial</td>
-      <td><b>Como</b> veterinario o ganadero, <b>quiero</b> filtrar animales por especie, edad o sexo, <b>para</b> localizar el animal cuyo historial clínico deseo consultar.</td>
-      <td>
-        - <b>Dado que</b> el usuario accede a la sección de historial clínico, <b>Cuando</b> carga la vista, <b>Entonces</b> el sistema muestra un panel de búsqueda con filtros (especie, edad, sexo) y un listado de animales registrados.<br><br>
-        - <b>Dado que</b> el usuario aplica uno o más filtros, <b>Cuando</b> actualiza la búsqueda, <b>Entonces</b> el sistema muestra únicamente los animales que cumplen con los criterios.<br><br>
-        - <b>Dado que</b> no existen resultados, <b>Cuando</b> se aplican filtros o búsqueda, <b>Entonces</b> el sistema muestra un mensaje indicando que no hay coincidencias.
-      </td>
-      <td>EP04</td>
+      <td><b>US-040</b></td>
+      <td>Navegar mediante menu lateral segun rol</td>
+      <td>Como usuario autenticado, quiero ver un menu lateral adaptado a mi rol para acceder rapidamente a las secciones disponibles.</td>
+      <td><b>Menu del ganadero.</b><br>Given el usuario tiene rol de ganadero<br>When se muestra el layout principal<br>Then el menu incluye panel ganadero, fincas, animales, sanidad, eventos, finanzas y reportes<br><br><b>Menu del veterinario.</b><br>Given el usuario tiene rol de veterinario<br>When se muestra el layout principal<br>Then el menu incluye panel veterinario, clientes, pacientes, sanidad, eventos y reportes</td>
+      <td>EP-010</td>
     </tr>
     <tr>
-      <td><b>US13</b></td>
-      <td>Consulta de Historial Clínico</td>
-      <td><b>Como</b> veterinario o ganadero, <b>quiero</b> visualizar el historial clínico de un animal, <b>para</b> evaluar su evolución sanitaria.</td>
-      <td>
-        - <b>Dado que</b> el usuario selecciona un animal del listado, <b>Cuando</b> accede a su historial clínico, <b>Entonces</b> el sistema muestra una tabla cronológica con las visitas médicas registradas.<br><br>
-        - <b>Dado que</b> el historial contiene registros, <b>Cuando</b> se visualiza la tabla, <b>Entonces</b> se muestran datos como fecha, diagnóstico, tratamiento y observaciones.<br><br>
-        - <b>Dado que</b> no existen visitas registradas, <b>Cuando</b> el usuario accede al historial, <b>Entonces</b> el sistema muestra un mensaje indicando que no hay registros.
-      </td>
-      <td>EP04</td>
+      <td><b>US-041</b></td>
+      <td>Visualizar pagina de inicio interna</td>
+      <td>Como usuario autenticado, quiero ver una pagina de inicio operativa para acceder a modulos principales y obtener un resumen general.</td>
+      <td><b>Inicio con datos disponibles.</b><br>Given el usuario tiene datos registrados<br>When ingresa a la pagina de inicio interna<br>Then el sistema muestra accesos y resumen operativo<br><br><b>Inicio sin datos.</b><br>Given el usuario aun no tiene datos registrados<br>When ingresa a la pagina de inicio interna<br>Then el sistema muestra accesos principales para comenzar</td>
+      <td>EP-010</td>
     </tr>
     <tr>
-      <td><b>US14</b></td>
-      <td>Registro de Visita Médica</td>
-      <td><b>Como</b> veterinario o ganadero, <b>quiero</b> registrar una nueva visita médica, <b>para</b> documentar la atención sanitaria de un animal.</td>
-      <td>
-        - <b>Dado que</b> el usuario se encuentra en el historial de un animal, <b>Cuando</b> selecciona “Añadir nueva visita” y completa los campos obligatorios, <b>Entonces</b> el sistema guarda el registro y lo muestra en el historial.<br><br>
-        - <b>Dado que</b> faltan campos obligatorios, <b>Cuando</b> intenta guardar, <b>Entonces</b> el sistema bloquea la acción y muestra mensajes de validación.<br><br>
-        - <b>Dado que</b> el registro se guarda correctamente, <b>Cuando</b> finaliza la operación, <b>Entonces</b> el sistema muestra una confirmación.
-      </td>
-      <td>EP04</td>
+      <td><b>US-042</b></td>
+      <td>Visualizar pagina acerca de AniTec</td>
+      <td>Como usuario, quiero consultar informacion acerca de AniTec para entender el proposito de la aplicacion.</td>
+      <td><b>Acceso a la pagina acerca de.</b><br>Given el usuario navega a la seccion acerca de<br>When la pagina carga<br>Then el sistema muestra una descripcion de AniTec y sus modulos principales</td>
+      <td>EP-010</td>
     </tr>
     <tr>
-      <td><b>US15</b></td>
-      <td>Edición de Visita Médica</td>
-      <td><b>Como</b> veterinario o ganadero, <b>quiero</b> editar una visita médica, <b>para</b> corregir o actualizar la información.</td>
-      <td>
-        - <b>Dado que</b> el usuario selecciona una visita existente, <b>Cuando</b> modifica los datos y guarda los cambios, <b>Entonces</b> el sistema actualiza la información en el historial.<br><br>
-        - <b>Dado que</b> se ingresan datos inválidos, <b>Cuando</b> intenta guardar, <b>Entonces</b> el sistema muestra errores de validación.
-      </td>
-      <td>EP04</td>
+      <td><b>US-043</b></td>
+      <td>Visualizar pagina no encontrada</td>
+      <td>Como usuario, quiero ver un mensaje claro cuando ingreso a una ruta no disponible para saber que no existe contenido asociado.</td>
+      <td><b>Ruta invalida.</b><br>Given el usuario ingresa una URL inexistente<br>When el sistema no encuentra una ruta asociada<br>Then muestra la pagina no encontrada<br>And permite volver a una ruta valida</td>
+      <td>EP-010</td>
     </tr>
     <tr>
-      <td><b>US16</b></td>
-      <td>Eliminación de Visita Médica</td>
-      <td><b>Como</b> veterinario o ganadero, <b>quiero</b> eliminar una visita médica registrada, <b>para</b> mantener un historial clínico preciso.</td>
-      <td>
-        - <b>Dado que</b> el usuario selecciona una visita médica, <b>Cuando</b> confirma la eliminación, <b>Entonces</b> el sistema elimina el registro del historial.<br><br>
-        - <b>Dado que</b> el usuario cancela la operación, <b>Cuando</b> decide no continuar, <b>Entonces</b> el sistema no realiza cambios.<br><br>
-        - <b>Dado que</b> la eliminación se realiza correctamente, <b>Cuando</b> finaliza la operación, <b>Entonces</b> el sistema actualiza el historial de visitas.
-      </td>
-      <td>EP04</td>
+      <td><b>EP-011</b></td>
+      <td>Landing page publica de AniTec</td>
+      <td>Esta epica agrupa las historias de usuario de la landing page publica de AniTec. Estas historias estan al final porque corresponden a la experiencia informativa y comercial previa al uso de la aplicacion web.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>US17</b></td>
-      <td>Registro de Ingresos Diarios</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> añadir registros de ingresos económicos, <b>para</b> documentar las ganancias por ventas o servicios.</td>
-      <td>
-        - <b>Dado que</b> se introduce un monto positivo y una fecha, <b>Cuando</b> se guarda la transacción, <b>Entonces</b> el sistema la clasifica como ingreso e incrementa el balance del periodo.
-      </td>
-      <td>EP05</td>
+      <td><b>US-044</b></td>
+      <td>Visualizar pagina principal de la landing page</td>
+      <td>Como visitante, quiero ver la pagina principal de AniTec para comprender rapidamente que ofrece la plataforma.</td>
+      <td><b>Carga de pagina principal.</b><br>Given el visitante ingresa a la landing page principal<br>When la pagina carga<br>Then el sistema muestra el logo, navegacion, hero principal, propuesta de valor y llamados a la accion<br><br><b>Navegacion hacia secciones internas.</b><br>Given el visitante esta en la pagina principal<br>When selecciona una opcion del menu<br>Then el sistema lo dirige a la seccion o pagina correspondiente</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US18</b></td>
-      <td>Registro de Egresos Diarios</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> documentar los gastos operativos, <b>para</b> tener control sobre las salidas de dinero de la finca.</td>
-      <td>
-        - <b>Dado que</b> se introduce un monto de gasto y la fecha en la que se realizó, <b>Cuando</b> se guarda la transacción, <b>Entonces</b> el sistema la clasifica como egreso y actualiza las métricas financieras del periodo.
-      </td>
-      <td>EP05</td>
+      <td><b>US-045</b></td>
+      <td>Conocer beneficios generales de AniTec</td>
+      <td>Como visitante, quiero revisar los beneficios generales de AniTec para evaluar si la plataforma resuelve mis necesidades de gestion ganadera.</td>
+      <td><b>Visualizacion de beneficios.</b><br>Given el visitante navega a la seccion de beneficios o caracteristicas<br>When la seccion se muestra<br>Then el sistema presenta beneficios relacionados con gestion ganadera, sanidad, productividad y trazabilidad<br><br><b>Revision desde dispositivo movil.</b><br>Given el visitante usa un dispositivo movil<br>When visualiza los beneficios<br>Then el contenido se adapta al tamano de pantalla sin perder legibilidad</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US19</b></td>
-      <td>Análisis Gráfico de Ganancia</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> visualizar el comportamiento financiero en gráficas, <b>para</b> entender la rentabilidad a lo largo del tiempo.</td>
-      <td>
-        - <b>Dado que</b> el sistema posee registros financieros, <b>Cuando</b> se consulta el análisis mensual, <b>Entonces</b> renderiza un gráfico de barras comparando la utilidad mensual en lo que va del año.
-      </td>
-      <td>EP05</td>
+      <td><b>US-046</b></td>
+      <td>Visualizar pagina para ganaderos</td>
+      <td>Como ganadero visitante, quiero acceder a una pagina orientada a mi perfil para entender como AniTec mejora mi gestion diaria.</td>
+      <td><b>Carga de pagina para ganaderos.</b><br>Given el visitante selecciona la pagina para ganaderos<br>When la pagina carga<br>Then el sistema muestra informacion sobre gestion de animales, sanidad, productividad, finanzas y alertas<br><br><b>Revision de comparacion tradicional vs AniTec.</b><br>Given el visitante esta en la pagina para ganaderos<br>When llega a la seccion comparativa<br>Then el sistema muestra diferencias entre la gestion tradicional y la gestion con AniTec</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US20</b></td>
-      <td>Filtros y Total de Hato</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> visualizar el total de animales según filtros aplicados, <b>para</b> conocer el tamaño de mi inventario bajo criterios específicos.</td>
-      <td>
-        - <b>Dado que</b> el usuario accede al dashboard, <b>Cuando</b> carga la vista, <b>Entonces</b> el sistema muestra una tarjeta con el total general de animales.<br><br>
-        - <b>Dado que</b> el usuario aplica filtros (rango de fechas, especie, ubicación o estado), <b>Cuando</b> actualiza la vista, <b>Entonces</b> el sistema recalcula y muestra el total de animales que cumplen dichos criterios.<br><br>
-        - <b>Dado que</b> no existen resultados para los filtros aplicados, <b>Cuando</b> se actualiza la vista, <b>Entonces</b> el sistema muestra un total igual a cero y un mensaje informativo.<br><br>
-        - <b>Dado que</b> existen gráficos en el dashboard, <b>Cuando</b> el usuario aplica filtros, <b>Entonces</b> estos no afectan el gráfico de distribución por sexo ni el gráfico porcentual por especie.
-      </td>
-      <td>EP06</td>
+      <td><b>US-047</b></td>
+      <td>Visualizar pagina para veterinarios</td>
+      <td>Como veterinario visitante, quiero acceder a una pagina orientada a mi perfil para entender como AniTec apoya la gestion de clientes y pacientes.</td>
+      <td><b>Carga de pagina para veterinarios.</b><br>Given el visitante selecciona la pagina para veterinarios<br>When la pagina carga<br>Then el sistema muestra informacion sobre clientes, pacientes, historiales clinicos, visitas y reportes sanitarios<br><br><b>Revision de flujo profesional.</b><br>Given el visitante esta en la pagina para veterinarios<br>When revisa las secciones de uso<br>Then el sistema explica como el veterinario puede organizar su cartera y atenciones</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US21</b></td>
-      <td>Distribución del Hato por Sexo y Especie</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> visualizar la distribución de mi ganado por especie y sexo, <b>para</b> entender su composición demográfica.</td>
-      <td>
-        - <b>Dado que</b> el usuario accede al dashboard, <b>Cuando</b> carga la sección de distribución, <b>Entonces</b> el sistema muestra un gráfico circular con la proporción por especie y un gráfico de barras con la distribución por sexo.<br><br>
-        - <b>Dado que</b> el usuario interactúa con el selector de especie, <b>Cuando</b> selecciona una opción, <b>Entonces</b> el sistema actualiza el gráfico de barras mostrando la distribución por sexo para dicha especie.<br><br>
-        - <b>Dado que</b> el gráfico circular representa la distribución por especie, <b>Cuando</b> se visualiza, <b>Entonces</b> este no permite interacción ni modificación por parte del usuario.<br><br>
-        - <b>Dado que</b> no existen datos disponibles, <b>Cuando</b> se visualizan los gráficos, <b>Entonces</b> el sistema muestra un mensaje indicando la ausencia de información.
-      </td>
-      <td>EP06</td>
+      <td><b>US-048</b></td>
+      <td>Visualizar pagina nosotros</td>
+      <td>Como visitante, quiero conocer al equipo y la propuesta de AniTec para confiar en la solucion.</td>
+      <td><b>Carga de pagina nosotros.</b><br>Given el visitante selecciona la pagina nosotros<br>When la pagina carga<br>Then el sistema muestra informacion institucional, proposito y contexto del producto</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US22</b></td>
-      <td>Panel de Alertas Clasificadas</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> visualizar un listado de alertas categorizadas por nivel de severidad (críticas, medias, informativas), <b>para</b> detectar anomalías como alta mortalidad o desbalances y tomar acciones preventivas.</td>
-      <td>
-        - <b>Dado que</b> ocurren anomalías registradas en la finca, <b>Cuando</b> el usuario ingresa a Reportes, <b>Entonces</b> el sistema expone tarjetas de alerta con iconos y colores según su gravedad (rojo, amarillo, azul), indicando la causa y la fecha.<br><br>
-        - <b>Dado que</b> pueden existir múltiples avisos, <b>Cuando</b> se visualiza el panel de alertas, <b>Entonces</b> el sistema muestra un bloque resumen con el conteo total numérico segmentado en: Alertas críticas, medias e informativas.
-      </td>
-      <td>EP06</td>
+      <td><b>US-049</b></td>
+      <td>Cambiar idioma en la landing page</td>
+      <td>Como visitante, quiero cambiar el idioma de la landing page para leer la informacion en mi idioma preferido.</td>
+      <td><b>Cambio a espanol.</b><br>Given la landing page esta en ingles<br>When el visitante selecciona espanol<br>Then el sistema actualiza los textos disponibles a espanol<br><br><b>Cambio a ingles.</b><br>Given la landing page esta en espanol<br>When el visitante selecciona ingles<br>Then el sistema actualiza los textos disponibles a ingles</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US23</b></td>
-      <td>Tendencias Históricas Poblacionales</td>
-      <td><b>Como</b> ganadero, <b>quiero</b> analizar una gráfica de líneas sobre la tendencia total del ganado a lo largo del tiempo, <b>para</b> evaluar objetivamente el crecimiento o decrecimiento de mi producción.</td>
-      <td>
-        - <b>Dado que</b> existen registros históricos continuos, <b>Cuando</b> se consulta la gráfica inferior, <b>Entonces</b> el sistema dibuja una línea conectando los puntos de la evolución poblacional mes a mes.<br><br>
-        - <b>Dado que</b> el usuario necesita cambiar la ventana de análisis, <b>Cuando</b> interactúa con el botón de rango temporal (ej. "Últimos 6 meses"), <b>Entonces</b> el eje X de la gráfica se ajusta y redibuja la tendencia para ese periodo específico.
-      </td>
-      <td>EP06</td>
+      <td><b>US-050</b></td>
+      <td>Consultar testimonios de usuarios</td>
+      <td>Como visitante, quiero leer testimonios de ganaderos o veterinarios para conocer experiencias de uso de AniTec.</td>
+      <td><b>Testimonios visibles.</b><br>Given el visitante navega a una pagina con testimonios<br>When llega a la seccion de testimonios<br>Then el sistema muestra comentarios, nombres e imagenes de usuarios representativos</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US24</b></td>
-      <td>Notificaciones Globales</td>
-      <td><b>Como</b> usuario del sistema, <b>quiero</b> visualizar un panel de notificaciones global a través del icono de campana, <b>para</b> enterarme inmediatamente de las alertas registradas sin importar en qué sección de la plataforma me encuentre navegando.</td>
-      <td>
-        - <b>Dado que</b> el motor del sistema genera una nueva alerta (ej. desbalance de sexos o próxima vacunación), <b>Cuando</b> el usuario está activo en la sesión, <b>Entonces</b> el icono de la campana en la barra de navegación muestra un indicador visual de notificación no leída.<br><br>
-        - <b>Dado que</b> el usuario interactúa con la campana de notificaciones, <b>Cuando</b> hace clic sobre el icono, <b>Entonces</b> el sistema despliega un menú flotante con el listado de las alertas más recientes ordenadas por fecha y hora.<br><br>
-        - <b>Dado que</b> el usuario visualiza una alerta en el menú flotante, <b>Cuando</b> hace clic sobre la misma, <b>Entonces</b> el sistema marca la notificación como "leída".
-      </td>
-      <td>EP06</td>
+      <td><b>US-051</b></td>
+      <td>Acceder a contacto o llamada a la accion</td>
+      <td>Como visitante interesado, quiero encontrar facilmente una llamada a la accion o datos de contacto para dar el siguiente paso con AniTec.</td>
+      <td><b>Acceso a contacto desde navegacion.</b><br>Given el visitante esta en la landing page<br>When selecciona la opcion de contacto<br>Then el sistema lo desplaza o redirige al bloque de contacto<br><br><b>Acceso desde CTA.</b><br>Given el visitante lee la propuesta de valor<br>When selecciona un boton de llamada a la accion<br>Then el sistema lo dirige a la seccion definida para iniciar contacto o conocer mas</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US25</b></td>
-      <td>Landing inicio: Visualización de Propuesta de Valor</td>
-      <td><b>Como</b> visitante, <b>quiero</b> visualizar la propuesta de valor principal de AniTec en la página de inicio, <b>para</b> comprender rápidamente qué solución ofrece la plataforma.</td>
-      <td>
-        - <b>Dado que</b> el visitante accede al home de AniTec, <b>Cuando</b> la página carga correctamente, <b>Entonces</b> el sistema muestra el título "Gestiona tu Ganado con Tecnología Innovadora" y la descripción del valor agregado.<br><br>
-        - <b>Dado que</b> el visitante observa la sección hero, <b>Cuando</b> hace scroll, <b>Entonces</b> el sistema despliega las métricas clave (+500 ganaderos, +120 veterinarios, +5,000 animals).
-      </td>
-      <td>EP07</td>
+      <td><b>US-052</b></td>
+      <td>Visualizar landing page en dispositivos moviles</td>
+      <td>Como visitante movil, quiero navegar la landing page desde mi celular para conocer AniTec sin problemas de visualizacion.</td>
+      <td><b>Menu movil.</b><br>Given el visitante abre la landing page desde un dispositivo movil<br>When selecciona el boton de menu<br>Then el sistema muestra las opciones de navegacion adaptadas a pantalla pequena<br><br><b>Contenido responsive.</b><br>Given el visitante navega por la landing page desde movil<br>When revisa imagenes, textos y tarjetas<br>Then el contenido se adapta sin cortes, solapamientos ni perdida de legibilidad</td>
+      <td>EP-011</td>
     </tr>
     <tr>
-      <td><b>US26</b></td>
-      <td>Landing inicio: Exploración de Segmentos</td>
-      <td><b>Como</b> visitante, <b>quiero</b> explorar los dos segmentos objetivo de AniTec en la página de inicio, <b>para</b> identificar si la plataforma es relevante para mi rol.</td>
-      <td>
-        - <b>Dado que</b> el visitante visualiza la sección "Diseñado para Ganaderos y Veterinarios", <b>Cuando</b> hace clic en "ganaderos", <b>Entonces</b> el sistema lo redirige a la página de ganaderos.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "veterinarios", <b>Cuando</b> selecciona el segmento, <b>Entonces</b> el sistema lo redirige a la página de veterinarios.
-      </td>
-      <td>EP07</td>
+      <td><b>EP-001</b></td>
+      <td>Gestion de acceso, sesion y roles</td>
+      <td>Esta epica agrupa las funcionalidades necesarias para que los usuarios ingresen a AniTec con una identidad determinada y accedan a una experiencia diferenciada segun su rol de ganadero o veterinario.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
     </tr>
     <tr>
-      <td><b>US27</b></td>
-      <td>Landing inicio: Visualización de Métricas e Impacto</td>
-      <td><b>Como</b> visitante, <b>quiero</b> observar las métricas de impacto de AniTec, <b>para</b> confiar en la efectividad de la plataforma.</td>
-      <td>
-        - <b>Dado que</b> el visitante accede a la sección de métricas, <b>Cuando</b> visualiza las estadísticas (85% menos información perdida, 2h ahorro diario), <b>Entonces</b> el sistema muestra los indicadores de manera clara y visual.<br><br>
-        - <b>Dado que</b> el visitante verifica las cifras de ganaderos confían, <b>Cuando</b> observa "+500 ganaderos trust", <b>Entonces</b> el sistema presenta el número actualizado.
-      </td>
-      <td>EP07</td>
+      <td><b>US-053</b></td>
+      <td>Iniciar sesion como usuario registrado</td>
+      <td>Como usuario registrado, quiero iniciar sesion con mis credenciales para acceder a las funcionalidades que corresponden a mi rol.</td>
+      <td><b>Inicio de sesion con credenciales validas.</b><br>Given el usuario se encuentra en la pantalla de inicio de sesion<br>And ingresa un usuario y contrasena validos<br>When selecciona la opcion de ingresar<br>Then el sistema autentica al usuario<br>And redirige al dashboard correspondiente segun su rol<br><br><b>Inicio de sesion con credenciales invalidas.</b><br>Given el usuario se encuentra en la pantalla de inicio de sesion<br>And ingresa un usuario o contrasena incorrectos<br>When selecciona la opcion de ingresar<br>Then el sistema no permite el acceso<br>And muestra un mensaje de credenciales invalidas</td>
+      <td>EP-001</td>
     </tr>
     <tr>
-      <td><b>US28</b></td>
-      <td>Landing inicio: Navegación entre Secciones</td>
-      <td><b>Como</b> visitante, <b>quiero</b> navegar entre las diferentes secciones de la landing page, <b>para</b> explorar todo el contenido de manera fluida.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Pricing" en el menú, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema realiza scroll hacia la sección de precios.<br><br>
-        - <b>Dado que</b> el visitante hace scroll por la página, <b>Cuando</b>reach the features section, <b>Entonces</b> el sistema carga las animaciones de entrada de manera fluida.
-      </td>
-      <td>EP07</td>
+      <td><b>US-054</b></td>
+      <td>Redirigir al dashboard del rol correspondiente</td>
+      <td>Como usuario autenticado, quiero ser enviado al panel correcto para usar solo las funciones propias de mi perfil.</td>
+      <td><b>Acceso como ganadero.</b><br>Given el usuario autenticado tiene rol de ganadero<br>When el inicio de sesion se completa correctamente<br>Then el sistema lo redirige al dashboard ganadero<br><br><b>Acceso como veterinario.</b><br>Given el usuario autenticado tiene rol de veterinario<br>When el inicio de sesion se completa correctamente<br>Then el sistema lo redirige al dashboard veterinario</td>
+      <td>EP-001</td>
     </tr>
     <tr>
-      <td><b>US29</b></td>
-      <td>Landing inicio: Acceso a Precios y Planes</td>
-      <td><b>Como</b> visitante interesado, <b>quiero</b> revisar los planes y precios de AniTec, <b>para</b> evaluar cuál plan se ajusta a mis necesidades.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Pricing" o "Precios", <b>Cuando</b> navigation reaches the pricing section, <b>Entonces</b> el sistema muestra los tres planes (Basic $0, Professional $19, Enterprise $49).<br><br>
-        - <b>Dado que</b> el visitante hace clic en "Elegir Plan" del plan Professional, <b>Cuando</b> selecciona el botón, <b>Entonces</b> el sistema abre el formulario de registro.
-      </td>
-      <td>EP07</td>
+      <td><b>US-055</b></td>
+      <td>Restringir rutas segun rol</td>
+      <td>Como usuario autenticado, quiero que el sistema me permita acceder solo a las secciones correspondientes a mi rol para evitar operaciones que no me pertenecen.</td>
+      <td><b>Ganadero intenta acceder a una ruta de veterinario.</b><br>Given el usuario autenticado tiene rol de ganadero<br>When intenta ingresar a una ruta exclusiva de veterinarios<br>Then el sistema bloquea el acceso<br>And lo redirige a su dashboard ganadero<br><br><b>Veterinario intenta acceder a una ruta exclusiva de finanzas ganaderas.</b><br>Given el usuario autenticado tiene rol de veterinario<br>When intenta acceder a una ruta exclusiva del ganadero<br>Then el sistema bloquea el acceso<br>And lo redirige a su dashboard veterinario</td>
+      <td>EP-001</td>
     </tr>
     <tr>
-      <td><b>US30</b></td>
-      <td>Landing nosotros: Información del Equipo</td>
-      <td><b>Como</b> visitante, <b>quiero</b> conocer al equipo detrás de AniTec, <b>para</b> identificar a los creadores y su experiencia.</td>
-      <td>
-        - <b>Dado que</b> el visitante accede a la página "About Us", <b>Cuando</b> la página carga, <b>Entonces</b> el sistema muestra la información del equipo Titan y los perfiles de los integrantes.<br><br>
-        - <b>Dado que</b> el visitante visualiza la misión y visión, <b>Cuando</b> hace scroll hacia la sección, <b>Entonces</b> el sistema despliega los valores corporativa de la startup.
-      </td>
-      <td>EP07</td>
+      <td><b>US-056</b></td>
+      <td>Cerrar sesion</td>
+      <td>Como usuario autenticado, quiero cerrar sesion para proteger mi informacion cuando deje de usar la aplicacion.</td>
+      <td><b>Cierre de sesion exitoso.</b><br>Given el usuario tiene una sesion activa<br>When selecciona la opcion de salir<br>Then el sistema elimina la sesion activa<br>And redirige al usuario a la pantalla de inicio de sesion<br><br><b>Intento de acceso posterior al cierre de sesion.</b><br>Given el usuario cerro sesion<br>When intenta acceder a una ruta privada<br>Then el sistema solicita iniciar sesion nuevamente</td>
+      <td>EP-001</td>
     </tr>
     <tr>
-      <td><b>US31</b></td>
-      <td>Landing nosotros: Conocimiento del Proceso</td>
-      <td><b>Como</b> visitante, <b>quiero</b> entender el proceso de desarrollo y tecnología utilizada, <b>para</b> evaluar la viabilidad técnica del proyecto.</td>
-      <td>
-        - <b>Dado que</b> el visitante explora la sección de proceso, <b>Cuando</b> hace scroll hacia "Nuestro Proceso", <b>Entonces</b> el sistema muestra el timeline con las fases del desarrollo.<br><br>
-        - <b>Dado que</b> el visitante visualiza las tecnologías, <b>Cuando</b> observa el stack tecnológico (VueJS, .NET, SQL Server), <b>Entonces</b> el sistema presenta los logos y descripciones de cada tecnología.
-      </td>
-      <td>EP07</td>
+      <td><b>US-057</b></td>
+      <td>Cambiar idioma de la interfaz</td>
+      <td>Como usuario, quiero cambiar el idioma de la interfaz para utilizar la aplicacion en el idioma que prefiera.</td>
+      <td><b>Seleccion de idioma espanol.</b><br>Given el usuario visualiza la aplicacion en otro idioma<br>When selecciona la opcion ES<br>Then el sistema muestra los textos de la interfaz en espanol<br><br><b>Seleccion de idioma ingles.</b><br>Given el usuario visualiza la aplicacion en espanol<br>When selecciona la opcion EN<br>Then el sistema muestra los textos disponibles en ingles</td>
+      <td>EP-001</td>
     </tr>
     <tr>
-      <td><b>US32</b></td>
-      <td>Landing nosotros: Contacto y Redes Sociales</td>
-      <td><b>Como</b> visitante, <b>quiero</b> encontrar información de contacto y redes sociales, <b>para</b> poder comunicar consultas o sugerencias.</td>
-      <td>
-        - <b>Dado que</b> el visitante Busca opciones de contacto, <b>Cuando</b> reach the footer o sección de contacto, <b>Entonces</b> el sistema muestra los enlaces a redes sociales (Facebook, Instagram, Twitter, LinkedIn, YouTube).<br><br>
-        - <b>Dado que</b> el visitante hace clic en una red social, <b>Cuando</b> selecciona el icono, <b>Entonces</b> el sistema abre la página oficial de AniTec en una nueva pestaña.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-001</b></td>
+      <td>Configuracion inicial del frontend con Vue, Vite y PrimeVue</td>
+      <td>Como desarrollador frontend, quiero configurar la base del proyecto con Vue, Vite y PrimeVue para construir una aplicacion web modular, rapida y con componentes reutilizables.</td>
+      <td><b>Proyecto ejecutable.</b><br>Given el proyecto frontend esta configurado<br>When se ejecuta npm run dev<br>Then la aplicacion inicia correctamente en el navegador<br><br><b>Compilacion correcta.</b><br>Given el codigo fuente esta completo<br>When se ejecuta npm run build<br>Then Vite genera la version de produccion sin errores de compilacion</td>
+      <td>EP-010</td>
     </tr>
     <tr>
-      <td><b>US33</b></td>
-      <td>Landing nosotros: Política de Privacidad</td>
-      <td><b>Como</b> visitante, <b>quiero</b> revisar la política de privacidad y términos, <b>para</b> entender cómo se protegen mis datos.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Privacy Policy", <b>Cuando</b> selecciona el enlace en el footer, <b>Entonces</b> el sistema despliega el documento completo de privacidad.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "Terms of Service", <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema muestra los términos y condiciones del servicio.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-002</b></td>
+      <td>Configuracion de rutas protegidas por rol con Vue Router</td>
+      <td>Como desarrollador frontend, quiero configurar rutas publicas y privadas con validacion por rol para controlar el acceso de ganaderos y veterinarios.</td>
+      <td><b>Ruta privada sin sesion.</b><br>Given un usuario no autenticado intenta entrar a una ruta privada<br>When el router evalua la navegacion<br>Then el sistema lo redirige al inicio de sesion<br><br><b>Ruta restringida por rol.</b><br>Given un usuario autenticado intenta acceder a una ruta de otro rol<br>When el router valida los roles permitidos<br>Then el sistema lo redirige a su dashboard correspondiente</td>
+      <td>EP-001</td>
     </tr>
     <tr>
-      <td><b>US34</b></td>
-      <td>Landing nosotros: Navegación General</td>
-      <td><b>Como</b> visitante, <b>quiero</b> navegar fluidamente por todas las secciones de About Us, <b>para</b> explorar el contenido completo de la página.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Home" desde About Us, <b>Cuando</b> selecciona el enlace, <b>Entonces</b> el sistema redirige a la página principal.<br><br>
-        - <b>Dado que</b> el visitante utiliza el menú de navegación, <b>Cuando</b> hace Scroll, <b>Entonces</b> el sistema mantiene el header fijo para facilitar la navegación.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-003</b></td>
+      <td>Manejo de estado global con Pinia</td>
+      <td>Como desarrollador frontend, quiero manejar los datos principales mediante stores de Pinia para compartir informacion entre vistas sin repetir logica.</td>
+      <td><b>Datos compartidos.</b><br>Given una vista carga animales, fincas, eventos o registros sanitarios<br>When otra vista necesita esos datos<br>Then puede obtenerlos desde el store correspondiente<br><br><b>Actualizacion del estado.</b><br>Given el usuario crea, edita o elimina un registro<br>When el store procesa la accion<br>Then la informacion visible se actualiza en la interfaz</td>
+      <td>EP-002, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
-      <td><b>US35</b></td>
-      <td>Landing nosotros: Llamados a la Acción</td>
-      <td><b>Como</b> visitante, <b>quiero</b> acceder a los CTAs de conversión en About Us, <b>para</b> iniciar mi registro o contactarme con el equipo.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Start Free Now", <b>Cuando</b> selecciona el botón CTA, <b>Entonces</b> el sistema redirige al flujo de autenticación.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "Contact", <b>Cuando</b> selecciona el botón de contacto, <b>Entonces</b> el sistema abre el formulario de contacto o muestra la información de email.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-004</b></td>
+      <td>Consumo de datos mediante Axios, BaseApi y BaseEndpoint</td>
+      <td>Como desarrollador frontend, quiero centralizar el consumo de datos con Axios, BaseApi y BaseEndpoint para evitar repetir codigo de peticiones en cada modulo.</td>
+      <td><b>Consulta de datos.</b><br>Given un store solicita informacion de un modulo<br>When llama a su clase API correspondiente<br>Then el sistema usa BaseEndpoint para obtener los datos del endpoint configurado<br><br><b>Operacion sobre registros.</b><br>Given el usuario crea, actualiza o elimina un registro<br>When el store llama a la API<br>Then se ejecuta la peticion correspondiente usando la estructura comun de endpoints</td>
+      <td>EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
-      <td><b>US36</b></td>
-      <td>Landing ganaderos: Exploración de Contenido Específico</td>
-      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> explorar el contenido específico para ganaderos, <b>para</b> evaluar si AniTec se ajusta a mis necesidades.</td>
-      <td>
-        - <b>Dado que</b> el visitante accede a la página de ganaderos, <b>Cuando</b> la página carga, <b>Entonces</b> el sistema muestra el hero con "Digitize Your Livestock Today" y las características específicas para ganaderos.<br><br>
-        - <b>Dado que</b> el visitante hace scroll, <b>Cuando</b> visualiza la sección de módulos, <b>Entonces</b> el sistema presenta los 4 módulos (Gestión de Animales, Control Sanitario, Reproducción, Gestión Económica).
-      </td>
-      <td>EP07</td>
+      <td><b>TS-005</b></td>
+      <td>Persistencia local de sesion y usuarios demo con localStorage</td>
+      <td>Como desarrollador frontend, quiero guardar la sesion y las relaciones demo en localStorage para mantener la experiencia del usuario durante la navegacion y recarga de pagina.</td>
+      <td><b>Sesion persistente.</b><br>Given el usuario inicia sesion correctamente<br>When recarga la pagina<br>Then el sistema mantiene los datos de sesion disponibles<br><br><b>Clientes asignados persistentes.</b><br>Given un veterinario agrega o elimina un cliente demo<br>When se actualiza la relacion<br>Then el sistema guarda el cambio en localStorage</td>
+      <td>EP-001, EP-006</td>
     </tr>
     <tr>
-      <td><b>US37</b></td>
-      <td>Landing ganaderos: Visualización de Testimonios</td>
-      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> leer testimonios de otros ganaderos, <b>para</b> evaluar la confianza en la plataforma.</td>
-      <td>
-        - <b>Dado que</b> el visitante alcanza la sección de testimonios, <b>Cuando</b> hace scroll hacia "What ganaderos Say", <b>Entonces</b> el sistema muestra las tarjetas de testimonios con fotos, nombres y países.<br><br>
-        - <b>Dado que</b> el visitante observa las estrellas de calificación, <b>Cuando</b> visualiza cada testimonio, <b>Entonces</b> el sistema presenta 5 estrellas para indicar satisfacción.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-006</b></td>
+      <td>Internacionalizacion con vue-i18n</td>
+      <td>Como desarrollador frontend, quiero configurar vue-i18n para mostrar textos de la aplicacion en espanol e ingles.</td>
+      <td><b>Cambio de idioma.</b><br>Given el usuario selecciona un idioma disponible<br>When se actualiza la configuracion de i18n<br>Then los textos de la interfaz se muestran en el idioma seleccionado<br><br><b>Textos reutilizables.</b><br>Given una vista necesita mostrar etiquetas o titulos<br>When usa la funcion t<br>Then obtiene el texto desde los archivos de traduccion</td>
+      <td>EP-001, EP-010</td>
     </tr>
     <tr>
-      <td><b>US38</b></td>
-      <td>Landing ganaderos: Comparación de Métodos</td>
-      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> visualizar la comparación entre el método tradicional y AniTec, <b>para</b> entender los beneficios de digitalizar.</td>
-      <td>
-        - <b>Dado que</b> el visitante llega a la sección "Traditional vs AniTec", <b>Cuando</b> visualiza las tarjetas comparativas, <b>Entonces</b> el sistema muestra las ventajas del método tradicional vs AniTec (8 beneficios contrastados).<br><br>
-        - <b>Dado que</b> el visitante observa las estadísticas de impacto, <b>Cuando</b> hace scroll hacia las métricas finales, <b>Entonces</b> el sistema presenta: 85% reducción de tiempo, 100% trazabilidad, 30% aumento en productividad.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-007</b></td>
+      <td>Integracion de graficos estadisticos con Chart.js y PrimeVue Chart</td>
+      <td>Como desarrollador frontend, quiero integrar graficos estadisticos para mostrar reportes visuales de estado del hato, registros sanitarios y atenciones por hato.</td>
+      <td><b>Grafico renderizado.</b><br>Given existen datos visibles para el usuario<br>When ingresa al apartado de reportes<br>Then el sistema renderiza graficos usando los datos calculados del frontend<br><br><b>Datos filtrados por rol.</b><br>Given el usuario tiene rol de ganadero o veterinario<br>When visualiza reportes<br>Then los graficos usan solo la informacion permitida para su rol</td>
+      <td>EP-009</td>
     </tr>
     <tr>
-      <td><b>US39</b></td>
-      <td>Landing ganaderos: Llamado a la Acción Final</td>
-      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> acceder al CTA final de la página, <b>para</b> iniciar mi registro o prueba gratuita.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Start Free Now", <b>Cuando</b> selecciona el botón CTA, <b>Entonces</b> el sistema redirige a la página de precios o formulario de registro.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "View How It Works", <b>Cuando</b> selecciona el botón secundario, <b>Entonces</b> el sistema abre el contenido explicativo o video demostrativo.
-      </td>
-      <td>EP07</td>
+      <td><b>TS-008</b></td>
+      <td>Construccion de componentes responsive y layout por rol</td>
+      <td>Como desarrollador frontend, quiero construir un layout responsive con menu lateral y opciones segun rol para mejorar la navegacion en distintas pantallas.</td>
+      <td><b>Menu segun rol.</b><br>Given el usuario inicia sesion como ganadero o veterinario<br>When se muestra el layout principal<br>Then el menu lateral muestra solo las opciones correspondientes a su rol<br><br><b>Adaptacion visual.</b><br>Given el usuario usa una pantalla pequena<br>When navega por la aplicacion<br>Then el layout y los componentes se adaptan para mantener legibilidad y uso correcto</td>
+      <td>EP-010</td>
     </tr>
-    <tr>
-      <td><b>US40</b></td>
-      <td>Landing ganaderos: Información de Precios</td>
-      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> acceder a la información de precios desde la página, <b>para</b> evaluar los planes disponibles.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Pricing" desde el menú, <b>Cuando</b> selecciona el enlace, <b>Entonces</b> el sistema navega a la sección de precios en la página principal.<br><br>
-        - <b>Dado que</b> el visitante hace clic en el botón de precios desde el CTA, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema muestra los planes con precios actualizados.
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US41</b></td>
-      <td>Landing ganaderos: Navegación entre páginas</td>
-      <td><b>Como</b> visitante del segmento de ganaderos, <b>quiero</b> navegar a otras páginas desde la página de ganaderos, <b>para</b> explorar contenido adicional.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Home" desde el menú, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema redirige a la página principal.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "veterinarios" desde el menú, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema navega a la página de veterinarios para explorar el otro segmento.
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US42</b></td>
-      <td>Landing veterinarios: Contenido Específico del Segmento</td>
-      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> explorar el contenido diseñado para veterinarios, <b>para</b> evaluar si AniTec se adapta a mi práctica profesional.</td>
-      <td>
-        - <b>Dado que</b> el visitante accede a la página de veterinarios, <b>Cuando</b> la página carga, <b>Entonces</b> el sistema muestra el hero con "Optimize Your Veterinary Practice" y badge "Herramienta Profesional #1".<br><br>
-        - <b>Dado que</b> el visitante hace scroll, <b>Cuando</b> se ubica en la sección, <b>Entonces</b> el sistema despliega las 6 funcionalidades clave (Búsqueda de Pacientes, Registro de Visitas, Recetas Digitales, Seguimiento, Compartir con Ganadero, Reportes Profesionales).
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US43</b></td>
-      <td>Landing veterinarios: Casos de Uso</td>
-      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> leer los casos de uso específicos de la herramienta, <b>para</b> comprender cómo AniTec facilita mi trabajo diario.</td>
-      <td>
-        - <b>Dado que</b> el visitante se ubica en la sección de "Casos de Uso", <b>Cuando</b> hace scroll hacia la sección, <b>Entonces</b> el sistema muestra 4 casos (Visita de Campo, Emergencia Ganadera, Seguimiento de Tratamiento, Coordinación con Colegas).<br><br>
-        - <b>Dado que</b> el visitante visualiza las imágenes de cada caso, <b>Cuando</b> las observa, <b>Entonces</b> el sistema presenta una imagen representativa para cada escenario con overlay descriptivo.
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US44</b></td>
-      <td>Landing veterinarios: Testimonios del Segmento</td>
-      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> leer testimonios de otros veterinarios, <b>para</b> evaluar la confiabilidad de la plataforma.</td>
-      <td>
-        - <b>Dado que</b> el visitante se ubica en la sección de testimonios, <b>Cuando</b> hace scroll hacia "What veterinarios Say", <b>Entonces</b> el sistema muestra las tarjetas de testimonios con fotos de veterinarios, nombres, países y calificaciones.<br><br>
-        - <b>Dado que</b> el testimonio incluye la especialidad del veterinario, <b>Cuando</b> lo visualiza, <b>Entonces</b> el sistema presenta información como "Médico Veterinario, Perú" o "Veterinaria Ganadera, México".
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US45</b></td>
-      <td>Landing veterinarios: Llamado a la Acción</td>
-      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> acceder a los CTAs para iniciar mi uso de AniTec, <b>para</b> comenzar a utilizar la plataforma en mi práctica profesional.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Start Free Now", <b>Cuando</b> selecciona el botón CTA principal, <b>Entonces</b> el sistema redirige al formulario de registro o flujo de autenticación.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "View How It Works", <b>Cuando</b> selecciona el botón secundario, <b>Entonces</b> el sistema abre el contenido demostrativo o video explicativo de la plataforma.
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US46</b></td>
-      <td>Landing veterinarios: Acceso a Precios</td>
-      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> revisar los planes y precios desde la página de veterinarios, <b>para</b> evaluar la inversión necesaria.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Pricing" desde el menú, <b>Cuando</b> selecciona el enlace, <b>Entonces</b> el sistema navega a la sección de precios en index.html.<br><br>
-        - <b>Dado que</b> el visitante hace clic en el botón de precios desde el CTA final, <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema muestra los planes con precios para su comparación.
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-      <td><b>US47</b></td>
-      <td>Landing veterinarios: Navegación Entre páginas</td>
-      <td><b>Como</b> visitante del segmento de veterinarios, <b>quiero</b> navegar a otras páginas desde la página de veterinarios, <b>para</b> explorar el contenido completo del sitio.</td>
-      <td>
-        - <b>Dado que</b> el visitante hace clic en "Home", <b>Cuando</b> selecciona la opción, <b>Entonces</b> el sistema redirige a la página principal.<br><br>
-        - <b>Dado que</b> el visitante hace clic en "ganaderos" o "About Us", <b>Cuando</b> selecciona cualquier enlace del menú, <b>Entonces</b> el sistema navega a la página correspondiente sin recargar la aplicación completa.
-      </td>
-      <td>EP07</td>
-    </tr>
-    <tr>
-  <td><b>TS01</b></td>
-  <td>Implementación del Esquema de Base de Datos Relacional</td>
-  <td><b>Como</b> desarrollador backend, <b>quiero</b> implementar el esquema de base de datos en SQL Server basado en el diseño del Capítulo 4.8, <b>para</b> garantizar la persistencia de datos de animales, usuarios y registros médicos.</td>
-  <td>
-    <b>E1: Persistencia de registros.</b> <b>Dado que</b> envío una entidad "Animal" válida (raza, edad, sexo), <b>Cuando</b> se ejecuta el guardado en la base de datos, <b>Entonces</b> el registro se almacena con un ID único y estado "Activo".<br><br>
-    <b>E2: Integridad referencial.</b> <b>Dado que</b> intento eliminar un "Animal" que tiene "Visitas Médicas" asociadas, <b>Cuando</b> se ejecuta la transacción, <b>Entonces</b> el sistema impide el borrado físico para mantener la trazabilidad histórica.
-  </td>
-  <td>EP02</td>
-</tr>
-
-<tr>
-  <td><b>TS02</b></td>
-  <td>Configuración de la Solución .NET bajo patrón DDD</td>
-  <td><b>Como</b> arquitecto de software, <b>quiero</b> estructurar la solución .NET siguiendo los Bounded Contexts identificados (Authentication, Livestock, Sanitary, Financial, Reporting), <b>para</b> asegurar un código mantenible y escalable.</td>
-  <td>
-    <b>E1: Separación de capas.</b> <b>Dado que</b> defino una entidad en la capa de "Domain", <b>Cuando</b> intento acceder directamente a clases de "Infrastructure", <b>Entonces</b> el compilador debe restringir la referencia para respetar el principio de inversión de dependencias.<br><br>
-    <b>E2: Inyección de dependencias.</b> <b>Dado que</b> el sistema arranca, <b>Cuando</b> se solicita un servicio de aplicación, <b>Entonces</b> el contenedor de dependencias debe instanciar correctamente sus repositorios correspondientes.
-  </td>
-  <td>EP02</td>
-</tr>
-
-<tr>
-  <td><b>TS03</b></td>
-  <td>Implementación de Autenticación mediante JWT</td>
-  <td><b>Como</b> desarrollador backend, <b>quiero</b> configurar un sistema de tokens JWT (JSON Web Tokens), <b>para</b> permitir que ganaderos y veterinarios accedan de forma segura a sus respectivos módulos.</td>
-  <td>
-    <b>E1: Generación de token.</b> <b>Dado que</b> el usuario provee credenciales válidas, <b>Cuando</b> hace POST a /api/auth/login, <b>Entonces</b> el sistema retorna un token JWT firmado con el rol del usuario.<br><br>
-    <b>E2: Acceso restringido.</b> <b>Dado que</b> un usuario no está autenticado, <b>Cuando</b> intenta consultar la lista de animales, <b>Entonces</b> el sistema responde con un código de estado 401 Unauthorized.
-  </td>
-  <td>EP01</td>
-</tr>
-
-<tr>
-  <td><b>TS04</b></td>
-  <td>Desarrollo del Sistema de Diseño en VueJS</td>
-  <td><b>Como</b> desarrollador frontend, <b>quiero</b> implementar una librería de componentes reutilizables (Botones, Inputs, Cards) basada en la "Web Style Guide", <b>para</b> estandarizar la interfaz de la aplicación.</td>
-  <td>
-    <b>E1: Consistencia de color.</b> <b>Dado que</b> utilizo el componente "AtButton" con propiedad "primary", <b>Cuando</b> se renderiza en el navegador, <b>Entonces</b> el color de fondo debe ser #925930 según la guía de estilos.<br><br>
-    <b>E2: Adaptabilidad.</b> <b>Dado que</b> visualizo un componente "Card" en una pantalla móvil (360px), <b>Cuando</b> se carga la página, <b>Entonces</b> el componente debe ajustar su ancho al 100% del contenedor.
-  </td>
-  <td>EP07</td>
-</tr>
-
-<tr>
-  <td><b>TS05</b></td>
-  <td>Motor de Notificaciones y Alertas Sanitarias</td>
-  <td><b>Como</b> desarrollador backend, <b>quiero</b> crear un servicio que evalúe las fechas de vacunación en el historial médico, <b>para</b> generar alertas automáticas en el dashboard del ganadero.</td>
-  <td>
-    <b>E1: Detección de proximidad.</b> <b>Dado que</b> un animal tiene una vacuna programada en 48 horas, <b>Cuando</b> el proceso de verificación se ejecuta, <b>Entonces</b> se crea un registro en la tabla de "Alertas" con severidad "Media".<br><br>
-    <b>E2: Visualización global.</b> <b>Dado que</b> existen nuevas alertas sin leer, <b>Cuando</b> el usuario inicia sesión, <b>Entonces</b> el icono de campana en el frontend debe mostrar un indicador visual numérico.
-  </td>
-  <td>EP06</td>
-</tr>
-
-<tr>
-  <td><b>TS06</b></td>
-  <td>Manejo de Estado Global y Consumo de API (Pinia/Axios)</td>
-  <td><b>Como</b> desarrollador frontend, <b>quiero</b> configurar Pinia para el manejo de estado y Axios para las peticiones HTTP, <b>para</b> gestionar la información del hato de forma eficiente en el cliente.</td>
-  <td>
-    <b>E1: Caché de datos.</b> <b>Dado que</b> el usuario navega entre la lista y el detalle de un animal, <b>Cuando</b> los datos ya están en el Store de Pinia, <b>Entonces</b> el sistema no debe realizar peticiones HTTP duplicadas al servidor.<br><br>
-    <b>E2: Manejo de errores.</b> <b>Dado que</b> el servidor está caído, <b>Cuando</b> el cliente realiza una petición, <b>Entonces</b> el interceptor de Axios debe capturar el error y mostrar un mensaje global de "Servicio no disponible".
-  </td>
-  <td>EP02</td>
-</tr>
-<tr>
-  <td><b>TS07</b></td>
-  <td>Implementación de Dashboard con Gráficos Dinámicos</td>
-  <td><b>Como</b> desarrollador frontend, <b>quiero</b> integrar una librería de visualización de datos (como Chart.js o ApexCharts) en el dashboard, <b>para</b> permitir que el usuario visualice indicadores clave de rendimiento (KPIs) de forma interactiva.</td>
-  <td>
-    <b>E1: Rendering interactivo.</b> <b>Dado que</b> se cargan los datos demográficos del hato, <b>Cuando</b> el usuario visualiza el dashboard, <b>Entonces</b> el sistema renderiza un gráfico circular con la distribución por especie y un gráfico de barras por sexo según los requerimientos de la US21.<br><br>
-    <b>E2: Filtro temporal dinámico.</b> <b>Dado que</b> el usuario cambia el rango de fechas en el selector del reporte poblacional, <b>Cuando</b> se actualiza el estado de la vista, <b>Entonces</b> el gráfico de líneas de tendencias se redibuja automáticamente reflejando la evolución del ganado en ese periodo (Soporte a US23).
-  </td>
-  <td>EP06</td>
-</tr>
-<tr>
-  <td><b>TS08</b></td>
-  <td>Integración con Servicio de Almacenamiento de Objetos (Cloud Storage)</td>
-  <td><b>Como</b> desarrollador backend, <b>quiero</b> integrar un servicio de almacenamiento (como Azure Blob Storage o AWS S3), <b>para</b> permitir que los ganaderos suban fotos de sus animales y los veterinarios adjunten informes médicos en PDF.</td>
-  <td>
-    <b>E1: Carga y persistencia.</b> <b>Dado que</b> el usuario sube una imagen de un animal (raza_ejemplo.jpg), <b>Cuando</b> se procesa la solicitud, <b>Entonces</b> el sistema almacena el archivo en la nube y guarda la URL pública en la tabla "Archivo" de la base de datos.<br><br>
-    <b>E2: Validación de formato.</b> <b>Dado que</b> el archivo subido no es una imagen o PDF (ej. archivo .exe), <b>Cuando</b> se intenta subir, <b>Entonces</b> el sistema rechaza la petición con un error 415 Unsupported Media Type.
-  </td>
-  <td>EP02, EP04</td>
-</tr>
-
-<tr>
-  <td><b>TS09</b></td>
-  <td>Implementación de Sincronización Offline mediante IndexedDB</td>
-  <td><b>Como</b> desarrollador frontend, <b>quiero</b> implementar una estrategia de persistencia local en el navegador, <b>para</b> que el ganadero pueda registrar datos en el campo incluso si pierde la conexión a internet temporalmente.</td>
-  <td>
-    <b>E1: Guardado local en desconexión.</b> <b>Dado que</b> el usuario no tiene señal de internet, <b>Cuando</b> registra un nuevo animal, <b>Entonces</b> el sistema almacena los datos en IndexedDB y muestra un estado de "Pendiente de sincronización".<br><br>
-    <b>E2: Sincronización automática.</b> <b>Dado que</b> el dispositivo recupera la conexión, <b>Cuando</b> el sistema detecta red, <b>Entonces</b> envía automáticamente los registros locales al servidor y actualiza el estado en la base de datos central.
-  </td>
-  <td>EP02</td>
-</tr>
-
-<tr>
-  <td><b>TS10</b></td>
-  <td>Configuración de Documentación Automática con Swagger/OpenAPI</td>
-  <td><b>Como</b> desarrollador backend, <b>quiero</b> configurar el middleware de Swagger en la Web API de .NET, <b>para</b> que el equipo frontend tenga una referencia clara y probada de todos los endpoints disponibles.</td>
-  <td>
-    <b>E1: Generación de esquema.</b> <b>Dado que</b> la API está en ejecución, <b>Cuando</b> se accede a la ruta /swagger, <b>Entonces</b> el sistema muestra una interfaz interactiva con todos los métodos HTTP, DTOs y parámetros de seguridad JWT definidos.<br><br>
-    <b>E2: Pruebas funcionales.</b> <b>Dado que</b> el desarrollador usa la interfaz de Swagger, <b>Cuando</b> envía una petición de prueba con un token válido, <b>Entonces</b> la API responde con los datos reales de la base de datos.
-  </td>
-  <td>EP01, EP02</td>
-</tr>
-
-<tr>
-  <td><b>TS11</b></td>
-  <td>Configuración de Pipeline de CI/CD (GitHub Actions)</td>
-  <td><b>Como</b> líder técnico, <b>quiero</b> configurar flujos de trabajo automatizados, <b>para</b> que cada cambio aprobado en la rama "main" se despliegue automáticamente en los entornos de producción sin intervención manual.</td>
-  <td>
-    <b>E1: Integración Continua.</b> <b>Dado que</b> se realiza un Pull Request a la rama "main", <b>Cuando</b> el pipeline se activa, <b>Entonces</b> el sistema debe ejecutar las pruebas unitarias y verificar que el código compila correctamente.<br><br>
-    <b>E2: Despliegue Continuo.</b> <b>Dado que</b> las pruebas pasan satisfactoriamente, <b>Cuando</b> se hace el merge, <b>Entonces</b> GitHub Actions debe desplegar automáticamente la Landing Page en GitHub Pages y los servicios en la nube (Azure).
-  </td>
-  <td>EP07</td>
-</tr>
-
-<tr>
-  <td><b>TS12</b></td>
-  <td>Implementación de Logs de Auditoría para Registros Médicos</td>
-  <td><b>Como</b> desarrollador de seguridad, <b>quiero</b> implementar un sistema de trazabilidad de cambios (Logging), <b>para</b> saber quién, cuándo y qué se modificó en el historial clínico de un animal.</td>
-  <td>
-    <b>E1: Registro de modificación.</b> <b>Dado que</b> un veterinario edita un tratamiento médico, <b>Cuando</b> se guarda el cambio, <b>Entonces</b> el sistema guarda automáticamente en una tabla de auditoría el valor anterior, el valor nuevo y el ID del usuario responsable.<br><br>
-    <b>E2: Integridad del log.</b> <b>Dado que</b> se genera un log de auditoría, <b>Cuando</b> se registra en el sistema, <b>Entonces</b> este registro debe ser de "solo lectura" para evitar alteraciones en el historial de seguridad.
-  </td>
-  <td>EP04</td>
-</tr>
   </tbody>
 </table>
+
