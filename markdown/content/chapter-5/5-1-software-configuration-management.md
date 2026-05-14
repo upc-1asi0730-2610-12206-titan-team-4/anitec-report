@@ -77,8 +77,7 @@ Los repositorios oficiales del proyecto AniTec son los siguientes:
 - AniTec Documentation: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - Aplicación Web (frontend de AniTec): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- Datos de prueba (Mock): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-mockapi
-- Backend / Servicios Web (API del sistema): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
+- Backend / Servicios Web (API del sistema): *Pendiente de implementación*
 
 **Workflow de Control de Versiones (GitFlow)**
 
@@ -86,16 +85,40 @@ Para la gestión del desarrollo, se implementa el modelo GitFlow, el cual establ
 
 **Estructura de branches (Ramas)**
 
+**Ramas base:**
+
 - _main_: Contiene la versión estable y productiva del sistema.
-- _develop_: Rama de integración donde se consolidan las funcionalidades en desarrollo antes de su liberación.
-- _Feature branches_: Cada funcionalidad específica contará con una rama independiente. Al completarse su desarrollo, se integrará a la rama principal de desarrollo. La nomenclatura seguirá el formato "feature/descripción-funcionalidad" para garantizar claridad y unicidad.
-- _Release branches_: Estas bifurcaciones representarán versiones candidatas de la rama develop, preparadas para su eventual incorporación a master. Su identificación se basará en el Versionamiento Semántico estándar.
-- _Hotfix branches_: Se implementarán para resolver de manera ágil errores críticos detectados en producción que afecten directamente la funcionalidad del sistema.
+- _develop_: Rama de integración donde se consolidan las funcionalidades en desarrollo antes de su liberación a main.
+
+**Feature branches:** <br> Cada funcionalidad específica contará con una rama independiente. Al completarse su desarrollo, se integrará a la rama principal de desarrollo. La nomenclatura seguirá el formato "feature/descripción-funcionalidad" para garantizar claridad y unicidad.
+
+**Release branches:** <br> Estas bifurcaciones representarán versiones candidatas de la rama develop, preparadas para su eventual incorporación a main. Su identificación se basará en el Versionamiento Semántico estándar.
+
+**Hotfix branches:** <br> Se implementarán para resolver de manera ágil errores críticos detectados en producción que afecten directamente la funcionalidad del sistema.
 
 La estructura básica será: `git commit -m "<type>[optional scope]:<title>" -m"<description">`
 
-1. _Versionamiento Semántico:_ El control de versiones aplicará estrictamente los principios del Versionamiento Semántico 2.0.0 (SemVer)
-2. _Convenciones de Commits:_ Los mensajes de confirmación seguirán el estándar Conventional Commits, con el objetivo de mantener un historial de cambios claro, consistente y trazable a lo largo del desarrollo del proyecto AniTec.
+1._Versionamiento Semántico:_ El control de versiones aplicará estrictamente los principios del Versionamiento Semántico 2.0.0 (SemVer), siguiendo el formato `MAJOR.MINOR.PATCH`, lo que permite mantener coherencia entre las versiones del sistema y asegurar la compatibilidad entre actualizaciones. 
+
+| Parte  | Significado |
+|--------|-------------|
+| **MAJOR** | Cambios incompatibles o refactorizaciones críticas que alteran el funcionamiento del sistema existente. |
+| **MINOR** | Implementación de nuevas funcionalidades retrocompatibles dentro del sistema. |
+| **PATCH** | Corrección de errores o mejoras menores que no afectan la funcionalidad existente. |
+
+<br>
+
+2._Convenciones de Commits:_ Los mensajes de confirmación seguirán el estándar Conventional Commits, con el objetivo de mantener un historial de cambios claro, consistente y trazable a lo largo del desarrollo del proyecto AniTec.
+
+**Tipos de commits utilizados:**
+
+- **feat**: implementación de nuevas funcionalidades o módulos del sistema.
+- **fix**: corrección de errores en el código o en la funcionalidad.
+- **docs**: modificaciones o mejoras en la documentación del proyecto.
+- **style**: cambios de formato o estilo que no afectan la lógica del sistema.
+- **refactor**: reestructuración del código sin modificar su comportamiento funcional.
+- **test**: creación o actualización de pruebas unitarias o de integración.
+- **chore**: tareas de mantenimiento, configuración o actualización de dependencias.
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
@@ -184,7 +207,7 @@ En esta sección se describe la configuración y el proceso de despliegue de los
 
 El despliegue se ha estructurado de forma independiente para cada componente: Landing Page, Aplicación Web (Frontend) y Web Services (Backend), permitiendo una gestión modular, escalable y mantenible.
 
-**Despliegue de Landing Page**
+### Despliegue de Landing Page
 
 La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publicación de sitios web estáticos directamente desde el repositorio.
 
@@ -203,5 +226,28 @@ La Landing Page queda disponible en una URL accesible desde cualquier navegador.
 
 <div align="center">
     <img src="../../assets/chapter-5/landing-page-evidence.png" width="500">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+### Despliegue de Frontend Web
+
+La aplicación Frontend de AniTec se despliega utilizando **Firebase Hosting**, un servicio de Google que permite publicar aplicaciones web estáticas y SPA de manera rápida, segura y escalable.
+
+**Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+
+**Pasos de despliegue:**
+
+1. Configurar el proyecto en Firebase utilizando la Firebase CLI e iniciar sesión con la cuenta correspondiente.
+2. Inicializar el servicio de Hosting dentro del proyecto frontend mediante el comando: <br>
+   *```bash* <br>
+   *firebase init hosting*
+   
+   
+**Resultado:**
+
+La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link:  *(INSERTAR AQUI LINK DESPLEGADO)*
+
+<div align="center">
+    <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
