@@ -120,31 +120,6 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 |Entrevistado 1|Vicente Alacutte|
 |-|-|
-|Edad:|62 años|
-|Distrito:|Canta, Lima|
-|<img src="../../assets/chapter-2/Entrevista 1.png" width="360">|En la entrevista realizada a Vicente Huamán Alacute, ganadero con más de 30 años de experiencia en el manejo de ganado vacuno, se identificó que actualmente administra un hato aproximado de 25 cabezas utilizando principalmente cuadernos físicos y registros aislados en Excel. Durante la conversación, explicó que uno de los mayores problemas que enfrenta en su trabajo diario es la dificultad para mantener organizada toda la información relacionada con vacunaciones, enfermedades, alimentación y reproducción del ganado, especialmente cuando los registros se dañan, se extravían o dependen demasiado de la memoria. Asimismo, mencionó que el crecimiento de la actividad ganadera exige una gestión más ordenada y profesional, ya que la trazabilidad y el historial sanitario influyen directamente en la confianza del comprador al momento de vender los animales. El entrevistado considera que la tecnología representa una oportunidad importante para mejorar la productividad y facilitar el control de sus animales; sin embargo, enfatizó que las herramientas digitales deben ser simples, intuitivas y adaptadas al contexto rural para que realmente puedan ser utilizadas por productores de campo. Finalmente, manifestó una actitud positiva frente a soluciones que permitan automatizar recordatorios y centralizar información sanitaria, siempre que estas sean fáciles de usar y accesibles desde el celular.|
-|Timing:|00:07:43|
-|URL:|https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M|
-
----
-
-|Entrevistado 2|Rebeca Noemi Quiroz Roldan|
-|-|-|
-|Edad:|54 años|
-|Distrito:|Lima|
-|<img src="../../assets/chapter-2/Entrevista2.jpeg" width="360">|En la entrevista realizada a Rebeca Noemi Quiroz Roldan, ganadera dedicada al manejo de ganado vacuno, se evidenció que la gestión de información de sus animales continúa realizándose mediante cuadernos y apuntes físicos. Durante la conversación, comentó que una de las situaciones más preocupantes dentro de su actividad ganadera son las enfermedades recurrentes como la mastitis en las vacas y las complicaciones de salud en los terneros, ya que requieren atención constante y seguimiento adecuado de tratamientos y medicamentos. Aunque señaló que actualmente logra mantener cierto control de su ganado, reconoció que muchas veces la información puede dispersarse entre diferentes apuntes y registros manuales. Asimismo, mencionó que el dispositivo tecnológico que más utiliza en su día a día es el celular, razón por la cual estaría dispuesta a utilizar una aplicación que facilite la organización y seguimiento de sus animales de manera más práctica. La entrevistada destacó también que uno de los aspectos más importantes para adoptar una herramienta digital sería la seguridad y facilidad de uso, debido a que busca una solución sencilla y confiable. Finalmente, consideró muy útil la posibilidad de recibir recordatorios relacionados con vacunaciones, dosis de medicamentos o eventos importantes, ya que esto ayudaría a prevenir olvidos y mejorar el control sanitario del ganado.|
-|Timing:|00:07:12|
-|URL:|https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM|
-
----
-
-|Entrevistado 3|Porfirio Salazar Rodriguez|
-|-|-|
-|Edad:|65 años|
-|Distrito:|Comas, Lima|
-|<img width="1292" alt="Entrevista3" src="../../assets/chapter-1/entrevistaGan3.png">|En la entrevista realizada a Porfirio Salazar Rodríguez, productor dedicado a la ganadería artesanal, se identificó que actualmente trabaja junto a un pequeño grupo de personas para administrar y mantener su ganado. Durante la conversación, explicó que, aunque su actividad aún se desarrolla de manera tradicional y en menor escala, tiene como objetivo crecer y formalizar su negocio para lograr una producción más rentable y sostenible. Asimismo, señaló que la organización de información y el control adecuado de los animales representan desafíos importantes dentro de su trabajo diario, especialmente debido a la falta de herramientas tecnológicas adaptadas a pequeños productores. El entrevistado considera que la tecnología podría contribuir significativamente a mejorar la productividad, optimizar el control sanitario y facilitar la administración del ganado; sin embargo, manifestó preocupación respecto al costo económico y la inversión necesaria para implementar este tipo de soluciones digitales. A pesar de ello, mostró interés en herramientas accesibles y sencillas que permitan mejorar la gestión ganadera sin generar procesos complicados o difíciles de utilizar para productores tradicionales.|
-|Timing:|00:13:55|
-|URL:|https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?e=S6qUbg|
 |Edad|62 años|
 |Distrito | Canta, Lima|
 |<img src="../../assets/chapter-2/Entrevista 1.png" width="360"> </td>| En la entrevista realizada a Vicente Huamán Alacute, ganadero con más de 30 años de experiencia que gestiona un hato de 25 cabezas de vacuno, se validó la necesidad crítica de digitalizar la gestión pecuaria a través de una herramienta como AniTec. Actualmente, el entrevistado depende de un cuadernillo físico y registros aislados en Excel, enfrentando problemas de desorden, pérdida de información y la "fragilidad de la memoria" ante tareas complejas como el control de enfermedades, alimentación y reproducción. Don Vicente enfatizó que la tecnología es el camino para profesionalizar el sector, señalando que un registro digital no solo optimiza la operatividad interna mediante alertas y trazabilidad, sino que otorga confianza al comprador al momento de la venta. Finalmente, hizo un llamado a que la aplicación sea extremadamente sencilla y accesible para el hombre de campo, confirmando que, si la herramienta es intuitiva, existe una disposición total para adoptar la plataforma y abandonar los métodos manuales en favor de una ganadería más inteligente y eficiente.|

@@ -11,6 +11,6 @@
 |   2.0   | 11/05/2026 |    Melgarejo Quiroz, Josep Eliu     | Reorganización de la estructura del documento                                         |
 |   2.1   | 13/05/2026 |   Sanchez Silva, Luciana Celeste    | Corrección de diagramas C4, anexos, y avance de la documentación del sprint 2         |
 |   2.2   | 13/05/2026 |    Melgarejo Quiroz, Josep Eliu     | Corrección del event storming, user stories y avance de la documentación del sprint 2 |
-|   2.3   |            |    Ayala Fernandez, Jorge Brayan    |                                                                                       |
-|   2.4   |            | Raymundo Villarroel, Nadhim Abigail |                                                                                       |
-|   2.5   |            |    Huaman Gallardo, Bruno Aldair    |                                                                                       |
+|   2.3   | 13/05/2026 |    Ayala Fernandez, Jorge Brayan    | Corrección del capítulo V y avance de la documentación del sprint 2                   |
+|   2.4   | 14/05/2026 | Raymundo Villarroel, Nadhim Abigail | Corrección del capítulo I y avance de la documentación del sprint 2                   |
+|   2.5   | 14/05/2026 |    Huaman Gallardo, Bruno Aldair    | Corrección del capítulo II y III                                                      |
