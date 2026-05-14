@@ -1,9 +1,9 @@
 # Project Report Collaboration Insights
 
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
-- URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page   
-- URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend  
-- URL del repositorio para el desarrollo del backend web applications (.NET Web API): 
+- URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- URL del repositorio para el desarrollo del backend web applications (.NET Web API):
 
 **AV1**
 
@@ -11,13 +11,14 @@ Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la im
 
 <div align="center">
 
-| Integrante       | Tareas Asignadas                                                                                                                                                                            |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Abigail Raymundo | Desarrollo del Capítulo I, una parte del Capítulo II, así como la parte final del Capítulo V del documento en formato markdown.                                                             |
-| Bruno Huaman     | Desarrollo del Capítulo III, desarrollo parcial de capítulo II, así como colaboración en el capítulo V del documento en formato markdown.                                                   |
-| Jorge Ayala      | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                                |
-| Josep Melgarejo  | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                                |
-| Luciana Sanchez  | Desarrollo parcial del Capítulo IV: Diseño del landing page y web application, y actualización del keynote. Además,  colaboró en el desarrollo capítulo V del documento en formato markdown |
+| Integrante       | Tareas Asignadas                                                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Abigail Raymundo | Desarrollo del Capítulo I, una parte del Capítulo II, así como la parte final del Capítulo V del documento en formato markdown.                                                            |
+| Bruno Huaman     | Desarrollo del Capítulo III, desarrollo parcial de capítulo II, así como colaboración en el capítulo V del documento en formato markdown.                                                  |
+| Jorge Ayala      | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                               |
+| Josep Melgarejo  | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                               |
+| Luciana Sanchez  | Desarrollo parcial del Capítulo IV: Diseño del landing page y web application, y actualización del keynote. Además, colaboró en el desarrollo capítulo V del documento en formato markdown |
+
 </div>
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
@@ -28,11 +29,11 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-* Josep Melgarejo (Melga1502)
-* Jorge Ayala (jorgeayaladev)
-* Huamán Bruno (BrunoHG10)
-* Abigail Raymundo (AbigailRV)
-* Luciana Sánchez (Luccsss)
+- Josep Melgarejo (Melga1502)
+- Jorge Ayala (jorgeayaladev)
+- Huamán Bruno (BrunoHG10)
+- Abigail Raymundo (AbigailRV)
+- Luciana Sánchez (Luccsss)
 
 Se explican las ramas más prominentes:
 
@@ -42,11 +43,12 @@ Se explican las ramas más prominentes:
 
 ![Branch_Graph](../assets/chapter-1/branchGraph.png)
 
-Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo. 
+Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
 
 **AV1**
 
 ![Commit_Graph](../assets/chapter-1/CommitOvertime.png)
+
 ![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png)
 
 ![Commit_Graph_Individual1](../assets/chapter-1/Comit2.png)

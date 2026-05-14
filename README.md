@@ -16,7 +16,7 @@
 <div align="center">
 
 |               Nombre                |   Código   |
-|:-----------------------------------:|:----------:|
+| :---------------------------------: | :--------: |
 |    Ayala Fernandez, Jorge Brayan    | U20241C030 |
 |    Huaman Gallardo, Bruno Aldair    | U202117762 |
 |    Melgarejo Quiroz, Josep Eliu     | U202315165 |
