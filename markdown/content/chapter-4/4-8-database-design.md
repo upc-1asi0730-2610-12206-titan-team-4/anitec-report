@@ -1,10 +1,8 @@
 # 4.8. Database Design.
 
-
-
 ## 4.8.1. Database Diagram.
-Se presenta el diagrama de la base de datos relacional:
 
+Se presenta el diagrama de la base de datos relacional:
 
 <div align="center">
   <p>

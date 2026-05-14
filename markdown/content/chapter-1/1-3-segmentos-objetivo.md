@@ -10,5 +10,5 @@ Entre los posibles usuarios se encuentran empresas formales como Gloria S.A. o L
 
 <div id='1.3.1.'><h4> 1.3.1 Stakeholders.</h4></div>
 
-* **Stakelholder Internos:** Equipo Titan y resto de integrantes del equipo de desarrollo.
-* **Stakelholder Externos:** Técnicos ganaderos, veterinarios y responsables de campo en unidades ganaderas, Administradores de cooperativas o asociaciones ganaderas, estudiantes de medicina veterinaria y carreras agropecuarias.
+- **Stakelholder Internos:** Equipo Titan y resto de integrantes del equipo de desarrollo.
+- **Stakelholder Externos:** Técnicos ganaderos, veterinarios y responsables de campo en unidades ganaderas, Administradores de cooperativas o asociaciones ganaderas, estudiantes de medicina veterinaria y carreras agropecuarias.

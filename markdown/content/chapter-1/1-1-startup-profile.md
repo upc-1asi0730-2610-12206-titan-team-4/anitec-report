@@ -1,6 +1,9 @@
 # 1.1. Startup Profile
+
 En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
+
 ## 1.1.1. Descripción del startup.
+
 Titan es una startup enfocada en brindar soluciones tecnológicas accesibles y efectivas para los pequeños y medianos ganaderos de Latinoamérica. A través de una plataforma web intuitiva, AniTec digitaliza la gestión del ganado mediante una estructura organizada en módulos clave que abarcan toda la operación productiva.
 
 La plataforma organiza la vida productiva del ganado en los siguientes módulos clave:

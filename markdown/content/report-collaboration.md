@@ -31,13 +31,14 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 <div align="center">
 
-| Integrante       | Tareas Asignadas                                                                                                                                      |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Abigail Raymundo | Corrección del Capítulo I, Y colaboró en la corrección parcial de capítulo II; así como la documentación del sprint 2 del Capítulo V                  |
-| Bruno Huaman     | Corrección del Capítulos II. Además, colaboró en la corrección parcial de capítulo III, así como la documentación del sprint 2                        |
-| Jorge Ayala      | Corrección del Capítulo V, así como la documentación del sprint 2, y desarrollo del material de exposición                                            |
-| Josep Melgarejo  | Corrección del Capítulo III, incluyendo el eventstorming y diagrama de base de datos. Además, participó en la documentación del sprint 2 y la reorganización del markdowm           |
-| Luciana Sanchez  | Corrección del Capítulo V, así como la corrección de anexos, bibliografía, conclusiones y report collaboration. Asimismo, colaboró en la documentación del sprint 2 |
+| Integrante       | Tareas Asignadas                                                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Abigail Raymundo | Corrección del Capítulo I, Y colaboró en la corrección parcial de capítulo II; así como la documentación del sprint 2 del Capítulo V                                      |
+| Bruno Huaman     | Corrección del Capítulos II. Además, colaboró en la corrección parcial de capítulo III, así como la documentación del sprint 2                                            |
+| Jorge Ayala      | Corrección del Capítulo V, así como la documentación del sprint 2, y desarrollo del material de exposición                                                                |
+| Josep Melgarejo  | Corrección del Capítulo III, incluyendo el eventstorming y diagrama de base de datos. Además, participó en la documentación del sprint 2 y la reorganización del markdowm |
+| Luciana Sanchez  | Corrección del Capítulo V, así como la corrección de anexos, bibliografía, conclusiones y report collaboration. Asimismo, colaboró en la documentación del sprint 2       |
+
 </div>
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
@@ -94,5 +95,3 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ![Commit_Graph_Individual1](../assets/chapter-1/Comit55.png)
 
 ![Pull_Graphs](../assets/chapter-1/GraficosCap12.jpeg)
-
-
