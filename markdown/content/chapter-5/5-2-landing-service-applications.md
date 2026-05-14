@@ -2,11 +2,17 @@
 
 ## 5.2.1. Sprint 1.
 
+En el Sprint 1, el equipo de AniTec se enfocó en la construcción de la Landing Page como primer entregable del producto digital, con el objetivo de establecer la presencia inicial del sistema y validar la propuesta de valor frente a los usuarios objetivo (ganaderos y veterinarios).
+
+Durante este Sprint se desarrolló la estructura base de la Landing Page, incluyendo la organización de las secciones principales, la navegación entre páginas, la presentación de la propuesta de valor y los llamados a la acción orientados a la captación de usuarios.
+
 ### 5.2.1.1. Sprint Planning 1.
 
-En esta sección se especifica los aspectos principales del Sprint Planning Meeting. AniTec inicia su primer Sprint con el objetivo de establecer la presencia digital de la empresa mediante una Landing Page funcional que presente la propuesta de valor y facilite el registro de usuarios potenciales. Este Sprint representa la primera iteración del equipo AniTec, donde se busca crear una primera impresión sólida ante potenciales usuarios que visitarán la plataforma por primera vez.
+El Sprint Planning del Sprint 1 tuvo como objetivo definir el alcance inicial del proyecto, priorizando la creación de la Landing Page como primer punto de contacto con los usuarios finales.
 
-La Landing Page cumple un rol fundamental en la estrategia de captación de usuarios, siendo el punto de entrada principal para personas que desconocen AniTec pero buscan soluciones tecnológicas para la gestión ganadera. Por esta razón, el equipo priorizó este componente como el primero a desarrollar, reconociendo que una presencia digital profesional y atractiva es esencial para generar confianza y credibilidad desde el primer momento.
+Se estableció que este componente es crítico dentro de la estrategia del producto, ya que representa la primera interacción de los usuarios con AniTec y permite comunicar de manera clara la propuesta de valor del sistema. Por ello, el equipo priorizó la implementación de una experiencia visual clara, estructurada y orientada a la conversión de usuarios.
+
+Durante la planificación se definieron las historias de usuario del Sprint, se estimaron los Story Points y se distribuyeron las responsabilidades entre los integrantes del equipo, considerando sus fortalezas técnicas y promoviendo el trabajo colaborativo mediante el uso de GitHub y un tablero de gestión de tareas.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
@@ -35,7 +41,7 @@ La Landing Page cumple un rol fundamental en la estrategia de captación de usua
         </tr>
         <tr>
             <td>Attendees (to planning meeting)</td>
-            <td>Ayala Fernandez, Jorge Brayan / Huaman Gallardo, Bruno Aldair / Melgarejo Quiroz, Josep Eliu / Raymundo Villarroel, Nadhim Abigail / Sanchez Silva, Luciana Celeste</td>
+            <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
         </tr>
         <tr>
             <td>Sprint n - 1 Review Summary</td>
@@ -50,7 +56,7 @@ La Landing Page cumple un rol fundamental en la estrategia de captación de usua
         </tr>
         <tr>
             <td>Sprint 1 Goal</td>
-            <td>Implementar una Landing Page funcional que presente la propuesta de valor de AniTec, muestre las características principales del servicio para ranchers y veterinarians, y proporcione enlaces de llamada a la acción para registro de usuarios potenciales.</td>
+            <td>Nuestro enfoque está en establecer la presencia digital de AniTec mediante una Landing Page funcional orientada a ganaderos y veterinarios. Creemos que esto aporta claridad sobre la propuesta de valor del producto y genera interés inicial en los usuarios objetivo. Esto se confirmará cuando los usuarios puedan navegar la Landing Page y comprender los principales beneficios de la plataforma.</td>
         </tr>
         <tr>
             <td>Sprint 1 Velocity</td>
