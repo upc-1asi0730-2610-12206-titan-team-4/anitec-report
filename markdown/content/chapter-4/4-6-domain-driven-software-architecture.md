@@ -122,8 +122,6 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
 
 Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517)
 
-
-
 ## 4.6.2. Software Architecture Context Diagram.
 
 El Software Architecture Context Level Diagram presenta una vista general del sistema Anitec y sus interacciones con usuarios y sistemas externos. Este diagrama permite identificar los principales actores de la plataforma, así como los servicios externos utilizados para funcionalidades como procesamiento de pagos y envío de correos electrónicos.
@@ -140,7 +138,7 @@ El Software Architecture Context Level Diagram presenta una vista general del si
 
 ## 4.6.3. Software Architecture Container Diagrams.
 
-El  Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos SQL Server y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
+El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos SQL Server y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
 
 <div align="center">
   <p>
@@ -184,7 +182,6 @@ El IAM Component Diagram presenta la estructura interna del módulo de gestión 
 
 El Animal Management Component Diagram presenta la estructura interna del módulo de gestión animal de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la administración, consulta, seguimiento y persistencia de la información del ganado, así como sus interacciones con la interfaz web y la base de datos del sistema.
 
-
 <div align="center">
   <p>
     <b>Diagrama de Componentes - Animal Management - AniTec</b>
@@ -196,7 +193,6 @@ El Animal Management Component Diagram presenta la estructura interna del módul
 </div>
 
 El Event Management Component Diagram presenta la estructura interna del módulo de gestión de eventos de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración, consulta y registro de eventos relacionados con el ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
-
 
 <div align="center">
   <p>

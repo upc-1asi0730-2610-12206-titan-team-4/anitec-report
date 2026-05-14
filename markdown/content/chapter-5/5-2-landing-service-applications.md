@@ -1,5 +1,7 @@
 # 5.2. Landing Page, Services & Applications Implementation.
+
 ## 5.2.1. Sprint 1.
+
 ### 5.2.1.1. Sprint Planning 1.
 
 En esta sección se especifica los aspectos principales del Sprint Planning Meeting. AniTec inicia su primer Sprint con el objetivo de establecer la presencia digital de la empresa mediante una Landing Page funcional que presente la propuesta de valor y facilite el registro de usuarios potenciales. Este Sprint representa la primera iteración del equipo AniTec, donde se busca crear una primera impresión sólida ante potenciales usuarios que visitarán la plataforma por primera vez.
@@ -69,14 +71,14 @@ La dinámica del Sprint Planning permitió al equipo alinear expectativas y esta
 
 Los User Stories seleccionados para este Sprint inicial reflejan las necesidades más críticas para establecer la presencia digital de AniTec. El equipo se enfocó en la Landing Page multipágina para este primer Sprint, reconociendo la importancia de dirigirse a los dos segmentos objetivo (ranchers y veterinarians) con páginas especializadas.
 
-| ID | User Story | Prioridad | Story Points |
-|----|----------|----------|------------|
-| US25 | Landing: Exploración de Contenido y Navegación | Must Have | 8 |
-| US26 | Landing: Conversión y Llamados a la Acción (CTAs) | Must Have | 8 |
-| US27 | Index: Visualización de Propuesta de Valor | Must Have | 5 |
-| US28 | Index: Exploración de Segmentos | Must Have | 5 |
-| US32 | Nosotros: Información del Equipo | Must Have | 4 |
-| US38 | Ganaderos: Exploración de Contenido Específico | Should Have | 4 |
+| ID   | User Story                                        | Prioridad   | Story Points |
+| ---- | ------------------------------------------------- | ----------- | ------------ |
+| US25 | Landing: Exploración de Contenido y Navegación    | Must Have   | 8            |
+| US26 | Landing: Conversión y Llamados a la Acción (CTAs) | Must Have   | 8            |
+| US27 | Index: Visualización de Propuesta de Valor        | Must Have   | 5            |
+| US28 | Index: Exploración de Segmentos                   | Must Have   | 5            |
+| US32 | Nosotros: Información del Equipo                  | Must Have   | 4            |
+| US38 | Ganaderos: Exploración de Contenido Específico    | Should Have | 4            |
 
 La selección de estos User Stories para el Sprint 1 responde a la necesidad de establecer la presencia digital de AniTec rápidamente, permitiendo que usuarios potenciales conozcan la propuesta de valor para los dos segmentos target. El equipo identificó que US25 y US26 son los más críticos, representando el objetivo principal del Sprint, mientras que las páginas específicas (US38) aportan valor para alcanzar a los segments especializados.
 
@@ -318,7 +320,6 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
   <img src="../../assets/chapter-5/cap5Commits.jpeg" alt="Step5" width="600">
 </div>
 
-
 <div align="center">
   <p>
     <b>Coomits</b>
@@ -393,6 +394,7 @@ El proceso de deployment se configura desde la sección "Pages" en la configurac
 **Verificación Post-Deploy:**
 
 Después del despliegue, se verificó que todas las páginas estuvieran accesibles correctamente:
+
 - La página principal (index.html) carga sin errores y muestra el pricing y CTA correctamente
 - Las páginas secundarias (nosotros.html, ganaderos.html, veterinarios.html) son navegables desde el menú de navegación
 - Los recursos estáticos (CSS, JavaScript, imágenes) se cargan correctamente
@@ -400,8 +402,6 @@ Después del despliegue, se verificó que todas las páginas estuvieran accesibl
 - El diseño responsive se adapta a diferentes tamaños de pantalla
 
 El sitio desplegado está disponible públicamente para usuarios externos y puede ser compartido mediante la URL de GitHub Pages para revisiones del Sprint.
-
-
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -421,7 +421,6 @@ El equipo adoptó un enfoque de trabajo colaborativo, donde los miembros se reun
   </p>
   <img src="../../assets/chapter-5/GraficasComits.jpeg" alt="Step5" width="600">
 </div>
-
 
 **Reflexiones del Equipo:**
 

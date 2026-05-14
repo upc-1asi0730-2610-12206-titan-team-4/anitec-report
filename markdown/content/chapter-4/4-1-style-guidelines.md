@@ -14,16 +14,16 @@ Además, la selección de colores debe estar alineada con los valores de innovac
 
 **Colores principales:**
 
-| Código HEX | Color                                                               | Uso                                                     |
-|------------|---------------------------------------------------------------------|---------------------------------------------------------|
+| Código HEX | Color                                                                   | Uso                                                     |
+| ---------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
 | #925930    | <img src="../../assets/chapter-4/925930.png" alt="925930" width="50px"> | Color primario - botones principales, textos destacados |
 | #79B267    | <img src="../../assets/chapter-4/79B267.png" alt="79B267" width="50px"> | Color secundario - CTAs positivos, iconos de éxito      |
 | #F5F0E6    | <img src="../../assets/chapter-4/F5F0E6.png" alt="F5F0E6" width="50px"> | Color de fondo principal                                |
 
 **Colores secundarios:**
 
-| Código HEX | Color                                                               | Uso                            |
-|------------|---------------------------------------------------------------------|--------------------------------|
+| Código HEX | Color                                                                   | Uso                            |
+| ---------- | ----------------------------------------------------------------------- | ------------------------------ |
 | #A3794F    | <img src="../../assets/chapter-4/A3794F.png" alt="925930" width="50px"> | Acentos, bordes sutiles        |
 | #A3C4A8    | <img src="../../assets/chapter-4/A3C4A8.png" alt="A3C4A8" width="50px"> | Fondos de tarjetas, highlights |
 | #D1BFA5    | <img src="../../assets/chapter-4/D1BFA5.png" alt="D1BFA5" width="50px"> | Fondos alternativos            |

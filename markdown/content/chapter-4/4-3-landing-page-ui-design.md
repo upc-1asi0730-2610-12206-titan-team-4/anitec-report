@@ -7,6 +7,7 @@ El wireframe de la landing page de AniTec actúa como una guía visual prelimina
 Enlace para acceder al [diseño del wireframe de AniTec en Figma](https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1)
 
 El wireframe se caracteriza por:
+
 - Estructura en blanco y negro con bordes negros
 - Placeholder (X) en lugar de imágenes e iconos
 - Texto genérico (Lorem ipsum) para contenido
@@ -30,6 +31,7 @@ El mock-up de la landing page de AniTec representa una versión detallada y cerc
 Enlace para acceder al [diseño del mock-up de AniTec en Figma](https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1)
 
 El mock-up incluye:
+
 - Paleta de colores completa (verdes, marrones, crema)
 - Tipografía Poppins aplicada
 - Imágenes reales del producto

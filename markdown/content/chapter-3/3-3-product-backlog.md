@@ -1,6 +1,5 @@
 # 3.3. Product Backlog.
 
-
 <table>
   <thead>
     <tr>

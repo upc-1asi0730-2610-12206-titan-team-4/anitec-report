@@ -1,9 +1,9 @@
 # Project Report Collaboration Insights
 
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
-- URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page   
-- URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend  
-- URL del repositorio para el desarrollo del backend web applications (.NET Web API): 
+- URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- URL del repositorio para el desarrollo del backend web applications (.NET Web API):
 
 **AV1**
 
@@ -11,13 +11,14 @@ Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la im
 
 <div align="center">
 
-| Integrante       | Tareas Asignadas                                                                                                                                                                            |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Abigail Raymundo | Desarrollo del Capítulo I, una parte del Capítulo II, así como la parte final del Capítulo V del documento en formato markdown.                                                             |
-| Bruno Huaman     | Desarrollo del Capítulo III, desarrollo parcial de capítulo II, así como colaboración en el capítulo V del documento en formato markdown.                                                   |
-| Jorge Ayala      | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                                |
-| Josep Melgarejo  | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                                |
-| Luciana Sanchez  | Desarrollo parcial del Capítulo IV: Diseño del landing page y web application, y actualización del keynote. Además,  colaboró en el desarrollo capítulo V del documento en formato markdown |
+| Integrante       | Tareas Asignadas                                                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Abigail Raymundo | Desarrollo del Capítulo I, una parte del Capítulo II, así como la parte final del Capítulo V del documento en formato markdown.                                                            |
+| Bruno Huaman     | Desarrollo del Capítulo III, desarrollo parcial de capítulo II, así como colaboración en el capítulo V del documento en formato markdown.                                                  |
+| Jorge Ayala      | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                               |
+| Josep Melgarejo  | Desarrollo parcial del Capítulo IV, así como colaboración en el capítulo V del documento en formato markdown                                                                               |
+| Luciana Sanchez  | Desarrollo parcial del Capítulo IV: Diseño del landing page y web application, y actualización del keynote. Además, colaboró en el desarrollo capítulo V del documento en formato markdown |
+
 </div>
 
 El trabajo se desarrolló mediante commits continuos en el repositorio de la organización, asegurando trazabilidad y colaboración activa del equipo.
@@ -30,13 +31,14 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 <div align="center">
 
-| Integrante       | Tareas Asignadas                                                                                                                                      |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Abigail Raymundo | Corrección del Capítulo I, Y colaboró en la corrección parcial de capítulo II; así como la documentación del sprint 2 del Capítulo V                  |
-| Bruno Huaman     | Corrección del Capítulos II. Además, colaboró en la corrección parcial de capítulo III, así como la documentación del sprint 2                        |
-| Jorge Ayala      | Corrección del Capítulo V, así como la documentación del sprint 2, y desarrollo del material de exposición                                            |
-| Josep Melgarejo  | Corrección del Capítulo III, incluyendo el eventstorming y diagrama de base de datos. Además, participó en la documentación del sprint 2 y la reorganización del markdowm           |
-| Luciana Sanchez  | Corrección del Capítulo V, así como la corrección de anexos, bibliografía, conclusiones y report collaboration. Asimismo, colaboró en la documentación del sprint 2 |
+| Integrante       | Tareas Asignadas                                                                                                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Abigail Raymundo | Corrección del Capítulo I, Y colaboró en la corrección parcial de capítulo II; así como la documentación del sprint 2 del Capítulo V                                      |
+| Bruno Huaman     | Corrección del Capítulos II. Además, colaboró en la corrección parcial de capítulo III, así como la documentación del sprint 2                                            |
+| Jorge Ayala      | Corrección del Capítulo V, así como la documentación del sprint 2, y desarrollo del material de exposición                                                                |
+| Josep Melgarejo  | Corrección del Capítulo III, incluyendo el eventstorming y diagrama de base de datos. Además, participó en la documentación del sprint 2 y la reorganización del markdowm |
+| Luciana Sanchez  | Corrección del Capítulo V, así como la corrección de anexos, bibliografía, conclusiones y report collaboration. Asimismo, colaboró en la documentación del sprint 2       |
+
 </div>
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
@@ -47,11 +49,11 @@ Github también presenta un timeline de las ramas principales y los procesos de 
 
 Los integrantes son:
 
-* Josep Melgarejo (Melga1502)
-* Jorge Ayala (jorgeayaladev)
-* Huamán Bruno (BrunoHG10)
-* Abigail Raymundo (AbigailRV)
-* Luciana Sánchez (Luccsss)
+- Josep Melgarejo (Melga1502)
+- Jorge Ayala (jorgeayaladev)
+- Huamán Bruno (BrunoHG10)
+- Abigail Raymundo (AbigailRV)
+- Luciana Sánchez (Luccsss)
 
 Se explican las ramas más prominentes:
 
@@ -61,35 +63,36 @@ Se explican las ramas más prominentes:
 
 ![Branch_Graph](../assets/chapter-1/branchGraph2.png)
 
-Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo. 
+Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
 
 **AV1**
 
-![Commit_Graph](../assets/chapter-1/CommitOvertime.png) <br>
-![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png) <br>
+![Commit_Graph](../assets/chapter-1/CommitOvertime.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit2.png) <br>
+![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit3.png) <br>
+![Commit_Graph_Individual2](../assets/chapter-1/Comit2.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit4.png) <br>
+![Commit_Graph_Individual3](../assets/chapter-1/Comit3.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit5.png) <br>
+![Commit_Graph_Individual4](../assets/chapter-1/Comit4.png)
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg) <br>
+![Commit_Graph_Individual5](../assets/chapter-1/Comit5.png)
+
+![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg)
 
 **TB1** 
 
-![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)  <br>
+![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit11.png) <br>
+![Commit_Graph_Individual1](../assets/chapter-1/Comit11.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit22.png) <br>
+![Commit_Graph_Individual2](../assets/chapter-1/Comit22.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit33.png) <br>
+![Commit_Graph_Individual3](../assets/chapter-1/Comit33.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit44.png) <br>
+![Commit_Graph_Individual4](../assets/chapter-1/Comit44.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit55.png) <br>
+![Commit_Graph_Individual5](../assets/chapter-1/Comit55.png)
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap12.png) <br>
+![Pull_Graphs](../assets/chapter-1/GraficosCap12.png)

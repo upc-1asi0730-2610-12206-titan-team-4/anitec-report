@@ -122,7 +122,7 @@ Por un lado, estas son las estrategias preliminares:
 - Capacitación tecnológica gradual mediante material multimedia diseñado para personas con conocimientos digitales limitados.
 - Optimización de la asistencia técnica utilizando medios de contacto directos como llamadas telefónicas o WhatsApp.
 - Generación de utilidad inmediata, brindando notificaciones en tiempo real, análisis de datos de valor y funciones sin costo.
-  
+
 Por otro lado, estas son nuestras tácticas específicas:
 
 - Campañas de referidos para incentivar la difusión entre los mismos productores.
