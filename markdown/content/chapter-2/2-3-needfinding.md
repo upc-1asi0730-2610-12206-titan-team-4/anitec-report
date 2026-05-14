@@ -8,7 +8,7 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ### User Persona: Ganaderos
 
-![User-Persona Ganadero](../../assets/chapter-2/user_persona_ganader.png)
+![User-Persona Ganadero](../../assets/chapter-2/user_persona_ganadero.png)
 
 ### User Persona: Veterinarios
 
