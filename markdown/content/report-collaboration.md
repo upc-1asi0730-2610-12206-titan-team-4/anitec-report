@@ -22,6 +22,25 @@ Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la im
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
 
+---
+
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<div align="center">
+
+| Integrante       | Tareas Asignadas                                                                                                                                      |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Abigail Raymundo | Corrección del Capítulo I, Y colaboró en la corrección parcial de capítulo II; así como la documentación del sprint 2 del Capítulo V                  |
+| Bruno Huaman     | Corrección del Capítulos II. Además, colaboró en la corrección parcial de capítulo III, así como la documentación del sprint 2                        |
+| Jorge Ayala      | Corrección del Capítulo V, así como la documentación del sprint 2, y desarrollo del material de exposición                                            |
+| Josep Melgarejo  | Corrección del Capítulo III, incluyendo el eventstorming y diagrama de base de datos. Además, participó en la documentación del sprint 2 y la reorganización del markdowm           |
+| Luciana Sanchez  | Corrección del Capítulo V, así como la corrección de anexos, bibliografía, conclusiones y report collaboration. Asimismo, colaboró en la documentación del sprint 2 |
+</div>
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
+
 **Github Collaboration Insights**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
@@ -58,3 +77,20 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ![Commit_Graph_Individual1](../assets/chapter-1/Comit5.png)
 
 ![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg)
+
+**TB1**
+
+![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit12.png)
+
+![Commit_Graph_Individual1](../assets/chapter-1/Comit22.png)
+
+![Commit_Graph_Individual1](../assets/chapter-1/Comit33.png)
+
+![Commit_Graph_Individual1](../assets/chapter-1/Comit44.png)
+
+![Commit_Graph_Individual1](../assets/chapter-1/Comit55.png)
+
+![Pull_Graphs](../assets/chapter-1/GraficosCap12.jpeg)
+
+
