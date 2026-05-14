@@ -16,28 +16,28 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ## 2.3.2. User Task Matrix.
 
-A través de la User Task Matrix, es posible desglosar detalladamente cada una de las actividades y tareas que los usuarios realizan al interactuar con nuestra plataforma. Al categorizar estas acciones en función de su importancia y recurrencia, logramos priorizar estratégicamente los esfuerzos de diseño y desarrollo, asegurando así una experiencia de usuario optimizada y eficiente.
+A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la gestión ganadera y veterinaria.
 
-| **User Task**                                      | **Jorge Rivas (Frecuencia)** | **Jorge Rivas (Importancia)** | **Valeria Mendoza (Frecuencia)** | **Valeria Mendoza (Importancia)** |
+| **User Task** | **Jorge Rivas (Frecuencia)** | **Jorge Rivas (Importancia)** | **Valeria Mendoza (Frecuencia)** | **Valeria Mendoza (Importancia)** |
 |------------------------------------------------|------------------------|-------------------------|------------------------|-------------------------|
-| Registrar un nuevo animal                      | Sometimes              | High                    | Rarely                 | Medium                  |
-| Actualizar registro sanitario                  | Often                  | High                    | Always                 | High                    |
-| Consultar calendario de vacunación             | Often                  | High                    | Often                  | High                    |
-| Recibir alertas automáticas                    | Sometimes              | High                    | Sometimes              | High                    |
-| Registrar peso y ganancia media diaria         | Often                  | Medium                  | Often                  | Medium                  |
-| Generar y revisar reportes de productividad    | Sometimes              | Medium                  | Often                  | Medium                  |
-| Compartir registros con asociación o compradores | Rarely               | Medium                  | Rarely                 | Low                     |
-| Acceder a módulos de formación ("Academia ganadera") | Sometimes         | Low                     | Sometimes              | Medium                  |
-| Planificar ciclos de reproducción              | Rarely                 | Medium                  | Rarely                 | Medium                  |
-| Revisar historial completo de un animal        | Sometimes              | High                    | Sometimes              | High                    |
+| Anotar el nacimiento o compra de un nuevo animal en cuadernos físicos | Sometimes | High | Rarely | Medium |
+| Registrar manualmente vacunas y tratamientos del ganado | Often | High | Always | High |
+| Revisar fechas de vacunación en notas, calendarios o cuadernos | Often | High | Often | High |
+| Recordar manualmente vacunas o controles pendientes | Sometimes | High | Sometimes | High |
+| Anotar peso y crecimiento del ganado durante controles | Often | Medium | Often | Medium |
+| Revisar manualmente información sobre productividad y rendimiento | Sometimes | Medium | Often | Medium |
+| Compartir documentos físicos o fotografías de registros con asociaciones o compradores | Rarely | Medium | Rarely | Low |
+| Buscar información o capacitaciones ganaderas en internet y redes sociales | Sometimes | Low | Sometimes | Medium |
+| Llevar el control reproductivo mediante anotaciones manuales | Rarely | Medium | Rarely | Medium |
+| Buscar antecedentes médicos y sanitarios en cuadernos o archivos físicos | Sometimes | High | Sometimes | High |
 
-La User Task Matrix revela que tanto Jorge como Valeria comparten tareas críticas de actualización sanitaria y recepción de alertas automáticas con alta frecuencia e importancia, seguidas por la consulta del calendario de vacunación y el registro de peso para el control de ganancia media diaria. Mientras Jorge prioriza en su día a día el registro inicial de animales y la revisión de históricos para procesos de venta o inspecciones, Valeria enfoca su actividad en la actualización técnica de datos sanitarios y la generación de reportes de productividad tras cada visita. Al clasificar estas tareas según su recurrencia y valor estratégico, el equipo de desarrollo de AniTec puede enfocar el MVP en las funciones de mayor impacto, postergando los módulos de formación y los reportes avanzados para fases posteriores del proyecto.
+La User Task Matrix evidencia que tanto Jorge como Valeria realizan constantemente actividades relacionadas con el control sanitario y el seguimiento del ganado. Mientras Jorge depende principalmente de registros físicos y de su memoria para organizar la información de sus animales, Valeria necesita acceder rápidamente a datos precisos durante sus visitas de campo y procedimientos veterinarios. Asimismo, ambos perfiles presentan dificultades relacionadas con la organización, trazabilidad y acceso oportuno a la información, especialmente en procesos de vacunación, historial clínico y monitoreo del ganado. Estas tareas permiten comprender mejor el contexto actual de los usuarios e identificar necesidades reales dentro del entorno ganadero y veterinario.
 
 ## 2.3.3. User Journey Mapping.
 
-En este apartado se describe de forma detallada el ciclo de experiencia del usuario dentro de la plataforma AniTec de Titan, enfocándose específicamente en los dos perfiles clave: productores ganaderos y médicos veterinarios. Este análisis del user journey examina desde el descubrimiento inicial de la herramienta, pasando por el proceso de decisión para su adopción y la gestión de cuentas, hasta el uso diario de sus funciones y los factores que podrían llevar al cese de su utilización.
+En este apartado se describe de manera detallada el recorrido y la experiencia actual de los usuarios dentro de su contexto de trabajo cotidiano, enfocándose específicamente en los dos perfiles clave identificados: productores ganaderos y médicos veterinarios. A través de los User Journey Maps As-Is, se analizan las actividades, emociones, problemas y necesidades que experimentan los usuarios durante la gestión y seguimiento del ganado, sin considerar aún la existencia de una solución tecnológica implementada.
 
-El mapeo de este recorrido comienza con el primer contacto del cliente con la aplicación y avanza a través de las fases de evaluación, registro y operatividad total. Se consideran todos los puntos de contacto críticos, permitiendo comprender la experiencia integral desde que el usuario conoce la solución hasta que se convierte en un usuario activo o decide abandonar el servicio.
+El mapeo de este recorrido inicia desde las primeras dificultades relacionadas con la organización y acceso a la información, avanzando a través de las tareas diarias de registro, seguimiento sanitario y búsqueda de antecedentes médicos. Asimismo, se identifican los principales puntos de contacto, canales utilizados y frustraciones presentes en el proceso actual, permitiendo comprender de forma integral cómo los usuarios realizan actualmente sus actividades y cuáles son las oportunidades de mejora dentro del entorno ganadero y veterinario.
 
 User Ganadero:
 
