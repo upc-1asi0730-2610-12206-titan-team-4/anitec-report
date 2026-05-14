@@ -120,24 +120,24 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 
 |Entrevistado 1|Vicente Alacutte|
 |-|-|
-|Edad:|62 años|
-|Distrito: | Canta, Lima|
+|Edad|62 años|
+|Distrito | Canta, Lima|
 |<img src="../../assets/chapter-2/Entrevista 1.png" width="360"> </td>| En la entrevista realizada a Vicente Huamán Alacute, ganadero con más de 30 años de experiencia que gestiona un hato de 25 cabezas de vacuno, se validó la necesidad crítica de digitalizar la gestión pecuaria a través de una herramienta como AniTec. Actualmente, el entrevistado depende de un cuadernillo físico y registros aislados en Excel, enfrentando problemas de desorden, pérdida de información y la "fragilidad de la memoria" ante tareas complejas como el control de enfermedades, alimentación y reproducción. Don Vicente enfatizó que la tecnología es el camino para profesionalizar el sector, señalando que un registro digital no solo optimiza la operatividad interna mediante alertas y trazabilidad, sino que otorga confianza al comprador al momento de la venta. Finalmente, hizo un llamado a que la aplicación sea extremadamente sencilla y accesible para el hombre de campo, confirmando que, si la herramienta es intuitiva, existe una disposición total para adoptar la plataforma y abandonar los métodos manuales en favor de una ganadería más inteligente y eficiente.|
-|Timing: 00:07:43|URL: https://drive.google.com/file/d/13oRRly8TR7Kus-jWqxyd3qEBK7DW4CRg/view?usp=sharing 
+|Timing: 00:07:43 |URL: https://drive.google.com/file/d/13oRRly8TR7Kus-jWqxyd3qEBK7DW4CRg/view?usp=sharing 
 
 |Entrevistado 2|Rebeca Noemi Quiroz Roldan|
 |-|-|
-|Edad:|54 años|
+|Edad|54 años|
 |Distrito:| Lima|
 |<img src="../../assets/chapter-2/Entrevista2.jpeg" width="360">|En la entrevista la señora Rebeca Noemi menciona que gestiona un ganado vacuno en donde sus mayores problemas que enfrenta son cuando a la vaca le da mastitis y cuando los terneros enferman, tambien menciona que gestiona su ganado a traves de cuadernos y/o apuntes en hojas, Rebeca afirma no tener problemas con su gestion pero que si estaria dispuesta a usar una aplicacion que la ayude a gestionar mejor su ganado dado que la tecnologia que mas usa es su celular, ademas dice que lo que mas valora de una aplicacion asi es la seguridad, tambien Rebeca nos cuenta que la gestion de enfermedades de su ganado se la encarga a un ingeniero especializado, Le mencionamos si le gustaria que la aplicacion le recuerde diferentes tipo de evento como vacunacion o dosis de medicamentos y estuvo de acuerdo, que seria prudencial tener eso en una aplicacion como es AniTec|
-|Timing:  |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+|Timing: 00:06:53 |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 |Entrevistado 3|Porfirio Salazar Rodriguez|
 |-|-|
 |Edad:|65 años|
-|Distrito:|Comas, Lima|
+|Distrito|Comas, Lima|
 |<img width="1292" alt="Entrevista3" src="../../assets/chapter-1/entrevistaGan3.png" >|En la entrevista, el señor Porfirio Salazar Rodriguez nos comentó acerca de lo que se dedica a hacer en el sector de la ganadería especialmente con su especialidad el cual es la ganadería artesanal. Él, a pesar de no tener experiencia en empresas de mayor calibre, tiene a su mando a dos o tres personas con las cuales manejan cierta cantidad de ganado que tienen; sin embargo, tienen la esperanza de trascender y poder pasar a ser una empresa formal para poder manejar el tipo de ganado que le pueda generar más ingresos. Asimismo, el opina que la tecnología sin duda que le ayudaría a mejorar su productividad pero recalca que necesitaría el capital suficiente para que pueda pagar por el producto|
-|Timing: 13:55 min |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
+|Timing: 00:13:55 |URL: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
 
 
 **Entrevista a Veterinarios**
