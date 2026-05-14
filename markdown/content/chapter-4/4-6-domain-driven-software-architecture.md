@@ -126,6 +126,7 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
 
 ## 4.6.2. Software Architecture Context Diagram.
 
+El Software Architecture Context Level Diagram presenta una vista general del sistema Anitec y sus interacciones con usuarios y sistemas externos. Este diagrama permite identificar los principales actores de la plataforma, así como los servicios externos utilizados para funcionalidades como procesamiento de pagos y envío de correos electrónicos.
 
 <div align="center">
   <p>
@@ -139,6 +140,8 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
 
 ## 4.6.3. Software Architecture Container Diagrams.
 
+El  Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos SQL Server y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
+
 <div align="center">
   <p>
     <b>Diagrama de Contenedores C4 - AniTec</b>
@@ -151,6 +154,23 @@ Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKR
 
 ## 4.6.4. Software Architecture Components Diagrams.
 
+Los Software Architecture Component Diagrams presentan la descomposición interna de los principales contenedores del sistema, permitiendo identificar sus componentes, responsabilidades e interacciones. Estos diagramas facilitan la comprensión de la organización lógica de la solución y las tecnologías utilizadas en su implementación.
+
+<br>
+
+El siguiente Diagrama de Componentes descompone el contenedor de la API Application de AniTec para detallar la lógica interna del sistema bajo un enfoque de Bounded Contexts. Se ilustra cómo la Single Page Application (SPA) se comunica mediante HTTPS/JSON directamente con módulos independientes como IAM (responsable de la seguridad y la gestión de suscripciones con Stripe), Animal Management, Health Management, Event management, Financial Management y Reporting. Cada componente, construido con ASP.NET Core y Entity Framework Core, encapsula las reglas de negocio para la gestión ganadera y coordina la persistencia en SQL Server, integrándose además con Resend para las notificaciones por e-mail.
+
+<div align="center">
+  <p>
+    <b>Diagrama de Componentes - API Application - AniTec</b>
+  </p>
+  <img src="../../assets/chapter-4/Diagrama-Componentes-API-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+d
 
 <div align="center">
   <p>
