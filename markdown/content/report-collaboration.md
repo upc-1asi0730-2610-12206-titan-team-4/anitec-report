@@ -20,7 +20,7 @@ Para el desarrollo del informe perteneciente a la entrega AV1, se dividió la im
 | Luciana Sanchez  | Desarrollo parcial del Capítulo IV: Diseño del landing page y web application, y actualización del keynote. Además,  colaboró en el desarrollo capítulo V del documento en formato markdown |
 </div>
 
-El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
+El trabajo se desarrolló mediante commits continuos en el repositorio de la organización, asegurando trazabilidad y colaboración activa del equipo.
 
 ---
 
@@ -57,40 +57,39 @@ Se explican las ramas más prominentes:
 
 - **main**: Es representada por el color blanco. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
 - **develop**: Es representada por el color morado. Se trata de la rama principal para el proceso del desarrollo del proyecto.
-- **feat/sprint1**: Es representada por el color morado. Esta rama incluye los artefactos relacionados al sprint 1 en el informe.
+- **feature/**: cambios específicos del documento
 
-![Branch_Graph](../assets/chapter-1/branchGraph.png)
+![Branch_Graph](../assets/chapter-1/branchGraph2.png)
 
 Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo. 
 
 **AV1**
 
-![Commit_Graph](../assets/chapter-1/CommitOvertime.png)
-![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png)
+![Commit_Graph](../assets/chapter-1/CommitOvertime.png) <br>
+![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit2.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit2.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit3.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit3.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit4.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit4.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit5.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit5.png) <br>
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg)
+![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg) <br>
 
-**TB1**
+**TB1** 
 
-![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)
-![Commit_Graph_Individual1](../assets/chapter-1/Comit12.png)
+![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)  <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit22.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit11.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit33.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit22.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit44.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit33.png) <br>
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit55.png)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit44.png) <br>
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap12.jpeg)
+![Commit_Graph_Individual1](../assets/chapter-1/Comit55.png) <br>
 
-
+![Pull_Graphs](../assets/chapter-1/GraficosCap12.png) <br>
