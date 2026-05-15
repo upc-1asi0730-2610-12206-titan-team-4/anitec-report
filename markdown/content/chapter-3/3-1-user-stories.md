@@ -12,6 +12,13 @@
   </thead>
   <tbody>
     <tr>
+      <td><b>EP-001</b></td>
+      <td>Gestion de acceso, sesion y roles</td>
+      <td>Esta epica agrupa las funcionalidades necesarias para que los usuarios ingresen a AniTec con una identidad determinada y accedan a una experiencia diferenciada segun su rol de ganadero o veterinario.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
       <td><b>EP-002</b></td>
       <td>Dashboard del ganadero</td>
       <td>Esta epica agrupa las funcionalidades del panel principal del ganadero, donde se resumen sus fincas, animales, alertas sanitarias, actividades y datos financieros.</td>
@@ -78,13 +85,6 @@
       <td><b>EP-011</b></td>
       <td>Landing page publica de AniTec</td>
       <td>Esta epica agrupa las historias de usuario de la landing page publica de AniTec. Estas historias estan al final porque corresponden a la experiencia informativa y comercial previa al uso de la aplicacion web.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
-    </tr>
-    <tr>
-      <td><b>EP-001</b></td>
-      <td>Gestion de acceso, sesion y roles</td>
-      <td>Esta epica agrupa las funcionalidades necesarias para que los usuarios ingresen a AniTec con una identidad determinada y accedan a una experiencia diferenciada segun su rol de ganadero o veterinario.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
