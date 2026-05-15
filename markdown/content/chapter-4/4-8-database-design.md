@@ -8,7 +8,7 @@ Se presenta el diagrama de la base de datos relacional:
   <p>
     <b>Diagrama de base de datos de AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/DiagramaBaseDeDatosAnitec.jpeg" alt="BaseDatos" width="600">
+  <img src="../../assets/chapter-4/DiagramaBaseDeDatosAnitec.png" alt="BaseDatos" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
