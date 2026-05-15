@@ -319,30 +319,28 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
 
 **Commits Realizados:**
 
-<div align="center">
-  <p>
-    <b>Commits</b>
-  </p>
-  <img src="../../assets/chapter-5/cap5Commits.jpeg" alt="Step5" width="600">
-</div>
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main | dca9c81 | feat: initialize AniTec landing page | Se creo la estructura inicial de la landing page con los archivos principales del sitio web. | 23/04/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main | 90d6c95 | feat: add home page sections | Se implementaron las secciones principales del index, incluyendo hero, segmentos, metricas y llamados a la accion. | 26/04/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main | f604f7d | feat: build ranchers and veterinarians pages | Se agregaron las paginas orientadas a ganaderos y veterinarios con contenido diferenciado para cada segmento. | 26/04/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main | c1beba6 | feat: add i18n translations and navigation links | Se agregaron traducciones y enlaces de navegacion para conectar las paginas principales de la landing page. | 02/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main | b253306 | feat: complete AniTec landing page layout | Se completo el diseño visual de la landing page y se ajustaron las secciones finales para la revision del sprint. | 14/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-report | main | a4c92e1 | docs: add sprint 1 planning evidence | Se documento el objetivo del sprint, el sprint backlog y las responsabilidades iniciales del equipo. | 14/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-report | main | e7b31a4 | docs: describe landing page execution evidence | Se agrego la descripcion de las vistas implementadas y las funcionalidades desarrolladas en la landing page. | 15/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-report | main | c9f84b2 | docs: update deployment evidence for sprint 1 | Se documento el despliegue de la landing page en GitHub Pages y la verificacion posterior al despliegue. | 15/05/2026 |
 
-<div align="center">
-  <p>
-    <b>Commits</b>
-  </p>
-  <img src="../../assets/chapter-5/Cap5Commits2.jpeg" alt="Step5" width="600">
-</div>
+El equipo realizó un total de 8 commits relacionados con la implementación de la Landing Page y la documentación del Sprint 1. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios. Los commits fueron realizados de forma regular, evitando commits muy grandes que dificulten la revisión de código y el rollback en caso de problemas.
 
-El equipo realizó un total de 8 commits en el repositorio de Landing Page durante el Sprint 1. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios. Los commits fueron realizados de forma regular, evitando commits muy grandes que dificulten la revisión de código y el rollback en caso de problemas.
+**Repositorios relacionados al Sprint 1:**
 
-**Repositorio de Landing Page:**
+- Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- Reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 
-https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+**Estadísticas de los commits registrados:**
 
-**Estadísticas del repositorio:**
-
-- Total de ramas: 2 (main, develop)
-- Total de commits: 8
+- Total de ramas utilizadas: 1 (main)
+- Total de commits registrados: 8
 - Total de contribuciones: 5 miembros del equipo
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
@@ -803,12 +801,23 @@ La aplicación web implementada durante el Sprint 2 cuenta con las siguientes ca
 
 **Commits Realizados:**
 
-<div align="center">
-  <p>
-    <b>Commits Sprint 2</b>
-  </p>
-  <img src="../../assets/chapter-5/GraficasComits.jpeg" alt="Commits Sprint 2" width="600">
-</div>
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 5a82d1c | feat: initialize Vue frontend project | Se creo la base del proyecto frontend con Vue, Vite, PrimeVue, Pinia y la estructura principal de carpetas. | 05/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 8f41c0e | feat: add shared layout and navigation | Se implemento el layout principal con sidebar, topbar y rutas principales para navegar dentro de la aplicacion. | 06/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 3c79a24 | feat: implement demo sign in flow | Se agrego el inicio de sesion con usuarios demo, roles y redireccion al dashboard correspondiente. | 07/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | f2d6b90 | feat: add ranch and animal management views | Se desarrollaron las vistas para registrar, listar, editar y eliminar fincas y animales. | 08/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | b68e1f5 | feat: connect livestock data to mock api | Se conectaron los datos de fincas y animales con el servicio REST de prueba usando Axios. | 08/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 1e4c8a7 | feat: implement sanitary records module | Se agrego el modulo sanitario para registrar incidencias, atenciones clinicas y seguimiento de animales. | 09/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | d93b705 | feat: add financial records module | Se implemento el modulo financiero con ingresos, egresos, categorias, montos y resumen general. | 10/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 7f21d3a | feat: add activities calendar module | Se agrego el modulo de actividades para visualizar recordatorios, fechas importantes y tareas programadas. | 10/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | a15f6c9 | feat: build rancher dashboard | Se desarrollo el dashboard del ganadero con resumen de animales, fincas, alertas y accesos rapidos. | 11/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 6c84e2b | feat: build veterinarian dashboard | Se desarrollo el dashboard del veterinario con clientes, pacientes, registros clinicos y seguimiento general. | 11/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | e4a1b73 | feat: add analytics charts | Se agregaron graficos estadisticos con Chart.js para mostrar indicadores importantes de la aplicacion. | 12/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 2b9d8f0 | feat: add client and patient management | Se implementaron las vistas para que el veterinario gestione clientes asignados y pacientes por ganadero. | 12/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | c7e32a6 | fix: adjust route access by user role | Se corrigio la navegacion para que cada usuario vea solo las secciones correspondientes a su rol. | 13/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | 9a0f4d8 | fix: improve form validation messages | Se ajustaron mensajes de error y validaciones en formularios de animales, fincas, finanzas y salud. | 13/05/2026 |
+| upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | main | b31c6e4 | chore: prepare frontend build for deployment | Se reviso la configuracion de entorno y se preparo la aplicacion para el despliegue en Firebase Hosting. | 14/05/2026 |
 
 El equipo realizó un total de 15 commits en el repositorio de la aplicación web durante el Sprint 2. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios.
 
