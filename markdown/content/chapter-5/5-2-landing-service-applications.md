@@ -183,6 +183,13 @@ El Sprint Backlog fue elaborado de manera colaborativa, donde cada miembro del e
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done". El uso de Trello permite una visualización clara del estado de cada tarea y facilita la identificación de cuellos de botella en el flujo de trabajo.
 
+Enlace al tablero del Sprint Backlog 1: [Sprint Backlog 1 en Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
+
+<div align="center">
+    <img src="../../assets/chapter-5/Sprintbacklog1SS.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
 **Estructura del Trello Board:**
 
 - **Sprint Goal:** Lista que contiene una tarjeta con el objetivo del Sprint, sirviendo como recordatorio constante para todo el equipo.
@@ -653,6 +660,13 @@ El Sprint Backlog fue elaborado de manera colaborativa, donde cada miembro del e
 
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
+
+Enlace al tablero del Sprint Backlog 2: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
+
+<div align="center">
+    <img src="../../assets/chapter-5/Sprintbacklog2SS.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 **Estructura del Trello Board:**
 

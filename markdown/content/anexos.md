@@ -34,6 +34,8 @@
 - Despliegue de la landing page: [GitHub Pages](https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/)
 - Despliegue del frontend web: [Firebase Hosting](https://anitecfrontendtitan.web.app)
 - API mock del frontend: [My JSON Server](https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver)
+- Tablero del Sprint Backlog 1: [Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
+- Tablero del Sprint Backlog 2: [Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
 
 ## Anexo E. Herramientas utilizadas
 
@@ -43,7 +45,7 @@
 - Figma, para wireframes, mock-ups y prototipos: [Sitio oficial](https://www.figma.com)
 - Canva, para recursos visuales del producto: [Sitio oficial](https://www.canva.com)
 - UXPressia, para User Personas y Customer Journey Maps: [Sitio oficial](https://uxpressia.com)
-- Lucidchart, para diagramas del sistema: [Sitio oficial](https://www.lucidchart.com/)
+- Lucidchart, para diagramas del sistema: [Sitio oficial](https://www.lucidchart.com/) / [enlace alternativo usado en el informe](https://lucidchart.com)
 - GitHub, para control de versiones y colaboracion: [Sitio oficial](https://github.com)
 - Visual Studio Code, para edicion de codigo y archivos Markdown: [Sitio oficial](https://code.visualstudio.com/)
 - WebStorm, para desarrollo del frontend: [Sitio oficial](https://www.jetbrains.com/webstorm/)
@@ -53,3 +55,10 @@
 - Mockapi, para datos de prueba: [Sitio oficial](https://mockapi.io/)
 - Structurizr, para diagramas C4: [Sitio oficial](https://structurizr.com)
 - Vertabelo, para diagramas de base de datos: [Sitio oficial](https://vertabelo.com)
+
+## Anexo F. Referencias bibliograficas con enlace
+
+- Guia para ejecutar Big Picture Event Storming: [Step by Step Guide to run your Big Picture Event Storming](https://bit.ly/bpes-guide)
+- Guia practica de EventStorming remoto: [Remote EventStorming in Practice](https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/)
+- Material sobre historias de usuario: [Historias de usuario: Un enfoque agil](https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf)
+- Libro de ingenieria de software usado como referencia: [Ingenieria de Software: Un enfoque practico](https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF)
