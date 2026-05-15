@@ -245,9 +245,19 @@ La aplicación Frontend de AniTec se despliega utilizando **Firebase Hosting**, 
    
 **Resultado:**
 
-La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link:  *(INSERTAR AQUI LINK DESPLEGADO)*
+La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://anitecfrontendtitan.web.app 
 
 <div align="center">
     <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/frontend-evidence2.png" width="500">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/frontend-evidence3.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>

@@ -1,5 +1,7 @@
 # 4.3. Landing Page UI Design
 
+El diseño de la Landing Page de AniTec fue desarrollado con el propósito de ofrecer al visitante una primera impresión clara, atractiva y funcional sobre la aplicación y sus beneficios. La interfaz busca comunicar de manera efectiva la propuesta de valor de la plataforma, enfocándose en la digitalización y optimización de la gestión ganadera mediante herramientas tecnológicas accesibles e intuitivas.
+
 ## 4.3.1. Landing Page Wireframe
 
 El wireframe de la landing page de AniTec actúa como una guía visual preliminar que organiza los elementos esenciales de la página sin entrar en detalles gráficos. Este esquema muestra la distribución de secciones clave como el encabezado con el logo y menú de navegación, una propuesta de valor centrada en la digitalización ganadera, testimonios de usuarios reales del campo, y llamadas a la acción destacadas que invitan a conocer la aplicación. El objetivo es garantizar una experiencia intuitiva para el visitante y facilitar su conversión en usuario activo de la plataforma.
