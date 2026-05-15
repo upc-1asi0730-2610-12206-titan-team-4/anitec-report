@@ -6,7 +6,11 @@ A pesar de los avances en otros sectores agropecuarios, la ganadería peruana to
 
 Con la proyección de un aumento del 70 % en la demanda mundial de alimentos para 2050 (FAO, 2021), se hace cada vez más urgente incorporar tecnologías digitales en el sector ganadero. AniTec busca centralizar y automatizar la gestión del ganado mediante una plataforma accesible, capaz de registrar datos en tiempo real y generar indicadores clave de desempeño. Esto permitiría mejorar la rentabilidad y eficiencia de los hatos, así como incrementar la competitividad del país en mercados de exportación de carne y leche.
 
-Entre los posibles usuarios se encuentran empresas formales como Gloria S.A. o Laive, cooperativas como COLPA en Cajamarca, así como asociaciones de pequeños productores interesados en digitalizar sus procesos para facilitar el acceso a créditos, certificaciones sanitarias y mercados más exigentes.
+Entre los posibles usuarios se encuentran:
+
+- **Pequeños y medianos ganaderos:** Productores que necesitan digitalizar el control sanitario, reproductivo y económico de sus hatos para mejorar productividad y trazabilidad.
+
+- **Veterinarios y técnicos agropecuarios:** Profesionales que requieren acceso a historiales clínicos, seguimiento sanitario y herramientas de monitoreo para optimizar la atención del ganado.
 
 <div id='1.3.1.'><h4> 1.3.1 Stakeholders.</h4></div>
 
