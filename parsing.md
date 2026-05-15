@@ -221,41 +221,41 @@ Se explican las ramas más prominentes:
 - **develop**: Es representada por el color morado. Se trata de la rama principal para el proceso del desarrollo del proyecto.
 - **feature/**: cambios específicos del documento
 
-![Branch_Graph](../assets/chapter-1/branchGraph2.png)
+![Branch_Graph](./markdown/assets/chapter-1/branchGraph2.png)
 
 Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
 
 **AV1**
 
-![Commit_Graph](../assets/chapter-1/CommitOvertime.png)
+![Commit_Graph](./markdown/assets/chapter-1/CommitOvertime.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png)
+![Commit_Graph_Individual1](./markdown/assets/chapter-1/Comit1.png)
 
-![Commit_Graph_Individual2](../assets/chapter-1/Comit2.png)
+![Commit_Graph_Individual2](./markdown/assets/chapter-1/Comit2.png)
 
-![Commit_Graph_Individual3](../assets/chapter-1/Comit3.png)
+![Commit_Graph_Individual3](./markdown/assets/chapter-1/Comit3.png)
 
-![Commit_Graph_Individual4](../assets/chapter-1/Comit4.png)
+![Commit_Graph_Individual4](./markdown/assets/chapter-1/Comit4.png)
 
-![Commit_Graph_Individual5](../assets/chapter-1/Comit5.png)
+![Commit_Graph_Individual5](./markdown/assets/chapter-1/Comit5.png)
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg)
+![Pull_Graphs](./markdown/assets/chapter-1/GraficosCap1.jpeg)
 
 **TB1** 
 
-![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)
+![Commit_Graph](./markdown/assets/chapter-1/CommitOvertime2.png)
 
-![Commit_Graph_Individual1](../assets/chapter-1/Comit11.png)
+![Commit_Graph_Individual1](./markdown/assets/chapter-1/Comit11.png)
 
-![Commit_Graph_Individual2](../assets/chapter-1/Comit22.png)
+![Commit_Graph_Individual2](./markdown/assets/chapter-1/Comit22.png)
 
-![Commit_Graph_Individual3](../assets/chapter-1/Comit33.png)
+![Commit_Graph_Individual3](./markdown/assets/chapter-1/Comit33.png)
 
-![Commit_Graph_Individual4](../assets/chapter-1/Comit44.png)
+![Commit_Graph_Individual4](./markdown/assets/chapter-1/Comit44.png)
 
-![Commit_Graph_Individual5](../assets/chapter-1/Comit55.png)
+![Commit_Graph_Individual5](./markdown/assets/chapter-1/Comit55.png)
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap12.png)
+![Pull_Graphs](./markdown/assets/chapter-1/GraficosCap12.png)
 
 # Student Outcomes
 |Criterio especifico|Acciones realizadas|Conclusiones|
@@ -290,7 +290,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 <table>
   <tr>
     <td width="30%" align="center">
-      <img src="../../assets/chapter-1/Integrante-1.jpg" width="180">
+      <img src="./markdown/assets/chapter-1/Integrante-1.jpg" width="180">
     </td>
     <td width="70%">
       <h3>Luciana Celeste Sanchez Silva</h3>
@@ -303,7 +303,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 
    <tr>
     <td width="30%" align="center">
-      <img src="../../assets/chapter-1/Integrante-2.jpeg" width="180">
+      <img src="./markdown/assets/chapter-1/Integrante-2.jpeg" width="180">
     </td>
     <td width="70%">
       <h3>Josep Eliu Melgarejo Quiroz</h3>
@@ -316,7 +316,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 
    <tr>
     <td width="30%" align="center">
-      <img src="../../assets/chapter-1/Integrante-3.jpeg" width="180">
+      <img src="./markdown/assets/chapter-1/Integrante-3.jpeg" width="180">
     </td>
     <td width="70%">
       <h3>Abigail Nadhim Raymundo Villarroel</h3>
@@ -329,7 +329,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 
    <tr>
     <td width="30%" align="center">
-      <img src="../../assets/chapter-1/Integrante-4.jpg" width="180">
+      <img src="./markdown/assets/chapter-1/Integrante-4.jpg" width="180">
     </td>
     <td width="70%">
       <h3>Bruno Aldair Huaman Gallardo</h3>
@@ -342,7 +342,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 
    <tr>
     <td width="30%" align="center">
-      <img src="../../assets/chapter-1/Integrante-5.png" width="180">
+      <img src="./markdown/assets/chapter-1/Integrante-5.png" width="180">
     </td>
     <td width="70%">
       <h3>Jorge Brayan Ayala Fernandez</h3>
@@ -526,7 +526,7 @@ Creemos que AniTec debe tener una interfaz intuitiva, amigable y estable, pensad
 
 El Lean UX Canvas es una herramienta utilizada en el marco del diseño centrado en el usuario (UX) y la metodología Lean, cuyo objetivo es apoyar la creación y mejora de productos de manera ágil y eficiente. Su propósito principal es proporcionar una estructura organizada que fomente la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas elaborado por el equipo utilizando la plataforma digital Mural.
 
-![Lean UX Canvas](../../assets/chapter-1/lean_ux_canvas.png)
+![Lean UX Canvas](./markdown/assets/chapter-1/lean_ux_canvas.png)
 Enlace para acceder al [Canvas](https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781)
 
 # 1.3. Segmentos objetivo.
@@ -574,10 +574,10 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         <tr>
             <td rowspan="3" class="sub">PERFIL</td>
             <td rowspan="2" class="sub">Overview</td>
-            <td> AniTec <img src="../../assets/chapter-2/AniTec.png"></td>
-            <td> Livestock Manager <img src="../../assets/chapter-2/Livestock.png"></td>
-            <td> AgriTrack <img src="../../assets/chapter-2/AgriTrack.png"></td>
-            <td> FarmLogs <img src="../../assets/chapter-2/FarmLogs.png"></td> 
+            <td> AniTec <img src="./markdown/assets/chapter-2/AniTec.png"></td>
+            <td> Livestock Manager <img src="./markdown/assets/chapter-2/Livestock.png"></td>
+            <td> AgriTrack <img src="./markdown/assets/chapter-2/AgriTrack.png"></td>
+            <td> FarmLogs <img src="./markdown/assets/chapter-2/FarmLogs.png"></td> 
         </tr>
         <tr>
             <td>Plataforma web y móvil diseñada para pequeños y medianos ganaderos en Latinoamérica, enfocada en trazabilidad, gestión sanitaria y educación.</td>
@@ -815,7 +815,7 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-2/Entrevista 1.png" width="420">
+    <img src="./markdown/assets/chapter-2/Entrevista 1.png" width="420">
 </div>
 
 **Resumen de la entrevista:**
@@ -846,7 +846,7 @@ La entrevista permitió identificar que Vicente estaría dispuesto a usar una pl
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-2/Entrevista2.jpeg" width="420">
+    <img src="./markdown/assets/chapter-2/Entrevista2.jpeg" width="420">
 </div>
 
 **Resumen de la entrevista:**
@@ -877,7 +877,7 @@ Respecto a tecnología, utiliza smartphone y navegación básica desde el celula
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-1/entrevistaGan3.png" width="420">
+    <img src="./markdown/assets/chapter-1/entrevistaGan3.png" width="420">
 </div>
 
 **Resumen de la entrevista:**
@@ -910,7 +910,7 @@ La entrevista permitió reconocer que Porfirio necesita una solución que no sol
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-2/entrevistaVet1.png" width="420">
+    <img src="./markdown/assets/chapter-2/entrevistaVet1.png" width="420">
 </div>
 
 **Resumen de la entrevista:**
@@ -941,7 +941,7 @@ La entrevistada considera que una herramienta como AniTec sería útil si permit
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-2/entrevistaVet2.png" width="420">
+    <img src="./markdown/assets/chapter-2/entrevistaVet2.png" width="420">
 </div>
 
 **Resumen de la entrevista:**
@@ -1010,11 +1010,11 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ### User Persona: Ganaderos
 
-![User-Persona Ganadero](../../assets/chapter-2/user_persona_ganadero.png)
+![User-Persona Ganadero](./markdown/assets/chapter-2/user_persona_ganadero.png)
 
 ### User Persona: Veterinarios
 
-![User-Persona Veterinario](../../assets/chapter-2/user_persona_veterinario.png)
+![User-Persona Veterinario](./markdown/assets/chapter-2/user_persona_veterinario.png)
 
 ## 2.3.2. User Task Matrix.
 
@@ -1043,11 +1043,11 @@ El mapeo de este recorrido inicia desde las primeras dificultades relacionadas c
 
 User Ganadero:
 
-![User-Ganadero-Journey](../../assets/chapter-2/User-Ganadero-Journey.png)
+![User-Ganadero-Journey](./markdown/assets/chapter-2/User-Ganadero-Journey.png)
 
 User Veterinario:
 
-![User-Veterinario-Journey](../../assets/chapter-2/User-Veterinario-Journey.png)
+![User-Veterinario-Journey](./markdown/assets/chapter-2/User-Veterinario-Journey.png)
 
 ## 2.3.4. Empathy Mapping.
 
@@ -1059,11 +1059,11 @@ Los Empathy Maps permitieron visualizar de forma más profunda la experiencia ac
 
 User Ganadero:
 
-![User-Ganaderos-Empathy](../../assets/chapter-2/User-Ganadero-Empathy.png)
+![User-Ganaderos-Empathy](./markdown/assets/chapter-2/User-Ganadero-Empathy.png)
 
 User Veterinario:
 
-![User-Mapping-Empathy](../../assets/chapter-2/User-Veterinario-Empathy.png)
+![User-Mapping-Empathy](./markdown/assets/chapter-2/User-Veterinario-Empathy.png)
 
 # 2.4. Big Picture EventStorming.
 
@@ -1071,15 +1071,15 @@ El presente Big Picture Event Storming se ha desarrollado de manera colaborativa
 
 **Paso 1:** Unstructured Exploration (Exploración no estructurada) consiste en una lluvia de ideas colaborativa donde los participantes identifican y registran domain events, que son sucesos relevantes ocurridos dentro del negocio. Estos eventos deben redactarse obligatoriamente en tiempo pasado (por ejemplo, "Livestock registered") y se colocan en notas adhesivas de color naranja sobre la superficie de modelado. En esta etapa inicial, se prioriza el descubrimiento de conceptos y procesos importantes del dominio sobre el orden o la jerarquía, permitiendo identificar eventos relacionados con la autenticación de usuarios, gestión de ganado, procesos sanitarios, operaciones financieras, generación de reportes y envío de notificaciones.
 
-![Event-Storming](../../assets/chapter-2/EventStormingPaso1.jpeg)
+![Event-Storming](./markdown/assets/chapter-2/EventStormingPaso1.jpeg)
 
 **Paso 2:** Timelines, los participantes revisan los eventos de dominio generados y los organizan cronológicamente para reflejar la secuencia real de los procesos empresariales. La construcción inicia organizando el flujo principal del negocio y posteriormente incorporando relaciones, ramificaciones y dependencias entre eventos. Este paso permitió construir una narrativa visual coherente del comportamiento del sistema AniTec, facilitando la identificación de secuencias operativas, conexiones entre procesos y posibles inconsistencias dentro del dominio.
 
-![Event-Storming](../../assets/chapter-2/EventStormingPaso2.jpeg)
+![Event-Storming](./markdown/assets/chapter-2/EventStormingPaso2.jpeg)
 
 **Paso 3:** Pain Points, los participantes utilizan la línea de tiempo recién organizada para identificar los puntos críticos, riesgos o ineficiencias presentes dentro de los procesos modelados. Estos problemas se representan mediante notas adhesivas rosadas colocadas cerca de los eventos relacionados, permitiendo visualizar dificultades operativas y oportunidades de mejora dentro del sistema. Entre los principales pain points identificados destacan posibles fallos de autenticación, registros duplicados de ganado, detección tardía de enfermedades, inconsistencias presupuestarias y fallos en la entrega de notificaciones. La identificación explícita de estas debilidades permitió comprender mejor los desafíos del dominio y considerar posibles automatizaciones o mejoras futuras en el diseño del sistema.
 
-![Event-Storming](../../assets/chapter-2/EventStormingPaso3.jpeg)
+![Event-Storming](./markdown/assets/chapter-2/EventStormingPaso3.jpeg)
 
 Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517)
 
@@ -1651,7 +1651,7 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
 
 # 3.2. Impact Mapping.
 
-<img width="1240" height="1328" alt="Impact map" src="../../assets/chapter-3/impactMapping.jpeg" />
+<img width="1240" height="1328" alt="Impact map" src="./markdown/assets/chapter-3/impactMapping.jpeg" />
 
 # 3.3. Product Backlog.
 
@@ -2086,17 +2086,17 @@ Además, la selección de colores debe estar alineada con los valores de innovac
 
 | Código HEX | Color                                                                   | Uso                                                     |
 | ---------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
-| #925930    | <img src="../../assets/chapter-4/925930.png" alt="925930" width="50px"> | Color primario - botones principales, textos destacados |
-| #79B267    | <img src="../../assets/chapter-4/79B267.png" alt="79B267" width="50px"> | Color secundario - CTAs positivos, iconos de éxito      |
-| #F5F0E6    | <img src="../../assets/chapter-4/F5F0E6.png" alt="F5F0E6" width="50px"> | Color de fondo principal                                |
+| #925930    | <img src="./markdown/assets/chapter-4/925930.png" alt="925930" width="50px"> | Color primario - botones principales, textos destacados |
+| #79B267    | <img src="./markdown/assets/chapter-4/79B267.png" alt="79B267" width="50px"> | Color secundario - CTAs positivos, iconos de éxito      |
+| #F5F0E6    | <img src="./markdown/assets/chapter-4/F5F0E6.png" alt="F5F0E6" width="50px"> | Color de fondo principal                                |
 
 **Colores secundarios:**
 
 | Código HEX | Color                                                                   | Uso                            |
 | ---------- | ----------------------------------------------------------------------- | ------------------------------ |
-| #A3794F    | <img src="../../assets/chapter-4/A3794F.png" alt="925930" width="50px"> | Acentos, bordes sutiles        |
-| #A3C4A8    | <img src="../../assets/chapter-4/A3C4A8.png" alt="A3C4A8" width="50px"> | Fondos de tarjetas, highlights |
-| #D1BFA5    | <img src="../../assets/chapter-4/D1BFA5.png" alt="D1BFA5" width="50px"> | Fondos alternativos            |
+| #A3794F    | <img src="./markdown/assets/chapter-4/A3794F.png" alt="925930" width="50px"> | Acentos, bordes sutiles        |
+| #A3C4A8    | <img src="./markdown/assets/chapter-4/A3C4A8.png" alt="A3C4A8" width="50px"> | Fondos de tarjetas, highlights |
+| #D1BFA5    | <img src="./markdown/assets/chapter-4/D1BFA5.png" alt="D1BFA5" width="50px"> | Fondos alternativos            |
 
 **Typography:**
 
@@ -2108,7 +2108,7 @@ Esta tipografía comunica una marca que se dedica al agro digital con un enfoque
   <p>
     <b>Grafico</b>: Estilos de Poppins
   </p>
-  <img src="../../assets/chapter-4/poppins.png" alt="Poppins" width="300">
+  <img src="./markdown/assets/chapter-4/poppins.png" alt="Poppins" width="300">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2124,7 +2124,7 @@ Los íconos utilizados mantienen una línea uniforme y amigable, facilitando la 
   <p>
     <b>Grafico</b>: Bootstrap Icons
   </p>
-  <img src="../../assets/chapter-4/icons.png" alt="Bootstrap icons" width="400">
+  <img src="./markdown/assets/chapter-4/icons.png" alt="Bootstrap icons" width="400">
   <p>
     <i><b>Fuente</b>: Fonts-online.reu</i>
   </p>
@@ -2232,7 +2232,7 @@ El wireframe se caracteriza por:
   <p>
     <b>Grafico</b>: AniTec Wireframe
   </p>
-  <img src="../../assets/chapter-4/anitec_wireframe.png" alt="AniTec Wireframe" width="500">
+  <img src="./markdown/assets/chapter-4/anitec_wireframe.png" alt="AniTec Wireframe" width="500">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2258,7 +2258,7 @@ El mock-up incluye:
   <p>
     <b>Grafico</b>: AniTec Mock-up
   </p>
-  <img src="../../assets/chapter-4/anitec_mockup.png" alt="AniTec Mock-up" width="500">
+  <img src="./markdown/assets/chapter-4/anitec_mockup.png" alt="AniTec Mock-up" width="500">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2274,126 +2274,126 @@ Los wireframes de la aplicación web de AniTec ilustran la estructura y distribu
 
 Pantalla de login en la aplicación
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 1.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 1.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 
 Pantalla para registrarse en la aplicación
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 2.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 2.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para escoger el plan
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 2.1.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 2.1.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla de inicio dentro de la aplicación
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 3.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 3.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar mayor detalle sobre un animal
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 4.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 4.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para eliminar la información registrada sobre un animal
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 5.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 5.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para añadir un nuevo animal
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 6.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 6.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Sección de evento locales registrados
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 7.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 7.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para registrar un nuevo evento
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 8.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 8.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Sección para consultar el historial Clínico de los animales
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 9.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 9.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar el historial Clínico de un animal en específico
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 10.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 10.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para ver el detalle de un informe médico de un animal en específico
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 11.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 11.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para agregar un informe médico a un animal en específico
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 12.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 12.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para escoger un informe médico para editar de un animal registrado
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 13.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 13.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para editar un informe médico seleccionado registrado para un animal
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 14.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 14.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 15.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 15.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Sección que registra ingresos y egresos de los ganaderos
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 16.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 16.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Dashboard donde se presentan los reportes generados
 
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireframe - 17.png" width="500">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireframe - 17.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2407,7 +2407,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 - **Registro e Inicio del Ganadero:** El presente wireflow corresponde al flujo de interacción del usuario ganadero desde el registro, y selección del plan de la cuenta, o inicio de sesión hasta el acceso a la aplicación.
 
 <div align="center">
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireflow1.png" width="800">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow1.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2417,7 +2417,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 - **Registro de animales:** El presente user flow corresponde con la agregación, eliminación, actualización, y consulta del detalle del ganado.
 
 <div align="center">
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireflow2.png" width="800">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow2.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2427,7 +2427,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 - **Registro de eventos:** El presente user flow corresponde con la agregación y consulta de eventos locales registrados por el usuario y/o sistema.
 
 <div align="center">
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireflow3.png" width="800">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow3.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2437,7 +2437,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 - **Registro de visitas médicas por animal:** El presente user flow corresponde a la gestión de las visitas médicas de un animal específico, mostrando un listado completo de sus atenciones veterinarias con información relevante. Desde este apartado, el usuario puede registrar nuevas visitas médicas, editar registros existentes para actualizar información y eliminar aquellos que ya no sean necesarios.
 
 <div align="center">
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireflow4.png" width="800">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow4.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2447,7 +2447,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 - **Control monetario del ganadero:** Esta vista permite al ganadero registrar y consultar sus ingresos y egresos de manera diaria, ofreciendo un control financiero claro y organizado. Además, presenta un resumen de las ganancias netas mensuales mediante un gráfico que proporciona una visión anual, junto con el detalle acumulado de ingresos y egresos del presente mes.
 
 <div align="center">
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireflow5.png" width="800">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow5.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2457,7 +2457,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 **Estadísticas del ganado:** Esta vista permite al ganadero analizar información clave sobre su producción mediante indicadores y gráficos dinámicos. Se presentan métricas como la cantidad total de animales, distribución por especie y sexo, así como su evolución en el tiempo.
 
 <div align="center">
-<img src="../../assets/chapter-4/wireframesAppWeb/Wireflow6.png" width="800">
+<img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow6.png" width="800">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2472,126 +2472,126 @@ En esta sección se exponen y analizan los mockups de la aplicación web AgroDig
 
 Pantalla de login en la aplicación
 
- <img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 1.png" width="500">
+ <img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 1.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para registrarse en la aplicación
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 2.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 2.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para escoger el plan
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 3.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 3.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla de inicio dentro de la aplicación
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 4.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 4.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar mayor detalle sobre un animal
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 5.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 5.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para eliminar la información registrada sobre un animal
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 6.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 6.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para añadir un nuevo animal
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 7.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 7.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Sección de evento locales registrados
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 8.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 8.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para registrar un nuevo evento
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 9.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 9.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para consultar el historial Clínico de un animal en específico
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 10.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 10.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para ver las visitas médicas registradas para un animal en específico
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 11.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 11.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para ver el detalle de un informe médico de un animal en específico
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 12.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 12.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para agregar un informe médico a un animal en específico
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 13.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 13.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para escoger un informe médico para editar de un animal registrado
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 14.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 14.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Pantalla para editar un informe médico seleccionado registrado para un animal
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 15.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 15.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Mensaje para escoger el informe del historial clínico a eliminar de un animal
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 16.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 16.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Sección que registra ingresos y egresos de los ganaderos
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 17.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 17.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
 
 Dashboard donde se presentan los reportes generados
 
-<img src="../../assets/chapter-4/mock-upsAppWeb/Mock-ups- 18.png" width="500">
+<img src="./markdown/assets/chapter-4/mock-upsAppWeb/Mock-ups- 18.png" width="500">
 <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
 </p>
@@ -2604,12 +2604,12 @@ En esta parte se detallan los diagramas de flujo de usuario, donde se describen 
 
 <div align="center">
 
-<img src="../../assets/chapter-4/userFlow1.png" width="800">
-<img src="../../assets/chapter-4/userFlow2.png" width="800">
-<img src="../../assets/chapter-4/userFlow3.png" width="800">
-<img src="../../assets/chapter-4/userFlow4.png" width="800">
-<img src="../../assets/chapter-4/userFlow5.png" width="800">
-<img src="../../assets/chapter-4/userFlow6.png" width="800">
+<img src="./markdown/assets/chapter-4/userFlow1.png" width="800">
+<img src="./markdown/assets/chapter-4/userFlow2.png" width="800">
+<img src="./markdown/assets/chapter-4/userFlow3.png" width="800">
+<img src="./markdown/assets/chapter-4/userFlow4.png" width="800">
+<img src="./markdown/assets/chapter-4/userFlow5.png" width="800">
+<img src="./markdown/assets/chapter-4/userFlow6.png" width="800">
 </div>
 
 # 4.5. Web Applications Prototyping.
@@ -2618,7 +2618,7 @@ En esta parte se detallan los diagramas de flujo de usuario, donde se describen 
 
 | Evidencia                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="../../assets/chapter-4/prototypingEvidence.png" width="600"> <img src="../../assets/chapter-4/prototypingEvidence2.png" width="600"> |
+| <img src="./markdown/assets/chapter-4/prototypingEvidence.png" width="600"> <img src="./markdown/assets/chapter-4/prototypingEvidence2.png" width="600"> |
 | Enlace al video del prototipo                                                                                                                                        |
 | https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw                                                  |
 
@@ -2638,7 +2638,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 4: Pivotal Events</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2650,7 +2650,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 5: Commands</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso5.jpeg" alt="Step5" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso5.jpeg" alt="Step5" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2662,7 +2662,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 6: Policys </b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso6.jpeg" alt="Step6" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso6.jpeg" alt="Step6" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2674,7 +2674,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 7: Read Models </b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso7.jpeg" alt="Step7" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso7.jpeg" alt="Step7" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2686,7 +2686,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 8: External Systems</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2698,7 +2698,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 9: Aggregates</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2710,7 +2710,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 10 - bounded context canvas</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso10.1.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso10.1.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2720,7 +2720,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 10 - bounded context canvas </b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso10.2.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso10.2.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2730,7 +2730,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 10 - bounded context canvas</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso10.3.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso10.3.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2740,7 +2740,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 10 - bounded context canvas</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso10.4.jpeg" alt="Step4" width="600">
+  <img src="./markdown/assets/chapter-2/EventStormingPaso10.4.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -2756,7 +2756,7 @@ El Software Architecture Context Level Diagram presenta una vista general del si
   <p>
     <b>Diagrama de Contexto C4 - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/DiagramaContextoAnitec.png" alt="Diagrama de Contexto C4 - AniTec" width="600">
+  <img src="./markdown/assets/chapter-4/DiagramaContextoAnitec.png" alt="Diagrama de Contexto C4 - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2770,7 +2770,7 @@ El Software Architecture Container Diagram permite visualizar la descomposición
   <p>
     <b>Diagrama de Contenedores C4 - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/DiagramaContenedoresAnitec.png" alt="Diagrama de Contenedores C4 - AniTec" width="600">
+  <img src="./markdown/assets/chapter-4/DiagramaContenedoresAnitec.png" alt="Diagrama de Contenedores C4 - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2788,7 +2788,7 @@ El siguiente Diagrama de Componentes descompone el contenedor de la API Applicat
   <p>
     <b>Diagrama de Componentes - API Application - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-API-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-API-AniTec.png" alt="C4-AutenticacionBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2800,7 +2800,7 @@ El IAM Component Diagram presenta la estructura interna del módulo de gestión 
   <p>
     <b>Diagrama de Componentes - IAM - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-AutenticacionBC-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-AutenticacionBC-AniTec.png" alt="C4-AutenticacionBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2812,7 +2812,7 @@ El Animal Management Component Diagram presenta la estructura interna del módul
   <p>
     <b>Diagrama de Componentes - Animal Management - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionAnimalBC-Anitec.png" alt="C4-GestionAnimalBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionAnimalBC-Anitec.png" alt="C4-GestionAnimalBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2824,7 +2824,7 @@ El Event Management Component Diagram presenta la estructura interna del módulo
   <p>
     <b>Diagrama de Componentes - Event Management - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionEventosBC-AniTec.png" alt="C4-GestionEventosBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionEventosBC-AniTec.png" alt="C4-GestionEventosBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2836,7 +2836,7 @@ El Financial Management Component Diagram presenta la estructura interna del mó
   <p>
     <b>Diagrama de Componentes - Financial Management - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionFinancieraBC-AniTec.png" alt="C4-GestionFinancieraBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionFinancieraBC-AniTec.png" alt="C4-GestionFinancieraBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2848,7 +2848,7 @@ El Health Management Component Diagram presenta la estructura interna del módul
   <p>
     <b>Diagrama de Componentes - Health Management - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionSanitariaBC-AniTec.png" alt="C4-GestionSanitariaBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionSanitariaBC-AniTec.png" alt="C4-GestionSanitariaBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2860,7 +2860,7 @@ El Reporting & Analytics Component Diagram presenta la estructura interna del m�
   <p>
     <b>Diagrama de Componentes - Reporting - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-ReportesBC-AniTec.png" alt="C4-ReportesBC" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-ReportesBC-AniTec.png" alt="C4-ReportesBC" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2874,7 +2874,7 @@ El Reporting & Analytics Component Diagram presenta la estructura interna del m�
   <p>
     <b>Diagrama de clases  - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Clases-Anitec.png" alt="Diagrama de Clases - AniTec" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Clases-Anitec.png" alt="Diagrama de Clases - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2911,7 +2911,7 @@ Se presenta el diagrama de la base de datos relacional:
   <p>
     <b>Diagrama de base de datos de AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/DiagramaBaseDeDatosAnitec.png" alt="BaseDatos" width="600">
+  <img src="./markdown/assets/chapter-4/DiagramaBaseDeDatosAnitec.png" alt="BaseDatos" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -3144,7 +3144,7 @@ La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publica
 La Landing Page queda disponible en una URL accesible desde cualquier navegador. Link: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 <div align="center">
-    <img src="../../assets/chapter-5/landing-page-evidence.png" width="500">
+    <img src="./markdown/assets/chapter-5/landing-page-evidence.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -3167,17 +3167,17 @@ La aplicación Frontend de AniTec se despliega utilizando **Firebase Hosting**, 
 La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://anitecfrontendtitan.web.app 
 
 <div align="center">
-    <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
+    <img src="./markdown/assets/chapter-5/frontend-evidence.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-5/frontend-evidence2.png" width="500">
+    <img src="./markdown/assets/chapter-5/frontend-evidence2.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-5/frontend-evidence3.png" width="500">
+    <img src="./markdown/assets/chapter-5/frontend-evidence3.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -3369,7 +3369,7 @@ El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. 
 Enlace al tablero del Sprint Backlog 1: [Sprint Backlog 1 en Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
 
 <div align="center">
-    <img src="../../assets/chapter-5/Sprintbacklog1SS.jpeg" width="700">
+    <img src="./markdown/assets/chapter-5/Sprintbacklog1SS.jpeg" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -3613,7 +3613,7 @@ El equipo adoptó un enfoque de trabajo colaborativo, donde los miembros se reun
   <p>
     <b>Commits graficas</b>
   </p>
-  <img src="../../assets/chapter-5/commit-chart-sprint-1.jpeg" alt="Step5" width="600">
+  <img src="./markdown/assets/chapter-5/commit-chart-sprint-1.jpeg" alt="Step5" width="600">
 </div>
 
 **Reflexiones del Equipo:**
@@ -3847,7 +3847,7 @@ El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. 
 Enlace al tablero del Sprint Backlog 2: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
 
 <div align="center">
-    <img src="../../assets/chapter-5/Sprintbacklog2SS.jpeg" width="700">
+    <img src="./markdown/assets/chapter-5/Sprintbacklog2SS.jpeg" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -4225,17 +4225,17 @@ La aplicación web frontend de AniTec fue desplegada exitosamente en **Firebase 
 - **Proceso:** Subir el archivo `db.json` al repositorio de GitHub; my-json-server genera automáticamente los endpoints REST a partir de las colecciones definidas en el JSON.
 
 <div align="center">
-    <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
+    <img src="./markdown/assets/chapter-5/frontend-evidence.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-5/frontend-evidence2.png" width="500">
+    <img src="./markdown/assets/chapter-5/frontend-evidence2.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <img src="../../assets/chapter-5/frontend-evidence3.png" width="500">
+    <img src="./markdown/assets/chapter-5/frontend-evidence3.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -4267,7 +4267,7 @@ El equipo adoptó un enfoque de trabajo colaborativo con reuniones diarias media
   <p>
     <b>Commits gráficas</b>
   </p>
-  <img src="../../assets/chapter-5/commit-chart-sprint-2.png" alt="Step5" width="600">
+  <img src="./markdown/assets/chapter-5/commit-chart-sprint-2.png" alt="Step5" width="600">
 </div>
 
 **Reflexiones del Equipo:**
