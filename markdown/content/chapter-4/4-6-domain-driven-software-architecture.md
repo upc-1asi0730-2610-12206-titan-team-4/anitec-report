@@ -60,7 +60,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 8: External Systems</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <img src="../../assets/chapter-2/EventStormingPaso8.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
@@ -72,7 +72,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   <p>
     <b>Step 9: Aggregates</b>
   </p>
-  <img src="../../assets/chapter-2/EventStormingPaso4.jpeg" alt="Step4" width="600">
+  <img src="../../assets/chapter-2/EventStormingPaso9.jpeg" alt="Step4" width="600">
   <p>
     <i><b>Fuente</b>: Elaboracion Propia</i>
   </p>
