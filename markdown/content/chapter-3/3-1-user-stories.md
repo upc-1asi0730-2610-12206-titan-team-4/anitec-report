@@ -19,10 +19,80 @@
       <td>No aplica</td>
     </tr>
     <tr>
+      <td><b>EP-003</b></td>
+      <td>Gestion de fincas del ganadero</td>
+      <td>Esta epica agrupa las funcionalidades para registrar, consultar, editar y eliminar las fincas o unidades productivas del ganadero.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-004</b></td>
+      <td>Gestion de animales</td>
+      <td>Esta epica agrupa las funcionalidades para registrar y administrar animales de distintos tipos de ganado, como bovinos, ovinos, caprinos, porcinos, aves, patos, pollos, cuyes y otros.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-005</b></td>
+      <td>Gestion sanitaria y clinica</td>
+      <td>Esta epica agrupa las funcionalidades para registrar enfermedades, incidencias, diagnosticos, tratamientos, recetas y seguimientos sanitarios de los animales.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-006</b></td>
+      <td>Gestion profesional del veterinario</td>
+      <td>Esta epica agrupa las funcionalidades para que el veterinario administre su cartera de clientes ganaderos, consulte sus fincas, revise pacientes y mantenga seguimiento sanitario.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-007</b></td>
+      <td>Calendario, actividades y recordatorios</td>
+      <td>Esta epica agrupa las funcionalidades para registrar y consultar actividades productivas, sanitarias, financieras, reproductivas y visitas veterinarias.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-008</b></td>
+      <td>Gestion financiera del ganadero</td>
+      <td>Esta epica agrupa las funcionalidades financieras para que el ganadero registre ingresos, egresos y revise su balance.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-009</b></td>
+      <td>Analiticas y estadisticas</td>
+      <td>Esta epica agrupa las funcionalidades para visualizar metricas y graficos estadisticos basados en animales, fincas, clientes y registros sanitarios visibles para cada rol.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-010</b></td>
+      <td>Navegacion y experiencia compartida</td>
+      <td>Esta epica agrupa funcionalidades generales de navegacion, estructura visual, estados vacios y paginas compartidas por los usuarios.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-011</b></td>
+      <td>Landing page publica de AniTec</td>
+      <td>Esta epica agrupa las historias de usuario de la landing page publica de AniTec. Estas historias estan al final porque corresponden a la experiencia informativa y comercial previa al uso de la aplicacion web.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-001</b></td>
+      <td>Gestion de acceso, sesion y roles</td>
+      <td>Esta epica agrupa las funcionalidades necesarias para que los usuarios ingresen a AniTec con una identidad determinada y accedan a una experiencia diferenciada segun su rol de ganadero o veterinario.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
       <td><b>US-001</b></td>
       <td>Visualizar resumen operativo del ganadero</td>
       <td>Como ganadero, quiero ver un resumen de mis animales, fincas, alertas y actividades para conocer rapidamente el estado de mi operacion.</td>
-      <td><b>Visualizacion de metricas del ganadero.</b><br>Given el ganadero tiene animales, fincas, eventos y registros sanitarios<br>When ingresa a su dashboard<br>Then el sistema muestra metricas calculadas con sus propios datos<br><br><b>Ganadero sin datos registrados.</b><br>Given el ganadero no tiene animales ni fincas registradas<br>When ingresa a su dashboard<br>Then el sistema muestra indicadores en cero o mensajes de estado vacio</td>
+      <td><b>Visualizacion de metricas del ganadero.</b><br>Given el ganadero tiene animales, fincas, actividades y registros sanitarios<br>When ingresa a su dashboard<br>Then el sistema muestra metricas calculadas con sus propios datos<br><br><b>Ganadero sin datos registrados.</b><br>Given el ganadero no tiene animales ni fincas registradas<br>When ingresa a su dashboard<br>Then el sistema muestra indicadores en cero o mensajes de estado vacio</td>
       <td>EP-002</td>
     </tr>
     <tr>
@@ -35,16 +105,9 @@
     <tr>
       <td><b>US-003</b></td>
       <td>Acceder a acciones rapidas del ganadero</td>
-      <td>Como ganadero, quiero acceder rapidamente al registro de animales, incidencias y eventos para reducir pasos en tareas frecuentes.</td>
-      <td><b>Registrar animal desde el dashboard.</b><br>Given el ganadero esta en su dashboard<br>When selecciona la accion de registrar animal<br>Then el sistema lo dirige al formulario de nuevo animal<br><br><b>Reportar incidencia desde el dashboard.</b><br>Given el ganadero detecta una enfermedad o problema sanitario<br>When selecciona la accion de reportar incidencia<br>Then el sistema lo dirige al formulario de evento sanitario<br><br><b>Programar visita desde el dashboard.</b><br>Given el ganadero necesita una visita o actividad futura<br>When selecciona la accion de programar visita<br>Then el sistema lo dirige al formulario de evento</td>
+      <td>Como ganadero, quiero acceder rapidamente al registro de animales, incidencias y actividades para reducir pasos en tareas frecuentes.</td>
+      <td><b>Registrar animal desde el dashboard.</b><br>Given el ganadero esta en su dashboard<br>When selecciona la accion de registrar animal<br>Then el sistema lo dirige al formulario de nuevo animal<br><br><b>Reportar incidencia desde el dashboard.</b><br>Given el ganadero detecta una enfermedad o problema sanitario<br>When selecciona la accion de reportar incidencia<br>Then el sistema lo dirige al formulario de evento sanitario<br><br><b>Programar visita desde el dashboard.</b><br>Given el ganadero necesita una visita o actividad futura<br>When selecciona la accion de programar visita<br>Then el sistema lo dirige al formulario de actividad</td>
       <td>EP-002</td>
-    </tr>
-    <tr>
-      <td><b>EP-003</b></td>
-      <td>Gestion de fincas del ganadero</td>
-      <td>Esta epica agrupa las funcionalidades para registrar, consultar, editar y eliminar las fincas o unidades productivas del ganadero.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-004</b></td>
@@ -73,13 +136,6 @@
       <td>Como ganadero, quiero eliminar una finca cuando ya no forma parte de mi operacion.</td>
       <td><b>Eliminacion confirmada.</b><br>Given existe una finca registrada<br>When el ganadero confirma su eliminacion<br>Then el sistema elimina la finca del listado<br><br><b>Eliminacion cancelada.</b><br>Given el ganadero abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el sistema conserva la finca sin cambios</td>
       <td>EP-003</td>
-    </tr>
-    <tr>
-      <td><b>EP-004</b></td>
-      <td>Gestion de animales</td>
-      <td>Esta epica agrupa las funcionalidades para registrar y administrar animales de distintos tipos de ganado, como bovinos, ovinos, caprinos, porcinos, aves, patos, pollos, cuyes y otros.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-008</b></td>
@@ -124,13 +180,6 @@
       <td>EP-004</td>
     </tr>
     <tr>
-      <td><b>EP-005</b></td>
-      <td>Gestion sanitaria y clinica</td>
-      <td>Esta epica agrupa las funcionalidades para registrar enfermedades, incidencias, diagnosticos, tratamientos, recetas y seguimientos sanitarios de los animales.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
-    </tr>
-    <tr>
       <td><b>US-014</b></td>
       <td>Visualizar registros sanitarios en cartas</td>
       <td>Como usuario autorizado, quiero ver los registros sanitarios en cartas para revisar de forma clara la informacion clinica de los animales.</td>
@@ -171,13 +220,6 @@
       <td>Como veterinario, quiero consultar el historial clinico de un animal para tomar mejores decisiones durante una atencion.</td>
       <td><b>Animal con historial.</b><br>Given el animal tiene registros sanitarios previos<br>When el veterinario abre su historial clinico<br>Then el sistema muestra todos los registros asociados al animal<br><br><b>Animal sin historial.</b><br>Given el animal no tiene registros sanitarios previos<br>When el veterinario abre su historial clinico<br>Then el sistema muestra un estado vacio o sin registros</td>
       <td>EP-005</td>
-    </tr>
-    <tr>
-      <td><b>EP-006</b></td>
-      <td>Gestion profesional del veterinario</td>
-      <td>Esta epica agrupa las funcionalidades para que el veterinario administre su cartera de clientes ganaderos, consulte sus fincas, revise pacientes y mantenga seguimiento sanitario.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-020</b></td>
@@ -229,24 +271,17 @@
       <td>EP-006</td>
     </tr>
     <tr>
-      <td><b>EP-007</b></td>
-      <td>Calendario, eventos y recordatorios</td>
-      <td>Esta epica agrupa las funcionalidades para registrar y consultar actividades productivas, sanitarias, financieras, reproductivas y visitas veterinarias.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
-    </tr>
-    <tr>
       <td><b>US-027</b></td>
-      <td>Visualizar calendario de eventos</td>
-      <td>Como usuario, quiero ver mis eventos programados para organizar actividades ganaderas y sanitarias.</td>
-      <td><b>Eventos existentes.</b><br>Given existen eventos visibles para el usuario<br>When ingresa al apartado de eventos<br>Then el sistema muestra una lista cronologica con fecha, titulo, tipo, estado y prioridad<br><br><b>Sin eventos.</b><br>Given no existen eventos visibles para el usuario<br>When ingresa al apartado de eventos<br>Then el sistema muestra un mensaje indicando que no hay eventos programados</td>
+      <td>Visualizar calendario de actividades</td>
+      <td>Como usuario, quiero ver mis actividades programadas para organizar tareas ganaderas y sanitarias.</td>
+      <td><b>Actividades existentes.</b><br>Given existen actividades visibles para el usuario<br>When ingresa al apartado de actividades<br>Then el sistema muestra una lista cronologica con fecha, titulo, tipo, estado y prioridad<br><br><b>Sin actividades.</b><br>Given no existen actividades visibles para el usuario<br>When ingresa al apartado de actividades<br>Then el sistema muestra un mensaje indicando que no hay actividades programadas</td>
       <td>EP-007</td>
     </tr>
     <tr>
       <td><b>US-028</b></td>
-      <td>Crear evento o recordatorio</td>
-      <td>Como usuario, quiero crear eventos para programar controles, visitas, tareas productivas o recordatorios financieros.</td>
-      <td><b>Evento valido.</b><br>Given el usuario ingresa titulo, tipo, fecha, prioridad y estado<br>When guarda el evento<br>Then el sistema registra el evento<br>And lo muestra en el calendario<br><br><b>Evento incompleto.</b><br>Given el usuario no ingresa titulo o fecha<br>When intenta guardar el evento<br>Then el sistema solicita completar los datos requeridos</td>
+      <td>Crear actividad o recordatorio</td>
+      <td>Como usuario, quiero crear actividades para programar controles, visitas, tareas productivas o recordatorios financieros.</td>
+      <td><b>Actividad valida.</b><br>Given el usuario ingresa titulo, tipo, fecha, prioridad y estado<br>When guarda la actividad<br>Then el sistema registra la actividad<br>And la muestra en el calendario<br><br><b>Actividad incompleta.</b><br>Given el usuario no ingresa titulo o fecha<br>When intenta guardar la actividad<br>Then el sistema solicita completar los datos requeridos</td>
       <td>EP-007</td>
     </tr>
     <tr>
@@ -258,17 +293,10 @@
     </tr>
     <tr>
       <td><b>US-030</b></td>
-      <td>Eliminar evento</td>
-      <td>Como usuario, quiero eliminar eventos que ya no son necesarios para mantener mi calendario ordenado.</td>
-      <td><b>Eliminacion confirmada.</b><br>Given existe un evento registrado<br>When el usuario confirma la eliminacion<br>Then el sistema elimina el evento<br><br><b>Eliminacion cancelada.</b><br>Given el usuario abre la confirmacion de eliminacion<br>When cancela la accion<br>Then el evento permanece registrado</td>
+      <td>Eliminar actividad</td>
+      <td>Como usuario, quiero eliminar actividades que ya no son necesarias para mantener mi calendario ordenado.</td>
+      <td><b>Eliminacion confirmada.</b><br>Given existe una actividad registrada<br>When el usuario confirma la eliminacion<br>Then el sistema elimina la actividad<br><br><b>Eliminacion cancelada.</b><br>Given el usuario abre la confirmacion de eliminacion<br>When cancela la accion<br>Then la actividad permanece registrada</td>
       <td>EP-007</td>
-    </tr>
-    <tr>
-      <td><b>EP-008</b></td>
-      <td>Gestion financiera del ganadero</td>
-      <td>Esta epica agrupa las funcionalidades financieras para que el ganadero registre ingresos, egresos y revise su balance.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-031</b></td>
@@ -299,59 +327,45 @@
       <td>EP-008</td>
     </tr>
     <tr>
-      <td><b>EP-009</b></td>
-      <td>Reportes y estadisticas</td>
-      <td>Esta epica agrupa las funcionalidades para visualizar metricas y graficos estadisticos basados en animales, fincas, clientes y registros sanitarios visibles para cada rol.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
-    </tr>
-    <tr>
       <td><b>US-035</b></td>
-      <td>Visualizar reportes del ganadero</td>
-      <td>Como ganadero, quiero ver reportes basados en mis propios animales, fincas y registros sanitarios para tomar decisiones sobre el estado sanitario y productivo de mi hato.</td>
-      <td><b>Reporte con datos propios.</b><br>Given el ganadero tiene animales, fincas y registros sanitarios registrados<br>When ingresa al apartado de reportes<br>Then el sistema muestra metricas calculadas solo con sus datos<br><br><b>Reporte sin datos.</b><br>Given el ganadero no tiene informacion registrada<br>When ingresa al apartado de reportes<br>Then el sistema muestra metricas en cero o graficos con estado sin datos</td>
+      <td>Visualizar analiticas del ganadero</td>
+      <td>Como ganadero, quiero ver analiticas basadas en mis propios animales, fincas y registros sanitarios para tomar decisiones sobre el estado sanitario y productivo de mi hato.</td>
+      <td><b>Analitica con datos propios.</b><br>Given el ganadero tiene animales, fincas y registros sanitarios registrados<br>When ingresa al apartado de analiticas<br>Then el sistema muestra metricas calculadas solo con sus datos<br><br><b>Analitica sin datos.</b><br>Given el ganadero no tiene informacion registrada<br>When ingresa al apartado de analiticas<br>Then el sistema muestra metricas en cero o graficos con estado sin datos</td>
       <td>EP-009</td>
     </tr>
     <tr>
       <td><b>US-036</b></td>
-      <td>Visualizar reportes del veterinario</td>
-      <td>Como veterinario, quiero ver reportes sanitarios de mis clientes asignados para priorizar pacientes, seguimientos y atenciones por hato.</td>
-      <td><b>Reporte con clientes asignados.</b><br>Given el veterinario tiene clientes asignados<br>When ingresa al apartado de reportes<br>Then el sistema muestra metricas de clientes, pacientes monitoreados, registros sanitarios y seguimientos pendientes<br><br><b>Graficos sanitarios del veterinario.</b><br>Given existen registros sanitarios de animales bajo supervision del veterinario<br>When visualiza reportes<br>Then el sistema muestra graficos de registros por tipo y atenciones por hato</td>
+      <td>Visualizar analiticas del veterinario</td>
+      <td>Como veterinario, quiero ver analiticas sanitarias de mis clientes asignados para priorizar pacientes, seguimientos y atenciones por hato.</td>
+      <td><b>Analitica con clientes asignados.</b><br>Given el veterinario tiene clientes asignados<br>When ingresa al apartado de analiticas<br>Then el sistema muestra metricas de clientes, pacientes monitoreados, registros sanitarios y seguimientos pendientes<br><br><b>Graficos sanitarios del veterinario.</b><br>Given existen registros sanitarios de animales bajo supervision del veterinario<br>When visualiza analiticas<br>Then el sistema muestra graficos de registros por tipo y atenciones por hato</td>
       <td>EP-009</td>
     </tr>
     <tr>
       <td><b>US-037</b></td>
       <td>Visualizar estado sanitario del hato</td>
       <td>Como ganadero, quiero ver un grafico del estado de mis animales para identificar cuantos estan saludables, en observacion o en tratamiento.</td>
-      <td><b>Grafico con animales registrados.</b><br>Given el ganadero tiene animales registrados con diferentes estados<br>When ingresa a reportes<br>Then el sistema muestra un grafico de estado del hato con animales saludables, en observacion y en tratamiento<br><br><b>Grafico sin animales.</b><br>Given el ganadero no tiene animales registrados<br>When ingresa a reportes<br>Then el sistema muestra el grafico sin datos o con valores en cero</td>
+      <td><b>Grafico con animales registrados.</b><br>Given el ganadero tiene animales registrados con diferentes estados<br>When ingresa a analiticas<br>Then el sistema muestra un grafico de estado del hato con animales saludables, en observacion y en tratamiento<br><br><b>Grafico sin animales.</b><br>Given el ganadero no tiene animales registrados<br>When ingresa a analiticas<br>Then el sistema muestra el grafico sin datos o con valores en cero</td>
       <td>EP-009</td>
     </tr>
     <tr>
       <td><b>US-038</b></td>
       <td>Visualizar registros sanitarios por tipo</td>
       <td>Como usuario autorizado, quiero ver los registros sanitarios agrupados por tipo para entender que atenciones son mas frecuentes.</td>
-      <td><b>Registros sanitarios existentes.</b><br>Given existen registros sanitarios visibles para el usuario<br>When ingresa al apartado de reportes<br>Then el sistema muestra un grafico con tipos como incidencia, vacuna, revision, tratamiento y diagnostico<br><br><b>Sin registros sanitarios.</b><br>Given no existen registros sanitarios visibles para el usuario<br>When visualiza el grafico<br>Then el sistema muestra valores en cero o una representacion sin datos</td>
+      <td><b>Registros sanitarios existentes.</b><br>Given existen registros sanitarios visibles para el usuario<br>When ingresa al apartado de analiticas<br>Then el sistema muestra un grafico con tipos como incidencia, vacuna, revision, tratamiento y diagnostico<br><br><b>Sin registros sanitarios.</b><br>Given no existen registros sanitarios visibles para el usuario<br>When visualiza el grafico<br>Then el sistema muestra valores en cero o una representacion sin datos</td>
       <td>EP-009</td>
     </tr>
     <tr>
       <td><b>US-039</b></td>
       <td>Visualizar atenciones sanitarias por hato</td>
       <td>Como veterinario, quiero ver las atenciones sanitarias por hato para identificar que clientes requieren mas seguimiento.</td>
-      <td><b>Atenciones agrupadas por hato.</b><br>Given el veterinario tiene clientes con hatos y registros sanitarios<br>When ingresa a reportes<br>Then el sistema muestra un grafico con la cantidad de atenciones sanitarias por hato<br><br><b>Cliente sin atenciones.</b><br>Given un hato no tiene registros sanitarios asociados<br>When se genera el reporte<br>Then el sistema muestra ese hato con valor cero o sin atenciones registradas</td>
+      <td><b>Atenciones agrupadas por hato.</b><br>Given el veterinario tiene clientes con hatos y registros sanitarios<br>When ingresa a analiticas<br>Then el sistema muestra un grafico con la cantidad de atenciones sanitarias por hato<br><br><b>Cliente sin atenciones.</b><br>Given un hato no tiene registros sanitarios asociados<br>When se generan las analiticas<br>Then el sistema muestra ese hato con valor cero o sin atenciones registradas</td>
       <td>EP-009</td>
-    </tr>
-    <tr>
-      <td><b>EP-010</b></td>
-      <td>Navegacion y experiencia compartida</td>
-      <td>Esta epica agrupa funcionalidades generales de navegacion, estructura visual, estados vacios y paginas compartidas por los usuarios.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-040</b></td>
       <td>Navegar mediante menu lateral segun rol</td>
       <td>Como usuario autenticado, quiero ver un menu lateral adaptado a mi rol para acceder rapidamente a las secciones disponibles.</td>
-      <td><b>Menu del ganadero.</b><br>Given el usuario tiene rol de ganadero<br>When se muestra el layout principal<br>Then el menu incluye panel ganadero, fincas, animales, sanidad, eventos, finanzas y reportes<br><br><b>Menu del veterinario.</b><br>Given el usuario tiene rol de veterinario<br>When se muestra el layout principal<br>Then el menu incluye panel veterinario, clientes, pacientes, sanidad, eventos y reportes</td>
+      <td><b>Menu del ganadero.</b><br>Given el usuario tiene rol de ganadero<br>When se muestra el layout principal<br>Then el menu incluye panel ganadero, fincas, animales, sanidad, actividades, finanzas y analiticas<br><br><b>Menu del veterinario.</b><br>Given el usuario tiene rol de veterinario<br>When se muestra el layout principal<br>Then el menu incluye panel veterinario, clientes, pacientes, sanidad, actividades y analiticas</td>
       <td>EP-010</td>
     </tr>
     <tr>
@@ -374,13 +388,6 @@
       <td>Como usuario, quiero ver un mensaje claro cuando ingreso a una ruta no disponible para saber que no existe contenido asociado.</td>
       <td><b>Ruta invalida.</b><br>Given el usuario ingresa una URL inexistente<br>When el sistema no encuentra una ruta asociada<br>Then muestra la pagina no encontrada<br>And permite volver a una ruta valida</td>
       <td>EP-010</td>
-    </tr>
-    <tr>
-      <td><b>EP-011</b></td>
-      <td>Landing page publica de AniTec</td>
-      <td>Esta epica agrupa las historias de usuario de la landing page publica de AniTec. Estas historias estan al final porque corresponden a la experiencia informativa y comercial previa al uso de la aplicacion web.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-044</b></td>
@@ -407,7 +414,7 @@
       <td><b>US-047</b></td>
       <td>Visualizar pagina para veterinarios</td>
       <td>Como veterinario visitante, quiero acceder a una pagina orientada a mi perfil para entender como AniTec apoya la gestion de clientes y pacientes.</td>
-      <td><b>Carga de pagina para veterinarios.</b><br>Given el visitante selecciona la pagina para veterinarios<br>When la pagina carga<br>Then el sistema muestra informacion sobre clientes, pacientes, historiales clinicos, visitas y reportes sanitarios<br><br><b>Revision de flujo profesional.</b><br>Given el visitante esta en la pagina para veterinarios<br>When revisa las secciones de uso<br>Then el sistema explica como el veterinario puede organizar su cartera y atenciones</td>
+      <td><b>Carga de pagina para veterinarios.</b><br>Given el visitante selecciona la pagina para veterinarios<br>When la pagina carga<br>Then el sistema muestra informacion sobre clientes, pacientes, historiales clinicos, visitas y analiticas sanitarias<br><br><b>Revision de flujo profesional.</b><br>Given el visitante esta en la pagina para veterinarios<br>When revisa las secciones de uso<br>Then el sistema explica como el veterinario puede organizar su cartera y atenciones</td>
       <td>EP-011</td>
     </tr>
     <tr>
@@ -444,13 +451,6 @@
       <td>Como visitante movil, quiero navegar la landing page desde mi celular para conocer AniTec sin problemas de visualizacion.</td>
       <td><b>Menu movil.</b><br>Given el visitante abre la landing page desde un dispositivo movil<br>When selecciona el boton de menu<br>Then el sistema muestra las opciones de navegacion adaptadas a pantalla pequena<br><br><b>Contenido responsive.</b><br>Given el visitante navega por la landing page desde movil<br>When revisa imagenes, textos y tarjetas<br>Then el contenido se adapta sin cortes, solapamientos ni perdida de legibilidad</td>
       <td>EP-011</td>
-    </tr>
-    <tr>
-      <td><b>EP-001</b></td>
-      <td>Gestion de acceso, sesion y roles</td>
-      <td>Esta epica agrupa las funcionalidades necesarias para que los usuarios ingresen a AniTec con una identidad determinada y accedan a una experiencia diferenciada segun su rol de ganadero o veterinario.</td>
-      <td>No aplica</td>
-      <td>No aplica</td>
     </tr>
     <tr>
       <td><b>US-053</b></td>
@@ -505,7 +505,7 @@
       <td><b>TS-003</b></td>
       <td>Manejo de estado global con Pinia</td>
       <td>Como desarrollador frontend, quiero manejar los datos principales mediante stores de Pinia para compartir informacion entre vistas sin repetir logica.</td>
-      <td><b>Datos compartidos.</b><br>Given una vista carga animales, fincas, eventos o registros sanitarios<br>When otra vista necesita esos datos<br>Then puede obtenerlos desde el store correspondiente<br><br><b>Actualizacion del estado.</b><br>Given el usuario crea, edita o elimina un registro<br>When el store procesa la accion<br>Then la informacion visible se actualiza en la interfaz</td>
+      <td><b>Datos compartidos.</b><br>Given una vista carga animales, fincas, actividades o registros sanitarios<br>When otra vista necesita esos datos<br>Then puede obtenerlos desde el store correspondiente<br><br><b>Actualizacion del estado.</b><br>Given el usuario crea, edita o elimina un registro<br>When el store procesa la accion<br>Then la informacion visible se actualiza en la interfaz</td>
       <td>EP-002, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
@@ -532,8 +532,8 @@
     <tr>
       <td><b>TS-007</b></td>
       <td>Integracion de graficos estadisticos con Chart.js y PrimeVue Chart</td>
-      <td>Como desarrollador frontend, quiero integrar graficos estadisticos para mostrar reportes visuales de estado del hato, registros sanitarios y atenciones por hato.</td>
-      <td><b>Grafico renderizado.</b><br>Given existen datos visibles para el usuario<br>When ingresa al apartado de reportes<br>Then el sistema renderiza graficos usando los datos calculados del frontend<br><br><b>Datos filtrados por rol.</b><br>Given el usuario tiene rol de ganadero o veterinario<br>When visualiza reportes<br>Then los graficos usan solo la informacion permitida para su rol</td>
+      <td>Como desarrollador frontend, quiero integrar graficos estadisticos para mostrar analiticas visuales de estado del hato, registros sanitarios y atenciones por hato.</td>
+      <td><b>Grafico renderizado.</b><br>Given existen datos visibles para el usuario<br>When ingresa al apartado de analiticas<br>Then el sistema renderiza graficos usando los datos calculados del frontend<br><br><b>Datos filtrados por rol.</b><br>Given el usuario tiene rol de ganadero o veterinario<br>When visualiza analiticas<br>Then los graficos usan solo la informacion permitida para su rol</td>
       <td>EP-009</td>
     </tr>
     <tr>
