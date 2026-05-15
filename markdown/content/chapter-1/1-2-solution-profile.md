@@ -18,7 +18,7 @@ La problemática se presenta de forma continua a lo largo de todo el ciclo de vi
 
 _¿Dónde se manifiesta?_
 
-Se trata de un desafío estructural que limita el desarrollo del sector ganadero rural, afectando su competitividad y sostenibilidad en los mercados locales e internacionales.
+Se manifiesta principalmente en unidades ganaderas rurales, asociaciones de pequeños productores y negocios ganaderos que todavía tienen baja digitalización. En estos contextos, la información suele estar dispersa entre cuadernos, hojas sueltas, archivos simples o mensajes.
 
 _¿Dónde se origina el problema?_
 
@@ -28,11 +28,11 @@ Principalmente en zonas rurales de América Latina, donde se concentra gran part
 
 _¿Quiénes participan en la problemática?_
 
-Están involucrados los ganaderos de pequeña y mediana escala, asociaciones ganaderas, técnicos agropecuarios y organismos públicos que promueven la trazabilidad y la formalización del sector.
+Están involucrados los ganaderos de pequeña y mediana escala, veterinarios que atienden animales de campo, técnicos agropecuarios, asociaciones ganaderas y organismos públicos que promueven la trazabilidad y la formalización del sector.
 
 _¿Quiénes usarán la plataforma?_
 
-Principalmente los ganaderos interesados en mejorar la productividad, control y trazabilidad de sus hatos, así como los técnicos que los asesoran en campo.
+Principalmente los ganaderos interesados en mejorar la productividad, control y trazabilidad de sus hatos, así como los veterinarios que necesitan consultar historiales sanitarios, registrar atenciones y hacer seguimiento a sus pacientes.
 
 **Por qué (Why)**
 
@@ -48,17 +48,27 @@ AniTec será una plataforma web accesible desde dispositivos móviles o computad
 
 _¿Cómo se logrará una gestión eficiente dentro de la plataforma?_
 
-Mediante un diseño modular, simple y adaptable que permita ingresar y visualizar información clave del ganado. La plataforma contará con alertas automáticas, reportes descargables y funcionalidades offline, además de una sección de capacitación llamada “Academia Ganadera” para asegurar el uso correcto de todas las herramientas.
+Mediante un diseño modular, simple y adaptable que permita ingresar y visualizar información clave del ganado. La plataforma contará con secciones para animales, fincas, sanidad, eventos, finanzas y reportes, de modo que el usuario pueda consultar y actualizar sus datos sin depender de registros manuales dispersos.
 
 **Cuánto (How much)**
 
 _¿Cuál es la magnitud del problema?_
 
-Más del 70% de los pequeños ganaderos carecen de sistemas de registro adecuados, lo que provoca pérdidas de animales, baja productividad, incumplimiento de normas sanitarias y dificultades para acceder a mercados formales.
+Una parte importante de los pequeños y medianos ganaderos todavía carece de sistemas de registro adecuados, lo que puede provocar pérdida de información, baja productividad, incumplimiento de controles sanitarios y dificultades para acceder a mercados más formales.
 
 _¿Qué porcentaje de la industria podría beneficiarse?_
 
-Se estima que entre el 40% y 60% de los ganaderos familiares y asociaciones podrían mejorar significativamente su gestión mediante AniTec, especialmente en zonas rurales donde la tecnología aún es limitada pero está en expansión.
+Los ganaderos familiares, asociaciones y veterinarios que trabajan con información dispersa podrían beneficiarse de una solución como AniTec, especialmente en zonas rurales donde la tecnología aún es limitada pero está en expansión.
+
+### Descripción de antecedentes y problemática
+
+A partir del análisis 5W + 2H, se identifica que muchos pequeños y medianos ganaderos continúan gestionando la información de sus animales mediante cuadernos, hojas sueltas, archivos simples o mensajes dispersos. Aunque estos métodos permiten llevar algunos registros básicos, también generan problemas frecuentes como pérdida de información, datos incompletos, dificultad para recordar fechas importantes y poca trazabilidad sobre la salud, reproducción y productividad del ganado.
+
+Esta situación afecta la toma de decisiones del productor, ya que no siempre cuenta con información ordenada y actualizada para actuar frente a enfermedades, vacunaciones, tratamientos, ventas o cambios en la producción. Del mismo modo, los veterinarios y técnicos que apoyan a los ganaderos suelen depender de información incompleta, lo que dificulta el seguimiento sanitario de los animales y puede reducir la efectividad de las recomendaciones o tratamientos.
+
+AniTec busca responder a esta problemática mediante una aplicación web sencilla y accesible, orientada a centralizar la información principal de la gestión ganadera. La solución considera el registro de animales, fincas, eventos sanitarios, actividades importantes, datos financieros y reportes que ayuden al usuario a consultar su información con mayor rapidez y orden.
+
+El objetivo principal del proyecto es mejorar la organización y trazabilidad de la información ganadera, reduciendo errores de registro y facilitando el seguimiento sanitario y productivo. Como alcance inicial, el proyecto incluye una landing page informativa y una aplicación web responsive para ganaderos y veterinarios. Como restricciones, la solución debe mantenerse simple de usar, estar alineada con las tecnologías trabajadas en el curso y considerar que parte del público objetivo no tiene alta experiencia usando plataformas digitales.
 
 ## 1.2.2. Lean UX Process.
 
