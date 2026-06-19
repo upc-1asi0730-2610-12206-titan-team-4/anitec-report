@@ -410,5 +410,131 @@
       <td><b>Como</b> veterinario, <b>quiero</b> ver las atenciones sanitarias por hato <b>para</b> identificar que clientes requieren mas seguimiento.</td>
       <td>3</td>
     </tr>
+    <tr>
+      <td><b>58</b></td>
+      <td><b>US-058</b></td>
+      <td>Visualizar dispositivos IoT registrados</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> ver los dispositivos IoT registrados en la plataforma <b>para</b> monitorear los equipos asociados a fincas o animales.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>59</b></td>
+      <td><b>US-059</b></td>
+      <td>Consultar metricas de un dispositivo IoT</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> consultar las metricas recientes de un dispositivo <b>para</b> conocer lecturas como peso, temperatura, humedad o actividad.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>60</b></td>
+      <td><b>US-060</b></td>
+      <td>Visualizar planes de suscripcion</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> visualizar los planes de suscripcion disponibles <b>para</b> elegir el plan que mejor se adapte a mi operacion.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>61</b></td>
+      <td><b>US-061</b></td>
+      <td>Consultar suscripcion activa</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> consultar mi suscripcion activa <b>para</b> conocer el plan asociado a mi cuenta.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>62</b></td>
+      <td><b>US-062</b></td>
+      <td>Realizar pago simulado de suscripcion</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> realizar un pago simulado de un plan <b>para</b> activar una suscripcion durante las pruebas del sistema.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>63</b></td>
+      <td><b>US-063</b></td>
+      <td>Consultar historial de pagos</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> consultar mi historial de pagos <b>para</b> revisar los pagos realizados por mis suscripciones.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>64</b></td>
+      <td><b>US-064</b></td>
+      <td>Consumir dashboards desde el backend</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> visualizar dashboards calculados desde el backend <b>para</b> revisar indicadores consistentes con la informacion persistida en la base de datos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>65</b></td>
+      <td><b>TS-005</b></td>
+      <td>Configuracion inicial del backend con ASP.NET Core</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> crear la solucion de AniTec con ASP.NET Core <b>para</b> implementar una API REST organizada y preparada para integrarse con el frontend.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>66</b></td>
+      <td><b>TS-006</b></td>
+      <td>Persistencia con Entity Framework Core y MySQL</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> configurar Entity Framework Core con MySQL <b>para</b> almacenar la informacion de AniTec en una base de datos relacional.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>67</b></td>
+      <td><b>TS-007</b></td>
+      <td>Autenticacion backend con JWT y BCrypt</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> implementar autenticacion con JWT y BCrypt <b>para</b> validar credenciales y proteger el acceso de los usuarios registrados.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>68</b></td>
+      <td><b>TS-008</b></td>
+      <td>Implementacion de bounded contexts de gestion ganadera</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> implementar los bounded contexts principales de AniTec <b>para</b> exponer servicios REST de fincas, animales, sanidad, actividades y finanzas.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>69</b></td>
+      <td><b>TS-009</b></td>
+      <td>Servicios backend para analiticas y clientes veterinarios</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> implementar endpoints de analiticas y clientes veterinarios <b>para</b> que ganaderos y veterinarios consulten informacion calculada desde el servidor.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td><b>70</b></td>
+      <td><b>TS-010</b></td>
+      <td>Servicios backend para dispositivos, metricas y suscripciones</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> implementar dispositivos, metricas y suscripciones <b>para</b> ampliar AniTec con informacion IoT y planes de uso de la plataforma.</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td><b>71</b></td>
+      <td><b>TS-011</b></td>
+      <td>Documentacion y pruebas de API con Swagger</td>
+      <td><b>Como</b> desarrollador backend, <b>quiero</b> documentar y probar los endpoints con Swagger <b>para</b> validar manualmente el funcionamiento de la API antes de integrarla con el frontend.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td><b>72</b></td>
+      <td><b>TS-012</b></td>
+      <td>Integracion frontend-backend con variables de entorno</td>
+      <td><b>Como</b> desarrollador frontend, <b>quiero</b> configurar variables de entorno <b>para</b> conectar la aplicacion Vue con la API de AniTec en distintos ambientes.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>73</b></td>
+      <td><b>TS-013</b></td>
+      <td>Stores frontend para IoT y suscripciones</td>
+      <td><b>Como</b> desarrollador frontend, <b>quiero</b> crear stores y servicios para dispositivos, metricas, planes y pagos <b>para</b> integrar las nuevas pantallas con el backend.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>74</b></td>
+      <td><b>TS-014</b></td>
+      <td>Mapeo de recursos de clientes veterinarios</td>
+      <td><b>Como</b> desarrollador frontend, <b>quiero</b> mapear correctamente los recursos de clientes veterinarios <b>para</b> diferenciar el identificador de la relacion y el identificador del ganadero.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>75</b></td>
+      <td><b>TS-015</b></td>
+      <td>Configuracion de endpoints para despliegue productivo</td>
+      <td><b>Como</b> desarrollador frontend, <b>quiero</b> configurar el ambiente de produccion <b>para</b> que la aplicacion desplegada consuma el backend real y no el servicio mock utilizado durante prototipado.</td>
+      <td>3</td>
+    </tr>
   </tbody>
 </table>
