@@ -52,8 +52,9 @@ Se incluyen las herramientas a utilizar para la publicación y disponibilidad de
 | Plataforma / Herramienta | Propósito en el proyecto                                                                                 | Enlace                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------- | --------------------------- |
 | GitHub Pages             | Despliegue de la landing page de AniTec mediante hosting estático accesible a través de una URL pública. | https://pages.github.com    |
-| Firebase                 | Despliegue del lado del frontend de las aplicación web de AniTec mediante su servicio de hosting en Vue  | https://firebase.google.com |
-| Mockapi                  | Despliegue de datos de prueba para el test de la aplicación frontend desplegada                          | https://mockapi.io/         |
+| GitHub Pages             | Despliegue del frontend web de AniTec como aplicación SPA accesible desde una URL pública.               | https://pages.github.com    |
+| Render                   | Despliegue del backend web de AniTec mediante un Web Service público para exponer la API REST.           | https://render.com/         |
+| My JSON Server           | Despliegue de datos de prueba para el test de la aplicación frontend desplegada.                         | https://my-json-server.typicode.com/ |
 
 **Software Documentation**
 
@@ -231,21 +232,20 @@ La Landing Page queda disponible en una URL accesible desde cualquier navegador.
 
 ### Despliegue de Frontend Web
 
-La aplicación Frontend de AniTec se despliega utilizando **Firebase Hosting**, un servicio de Google que permite publicar aplicaciones web estáticas y SPA de manera rápida, segura y escalable.
+La aplicación Frontend de AniTec se despliega utilizando **GitHub Pages**, permitiendo publicar la versión compilada de la SPA de Vue desde el repositorio del proyecto.
 
 **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
 
 **Pasos de despliegue:**
 
-1. Configurar el proyecto en Firebase utilizando la Firebase CLI e iniciar sesión con la cuenta correspondiente.
-2. Inicializar el servicio de Hosting dentro del proyecto frontend mediante el comando: <br>
-   *```bash* <br>
-   *firebase init hosting*
-   
-   
+1. Compilar el frontend con Vite para generar los archivos estáticos de producción.
+2. Configurar GitHub Pages en el repositorio del frontend.
+3. Publicar la versión generada para que la aplicación quede disponible mediante una URL pública.
+4. Verificar que las rutas principales de la aplicación carguen correctamente desde el navegador.
+
 **Resultado:**
 
-La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://anitecfrontendtitan.web.app 
+La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
 
 <div align="center">
     <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
@@ -259,5 +259,29 @@ La aplicación Frontend queda disponible en una URL accesible desde cualquier na
 
 <div align="center">
     <img src="../../assets/chapter-5/frontend-evidence3.png" width="500">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+### Despliegue de Backend Web
+
+El backend de AniTec se despliega utilizando **Render**, mediante un Web Service que permite exponer la API REST desarrollada con ASP.NET Core en un entorno accesible desde internet.
+
+**Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
+
+**Pasos de despliegue:**
+
+1. Crear un Web Service en Render.
+2. Conectar el repositorio del backend desde GitHub.
+3. Configurar la rama de despliegue y el proyecto de inicio de ASP.NET Core.
+4. Definir las variables de entorno requeridas, incluyendo cadena de conexión y configuración JWT.
+5. Ejecutar el build en Render y verificar el inicio correcto del servicio.
+6. Validar la documentación Swagger desde la URL pública.
+
+**Resultado:**
+
+El backend queda disponible públicamente para la integración con el frontend. Link: https://anitec-backend.onrender.com/swagger/index.html
+
+<div align="center">
+    <img src="../../assets/chapter-5/sprint3-render-deployment.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
