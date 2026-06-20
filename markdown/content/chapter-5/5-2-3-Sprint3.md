@@ -649,7 +649,17 @@ Este despliegue permitió validar que los servicios backend desarrollados en ASP
 10. Probar endpoints principales como autenticación, usuarios, animales, hatos, dispositivos y suscripciones.
 
 <div align="center">
-    <img src="../../assets/chapter-5/sprint3-render-deployment.png" width="700">
+    <img src="../../assets/chapter-5/backendDespliegue1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/backendDespliegue2.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/backendDespliegue3.jpeg" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
