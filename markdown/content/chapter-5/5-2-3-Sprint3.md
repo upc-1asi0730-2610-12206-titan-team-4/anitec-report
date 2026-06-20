@@ -615,44 +615,57 @@ La cadena de conexión se configura en `appsettings.Development.json` y apunta a
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Sprint 3, el backend fue preparado para ejecutarse en ambiente local de desarrollo, conectado a una base de datos MySQL local. El despliegue final en un servidor público queda pendiente para una siguiente etapa, debido a que el objetivo principal de este Sprint fue construir la API funcional, documentada y lista para integrarse con el frontend.
+Durante el Sprint 3, la evidencia de despliegue del backend se realizó en internet utilizando Render como plataforma de hosting. El objetivo de esta evidencia fue comprobar que la API de AniTec pueda ejecutarse fuera del entorno local, conectarse a una base de datos configurada para el ambiente de despliegue, aplicar las migraciones de Entity Framework Core y exponer sus endpoints mediante Swagger/OpenAPI.
 
-**Configuración de ejecución local - Backend:**
+Este despliegue permitió validar que los servicios backend desarrollados en ASP.NET Core pueden estar disponibles públicamente para ser consumidos por la aplicación web frontend. De esta manera, el backend deja de depender únicamente de la ejecución local y queda preparado para pruebas de integración en un entorno accesible desde internet.
+
+**Configuración de despliegue en Render - Backend:**
 
 - **Proyecto:** `anitec-platform-main`
 - **Framework:** ASP.NET Core
-- **Base de datos:** MySQL local
-- **Comando de compilación:** `dotnet build`
-- **Comando de ejecución:** `dotnet run --project Anitec.Platform`
-- **Documentación local:** Swagger/OpenAPI
+- **Plataforma de despliegue:** Render
+- **Tipo de servicio:** Web Service
+- **Repositorio:** `https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git`
+- **Branch desplegada:** `main`
+- **Proyecto de inicio:** `Anitec.Platform`
+- **Base de datos:** MySQL configurada para el ambiente de despliegue
+- **URL pública del backend:** `[Agregar URL pública generada por Render]`
+- **Documentación pública:** `[Agregar URL pública]/swagger`
+- **Archivo de configuración base:** `appsettings.json`
+- **Variables de entorno:** cadena de conexión, ambiente de ejecución y configuración de token JWT
 
-**Pasos de ejecución:**
+**Procedimiento de despliegue en Render:**
 
-1. Instalar .NET SDK.
-2. Instalar MySQL Server.
-3. Configurar la cadena de conexión en `appsettings.Development.json`.
-4. Ejecutar las migraciones de Entity Framework Core.
-5. Levantar el backend con `dotnet run --project Anitec.Platform`.
-6. Abrir Swagger para probar los endpoints.
-7. Ejecutar pruebas manuales de autenticación y consulta de datos.
+1. Crear un nuevo Web Service en Render.
+2. Conectar el repositorio de GitHub del backend de AniTec.
+3. Seleccionar la rama `main` como fuente del despliegue.
+4. Configurar el proyecto ASP.NET Core indicando como proyecto principal `Anitec.Platform`.
+5. Definir las variables de entorno necesarias para el ambiente de producción o staging.
+6. Configurar la cadena de conexión de MySQL para que el backend pueda acceder a la base de datos remota.
+7. Ejecutar el proceso de build del backend desde Render.
+8. Iniciar el servicio web y verificar que la API quede disponible mediante la URL pública generada.
+9. Abrir la documentación Swagger desde la URL pública del backend.
+10. Probar endpoints principales como autenticación, usuarios, animales, hatos, dispositivos y suscripciones.
 
 <div align="center">
-    <img src="../../assets/chapter-5/sprint3-local-deployment.png" width="700">
+    <img src="../../assets/chapter-5/sprint3-render-deployment.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
-**Verificación Post-Ejecución:**
+**Verificación Post-Despliegue:**
 
-Después de ejecutar el backend, se verificaron los siguientes puntos:
+Después de desplegar el backend en Render, se verificaron los siguientes puntos:
 
-- El proyecto compila correctamente.
-- La API se levanta en ambiente de desarrollo.
-- Swagger muestra los controladores y endpoints disponibles.
-- Las migraciones se aplican correctamente sobre MySQL.
-- La base de datos contiene datos iniciales para pruebas.
-- El endpoint de sign-in responde con datos del usuario autenticado y token JWT.
-- Los endpoints de usuarios, animales, fincas, dispositivos, clientes y suscripciones responden correctamente.
-- La estructura del backend mantiene una organización por bounded contexts.
+- Render compila correctamente el proyecto `Anitec.Platform`.
+- El servicio web se inicia correctamente desde la plataforma.
+- El backend queda disponible mediante una URL pública.
+- Swagger muestra los controladores y endpoints implementados desde internet.
+- La conexión con la base de datos MySQL configurada para despliegue se realiza correctamente.
+- Entity Framework Core valida y aplica las migraciones necesarias sobre la base de datos.
+- La base de datos contiene las tablas y datos semilla necesarios para pruebas.
+- El endpoint de autenticación responde correctamente y devuelve un token JWT.
+- Los endpoints principales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, dispositivos y suscripciones responden desde Swagger.
+- El backend mantiene una estructura modular por bounded contexts, lo que facilita su integración con el frontend.
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
