@@ -15,7 +15,7 @@
 
 En el Sprint 2, el equipo de AniTec se enfocó en la construcción de la aplicación web frontend completa utilizando Vue 3, implementando todos los módulos funcionales de gestión ganadera: autenticación y roles, gestión de fincas y animales, control sanitario y clínico, gestión financiera, calendario de eventos, dashboards y reportes estadísticos. El objetivo fue entregar una aplicación web funcional que permita a ganaderos y veterinarios gestionar digitalmente sus operaciones.
 
-Durante este Sprint se desarrolló la arquitectura completa del frontend siguiendo los principios de Domain-Driven Design (DDD), con bounded contexts independientes para cada módulo, stores de Pinia para la gestión de estado, integración con una API REST mock mediante my-json-server, y despliegue en Firebase Hosting.
+Durante este Sprint se desarrolló la arquitectura completa del frontend siguiendo los principios de Domain-Driven Design (DDD), con bounded contexts independientes para cada módulo, stores de Pinia para la gestión de estado, integración con una API REST mock mediante my-json-server, y despliegue en GitHub Pages.
 
 ### 5.2.2.1. Sprint Planning 2.
 
@@ -109,7 +109,7 @@ La distribución de Story Points fue diseñada considerando las dependencias té
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 2, que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
 
-Para este segundo Sprint, los aspectos están centrados en el desarrollo de la aplicación web frontend con Vue 3, abarcando desde la configuración inicial de la arquitectura hasta la implementación de los módulos funcionales y el despliegue en Firebase.
+Para este segundo Sprint, los aspectos están centrados en el desarrollo de la aplicación web frontend con Vue 3, abarcando desde la configuración inicial de la arquitectura hasta la implementación de los módulos funcionales y el despliegue en GitHub Pages.
 
 **Aspectos del Sprint 2:**
 
@@ -334,8 +334,8 @@ A continuación, la tabla de control de estado para el Sprint 2:
             <td>TS-004</td>
             <td>Consumo de datos mediante Axios, BaseApi y BaseEndpoint</td>
             <td>T009</td>
-            <td>Configurar despliegue en Firebase y my-json-server</td>
-            <td>Configurar Firebase Hosting para el frontend, desplegar datos de prueba db.json en repositorio my-json-server, configurar variables de entorno para API URL en desarrollo y producción, verificar conectividad</td>
+            <td>Configurar despliegue en GitHub Pages y my-json-server</td>
+            <td>Configurar GitHub Pages para el frontend, desplegar datos de prueba db.json en repositorio my-json-server, configurar variables de entorno para API URL en desarrollo y producción, verificar conectividad</td>
             <td>3</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
@@ -485,7 +485,7 @@ Esta sección resume lo alcanzado en el Sprint 2 y presenta la descripción de l
 
 **Resumen de lo Alcanzado:**
 
-El Sprint 2 permitió desarrollar la aplicación web funcional de AniTec. El equipo logró completar la configuración del proyecto Vue, establecer la arquitectura de bounded contexts, implementar los 6 módulos de negocio y desplegar la aplicación en Firebase Hosting con datos de prueba en my-json-server.
+El Sprint 2 permitió desarrollar la aplicación web funcional de AniTec. El equipo logró completar la configuración del proyecto Vue, establecer la arquitectura de bounded contexts, implementar los 6 módulos de negocio y desplegar la aplicación en GitHub Pages con datos de prueba en my-json-server.
 
 **Vistas Implementadas:**
 
@@ -569,21 +569,21 @@ Esta arquitectura permite que, en futuros sprints, el reemplazo de my-json-serve
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-La aplicación web frontend de AniTec fue desplegada exitosamente en **Firebase Hosting**, un servicio de Google que permite publicar aplicaciones web estáticas y SPA de manera rápida, segura y escalable. Adicionalmente, los datos de prueba fueron desplegados en **my-json-server** para simular el backend de la aplicación.
+La aplicación web frontend de AniTec fue desplegada exitosamente en **GitHub Pages**, la plataforma de hosting de GitHub que permite publicar aplicaciones web estáticas y SPA directamente desde el repositorio del proyecto. Adicionalmente, los datos de prueba fueron desplegados en **my-json-server** para simular el backend de la aplicación.
 
-**Configuración del Deploy - Frontend (Firebase Hosting):**
+**Configuración del Deploy - Frontend (GitHub Pages):**
 
-- **Plataforma:** Firebase Hosting
+- **Plataforma:** GitHub Pages
 - **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- **URL de acceso:** https://anitecfrontendtitan.web.app
-- **Comando de despliegue:** `firebase deploy --only hosting`
+- **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
+- **Comando de despliegue:** publicación mediante GitHub Pages desde el repositorio
 - **Archivos desplegados:** Carpeta `dist/` generada por Vite (`npm run build`)
 
 **Pasos de despliegue:**
 
-1. Configurar el proyecto en Firebase mediante la Firebase CLI: `firebase init hosting`
+1. Configurar GitHub Pages en el repositorio del frontend.
 2. Compilar el frontend con Vite: `npm run build`
-3. Desplegar a Firebase: `firebase deploy --only hosting`
+3. Publicar la carpeta generada para producción mediante GitHub Pages.
 4. Verificar que la aplicación esté accesible en la URL pública
 
 **Configuración del Deploy - Datos de Prueba (my-json-server):**
@@ -612,7 +612,7 @@ La aplicación web frontend de AniTec fue desplegada exitosamente en **Firebase 
 
 Después del despliegue, se verificaron los siguientes puntos:
 
-- La aplicación carga correctamente en la URL de Firebase Hosting
+- La aplicación carga correctamente en la URL de GitHub Pages
 - El módulo de autenticación permite iniciar sesión con los usuarios demo
 - Las operaciones CRUD (crear, leer, actualizar, eliminar) funcionan correctamente en todos los módulos
 - Los datos se consumen correctamente desde my-json-server

@@ -405,7 +405,7 @@ La landing page de AniTec fue desplegada exitosamente en **GitHub Pages**, la pl
 **Configuración del Deploy:**
 
 - **Plataforma:** GitHub Pages
-- **Repositorio:** anitex-landing-page
+- **Repositorio:** anitec-landing-page
 - **Branch desplegado:** main
 - **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 - **Ruta de archivos desplegados:** /index.html, /nosotros.html, /ganaderos.html, /veterinarios.html, /styles.css, /script.js, /assets/

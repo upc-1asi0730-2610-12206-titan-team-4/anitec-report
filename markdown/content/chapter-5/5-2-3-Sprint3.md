@@ -474,7 +474,8 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 - **Hashing de contraseñas:** BCrypt
 - **Documentación:** Swagger/OpenAPI
 - **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
-- **URL local de la API:** `http://localhost:5191/api/v1`
+- **URL pública del backend:** https://anitec-backend.onrender.com
+- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
 
 **Migraciones implementadas:**
 
@@ -629,8 +630,8 @@ Este despliegue permitió validar que los servicios backend desarrollados en ASP
 - **Branch desplegada:** `main`
 - **Proyecto de inicio:** `Anitec.Platform`
 - **Base de datos:** MySQL configurada para el ambiente de despliegue
-- **URL pública del backend:** `[Agregar URL pública generada por Render]`
-- **Documentación pública:** `[Agregar URL pública]/swagger`
+- **URL pública del backend:** https://anitec-backend.onrender.com
+- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
 - **Archivo de configuración base:** `appsettings.json`
 - **Variables de entorno:** cadena de conexión, ambiente de ejecución y configuración de token JWT
 
