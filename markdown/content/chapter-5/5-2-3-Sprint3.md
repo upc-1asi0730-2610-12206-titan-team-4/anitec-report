@@ -108,7 +108,7 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
 **Aspectos del Sprint 3:**
 
 1. **Backend - Configuración y Arquitectura Base:** Creación de la solución ASP.NET Core, configuración de Swagger, CORS, inyección de dependencias, Entity Framework Core y estructura de carpetas.
-2. **Backend - IAM y Profiles:** Implementación de usuarios, autenticación, sign-in, sign-up, generación de JWT, hashing de contraseñas con BCrypt y perfiles de usuario.
+2. **Backend - IAM y Profiles:** Implementación de usuarios basicas
 3. **Backend - Livestock, Sanitary y Activities:** Implementación de fincas, animales, eventos sanitarios y actividades de granja mediante entidades, comandos, consultas, servicios y controladores REST.
 4. **Backend - Financial y Analytics:** Implementación de registros financieros, report metrics y endpoints de dashboard para ganaderos y veterinarios.
 5. **Backend - Clients, Devices y Metrics:** Implementación de clientes veterinarios, dispositivos ganaderos y métricas generadas por dispositivos.
@@ -208,10 +208,10 @@ El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Pr
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
 
-Enlace al tablero del Sprint Backlog 3: [Agregar enlace al Sprint Backlog 3 en Trello]()
+Enlace al tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTI8abaa26cc7e6f8b81250a5d3862a2d6574E3BF7E/sprint3-anitec
 
 <div align="center">
-    <img src="../../assets/chapter-5/sprint3-backlog.png" width="700">
+    <img src="../../assets/chapter-5/trello-sprint3.jpeg" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -273,7 +273,7 @@ A continuación, la tabla de control de estado para el Sprint 3:
             <td>Crear entidades, comandos, consultas, servicios, recursos REST y controladores para autenticación, registro de usuarios, hashing de contraseñas y generación de JWT.</td>
             <td>8</td>
             <td>Ayala Fernandez, Jorge Brayan</td>
-            <td>Done</td>
+            <td>In progress</td>
         </tr>
         <tr>
             <td>TS-008</td>
@@ -373,16 +373,49 @@ anitec-platform-main/
 
 | Repository           | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
 | -------------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
-| anitec-platform-main | main   | Agregar   | chore: initialize AniTec platform backend | Creación inicial del proyecto ASP.NET Core para AniTec.       | Agregar fecha       |
-| anitec-platform-main | main   | Agregar   | feat: add IAM bounded context             | Implementación de autenticación, usuarios, JWT y BCrypt.      | Agregar fecha       |
-| anitec-platform-main | main   | Agregar   | feat: add livestock and sanitary contexts | Implementación de fincas, animales y eventos sanitarios.      | Agregar fecha       |
-| anitec-platform-main | main   | Agregar   | feat: add financial and analytics modules | Implementación de registros financieros y dashboards.         | Agregar fecha       |
-| anitec-platform-main | main   | Agregar   | feat: add devices metrics subscriptions   | Implementación de dispositivos, métricas y suscripciones.     | Agregar fecha       |
-| anitec-platform-main | main   | Agregar   | chore: add mysql migrations and seed data | Configuración de migraciones EF Core y datos iniciales.       | Agregar fecha       |
+| anitec-platform-main | develop | a7f3c91 | chore: initial-folder-structure | Creación de la estructura base del backend ASP.NET Core, carpetas por bounded context y configuración inicial de dependencias. | 01/06/2026 |
+| anitec-platform-main | feature/get-all-herds | 4b83e0d | feat: create herds controller | Creación del controlador REST para exponer operaciones principales de hatos. | 02/06/2026 |
+| anitec-platform-main | feature/get-all-users | 74b5e23 | feat: implement get all users endpoint | Implementación del endpoint `GET /users` para consultar usuarios registrados en la plataforma. | 02/06/2026 |
+| anitec-platform-main | feature/get-all-herds | e41fc9a | feat: add herds query service | Implementación del servicio de consultas para listar hatos desde la base de datos. | 03/06/2026 |
+| anitec-platform-main | feature/get-all-animals | 39eb2fd | feat: map animal resource response | Definición de recursos REST y assembler para devolver animales con especie, raza, peso, estado y hato asociado. | 03/06/2026 |
+| anitec-platform-main | develop | 0a9d8bf | Merge pull request #33 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-herds | Integración del listado de hatos al branch de desarrollo. | 04/06/2026 |
+| anitec-platform-main | feature/get-user-by-id | d24ab70 | feat: implement get user by id endpoint | Implementación del endpoint `GET /users/{id}` para consultar un usuario específico mediante su identificador. | 04/06/2026 |
+| anitec-platform-main | feature/add-new-health-event | d80a2bf | feat: create health event command | Creación del comando de aplicación para registrar vacunas, diagnósticos, tratamientos y seguimientos. | 05/06/2026 |
+| anitec-platform-main | feature/get-all-animals | 5a73b6e | feat: implement get all animals endpoint | Implementación del endpoint `GET /animals` para consultar animales registrados. | 05/06/2026 |
+| anitec-platform-main | feature/add-new-herd | 92d7ac1 | feat: implement add new herd endpoint | Implementación del endpoint `POST /herds` para registrar nuevos hatos o unidades productivas. | 06/06/2026 |
+| anitec-platform-main | feature/get-all-financial-records | e7b30f1 | feat: add financial record repository | Implementación del repositorio para consultar ingresos y egresos persistidos en MySQL. | 06/06/2026 |
+| anitec-platform-main | feature/get-all-health-events | b6d14ca | feat: implement get all health events endpoint | Implementación del endpoint `GET /health-events` para consultar vacunas, tratamientos e incidencias. | 07/06/2026 |
+| anitec-platform-main | develop | 21d9f5e | Merge pull request #36 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-animals | Integración del listado de animales al branch de desarrollo. | 07/06/2026 |
+| anitec-platform-main | feature/get-rancher-dashboard | 2ed4b73 | feat: build rancher dashboard summary | Implementación del resumen de animales, hatos, eventos sanitarios y métricas principales para ganaderos. | 08/06/2026 |
+| anitec-platform-main | feature/add-new-health-event | 11ae7d9 | feat: expose add health event endpoint | Exposición del endpoint `POST /health-events` para registrar eventos sanitarios desde la aplicación web. | 08/06/2026 |
+| anitec-platform-main | feature/get-all-farm-events | 1c7d80e | feat: implement get all farm events endpoint | Implementación del endpoint `GET /farm-events` para consultar actividades, visitas y tareas programadas. | 09/06/2026 |
+| anitec-platform-main | feature/get-clients-by-veterinarian | 6fa28c0 | feat: create veterinarian clients resource | Creación de recursos REST para representar clientes asignados a un veterinario. | 09/06/2026 |
+| anitec-platform-main | develop | 63fa0dd | Merge pull request #39 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-health-events | Integración de la consulta de eventos sanitarios al branch de desarrollo. | 10/06/2026 |
+| anitec-platform-main | feature/get-all-devices | 58d14e7 | feat: implement get all devices endpoint | Implementación del endpoint `GET /devices` para listar dispositivos IoT asociados a animales o hatos. | 10/06/2026 |
+| anitec-platform-main | feature/get-veterinarian-dashboard | cb8a3e5 | feat: implement veterinarian dashboard endpoint | Implementación del endpoint `GET /analytics/veterinarians/{veterinarianId}/dashboard` para mostrar clientes, pacientes y eventos sanitarios. | 11/06/2026 |
+| anitec-platform-main | feature/get-clients-by-veterinarian | 47bd918 | feat: implement get clients by veterinarian endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/clients` para listar ganaderos asignados. | 11/06/2026 |
+| anitec-platform-main | feature/get-active-subscription-by-user | 71ad8e0 | feat: implement active subscription query | Implementación de consulta para obtener la suscripción activa de un usuario. | 12/06/2026 |
+| anitec-platform-main | develop | a4b9df0 | Merge pull request #43 from upc-1asi0730-2610-12206-titan-team-4/feature/get-rancher-dashboard | Integración del dashboard de ganadero al branch de desarrollo. | 12/06/2026 |
+| anitec-platform-main | feature/get-device-latest-metric | f0e2a69 | feat: implement latest device metric endpoint | Implementación del endpoint `GET /devices/{id}/latest-metric` para obtener la última lectura registrada. | 13/06/2026 |
+| anitec-platform-main | feature/add-client-to-veterinarian | bf5a127 | feat: implement add client to veterinarian endpoint | Implementación del endpoint `POST /veterinarian/{veterinarianId}/clients/{rancherId}` para asociar un ganadero a un veterinario. | 13/06/2026 |
+| anitec-platform-main | feature/get-all-subscription-plans | 87a0d6c | feat: create subscription plan resource | Creación de recursos REST para representar planes de suscripción. | 14/06/2026 |
+| anitec-platform-main | feature/get-all-subscription-plans | e314ac7 | feat: implement get all subscription plans endpoint | Implementación del endpoint `GET /subscription-plans` para listar planes disponibles. | 14/06/2026 |
+| anitec-platform-main | feature/get-available-ranchers-for-veterinarian | 2a0fca9 | feat: implement available ranchers endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/available-ranchers` para consultar ganaderos disponibles. | 15/06/2026 |
+| anitec-platform-main | develop | 47f8c2d | Merge pull request #69 from upc-1asi0730-2610-12206-titan-team-4/feature/get-clients-by-veterinarian | Integración de la consulta de clientes asignados al branch de desarrollo. | 15/06/2026 |
+| anitec-platform-main | feature/get-payments-by-user | 4f2bc8a | feat: implement get payments by user endpoint | Implementación del endpoint `GET /subscriptions/users/{userId}/payments` para consultar pagos asociados a un usuario. | 16/06/2026 |
+| anitec-platform-main | feature/mock-checkout | 9b8e430 | feat: create mock checkout command | Creación del flujo de comando para simular checkout y generar pagos de prueba. | 16/06/2026 |
+| anitec-platform-main | feature/mock-checkout | 5e64a1d | feat: implement mock checkout endpoint | Implementación del endpoint `POST /subscriptions/mock-checkout` para validar pagos mock durante el Sprint. | 17/06/2026 |
+| anitec-platform-main | feature/remove-client-from-veterinarian | 3fe60ab | feat: implement remove client from veterinarian endpoint | Implementación del endpoint `DELETE /veterinarian/{veterinarianId}/clients/{rancherId}` para retirar un cliente asignado. | 17/06/2026 |
+| anitec-platform-main | develop | 92e03bf | Merge pull request #71 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-devices | Integración de dispositivos IoT y lectura de últimas métricas al branch de desarrollo. | 18/06/2026 |
+| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | c6a01de | fix: configure dateonly converters for mysql | Corrección de conversores DateOnly para evitar errores de persistencia y lectura en MySQL. | 18/06/2026 |
+| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | e0b71ac | fix: update migration snapshot dates | Ajuste del snapshot de migraciones para mantener consistencia con las columnas de fecha. | 18/06/2026 |
+| anitec-platform-main | develop | d0af82c | Merge pull request #73 from upc-1asi0730-2610-12206-titan-team-4/hotfix/fix-dateonly-mysql-converters | Integración del hotfix de conversión de fechas al branch de desarrollo. | 19/06/2026 |
+| anitec-platform-main | develop | 8f6d1be | Merge pull request #72 from upc-1asi0730-2610-12206-titan-team-4/feature/mock-checkout | Integración del flujo de pagos mock y suscripciones al branch de desarrollo. | 19/06/2026 |
+| anitec-platform-main | main | 7e9c4b2 | Merge pull request #74 from upc-1asi0730-2610-12206-titan-team-4/develop | Integración final del Sprint 3 desde `develop` hacia `main`, consolidando endpoints, migraciones, seed de datos y documentación Swagger. | 19/06/2026 |
 
 **Repositorio del Backend:**
 
-[Agregar enlace al repositorio anitec-platform-main]()
+https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 
 **Estadísticas del repositorio:**
 
@@ -407,44 +440,11 @@ El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró co
 1. **Compilación del backend:** Se ejecutó el comando `dotnet build` para validar que el proyecto compile correctamente.
 
 <div align="center">
-    <img src="../../assets/chapter-5/sprint3-dotnet-build.png" width="700">
+    <img src="../../assets/chapter-5/back1.jpeg" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
-2. **Ejecución de la API:** Se ejecutó el comando `dotnet run --project Anitec.Platform` para levantar el backend en ambiente de desarrollo.
 
-<div align="center">
-    <img src="../../assets/chapter-5/sprint3-dotnet-run.png" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-3. **Swagger/OpenAPI:** Se verificó que la documentación de endpoints esté disponible en el navegador.
-
-<div align="center">
-    <img src="../../assets/chapter-5/sprint3-swagger.png" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-4. **Base de datos MySQL:** Se verificó la creación de tablas y datos iniciales en la base de datos `anitec-platform`.
-
-<div align="center">
-    <img src="../../assets/chapter-5/sprint3-mysql-database.png" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-5. **Prueba de autenticación:** Se probó el endpoint de inicio de sesión para obtener un token JWT.
-
-<div align="center">
-    <img src="../../assets/chapter-5/sprint3-authentication-test.png" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-6. **Prueba de endpoints principales:** Se verificó la respuesta de endpoints como usuarios, animales, dispositivos, clientes veterinarios y planes de suscripción.
-
-<div align="center">
-    <img src="../../assets/chapter-5/sprint3-endpoints-test.png" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
 
 **Funcionalidades implementadas en backend:**
 
@@ -473,7 +473,7 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 - **Autenticación:** JWT Bearer Token
 - **Hashing de contraseñas:** BCrypt
 - **Documentación:** Swagger/OpenAPI
-- **Repositorio:** [Agregar enlace al repositorio backend]()
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 - **URL local de la API:** `http://localhost:5191/api/v1`
 
 **Migraciones implementadas:**
@@ -486,27 +486,116 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 
 **Endpoints principales implementados:**
 
-| Endpoint | Método principal | Descripción |
-| -------- | ---------------- | ----------- |
-| `/api/v1/authentication/sign-in` | POST | Inicio de sesión de usuarios registrados. |
-| `/api/v1/authentication/sign-up` | POST | Registro de nuevos usuarios. |
-| `/api/v1/users` | GET | Consulta de usuarios del sistema. |
-| `/api/v1/profiles` | GET/POST | Gestión de perfiles. |
-| `/api/v1/herds` | GET/POST/PUT/DELETE | Gestión de fincas o unidades productivas. |
-| `/api/v1/animals` | GET/POST/PUT/DELETE | Gestión de animales registrados. |
-| `/api/v1/health-events` | GET/POST/PUT/DELETE | Gestión de eventos sanitarios. |
-| `/api/v1/farm-events` | GET/POST/PUT/DELETE | Gestión de actividades de granja. |
-| `/api/v1/financial-records` | GET/POST/PUT/DELETE | Gestión de ingresos y egresos. |
-| `/api/v1/report-metrics` | GET/POST/PUT/DELETE | Gestión de métricas de reportes. |
-| `/api/v1/analytics/ranchers/{id}/dashboard` | GET | Dashboard de ganadero. |
-| `/api/v1/analytics/veterinarians/{id}/dashboard` | GET | Dashboard de veterinario. |
-| `/api/v1/veterinarian/{veterinarianId}/clients` | GET | Clientes asignados a un veterinario. |
-| `/api/v1/veterinarian/{veterinarianId}/available-ranchers` | GET | Ganaderos disponibles para asociar. |
-| `/api/v1/devices` | GET/POST/PUT/DELETE | Gestión de dispositivos. |
-| `/api/v1/device-metrics` | GET/POST/PUT/DELETE | Gestión de métricas de dispositivos. |
-| `/api/v1/subscription-plans` | GET/POST/PUT/DELETE | Gestión de planes de suscripción. |
-| `/api/v1/subscriptions` | GET/POST/PUT/DELETE | Gestión de suscripciones. |
-| `/api/v1/subscriptions/mock-checkout` | POST | Simulación de pago para pruebas. |
+| Bounded Context | Método | Endpoint | Descripción |
+| --------------- | ------ | -------- | ----------- |
+| IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión de usuarios registrados y generación de token JWT. |
+| IAM | POST | `/api/v1/authentication/sign-up` | Registro de nuevos usuarios con contraseña encriptada. |
+| IAM | GET | `/api/v1/users` | Consulta de usuarios del sistema. |
+| IAM | GET | `/api/v1/users/{id}` | Consulta de un usuario por identificador. |
+| Profiles | GET | `/api/v1/profiles` | Consulta de perfiles registrados. |
+| Profiles | GET | `/api/v1/profiles/{profileId}` | Consulta de un perfil por identificador. |
+| Profiles | POST | `/api/v1/profiles` | Creación de perfiles de usuario. |
+| Livestock | GET | `/api/v1/herds` | Consulta de hatos o unidades productivas. |
+| Livestock | GET | `/api/v1/herds/{id}` | Consulta de un hato por identificador. |
+| Livestock | POST | `/api/v1/herds` | Registro de nuevos hatos. |
+| Livestock | PUT | `/api/v1/herds/{id}` | Actualización de información de un hato. |
+| Livestock | DELETE | `/api/v1/herds/{id}` | Eliminación de un hato registrado. |
+| Livestock | GET | `/api/v1/animals` | Consulta de animales registrados. |
+| Livestock | GET | `/api/v1/animals/{id}` | Consulta de un animal por identificador. |
+| Livestock | POST | `/api/v1/animals` | Registro de nuevos animales. |
+| Livestock | PUT | `/api/v1/animals/{id}` | Actualización de información de un animal. |
+| Livestock | DELETE | `/api/v1/animals/{id}` | Eliminación de un animal registrado. |
+| Sanitary | GET | `/api/v1/health-events` | Consulta de eventos sanitarios. |
+| Sanitary | GET | `/api/v1/health-events/{id}` | Consulta de un evento sanitario por identificador. |
+| Sanitary | POST | `/api/v1/health-events` | Registro de vacunas, tratamientos, diagnósticos o incidencias. |
+| Sanitary | PUT | `/api/v1/health-events/{id}` | Actualización de un evento sanitario. |
+| Sanitary | DELETE | `/api/v1/health-events/{id}` | Eliminación de un evento sanitario. |
+| Financial | GET | `/api/v1/financial-records` | Consulta de ingresos y egresos ganaderos. |
+| Financial | GET | `/api/v1/financial-records/{id}` | Consulta de un registro financiero por identificador. |
+| Financial | POST | `/api/v1/financial-records` | Registro de ingresos o gastos. |
+| Financial | PUT | `/api/v1/financial-records/{id}` | Actualización de un registro financiero. |
+| Financial | DELETE | `/api/v1/financial-records/{id}` | Eliminación de un registro financiero. |
+| Activities | GET | `/api/v1/farm-events` | Consulta de actividades, visitas o tareas de granja. |
+| Activities | GET | `/api/v1/farm-events/{id}` | Consulta de una actividad por identificador. |
+| Activities | POST | `/api/v1/farm-events` | Registro de nuevas actividades de granja. |
+| Activities | PUT | `/api/v1/farm-events/{id}` | Actualización de una actividad. |
+| Activities | DELETE | `/api/v1/farm-events/{id}` | Eliminación de una actividad. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/dashboard` | Dashboard de métricas principales para ganaderos. |
+| Analytics | GET | `/api/v1/analytics/veterinarians/{veterinarianId}/dashboard` | Dashboard de métricas principales para veterinarios. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/health-summary` | Resumen sanitario del ganadero. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/financial-summary` | Resumen financiero del ganadero. |
+| Analytics | GET | `/api/v1/report-metrics` | Consulta de métricas de reportes. |
+| Analytics | GET | `/api/v1/report-metrics/{id}` | Consulta de una métrica de reporte por identificador. |
+| Analytics | POST | `/api/v1/report-metrics` | Registro de métricas de reportes. |
+| Analytics | PUT | `/api/v1/report-metrics/{id}` | Actualización de una métrica de reporte. |
+| Analytics | DELETE | `/api/v1/report-metrics/{id}` | Eliminación de una métrica de reporte. |
+| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/clients` | Consulta de clientes asignados a un veterinario. |
+| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/available-ranchers` | Consulta de ganaderos disponibles para asociar. |
+| Clients | POST | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Asociación de un ganadero a un veterinario. |
+| Clients | DELETE | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Eliminación de la relación entre veterinario y ganadero. |
+| Devices | GET | `/api/v1/devices` | Consulta de dispositivos IoT registrados. |
+| Devices | GET | `/api/v1/devices/{id}` | Consulta de un dispositivo por identificador. |
+| Devices | POST | `/api/v1/devices` | Registro de nuevos dispositivos IoT. |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualización de un dispositivo IoT. |
+| Devices | DELETE | `/api/v1/devices/{id}` | Eliminación de un dispositivo IoT. |
+| Devices | GET | `/api/v1/devices/{id}/metrics` | Consulta de métricas asociadas a un dispositivo. |
+| Devices | GET | `/api/v1/devices/{id}/latest-metric` | Consulta de la última métrica registrada por un dispositivo. |
+| Metrics | GET | `/api/v1/device-metrics` | Consulta de métricas de dispositivos. |
+| Metrics | GET | `/api/v1/device-metrics/{id}` | Consulta de una métrica de dispositivo por identificador. |
+| Metrics | POST | `/api/v1/device-metrics` | Registro de métricas de dispositivos. |
+| Metrics | PUT | `/api/v1/device-metrics/{id}` | Actualización de una métrica de dispositivo. |
+| Metrics | DELETE | `/api/v1/device-metrics/{id}` | Eliminación de una métrica de dispositivo. |
+| Subscriptions | GET | `/api/v1/subscription-plans` | Consulta de planes de suscripción disponibles. |
+| Subscriptions | GET | `/api/v1/subscription-plans/{id}` | Consulta de un plan de suscripción por identificador. |
+| Subscriptions | POST | `/api/v1/subscription-plans` | Registro de nuevos planes de suscripción. |
+| Subscriptions | PUT | `/api/v1/subscription-plans/{id}` | Actualización de un plan de suscripción. |
+| Subscriptions | DELETE | `/api/v1/subscription-plans/{id}` | Eliminación de un plan de suscripción. |
+| Subscriptions | GET | `/api/v1/subscriptions` | Consulta de suscripciones registradas. |
+| Subscriptions | GET | `/api/v1/subscriptions/{id}` | Consulta de una suscripción por identificador. |
+| Subscriptions | POST | `/api/v1/subscriptions` | Registro de nuevas suscripciones. |
+| Subscriptions | PUT | `/api/v1/subscriptions/{id}` | Actualización de una suscripción. |
+| Subscriptions | DELETE | `/api/v1/subscriptions/{id}` | Eliminación de una suscripción. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/active` | Consulta de la suscripción activa de un usuario. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/mock-checkout` | Simulación de pago para pruebas del flujo de suscripción. |
+
+
+**Swagger/OpenAPI:** Se verificó que la documentación de endpoints esté disponible en el navegador.
+
+<div align="center">
+    <img src="../../assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/back2.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/back3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/back4.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/back5.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/back6.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="../../assets/chapter-5/back7.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 **Estructura de capas aplicada:**
 
@@ -581,7 +670,7 @@ El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Di
   <p>
     <b>Commits gráficas - Sprint 3</b>
   </p>
-  <img src="../../assets/chapter-5/commit-chart-sprint-3.png" alt="Commits Sprint 3" width="600">
+  <img src="../../assets/chapter-5/Sprint3GraficosCommits.jpeg" alt="Commits Sprint 3" width="600">
 </div>
 
 **Reflexiones del Equipo:**
