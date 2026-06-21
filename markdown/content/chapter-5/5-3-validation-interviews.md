@@ -111,7 +111,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 <br>
 
-| **ENTREVISTA N°1** | |
+| **ENTREVISTA N°4** | |
 |------------------|----------------------------|
 | **Nombre del entrevistado** | Andrea Solis  |
 | **Edad** | 24 |
@@ -125,7 +125,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 <br>
 
-| **ENTREVISTA N°2** | |
+| **ENTREVISTA N°5** | |
 |------------------|----------------------------|
 | **Nombre del entrevistado** |   |
 | **Edad** |  |
@@ -138,20 +138,5 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Resumen** |  |
 
 <br>
-
-| **ENTREVISTA N°3** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** |   |
-| **Edad** |  |
-| **Profesión** | Veterinario |
-| **Departamento** |  |
-| **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:00:00 |
-| **Link del video** | [Link_entrevista_6]() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
-
-<br>
-
 
 ## 5.3.3. Análisis de entrevistas
