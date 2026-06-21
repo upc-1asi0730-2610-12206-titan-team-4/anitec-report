@@ -82,13 +82,13 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **ENTREVISTA N°2** | |
 |------------------|----------------------------|
 | **Nombre del entrevistado** |Kiara Gallardo  |
-| **Edad** | 23 |
+| **Edad** | 22 |
 | **Profesión** | Ganadero |
 | **Departamento** | Lima |
-| **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:00:00 |
-| **Link del video** | [Link_entrevista_2]() |
-| **Foto entrevista** | ![Entrevista]() |
+| **Inicio del video** | 00:06:30 |
+| **Fin del video** | 00:17:25 |
+| **Link del video** | [Link_entrevista_2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaKiara.png) |
 | **Resumen** |  |
 
 <br>
