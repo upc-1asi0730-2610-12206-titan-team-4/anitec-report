@@ -49,7 +49,7 @@
 - API mock del frontend: [My JSON Server](https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver)
 - Tablero del Sprint Backlog 1: [Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
 - Tablero del Sprint Backlog 2: [Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
-- Tablero del Sprint Backlog 3: [Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-3)
+- Tablero del Sprint Backlog 3: [Trello](https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTIe8f4417969b123401b08cdf15fc123be01FAB4B6/sprint3-anitec)
 
 ## Anexo F. Herramientas utilizadas
 
