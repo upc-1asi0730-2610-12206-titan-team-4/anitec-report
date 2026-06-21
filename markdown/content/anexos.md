@@ -4,6 +4,7 @@
 
 - Exposicion Avance 1: [Video de exposicion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD)
 - Exposicion TB1: [Video de exposicion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1)
+- Exposicion Avance 2: [Video de exposicion]()
 
 ## Anexo B. Videos de entrevistas
 
@@ -13,7 +14,16 @@
 - Entrevista 4 - Angela Moran, ganadera: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx)
 - Entrevista 5 - Aldahir Sillo, ganadero: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi)
 
-## Anexo C. Materiales de ideacion y diseño
+## Anexo C. Videos de entrevistas de validación
+
+- Entrevista 1 - Rodrigo Alfaro :[Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI)
+- Entrevista 2 - :[Video de entrevista]()
+- Entrevista 3 - :[Video de entrevista]()
+- Entrevista 4 - Andrea Solis :[Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- Entrevista 5 - :[Video de entrevista]()
+- Entrevista 6 - :[Video de entrevista]()
+
+## Anexo D. Materiales de ideacion y diseño
 
 - Lean UX Canvas del proyecto AniTec: [Mural](https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781)
 - Big Picture EventStorming y Design-Level EventStorming: [Miro](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517)
@@ -26,7 +36,7 @@
 - Prototipo de la aplicacion web: [Video en OneDrive](https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw)
 - Diagrama de clases del sistema: [Lucidchart](https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13)
 
-## Anexo D. Repositorios y despliegues
+## Anexo E. Repositorios y despliegues
 
 - Repositorio del informe del proyecto: [GitHub - anitec-report](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report)
 - Repositorio de la landing page: [GitHub - anitec-landing-page](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page)
@@ -39,8 +49,9 @@
 - API mock del frontend: [My JSON Server](https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver)
 - Tablero del Sprint Backlog 1: [Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
 - Tablero del Sprint Backlog 2: [Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
+- Tablero del Sprint Backlog 3: [Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-3)
 
-## Anexo E. Herramientas utilizadas
+## Anexo F. Herramientas utilizadas
 
 - Trello, para gestion del backlog y tareas del proyecto: [Sitio oficial](https://trello.com)
 - Gherkin, para criterios de aceptacion en formato Given-When-Then: [Documentacion oficial](https://cucumber.io/docs/gherkin/)
@@ -59,7 +70,7 @@
 - Structurizr, para diagramas C4: [Sitio oficial](https://structurizr.com)
 - Vertabelo, para diagramas de base de datos: [Sitio oficial](https://vertabelo.com)
 
-## Anexo F. Referencias bibliograficas con enlace
+## Anexo G. Referencias bibliograficas con enlace
 
 - Guia para ejecutar Big Picture Event Storming: [Step by Step Guide to run your Big Picture Event Storming](https://bit.ly/bpes-guide)
 - Guia practica de EventStorming remoto: [Remote EventStorming in Practice](https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/)
