@@ -75,3 +75,8 @@
 - Guia practica de EventStorming remoto: [Remote EventStorming in Practice](https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/)
 - Material sobre historias de usuario: [Historias de usuario: Un enfoque agil](https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf)
 - Libro de ingenieria de software usado como referencia: [Ingenieria de Software: Un enfoque practico](https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF)
+
+## Anexo H. Videos de cierre
+
+- Video About The Team: [Enlance de video](https://www.youtube.com/watch?v=Ai-0rShYlvI)
+- Video About The Product: [Enlance de video](https://www.youtube.com/watch?v=U_xCv93ybkI)

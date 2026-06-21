@@ -95,15 +95,15 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 | **ENTREVISTA N°3** | |
 |------------------|----------------------------|
-| **Nombre del entrevistado** |   |
-| **Edad** |  |
+| **Nombre del entrevistado** | Vicente |
+| **Edad** | 61 |
 | **Profesión** | Ganadero |
-| **Departamento** |  |
+| **Departamento** | Lima |
 | **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:00:00 |
-| **Link del video** | [Link_entrevista_3]() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
+| **Fin del video** | 00:07:30 |
+| **Link del video** | [Link_entrevista_3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-bruno.png) |
+| **Resumen** | Entrevistado: Vicente, quien es ganadero y se dedica a la crianza de vacunos, lo cual aporta un perfil técnico y práctico necesario para validar la utilidad de la aplicación. ​Problemática Actual del Entrevistado: ​Vicente menciona que, actualmente, el registro de información sobre sus animales, fincas, actividades y gastos lo realiza de manera espontánea utilizando una hoja de cálculo en Excel, lo cual indica una oportunidad clara para digitalizar y automatizar estos procesos.  ​Validación de la Solución (AniTec): ​Confianza y Usabilidad: Aunque Vicente no afirma estar convencido al 100% de inmediato, reconoce la utilidad de la aplicación para llevar un mejor control y organizar actividades, como el control de vacunas, tratamientos y alimentación, basándose en la edad y tipo de ganado. ​Sugerencias de Mejora: Vicente sugiere que la aplicación debería permitir agregar variables adicionales, como el tipo de suelo o clima, para complementar los datos sanitarios y de alimentación, lo que ayudaría a una toma de decisiones más precisa. ​Valor del Dashboard: El entrevistado coincide en que el panel de control (dashboard) es una herramienta valiosa para obtener información útil y rápida para la toma de decisiones, especialmente si la información se puede centralizar en un solo lugar. |
 
 <br>
 
@@ -127,15 +127,15 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 | **ENTREVISTA N°5** | |
 |------------------|----------------------------|
-| **Nombre del entrevistado** |   |
-| **Edad** |  |
+| **Nombre del entrevistado** | Hugo Jorge  |
+| **Edad** | 25 |
 | **Profesión** | Veterinario |
-| **Departamento** |  |
+| **Departamento** | Lima |
 | **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:00:00 |
-| **Link del video** | [Link_entrevista_5]() |
-| **Foto entrevista** | ![Entrevista]() |
-| **Resumen** |  |
+| **Fin del video** | 00:04:30 |
+| **Link del video** | [Link_entrevista_5](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-hugo.png) |
+| **Resumen** | Como resultado de la entrevista, el veterinario indicó que actualmente organiza la información de clientes, pacientes y visitas mediante registros manuales y herramientas básicas, por lo que valoró que AniTec centralice toda la información en una sola plataforma. Señaló que el landing page transmite de manera general el propósito de la aplicación, aunque recomendó destacar con mayor claridad los beneficios específicos para veterinarios mediante ejemplos de uso, testimonios y detalles sobre la gestión sanitaria del ganado para generar mayor confianza. Respecto al registro sanitario, sugirió incorporar campos adicionales relacionados con tratamientos, historial clínico, vacunaciones y observaciones médicas. Consideró que la sección de actividades sería útil para programar visitas, controles y seguimientos periódicos, mientras que las alertas y estados sanitarios del dashboard le parecieron comprensibles y fáciles de identificar. Finalmente, destacó que la sección de analíticas proporciona información relevante para el seguimiento de clientes, animales y eventos sanitarios, facilitando la toma de decisiones y el monitoreo integral de la salud del ganado. |
 
 <br>
 
