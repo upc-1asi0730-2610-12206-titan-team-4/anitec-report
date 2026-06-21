@@ -3,7 +3,7 @@
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- URL del repositorio para el desarrollo del backend web applications (.NET Web API):
+- URL del repositorio para el desarrollo del backend web applications (.NET Web API): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 
 **AV1**
 
@@ -43,6 +43,26 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
 
+---
+
+**AV2**
+
+Para el desarrollo del informe perteneciente a la entrega AV2, el equipo organizó sus actividades en torno al cierre del Sprint 3, la documentación del backend, la validación de usuarios y la preparación de evidencias finales del producto. La distribución de tareas fue la siguiente:
+
+<div align="center">
+
+| Integrante       | Tareas Asignadas |
+| ---------------- | ---------------- |
+| Abigail Raymundo | Colaboración en la documentación de validación, entrevistas, conclusiones y revisión de secciones relacionadas con sanidad, actividades y necesidades de los usuarios ganaderos. |
+| Bruno Huaman     | Apoyo en la revisión técnica de entidades, dispositivos IoT, métricas, reportes y coherencia entre los módulos backend documentados y las funcionalidades del sistema. |
+| Jorge Ayala      | Encargado del despliegue del backend en Render, verificación del acceso público a Swagger y apoyo en la evidencia técnica del deployment de la API. |
+| Josep Melgarejo  | Desarrollo y organización de la documentación del Sprint 3, endpoints implementados, commits, evidencias de servicios, validación de entrevistas y actualización general del reporte. |
+| Luciana Sanchez  | Colaboración en la revisión del flujo veterinario, organización de información del reporte, student outcome, conclusiones y consistencia de la documentación final. |
+
+</div>
+
+Durante AV2, el trabajo colaborativo se enfocó en consolidar el backend de AniTec, documentar los servicios implementados y evidenciar el despliegue público de la API. Para mantener la trazabilidad, se usaron ramas `feature/` asociadas a endpoints específicos, ramas `develop` para integración, una rama `hotfix/` para correcciones críticas y la rama `main` como versión estable del entregable.
+
 **Github Collaboration Insights**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
@@ -59,7 +79,8 @@ Se explican las ramas más prominentes:
 
 - **main**: Es representada por el color blanco. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
 - **develop**: Es representada por el color morado. Se trata de la rama principal para el proceso del desarrollo del proyecto.
-- **feature/**: cambios específicos del documento
+- **feature/**: cambios específicos del documento o de endpoints implementados.
+- **hotfix/**: correcciones puntuales realizadas sobre errores críticos encontrados durante la integración o despliegue.
 
 ![Branch_Graph](../assets/chapter-1/branchGraph2.png)
 
@@ -96,3 +117,31 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 ![Commit_Graph_Individual5](../assets/chapter-1/Comit55.png)
 
 ![Pull_Graphs](../assets/chapter-1/GraficosCap12.png)
+
+**AV2**
+
+Los siguientes espacios corresponden a las evidencias de colaboración del equipo durante AV2. En esta entrega se debe evidenciar el uso de ramas por funcionalidad, commits distribuidos entre integrantes, integraciones a `develop`, correcciones mediante `hotfix` y la integración final hacia `main`.
+
+**Grafo de commits AV2**
+
+
+![Branch_Graph_AV2](../assets/chapter-5/commitsav2.jpeg)
+
+**Commits durante AV2**
+
+
+![Commit_Graph_AV2](../assets/chapter-5/1.png)
+
+**Commits por integrante durante AV2**
+
+
+![Commit_Graph_AV2_Individual1](../assets/chapter-5/2.png)
+
+![Commit_Graph_AV2_Individual2](../assets/chapter-5/3.png)
+
+![Commit_Graph_AV2_Individual3](../assets/chapter-5/4.png)
+
+![Commit_Graph_AV2_Individual4](../assets/chapter-5/5.png)
+
+![Commit_Graph_AV2_Individual5](../assets/chapter-5/6.png)
+
