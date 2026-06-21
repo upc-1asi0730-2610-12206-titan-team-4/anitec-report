@@ -134,6 +134,15 @@
     - [5.2.2.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
     - [5.2.2.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
     - [5.2.2.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-landing-service-applications.md)
+  - [5.2.3. Sprint 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.1. Sprint Planning 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.2. Aspects Leaders and Collaborators](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.3. Sprint Backlog 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-3-Sprint3.md)
 
 ### [Conclusiones](./markdown/content/conclusiones.md)
 
