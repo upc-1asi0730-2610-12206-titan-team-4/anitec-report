@@ -113,10 +113,10 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 | **ENTREVISTA N°1** | |
 |------------------|----------------------------|
-| **Nombre del entrevistado** |   |
-| **Edad** |  |
+| **Nombre del entrevistado** | Andrea Solis  |
+| **Edad** | 24 |
 | **Profesión** | Veterinario |
-| **Departamento** |  |
+| **Departamento** | Lima |
 | **Inicio del video** | 00:00:00 |
 | **Fin del video** | 00:00:00 |
 | **Link del video** | [Link_entrevista_4]() |
