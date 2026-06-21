@@ -121,7 +121,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Fin del video** | 00:07:00 |
 | **Link del video** | [Link_entrevista_4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaAndrea1.jpeg) |
-| **Resumen** |  |
+| **Resumen** | En la entrevista, la veterinaria Andrea comenta que actualmente organiza la información de sus clientes, pacientes y visitas de forma manual, con cuadernos y Excel. Señala que el landing page de AniTec deja claro que la plataforma también está pensada para veterinarios, destacando el historial médico completo, la comunicación con el ganadero y las estadísticas de salud. Al probar la aplicación, valora el dashboard por mostrarle rápidamente sus clientes y pacientes asignados, así como la facilidad para agregar clientes, revisar sus fincas y registrar eventos sanitarios completos. Como mejoras, sugiere agregar más campos clínicos (dosis, vía de administración, signos vitales) y aclarar mejor el funcionamiento del seguimiento de visitas.   |
 
 <br>
 
