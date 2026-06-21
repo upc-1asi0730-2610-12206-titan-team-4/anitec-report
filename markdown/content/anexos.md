@@ -17,11 +17,10 @@
 ## Anexo C. Videos de entrevistas de validación
 
 - Entrevista 1 - Rodrigo Alfaro :[Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI)
-- Entrevista 2 - :[Video de entrevista]()
+- Entrevista 2 - :[Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=QeTiV7)
 - Entrevista 3 - :[Video de entrevista]()
 - Entrevista 4 - Andrea Solis :[Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 - Entrevista 5 - :[Video de entrevista]()
-- Entrevista 6 - :[Video de entrevista]()
 
 ## Anexo D. Materiales de ideacion y diseño
 
@@ -76,3 +75,8 @@
 - Guia practica de EventStorming remoto: [Remote EventStorming in Practice](https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/)
 - Material sobre historias de usuario: [Historias de usuario: Un enfoque agil](https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf)
 - Libro de ingenieria de software usado como referencia: [Ingenieria de Software: Un enfoque practico](https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF)
+
+## Anexo H. Videos de cierre
+
+- Video About The Team: [Enlance de video](https://www.youtube.com/watch?v=Ai-0rShYlvI)
+- Video About The Product: [Enlance de video](https://www.youtube.com/watch?v=U_xCv93ybkI)
