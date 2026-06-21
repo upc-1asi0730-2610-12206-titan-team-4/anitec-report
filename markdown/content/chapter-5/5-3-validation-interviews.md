@@ -118,9 +118,9 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Profesión** | Veterinario |
 | **Departamento** | Lima |
 | **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:00:00 |
-| **Link del video** | [Link_entrevista_4]() |
-| **Foto entrevista** | ![Entrevista]() |
+| **Fin del video** | 00:07:00 |
+| **Link del video** | [Link_entrevista_4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaAndrea1.jpeg) |
 | **Resumen** |  |
 
 <br>
