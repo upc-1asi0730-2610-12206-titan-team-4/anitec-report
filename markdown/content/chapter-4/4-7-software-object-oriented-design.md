@@ -12,7 +12,7 @@
   </p>
 </div>
 
-Enlace para acceder al [diseño del diagrama de clases](https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13)
+Enlace para acceder al https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13
 
 ## 4.7.2. Class Dictionary.
 

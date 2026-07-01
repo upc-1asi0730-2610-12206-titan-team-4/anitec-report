@@ -527,7 +527,7 @@ Creemos que AniTec debe tener una interfaz intuitiva, amigable y estable, pensad
 El Lean UX Canvas es una herramienta utilizada en el marco del diseño centrado en el usuario (UX) y la metodología Lean, cuyo objetivo es apoyar la creación y mejora de productos de manera ágil y eficiente. Su propósito principal es proporcionar una estructura organizada que fomente la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas elaborado por el equipo utilizando la plataforma digital Mural.
 
 ![Lean UX Canvas](./markdown/assets/chapter-1/lean_ux_canvas.png)
-Enlace para acceder al [Canvas](https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781)
+Enlace para acceder al https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781
 
 # 1.3. Segmentos objetivo.
 
@@ -1081,7 +1081,7 @@ El presente Big Picture Event Storming se ha desarrollado de manera colaborativa
 
 ![Event-Storming](./markdown/assets/chapter-2/EventStormingPaso3.jpeg)
 
-Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517)
+Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
 
 # 2.5. Ubiquitous Language.
 
@@ -2218,7 +2218,7 @@ El diseño de la Landing Page de AniTec fue desarrollado con el propósito de of
 
 El wireframe de la landing page de AniTec actúa como una guía visual preliminar que organiza los elementos esenciales de la página sin entrar en detalles gráficos. Este esquema muestra la distribución de secciones clave como el encabezado con el logo y menú de navegación, una propuesta de valor centrada en la digitalización ganadera, testimonios de usuarios reales del campo, y llamadas a la acción destacadas que invitan a conocer la aplicación. El objetivo es garantizar una experiencia intuitiva para el visitante y facilitar su conversión en usuario activo de la plataforma.
 
-Enlace para acceder al [diseño del wireframe de AniTec en Figma](https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1)
+Enlace para acceder al https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1
 
 El wireframe se caracteriza por:
 
@@ -2242,7 +2242,7 @@ El wireframe se caracteriza por:
 
 El mock-up de la landing page de AniTec representa una versión detallada y cercana al diseño final, integrando colores, tipografías e imágenes que reflejan la identidad visual de la plataforma. Este diseño ofrece una vista realista de cómo se presentará la página a los usuarios, destacando una estética moderna, accesible y alineada con el sector agroindustrial ganadero. Además, refuerza la importancia de mantener coherencia visual y claridad en la propuesta de valor, transmitiendo confianza, profesionalismo y compromiso con la innovación tecnológica en el campo.
 
-Enlace para acceder al [diseño del mock-up de AniTec en Figma](https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1)
+Enlace para acceder al https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1
 
 El mock-up incluye:
 
@@ -2268,7 +2268,7 @@ El mock-up incluye:
 
 ## 4.4.1. Web Applications Wireframes.
 
-Los wireframes de la aplicación web de AniTec ilustran la estructura y distribución de las principales pantallas dirigidas al ámbito agroindustrial, con énfasis en el sector ganadero. Estos bocetos permiten visualizar la organización de los componentes de la interfaz y el flujo de navegación entre las distintas secciones, sirviendo como referencia para el diseño definitivo. De este modo, se asegura una experiencia de usuario clara, ágil y alineada con las necesidades reales de los productores. Fueron elaborados utilizando Figma. Enlace para acceder a los wireframes: [Web Application Wireframes](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1)
+Los wireframes de la aplicación web de AniTec ilustran la estructura y distribución de las principales pantallas dirigidas al ámbito agroindustrial, con énfasis en el sector ganadero. Estos bocetos permiten visualizar la organización de los componentes de la interfaz y el flujo de navegación entre las distintas secciones, sirviendo como referencia para el diseño definitivo. De este modo, se asegura una experiencia de usuario clara, ágil y alineada con las necesidades reales de los productores. Fueron elaborados utilizando Figma. Enlace para acceder a los wireframes: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
 
 <div align="center">
 
@@ -2402,7 +2402,7 @@ Dashboard donde se presentan los reportes generados
 
 ## 4.4.2. Web Applications Wireflow Diagrams.
 
-En esta sección se presentan los Wireflows para cada objetivo del usuario. Para ello se consideró los User Persona correspondientes. Cada diagrama muestra el flujo de interacción. Enlace para acceder a los wireflows en Figma: [Web Application Wireflows](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1)
+En esta sección se presentan los Wireflows para cada objetivo del usuario. Para ello se consideró los User Persona correspondientes. Cada diagrama muestra el flujo de interacción. Enlace para acceder a los wireflows en Figma: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
 
 - **Registro e Inicio del Ganadero:** El presente wireflow corresponde al flujo de interacción del usuario ganadero desde el registro, y selección del plan de la cuenta, o inicio de sesión hasta el acceso a la aplicación.
 
@@ -2466,7 +2466,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 ## 4.4.3. Web Applications Mock-ups.
 
-En esta sección se exponen y analizan los mockups de la aplicación web AgroDigital, diseñada para el sector ganadero. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario y la gestión eficiente del ganado. Asimismo, se incluye el enlace para acceder al contenido. [Enlace al figma](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1)
+En esta sección se exponen y analizan los mockups de la aplicación web AgroDigital, diseñada para el sector ganadero. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario y la gestión eficiente del ganado. Asimismo, se incluye el enlace para acceder al contenido. https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
 
 <div align="center">
 
@@ -2746,7 +2746,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
   </p>
 </div>
 
-Enlace para acceder al [EventStorming](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517)
+Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
 
 ## 4.6.2. Software Architecture Context Diagram.
 
@@ -2880,7 +2880,7 @@ El Reporting & Analytics Component Diagram presenta la estructura interna del m�
   </p>
 </div>
 
-Enlace para acceder al [diseño del diagrama de clases](https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13)
+Enlace para acceder al https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13
 
 ## 4.7.2. Class Dictionary.
 
@@ -3366,7 +3366,7 @@ El Sprint Backlog fue elaborado de manera colaborativa, donde cada miembro del e
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done". El uso de Trello permite una visualización clara del estado de cada tarea y facilita la identificación de cuellos de botella en el flujo de trabajo.
 
-Enlace al tablero del Sprint Backlog 1: [Sprint Backlog 1 en Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
+Enlace al tablero del Sprint Backlog 1: https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1
 
 <div align="center">
     <img src="./markdown/assets/chapter-5/Sprintbacklog1SS.jpeg" width="700">
@@ -3844,7 +3844,7 @@ El Sprint Backlog fue elaborado de manera colaborativa, donde cada miembro del e
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
 
-Enlace al tablero del Sprint Backlog 2: [Sprint Backlog 2 en Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
+Enlace al tablero del Sprint Backlog 2: https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2
 
 <div align="center">
     <img src="./markdown/assets/chapter-5/Sprintbacklog2SS.jpeg" width="700">
@@ -4089,7 +4089,7 @@ La aplicación web implementada durante el Sprint 2 cuenta con las siguientes ca
 | anitec-frontend | main               | f600477   | chore: adding svg images for the app                                                                                                                                      | Added SVG assets and image resources used throughout the application interface.                                                                                                                                                                                                   | 2026-05-14 22:58:14 -0500 |
 | anitec-frontend | main               | 0df69ea   | chore: AniTec Frontend Initialization!!                                                                                                                                   | Initialized the AniTec frontend project structure and base configuration files.                                                                                                                                                                                                   | 2026-05-14 22:53:02 -0500 |
 | anitec-frontend | main               | 013f738   | chore: making a license for this project                                                                                                                                  | Added the project license file and repository legal information.                                                                                                                                                                                                                  | 2026-05-14 22:52:02 -0500 |
-| anitec-frontend | main               | 086a0bb   | Merge branch 'main' of [https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend) | Merged remote changes from the main branch into the local repository state.                                                                                                                                                                                                       | 2026-05-14 22:47:49 -0500 |
+| anitec-frontend | main               | 086a0bb   | Merge branch 'main' of https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend | Merged remote changes from the main branch into the local repository state.                                                                                                                                                                                                       | 2026-05-14 22:47:49 -0500 |
 | anitec-frontend | main               | 4a1c165   | chore: AniTec Frontend Initialization!!                                                                                                                                   |                                                                                                                                                                                                                                                                                   | 2026-05-14 22:47:36 -0500 |
 | anitec-frontend | main               | 544b54a   | chore: creating the server files for mock data                                                                                                                            | Added mock server files and sample data resources for development and testing.                                                                                                                                                                                                    | 2026-05-14 22:42:05 -0500 |
 | anitec-frontend | main               | 4d35dc4   | chore: AniTec Frontend Initialization!!                                                                                                                                   |                                                                                                                                                                                                                                                                                   | 2026-05-14 22:31:38 -0500 |
@@ -4356,65 +4356,65 @@ Pressman, R. S. (2010). _Ingeniería de Software: Un enfoque práctico_. McGraw-
 
 ## Anexo A. Videos de exposiciones
 
-- Exposicion Avance 1: [Video de exposicion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD)
-- Exposicion TB1: [Video de exposicion](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1)
+- Exposicion Avance 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD
+- Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1
 
 ## Anexo B. Videos de entrevistas
 
-- Entrevista 1 - Vicente Alacutte, ganadero: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M)
-- Entrevista 2 - Rebeca Reyes, ganadera: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- Entrevista 3 - Porfirio Sandoval, ganadero: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg)
-- Entrevista 4 - Angela Moran, ganadera: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx)
-- Entrevista 5 - Aldahir Sillo, ganadero: [Video de entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi)
+- Entrevista 1 - Vicente Alacutte, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M
+- Entrevista 2 - Rebeca Reyes, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Entrevista 3 - Porfirio Sandoval, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
+- Entrevista 4 - Angela Moran, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx
+- Entrevista 5 - Aldahir Sillo, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi
 
 ## Anexo C. Materiales de ideacion y diseño
 
-- Lean UX Canvas del proyecto AniTec: [Mural](https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781)
-- Big Picture EventStorming y Design-Level EventStorming: [Miro](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517)
-- Big Picture EventStorming, enlace alternativo usado en el capítulo 2: [Miro](https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517)
-- Wireframe de la landing page: [Figma](https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1)
-- Mock-up de la landing page: [Figma](https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1)
-- Wireframes de la aplicacion web: [Figma](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1)
-- Wireflows de la aplicacion web: [Figma](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1)
-- Mock-ups de la aplicacion web: [Figma](https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1)
-- Prototipo de la aplicacion web: [Video en OneDrive](https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw)
-- Diagrama de clases del sistema: [Lucidchart](https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13)
+- Lean UX Canvas del proyecto AniTec: https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781
+- Big Picture EventStorming y Design-Level EventStorming: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
+- Big Picture EventStorming, enlace alternativo usado en el capítulo 2: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
+- Wireframe de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1
+- Mock-up de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1
+- Wireframes de la aplicacion web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
+- Wireflows de la aplicacion web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
+- Mock-ups de la aplicacion web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
+- Prototipo de la aplicacion web: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw
+- Diagrama de clases del sistema: https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13
 
 ## Anexo D. Repositorios y despliegues
 
-- Repositorio del informe del proyecto: [GitHub - anitec-report](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report)
-- Repositorio de la landing page: [GitHub - anitec-landing-page](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page)
-- Repositorio del frontend web: [GitHub - anitec-frontend](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend)
-- Repositorio de datos de prueba: [GitHub - anitec-jsonserver](https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver)
-- Despliegue de la landing page: [GitHub Pages](https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/)
-- Despliegue del frontend web: [Firebase Hosting](https://anitecfrontendtitan.web.app)
-- API mock del frontend: [My JSON Server](https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver)
-- Tablero del Sprint Backlog 1: [Trello](https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1)
-- Tablero del Sprint Backlog 2: [Trello](https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2)
+- Repositorio del informe del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
+- Repositorio de la landing page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- Repositorio del frontend web: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- Repositorio de datos de prueba: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
+- Despliegue de la landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- Despliegue del frontend web: https://anitecfrontendtitan.web.app
+- API mock del frontend: https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
+- Tablero del Sprint Backlog 1: https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1
+- Tablero del Sprint Backlog 2: https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2
 
 ## Anexo E. Herramientas utilizadas
 
-- Trello, para gestion del backlog y tareas del proyecto: [Sitio oficial](https://trello.com)
-- Gherkin, para criterios de aceptacion en formato Given-When-Then: [Documentacion oficial](https://cucumber.io/docs/gherkin/)
-- Miro, para dinamicas de EventStorming: [Sitio oficial](https://miro.com/)
-- Figma, para wireframes, mock-ups y prototipos: [Sitio oficial](https://www.figma.com)
-- Canva, para recursos visuales del producto: [Sitio oficial](https://www.canva.com)
-- UXPressia, para User Personas y Customer Journey Maps: [Sitio oficial](https://uxpressia.com)
-- Lucidchart, para diagramas del sistema: [Sitio oficial](https://www.lucidchart.com/) / [enlace alternativo usado en el informe](https://lucidchart.com)
-- GitHub, para control de versiones y colaboracion: [Sitio oficial](https://github.com)
-- Visual Studio Code, para edicion de codigo y archivos Markdown: [Sitio oficial](https://code.visualstudio.com/)
-- WebStorm, para desarrollo del frontend: [Sitio oficial](https://www.jetbrains.com/webstorm/)
-- Rider, para desarrollo de backend en caso de usar .NET: [Sitio oficial](https://www.jetbrains.com/rider/)
-- GitHub Pages, para despliegue de la landing page: [Sitio oficial](https://pages.github.com)
-- Firebase, para despliegue del frontend web: [Sitio oficial](https://firebase.google.com)
-- Mockapi, para datos de prueba: [Sitio oficial](https://mockapi.io/)
-- Structurizr, para diagramas C4: [Sitio oficial](https://structurizr.com)
-- Vertabelo, para diagramas de base de datos: [Sitio oficial](https://vertabelo.com)
+- Trello, para gestion del backlog y tareas del proyecto: https://trello.com
+- Gherkin, para criterios de aceptacion en formato Given-When-Then: https://cucumber.io/docs/gherkin/
+- Miro, para dinamicas de EventStorming: https://miro.com/
+- Figma, para wireframes, mock-ups y prototipos: https://www.figma.com
+- Canva, para recursos visuales del producto: https://www.canva.com
+- UXPressia, para User Personas y Customer Journey Maps: https://uxpressia.com
+- Lucidchart, para diagramas del sistema: https://www.lucidchart.com/ / https://lucidchart.com
+- GitHub, para control de versiones y colaboracion: https://github.com
+- Visual Studio Code, para edicion de codigo y archivos Markdown: https://code.visualstudio.com/
+- WebStorm, para desarrollo del frontend: https://www.jetbrains.com/webstorm/
+- Rider, para desarrollo de backend en caso de usar .NET: https://www.jetbrains.com/rider/
+- GitHub Pages, para despliegue de la landing page: https://pages.github.com
+- Firebase, para despliegue del frontend web: https://firebase.google.com
+- Mockapi, para datos de prueba: https://mockapi.io/
+- Structurizr, para diagramas C4: https://structurizr.com
+- Vertabelo, para diagramas de base de datos: https://vertabelo.com
 
 ## Anexo F. Referencias bibliograficas con enlace
 
-- Guia para ejecutar Big Picture Event Storming: [Step by Step Guide to run your Big Picture Event Storming](https://bit.ly/bpes-guide)
-- Guia practica de EventStorming remoto: [Remote EventStorming in Practice](https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/)
-- Material sobre historias de usuario: [Historias de usuario: Un enfoque agil](https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf)
-- Libro de ingenieria de software usado como referencia: [Ingenieria de Software: Un enfoque practico](https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF)
+- Guia para ejecutar Big Picture Event Storming: https://bit.ly/bpes-guide
+- Guia practica de EventStorming remoto: https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
+- Material sobre historias de usuario: https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+- Libro de ingenieria de software usado como referencia: https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
 
