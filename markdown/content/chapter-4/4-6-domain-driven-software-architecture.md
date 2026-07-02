@@ -140,7 +140,7 @@ El Software Architecture Context Level Diagram presenta una vista general del si
 
 ## 4.6.3. Software Architecture Container Diagrams.
 
-El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos MySQL y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
+El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, gestiona módulos como IAM, perfiles, ganadería, sanidad, actividades, finanzas, analíticas, dispositivos y suscripciones, y almacena la información en una base de datos MySQL.
 
 <div align="center">
   <p>
@@ -154,89 +154,137 @@ El Software Architecture Container Diagram permite visualizar la descomposición
 
 ## 4.6.4. Software Architecture Components Diagrams.
 
-Los Software Architecture Component Diagrams presentan la descomposición interna de los principales contenedores del sistema, permitiendo identificar sus componentes, responsabilidades e interacciones. Estos diagramas facilitan la comprensión de la organización lógica de la solución y las tecnologías utilizadas en su implementación.
+Los Software Architecture Component Diagrams presentan la descomposición interna del contenedor API Application de AniTec. Estos diagramas permiten identificar los principales bounded contexts, sus responsabilidades, los controladores REST, servicios de aplicación, repositorios, componentes compartidos y la interacción con la base de datos MySQL.
 
 <br>
 
-El siguiente Diagrama de Componentes descompone el contenedor de la API Application de AniTec para detallar la lógica interna del sistema bajo un enfoque de Bounded Contexts. Se ilustra cómo la Single Page Application (SPA) se comunica mediante HTTPS/JSON directamente con módulos independientes como IAM (responsable de la seguridad y la gestión de suscripciones con Stripe), Animal Management, Health Management, Event management, Financial Management y Reporting. Cada componente, construido con ASP.NET Core y Entity Framework Core, encapsula las reglas de negocio para la gestión ganadera y coordina la persistencia en MySQL, integrándose además con Resend para las notificaciones por e-mail.
+El AniTec API Application Component Diagram muestra la vista general de la API y sus bounded contexts principales. En esta vista se observa cómo la aplicación web consume servicios REST organizados en IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Devices, Subscriptions y Shared. La API fue implementada con ASP.NET Core, Entity Framework Core, patrones de repositorio, Unit of Work y persistencia en MySQL.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - API Application - AniTec</b>
+    <b>Component Diagram - API Application - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-API-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <img src="../../assets/chapter-4/ApiApplicationComponents.png" alt="AniTec API Application Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El IAM Component Diagram presenta la estructura interna del módulo de gestión de identidad y acceso de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la autenticación, validación de suscripciones, notificaciones por correo y gestión de usuarios, así como sus interacciones con servicios externos y la base de datos.
+El IAM Component Diagram presenta la estructura interna del bounded context encargado de la identidad y acceso de los usuarios. Incluye controladores para autenticación y usuarios, servicios de comandos y consultas, repositorio de usuarios, generación de tokens JWT, hashing de contraseñas y middleware de autorización.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - IAM - AniTec</b>
+    <b>Component Diagram - IAM - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-AutenticacionBC-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <img src="../../assets/chapter-4/IamComponents.png" alt="AniTec IAM Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Animal Management Component Diagram presenta la estructura interna del módulo de gestión animal de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la administración, consulta, seguimiento y persistencia de la información del ganado, así como sus interacciones con la interfaz web y la base de datos del sistema.
+El Profiles Component Diagram describe los componentes responsables de gestionar la información de perfil de los usuarios de AniTec. Este bounded context utiliza controladores REST, servicios de aplicación, repositorios y una fachada ACL para exponer información de perfiles hacia otros contextos cuando es necesario.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Animal Management - AniTec</b>
+    <b>Component Diagram - Profiles - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionAnimalBC-Anitec.png" alt="C4-GestionAnimalBC" width="600">
+  <img src="../../assets/chapter-4/ProfilesComponents.png" alt="AniTec Profiles Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Event Management Component Diagram presenta la estructura interna del módulo de gestión de eventos de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración, consulta y registro de eventos relacionados con el ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
+El Livestock Component Diagram presenta la estructura del bounded context encargado de la gestión ganadera. Incluye componentes para administrar hatos y animales, controladores REST, servicios de comandos y consultas, repositorios específicos y acceso a la persistencia mediante AppDbContext.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Event Management - AniTec</b>
+    <b>Component Diagram - Livestock - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionEventosBC-AniTec.png" alt="C4-GestionEventosBC" width="600">
+  <img src="../../assets/chapter-4/LivestockComponents.png" alt="AniTec Livestock Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Financial Management Component Diagram presenta la estructura interna del módulo de gestión financiera de la plataforma Anitec. Este diagrama muestra los componentes encargados del registro de ingresos y gastos, cálculo de balances y generación de reportes financieros, así como las interacciones entre la interfaz web, la lógica de negocio y la base de datos del sistema.
+El Sanitary Component Diagram muestra el bounded context responsable de los eventos sanitarios. Sus componentes permiten registrar y consultar vacunas, tratamientos, diagnósticos e incidencias asociadas al ganado, manteniendo una separación entre controladores, servicios de aplicación y repositorio.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Financial Management - AniTec</b>
+    <b>Component Diagram - Sanitary - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionFinancieraBC-AniTec.png" alt="C4-GestionFinancieraBC" width="600">
+  <img src="../../assets/chapter-4/SanitaryComponents.png" alt="AniTec Sanitary Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Health Management Component Diagram presenta la estructura interna del módulo de gestión sanitaria de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración del historial clínico y las visitas médicas del ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
+El Activities Component Diagram presenta los componentes encargados de la gestión de actividades de finca. Este bounded context permite crear, consultar, actualizar y eliminar actividades operativas mediante controladores REST, servicios de comandos, servicios de consultas y repositorio.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Health Management - AniTec</b>
+    <b>Component Diagram - Activities - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-GestionSanitariaBC-AniTec.png" alt="C4-GestionSanitariaBC" width="600">
+  <img src="../../assets/chapter-4/ActivitiesComponents.png" alt="AniTec Activities Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Reporting & Analytics Component Diagram presenta la estructura interna del módulo de reportes y analítica de la plataforma Anitec. Este diagrama muestra los componentes responsables del procesamiento de métricas, generación de estadísticas, visualización de indicadores y administración de alertas, así como las interacciones entre la interfaz web, la lógica analítica y la persistencia de datos.
+El Financial Component Diagram muestra la estructura del bounded context encargado de los registros financieros. Incluye el controlador de registros financieros, servicios de comandos y consultas, repositorio y persistencia en MySQL para registrar ingresos y egresos asociados a la operación ganadera.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Reporting - AniTec</b>
+    <b>Component Diagram - Financial - AniTec</b>
   </p>
-  <img src="../../assets/chapter-4/Diagrama-Componentes-ReportesBC-AniTec.png" alt="C4-ReportesBC" width="600">
+  <img src="../../assets/chapter-4/FinancialComponents.png" alt="AniTec Financial Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Analytics Component Diagram presenta los componentes responsables de reportes, métricas y dashboards. Este bounded context consulta información de otros módulos, como ganadería, sanidad y finanzas, para construir resúmenes útiles para ganaderos y veterinarios.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Analytics - AniTec</b>
+  </p>
+  <img src="../../assets/chapter-4/AnalyticsComponents.png" alt="AniTec Analytics Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Devices Component Diagram describe la estructura del bounded context orientado a dispositivos IoT. Incluye componentes para gestionar dispositivos, métricas capturadas, servicios de aplicación y repositorios que permiten asociar información tecnológica con animales o hatos.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Devices - AniTec</b>
+  </p>
+  <img src="../../assets/chapter-4/DevicesComponents.png" alt="AniTec Devices Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Subscriptions Component Diagram muestra los componentes relacionados con planes, suscripciones y pagos de prueba. Este bounded context permite consultar planes, gestionar suscripciones activas y registrar pagos simulados para la validación del flujo de la aplicación.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Subscriptions - AniTec</b>
+  </p>
+  <img src="../../assets/chapter-4/SubscriptionsComponents.png" alt="AniTec Subscriptions Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Shared Component Diagram presenta los componentes transversales utilizados por la API. Incluye AppDbContext, Unit of Work, BaseRepository, middleware de autorización, manejo global de excepciones y ProblemDetailsFactory, los cuales ayudan a mantener una estructura común entre los bounded contexts.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Shared - AniTec</b>
+  </p>
+  <img src="../../assets/chapter-4/SharedComponents.png" alt="AniTec Shared Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
