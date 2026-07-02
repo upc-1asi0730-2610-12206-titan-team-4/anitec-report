@@ -141,37 +141,56 @@ Creemos que AniTec debe tener una interfaz intuitiva, amigable y estable, pensad
 
 - **Hypothesis Statement 01:**
 
-  **Creemos que** los pequeños y medianos ganaderos adoptarán AniTec para registrar digitalmente toda la información de su ganado, incluyendo datos sanitarios, reproductivos y económicos.
+  **Creemos que lograremos** una mayor adopción y uso continuo de AniTec
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos el 50% de los usuarios registrados utilicen activamente la plataforma durante los tres primeros meses después de su lanzamiento.
+  **Obtienen** una forma sencilla y centralizada de registrar digitalmente toda la información de su ganado, incluyendo datos sanitarios, reproductivos y económicos
+
+  **Con** una plataforma integral de gestión ganadera que centralice y organice toda la información del hato.
+
 
 - **Hypothesis Statement 02:**
 
-  **Creemos que** las alertas automáticas sobre vacunación, tratamientos y eventos reproductivos ayudarán a los ganaderos a prevenir descuidos y pérdidas relacionadas con la salud y productividad del hato.
+  **Creemos que lograremos** mejorar la gestión sanitaria del hato y reducir incidentes prevenibles
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos un 40% de los usuarios reporten haber evitado incidentes sanitarios o errores de registro gracias a las alertas de AniTec.
+  **Obtienen** recordatorios oportunos sobre vacunaciones, tratamientos y eventos reproductivos
+
+  **Con** un sistema de alertas y notificaciones automáticas.
 
 - **Hypothesis Statement 03:**
 
-  **Creemos que** el acceso a reportes visuales y al historial completo de cada animal permitirá a los ganaderos tomar decisiones más acertadas sobre ventas, reproducción y manejo económico.
+  **Creemos que lograremos** una mejor toma de decisiones y una mayor productividad en las explotaciones ganaderas
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos un 60% de los usuarios indiquen que sus decisiones estratégicas se basaron en la información proporcionada por AniTec.
+  **Obtienen** acceso a reportes visuales y al historial completo de cada animal
+
+  **Con** un panel de reportes interactivos y un historial detallado del ganado.
+
 
 - **Hypothesis Statement 04:**
-  **Creemos que** el uso de AniTec reducirá los errores comunes en los métodos tradicionales (cuadernos, hojas de cálculo) y mejorará la organización general de la información del hato.
-  **Sabremos** que hemos tenido éxito.
-  **Cuando** se observe una disminución de al menos el 50% en errores de registro (omisiones, datos incompletos o duplicados) después de tres meses de uso continuo de la plataforma.
+  
+  **Creemos que lograremos** una gestión más organizada y precisa de la información del hato
+
+  **Si** los pequeños y medianos ganaderos
+
+  **Obtienen** una forma confiable de registrar y administrar la información de sus animales sin depender de cuadernos u hojas de cálculo
+
+  **Con** un sistema digital de registro y validación de datos centralizado.
+
 
 - **Hypothesis Statement 05:**
-  **Creemos que** los veterinarios usarán AniTec para consultar clientes asignados, revisar pacientes y registrar eventos sanitarios de manera más ordenada.
-  **Sabremos** que hemos tenido éxito.
-  **Cuando** al menos un 50% de los veterinarios entrevistados indique que la plataforma facilita el seguimiento sanitario básico de los animales atendidos.
+  
+  **Creemos que lograremos** una mejor colaboración entre ganaderos y veterinarios y un seguimiento sanitario más eficiente
+
+  **Si** los veterinarios
+
+  **Obtienen** acceso rápido a los clientes asignados, al historial de los animales y al registro de eventos sanitarios
+
+  **Con** un módulo para veterinarios integrado dentro de la plataforma AniTec.
 
 ### 1.2.2.4. Lean UX Canvas.
 
