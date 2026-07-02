@@ -43,7 +43,9 @@ Incluye herramientas que serán destinadas a la implementación técnica del sis
 | GitHub                   | Gestión del repositorio del proyecto AniTec, control de versiones, manejo de ramas y colaboración entre desarrolladores.                                                                                     | https://github.com                  |
 | Visual Studio Code       | Entorno de desarrollo utilizado para la redacción y gestión del informe mediante archivos en formato Markdown (.md), facilitando la organización, edición estructurada y control de versiones del contenido. | https://code.visualstudio.com/      |
 | WebStorm                 | Entorno especializado para el desarrollo del frontend de la aplicación web AniTec, aprovechando su soporte avanzado para JavaScript y frameworks modernos.                                                   | https://www.jetbrains.com/webstorm/ |
-| Rider                    | Entorno especializado para el desarrollo del backend del sistema (en caso de utilizar .NET), permitiendo implementar la lógica de negocio y servicios.                                                       | https://www.jetbrains.com/rider/    |
+| Rider                    | Entorno especializado para el desarrollo del backend ASP.NET Core de AniTec, permitiendo implementar controladores, servicios, repositorios y configuración del proyecto .NET.                               | https://www.jetbrains.com/rider/    |
+| MySQL                    | Sistema gestor de base de datos relacional utilizado para persistir la información del backend de AniTec.                                                                                                    | https://www.mysql.com/              |
+| MySQL Workbench          | Herramienta utilizada para consultar, administrar y revisar visualmente la base de datos MySQL durante el desarrollo.                                                                                        | https://www.mysql.com/products/workbench/ |
 
 **Software Deployment**
 
@@ -54,7 +56,7 @@ Se incluyen las herramientas a utilizar para la publicación y disponibilidad de
 | GitHub Pages             | Despliegue de la landing page de AniTec mediante hosting estático accesible a través de una URL pública. | https://pages.github.com    |
 | GitHub Pages             | Despliegue del frontend web de AniTec como aplicación SPA accesible desde una URL pública.               | https://pages.github.com    |
 | Render                   | Despliegue del backend web de AniTec mediante un Web Service público para exponer la API REST.           | https://render.com/         |
-| My JSON Server           | Despliegue de datos de prueba para el test de la aplicación frontend desplegada.                         | https://my-json-server.typicode.com/ |
+| My JSON Server           | Herramienta utilizada en una etapa previa para datos de prueba del frontend antes de integrar el backend real. | https://my-json-server.typicode.com/ |
 
 **Software Documentation**
 
@@ -78,7 +80,7 @@ Los repositorios oficiales del proyecto AniTec son los siguientes:
 - AniTec Documentation: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - Aplicación Web (frontend de AniTec): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- Backend / Servicios Web (API del sistema): *Pendiente de implementación*
+- Backend / Servicios Web (API del sistema): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
 
 **Workflow de Control de Versiones (GitFlow)**
 
