@@ -12,17 +12,17 @@
 
 ## 5.2.3. Sprint 3.
 
-En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real de la aplicación web, reemplazando la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL. El objetivo principal fue implementar la capa de servicios necesaria para almacenar, consultar y procesar los datos de la plataforma de forma persistente, manteniendo una estructura similar a la trabajada en clase con el proyecto `learning-center-platform-master`.
+En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real y en la integración progresiva de la solución completa. El backend permitió reemplazar la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL, mientras que el frontend comenzó a consumir datos reales desde dicha API. Además, se incorporaron mejoras en la landing page para presentar los videos About the Team y About the Product dentro de la página About Us.
 
-Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. También se configuraron migraciones automáticas con Entity Framework Core para MySQL, documentación con Swagger y datos iniciales para facilitar las pruebas de integración con el frontend.
+Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. En paralelo, el frontend de AniTec fue ajustado para consumir endpoints reales, agregar los apartados de dispositivos IoT y suscripciones, y mantener una navegación coherente con los nuevos servicios disponibles. La landing page también fue actualizada con contenido audiovisual orientado a explicar el equipo y el producto.
 
 ### 5.2.3.1. Sprint Planning 3.
 
-El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
+El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec y su integración inicial con la solución web existente. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
 
-Se decidió construir el backend utilizando ASP.NET Core y Entity Framework Core, ya que estas tecnologías fueron trabajadas durante las clases del curso. Además, se eligió MySQL como sistema gestor de base de datos porque fue la tecnología indicada para el desarrollo de backend en esta etapa del curso.
+Se decidió construir el backend utilizando ASP.NET Core y Entity Framework Core, ya que estas tecnologías fueron trabajadas durante las clases del curso. Además, se eligió MySQL como sistema gestor de base de datos porque fue la tecnología indicada para el desarrollo de backend en esta etapa del curso. De forma complementaria, se planificó actualizar el frontend para consumir la API real y extender la aplicación con los módulos de dispositivos IoT y suscripciones.
 
-Durante la planificación se definieron los bounded contexts principales, las responsabilidades de cada integrante y las funcionalidades mínimas necesarias para que el backend pueda reemplazar progresivamente al servicio mock utilizado en el Sprint 2.
+Durante la planificación se definieron los bounded contexts principales, las responsabilidades de cada integrante y las funcionalidades mínimas necesarias para que el backend pueda reemplazar progresivamente al servicio mock utilizado en el Sprint 2. También se incluyeron ajustes en la landing page para incorporar los videos About the Team y About the Product dentro de la sección About Us.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
@@ -66,15 +66,15 @@ Durante la planificación se definieron los bounded contexts principales, las re
         </tr>
         <tr>
             <td>Sprint 3 Goal</td>
-            <td>Nuestro enfoque está en implementar el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL, manteniendo una arquitectura por bounded contexts similar a la desarrollada en clase. Creemos que esto permitirá reemplazar progresivamente la API mock y dar soporte real a la autenticación, gestión ganadera, sanidad, finanzas, analíticas, dispositivos y suscripciones. Esto se confirmará cuando la API pueda compilar, ejecutar migraciones, exponer endpoints REST documentados y responder correctamente a las consultas principales del frontend.</td>
+            <td>Nuestro enfoque está en implementar el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL, manteniendo una arquitectura por bounded contexts similar a la desarrollada en clase. Además, se busca integrar el frontend con la API real, incorporar vistas para dispositivos IoT y suscripciones, y actualizar la landing page con videos About the Team y About the Product. Esto se confirmará cuando la API compile, ejecute migraciones, exponga endpoints REST documentados, el frontend consuma datos del backend y la landing page presente correctamente el contenido audiovisual.</td>
         </tr>
         <tr>
             <td>Sprint 3 Velocity</td>
-            <td>El equipo estimó un velocity de 45 Story Points, enfocado en la construcción del backend, configuración de persistencia, implementación de bounded contexts, endpoints REST y documentación de servicios.</td>
+            <td>El equipo estimó un velocity de 57 Story Points, considerando la construcción del backend, configuración de persistencia, implementación de bounded contexts, endpoints REST, documentación de servicios, integración frontend-backend y mejoras en la landing page.</td>
         </tr>
         <tr>
             <td>Sprint of Story Points</td>
-            <td>Total: 45 SP - Distribuidos en 5 SP para configuración base, 8 SP para persistencia con MySQL, 8 SP para IAM con JWT, 8 SP para bounded contexts de gestión ganadera, 6 SP para analíticas y clientes veterinarios, 6 SP para dispositivos, métricas y suscripciones, y 4 SP para documentación y pruebas con Swagger.</td>
+            <td>Total: 57 SP - Distribuidos en 45 SP para backend y servicios REST, 5 SP para integración frontend-backend, 5 SP para módulos frontend de dispositivos IoT y suscripciones, y 2 SP para actualización de landing page con videos About the Team y About the Product.</td>
         </tr>
     </tbody>
 </table>
@@ -92,18 +92,23 @@ El Sprint Planning Meeting del Sprint 3 duró aproximadamente 2.5 horas. El equi
 | TS-009 | Servicios backend para analíticas y clientes veterinarios           | Should Have | 6            |
 | TS-010 | Servicios backend para dispositivos, métricas y suscripciones       | Should Have | 6            |
 | TS-011 | Documentación y pruebas de API con Swagger                          | Should Have | 4            |
+| TS-012 | Integración del frontend con backend real                           | Must Have   | 5            |
+| TS-013 | Módulos frontend para IoT y suscripciones                           | Should Have | 5            |
+| TS-014 | Videos About the Team y About the Product en landing page           | Should Have | 2            |
 
-La selección de estas Technical Stories responde a la necesidad de construir la base de datos y la lógica principal del sistema. El equipo priorizó primero la configuración del backend, IAM y persistencia, ya que estos elementos sirven como base para el consumo posterior desde el frontend.
+La selección de estas Technical Stories responde a la necesidad de construir la base de datos y la lógica principal del sistema, pero también de validar que la aplicación web pueda consumir servicios reales y presentar las nuevas funcionalidades al usuario. El equipo priorizó primero la configuración del backend, IAM y persistencia, y luego la integración del frontend con los endpoints disponibles, incluyendo dispositivos IoT, suscripciones y pagos de prueba.
 
 **Distribución de Trabajo por Componente:**
 
 - **Backend ASP.NET Core:** 45 Story Points - Enfocados en la creación del proyecto `anitec-platform-main`, organización por bounded contexts, configuración de MySQL, migraciones, endpoints REST, autenticación JWT, seed de datos y documentación Swagger.
+- **Frontend Web Application:** 10 Story Points - Enfocados en consumir la API real, configurar endpoints mediante `.env.development`, ajustar stores, APIs y assemblers, y añadir los apartados de dispositivos IoT y suscripciones.
+- **Landing Page:** 2 Story Points - Enfocados en incorporar los videos About the Team y About the Product dentro de la página About Us.
 
 ### 5.2.3.2. Aspects Leaders and Collaborators.
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 3, indicando por cada aspecto dentro del alcance del Sprint quién es el líder y quiénes son colaboradores.
 
-Para este tercer Sprint, los aspectos están centrados en el desarrollo del backend de AniTec, abarcando desde la configuración inicial del proyecto ASP.NET Core hasta la implementación de bounded contexts, persistencia con MySQL, migraciones y documentación de servicios.
+Para este tercer Sprint, los aspectos están centrados principalmente en el desarrollo del backend de AniTec, pero también incluyen la integración inicial del frontend con la API real y la actualización de la landing page con contenido audiovisual. De esta manera, el Sprint no solo cubre la implementación de servicios, persistencia con MySQL y documentación técnica, sino también la conexión de la aplicación web con dichos servicios.
 
 **Aspectos del Sprint 3:**
 
@@ -114,7 +119,10 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
 5. **Backend - Clients, Devices y Metrics:** Implementación de clientes veterinarios, dispositivos ganaderos y métricas generadas por dispositivos.
 6. **Backend - Subscriptions y Payments:** Implementación de planes, suscripciones, pagos mock y preparación de campos para una futura integración con Stripe.
 7. **Base de Datos, Migraciones y Seed:** Configuración de MySQL, migraciones de Entity Framework Core y datos iniciales para pruebas.
-8. **Documentación:** Documentación técnica del Sprint, endpoints disponibles y evidencias de ejecución.
+8. **Frontend - Integración con Backend Real:** Configuración de `.env.development`, BaseApi, endpoints reales y stores para consumir la API.
+9. **Frontend - IoT y Subscriptions:** Implementación de vistas, rutas, stores, APIs y assemblers para dispositivos IoT, métricas, planes, suscripciones y pagos de prueba.
+10. **Landing Page - About Videos:** Incorporación de videos About the Team y About the Product en la página About Us.
+11. **Documentación:** Documentación técnica del Sprint, endpoints disponibles y evidencias de ejecución.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
@@ -187,6 +195,14 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
     </tbody>
 </table>
 
+**Aspectos complementarios de frontend y landing page:**
+
+| Aspecto | Líder | Colaboradores |
+| ------- | ----- | ------------- |
+| Landing Page - About Videos | Ayala Fernandez, Jorge Brayan | Sanchez Silva, Luciana Celeste; Melgarejo Quiroz, Josep Eliu |
+| Frontend - Backend Integration | Melgarejo Quiroz, Josep Eliu | Ayala Fernandez, Jorge Brayan; Huaman Gallardo, Bruno Aldair |
+| Frontend - IoT and Subscriptions | Huaman Gallardo, Bruno Aldair | Melgarejo Quiroz, Josep Eliu; Raymundo Villarroel, Nadhim Abigail |
+
 **Distribución detallada de responsabilidades:**
 
 - **Ayala Fernandez, Jorge Brayan (Configuración & IAM Lead):** Responsable de la configuración inicial del backend, autenticación, generación de tokens JWT, manejo de credenciales y endpoints de usuarios.
@@ -199,11 +215,17 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
 
 - **Sanchez Silva, Luciana Celeste (Clients Lead):** Responsable de la relación entre veterinarios y ganaderos, incluyendo clientes asignados, ganaderos disponibles y operaciones de asociación.
 
+- **Frontend - Backend Integration:** Responsable de conectar la aplicación Vue con los endpoints reales mediante `.env.development`, BaseApi, APIs de infraestructura, stores Pinia y assemblers por bounded context.
+
+- **Frontend - IoT and Subscriptions:** Responsable de incorporar las rutas `/iot` y `/subscriptions`, así como las vistas para dispositivos, métricas, planes, suscripciones, historial de pagos y flujo de pago de prueba.
+
+- **Landing Page - About Videos:** Responsable de añadir los videos About the Team y About the Product en la página About Us mediante iframes de YouTube, manteniendo la estructura responsive de la landing page.
+
 ### 5.2.3.3. Sprint Backlog 3.
 
-El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por la aplicación web frontend.
+El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible, y conectar progresivamente la aplicación web con los servicios reales. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por el frontend. Además, el Sprint incluye mejoras en la landing page para presentar los videos About the Team y About the Product.
 
-El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Primero se priorizó la configuración base del proyecto y la persistencia; luego se implementaron los bounded contexts principales; finalmente se añadieron endpoints de analítica, dispositivos, suscripciones y datos iniciales para pruebas.
+El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Primero se priorizó la configuración base del proyecto y la persistencia; luego se implementaron los bounded contexts principales; finalmente se añadieron endpoints de analítica, dispositivos, suscripciones, datos iniciales para pruebas, consumo desde el frontend y actualización de la landing page.
 
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
@@ -325,16 +347,46 @@ A continuación, la tabla de control de estado para el Sprint 3:
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
         </tr>
+        <tr>
+            <td>TS-012</td>
+            <td>Integración del frontend con backend real</td>
+            <td>T009</td>
+            <td>Configurar consumo de API real en frontend</td>
+            <td>Actualizar configuración de endpoints mediante `.env.development`, BaseApi y APIs por bounded context para consumir servicios del backend.</td>
+            <td>5</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-013</td>
+            <td>Módulos frontend para IoT y suscripciones</td>
+            <td>T010</td>
+            <td>Implementar vistas y stores de IoT y Subscriptions</td>
+            <td>Crear y ajustar rutas `/iot` y `/subscriptions`, stores, APIs, assemblers y vistas para dispositivos, métricas, planes, suscripciones y pagos de prueba.</td>
+            <td>5</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-014</td>
+            <td>Videos About the Team y About the Product en landing page</td>
+            <td>T011</td>
+            <td>Agregar videos en About Us</td>
+            <td>Insertar iframes de YouTube para About the Team y About the Product, manteniendo diseño responsive e integración con la página About Us.</td>
+            <td>2</td>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>Done</td>
+        </tr>
     </tbody>
 </table>
 
-El Sprint Backlog refleja 8 tareas principales, con aproximadamente 45 horas de trabajo estimadas. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts y la necesidad de mantener una estructura similar al backend trabajado en clase.
+El Sprint Backlog refleja 11 tareas principales, con aproximadamente 57 horas de trabajo estimadas. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts, la necesidad de mantener una estructura similar al backend trabajado en clase, la integración del frontend con la API real y la actualización de la landing page.
 
 ### 5.2.3.4. Development Evidence for Sprint Review.
 
-En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec. La evidencia muestra que el equipo logró construir una API funcional, conectada a MySQL y preparada para integrarse con el frontend.
+En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec, la integración inicial del frontend con la API real y la actualización de la landing page. La evidencia muestra que el equipo logró construir una API funcional conectada a MySQL, ajustar la aplicación web para consumir servicios reales e incorporar contenido audiovisual en la página About Us.
 
-Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec-platform-main`. El backend fue construido utilizando ASP.NET Core, Entity Framework Core, MySQL, JWT y BCrypt. La estructura interna sigue una organización por bounded contexts con capas de dominio, aplicación, infraestructura e interfaces REST.
+Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec-platform-main`. El backend fue construido utilizando ASP.NET Core, Entity Framework Core, MySQL, JWT y BCrypt. La estructura interna sigue una organización por bounded contexts con capas de dominio, aplicación, infraestructura e interfaces REST. En paralelo, el frontend fue preparado para consumir endpoints reales mediante configuración de ambiente, servicios API y stores por módulo.
 
 **Resumen de Avances Implementados:**
 
@@ -347,6 +399,40 @@ Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec
 - **REST Resources:** Uso de recursos y assemblers para transformar entidades de dominio en respuestas de API.
 - **Seed de datos:** Carga inicial de usuarios, fincas, animales, eventos, dispositivos, planes y suscripciones para pruebas.
 - **Migraciones automáticas:** Configuración para aplicar migraciones pendientes al ejecutar la API.
+- **Integración frontend-backend:** Configuración de `.env.development`, uso de `BaseApi`, APIs por bounded context, stores Pinia y assemblers para adaptar respuestas del backend.
+- **Módulos frontend nuevos:** Incorporación de rutas `/iot` y `/subscriptions`, junto con vistas para dispositivos IoT, métricas, planes, suscripciones, historial de pagos y pago de prueba.
+- **Landing page:** Incorporación de videos About the Team y About the Product mediante iframes de YouTube en la página About Us.
+
+**Frontend - Integración con Backend Real:**
+
+- Se configuró `.env.development` para apuntar al backend local mediante `http://localhost:5191/api/v1`.
+- Se mantuvo el uso de `BaseApi` para centralizar las peticiones HTTP realizadas con Axios.
+- Se ajustaron stores y APIs por bounded context para consumir endpoints reales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, clientes veterinarios, dispositivos y suscripciones.
+- Se usaron assemblers para transformar respuestas del backend en objetos usados por las vistas del frontend.
+- Se incorporaron las rutas `/iot` y `/subscriptions` dentro de la navegación principal de la aplicación.
+
+<div align="center">
+    <p><b>Frontend - Consumo de API real y nuevas vistas</b></p>
+    <img src="../../assets/chapter-5/frontend-evidence.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Landing Page - Videos About the Team y About the Product:**
+
+- En la página About Us de la landing page se incorporó un video About the Team para presentar al equipo de AniTec.
+- También se agregó el video About the Product para explicar el modelo de negocio, la propuesta de valor y las funciones principales de la solución.
+- Ambos videos fueron integrados mediante iframes de YouTube, manteniendo la estructura responsive de la landing page.
+
+<div align="center">
+    <p><b>Landing Page - Video About the Product</b></p>
+    <img src="../../assets/chapter-5/imagenvideoproduct.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot del video About the Team en landing page]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 **Estructura principal del backend:**
 
@@ -417,6 +503,17 @@ anitec-platform-main/
 
 https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 
+**Repositorios y despliegues relacionados al Sprint 3:**
+
+- Repositorio del backend: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
+- URL pública del backend: https://anitec-backend.onrender.com
+- Documentación pública del backend: https://anitec-backend.onrender.com/swagger/index.html
+- Repositorio del frontend: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- Despliegue del frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
+- Acceso público a la aplicación web usado desde la landing page: https://anitec-12206.web.app/
+- Repositorio de la landing page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- Despliegue de la landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+
 **Estadísticas del repositorio:**
 
 - Total de bounded contexts implementados: 12
@@ -426,14 +523,17 @@ https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 - Documentación de servicios: Swagger/OpenAPI
 - Migraciones generadas: 3
 - Endpoints principales: autenticación, usuarios, perfiles, fincas, animales, sanidad, finanzas, actividades, analíticas, clientes, dispositivos, métricas y suscripciones.
+- Frontend integrado: consumo de API real mediante `.env.development`, `BaseApi`, stores, APIs y assemblers.
+- Rutas frontend agregadas: `/iot` para dispositivos IoT y `/subscriptions` para planes, suscripciones y pagos de prueba.
+- Landing page actualizada: videos About the Team y About the Product integrados en About Us.
 
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
-Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba.
+Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend, frontend y landing page. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba. Además, se verificó que el frontend pueda consumir datos reales del backend y que la landing page muestre los videos incorporados.
 
 **Resumen de lo Alcanzado:**
 
-El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró configurar la solución ASP.NET Core, conectar la API con MySQL, implementar migraciones, crear datos iniciales y exponer endpoints REST para los módulos principales del sistema.
+El Sprint 3 permitió desarrollar el backend real de AniTec e iniciar la integración de la solución completa. El equipo logró configurar la solución ASP.NET Core, conectar la API con MySQL, implementar migraciones, crear datos iniciales, exponer endpoints REST para los módulos principales del sistema, conectar el frontend con la API real y actualizar la landing page con contenido audiovisual.
 
 **Evidencias de ejecución:**
 
@@ -441,6 +541,36 @@ El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró co
 
 <div align="center">
     <img src="../../assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+2. **Integración frontend-backend:** Se verificó que `.env.development` apunte al backend local mediante `http://localhost:5191/api/v1` y que los módulos del frontend usen `BaseApi`, stores, APIs y assemblers para consumir los servicios reales.
+
+<div align="center">
+    <p><b>Frontend - Consumo del backend real</b></p>
+    <img src="../../assets/chapter-5/frontend-evidence2.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+3. **Módulo IoT:** Se validó la ruta `/iot`, la visualización de dispositivos IoT, la asociación de dispositivos con hatos o animales y la consulta de métricas generadas por sensores.
+
+<div align="center">
+    <p><b>[Agregar screenshot de la ruta /iot con dispositivos IoT]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+4. **Módulo Subscriptions:** Se validó la ruta `/subscriptions`, la consulta de planes, la suscripción activa, el historial de pagos y el flujo de pago de prueba mediante el endpoint `/subscriptions/mock-checkout`.
+
+<div align="center">
+    <p><b>[Agregar screenshot de la ruta /subscriptions con planes y pagos de prueba]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+5. **Landing page:** Se validó que la página About Us muestre los videos About the Team y About the Product mediante iframes de YouTube.
+
+<div align="center">
+    <p><b>Landing Page - Video About the Product</b></p>
+    <img src="../../assets/chapter-5/landing-page-evidence.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -460,6 +590,14 @@ El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró co
 10. **Metrics:** Gestión de métricas generadas por dispositivos.
 11. **Subscriptions:** Gestión de planes, suscripciones, pagos y mock checkout.
 12. **Shared:** Repositorios base, Unit of Work, persistencia, recursos comunes y manejo de errores.
+
+**Funcionalidades implementadas en frontend y landing page:**
+
+1. **Consumo del backend real:** Configuración de servicios API mediante `.env.development`, `BaseApi`, stores Pinia y assemblers.
+2. **IoT:** Visualización, registro y edición de dispositivos IoT desde la ruta `/iot`, con asociación a hato o animal y lectura de métricas.
+3. **Subscriptions:** Consulta de planes, suscripción activa, historial de pagos y pago de prueba desde la ruta `/subscriptions`.
+4. **Mock checkout:** Consumo del endpoint `/subscriptions/mock-checkout` para validar el flujo de pagos simulados durante el Sprint.
+5. **Landing page:** Presentación de los videos About the Team y About the Product dentro de la página About Us.
 
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
@@ -616,9 +754,17 @@ La cadena de conexión se configura en `appsettings.Development.json` y apunta a
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Sprint 3, la evidencia de despliegue del backend se realizó en internet utilizando Render como plataforma de hosting. El objetivo de esta evidencia fue comprobar que la API de AniTec pueda ejecutarse fuera del entorno local, conectarse a una base de datos configurada para el ambiente de despliegue, aplicar las migraciones de Entity Framework Core y exponer sus endpoints mediante Swagger/OpenAPI.
+Durante el Sprint 3, la evidencia de despliegue incluyó backend, frontend y landing page. El backend se publicó en Render como Web Service para exponer la API REST, mientras que la landing page y el frontend web se mantuvieron accesibles mediante despliegues públicos. El objetivo de esta evidencia fue comprobar que AniTec pueda presentarse y probarse desde internet, conectando la comunicación pública del producto, la aplicación web y los servicios backend.
 
 Este despliegue permitió validar que los servicios backend desarrollados en ASP.NET Core pueden estar disponibles públicamente para ser consumidos por la aplicación web frontend. De esta manera, el backend deja de depender únicamente de la ejecución local y queda preparado para pruebas de integración en un entorno accesible desde internet.
+
+**URLs públicas del Sprint 3:**
+
+- Landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
+- Acceso público a la aplicación web usado desde la landing page: https://anitec-12206.web.app/
+- Backend web: https://anitec-backend.onrender.com
+- Documentación Swagger del backend: https://anitec-backend.onrender.com/swagger/index.html
 
 **Configuración de despliegue en Render - Backend:**
 
@@ -680,34 +826,50 @@ Después de desplegar el backend en Render, se verificaron los siguientes puntos
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
-En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend y se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
+En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend, integración del frontend y actualización de la landing page. También se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
 
 **Distribución de Trabajo:**
 
-Todos los miembros del equipo participaron en la construcción del backend según las responsabilidades definidas en la matriz LACX. El equipo trabajó manteniendo reuniones de coordinación para revisar la estructura del proyecto, resolver dudas sobre Entity Framework Core, coordinar nombres de endpoints y asegurar que la API mantenga compatibilidad con los módulos ya desarrollados en el frontend.
+Todos los miembros del equipo participaron en la construcción del backend según las responsabilidades definidas en la matriz LACX. Además, se coordinaron tareas de integración frontend-backend y ajustes en la landing page para que el avance del Sprint no quedara aislado únicamente en servicios. El equipo trabajó manteniendo reuniones de coordinación para revisar la estructura del proyecto, resolver dudas sobre Entity Framework Core, coordinar nombres de endpoints y asegurar que la API mantenga compatibilidad con los módulos ya desarrollados en el frontend.
 
-El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Discord para la comunicación diaria. Las revisiones se enfocaron principalmente en mantener la misma estructura de carpetas en cada bounded context, reutilizar los patrones aprendidos en clase y evitar soluciones demasiado avanzadas que se alejen del nivel técnico trabajado durante el curso.
+El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Discord para la comunicación diaria. Las revisiones se enfocaron principalmente en mantener la misma estructura de carpetas en cada bounded context, reutilizar los patrones aprendidos en clase, conectar el frontend con la API real mediante servicios simples y evitar soluciones demasiado avanzadas que se alejen del nivel técnico trabajado durante el curso.
 
 **Métricas de Colaboración:**
 
 <div align="center">
   <p>
-    <b>Commits gráficas - Sprint 3</b>
+    <b>Commits gráficas Backend - Sprint 3</b>
   </p>
   <img src="../../assets/chapter-5/Sprint3GraficosCommits.jpeg" alt="Commits Sprint 3" width="600">
 </div>
 
+<div align="center">
+  <p>
+    <b>Commits gráficas Landing Page - Sprint 3</b>
+  </p>
+  <p><b>[Agregar imagen de commits del repositorio anitec-landing-page]</b></p>
+  <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Commits gráficas Frontend - Sprint 3</b>
+  </p>
+  <p><b>[Agregar imagen de commits del repositorio anitec-frontend]</b></p>
+  <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
 **Reflexiones del Equipo:**
 
-- Ayala Fernandez, Jorge Brayan: "El Sprint 3 permitió aplicar lo aprendido en clase sobre backend con ASP.NET Core. La implementación de IAM fue importante porque permitió pasar de usuarios demo a una autenticación con token, más cercana a una aplicación real."
+- Ayala Fernandez, Jorge Brayan: "El Sprint 3 permitió aplicar lo aprendido en clase sobre backend con ASP.NET Core. La implementación de IAM fue importante porque permitió pasar de usuarios demo a una autenticación con token, más cercana a una aplicación real. Además, la actualización de la landing page con los videos About the Team y About the Product ayudó a presentar mejor el valor de AniTec."
 
-- Huaman Gallardo, Bruno Aldair: "La implementación de los módulos de ganadería y dispositivos ayudó a convertir los datos del frontend en entidades reales dentro de una base de datos. Fue importante mantener la separación por bounded contexts para que el código sea más ordenado."
+- Huaman Gallardo, Bruno Aldair: "La implementación de los módulos de ganadería y dispositivos ayudó a convertir los datos del frontend en entidades reales dentro de una base de datos. También fue importante llevar los dispositivos IoT al frontend mediante la ruta `/iot`, porque permitió probar el flujo completo desde la interfaz hasta los datos del backend."
 
-- Melgarejo Quiroz, Josep Eliu: "Trabajar con Entity Framework Core y MySQL permitió entender mejor cómo las entidades del dominio se convierten en tablas reales. Las migraciones ayudaron a mantener la base de datos alineada con los cambios del backend."
+- Melgarejo Quiroz, Josep Eliu: "Trabajar con Entity Framework Core y MySQL permitió entender mejor cómo las entidades del dominio se convierten en tablas reales. Las migraciones ayudaron a mantener la base de datos alineada con los cambios del backend. Además, integrar el frontend mediante `.env.development`, `BaseApi`, stores y assemblers permitió reemplazar gradualmente el consumo de datos mock."
 
-- Raymundo Villarroel, Nadhim Abigail: "La implementación de eventos sanitarios y actividades permitió llevar al backend una parte esencial del seguimiento del ganado. El reto principal fue mantener consistencia entre los datos clínicos y los animales registrados."
+- Raymundo Villarroel, Nadhim Abigail: "La implementación de eventos sanitarios y actividades permitió llevar al backend una parte esencial del seguimiento del ganado. El reto principal fue mantener consistencia entre los datos clínicos, los animales registrados y las vistas del frontend que consumen esta información."
 
-- Sanchez Silva, Luciana Celeste: "El módulo de clientes veterinarios permitió representar la relación entre ganaderos y veterinarios dentro del backend. Esto es importante porque el veterinario necesita consultar únicamente la información de sus clientes asignados."
+- Sanchez Silva, Luciana Celeste: "El módulo de clientes veterinarios permitió representar la relación entre ganaderos y veterinarios dentro del backend. Esto es importante porque el veterinario necesita consultar únicamente la información de sus clientes asignados. La coordinación con el frontend permitió revisar que estas relaciones se puedan visualizar desde las pantallas correspondientes."
 
 **Lecciones Aprendidas:**
 
@@ -726,3 +888,9 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 6. **MySQL requiere una configuración cuidadosa:** La cadena de conexión, credenciales y migraciones deben estar correctamente configuradas para evitar errores al ejecutar la API.
 
 7. **Mantener patrones conocidos reduce la complejidad:** Usar Repository, Unit of Work, Command Services y Query Services permitió seguir una estructura parecida al backend trabajado en clase.
+
+8. **La integración frontend-backend debe planificarse desde los endpoints:** Definir nombres de recursos, rutas y respuestas de API facilitó que el frontend pudiera consumir los datos mediante stores y assemblers.
+
+9. **Los módulos IoT y Subscriptions requieren coordinación entre capas:** Para que `/iot` y `/subscriptions` funcionen correctamente, fue necesario alinear endpoints, modelos de datos, rutas del frontend y textos visibles para el usuario.
+
+10. **La landing page también forma parte de la experiencia del producto:** Incorporar los videos About the Team y About the Product ayudó a explicar mejor la solución antes de que el usuario ingrese a la aplicación web.
