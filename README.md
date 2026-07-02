@@ -1,31 +1,41 @@
-<h1 align="center">Informe del Trabajo Final</h1>
+<br/>
+<div align="center">
+  <img src="./markdown/assets/upc_logo.png" alt="UPC Logo" width="80">
+</div>
+<br/>
 <h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
-<br/>
+<h3 align="center">Carrera de Ingeniería de Software</h1>
+
+<h5 align="center">1ASI030</h5>
+<h5 align="center">Aplicaciones Web</h5>
+<h6 align="center">NRC</h6>
+<h5 align="center">12206</h5>
+<h5 align="center">Informe del Trabajo Final</h5>
+<h6 align="center">Docente</h6>
+<h5 align="center">Velásquez Núñez, Ángel Augusto</h5>
+<h6 align="center">Equipo</h6>
+<h5 align="center">Titan</h5>
+<h6 align="center">Proyecto</h6>
+<h5 align="center">AniTec</h5>
+
+<h5 align="center">Integrantes:</h5>
+
+
 <div align="center">
-  <img src="./markdown/assets/upc_logo.png" alt="UPC Logo" width="200">
-</div>
-<br/>
-<h5 align="center">Ingeniería de Software</h5>
-<h5 align="center">Aplicaciones Web - 1ASI0730</h5>
-<h5 align="center">Docente: Angel Augusto Velasquez Nuñez</h5>
-<h5 align="center">Startup: Titan</h5>
-<h5 align="center">Producto: AniTec</h5>
 
-## Team members:
-
-<div align="center">
-
-|               Nombre                |   Código   |
-| :---------------------------------: | :--------: |
-|    Ayala Fernandez, Jorge Brayan    | U20241C030 |
-|    Huaman Gallardo, Bruno Aldair    | U202117762 |
-|    Melgarejo Quiroz, Josep Eliu     | U202315165 |
-| Raymundo Villarroel, Nadhim Abigail | U202318001 |
-|   Sanchez Silva, Luciana Celeste    | U202215979 |
+|      Código      |   Nombre                            |
+| :---------------:| :---------------------------:       |
+|    U20241C030    | Ayala Fernandez, Jorge Brayan       |
+|    U202117762    | Huaman Gallardo, Bruno Aldair       |
+|    U202315165    | Melgarejo Quiroz, Josep Eliu        |
+|    U202318001    | Raymundo Villarroel, Nadhim Abigail |
+|    U202215979    | Sanchez Silva, Luciana Celeste      |
 
 </div>
 
-<h5 align="center"> Ciclo 2026-10 </h5>
+<h5 align="center"> Período 202610 </h5>
+<h5 align="center"> Junio 2026 </h5>
+
 
 ---
 
