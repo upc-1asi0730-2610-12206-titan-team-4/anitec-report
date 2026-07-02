@@ -13,13 +13,13 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
            <td colspan="6" class="sub">  <h1>Competitive Analysis Landscape</h1></td>
         </tr>
         <tr>
-            <td colspan="2" rowspan="2" class="sub">¿Por qué llevar acabo este análisis?</td>
+            <td colspan="2" rowspan="2" class="sub">¿Por qué llevar a cabo este análisis?</td>
             <td colspan="4" class="sub"><h3>¿Quiénes son nuestros principales competidores?</h3></td>
         </tr>
         <tr>
-            <td colspan="4">Gracias al análisis de la competencia perteneciente al mercado, se logra comprender el entorno competitivo 
-                en el que operará nuestro producto. Ello proporciona una visión detallada de quienes son nuestros competidores 
-                directos e indirectos, trazar estrategia a través de información recopilada sobre  su posicionamiento actual en el mercado.</td>
+            <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo 
+                en el que operará nuestro producto. Ello proporciona una visión detallada de quiénes son nuestros competidores 
+                directos e indirectos, permitiendo trazar estrategias a partir de la información recopilada sobre su posicionamiento actual en el mercado.</td>
         </tr>
         <tr>
             <td rowspan="3" class="sub">PERFIL</td>
@@ -30,14 +30,14 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
             <td> FarmLogs <img src="../../assets/chapter-2/FarmLogs.png"></td> 
         </tr>
         <tr>
-            <td>Plataforma web y móvil diseñada para pequeños y medianos ganaderos en Latinoamérica, enfocada en trazabilidad, gestión sanitaria y educación.</td>
+            <td>Plataforma web diseñada para pequeños y medianos ganaderos y veterinarios en Latinoamérica, enfocada en trazabilidad, gestión sanitaria, monitoreo IoT y educación.</td>
             <td>Aplicación móvil y web para gestión de hatos ganaderos, enfocada en registro sanitario y productividad.</td>
             <td>Plataforma multifuncional para gestión agrícola y ganadera, con módulos de cultivo, inventario y finanzas.</td>
             <td>Herramienta global para gestión agrícola, con funcionalidades básicas de ganadería.</td>      
         </tr>
         <tr>
             <td class="sub">Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
-            <td>Enfocado a la ganadería y la trazabilidad individual el hato a precios accesibles para los ganaderos</td>
+            <td>Enfoque en ganadería, trazabilidad individual del hato, seguimiento veterinario y precios accesibles para pequeños y medianos productores.</td>
             <td>Integración con dispositivos IoT. Reportes automatizados para exportación a autoridades sanitarias.</td>
             <td>Versatilidad: integra cultivos y ganado en una sola plataforma. Análisis predictivo basado en clima y mercado.</td>
             <td>Reconocimiento de marca internacional. Integración con mercados globales de commodities.</td>      
@@ -45,7 +45,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         <tr>
             <td rowspan="2" class="sub">PERFIL DEL MARKETING</td>
             <td class="sub" >Mercado Objetivo</td>
-            <td>Pequeños productores (5-100 cabezas de ganado) y técnicos agropecuarios.</td>
+            <td>Pequeños y medianos productores ganaderos, veterinarios de campo y técnicos agropecuarios.</td>
             <td>Medianos y grandes ganaderos con acceso a tecnología avanzada.</td>
             <td>Agricultores y ganaderos diversificados en zonas semiurbanas.</td>
             <td>Grandes empresas agroindustriales con enfoque exportador.</td>
@@ -55,19 +55,19 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
             <td>Alianzas con asociaciones ganaderas y programas gubernamentales. Talleres presenciales en zonas rurales.</td>
             <td>Alianzas con empresas de insumos veterinarios. Publicidad en ferias ganaderas y redes sociales especializadas.</td>
             <td>Contenido educativo en YouTube y webinars. Descuentos por volumen para cooperativas.</td>
-            <td>Campañas en medios internacionales (The Economist, Bloomberg).Acuerdos con distribuidores de maquinaria agrícola.</td>
+            <td>Campañas en medios internacionales (The Economist, Bloomberg). Acuerdos con distribuidores de maquinaria agrícola.</td>
         </tr>
         <tr>
             <td rowspan="3" class="sub">PERFIL DEL PRODUCTO</td>
             <td class="sub">Productos & Servicios</td>
-            <td>Plataforma móvil y web para gestión de hatos ganaderos</td>
+            <td>Plataforma web para gestión de hatos ganaderos, seguimiento sanitario, actividades, finanzas, dispositivos IoT y planes de suscripción.</td>
             <td>Plataforma móvil y web para gestión de hatos ganaderos.</td>
             <td>Plataforma multifuncional para gestión agrícola y ganadera.</td>
             <td>Herramienta global para gestión agrícola y ganadera, con énfasis en mercados formales.</td>
         </tr>
         <tr>
             <td class="sub">Precios & Costos</td>
-            <td>Basico: $10/mes Premium: $25/mes y Empresarial: $50/mes</td>
+            <td>Básico: $10/mes. Premium: $25/mes. Empresarial: $50/mes.</td>
             <td>Básico: $20/mes Premium: $100/mes.</td>
             <td>Solo ganado: $15/mes Full agro: $50/mes.</td>
             <td>Básico: $30/mes Empresarial: $200/mes.</td>
@@ -96,7 +96,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         </tr>
         <tr>
             <td class="sub">Oportunidades</td>
-            <td>Demanda creciente de trazabilidad en exportaciones.Subsidios gubernamentales para digitalización rural.</td>
+            <td>Demanda creciente de trazabilidad en exportaciones. Subsidios gubernamentales para digitalización rural.</td>
             <td>Expansión a mercados formales (exportación). Alianzas con gobiernos para subsidios.</td>
             <td>Crecimiento de la agricultura de precisión. Demanda de análisis predictivo.</td>
             <td>Expansión a Latinoamérica con socios locales. Demanda de trazabilidad para exportación.</td> 
@@ -105,7 +105,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
             <td class="sub">Amenazas</td>
             <td>Competidores globales con más recursos. Resistencia a adoptar tecnología en productores tradicionales.</td>
             <td>Competencia con soluciones low-cost. Resistencia al cambio en ganaderos tradicionales.</td>
-            <td>Especialización de competidores como GanTrace. Saturación de plataformas multifuncionales.</td>
+            <td>Especialización de competidores ganaderos. Saturación de plataformas multifuncionales.</td>
             <td>Competencia de startups regionales. Barreras culturales y idiomáticas.</td>          
         </tr>
     </table>
@@ -120,12 +120,13 @@ Por un lado, estas son las estrategias preliminares:
 
 - Incursión en sectores rurales a través de alianzas con gremios ganaderos de la zona y organizaciones no gubernamentales.
 - Capacitación tecnológica gradual mediante material multimedia diseñado para personas con conocimientos digitales limitados.
-- Optimización de la asistencia técnica utilizando medios de contacto directos como llamadas telefónicas o WhatsApp.
+- Optimización de la asistencia técnica utilizando medios de contacto directos como llamadas telefónicas, WhatsApp y seguimiento veterinario dentro de la plataforma.
 - Generación de utilidad inmediata, brindando notificaciones en tiempo real, análisis de datos de valor y funciones sin costo.
 
 Por otro lado, estas son nuestras tácticas específicas:
 
 - Campañas de referidos para incentivar la difusión entre los mismos productores.
-- Entorno virtual gamificado para motivar el uso frecuente de la aplicación.
+- Material educativo y guías de uso para motivar la adopción frecuente de la aplicación.
 - Adaptación regional del sistema, empleando modismos locales y asistencia personalizada según la zona.
 - Presencia en eventos del sector, tales como ferias del campo y convenciones agropecuarias.
+- Acercamiento a veterinarios de campo, estudiantes de medicina veterinaria y técnicos agropecuarios para promover el uso de AniTec como herramienta de seguimiento sanitario.

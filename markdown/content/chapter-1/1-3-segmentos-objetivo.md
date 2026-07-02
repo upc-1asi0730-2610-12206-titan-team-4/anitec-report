@@ -8,11 +8,11 @@ Con la proyección de un aumento del 70 % en la demanda mundial de alimentos par
 
 Entre los posibles usuarios se encuentran:
 
-- **Pequeños y medianos ganaderos:** Productores que necesitan digitalizar el control sanitario, reproductivo y económico de sus hatos para mejorar productividad y trazabilidad.
+- **Pequeños y medianos ganaderos:** Productores ubicados principalmente en zonas rurales o semiurbanas, responsables del manejo diario de hatos pequeños o medianos. Suelen registrar información en cuadernos, hojas de cálculo o mensajes, por lo que necesitan digitalizar el control sanitario, reproductivo y económico de sus animales para mejorar productividad y trazabilidad.
 
-- **Veterinarios y técnicos agropecuarios:** Profesionales que requieren acceso a historiales clínicos, seguimiento sanitario y herramientas de monitoreo para optimizar la atención del ganado.
+- **Veterinarios y técnicos agropecuarios:** Profesionales que atienden a ganaderos, realizan controles sanitarios, registran tratamientos y dan seguimiento a animales bajo observación. Requieren acceso a historiales clínicos, clientes asignados, pacientes y herramientas de monitoreo para optimizar la atención del ganado y mejorar la comunicación con los productores.
 
 <div id='1.3.1.'><h4> 1.3.1 Stakeholders.</h4></div>
 
-- **Stakelholder Internos:** Equipo Titan y resto de integrantes del equipo de desarrollo.
-- **Stakelholder Externos:** Técnicos ganaderos, veterinarios y responsables de campo en unidades ganaderas, Administradores de cooperativas o asociaciones ganaderas, estudiantes de medicina veterinaria y carreras agropecuarias.
+- **Stakeholders Internos:** Equipo Titan y resto de integrantes del equipo de desarrollo.
+- **Stakeholders Externos:** Técnicos ganaderos, veterinarios y responsables de campo en unidades ganaderas, administradores de cooperativas o asociaciones ganaderas, estudiantes de medicina veterinaria y carreras agropecuarias.

@@ -1,71 +1,108 @@
 # 4.2. Information Architecture
 
-En esta sección, se han aplicado sistemas de organización adaptados a las necesidades de los pequeños y medianos ganaderos, facilitando el acceso y comprensión de la información ganadera. La organización visual del contenido ha sido implementada de las siguientes formas:
+La arquitectura de información de AniTec organiza el contenido de la landing page y de la aplicación web para que visitantes, ganaderos y veterinarios encuentren con facilidad las secciones que necesitan. La propuesta considera que los usuarios pueden tener distintos niveles de experiencia digital, por lo que se priorizan etiquetas claras, recorridos simples y una separación de módulos según el rol.
+
+En la landing page, la información se organiza para presentar la propuesta de valor, beneficios, segmentos, testimonios, planes y llamadas a la acción. En la aplicación web, la información se organiza por tareas operativas: gestión de fincas, animales, sanidad, actividades, finanzas, clientes veterinarios, pacientes, analíticas, IoT y suscripciones.
 
 ## 4.2.1. Organization Systems
 
-- **Jerárquica (visual hierarchy):** Para destacar módulos clave como el registro de animales, alertas sanitarias y reportes económicos, asegurando que los usuarios identifiquen rápidamente las funciones más relevantes para su gestión diaria.
+- **Organización jerárquica:** Se aplica en dashboards, landing page y vistas principales para destacar primero los datos más importantes. Por ejemplo, el dashboard del ganadero prioriza indicadores de animales, fincas, alertas y actividades; mientras que el dashboard veterinario prioriza clientes, pacientes, eventos sanitarios y seguimientos.
 
-- **Organización secuencial (step-by-step):** Aplicada en procesos que requieren seguimiento cronológico, como el registro de eventos sanitarios, partos o tratamientos, permitiendo al usuario llevar un control ordenado y lógico del historial del ganado.
+- **Organización secuencial:** Se usa en formularios y flujos donde el usuario debe completar pasos de forma ordenada, como registrar un animal, crear una finca, registrar un evento sanitario, agregar un cliente veterinario o realizar un pago de prueba de suscripción.
 
-Además, se categorizó el contenido según las funcionalidades de la plataforma: módulos de gestión (sanidad, reproducción, economía), tipo de usuario (ganadero, técnico, asociación), y acceso a recursos educativos (videos, guías, alertas). Estas estructuras permiten una navegación intuitiva y któ adaptas al entorno rural.
+- **Organización por audiencia:** La landing page separa mensajes para visitantes generales, ganaderos y veterinarios. Dentro de la aplicación, la navegación cambia según el rol: el ganadero visualiza módulos relacionados con su operación productiva, mientras que el veterinario accede a clientes, pacientes, sanidad y analíticas.
+
+- **Organización por tópicos:** Los módulos se agrupan según el tipo de información que gestionan: ganadería, sanidad, finanzas, actividades, IoT, analíticas y planes. Esto permite que el usuario ubique cada función por el tema que desea resolver.
+
+- **Organización cronológica:** Se aplica en actividades, historial sanitario, pagos y métricas de dispositivos IoT, ya que estos registros dependen de fechas y seguimiento temporal.
+
+- **Organización matricial:** Se utiliza en dashboards, reportes y analíticas, donde el usuario puede comparar indicadores por finca, animal, cliente, estado sanitario o tipo de evento.
 
 ## 4.2.2. Labeling Systems
 
-Se han definido cuidadosamente los sistemas de etiquetado y categorización para asegurar que los usuarios naveguen de forma intuitiva y eficiente en la plataforma:
+El sistema de etiquetado de AniTec usa palabras breves y familiares para evitar confusión. Las etiquetas deben ser entendibles tanto para ganaderos con poca experiencia digital como para veterinarios que necesitan revisar información clínica con rapidez.
 
-- **Jerarquía visual:** Aplicada en la estructura de módulos clave como "Sanidad", "Reproducción" y "Economía", destacando primero los datos más relevantes. Esto permite a los usuarios tomar decisiones informadas rápidamente.
+| Contexto | Etiqueta | Significado para el usuario |
+|----------|----------|-----------------------------|
+| Landing page | Inicio | Presenta la propuesta principal de AniTec. |
+| Landing page | Beneficios | Resume el valor de la plataforma para los segmentos objetivo. |
+| Landing page | Ganaderos | Explica funciones orientadas a la gestión del hato. |
+| Landing page | Veterinarios | Explica funciones orientadas a clientes, pacientes y seguimiento sanitario. |
+| Landing page | Planes | Presenta las opciones de suscripción. |
+| Aplicación ganadero | Dashboard | Muestra el resumen general de la operación ganadera. |
+| Aplicación ganadero | Fincas | Agrupa las unidades productivas del ganadero. |
+| Aplicación ganadero | Animales | Permite consultar y registrar animales. |
+| Aplicación ganadero | Sanidad | Reúne eventos sanitarios, incidencias y tratamientos. |
+| Aplicación ganadero | Finanzas | Permite revisar ingresos, egresos y balance. |
+| Aplicación ganadero | Actividades | Organiza tareas, visitas, controles y recordatorios. |
+| Aplicación compartida | IoT | Muestra dispositivos, estado y métricas asociadas. |
+| Aplicación compartida | Planes | Permite consultar suscripción activa, planes y pagos de prueba. |
+| Aplicación veterinario | Clientes | Muestra ganaderos asignados al veterinario. |
+| Aplicación veterinario | Pacientes | Muestra animales pertenecientes a clientes asignados. |
+| Aplicación veterinario | Analíticas | Presenta reportes e indicadores para priorizar atenciones. |
 
-- **Organización secuencial:** Utilizada en procesos como el registro de eventos ganaderos (partos, tratamientos, vacunaciones), donde los pasos siguen una lógica temporal clara y guiada. Esto ayuda a evitar errores en la carga de datos y mejora la experiencia del usuario.
-
-- **Organización matricial:** Empleada en los paneles de reportes y análisis, donde los usuarios pueden comparar indicadores entre animales, hatos o periodos de tiempo, con etiquetas claras que facilitan la interpretación visual.
-
-Estos esquemas de etiquetado se han diseñado con base en el lenguaje y jerga ganadera, utilizando términos familiares como "Peso al destete" o "Última monta", para que cualquier usuario, independientemente de su nivel técnico, pueda comprender y usar la plataforma sin dificultad.
+Las etiquetas de acción también se mantienen simples: "Registrar", "Guardar", "Editar", "Eliminar", "Cancelar", "Buscar", "Agregar cliente" y "Ver historial". Estas palabras describen directamente la acción esperada y reducen la posibilidad de interpretación ambigua.
 
 ## 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page:**
 
-- **Title:** AniTec - Plataforma Digital para la Gestión del Ganado
-- **Description:** AniTec es una plataforma accesible que permite a los ganaderos pequeños y medianos gestionar la salud, reproducción, y productividad de su ganado, optimizando procesos con tecnología innovadora.
-- **Keywords:** gestión ganadera, plataforma ganaderos, AniTec, trazabilidad ganadera, ganadería digital, salud animal, control de ganado, plataforma para ganaderos, tecnología rural, organizador de ganado
+- **Title:** AniTec - Plataforma Digital para Ganaderos y Veterinarios
+- **Description:** AniTec es una plataforma web accesible para pequeños y medianos ganaderos y veterinarios de campo. Permite gestionar animales, fincas, sanidad, actividades, finanzas, dispositivos IoT, clientes, pacientes y planes de suscripción.
+- **Keywords:** AniTec, gestión ganadera, plataforma para ganaderos, veterinarios, salud animal, historial clínico animal, trazabilidad ganadera, IoT ganadero, fincas, animales, sanidad, planes de suscripción, tecnología rural
 - **Author:** AniTec
 
 **Application Web:**
 
-- **Title:** AniTec - Gestión Completa del Ganado para Pequeños y Medianos Productores
-- **Description:** Accede a AniTec, la plataforma web que digitaliza la gestión del ganado, con módulos de salud, productividad y trazabilidad para optimizar los procesos ganaderos.
-- **Keywords:** plataforma ganadera, software para ganaderos, AniTec, gestión de ganado, salud animal, trazabilidad, control de ganado, aplicaciones para ganaderos, ganadería inteligente, ganadería digital
+- **Title:** AniTec - Gestión Ganadera, Sanitaria e IoT
+- **Description:** Aplicación web de AniTec para gestionar información ganadera y veterinaria mediante dashboards por rol, registro de animales, eventos sanitarios, actividades, finanzas, clientes veterinarios, pacientes, analíticas, dispositivos IoT y suscripciones.
+- **Keywords:** AniTec app, dashboard ganadero, dashboard veterinario, gestión de animales, eventos sanitarios, clientes veterinarios, pacientes, finanzas ganaderas, analíticas ganaderas, métricas IoT, suscripciones AniTec
 - **Author:** AniTec
 
 ## 4.2.4. Searching Systems
 
-El sistema de búsqueda en AniTec debe ser intuitivo y eficiente para que los usuarios puedan encontrar rápidamente la información relacionada con su ganado. Las opciones de búsqueda y los filtros disponibles:
+El sistema de búsqueda en AniTec ayuda a encontrar información dentro de módulos con muchos registros. Las opciones de búsqueda deben mostrar resultados filtrados de forma inmediata y acompañarse de estados vacíos cuando no existan coincidencias.
 
-- **Barra de búsqueda por ganado:** Los usuarios podrán buscar información sobre un animal específico usando filtros como número de identificación, raza, edad, fecha de nacimiento, estado de salud, entre otros.
-- **Barra de búsqueda por evento:** Los usuarios podrán buscar eventos específicos relacionados con el ganado, tales como vacunaciones, tratamientos, partos, inspecciones sanitarias, entre otros.
-- **Filtro por categorías:** Los usuarios podrán filtrar por diferentes módulos como sanidad, reproducción o economía, mejorando la accesibilidad a la información relevante.
-- **Opciones de Ordenación:** Los resultados se pueden ordenar por criterios como relevancia, fecha, o nombre.
+- **Búsqueda de animales:** Permite buscar por nombre, código, especie, raza, estado o finca.
+- **Búsqueda de fincas:** Permite ubicar unidades productivas por nombre, ubicación o tipo principal.
+- **Búsqueda de registros sanitarios:** Permite filtrar por animal, tipo de evento, fecha, diagnóstico, tratamiento o veterinario responsable.
+- **Búsqueda de clientes veterinarios:** Permite encontrar ganaderos asignados o disponibles para agregar a la cartera del veterinario.
+- **Búsqueda de pacientes:** Permite ubicar animales pertenecientes a clientes asignados.
+- **Filtros por fecha:** Se aplican en actividades, pagos, métricas IoT y eventos sanitarios.
+- **Filtros por estado:** Se aplican en animales, dispositivos IoT, actividades y suscripciones.
+
+Después de una búsqueda, los datos deben mostrarse en tarjetas, listas o tablas según el módulo. Si no hay coincidencias, la interfaz debe mostrar mensajes claros como "No se encontraron animales" o "No hay registros disponibles".
 
 ## 4.2.5. Navigation Systems
 
-Los sistemas de navegación deben estar diseñados para ser intuitivos, adaptados al contexto rural de los usuarios y fáciles de usar, incluso para aquellos con poca experiencia en tecnología.
+Los sistemas de navegación de AniTec se diseñan para guiar a visitantes y usuarios autenticados de forma clara. La landing page utiliza navegación superior, mientras que la aplicación web utiliza menú lateral adaptado al rol.
 
-**Menú Principal:**
+**Navegación de Landing Page:**
 
-- Inicio: Acceso rápido a la página principal con propuesta de valor
-- Características: Sección que detalla las funcionalidades principales
-- Cómo Funciona: Explicación paso a paso del proceso
-- Testimonios: Referencias de usuarios reales
-- Precios: Planes y costos de la plataforma
-- Contacto: Información de contacto y soporte
+- Inicio: Presenta el nombre del producto y su propuesta de valor.
+- Beneficios: Explica cómo AniTec ayuda a organizar la gestión ganadera y veterinaria.
+- Ganaderos: Muestra funciones orientadas a fincas, animales, sanidad, finanzas e IoT.
+- Veterinarios: Muestra funciones orientadas a clientes, pacientes, historial clínico y seguimiento sanitario.
+- Planes: Presenta opciones de suscripción.
+- Contacto: Permite al visitante conocer cómo comunicarse o iniciar el uso de la plataforma.
 
-**Menú Secundario:**
+**Navegación de aplicación para ganadero:**
 
-- FAQ: Preguntas frecuentes
-- Soporte: Acceso a ayuda técnica
-- Términos: Legal y políticas
+- Login: El usuario ingresa credenciales básicas.
+- Dashboard ganadero: El sistema muestra resumen de fincas, animales, sanidad, actividades y finanzas.
+- Fincas y animales: El usuario registra y consulta unidades productivas y animales.
+- Sanidad y actividades: El usuario registra eventos sanitarios, tratamientos, visitas o tareas.
+- Finanzas: El usuario revisa ingresos, egresos y balance.
+- IoT y planes: El usuario consulta dispositivos, métricas, suscripción activa y pagos de prueba.
 
-**Navegación por Categorías:**
+**Navegación de aplicación para veterinario:**
 
-Los usuarios podrán navegar por categorías de ganado, tipos de eventos o fechas, todo con una jerarquía visual clara que facilite el acceso a la información relevante. Este diseño asegura que AniTec sea accesible y fácil de usar para los ganaderos, maximizando su eficiencia en el uso de la plataforma.
+- Login: El usuario ingresa credenciales básicas.
+- Dashboard veterinario: El sistema muestra clientes, pacientes, seguimientos y registros clínicos.
+- Clientes: El veterinario revisa ganaderos asignados o agrega nuevos clientes.
+- Pacientes: El veterinario consulta animales de sus clientes.
+- Sanidad: El veterinario registra diagnósticos, tratamientos, recetas y seguimientos.
+- Analíticas: El veterinario revisa indicadores para priorizar atenciones.
+- IoT y planes: El veterinario consulta dispositivos, métricas, suscripción activa y pagos de prueba.
+
+La navegación por rol permite que cada usuario acceda solo a las secciones relevantes para su trabajo. Esto reduce la carga cognitiva, evita rutas innecesarias y mantiene una experiencia coherente entre la landing page, el inicio de sesión y los dashboards principales.

@@ -6,6 +6,8 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
 
 ## 4.6.1. Design Level EventStorming
 
+El Design-Level EventStorming de AniTec se presenta desde el paso 4 porque los primeros pasos del proceso, correspondientes a la exploración general del dominio mediante Big Picture EventStorming, fueron desarrollados previamente en la sección de Needfinding. Por ello, esta sección continúa con los pasos orientados al diseño del dominio, la identificación de comandos, políticas, modelos de lectura, sistemas externos, agregados y bounded contexts.
+
 **Paso 4:** Pivotal Events, el equipo busca eventos de negocio significativos que marquen un cambio de fase o una transición importante en el contexto del proceso. Estos se identifican trazando una barra vertical en la superficie de modelado para separar los flujos anteriores y posteriores al evento crucial. Identificar estos hitos es fundamental, ya que funcionan como indicadores clave para definir los límites de los posibles Bounded Contexts dentro del dominio.
 
 <div align="center">
@@ -34,7 +36,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
 
 <div align="center">
   <p>
-    <b>Step 6: Policys </b>
+    <b>Step 6: Policies </b>
   </p>
   <img src="../../assets/chapter-2/EventStormingPaso6.jpeg" alt="Step6" width="600">
   <p>
@@ -138,7 +140,7 @@ El Software Architecture Context Level Diagram presenta una vista general del si
 
 ## 4.6.3. Software Architecture Container Diagrams.
 
-El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos SQL Server y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
+El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos MySQL y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
 
 <div align="center">
   <p>
@@ -156,7 +158,7 @@ Los Software Architecture Component Diagrams presentan la descomposición intern
 
 <br>
 
-El siguiente Diagrama de Componentes descompone el contenedor de la API Application de AniTec para detallar la lógica interna del sistema bajo un enfoque de Bounded Contexts. Se ilustra cómo la Single Page Application (SPA) se comunica mediante HTTPS/JSON directamente con módulos independientes como IAM (responsable de la seguridad y la gestión de suscripciones con Stripe), Animal Management, Health Management, Event management, Financial Management y Reporting. Cada componente, construido con ASP.NET Core y Entity Framework Core, encapsula las reglas de negocio para la gestión ganadera y coordina la persistencia en SQL Server, integrándose además con Resend para las notificaciones por e-mail.
+El siguiente Diagrama de Componentes descompone el contenedor de la API Application de AniTec para detallar la lógica interna del sistema bajo un enfoque de Bounded Contexts. Se ilustra cómo la Single Page Application (SPA) se comunica mediante HTTPS/JSON directamente con módulos independientes como IAM (responsable de la seguridad y la gestión de suscripciones con Stripe), Animal Management, Health Management, Event management, Financial Management y Reporting. Cada componente, construido con ASP.NET Core y Entity Framework Core, encapsula las reglas de negocio para la gestión ganadera y coordina la persistencia en MySQL, integrándose además con Resend para las notificaciones por e-mail.
 
 <div align="center">
   <p>

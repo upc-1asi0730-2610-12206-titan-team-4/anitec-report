@@ -1,5 +1,7 @@
 # 3.1. User Stories.
 
+En esta sección se presentan los Epics, User Stories y Technical Stories identificados para AniTec a partir del análisis de entrevistas, needfinding, definición de segmentos objetivo y alcance actual de la solución. Las User Stories describen necesidades funcionales de ganaderos, veterinarios, usuarios autenticados y visitantes de la landing page. Las Technical Stories describen necesidades técnicas del frontend y del RESTful API, usando el rol Developer y criterios de aceptación en formato Given-When-Then.
+
 <table>
   <thead>
     <tr>
@@ -553,105 +555,105 @@
     <tr>
       <td><b>TS-001</b></td>
       <td>Configuracion inicial del frontend con Vue, Vite y PrimeVue</td>
-      <td>Como desarrollador frontend, quiero configurar la base del proyecto con Vue, Vite y PrimeVue para construir una aplicacion web modular, rapida y con componentes reutilizables.</td>
+      <td>Como Developer frontend, quiero configurar la base del proyecto con Vue, Vite y PrimeVue para construir una aplicacion web modular, rapida y con componentes reutilizables.</td>
       <td><b>Proyecto ejecutable.</b><br>Given el proyecto frontend esta configurado<br>When se ejecuta npm run dev<br>Then la aplicacion inicia correctamente en el navegador<br><br><b>Compilacion correcta.</b><br>Given el codigo fuente esta completo<br>When se ejecuta npm run build<br>Then Vite genera la version de produccion sin errores de compilacion</td>
       <td>EP-010</td>
     </tr>
     <tr>
       <td><b>TS-002</b></td>
       <td>Configuracion de rutas protegidas por rol con Vue Router</td>
-      <td>Como desarrollador frontend, quiero configurar rutas publicas y privadas con validacion por rol para controlar el acceso de ganaderos y veterinarios.</td>
+      <td>Como Developer frontend, quiero configurar rutas publicas y privadas con validacion por rol para controlar el acceso de ganaderos y veterinarios.</td>
       <td><b>Ruta privada sin sesion.</b><br>Given un usuario no autenticado intenta entrar a una ruta privada<br>When el router evalua la navegacion<br>Then el sistema lo redirige al inicio de sesion<br><br><b>Ruta restringida por rol.</b><br>Given un usuario autenticado intenta acceder a una ruta de otro rol<br>When el router valida los roles permitidos<br>Then el sistema lo redirige a su dashboard correspondiente</td>
       <td>EP-001</td>
     </tr>
     <tr>
       <td><b>TS-003</b></td>
       <td>Manejo de estado global con Pinia</td>
-      <td>Como desarrollador frontend, quiero manejar los datos principales mediante stores de Pinia para compartir informacion entre vistas sin repetir logica.</td>
+      <td>Como Developer frontend, quiero manejar los datos principales mediante stores de Pinia para compartir informacion entre vistas sin repetir logica.</td>
       <td><b>Datos compartidos.</b><br>Given una vista carga animales, fincas, actividades o registros sanitarios<br>When otra vista necesita esos datos<br>Then puede obtenerlos desde el store correspondiente<br><br><b>Actualizacion del estado.</b><br>Given el usuario crea, edita o elimina un registro<br>When el store procesa la accion<br>Then la informacion visible se actualiza en la interfaz</td>
       <td>EP-002, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-004</b></td>
       <td>Consumo de datos mediante Axios, BaseApi y BaseEndpoint</td>
-      <td>Como desarrollador frontend, quiero centralizar el consumo de datos con Axios, BaseApi y BaseEndpoint para evitar repetir codigo de peticiones y consumir el backend de AniTec de forma consistente.</td>
+      <td>Como Developer frontend, quiero centralizar el consumo de datos con Axios, BaseApi y BaseEndpoint para evitar repetir codigo de peticiones y consumir el backend de AniTec de forma consistente.</td>
       <td><b>Consulta de datos.</b><br>Given un store solicita informacion de un modulo<br>When llama a su clase API correspondiente<br>Then el sistema usa BaseEndpoint para obtener los datos del endpoint configurado en el backend<br><br><b>Operacion sobre registros.</b><br>Given el usuario crea, actualiza o elimina un registro<br>When el store llama a la API<br>Then se ejecuta la peticion correspondiente usando la estructura comun de endpoints<br><br><b>Token de sesion.</b><br>Given existe un token JWT guardado en la sesion<br>When se realiza una peticion al backend<br>Then BaseApi agrega el token en el header Authorization</td>
       <td>EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-005</b></td>
       <td>Configuracion inicial del backend con ASP.NET Core</td>
-      <td>Como desarrollador backend, quiero crear la solucion de AniTec con ASP.NET Core para implementar una API REST organizada y preparada para integrarse con el frontend.</td>
+      <td>Como Developer backend, quiero crear la solucion de AniTec con ASP.NET Core para implementar una API REST organizada y preparada para integrarse con el frontend.</td>
       <td><b>Proyecto backend creado.</b><br>Given la solucion backend fue creada<br>When se revisa la estructura del proyecto<br>Then existe un proyecto ASP.NET Core con carpetas organizadas por bounded contexts<br><br><b>Backend ejecutable.</b><br>Given el backend esta configurado<br>When se ejecuta dotnet run<br>Then la API inicia correctamente en ambiente de desarrollo</td>
       <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-006</b></td>
       <td>Persistencia con Entity Framework Core y MySQL</td>
-      <td>Como desarrollador backend, quiero configurar Entity Framework Core con MySQL para almacenar la informacion de AniTec en una base de datos relacional.</td>
+      <td>Como Developer backend, quiero configurar Entity Framework Core con MySQL para almacenar la informacion de AniTec en una base de datos relacional.</td>
       <td><b>Conexion a MySQL.</b><br>Given la cadena de conexion esta configurada<br>When la API inicia<br>Then el backend se conecta a la base de datos MySQL<br><br><b>Migraciones aplicadas.</b><br>Given existen migraciones de Entity Framework Core<br>When se ejecuta la actualizacion de base de datos<br>Then las tablas necesarias se crean o actualizan correctamente</td>
       <td>EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-007</b></td>
       <td>Autenticacion backend con JWT y BCrypt</td>
-      <td>Como desarrollador backend, quiero implementar autenticacion con JWT y BCrypt para validar credenciales y proteger el acceso de los usuarios registrados.</td>
+      <td>Como Developer backend, quiero implementar autenticacion con JWT y BCrypt para validar credenciales y proteger el acceso de los usuarios registrados.</td>
       <td><b>Inicio de sesion valido.</b><br>Given un usuario registrado ingresa credenciales correctas<br>When consume el endpoint de sign-in<br>Then el sistema responde con los datos del usuario y un token JWT<br><br><b>Contrasena protegida.</b><br>Given un usuario se registra en el sistema<br>When se almacena su contrasena<br>Then el backend la guarda usando hashing con BCrypt</td>
       <td>EP-001</td>
     </tr>
     <tr>
       <td><b>TS-008</b></td>
       <td>Implementacion de bounded contexts de gestion ganadera</td>
-      <td>Como desarrollador backend, quiero implementar los bounded contexts principales de AniTec para exponer servicios REST de fincas, animales, sanidad, actividades y finanzas.</td>
+      <td>Como Developer backend, quiero implementar los bounded contexts principales de AniTec para exponer servicios REST de fincas, animales, sanidad, actividades y finanzas.</td>
       <td><b>Endpoints CRUD disponibles.</b><br>Given los bounded contexts principales fueron implementados<br>When se consulta Swagger<br>Then existen endpoints para fincas, animales, eventos sanitarios, actividades y registros financieros<br><br><b>Operaciones persistentes.</b><br>Given el frontend o Swagger envia una operacion de creacion, edicion o eliminacion<br>When la API procesa la solicitud<br>Then el cambio se guarda correctamente en MySQL</td>
       <td>EP-003, EP-004, EP-005, EP-007, EP-008</td>
     </tr>
     <tr>
       <td><b>TS-009</b></td>
       <td>Servicios backend para analiticas y clientes veterinarios</td>
-      <td>Como desarrollador backend, quiero implementar endpoints de analiticas y clientes veterinarios para que ganaderos y veterinarios consulten informacion calculada desde el servidor.</td>
+      <td>Como Developer backend, quiero implementar endpoints de analiticas y clientes veterinarios para que ganaderos y veterinarios consulten informacion calculada desde el servidor.</td>
       <td><b>Dashboard de ganadero.</b><br>Given existen datos de fincas, animales, eventos y registros financieros<br>When se consulta el dashboard de un ganadero<br>Then la API devuelve metricas resumidas para su operacion<br><br><b>Clientes del veterinario.</b><br>Given un veterinario tiene ganaderos asignados<br>When consulta su cartera de clientes<br>Then la API devuelve los clientes y datos relacionados necesarios para el frontend</td>
       <td>EP-006, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-010</b></td>
       <td>Servicios backend para dispositivos, metricas y suscripciones</td>
-      <td>Como desarrollador backend, quiero implementar dispositivos, metricas y suscripciones para ampliar AniTec con informacion IoT y planes de uso de la plataforma.</td>
+      <td>Como Developer backend, quiero implementar dispositivos, metricas y suscripciones para ampliar AniTec con informacion IoT y planes de uso de la plataforma.</td>
       <td><b>Dispositivos y metricas.</b><br>Given existen dispositivos registrados<br>When se consultan sus metricas<br>Then la API devuelve las lecturas asociadas al dispositivo<br><br><b>Planes y suscripciones.</b><br>Given existen planes de suscripcion<br>When se consultan los endpoints de suscripciones<br>Then la API devuelve planes, suscripciones y pagos mock para pruebas</td>
       <td>EP-012, EP-013</td>
     </tr>
     <tr>
       <td><b>TS-011</b></td>
       <td>Documentacion y pruebas de API con Swagger</td>
-      <td>Como desarrollador backend, quiero documentar y probar los endpoints con Swagger para validar manualmente el funcionamiento de la API antes de integrarla con el frontend.</td>
+      <td>Como Developer backend, quiero documentar y probar los endpoints con Swagger para validar manualmente el funcionamiento de la API antes de integrarla con el frontend.</td>
       <td><b>Swagger disponible.</b><br>Given la API esta ejecutandose en ambiente de desarrollo<br>When se abre Swagger en el navegador<br>Then se muestran los controladores y endpoints disponibles<br><br><b>Pruebas manuales.</b><br>Given un endpoint fue implementado<br>When se prueba desde Swagger o una herramienta HTTP<br>Then el backend responde con el codigo HTTP y datos esperados</td>
       <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-012</b></td>
       <td>Integracion frontend-backend con variables de entorno</td>
-      <td>Como desarrollador frontend, quiero configurar variables de entorno para conectar la aplicacion Vue con la API de AniTec en distintos ambientes.</td>
+      <td>Como Developer frontend, quiero configurar variables de entorno para conectar la aplicacion Vue con la API de AniTec en distintos ambientes.</td>
       <td><b>Ambiente de desarrollo.</b><br>Given el frontend se ejecuta en modo desarrollo<br>When se leen las variables de entorno<br>Then la URL base apunta al backend local de AniTec<br><br><b>Cambio de ambiente.</b><br>Given se prepara un despliegue de produccion<br>When se configura la URL del backend productivo<br>Then el frontend consume la API real sin modificar el codigo fuente de los stores</td>
       <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009, EP-012, EP-013</td>
     </tr>
     <tr>
       <td><b>TS-013</b></td>
       <td>Stores frontend para IoT y suscripciones</td>
-      <td>Como desarrollador frontend, quiero crear stores y servicios para dispositivos, metricas, planes y pagos para integrar las nuevas pantallas con el backend.</td>
+      <td>Como Developer frontend, quiero crear stores y servicios para dispositivos, metricas, planes y pagos para integrar las nuevas pantallas con el backend.</td>
       <td><b>Store de dispositivos.</b><br>Given existe el modulo IoT en el frontend<br>When se carga la vista de dispositivos<br>Then el store consume dispositivos y metricas desde el backend<br><br><b>Store de suscripciones.</b><br>Given existe el modulo de planes<br>When el usuario ingresa a la vista de suscripciones<br>Then el store consume planes, suscripcion activa, pagos y checkout mock desde el backend</td>
       <td>EP-012, EP-013</td>
     </tr>
     <tr>
       <td><b>TS-014</b></td>
       <td>Mapeo de recursos de clientes veterinarios</td>
-      <td>Como desarrollador frontend, quiero mapear correctamente los recursos de clientes veterinarios para diferenciar el identificador de la relacion y el identificador del ganadero.</td>
+      <td>Como Developer frontend, quiero mapear correctamente los recursos de clientes veterinarios para diferenciar el identificador de la relacion y el identificador del ganadero.</td>
       <td><b>Cliente veterinario recibido.</b><br>Given el backend devuelve un cliente con id de relacion y rancherId<br>When el frontend transforma el recurso<br>Then usa rancherId como identificador del ganadero en vistas de clientes y pacientes<br><br><b>Acciones sobre cliente.</b><br>Given el veterinario elimina o consulta un cliente<br>When se envia una peticion al backend<br>Then se utiliza el identificador correcto del ganadero</td>
       <td>EP-006</td>
     </tr>
     <tr>
       <td><b>TS-015</b></td>
       <td>Configuracion de endpoints para despliegue productivo</td>
-      <td>Como desarrollador frontend, quiero configurar el ambiente de produccion para que la aplicacion desplegada consuma el backend real y no el servicio mock utilizado durante prototipado.</td>
+      <td>Como Developer frontend, quiero configurar el ambiente de produccion para que la aplicacion desplegada consuma el backend real y no el servicio mock utilizado durante prototipado.</td>
       <td><b>URL productiva configurada.</b><br>Given existe una API backend desplegada<br>When se prepara el build de produccion del frontend<br>Then la variable VITE_ANITEC_API_URL apunta al backend real<br><br><b>Endpoints completos.</b><br>Given el frontend usa modulos de IoT y suscripciones<br>When se revisa la configuracion productiva<br>Then existen rutas para dispositivos, metricas, planes y pagos</td>
       <td>EP-001, EP-012, EP-013</td>
     </tr>
