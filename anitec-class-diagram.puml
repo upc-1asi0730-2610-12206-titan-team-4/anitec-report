@@ -1,0 +1,392 @@
+@startuml AniTec_Web_Application_Class_Diagram
+
+title AniTec - Web Application Class Diagram
+
+skinparam classAttributeIconSize 0
+skinparam shadowing false
+skinparam packageStyle rectangle
+skinparam linetype ortho
+
+package "Domain Model" {
+  class User <<entity>> {
+    - id: Number
+    - username: String
+    - password: String
+    - fullName: String
+    - role: String
+    - token: String
+    + isRancher(): Boolean
+    + isVeterinarian(): Boolean
+  }
+
+  class Profile <<entity>> {
+    - id: Number
+    - userId: Number
+    - firstName: String
+    - lastName: String
+    - email: String
+    - phone: String
+    - address: String
+    + getFullName(): String
+  }
+
+  class VeterinarianClient <<entity>> {
+    - id: Number
+    - veterinarianId: Number
+    - rancherId: Number
+    - rancherName: String
+    - status: String
+    + isAccepted(): Boolean
+  }
+
+  class Herd <<entity>> {
+    - id: Number
+    - name: String
+    - location: String
+    - owner: String
+    - ownerId: Number
+    - veterinarianId: Number
+    - mainType: String
+    + belongsTo(ownerId: Number): Boolean
+  }
+
+  class Animal <<entity>> {
+    - id: Number
+    - tag: String
+    - name: String
+    - species: String
+    - breed: String
+    - gender: String
+    - birthDate: String
+    - weight: Number
+    - status: String
+    - herdId: Number
+    + isHealthy(): Boolean
+  }
+
+  class HealthEvent <<entity>> {
+    - id: Number
+    - animalId: Number
+    - type: String
+    - date: String
+    - description: String
+    - veterinarian: String
+    - diagnosis: String
+    - treatment: String
+    - prescription: String
+    - followUp: String
+    - nextDueDate: String
+    + requiresFollowUp(): Boolean
+  }
+
+  class FarmActivity <<entity>> {
+    - id: Number
+    - ownerId: Number
+    - veterinarianId: Number
+    - title: String
+    - type: String
+    - date: String
+    - priority: String
+    - status: String
+    + isPending(): Boolean
+  }
+
+  class FinancialRecord <<entity>> {
+    - id: Number
+    - ownerId: Number
+    - type: String
+    - category: String
+    - amount: Number
+    - date: String
+    - description: String
+    + isIncome(): Boolean
+    + isExpense(): Boolean
+  }
+
+  class ReportMetric <<entity>> {
+    - id: Number
+    - label: String
+    - value: String
+    - trend: String
+    + hasPositiveTrend(): Boolean
+  }
+
+  class Device <<entity>> {
+    - id: Number
+    - name: String
+    - type: String
+    - serialNumber: String
+    - status: String
+    - herdId: Number
+    - animalId: Number
+    + isActive(): Boolean
+  }
+
+  class DeviceMetric <<entity>> {
+    - id: Number
+    - deviceId: Number
+    - type: String
+    - value: Number
+    - unit: String
+    - recordedAt: String
+    + formattedValue(): String
+  }
+
+  class SubscriptionPlan <<entity>> {
+    - id: Number
+    - name: String
+    - price: Number
+    - maxAnimals: Number
+    - isActive: Boolean
+    + canBeSelected(): Boolean
+  }
+
+  class Subscription <<entity>> {
+    - id: Number
+    - userId: Number
+    - planId: Number
+    - status: String
+    - startedAt: String
+    - endsAt: String
+    + isActive(): Boolean
+  }
+
+  class Payment <<entity>> {
+    - id: Number
+    - subscriptionId: Number
+    - amount: Number
+    - currency: String
+    - status: String
+    - paidAt: String
+    + isApproved(): Boolean
+  }
+}
+
+package "Application State" {
+  class IamStore <<control>> {
+    - currentUser: User
+    - token: String
+    - errors: String[]
+    + signIn(username: String, password: String): Boolean
+    + signOut(): void
+    + dashboardByRole(): String
+  }
+
+  class LivestockStore <<control>> {
+    - herds: Herd[]
+    - animals: Animal[]
+    + fetchHerds(): void
+    + fetchAnimals(): void
+    + saveHerd(herd: Herd): void
+    + saveAnimal(animal: Animal): void
+    + deleteAnimal(id: Number): void
+  }
+
+  class SanitaryStore <<control>> {
+    - healthEvents: HealthEvent[]
+    + fetchHealthEvents(): void
+    + saveHealthEvent(event: HealthEvent): void
+    + deleteHealthEvent(id: Number): void
+  }
+
+  class ActivitiesStore <<control>> {
+    - activities: FarmActivity[]
+    + fetchActivities(): void
+    + saveActivity(activity: FarmActivity): void
+    + deleteActivity(id: Number): void
+  }
+
+  class FinancialStore <<control>> {
+    - records: FinancialRecord[]
+    - incomeTotal: Number
+    - expenseTotal: Number
+    - balance: Number
+    + fetchRecords(): void
+    + saveRecord(record: FinancialRecord): void
+    + deleteRecord(id: Number): void
+  }
+
+  class AnalyticsStore <<control>> {
+    - metrics: ReportMetric[]
+    + fetchDashboard(): void
+    + fetchReportMetrics(): void
+  }
+
+  class DevicesStore <<control>> {
+    - devices: Device[]
+    - metrics: DeviceMetric[]
+    + fetchDevices(): void
+    + fetchMetrics(): void
+    + saveDevice(device: Device): void
+    + deleteDevice(id: Number): void
+  }
+
+  class SubscriptionsStore <<control>> {
+    - plans: SubscriptionPlan[]
+    - activeSubscription: Subscription
+    - payments: Payment[]
+    + fetchPlans(): void
+    + fetchSubscriptions(): void
+    + createTestPayment(planId: Number): void
+  }
+}
+
+package "User Interface" {
+  class SignInForm <<boundary>> {
+    - username: String
+    - password: String
+    + submit(): void
+  }
+
+  class RancherDashboard <<boundary>> {
+    - selectedHerdId: Number
+    - rancherAnimals: Animal[]
+    - recentHealthEvents: HealthEvent[]
+    - upcomingActivities: FarmActivity[]
+    + loadDashboard(): void
+  }
+
+  class VeterinarianDashboard <<boundary>> {
+    - selectedClientId: Number
+    - assignedClients: VeterinarianClient[]
+    - assignedAnimals: Animal[]
+    - pendingFollowUps: HealthEvent[]
+    + loadDashboard(): void
+  }
+
+  class AnimalForm <<boundary>> {
+    - form: Animal
+    - isEdit: Boolean
+    + save(): void
+  }
+
+  class HerdForm <<boundary>> {
+    - form: Herd
+    - isEdit: Boolean
+    + save(): void
+  }
+
+  class HealthForm <<boundary>> {
+    - form: HealthEvent
+    - animalOptions: Animal[]
+    + save(): void
+  }
+
+  class ActivityForm <<boundary>> {
+    - form: FarmActivity
+    + save(): void
+  }
+
+  class FinancialForm <<boundary>> {
+    - form: FinancialRecord
+    + save(): void
+  }
+
+  class IotDashboard <<boundary>> {
+    - visibleDevices: Device[]
+    - visibleMetrics: DeviceMetric[]
+    + openDeviceForm(): void
+  }
+
+  class SubscriptionPlans <<boundary>> {
+    - plans: SubscriptionPlan[]
+    - activePlanName: String
+    + payWithTestGateway(planId: Number): void
+  }
+}
+
+package "Infrastructure" {
+  class Router <<control>> {
+    + beforeEach(): void
+    + dashboardByRole(user: User): String
+  }
+
+  abstract class BaseApi <<control>> {
+    # baseUrl: String
+    + get(url: String): Promise
+    + post(url: String, body: Object): Promise
+    + put(url: String, body: Object): Promise
+    + delete(url: String): Promise
+  }
+
+  class IamApi <<control>>
+  class LivestockApi <<control>>
+  class SanitaryApi <<control>>
+  class ActivitiesApi <<control>>
+  class FinancialApi <<control>>
+  class AnalyticsApi <<control>>
+  class DevicesApi <<control>>
+  class SubscriptionsApi <<control>>
+}
+
+User "1" -- "0..1" Profile : has
+User "1" -- "0..*" Herd : owns
+User "1" -- "0..*" FinancialRecord : registers
+User "1" -- "0..*" FarmActivity : schedules
+User "1" -- "0..*" Subscription : pays
+User "1" -- "0..*" VeterinarianClient : veterinarian
+User "1" -- "0..*" VeterinarianClient : rancher
+
+Herd "1" *-- "0..*" Animal : contains
+Animal "1" *-- "0..*" HealthEvent : has history
+Herd "1" o-- "0..*" Device : monitors
+Animal "1" o-- "0..*" Device : monitors
+Device "1" *-- "0..*" DeviceMetric : records
+SubscriptionPlan "1" -- "0..*" Subscription : selected by
+Subscription "1" *-- "0..*" Payment : includes
+
+IamStore --> User : manages
+LivestockStore --> Herd : manages
+LivestockStore --> Animal : manages
+SanitaryStore --> HealthEvent : manages
+ActivitiesStore --> FarmActivity : manages
+FinancialStore --> FinancialRecord : manages
+AnalyticsStore --> ReportMetric : reads
+DevicesStore --> Device : manages
+DevicesStore --> DeviceMetric : reads
+SubscriptionsStore --> SubscriptionPlan : reads
+SubscriptionsStore --> Subscription : manages
+SubscriptionsStore --> Payment : registers
+
+SignInForm ..> IamStore : uses
+RancherDashboard ..> IamStore : uses
+RancherDashboard ..> LivestockStore : uses
+RancherDashboard ..> SanitaryStore : uses
+RancherDashboard ..> ActivitiesStore : uses
+VeterinarianDashboard ..> IamStore : uses
+VeterinarianDashboard ..> LivestockStore : uses
+VeterinarianDashboard ..> SanitaryStore : uses
+AnimalForm ..> LivestockStore : uses
+HerdForm ..> LivestockStore : uses
+HealthForm ..> SanitaryStore : uses
+ActivityForm ..> ActivitiesStore : uses
+FinancialForm ..> FinancialStore : uses
+IotDashboard ..> DevicesStore : uses
+SubscriptionPlans ..> SubscriptionsStore : uses
+
+Router ..> IamStore : checks session
+IamStore ..> IamApi : calls
+LivestockStore ..> LivestockApi : calls
+SanitaryStore ..> SanitaryApi : calls
+ActivitiesStore ..> ActivitiesApi : calls
+FinancialStore ..> FinancialApi : calls
+AnalyticsStore ..> AnalyticsApi : calls
+DevicesStore ..> DevicesApi : calls
+SubscriptionsStore ..> SubscriptionsApi : calls
+
+IamApi --|> BaseApi
+LivestockApi --|> BaseApi
+SanitaryApi --|> BaseApi
+ActivitiesApi --|> BaseApi
+FinancialApi --|> BaseApi
+AnalyticsApi --|> BaseApi
+DevicesApi --|> BaseApi
+SubscriptionsApi --|> BaseApi
+
+note right of BaseApi
+  API classes represent the connection
+  between the Vue application and the
+  ASP.NET Core REST backend.
+end note
+
+@enduml
