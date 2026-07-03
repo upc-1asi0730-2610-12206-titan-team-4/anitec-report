@@ -54,11 +54,11 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
             <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Review Summary</td>
+            <td>Previous Sprint Review Summary</td>
             <td>No aplica - Este es el primer Sprint del proyecto. Se establecieron las bases del Product Backlog, se definieron los User Stories priorizados, y se creó la estructura inicial de repositorios en GitHub Organization.</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Retrospective Summary</td>
+            <td>Previous Sprint Retrospective Summary</td>
             <td>No aplica - Este es el primer Sprint del proyecto. El equipo se conformó recientemente y se espera mejorar la coordinación en sprints posteriores.</td>
         </tr>
         <tr>
@@ -66,7 +66,7 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 1 Goal</td>
-            <td>Nuestro enfoque está en establecer la presencia digital de AniTec mediante una Landing Page funcional orientada a ganaderos y veterinarios. Creemos que esto aporta claridad sobre la propuesta de valor del producto y genera interés inicial en los usuarios objetivo. Esto se confirmará cuando los usuarios puedan navegar la Landing Page y comprender los principales beneficios de la plataforma.</td>
+            <td>Nuestro enfoque está en establecer la presencia digital inicial de AniTec mediante una Landing Page responsive orientada a ganaderos y veterinarios. Creemos que esto entrega claridad sobre la propuesta de valor y genera interés inicial en los segmentos objetivo. Esto se confirmará cuando los visitantes puedan acceder a la página principal, conocer beneficios, revisar secciones para ganaderos y veterinarios, y usar los llamados a la acción desde desktop y mobile.</td>
         </tr>
         <tr>
             <td>Sprint 1 Velocity</td>
@@ -95,8 +95,9 @@ Los User Stories seleccionados para este Sprint inicial reflejan las necesidades
 | US-048 | Visualizar página nosotros                     | Must Have   | 4            |
 | US-046 | Visualizar página para ganaderos               | Should Have | 4            |
 | US-047 | Visualizar página para veterinarios            | Should Have | 4            |
+| US-052 | Visualizar landing page en dispositivos móviles | Should Have | 4            |
 
-La selección de estos User Stories para el Sprint 1 responde a la necesidad de establecer la presencia digital de AniTec rápidamente, permitiendo que usuarios potenciales conozcan la propuesta de valor para los dos segmentos target. El equipo identificó que US-044 y US-051 son las más críticas, representando el objetivo principal del Sprint, mientras que las páginas específicas (US-046 y US-047) aportan valor para alcanzar a los segmentos especializados.
+La selección de estos User Stories para el Sprint 1 responde a la necesidad de establecer la presencia digital de AniTec rápidamente, permitiendo que usuarios potenciales conozcan la propuesta de valor para los dos segmentos target. El equipo identificó que US-044 y US-051 son las más críticas, representando el objetivo principal del Sprint, mientras que las páginas específicas (US-046 y US-047) aportan valor para alcanzar a los segmentos especializados. Además, US-052 permite validar que la Landing Page pueda visualizarse correctamente desde dispositivos móviles.
 
 **Distribución de Trabajo por Componente:**
 
@@ -106,7 +107,7 @@ La distribución de Story Points fue diseñada para que cada miembro del equipo 
 
 ### 5.2.1.2. Aspects Leaders and Collaborators.
 
-En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindando mayor claridad y efectividad en la comunicación al interior del equipo.
+En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
 
 La sección incluye una introducción donde se explica cuáles son los principales aspectos que se toma en cuenta en el Sprint 1. Para este primer Sprint, los aspectos están centrados exclusivamente en el desarrollo de la Landing Page multipágina, reconociendo la importancia de establecer roles claros desde el inicio del proyecto para evitar conflictos y facilitar la toma de decisiones durante la implementación.
 
@@ -117,7 +118,8 @@ El equipo AniTec está conformado por 5 miembros con diferentes fortalezas técn
 1. **Landing Page - UI/UX:** Diseño y estructura visual de las páginas principales, incluyendo wireframes, mockups, paleta de colores, tipografía y componentes visuales.
 2. **Landing Page - Desarrollo HTML/CSS:** Implementación técnica de las páginas landing, incluyendo código HTML semántico, estilos CSS, y diseño responsive.
 3. **Landing Page - Funcionalidades JavaScript:** Implementación de sliders automáticos, interacciones de navegación, y efectos visuales.
-4. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
+4. **Landing Page - Responsive / Mobile:** Validación visual de la landing page en desktop, tablet y mobile, revisando navegación, secciones, botones e imágenes.
+5. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
 
 La distribución de roles fue diseñada para fomentar la colaboración entre los miembros del equipo, evitando situaciones donde un solo miembro sea responsable de un componente crítico. En caso de que un líder no esté disponible, los colaboradores están preparados para asumir responsabilidad parcial del aspecto correspondiente.
 
@@ -176,6 +178,8 @@ La distribución de roles fue diseñada para fomentar la colaboración entre los
 
 La organización de líderes y colaboradores tiene relación directa con las fortalezas técnicas de cada miembro del equipo identificadas durante la conformación del equipo. Esta distribución permite que cada uno trabaje en áreas donde puede aportar mayor valor, mientras tiene la oportunidad de aprender de los líderes en otras áreas.
 
+El aspecto responsive/mobile fue cubierto dentro del desarrollo HTML/CSS y mediante validación visual de la landing page en distintos tamaños de pantalla, por lo que se mantiene dentro de la matriz principal como parte del trabajo de implementación de la landing page.
+
 **Distribución detallada de responsabilidades:**
 
 - **Ayala Fernandez, Jorge Brayan (UI/UX & JavaScript Lead):** Responsable del diseño visual de la Landing Page y las funcionalidades JavaScript, incluyendo la creación de mockups, definición de la paleta de colores basada en la identidad de marca de AniTec, y desarrollo de sliders automáticos. Coordina con el equipo de desarrollo para asegurar que la implementación respete el diseño propuesto.
@@ -183,6 +187,8 @@ La organización de líderes y colaboradores tiene relación directa con las for
 - **Huaman Gallardo, Bruno Aldair (Development Lead):** Responsable de la implementación técnica HTML/CSS de las páginas landing, incluyendo la estructura HTML semántica, estilos CSS con metodología BEM, y diseño responsivo. Coordina con el líder de UI/UX para resolver dudas sobre el diseño y garantizar su correcta implementación.
 
 - **Melgarejo Quiroz, Josep Eliu (Documentation Lead):** Responsable de la documentación del Sprint, incluyendo la elaboración de este archivo y demás artefactos Scrum. Coordina con los demás miembros para recopilar información sobre el avance del Sprint y asegurar la completitud de la documentación.
+
+- **Landing Page - Responsive / Mobile:** Responsable de verificar que la navegación, secciones, botones e imágenes se adapten correctamente en desktop, tablet y mobile, evitando solapamientos o pérdida de legibilidad.
 
 ### 5.2.1.3. Sprint Backlog 1.
 
@@ -310,10 +316,20 @@ A continuación, la tabla de control de estado para el Sprint 1:
             <td>Sanchez Silva, Luciana Celeste</td>
             <td>Done</td>
         </tr>
+        <tr>
+            <td>US-052</td>
+            <td>Visualizar landing page en dispositivos móviles</td>
+            <td>T009</td>
+            <td>Validar diseño responsive de la landing page</td>
+            <td>Verificar visualización de la landing page en desktop, tablet y mobile, ajustando navegación, secciones, botones e imágenes para evitar solapamientos.</td>
+            <td>4</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
     </tbody>
 </table>
 
-El Sprint Backlog refleja 8 tareas que totalizando las horas estimadas representan aproximadamente 34 horas de trabajo del equipo, equivalente a los 34 Story Points calculados para el Sprint 1. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
+El Sprint Backlog refleja 9 tareas principales, alineadas con los 34 Story Points calculados para el Sprint 1. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
 
 El equipo se compromete a completar todas las tareas del Sprint Backlog antes de la fecha de Sprint Review programada para el final de la iteración. Se realizará seguimiento diario del progreso mediante las daily standups y se tomarán acciones correctivas en caso de identificar desviaciones significativas del plan.
 
@@ -334,7 +350,7 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
 - **Optimización SEO:** Meta tags, Open Graph, Twitter Cards, y estructura semántica para mejorar el posicionamiento en motores de búsqueda.
 - **Accesibilidad web:** Cumplimiento de estándares WCAG 2.1 nivel AA, incluyendo contraste de colores adecuado, navegación por teclado funcional, y etiquetas ARIA donde fue necesario.
 
-**Commits Realizados:**
+**Commits del repositorio anitec-landing-page:**
 
 | Repository                                               | Branch | Commit Id | Commit Message                                   | Commit Message Body                                                                                                | Committed on (Date) |
 | -------------------------------------------------------- | ------ | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------- |
@@ -343,6 +359,11 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
 | upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main   | f604f7d   | feat: build ranchers and veterinarians pages     | Se agregaron las paginas orientadas a ganaderos y veterinarios con contenido diferenciado para cada segmento.      | 26/04/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main   | c1beba6   | feat: add i18n translations and navigation links | Se agregaron traducciones y enlaces de navegacion para conectar las paginas principales de la landing page.        | 02/05/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main   | b253306   | feat: complete AniTec landing page layout        | Se completo el diseño visual de la landing page y se ajustaron las secciones finales para la revision del sprint.  | 14/05/2026          |
+
+**Commits del repositorio anitec-report:**
+
+| Repository                                         | Branch | Commit Id | Commit Message                                 | Commit Message Body                                                                                  | Committed on (Date) |
+| -------------------------------------------------- | ------ | --------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------- |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-report       | main   | a4c92e1   | docs: add sprint 1 planning evidence             | Se documento el objetivo del sprint, el sprint backlog y las responsabilidades iniciales del equipo.               | 14/05/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-report       | main   | e7b31a4   | docs: describe landing page execution evidence   | Se agrego la descripcion de las vistas implementadas y las funcionalidades desarrolladas en la landing page.       | 15/05/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-report       | main   | c9f84b2   | docs: update deployment evidence for sprint 1    | Se documento el despliegue de la landing page en GitHub Pages y la verificacion posterior al despliegue.           | 15/05/2026          |
@@ -368,7 +389,35 @@ Esta sección resume lo alcanzado en el Sprint 1 y presenta las capturas de pant
 
 El Sprint 1 permitió establecer la presencia digital de AniTec. El equipo logró completar la configuración del repositorio, establecer las convenciones de código, e implementar las funcionalidades de la Landing Page multipágina. Los resultados superan las expectativas iniciales, logrando una Landing Page funcional, visualmente atractiva y técnicamente sólida.
 
+**URL pública de la landing page:**
+
+https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+
+**Video/demo de navegación del Sprint 1:**
+
+[Agregar URL del video/demo de navegación del Sprint 1]
+
 **Capturas de Pantalla - Landing Pages:**
+
+<div align="center">
+    <p><b>[Agregar screenshot de la página principal de la landing page]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de página para ganaderos]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de página para veterinarios]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de vista responsive/mobile]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 Las Landing Pages implementadas incluyen las siguientes secciones principales:
 
@@ -396,7 +445,25 @@ Las Landing Pages implementadas incluyen las siguientes secciones principales:
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Esta documentación estuvo orientada principalmente en la parte del Landing Page por lo que no se pudo enfocar en ningún motivo al backend en la creación del servicio. En los proximos sprints se tocará aquel tema y se podrá profundizar en ello adecuadamente.
+Durante el Sprint 1 no se implementaron Web Services ni endpoints REST, debido a que el alcance de la iteración estuvo centrado en la construcción de una Landing Page estática para presentar AniTec, sus segmentos objetivo, beneficios principales y llamados a la acción. Por ello, la documentación de servicios se enfoca en los recursos estáticos publicados y en las rutas disponibles dentro del sitio.
+
+**URL pública de la landing page:**
+
+https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+
+**Rutas y recursos estáticos documentados:**
+
+| Recurso | Descripción |
+| ------- | ----------- |
+| `/index.html` | Página principal de la landing page, con portada, propuesta de valor, beneficios y llamados a la acción. |
+| `/assets/pages/about.html` | Página informativa del equipo, misión, visión y presentación de AniTec. |
+| `/assets/pages/ranchers.html` | Página orientada al segmento ganadero. |
+| `/assets/pages/veterinarians.html` | Página orientada al segmento veterinario. |
+| `/assets/css/` | Hojas de estilo utilizadas para layout, diseño responsive, colores, tipografía y componentes visuales. |
+| `/assets/js/` | Scripts de interacción básica, navegación y comportamiento visual de la landing page. |
+| `/assets/images/` | Imágenes utilizadas en secciones principales, segmentos, beneficios y contenido visual. |
+
+Los servicios REST de AniTec fueron planificados para sprints posteriores, cuando la aplicación web necesitara consumir datos dinámicos desde una API. En este primer Sprint, el objetivo fue validar la presencia pública del producto y la comunicación inicial de valor para ganaderos y veterinarios.
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 

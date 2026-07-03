@@ -125,7 +125,9 @@ La estructura básica será: `git commit -m "<type>[optional scope]:<title>" -m"
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
-En esta sección, el equipo de desarrollo de AniTec define las convenciones de nomenclatura y estilo de código adoptadas para garantizar consistencia, legibilidad y mantenibilidad en todos los componentes del sistema.
+En esta sección, el equipo de desarrollo de AniTec define las convenciones de nomenclatura y estilo de código adoptadas para garantizar consistencia, legibilidad y mantenibilidad en todos los componentes del sistema. Estas convenciones aplican a la Landing Page, la Web Application frontend y los Web Services backend, manteniendo coherencia entre HTML, CSS, JavaScript, Vue, PrimeVue, ASP.NET Core y la API REST.
+
+El equipo procura que el estilo de código sea consistente con las tecnologías trabajadas durante el curso, evitando soluciones innecesariamente complejas y priorizando una estructura clara por componentes, módulos y bounded contexts.
 
 **Convenciones Generales**
 
@@ -178,6 +180,8 @@ Se adoptan las guías:
 Se adopta:
 
 - Vue Style Guide
+- PrimeVue Component Guidelines
+- Material Design principles para organización visual, jerarquía, formularios y navegación.
 
 **Convenciones aplicadas:**
 
@@ -185,6 +189,8 @@ Se adopta:
 - Separación de lógica, template y estilos dentro del componente.
 - Props claramente tipadas y documentadas.
 - Reutilización de componentes.
+- Uso consistente de componentes PrimeVue para formularios, tablas, botones, diálogos y navegación.
+- Organización del frontend por bounded contexts y capas `domain`, `application`, `infrastructure` y `presentation`.
 
 ---
 
@@ -204,6 +210,20 @@ Se adoptan:
 - Separación en capas (Controllers, Services, Repositories).
 - Uso de inyección de dependencias.
 
+---
+
+**REST API**
+
+Se adoptan convenciones simples para mantener endpoints claros y coherentes con la arquitectura RESTful trabajada en clase.
+
+**Convenciones aplicadas:**
+
+- Uso de rutas en plural para recursos principales, por ejemplo `/animals`, `/herds`, `/devices` y `/subscriptions`.
+- Uso de verbos HTTP según la acción: `GET` para consulta, `POST` para creación, `PUT` para actualización y `DELETE` para eliminación.
+- Uso de resources y assemblers para separar entidades de dominio de respuestas REST.
+- Respuestas orientadas a datos necesarios para el frontend, evitando exponer detalles internos de persistencia.
+- Documentación de endpoints mediante Swagger/OpenAPI.
+
 ## 5.1.4. Software Deployment Configuration.
 
 En esta sección se describe la configuración y el proceso de despliegue de los distintos componentes del sistema AniTec, detallando los pasos necesarios para publicar cada producto digital a partir de sus respectivos repositorios de código fuente.
@@ -214,7 +234,9 @@ El despliegue se ha estructurado de forma independiente para cada componente: La
 
 La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publicación de sitios web estáticos directamente desde el repositorio.
 
-**Repositorio:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+**Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+
+**URL pública:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 **Pasos de despliegue:**
 
@@ -249,6 +271,8 @@ La aplicación Frontend de AniTec se despliega utilizando **GitHub Pages**, perm
 
 La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
 
+Para el ambiente de desarrollo, el frontend consume el backend real mediante variables de entorno configuradas en `.env.development`. Para producción, se debe mantener la misma estrategia de configuración mediante variables de entorno, de modo que la aplicación desplegada pueda apuntar progresivamente a la API real publicada sin cambiar el código fuente de los stores ni de las vistas.
+
 <div align="center">
     <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
@@ -282,6 +306,10 @@ El backend de AniTec se despliega utilizando **Render**, mediante un Web Service
 **Resultado:**
 
 El backend queda disponible públicamente para la integración con el frontend. Link: https://anitec-backend.onrender.com/swagger/index.html
+
+**URL pública del backend:** https://anitec-backend.onrender.com
+
+**Documentación Swagger:** https://anitec-backend.onrender.com/swagger/index.html
 
 <div align="center">
     <img src="../../assets/chapter-5/sprint3-render-deployment.png" width="500">

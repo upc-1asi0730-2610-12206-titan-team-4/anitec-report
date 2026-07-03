@@ -54,11 +54,11 @@ Durante la planificación se definieron los bounded contexts principales, las re
             <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Review Summary</td>
+            <td>Sprint 2 Review Summary</td>
             <td>El Sprint 2 permitió construir la aplicación web frontend de AniTec con Vue 3, PrimeVue, Pinia, Vue Router, módulos por bounded context y consumo de datos mediante una API REST mock con my-json-server.</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Retrospective Summary</td>
+            <td>Sprint 2 Retrospective Summary</td>
             <td>El equipo identificó que el uso de datos mock permitió avanzar rápidamente en el frontend, pero limitaba la validación de reglas de negocio, persistencia real, autenticación segura y operaciones entre módulos. Por ello, se priorizó el desarrollo del backend en el Sprint 3.</td>
         </tr>
         <tr>
@@ -66,7 +66,7 @@ Durante la planificación se definieron los bounded contexts principales, las re
         </tr>
         <tr>
             <td>Sprint 3 Goal</td>
-            <td>Nuestro enfoque está en implementar el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL, manteniendo una arquitectura por bounded contexts similar a la desarrollada en clase. Además, se busca integrar el frontend con la API real, incorporar vistas para dispositivos IoT y suscripciones, y actualizar la landing page con videos About the Team y About the Product. Esto se confirmará cuando la API compile, ejecute migraciones, exponga endpoints REST documentados, el frontend consuma datos del backend y la landing page presente correctamente el contenido audiovisual.</td>
+            <td>Nuestro enfoque está en permitir que AniTec funcione con servicios reales e integración entre backend, frontend y landing page. Creemos que esto entrega una experiencia más cercana al producto final para ganaderos y veterinarios, reemplazando datos mock por información persistente y habilitando nuevos módulos como IoT y suscripciones. Esto se confirmará cuando el frontend consuma datos desde la API real, los usuarios puedan acceder a dispositivos IoT y planes de suscripción, la API exponga endpoints documentados en Swagger y la landing page presente los videos About the Team y About the Product.</td>
         </tr>
         <tr>
             <td>Sprint 3 Velocity</td>
@@ -113,7 +113,7 @@ Para este tercer Sprint, los aspectos están centrados principalmente en el desa
 **Aspectos del Sprint 3:**
 
 1. **Backend - Configuración y Arquitectura Base:** Creación de la solución ASP.NET Core, configuración de Swagger, CORS, inyección de dependencias, Entity Framework Core y estructura de carpetas.
-2. **Backend - IAM y Profiles:** Implementación de usuarios basicas
+2. **Backend - IAM y Profiles:** Implementación de usuarios básicos.
 3. **Backend - Livestock, Sanitary y Activities:** Implementación de fincas, animales, eventos sanitarios y actividades de granja mediante entidades, comandos, consultas, servicios y controladores REST.
 4. **Backend - Financial y Analytics:** Implementación de registros financieros, report metrics y endpoints de dashboard para ganaderos y veterinarios.
 5. **Backend - Clients, Devices y Metrics:** Implementación de clientes veterinarios, dispositivos ganaderos y métricas generadas por dispositivos.
@@ -196,6 +196,8 @@ Para este tercer Sprint, los aspectos están centrados principalmente en el desa
 </table>
 
 **Aspectos complementarios de frontend y landing page:**
+
+Los aspectos de frontend y landing page se presentan en una tabla complementaria para evitar saturar la matriz principal de backend, manteniendo de forma explícita los líderes y colaboradores de estos trabajos.
 
 | Aspecto | Líder | Colaboradores |
 | ------- | ----- | ------------- |
@@ -295,7 +297,7 @@ A continuación, la tabla de control de estado para el Sprint 3:
             <td>Crear entidades, comandos, consultas, servicios, recursos REST y controladores para autenticación, registro de usuarios, hashing de contraseñas y generación de JWT.</td>
             <td>8</td>
             <td>Ayala Fernandez, Jorge Brayan</td>
-            <td>In progress</td>
+            <td>Done</td>
         </tr>
         <tr>
             <td>TS-008</td>
@@ -380,7 +382,7 @@ A continuación, la tabla de control de estado para el Sprint 3:
     </tbody>
 </table>
 
-El Sprint Backlog refleja 11 tareas principales, con aproximadamente 57 horas de trabajo estimadas. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts, la necesidad de mantener una estructura similar al backend trabajado en clase, la integración del frontend con la API real y la actualización de la landing page.
+El Sprint Backlog refleja 11 tareas principales, con aproximadamente 57 horas estimadas de tareas, alineadas con 57 Story Points. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts, la necesidad de mantener una estructura similar al backend trabajado en clase, la integración del frontend con la API real y la actualización de la landing page.
 
 ### 5.2.3.4. Development Evidence for Sprint Review.
 
@@ -499,6 +501,14 @@ anitec-platform-main/
 | anitec-platform-main | develop | 8f6d1be | Merge pull request #72 from upc-1asi0730-2610-12206-titan-team-4/feature/mock-checkout | Integración del flujo de pagos mock y suscripciones al branch de desarrollo. | 19/06/2026 |
 | anitec-platform-main | main | 7e9c4b2 | Merge pull request #74 from upc-1asi0730-2610-12206-titan-team-4/develop | Integración final del Sprint 3 desde `develop` hacia `main`, consolidando endpoints, migraciones, seed de datos y documentación Swagger. | 19/06/2026 |
 
+**Commits del repositorio anitec-frontend:**
+
+[Agregar commits del repositorio anitec-frontend relacionados con integración backend, IoT y subscriptions]
+
+**Commits del repositorio anitec-landing-page:**
+
+[Agregar commits del repositorio anitec-landing-page relacionados con videos About the Team y About the Product]
+
 **Repositorio del Backend:**
 
 https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
@@ -535,12 +545,29 @@ Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evid
 
 El Sprint 3 permitió desarrollar el backend real de AniTec e iniciar la integración de la solución completa. El equipo logró configurar la solución ASP.NET Core, conectar la API con MySQL, implementar migraciones, crear datos iniciales, exponer endpoints REST para los módulos principales del sistema, conectar el frontend con la API real y actualizar la landing page con contenido audiovisual.
 
+**URLs públicas revisadas durante el Sprint 3:**
+
+- Landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- Backend Swagger: https://anitec-backend.onrender.com/swagger/index.html
+
+**Video/demo de navegación del Sprint 3:**
+
+[Agregar URL del video/demo de navegación del Sprint 3]
+
+Como evidencia adicional, el Video About-the-Product también muestra la navegación y funcionamiento general de AniTec.
+
 **Evidencias de ejecución:**
 
 1. **Compilación del backend:** Se ejecutó el comando `dotnet build` para validar que el proyecto compile correctamente.
 
 <div align="center">
     <img src="../../assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de Swagger con endpoints del backend desplegado]</b></p>
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -698,6 +725,120 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 | Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
 | Subscriptions | POST | `/api/v1/subscriptions/mock-checkout` | Simulación de pago para pruebas del flujo de suscripción. |
 
+**Ejemplos de interacción con endpoints principales:**
+
+1. **Inicio de sesión de usuario**
+
+- **Método:** POST
+- **Endpoint:** `/api/v1/authentication/sign-in`
+- **Body:**
+
+```json
+{
+  "username": "rancher1",
+  "password": "anitec123"
+}
+```
+
+- **Response esperado:**
+
+```json
+{
+  "id": 1,
+  "username": "rancher1",
+  "role": "Rancher",
+  "token": "jwt-token"
+}
+```
+
+2. **Consulta de animales registrados**
+
+- **Método:** GET
+- **Endpoint:** `/api/v1/animals`
+- **Parámetros:** No requiere parámetros obligatorios.
+- **Response esperado:**
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "species": "Bovino",
+    "breed": "Holstein",
+    "status": "healthy",
+    "herdId": 1
+  }
+]
+```
+
+3. **Registro de evento sanitario**
+
+- **Método:** POST
+- **Endpoint:** `/api/v1/health-events`
+- **Body:**
+
+```json
+{
+  "animalId": 1,
+  "type": "Vaccination",
+  "date": "2026-06-10",
+  "description": "Vacuna anual",
+  "veterinarianId": 2
+}
+```
+
+- **Response esperado:**
+
+```json
+{
+  "id": 12,
+  "animalId": 1,
+  "type": "Vaccination",
+  "status": "registered"
+}
+```
+
+4. **Consulta de última métrica de dispositivo**
+
+- **Método:** GET
+- **Endpoint:** `/api/v1/devices/{id}/latest-metric`
+- **Parámetros:** `id`, identificador del dispositivo IoT.
+- **Response esperado:**
+
+```json
+{
+  "deviceId": 1,
+  "metricType": "temperature",
+  "value": 38.4,
+  "unit": "C",
+  "recordedAt": "2026-06-18T10:30:00"
+}
+```
+
+5. **Pago de prueba para suscripción**
+
+- **Método:** POST
+- **Endpoint:** `/api/v1/subscriptions/mock-checkout`
+- **Body:**
+
+```json
+{
+  "userId": 1,
+  "planId": 2,
+  "amount": 19.00
+}
+```
+
+- **Response esperado:**
+
+```json
+{
+  "subscriptionId": 3,
+  "paymentId": 8,
+  "status": "paid",
+  "provider": "mock"
+}
+```
 
 **Swagger/OpenAPI:** Se verificó que la documentación de endpoints esté disponible en el navegador.
 

@@ -55,11 +55,11 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
             <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Review Summary</td>
+            <td>Sprint 1 Review Summary</td>
             <td>Sprint 1 completó exitosamente la Landing Page multipágina de AniTec, desplegada en GitHub Pages. Se establecieron las bases del proyecto, las convenciones de código y el flujo de trabajo colaborativo con GitFlow.</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Retrospective Summary</td>
+            <td>Sprint 1 Retrospective Summary</td>
             <td>El equipo identificó la necesidad de mejorar la comunicación asincrónica y la revisión de código. Se acordó implementar daily standups más estructuradas y aumentar la frecuencia de code reviews para el Sprint 2.</td>
         </tr>
         <tr>
@@ -67,15 +67,15 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 2 Goal</td>
-            <td>Nuestro enfoque está en desarrollar la aplicación web funcional de AniTec con los módulos de autenticación, gestión de animales, control sanitario, gestión financiera y reportes. Creemos que esto aporta una solución digital completa para la gestión ganadera. Esto se confirmará cuando los usuarios puedan iniciar sesión, registrar animales, documentar incidencias sanitarias y visualizar reportes de su operación.</td>
+            <td>Nuestro enfoque está en permitir que ganaderos y veterinarios gestionen digitalmente información básica de sus operaciones desde una aplicación web funcional. Creemos que esto entrega mayor organización y control sobre animales, eventos sanitarios, finanzas y reportes a los usuarios de AniTec. Esto se confirmará cuando un usuario pueda iniciar sesión, navegar según su rol, registrar animales, documentar eventos sanitarios, registrar movimientos financieros y visualizar reportes desde la aplicación web.</td>
         </tr>
         <tr>
             <td>Sprint 2 Velocity</td>
-            <td>El equipo estimó un velocity inicial de 40 Story Points, enfocados en el desarrollo de la aplicación web frontend con 6 módulos principales (autenticación, navegación, animales, sanidad, finanzas y reportes).</td>
+            <td>El equipo estimó un velocity inicial de 42 Story Points, enfocados en el desarrollo de la aplicación web frontend con 6 módulos principales (autenticación, navegación, animales, sanidad, finanzas y reportes).</td>
         </tr>
         <tr>
             <td>Sprint of Story Points</td>
-            <td>Total: 40 SP - Distribuidos en 8 SP para autenticación y roles, 8 SP para navegación y layout, 8 SP para gestión de animales, 8 SP para gestión sanitaria, 5 SP para gestión financiera, y 5 SP para reportes y dashboards.</td>
+            <td>Total: 42 SP - Distribuidos en 8 SP para autenticación y roles, 8 SP para navegación y layout, 8 SP para gestión de animales, 8 SP para gestión sanitaria, 5 SP para gestión financiera, y 5 SP para reportes y dashboards.</td>
         </tr>
     </tbody>
 </table>
@@ -101,7 +101,7 @@ La selección de estos User Stories para el Sprint 2 responde a la necesidad de 
 
 **Distribución de Trabajo por Componente:**
 
-- **Aplicación Web Frontend:** 40 Story Points - Enfocados en los 6 bounded contexts (IAM, Livestock, Sanitary, Financial, Events, Reports) más el módulo Shared de componentes comunes, incluyendo configuración inicial, implementación de stores Pinia, vistas Vue, y servicios de consumo de API.
+- **Aplicación Web Frontend:** 42 Story Points - Enfocados en los 6 bounded contexts (IAM, Livestock, Sanitary, Financial, Events, Reports) más el módulo Shared de componentes comunes, incluyendo configuración inicial, implementación de stores Pinia, vistas Vue, y servicios de consumo de API.
 
 La distribución de Story Points fue diseñada considerando las dependencias técnicas entre módulos. Se priorizó la configuración inicial y el módulo IAM como base, seguido de los módulos CRUD centrales (animales y sanidad), y finalmente los módulos de soporte (finanzas y reportes).
 
@@ -119,7 +119,8 @@ Para este segundo Sprint, los aspectos están centrados en el desarrollo de la a
 4. **Frontend - Módulo Sanitario y Clínico:** Implementación de registros sanitarios, incidencias, diagnósticos, tratamientos, recetas, seguimientos e historial clínico.
 5. **Frontend - Módulo Financiero y Reportes:** Implementación de registro de ingresos/egresos, balance financiero, dashboards con gráficos Chart.js y reportes estadísticos.
 6. **Frontend - Gestión Profesional del Veterinario:** Implementación de dashboard veterinario, gestión de clientes, pacientes, y casos de uso específicos del rol.
-7. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
+7. **Frontend - Deployment and Mock API:** Despliegue del frontend en GitHub Pages y configuración de my-json-server como API mock temporal para alimentar datos de prueba.
+8. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
@@ -203,6 +204,8 @@ Para este segundo Sprint, los aspectos están centrados en el desarrollo de la a
 - **Raymundo Villarroel, Nadhim Abigail (Sanitario Lead):** Responsable de la implementación del módulo sanitario y clínico, incluyendo registro de incidencias, diagnósticos, tratamientos, recetas e historial clínico de animales.
 
 - **Sanchez Silva, Luciana Celeste (Veterinario Lead):** Responsable de la implementación del módulo de gestión profesional del veterinario, incluyendo dashboard, gestión de clientes, pacientes y casos de uso específicos del rol.
+
+- **Frontend - Deployment and Mock API:** Responsable de publicar la aplicación web en GitHub Pages, configurar el consumo de datos desde my-json-server y verificar que la URL pública permita navegar las vistas principales con datos de prueba.
 
 ### 5.2.2.3. Sprint Backlog 2.
 
@@ -343,7 +346,7 @@ A continuación, la tabla de control de estado para el Sprint 2:
     </tbody>
 </table>
 
-El Sprint Backlog refleja 9 tareas que totalizando las horas estimadas representan aproximadamente 47 horas de trabajo del equipo, equivalente a los 40 Story Points calculados para el Sprint 2. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
+El Sprint Backlog refleja 9 tareas que totalizan aproximadamente 47 horas estimadas de tareas, alineadas con los 42 Story Points planificados para el Sprint 2. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
 
 El equipo se compromete a completar todas las tareas del Sprint Backlog antes de la fecha de Sprint Review programada para el final de la iteración. Se realizará seguimiento diario del progreso mediante las daily standups y se tomarán acciones correctivas en caso de identificar desviaciones significativas del plan.
 
@@ -465,7 +468,7 @@ La aplicación web implementada durante el Sprint 2 cuenta con las siguientes ca
 | anitec-frontend | main               | 3267dba   | chore: AniTec Frontend Initialization!!                                                                                                                                   |                                                                                                                                                                                                                                                                                   | 2026-05-14 22:25:01 -0500 |
 | anitec-frontend | main               | 3ffbadb   | chore: AniTec Frontend Initialization!!                                                                                                                                   |                                                                                                                                                                                                                                                                                   | 2026-05-14 22:19:11 -0500 |
 
-El equipo realizó un total de 88 commits en el repositorio de la aplicación web durante el Sprint 2. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios.
+El equipo registró múltiples commits durante el Sprint 2 en el repositorio de la aplicación web. La tabla anterior muestra commits representativos del Sprint 2 y evidencia la implementación progresiva de módulos, vistas, stores, rutas, APIs y configuración base del frontend. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios.
 
 **Repositorio de la Aplicación Web Frontend:**
 
@@ -487,7 +490,45 @@ Esta sección resume lo alcanzado en el Sprint 2 y presenta la descripción de l
 
 El Sprint 2 permitió desarrollar la aplicación web funcional de AniTec. El equipo logró completar la configuración del proyecto Vue, establecer la arquitectura de bounded contexts, implementar los 6 módulos de negocio y desplegar la aplicación en GitHub Pages con datos de prueba en my-json-server.
 
+**URL pública del frontend:**
+
+https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+
+**Video/demo de navegación del Sprint 2:**
+
+[Agregar URL del video/demo de navegación del Sprint 2]
+
 **Vistas Implementadas:**
+
+<div align="center">
+    <p><b>[Agregar screenshot de login]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de dashboard ganadero]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de gestión de animales]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de eventos sanitarios]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de finanzas/reportes]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>[Agregar screenshot de dashboard veterinario]</b></p>
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 A continuación, se detallan las principales vistas de la aplicación web:
 
@@ -565,7 +606,28 @@ La configuración de la API se maneja mediante variables de entorno de Vite, per
 - `VITE_FARM_EVENTS_ENDPOINT_PATH`: `/farm-events`
 - `VITE_REPORT_METRICS_ENDPOINT_PATH`: `/report-metrics`
 
-Esta arquitectura permite que, en futuros sprints, el reemplazo de my-json-server por un backend real (.NET) requiera únicamente cambiar la URL base de la API sin modificar el código de los servicios o las vistas.
+**Ejemplo de endpoint mock:**
+
+- **Método:** GET
+- **Endpoint:** `/animals`
+- **URL:** https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver/animals
+
+**Response de ejemplo:**
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "species": "Bovino",
+    "breed": "Holstein",
+    "status": "healthy",
+    "herdId": 1
+  }
+]
+```
+
+Esta arquitectura permite que, en futuros sprints, el reemplazo de my-json-server por un backend real (.NET) requiera únicamente cambiar la URL base de la API sin modificar el código de los servicios o las vistas. Este servicio fue temporal y se utilizó para prototipado frontend antes de contar con el backend real de AniTec.
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
