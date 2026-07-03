@@ -11,7 +11,7 @@ El video muestra cómo AniTec centraliza información sobre animales, hatos, eve
 | Título | Video About-the-Product - AniTec |
 | Duración | 26:19 minutos |
 | Público objetivo | Visitantes del landing page, ganaderos y veterinarios |
-| URL publicado en Microsoft Stream | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQDKp9O2dI9BTIMQdaH8TI7yAelzQwleVVzl8G81UmsVVu8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VcXd7z |
+| URL publicado en Microsoft Stream | https://tinyurl.com/VideoAboutTheProductAnitec |
 | URL publicado en YouTube | https://www.youtube.com/watch?v=U_xCv93ybkI |
 | Uso en landing page | El video de YouTube se utiliza para incrustarlo en la sección About Us de la landing page. |
 
