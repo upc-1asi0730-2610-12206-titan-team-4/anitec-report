@@ -1005,18 +1005,19 @@ El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Di
 
 <div align="center">
   <p>
-    <b>Commits gráficas Landing Page - Sprint 3</b>
+    <b>Commits gráficas Landing page - Sprint 3</b>
   </p>
-  <p><b>[Agregar imagen de commits del repositorio anitec-landing-page]</b></p>
-  <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+  <img src="../../assets/chapter-5/commits-landingpage.png" alt="Commits Sprint 3" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-backend.</i></p>
 </div>
+
 
 <div align="center">
   <p>
     <b>Commits gráficas Frontend - Sprint 3</b>
   </p>
-  <p><b>[Agregar imagen de commits del repositorio anitec-frontend]</b></p>
-  <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+  <img src="../../assets/chapter-5/commits-frontend.png" alt="Commits Sprint 3" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-backend.</i></p>
 </div>
 
 **Reflexiones del Equipo:**
