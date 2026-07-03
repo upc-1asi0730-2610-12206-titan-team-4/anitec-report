@@ -637,7 +637,7 @@ La aplicación web frontend de AniTec fue desplegada exitosamente en **GitHub Pa
 
 - **Plataforma:** GitHub Pages
 - **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
+- **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
 - **Comando de despliegue:** publicación mediante GitHub Pages desde el repositorio
 - **Archivos desplegados:** Carpeta `dist/` generada por Vite (`npm run build`)
 
@@ -654,6 +654,8 @@ La aplicación web frontend de AniTec fue desplegada exitosamente en **GitHub Pa
 - **Repositorio de datos:** Repositorio dedicado con archivo `db.json`
 - **URL base de la API:** https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
 - **Proceso:** Subir el archivo `db.json` al repositorio de GitHub; my-json-server genera automáticamente los endpoints REST a partir de las colecciones definidas en el JSON.
+
+El uso de my-json-server correspondió a una etapa temporal de prototipado del frontend. Este servicio permitió validar navegación, vistas y operaciones CRUD antes de contar con el backend real desarrollado posteriormente en Sprint 3.
 
 <div align="center">
     <img src="../../assets/chapter-5/frontend-evidence.png" width="500">
@@ -699,6 +701,7 @@ El equipo adoptó un enfoque de trabajo colaborativo con reuniones diarias media
     <b>Commits gráficas</b>
   </p>
   <img src="../../assets/chapter-5/commit-chart-sprint-2.png" alt="Step5" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-frontend.</i></p>
 </div>
 
 **Reflexiones del Equipo:**

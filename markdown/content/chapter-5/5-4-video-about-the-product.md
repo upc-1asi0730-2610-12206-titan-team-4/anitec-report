@@ -22,13 +22,13 @@ El video muestra cómo AniTec centraliza información sobre animales, hatos, eve
 
 **Estructura del contenido del video:**
 
-| Parte | Responsable | Contenido explicado | Duración referencial |
-| ----- | ----------- | ------------------- | -------------------- |
-| Parte 1: Introducción, problema y landing page | Jorge | Presentación de AniTec, problema de gestión dispersa de animales, sanidad, actividades, finanzas y monitoreo. Se presentan los segmentos objetivo, el recorrido por la landing page, la propuesta de valor, beneficios, funcionalidades principales, call-to-action y modelo de negocio basado en planes. | 1:00 a 1:30 min |
-| Parte 2: Acceso a la aplicación y dashboard ganadero | Abigail | Inicio de sesión como ganadero, redirección según rol y presentación del dashboard ganadero con resumen de animales, hatos, eventos sanitarios, próximas actividades, alertas e información relevante para la toma de decisiones. | 1:30 a 2:00 min |
-| Parte 3: Funciones del ganadero | Josep | Gestión de hatos, registro y edición de animales, eventos sanitarios, actividades, visitas, ingresos y gastos. Se explica cómo estas funciones centralizan la información del productor ganadero. | 2:00 a 2:30 min |
-| Parte 4: Dashboard y funciones del veterinario | Luciana | Inicio de sesión como veterinario, dashboard veterinario, clientes asignados, pacientes, alertas sanitarias, próximas actividades, gestión de clientes, revisión de animales por ganadero e historial clínico. | 2:00 a 2:30 min |
-| Parte 5: IoT, suscripciones, testimonio y cierre | Bruno | Módulo IoT, registro y asociación de dispositivos a finca o animal, revisión de estado, tipo y métricas. También se presentan planes, plan activo, historial de pagos de prueba, testimonio de validación y cierre del valor de AniTec. | 1:30 a 2:00 min |
+| Parte | Responsable | Timing en el video | Contenido explicado | Duración referencial |
+| ----- | ----------- | ------------------- | ------------------- | -------------------- |
+| Parte 1: Introducción, problema y landing page | Jorge | 00:00:00 - 00:05:10 | Presentación de AniTec, problema de gestión dispersa de animales, sanidad, actividades, finanzas y monitoreo. Se presentan los segmentos objetivo, el recorrido por la landing page, la propuesta de valor, beneficios, funcionalidades principales, call-to-action y modelo de negocio basado en planes. | 5:10 min |
+| Parte 2: Acceso a la aplicación y dashboard ganadero | Abigail | 00:05:10 - 00:10:25 | Inicio de sesión como ganadero, redirección según rol y presentación del dashboard ganadero con resumen de animales, hatos, eventos sanitarios, próximas actividades, alertas e información relevante para la toma de decisiones. | 5:15 min |
+| Parte 3: Funciones del ganadero | Josep | 00:10:25 - 00:16:20 | Gestión de hatos, registro y edición de animales, eventos sanitarios, actividades, visitas, ingresos y gastos. Se explica cómo estas funciones centralizan la información del productor ganadero. | 5:55 min |
+| Parte 4: Dashboard y funciones del veterinario | Luciana | 00:16:20 - 00:22:05 | Inicio de sesión como veterinario, dashboard veterinario, clientes asignados, pacientes, alertas sanitarias, próximas actividades, gestión de clientes, revisión de animales por ganadero e historial clínico. | 5:45 min |
+| Parte 5: IoT, suscripciones, testimonio y cierre | Bruno | 00:22:05 - 00:26:19 | Módulo IoT, registro y asociación de dispositivos a finca o animal, revisión de estado, tipo y métricas. También se presentan planes, plan activo, historial de pagos de prueba, testimonio de validación y cierre del valor de AniTec. | 4:14 min |
 
 **Testimonio incluido:**
 

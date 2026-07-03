@@ -508,6 +508,7 @@ El equipo adoptó un enfoque de trabajo colaborativo, donde los miembros se reun
     <b>Commits graficas</b>
   </p>
   <img src="../../assets/chapter-5/commit-chart-sprint-1.jpeg" alt="Step5" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-landing-page.</i></p>
 </div>
 
 **Reflexiones del Equipo:**

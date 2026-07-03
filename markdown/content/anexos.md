@@ -62,7 +62,7 @@
 - GitHub, para control de versiones y colaboracion: https://github.com
 - Visual Studio Code, para edicion de codigo y archivos Markdown: https://code.visualstudio.com/
 - WebStorm, para desarrollo del frontend: https://www.jetbrains.com/webstorm/
-- Rider, para desarrollo de backend en caso de usar .NET: https://www.jetbrains.com/rider/
+- Rider, para desarrollo del backend ASP.NET Core: https://www.jetbrains.com/rider/
 - GitHub Pages, para despliegue de la landing page y frontend web: https://pages.github.com
 - Render, para despliegue del backend web: https://render.com/
 - My JSON Server, para datos de prueba: https://my-json-server.typicode.com/

@@ -520,7 +520,6 @@ https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 - Documentación pública del backend: https://anitec-backend.onrender.com/swagger/index.html
 - Repositorio del frontend: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
 - Despliegue del frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
-- Acceso público a la aplicación web usado desde la landing page: https://anitec-12206.web.app/
 - Repositorio de la landing page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - Despliegue de la landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
@@ -902,10 +901,24 @@ Este despliegue permitió validar que los servicios backend desarrollados en ASP
 **URLs públicas del Sprint 3:**
 
 - Landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
-- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
-- Acceso público a la aplicación web usado desde la landing page: https://anitec-12206.web.app/
+- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
 - Backend web: https://anitec-backend.onrender.com
 - Documentación Swagger del backend: https://anitec-backend.onrender.com/swagger/index.html
+
+**Configuración de despliegue - Landing Page:**
+
+- **Plataforma:** GitHub Pages
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- **Branch desplegada:** `main`
+- **URL pública:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- **Alcance del Sprint 3:** actualización de la página About Us para incluir los videos About the Team y About the Product mediante iframes de YouTube.
+
+**Configuración de despliegue - Frontend Web Application:**
+
+- **Plataforma:** GitHub Pages
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- **URL pública:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- **Alcance del Sprint 3:** integración progresiva con el backend real, actualización de consumo mediante `BaseApi` y `.env.development`, e incorporación de las rutas `/iot` y `/subscriptions`.
 
 **Configuración de despliegue en Render - Backend:**
 
@@ -982,6 +995,7 @@ El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Di
     <b>Commits gráficas Backend - Sprint 3</b>
   </p>
   <img src="../../assets/chapter-5/Sprint3GraficosCommits.jpeg" alt="Commits Sprint 3" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-backend.</i></p>
 </div>
 
 <div align="center">

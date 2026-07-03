@@ -139,10 +139,52 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 <br>
 
-## 5.3.3. Análisis de entrevistas
+## 5.3.3. Evaluaciones según heurísticas
 
-A partir de las cinco entrevistas de validación realizadas, se identificó que el 100% de los entrevistados registra actualmente información importante mediante herramientas manuales o poco integradas, como cuadernos, hojas de cálculo o registros básicos. Este resultado confirma que el problema de organización y centralización de información existe en ambos segmentos evaluados. Asimismo, el 80% de los entrevistados comprendió rápidamente la propuesta de valor de AniTec desde el landing page, mientras que el 20% restante reconoció la utilidad de la solución, pero señaló que se necesita mayor evidencia de confianza, ejemplos de uso o beneficios más específicos para convencerse por completo.
+La evaluación heurística de AniTec se realizó a partir de las sesiones de validación con usuarios de los segmentos ganadero y veterinario. Durante estas sesiones, los entrevistados interactuaron con la landing page y con la aplicación web, revisando los flujos principales según su rol. La evaluación considera criterios de usabilidad, arquitectura de información e inclusive design, con el objetivo de identificar fortalezas, problemas de experiencia de usuario y oportunidades de mejora.
 
-Respecto a la Web Application, el 100% de los participantes valoró positivamente la centralización de módulos como animales, sanidad, actividades, finanzas, clientes, pacientes, analíticas e IoT, dependiendo de su perfil. En el segmento ganadero, que representa el 60% de la muestra, se destacó principalmente la utilidad del dashboard, el control sanitario, la gestión de animales y el registro de actividades de la finca. En el segmento veterinario, correspondiente al 40% de la muestra, se valoró la posibilidad de organizar clientes ganaderos, revisar pacientes, registrar eventos sanitarios y realizar seguimiento clínico desde una misma plataforma. Además, el 80% de los entrevistados manifestó que la navegación general y la organización del menú resultan claras para el uso inicial de la aplicación.
+Para registrar los hallazgos se utilizó una escala de severidad simple:
 
-Como oportunidades de mejora, el 60% de los entrevistados sugirió ampliar los campos de registro, especialmente en información clínica, datos del animal, tratamientos, vacunaciones, observaciones médicas, fotos o variables productivas como suelo y clima. También se identificó que el 40% de los usuarios considera importante reforzar los reportes, estadísticas, alertas o recordatorios para apoyar mejor la toma de decisiones. En conclusión, las entrevistas validan que AniTec responde a una necesidad real de los ganaderos y veterinarios, ya que permite reemplazar registros dispersos por una plataforma centralizada. Sin embargo, para incrementar su adopción, se recomienda fortalecer el detalle de los formularios, mejorar los indicadores del dashboard y comunicar con mayor claridad los beneficios específicos para cada segmento.
+| Severidad | Descripción |
+| --------- | ----------- |
+| 0 | No representa un problema de experiencia de usuario. |
+| 1 | Problema menor que puede corregirse sin afectar el flujo principal. |
+| 2 | Problema moderado que puede generar dudas o fricción en algunos usuarios. |
+| 3 | Problema importante que puede dificultar el cumplimiento de una tarea. |
+| 4 | Problema crítico que impide completar una tarea principal. |
+
+**Evaluación heurística - Segmento Ganadero:**
+
+| Criterio evaluado | Evidencia observada | Severidad | Recomendación |
+| ----------------- | ------------------- | --------- | ------------- |
+| Visibilidad del estado del sistema | El dashboard ganadero permite visualizar animales, hatos, eventos sanitarios y actividades principales. Sin embargo, algunas vistas podrían reforzar mensajes de carga o confirmación. | 1 | Mantener estados visibles de carga, éxito y error en formularios y listados. |
+| Correspondencia entre el sistema y el mundo real | Los términos animales, hatos, sanidad, actividades, finanzas e IoT fueron comprensibles para los ganaderos entrevistados. | 0 | Mantener vocabulario cercano al contexto ganadero. |
+| Control y libertad del usuario | Los usuarios pueden navegar por módulos, registrar datos y volver al dashboard, pero algunos formularios podrían tener acciones de cancelación más visibles. | 1 | Hacer más claros los botones para cancelar o volver sin guardar cambios. |
+| Consistencia y estándares | La aplicación mantiene navegación lateral, formularios y tarjetas con estructura similar entre módulos. | 0 | Mantener la consistencia visual y de interacción en futuras pantallas. |
+| Prevención de errores | Los formularios incluyen campos definidos, pero algunos datos importantes podrían necesitar validaciones o ayudas adicionales. | 2 | Añadir mensajes claros para campos obligatorios y formatos esperados. |
+| Reconocimiento antes que memoria | El menú lateral permite reconocer las secciones disponibles sin memorizar rutas. | 0 | Mantener iconos y nombres de menú visibles. |
+| Flexibilidad y eficiencia de uso | El dashboard y accesos por módulo facilitan tareas frecuentes, aunque podrían agregarse accesos rápidos a registros usados con frecuencia. | 1 | Añadir accesos rápidos a registrar animal, evento sanitario o actividad. |
+| Diseño estético y minimalista | La interfaz presenta información organizada, aunque algunos dashboards podrían priorizar mejor los datos más importantes. | 1 | Jerarquizar indicadores críticos y reducir contenido secundario en primer vistazo. |
+| Ayuda al usuario a reconocer y recuperarse de errores | Algunas operaciones muestran mensajes, pero no todos los errores de conexión o guardado son suficientemente descriptivos. | 2 | Mostrar mensajes de error más específicos cuando falle el backend o una operación. |
+| Inclusive design y accesibilidad | La aplicación usa textos comprensibles y navegación por rol, pero se debe seguir cuidando contraste, tamaño de texto y legibilidad en mobile. | 1 | Validar contraste, tamaños de texto y uso en pantallas pequeñas. |
+
+**Evaluación heurística - Segmento Veterinario:**
+
+| Criterio evaluado | Evidencia observada | Severidad | Recomendación |
+| ----------------- | ------------------- | --------- | ------------- |
+| Visibilidad del estado del sistema | El dashboard veterinario muestra clientes, pacientes y alertas, lo que ayuda a entender la carga de trabajo inicial. | 0 | Mantener indicadores visibles de clientes y pacientes asignados. |
+| Correspondencia entre el sistema y el mundo real | Los conceptos clientes, pacientes, historial clínico, eventos sanitarios y actividades coinciden con tareas veterinarias básicas. | 0 | Reforzar textos específicos para veterinarios en landing page y aplicación. |
+| Control y libertad del usuario | El veterinario puede revisar clientes y pacientes, pero el flujo depende de seleccionar un cliente para ver información asociada. | 1 | Explicar mejor el paso de selección de cliente antes de revisar animales o historial. |
+| Consistencia y estándares | Las vistas mantienen estructura similar al resto de la aplicación, lo que facilita aprendizaje. | 0 | Mantener componentes y patrones ya definidos. |
+| Prevención de errores | El registro sanitario funciona para casos básicos, pero los entrevistados sugirieron campos clínicos adicionales. | 2 | Añadir campos como dosis, vía de administración, signos vitales u observaciones cuando el alcance lo permita. |
+| Reconocimiento antes que memoria | La navegación por menú facilita encontrar clientes, pacientes, sanidad, actividades e IoT. | 0 | Mantener agrupación de módulos por rol. |
+| Flexibilidad y eficiencia de uso | El dashboard centraliza información útil, pero podrían existir accesos rápidos para registrar visita o evento sanitario. | 1 | Agregar accesos directos a tareas veterinarias frecuentes. |
+| Diseño estético y minimalista | La información se presenta de forma ordenada, aunque las vistas clínicas podrían beneficiarse de una jerarquía más clara. | 1 | Diferenciar visualmente datos clínicos, historial y acciones principales. |
+| Ayuda al usuario a reconocer y recuperarse de errores | Los mensajes de error pueden mejorar cuando no se cargan clientes, pacientes o eventos sanitarios. | 2 | Mostrar mensajes específicos para errores de conexión o ausencia de datos asignados. |
+| Inclusive design y accesibilidad | La experiencia por rol ayuda a reducir información innecesaria, pero se debe seguir validando legibilidad en dispositivos pequeños. | 1 | Revisar responsive, contraste y claridad de textos médicos. |
+
+**Resumen de hallazgos heurísticos:**
+
+La evaluación muestra que AniTec cumple adecuadamente con criterios de correspondencia con el mundo real, consistencia, reconocimiento y organización general de la información. Los usuarios comprenden la división por roles y reconocen la utilidad de centralizar animales, sanidad, actividades, finanzas, clientes, pacientes, IoT y suscripciones en una sola plataforma.
+
+Los principales puntos de mejora se concentran en prevención de errores, mensajes de retroalimentación y detalle de formularios. En el segmento ganadero, se recomienda reforzar validaciones y accesos rápidos a tareas frecuentes. En el segmento veterinario, se recomienda ampliar progresivamente campos clínicos y explicar con mayor claridad el flujo de selección de cliente antes de revisar pacientes o historial sanitario.
