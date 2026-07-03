@@ -1,4 +1,4 @@
-<div style="font-size: 18px; line-height: 1.65;">
+<div style="font-size: 16px; line-height: 1.65;">
 
 <br/>
 <div align="center">
@@ -10,54 +10,54 @@
 
 <h2 align="center"><strong>1ASI0730</strong></h2>
 <h2 align="center"><strong>Aplicaciones Web</strong></h2>
-<h2 align="center"><strong>NRC</strong></h2>
+<h2 align="center">NRC</h2>
 <h2 align="center"><strong>12206</strong></h2>
 <h2 align="center"><strong>Informe del Trabajo Final</strong></h2>
-<h2 align="center"><strong>Docente</strong></h2>
+<h2 align="center">Docente</h2>
 <h2 align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></h2>
-<h2 align="center"><strong>Equipo</strong></h2>
+<h2 align="center">Equipo</h2>
 <h2 align="center"><strong>Titan</strong></h2>
-<h2 align="center"><strong>Proyecto</strong></h2>
+<h2 align="center">Proyecto</h2>
 <h2 align="center"><strong>AniTec</strong></h2>
 
 <h2 align="center"><strong>Integrantes:</strong></h2>
 
 
 <div align="center">
-  <table align="center" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border: 1px solid #000;">
+  <table align="center">
     <thead>
       <tr>
-        <th align="center" style="border: 1px solid #000; padding: 8px;">Código</th>
-        <th align="center" style="border: 1px solid #000; padding: 8px;">Nombre</th>
+        <th align="center" >Código</th>
+        <th align="center" >Nombre</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">U20241C030</td>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">Ayala Fernandez, Jorge Brayan</td>
+        <td align="center" >U20241C030</td>
+        <td align="center" >Ayala Fernandez, Jorge Brayan</td>
       </tr>
       <tr>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">U202117762</td>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">Huaman Gallardo, Bruno Aldair</td>
+        <td align="center" >U202117762</td>
+        <td align="center" >Huaman Gallardo, Bruno Aldair</td>
       </tr>
       <tr>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">U202315165</td>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">Melgarejo Quiroz, Josep Eliu</td>
+        <td align="center" >U202315165</td>
+        <td align="center" >Melgarejo Quiroz, Josep Eliu</td>
       </tr>
       <tr>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">U202318001</td>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">Raymundo Villarroel, Nadhim Abigail</td>
+        <td align="center" >U202318001</td>
+        <td align="center" >Raymundo Villarroel, Nadhim Abigail</td>
       </tr>
       <tr>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">U202215979</td>
-        <td align="center" style="border: 1px solid #000; padding: 8px;">Sanchez Silva, Luciana Celeste</td>
+        <td align="center" >U202215979</td>
+        <td align="center" >Sanchez Silva, Luciana Celeste</td>
       </tr>
     </tbody>
   </table>
 </div>
 
 <h2 align="center"><strong>Período 202610</strong></h2>
-<h2 align="center"><strong>Junio 2026</strong></h2>
+<h2 align="center"><strong>Julio 2026</strong></h2>
 
 <div style="page-break-before: always;"></div>
 
@@ -7158,80 +7158,92 @@ En el caso del segmento ganadero, la evaluación se orienta a la gestión de hat
 A continuación, se presentan los cuadros de registro para las entrevistas de validación. Estos cuadros serán completados manualmente con los datos del entrevistado, evidencia, enlace de la entrevista y transcripción correspondiente.
 
 **Segmento Objetivo 1: Ganaderos**
-
-| **ENTREVISTA N°1** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** |Rodrigo Alfaro |
-| **Edad** | 25 |
-| **Profesión** | Ganadero |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:13 |
-| **Fin del video** | 00:09:36 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI |
-| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevistaRodrigo2.jpeg) |
-| **Resumen** | En la entrevista, el ganadero Rodrigo Alfaro comenta que trabaja en la crianza de bovinos, ovinos y aves en una finca familiar, donde actualmente registra la información de manera poco ordenada en cuadernos y Excel. Señala que AniTec le parece una solución clara y confiable para organizar mejor la gestión de sus animales, la sanidad, las actividades y las finanzas, destacando especialmente el dashboard y las funcionalidades principales. También sugiere mejoras como incluir más datos en el registro de animales, recordatorios automáticos, fotos y una versión móvil más práctica. En general, considera que la aplicación sería muy útil para su trabajo diario. |
-
-<br>
-
-| **ENTREVISTA N°2** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** |Kiara Gallardo  |
-| **Edad** | 22 |
-| **Profesión** | Ganadero |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:06:30 |
-| **Fin del video** | 00:17:25 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD |
-| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevistaKiara.png) |
-| **Resumen** | La ganadera Kiara señaló que actualmente gestiona información de su ganado mediante registros manuales y consideró que AniTec comunica de forma clara su propósito y beneficios desde el landing page. Destacó la facilidad para navegar por la aplicación, la utilidad del dashboard para visualizar información relevante y la claridad de las secciones relacionadas con animales, sanidad, actividades, finanzas e IoT. Asimismo, valoró positivamente las herramientas para registrar eventos sanitarios, organizar tareas y controlar ingresos y gastos de la finca. En general, tuvo una experiencia satisfactoria, no identificó dificultades importantes durante el uso y afirmó que utilizaría AniTec en sus actividades diarias, recomendando únicamente ampliar la cantidad de reportes y estadísticas disponibles para apoyar una mejor toma de decisiones. |
+<table>
+  <tr>
+    <th colspan="2">ENTREVISTA N°1</th>
+  </tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Rodrigo Alfaro</td></tr>
+  <tr><td><strong>Edad</strong></td><td>25</td></tr>
+  <tr><td><strong>Profesión</strong></td><td>Ganadero</td></tr>
+  <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
+  <tr><td><strong>Inicio del video</strong></td><td>00:00:13</td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:09:36</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionAlfaro">https://tinyurl.com/EntrevistaValidacionAlfaro</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaRodrigo2.jpeg" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Resumen</strong></td><td>En la entrevista, el ganadero Rodrigo Alfaro comenta que trabaja en la crianza de bovinos, ovinos y aves en una finca familiar, donde actualmente registra la información de manera poco ordenada en cuadernos y Excel. Señala que AniTec le parece una solución clara y confiable para organizar mejor la gestión de sus animales, la sanidad, las actividades y las finanzas, destacando especialmente el dashboard y las funcionalidades principales. También sugiere mejoras como incluir más datos en el registro de animales, recordatorios automáticos, fotos y una versión móvil más práctica. En general, considera que la aplicación sería muy útil para su trabajo diario.</td></tr>
+</table>
 
 <br>
 
-| **ENTREVISTA N°3** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** | Vicente |
-| **Edad** | 61 |
-| **Profesión** | Ganadero |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:07:30 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0 |
-| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevista-bruno.png) |
-| **Resumen** | Entrevistado: Vicente, quien es ganadero y se dedica a la crianza de vacunos, lo cual aporta un perfil técnico y práctico necesario para validar la utilidad de la aplicación. ​Problemática Actual del Entrevistado: ​Vicente menciona que, actualmente, el registro de información sobre sus animales, fincas, actividades y gastos lo realiza de manera espontánea utilizando una hoja de cálculo en Excel, lo cual indica una oportunidad clara para digitalizar y automatizar estos procesos.  ​Validación de la Solución (AniTec): ​Confianza y Usabilidad: Aunque Vicente no afirma estar convencido al 100% de inmediato, reconoce la utilidad de la aplicación para llevar un mejor control y organizar actividades, como el control de vacunas, tratamientos y alimentación, basándose en la edad y tipo de ganado. ​Sugerencias de Mejora: Vicente sugiere que la aplicación debería permitir agregar variables adicionales, como el tipo de suelo o clima, para complementar los datos sanitarios y de alimentación, lo que ayudaría a una toma de decisiones más precisa. ​Valor del Dashboard: El entrevistado coincide en que el panel de control (dashboard) es una herramienta valiosa para obtener información útil y rápida para la toma de decisiones, especialmente si la información se puede centralizar en un solo lugar. |
+<table>
+  <tr>
+    <th colspan="2">ENTREVISTA N°2</th>
+  </tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Kiara Gallardo</td></tr>
+  <tr><td><strong>Edad</strong></td><td>22</td></tr>
+  <tr><td><strong>Profesión</strong></td><td>Ganadero</td></tr>
+  <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
+  <tr><td><strong>Inicio del video</strong></td><td>00:06:30</td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:17:25</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionGallardo">https://tinyurl.com/EntrevistaValidacionGallardo</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaKiara.png" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Resumen</strong></td><td>La ganadera Kiara señaló que actualmente gestiona información de su ganado mediante registros manuales y consideró que AniTec comunica de forma clara su propósito y beneficios desde el landing page. Destacó la facilidad para navegar por la aplicación, la utilidad del dashboard para visualizar información relevante y la claridad de las secciones relacionadas con animales, sanidad, actividades, finanzas e IoT. Asimismo, valoró positivamente las herramientas para registrar eventos sanitarios, organizar tareas y controlar ingresos y gastos de la finca. En general, tuvo una experiencia satisfactoria, no identificó dificultades importantes durante el uso y afirmó que utilizaría AniTec en sus actividades diarias, recomendando únicamente ampliar la cantidad de reportes y estadísticas disponibles para apoyar una mejor toma de decisiones.</td></tr>
+</table>
 
 <br>
 
-**Segmento Objetivo 2: Veterinarios**
+<table>
+  <tr>
+    <th colspan="2">ENTREVISTA N°3</th>
+  </tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Vicente</td></tr>
+  <tr><td><strong>Edad</strong></td><td>61</td></tr>
+  <tr><td><strong>Profesión</strong></td><td>Ganadero</td></tr>
+  <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
+  <tr><td><strong>Inicio del video</strong></td><td>00:00:00</td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:07:30</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionVicente">https://tinyurl.com/EntrevistaValidacionVicente</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevista-bruno.png" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Resumen</strong></td><td>Entrevistado: Vicente, quien es ganadero y se dedica a la crianza de vacunos, lo cual aporta un perfil técnico y práctico necesario para validar la utilidad de la aplicación. Actualmente registra la información de sus animales, fincas, actividades y gastos en Excel. Considera que AniTec es útil para organizar actividades, controlar vacunas, tratamientos y alimentación. Sugiere incorporar variables como el tipo de suelo o clima para complementar la información sanitaria. También destaca el dashboard como una herramienta valiosa para centralizar información y facilitar la toma de decisiones.</td></tr>
+</table>
 
 <br>
 
-| **ENTREVISTA N°4** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** | Andrea Solis  |
-| **Edad** | 24 |
-| **Profesión** | Veterinario |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:07:00 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
-| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevistaAndrea1.jpeg) |
-| **Resumen** | En la entrevista, la veterinaria Andrea comenta que actualmente organiza la información de sus clientes, pacientes y visitas de forma manual, con cuadernos y Excel. Señala que el landing page de AniTec deja claro que la plataforma también está pensada para veterinarios, destacando el historial médico completo, la comunicación con el ganadero y las estadísticas de salud. Al probar la aplicación, valora el dashboard por mostrarle rápidamente sus clientes y pacientes asignados, así como la facilidad para agregar clientes, revisar sus fincas y registrar eventos sanitarios completos. Como mejoras, sugiere agregar más campos clínicos (dosis, vía de administración, signos vitales) y aclarar mejor el funcionamiento del seguimiento de visitas.   |
+<h3>Segmento Objetivo 2: Veterinarios</h3>
 
 <br>
 
-| **ENTREVISTA N°5** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** | Hugo Jorge  |
-| **Edad** | 25 |
-| **Profesión** | Veterinario |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:04:30 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN |
-| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevista-hugo.png) |
-| **Resumen** | Como resultado de la entrevista, el veterinario indicó que actualmente organiza la información de clientes, pacientes y visitas mediante registros manuales y herramientas básicas, por lo que valoró que AniTec centralice toda la información en una sola plataforma. Señaló que el landing page transmite de manera general el propósito de la aplicación, aunque recomendó destacar con mayor claridad los beneficios específicos para veterinarios mediante ejemplos de uso, testimonios y detalles sobre la gestión sanitaria del ganado para generar mayor confianza. Respecto al registro sanitario, sugirió incorporar campos adicionales relacionados con tratamientos, historial clínico, vacunaciones y observaciones médicas. Consideró que la sección de actividades sería útil para programar visitas, controles y seguimientos periódicos, mientras que las alertas y estados sanitarios del dashboard le parecieron comprensibles y fáciles de identificar. Finalmente, destacó que la sección de analíticas proporciona información relevante para el seguimiento de clientes, animales y eventos sanitarios, facilitando la toma de decisiones y el monitoreo integral de la salud del ganado. |
+<table>
+  <tr>
+    <th colspan="2">ENTREVISTA N°4</th>
+  </tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Andrea Solis</td></tr>
+  <tr><td><strong>Edad</strong></td><td>24</td></tr>
+  <tr><td><strong>Profesión</strong></td><td>Veterinario</td></tr>
+  <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
+  <tr><td><strong>Inicio del video</strong></td><td>00:00:00</td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:07:00</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionSolis">https://tinyurl.com/EntrevistaValidacionSolis</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaAndrea1.jpeg" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Resumen</strong></td><td>Andrea comenta que organiza la información de sus clientes y pacientes mediante cuadernos y Excel. Considera que AniTec comunica claramente que también está orientado a veterinarios. Destaca el historial médico, la comunicación con el ganadero y las estadísticas de salud. Sugiere agregar más campos clínicos como dosis, vía de administración y signos vitales, además de mejorar la explicación del seguimiento de visitas.</td></tr>
+</table>
 
 <br>
+
+<table>
+  <tr>
+    <th colspan="2">ENTREVISTA N°5</th>
+  </tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Hugo Jorge</td></tr>
+  <tr><td><strong>Edad</strong></td><td>25</td></tr>
+  <tr><td><strong>Profesión</strong></td><td>Veterinario</td></tr>
+  <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
+  <tr><td><strong>Inicio del video</strong></td><td>00:00:00</td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:04:30</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionHugo">https://tinyurl.com/EntrevistaValidacionHugo</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevista-hugo.png" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Resumen</strong></td><td>El veterinario indicó que actualmente organiza la información mediante registros manuales y herramientas básicas. Valoró que AniTec centralice toda la información en una sola plataforma. Recomendó destacar mejor los beneficios para veterinarios en el landing page e incorporar más campos relacionados con tratamientos, historial clínico y vacunaciones. También resaltó la utilidad de las actividades, alertas, dashboard y analíticas para el seguimiento sanitario y la toma de decisiones.</td></tr>
+</table>
 
 <a id="toc-5-3-3-evaluaciones-segun-heuristicas"></a>
 ## 5.3.3. Evaluaciones según heurísticas
