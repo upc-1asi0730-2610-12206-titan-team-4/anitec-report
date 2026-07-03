@@ -658,8 +658,8 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 
 | Bounded Context | Método | Endpoint | Descripción |
 | --------------- | ------ | -------- | ----------- |
-| IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión de usuarios registrados y generación de token JWT. |
-| IAM | POST | `/api/v1/authentication/sign-up` | Registro de nuevos usuarios con contraseña encriptada. |
+| IAM | POST | `/api/v1/auth/tokens` | Inicio de sesión de usuarios registrados y generación de token JWT. |
+| IAM | POST | `/api/v1/users` | Registro de nuevos usuarios con contraseña encriptada. |
 | IAM | GET | `/api/v1/users` | Consulta de usuarios del sistema. |
 | IAM | GET | `/api/v1/users/{id}` | Consulta de un usuario por identificador. |
 | Profiles | GET | `/api/v1/profiles` | Consulta de perfiles registrados. |
@@ -690,26 +690,24 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 | Activities | POST | `/api/v1/farm-events` | Registro de nuevas actividades de granja. |
 | Activities | PUT | `/api/v1/farm-events/{id}` | Actualización de una actividad. |
 | Activities | DELETE | `/api/v1/farm-events/{id}` | Eliminación de una actividad. |
-| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/dashboard` | Dashboard de métricas principales para ganaderos. |
-| Analytics | GET | `/api/v1/analytics/veterinarians/{veterinarianId}/dashboard` | Dashboard de métricas principales para veterinarios. |
-| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/health-summary` | Resumen sanitario del ganadero. |
-| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/financial-summary` | Resumen financiero del ganadero. |
+| Analytics | GET | `/api/v1/ranchers/{rancherId}` | Dashboard de métricas principales para ganaderos. |
+| Analytics | GET | `/api/v1/veterinarians/{veterinarianId}` | Dashboard de métricas principales para veterinarios. |
 | Analytics | GET | `/api/v1/report-metrics` | Consulta de métricas de reportes. |
 | Analytics | GET | `/api/v1/report-metrics/{id}` | Consulta de una métrica de reporte por identificador. |
 | Analytics | POST | `/api/v1/report-metrics` | Registro de métricas de reportes. |
 | Analytics | PUT | `/api/v1/report-metrics/{id}` | Actualización de una métrica de reporte. |
 | Analytics | DELETE | `/api/v1/report-metrics/{id}` | Eliminación de una métrica de reporte. |
-| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/clients` | Consulta de clientes asignados a un veterinario. |
-| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/available-ranchers` | Consulta de ganaderos disponibles para asociar. |
-| Clients | POST | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Asociación de un ganadero a un veterinario. |
-| Clients | DELETE | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Eliminación de la relación entre veterinario y ganadero. |
+| Clients | GET | `/api/v1/veterinarians/{veterinarianId}/clients` | Consulta de clientes asignados a un veterinario. |
+| Clients | GET | `/api/v1/veterinarians/{veterinarianId}/ranchers?status=available` | Consulta de ganaderos disponibles para asociar. |
+| Clients | POST | `/api/v1/veterinarians/{veterinarianId}/clients/{rancherId}` | Asociación de un ganadero a un veterinario. |
+| Clients | DELETE | `/api/v1/veterinarians/{veterinarianId}/clients/{rancherId}` | Eliminación de la relación entre veterinario y ganadero. |
 | Devices | GET | `/api/v1/devices` | Consulta de dispositivos IoT registrados. |
 | Devices | GET | `/api/v1/devices/{id}` | Consulta de un dispositivo por identificador. |
 | Devices | POST | `/api/v1/devices` | Registro de nuevos dispositivos IoT. |
 | Devices | PUT | `/api/v1/devices/{id}` | Actualización de un dispositivo IoT. |
 | Devices | DELETE | `/api/v1/devices/{id}` | Eliminación de un dispositivo IoT. |
 | Devices | GET | `/api/v1/devices/{id}/metrics` | Consulta de métricas asociadas a un dispositivo. |
-| Devices | GET | `/api/v1/devices/{id}/latest-metric` | Consulta de la última métrica registrada por un dispositivo. |
+| Devices | GET | `/api/v1/devices/{id}/metrics/latest` | Consulta de la última métrica registrada por un dispositivo. |
 | Metrics | GET | `/api/v1/device-metrics` | Consulta de métricas de dispositivos. |
 | Metrics | GET | `/api/v1/device-metrics/{id}` | Consulta de una métrica de dispositivo por identificador. |
 | Metrics | POST | `/api/v1/device-metrics` | Registro de métricas de dispositivos. |
@@ -725,9 +723,9 @@ Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando
 | Subscriptions | POST | `/api/v1/subscriptions` | Registro de nuevas suscripciones. |
 | Subscriptions | PUT | `/api/v1/subscriptions/{id}` | Actualización de una suscripción. |
 | Subscriptions | DELETE | `/api/v1/subscriptions/{id}` | Eliminación de una suscripción. |
-| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/active` | Consulta de la suscripción activa de un usuario. |
-| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
-| Subscriptions | POST | `/api/v1/subscriptions/mock-checkout` | Simulación de pago para pruebas del flujo de suscripción. |
+| Subscriptions | GET | `/api/v1/users/{userId}/subscriptions/current` | Consulta de la suscripción activa de un usuario. |
+| Subscriptions | GET | `/api/v1/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
+| Subscriptions | POST | `/api/v1/checkouts` | Simulación de pago para pruebas del flujo de suscripción. |
 
 **Ejemplos de interacción con endpoints principales:**
 
