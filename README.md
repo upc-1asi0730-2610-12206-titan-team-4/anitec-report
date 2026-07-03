@@ -3,22 +3,22 @@
   <img src="./markdown/assets/upc_logo.png" alt="UPC Logo" width="80">
 </div>
 <br/>
-<h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
-<h2 align="center"><strong>Carrera de Ingeniería de Software</strong></h2>
+<h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
+<h2 align="center">Carrera de Ingeniería de Software</h2>
 
-<h2 align="center"><strong>1ASI0730</strong></h2>
-<h2 align="center"><strong>Aplicaciones Web</strong></h2>
-<h2 align="center"><strong>NRC</strong></h2>
-<h2 align="center"><strong>12206</strong></h2>
-<h2 align="center"><strong>Informe del Trabajo Final</strong></h2>
-<h2 align="center"><strong>Docente</strong></h2>
-<h2 align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></h2>
-<h2 align="center"><strong>Equipo</strong></h2>
-<h2 align="center"><strong>Titan</strong></h2>
-<h2 align="center"><strong>Proyecto</strong></h2>
-<h2 align="center"><strong>AniTec</strong></h2>
+<h3 align="center"><strong>1ASI0730</strong></h3>
+<h3 align="center"><strong>Aplicaciones Web</strong></h3>
+<h4 align="center">NRC</h4>
+<h3 align="center"><strong>12206</strong></h3>
+<h3 align="center"><strong>Informe del Trabajo Final</strong></h3>
+<h4 align="center">Docente</h4>
+<h3 align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></h3>
+<h4 align="center">Equipo</h4>
+<h3 align="center"><strong>Titan</strong></h3>
+<h4 align="center">Proyecto</h4>
+<h3 align="center"><strong>AniTec</strong></h3>
 
-<h2 align="center"><strong>Integrantes:</strong></h2>
+<h3 align="center"><strong>Integrantes:</strong></h3>
 
 
 <div align="center">
@@ -54,8 +54,8 @@
   </table>
 </div>
 
-<h2 align="center"><strong>Período 202610</strong></h2>
-<h2 align="center"><strong>Junio 2026</strong></h2>
+<h3 align="center"><strong>Período 202610</strong></h3>
+<h3 align="center"><strong>Junio 2026</strong></h3>
 
 <div style="page-break-before: always;"></div>
 
