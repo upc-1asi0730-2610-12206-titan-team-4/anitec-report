@@ -63,6 +63,32 @@ En el caso del segmento ganadero, la evaluación se orienta a la gestión de hat
 
 A continuación, se presentan los cuadros de registro para las entrevistas de validación. Estos cuadros serán completados manualmente con los datos del entrevistado, evidencia, enlace de la entrevista y transcripción correspondiente.
 
+### Entrevista de validación - Segmento Ganadero: E01
+
+| **CATEGORÍA** | **DETALLE** |
+| :--- | :--- |
+| **Código** | E01 |
+| **Edad** | 47 años |
+| **Ocupación** | Ganadero |
+| **Experiencia** | 20 años |
+| **Fecha** | 25/06/2026 |
+| **Inicio del video** | 00:00:13 |
+| **Fin del video** | 00:09:36 |
+| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaRodrigo2.jpeg) |
+| **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
+| Frustración: pierde registros | Confirma uso de cuadernos y hojas sueltas; causa pérdida de información. / Sí |
+| Frustración: recordar vacunas | Necesita revisar cuadernos; la App es útil para no olvidar vacunas/tratamientos. / Sí |
+| Meta: controlar ganado | El *dashboard* facilita la visualización del estado de sus animales. / Sí |
+| Meta: reducir pérdidas | El registro de ingresos/egresos ayuda a tomar mejores decisiones. / Sí |
+| Motivación: negocio organizado | La plataforma centraliza la información y profesionaliza la gestión. / Sí |
+| **Aspectos positivos** | Navegación intuitiva, propósito claro y secciones con nombres entendibles. |
+| **Dificultades** | Sección IoT difícil de comprender y encontrar; requiere mayor apoyo visual. |
+| **Recomendaciones** | Alertas automáticas para actividades, fotos de animales y versión móvil optimizada. |
+| **Conclusión** | AniTec resuelve problemas reales (registro manual). Se requiere simplificar la sección IoT y mejorar la usabilidad móvil. |
+
+
+
 **Segmento Objetivo 1: Ganaderos**
 
 | **ENTREVISTA N°1** | |
