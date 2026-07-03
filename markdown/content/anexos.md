@@ -4,36 +4,36 @@
 
 ## Anexo A. Videos de exposiciones
 
-- Exposición Avance 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD
-- Exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1
-- Exposición AV2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQBNbZRIWFzfSZQT4mSa7cCyAa-felpel01CsMzjW-O3eFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BKHhcW
+- Exposición Avance 1: https://tinyurl.com/ExposicionAvance1
+- Exposición TB1: https://tinyurl.com/ExposicionTB1
+- Exposición AV2: https://tinyurl.com/ExposicionAvance2
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo B. Videos de entrevistas
 
-- Entrevista 1 - Vicente Alacutte, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M
-- Entrevista 2 - Rebeca Reyes, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- Entrevista 3 - Porfirio Sandoval, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
-- Entrevista 4 - Angela Moran, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx
-- Entrevista 5 - Aldahir Sillo, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi
+- Entrevista 1 - Vicente Huaman, ganadero: https://tinyurl.com/entrevista1VicenteHuaman
+- Entrevista 2 - Rebeca Quiroz, ganadera: https://tinyurl.com/entrevista2RebecaQuiroz
+- Entrevista 3 - Porfirio Salazar, ganadero: https://tinyurl.com/entrevista3PorfirioSalazar
+- Entrevista 4 - Angela Mendoza, ganadera: https://tinyurl.com/entrevista4AngelaMendoza
+- Entrevista 5 - Aldahir Santos, ganadero: https://tinyurl.com/entrevista5AldahirSantos
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo C. Videos de entrevistas de validación
 
-- Entrevista 1 - Rodrigo Alfaro: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI
-- Entrevista 2 - Kiara Gallardo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD
-- Entrevista 3 - Vicente: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0
-- Entrevista 4 - Andrea Solis: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- Entrevista 5 - Hugo Jorge: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN
+- Entrevista 1 - Rodrigo Alfaro: 
+- Entrevista 2 - Kiara Gallardo: 
+- Entrevista 3 - Vicente: 
+- Entrevista 4 - Andrea Solis: 
+- Entrevista 5 - Hugo Jorge: 
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo D. Materiales de ideación y diseño
 
-- Lean UX Canvas del proyecto AniTec: https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781
-- Big Picture EventStorming y Design-Level EventStorming: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
+- Lean UX Canvas del proyecto AniTec: https://tinyurl.com/LeanUxCanvasMural
+- Big Picture EventStorming y Design-Level EventStorming: https://tinyurl.com/eventStormingMiro
 - Big Picture EventStorming, enlace alternativo usado en el capítulo 2: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
 - Wireframe de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1
 - Mock-up de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1
