@@ -1,17 +1,31 @@
 # Bibliografía
 
-Bourgau, P. (29 de marzo de 2022). _Step by Step Guide to run your Big Picture Event Storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
+Bourgau, P. (2022, marzo 29). _Step by step guide to run your big picture event storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
 
 Evans, E. (2003). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley Professional.
 
-FAO. (2022). _'Digital agriculture: Technologies transforming agriculture and food systems_. Food and Agriculture Organization of the United Nations. https://www.fao.org/digital-agriculture/en/
+Food and Agriculture Organization of the United Nations. (2022). _Digital agriculture: Technologies transforming agriculture and food systems_. https://www.fao.org/digital-agriculture/en/
 
-FAO. (2023). _Livestock and the environment_. Food and Agriculture Organization of the United Nations. https://www.fao.org/livestock-environment/en/
+Food and Agriculture Organization of the United Nations. (2023). _Livestock and the environment_. https://www.fao.org/livestock-environment/en/
 
-Chandrasekaran, P. (2024, 9 de agosto). _Remote EventStorming in Practice. Domain-driven Design: A Practitioner’s Guide_. https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
+Chandrasekaran, P. (2023, marzo 20). _Remote EventStorming in practice_. Domain-driven Design: A Practitioner's Guide. https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
 
-Cohn, M. (2006). _Historias de usuario: Un enfoque ágil_. Pearson Educación. https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+Cohn, M. (2006). _User stories applied: For agile software development_. Addison-Wesley Professional.
 
-Gothelf, J., & Seiden, J. (2021). _Lean UX_. O’Reilly Media, Inc.
+Gothelf, J., & Seiden, J. (2021). _Lean UX: Designing great products with agile teams_ (3rd ed.). O'Reilly Media.
 
-Pressman, R. S. (2010). _Ingeniería de Software: Un enfoque práctico_. McGraw-Hill. https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+Microsoft. (2026). _ASP.NET Core documentation_. https://learn.microsoft.com/aspnet/core/
+
+Microsoft. (2026). _Entity Framework Core documentation_. https://learn.microsoft.com/ef/core/
+
+MySQL. (2026). _MySQL 8.0 reference manual_. https://dev.mysql.com/doc/refman/8.0/en/
+
+OpenAPI Initiative. (2026). _OpenAPI specification_. https://spec.openapis.org/oas/latest.html
+
+Pressman, R. S. (2010). _Ingeniería de software: Un enfoque práctico_ (7a ed.). McGraw-Hill.
+
+Scrum.org. (2020). _The Scrum Guide_. https://scrumguides.org/scrum-guide.html
+
+Structurizr. (2026). _Structurizr documentation_. https://docs.structurizr.com/
+
+Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
