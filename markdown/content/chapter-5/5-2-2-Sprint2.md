@@ -501,32 +501,38 @@ https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-
 **Vistas Implementadas:**
 
 <div align="center">
-    <p><b>[Agregar screenshot de login]</b></p>
+    <p><b>Login</b></p>
+    <img src="../../assets/chapter-5/Login.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de dashboard ganadero]</b></p>
+    <p><b>Dashboard ganadero</b></p>
+    <img src="../../assets/chapter-5/Dashboard-ganadero.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de gestión de animales]</b></p>
+    <p><b>Gestión de animales</b></p>
+    <img src="../../assets/chapter-5/Gestion-de-animales.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de eventos sanitarios]</b></p>
+    <p><b>Eventos sanitarios</b></p>
+    <img src="../../assets/chapter-5/Eventos-sanitarios.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de finanzas/reportes]</b></p>
+    <p><b>Finanzas/reportes</b></p>
+    <img src="../../assets/chapter-5/Finanzasreportes.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de dashboard veterinario]</b></p>
+    <p><b>Dashboard veterinario</b></p>
+    <img src="../../assets/chapter-5/Dashboard-veterinario.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 

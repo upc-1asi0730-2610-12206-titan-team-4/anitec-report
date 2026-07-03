@@ -400,22 +400,26 @@ https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 **Capturas de Pantalla - Landing Pages:**
 
 <div align="center">
-    <p><b>[Agregar screenshot de la página principal de la landing page]</b></p>
+    <p><b>Landing page principal</b></p>
+    <img src="../../assets/chapter-5/Landing-page-principal.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de página para ganaderos]</b></p>
+    <p><b>Página para ganaderos</b></p>
+    <img src="../../assets/chapter-5/Pagina-para-ganaderos..png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de página para veterinarios]</b></p>
+    <p><b>Página para veterinarios</b></p>
+    <img src="../../assets/chapter-5/Pagina-para-veterinarios.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot de vista responsive/mobile]</b></p>
+    <p><b>Vista responsive/mobile</b></p>
+    <img src="../../assets/chapter-5/Vista-responsivemobile.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 

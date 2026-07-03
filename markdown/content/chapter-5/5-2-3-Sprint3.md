@@ -415,7 +415,7 @@ Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec
 
 <div align="center">
     <p><b>Frontend - Consumo de API real y nuevas vistas</b></p>
-    <img src="../../assets/chapter-5/frontend-evidence.png" width="700">
+    <img src="../../assets/chapter-5/login.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -427,12 +427,13 @@ Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec
 
 <div align="center">
     <p><b>Landing Page - Video About the Product</b></p>
-    <img src="../../assets/chapter-5/imagenvideoproduct.jpeg" width="700">
+    <img src="../../assets/chapter-5/video-about-the-product-landingpage.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 <div align="center">
-    <p><b>[Agregar screenshot del video About the Team en landing page]</b></p>
+    <p><b>Landing Page - Video About the Team</b></p>
+    <img src="../../assets/chapter-5/video-about-the-team-landingpage.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
@@ -565,38 +566,42 @@ Como evidencia adicional, el Video About-the-Product también muestra la navegac
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
-<div align="center">
-    <p><b>[Agregar screenshot de Swagger con endpoints del backend desplegado]</b></p>
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
 
-2. **Integración frontend-backend:** Se verificó que `.env.development` apunte al backend local mediante `http://localhost:5191/api/v1` y que los módulos del frontend usen `BaseApi`, stores, APIs y assemblers para consumir los servicios reales.
+1. **Integración frontend-backend:** Se verificó que `.env.development` apunte al backend local mediante `http://localhost:5191/api/v1` y que los módulos del frontend usen `BaseApi`, stores, APIs y assemblers para consumir los servicios reales.
 
 <div align="center">
     <p><b>Frontend - Consumo del backend real</b></p>
-    <img src="../../assets/chapter-5/frontend-evidence2.png" width="700">
+    <img src="../../assets/chapter-5/Dashboard-ganadero.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
 3. **Módulo IoT:** Se validó la ruta `/iot`, la visualización de dispositivos IoT, la asociación de dispositivos con hatos o animales y la consulta de métricas generadas por sensores.
 
 <div align="center">
-    <p><b>[Agregar screenshot de la ruta /iot con dispositivos IoT]</b></p>
+    <p><b>Frontend - dispositivos IoT</b></p>
+    <img src="../../assets/chapter-5/dispositivos-iot.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
-4. **Módulo Subscriptions:** Se validó la ruta `/subscriptions`, la consulta de planes, la suscripción activa, el historial de pagos y el flujo de pago de prueba mediante el endpoint `/subscriptions/mock-checkout`.
+1. **Módulo Subscriptions:** Se validó la ruta `/subscriptions`, la consulta de planes, la suscripción activa, el historial de pagos y el flujo de pago de prueba mediante el endpoint `/subscriptions/mock-checkout`.
 
 <div align="center">
-    <p><b>[Agregar screenshot de la ruta /subscriptions con planes y pagos de prueba]</b></p>
+    <p><b>Frontend - Subscriptions</b></p>
+    <img src="../../assets/chapter-5/subscripciones.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
-5. **Landing page:** Se validó que la página About Us muestre los videos About the Team y About the Product mediante iframes de YouTube.
+1. **Landing page:** Se validó que la página About Us muestre los videos About the Team y About the Product mediante iframes de YouTube.
+
+<div align="center">
+    <p><b>Landing Page - Video About the team</b></p>
+    <img src="../../assets/chapter-5/video-about-the-team-landingpage.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 <div align="center">
     <p><b>Landing Page - Video About the Product</b></p>
-    <img src="../../assets/chapter-5/landing-page-evidence.png" width="700">
+    <img src="../../assets/chapter-5/video-about-the-product-landingpage.png" width="700">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
 
