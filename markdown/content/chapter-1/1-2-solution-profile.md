@@ -106,72 +106,102 @@ Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de r
 
 ### **User Assumptions:**
 
-### **¿Quién es el usuario?**
+- **Creemos que** los principales usuarios son pequeños y medianos ganaderos, veterinarios y técnicos agropecuarios que asesoran en campo. Creemos que, en etapas posteriores, la plataforma también podría ser utilizada por asociaciones, cooperativas y entidades públicas vinculadas a sanidad, trazabilidad y formalización del sector.
 
-Creemos que los principales usuarios son pequeños y medianos ganaderos, veterinarios y técnicos agropecuarios que asesoran en campo. Creemos que, en etapas posteriores, la plataforma también podría ser utilizada por asociaciones, cooperativas y entidades públicas vinculadas a sanidad, trazabilidad y formalización del sector.
+- **Creemos que** AniTec ayuda a organizar la información del hato, evitando la pérdida de datos importantes y solucionando la falta de seguimiento de vacunas, partos, tratamientos y control económico. Para los veterinarios, ayuda a consultar clientes, revisar pacientes y registrar eventos sanitarios con información más ordenada.Creemos que esto impacta directamente en la rentabilidad del ganadero, en la calidad del seguimiento sanitario y en el cumplimiento de normativas de mercado.
 
-### **¿Qué problemas busca resolver nuestro producto?**
+- **Creemos que** los usuarios valoran el registro individual de cada animal (edad, raza, salud, productividad), alertas automáticas, reportes económicos simples, historial completo del hato y contenido educativo práctico. También creemos que los veterinarios valoran el acceso a clientes asignados, pacientes y eventos sanitarios. Creemos que la facilidad de uso es esencial para su adopción en zonas rurales.
 
-Creemos que AniTec ayuda a organizar la información del hato, evitando la pérdida de datos importantes y solucionando la falta de seguimiento de vacunas, partos, tratamientos y control económico. Para los veterinarios, ayuda a consultar clientes, revisar pacientes y registrar eventos sanitarios con información más ordenada. Creemos que esto impacta directamente en la rentabilidad del ganadero, en la calidad del seguimiento sanitario y en el cumplimiento de normativas de mercado.
+- **Creemos que** AniTec se integra en la rutina diaria del ganadero, mejorando la planificación, reduciendo pérdidas, facilitando el cumplimiento de normativas y permitiendo decisiones informadas, lo que aumenta su rentabilidad y calidad de vida. Creemos que se utiliza cada vez que se registra un animal, tratamiento, parto, control de ingresos o productividad, y también para analizar datos históricos para tomar decisiones estratégicas. Creemos que puede usarse desde celular o computadora, tanto en campo como en casa.
 
-### **¿Qué características son importantes?**
+- **Creemos que** AniTec debe tener una interfaz intuitiva, amigable y estable, pensada para usuarios con poca experiencia tecnológica. Creemos que debe proteger los datos del ganadero, transmitir confianza y eficiencia, y reflejar cercanía con el contexto rural.
 
-Creemos que los usuarios valoran el registro individual de cada animal (edad, raza, salud, productividad), alertas automáticas, reportes económicos simples, historial completo del hato y contenido educativo práctico. También creemos que los veterinarios valoran el acceso a clientes asignados, pacientes y eventos sanitarios. Creemos que la facilidad de uso es esencial para su adopción en zonas rurales.
+### Feature Assumptions:
 
-### **¿Dónde encaja nuestro producto en su trabajo o vida?**
+**Feature Assumption 01**
 
-Creemos que AniTec se integra en la rutina diaria del ganadero, mejorando la planificación, reduciendo pérdidas, facilitando el cumplimiento de normativas y permitiendo decisiones informadas, lo que aumenta su rentabilidad y calidad de vida.
+**Creemos que** una funcionalidad de registro digital centralizado del ganado permitirá a los pequeños y medianos ganaderos gestionar toda la información sanitaria, reproductiva y económica de sus animales de manera más eficiente.
 
-### **¿Cuándo y cómo se usa nuestro producto?**
+**Sabremos que esta funcionalidad es valiosa cuando** la mayoría de los usuarios registren y actualicen periódicamente la información de sus animales dentro de la plataforma.
 
-Creemos que se utiliza cada vez que se registra un animal, tratamiento, parto, control de ingresos o productividad, y también para analizar datos históricos para tomar decisiones estratégicas. Creemos que puede usarse desde celular o computadora, tanto en campo como en casa.
+**Feature Assumption 02**
 
-### **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+**Creemos que** un sistema de alertas automáticas para vacunaciones, tratamientos y eventos reproductivos ayudará a los ganaderos a recordar actividades importantes y reducir los descuidos en el manejo del hato.
 
-Creemos que AniTec debe tener una interfaz intuitiva, amigable y estable, pensada para usuarios con poca experiencia tecnológica. Creemos que debe proteger los datos del ganadero, transmitir confianza y eficiencia, y reflejar cercanía con el contexto rural.
+**Sabremos que esta funcionalidad es valiosa cuando** los usuarios atiendan los recordatorios y reporten una disminución en eventos olvidados o registros incompletos.
 
-### **Feature Assumptions:**
+**Feature Assumption 03**
 
-- **Creemos que** la plataforma debe ser accesible desde móviles y computadoras, fácil de usar incluso por usuarios sin experiencia tecnológica.
-- **Creemos que** debe incluir alertas personalizables sobre vacunas, tratamientos, partos y fechas importantes.
-- **Creemos que** debe permitir un registro detallado de cada animal (peso, salud, reproducción, ingresos y egresos) para análisis histórico y toma de decisiones.
-- **Creemos que** debe contar con un módulo de reportes y gráficos visuales que permita monitorear la evolución del hato, facilitar decisiones y demostrar trazabilidad ante compradores y autoridades.
+**Creemos que** un módulo de reportes visuales e historial de cada animal facilitará la interpretación de la información y permitirá tomar mejores decisiones productivas, reproductivas y económicas.
+
+**Sabremos que esta funcionalidad es valiosa cuando** los usuarios consulten frecuentemente los reportes antes de realizar acciones relacionadas con la gestión del ganado.
+
+**Feature Assumption 04**
+
+**Creemos que** un sistema digital con validación de datos reducirá los errores presentes en los registros manuales y mejorará la organización de la información del hato.
+
+**Sabremos que esta funcionalidad es valiosa cuando** disminuyan los registros incompletos, duplicados o inconsistentes respecto al método tradicional.
+
+**Feature Assumption 05**
+
+**Creemos que** un módulo para veterinarios con acceso a clientes, historial clínico y registro de eventos sanitarios facilitará el seguimiento de los animales y mejorará la colaboración con los ganaderos.
+
+**Sabremos que esta funcionalidad es valiosa cuando** los veterinarios utilicen la plataforma como herramienta principal para registrar y consultar la información sanitaria de los animales atendidos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.
 
 - **Hypothesis Statement 01:**
 
-  **Creemos que** los pequeños y medianos ganaderos adoptarán AniTec para registrar digitalmente toda la información de su ganado, incluyendo datos sanitarios, reproductivos y económicos.
+  **Creemos que lograremos** una mayor adopción y uso continuo de AniTec
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos el 50% de los usuarios registrados utilicen activamente la plataforma durante los tres primeros meses después de su lanzamiento.
+  **Obtienen** una forma sencilla y centralizada de registrar digitalmente toda la información de su ganado, incluyendo datos sanitarios, reproductivos y económicos
+
+  **Con** una plataforma integral de gestión ganadera que centralice y organice toda la información del hato.
+
 
 - **Hypothesis Statement 02:**
 
-  **Creemos que** las alertas automáticas sobre vacunación, tratamientos y eventos reproductivos ayudarán a los ganaderos a prevenir descuidos y pérdidas relacionadas con la salud y productividad del hato.
+  **Creemos que lograremos** mejorar la gestión sanitaria del hato y reducir incidentes prevenibles
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos un 40% de los usuarios reporten haber evitado incidentes sanitarios o errores de registro gracias a las alertas de AniTec.
+  **Obtienen** recordatorios oportunos sobre vacunaciones, tratamientos y eventos reproductivos
+
+  **Con** un sistema de alertas y notificaciones automáticas.
 
 - **Hypothesis Statement 03:**
 
-  **Creemos que** el acceso a reportes visuales y al historial completo de cada animal permitirá a los ganaderos tomar decisiones más acertadas sobre ventas, reproducción y manejo económico.
+  **Creemos que lograremos** una mejor toma de decisiones y una mayor productividad en las explotaciones ganaderas
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos un 60% de los usuarios indiquen que sus decisiones estratégicas se basaron en la información proporcionada por AniTec.
+  **Obtienen** acceso a reportes visuales y al historial completo de cada animal
+
+  **Con** un panel de reportes interactivos y un historial detallado del ganado.
+
 
 - **Hypothesis Statement 04:**
-  **Creemos que** el uso de AniTec reducirá los errores comunes en los métodos tradicionales (cuadernos, hojas de cálculo) y mejorará la organización general de la información del hato.
-  **Sabremos** que hemos tenido éxito.
-  **Cuando** se observe una disminución de al menos el 50% en errores de registro (omisiones, datos incompletos o duplicados) después de tres meses de uso continuo de la plataforma.
+  
+  **Creemos que lograremos** una gestión más organizada y precisa de la información del hato
+
+  **Si** los pequeños y medianos ganaderos
+
+  **Obtienen** una forma confiable de registrar y administrar la información de sus animales sin depender de cuadernos u hojas de cálculo
+
+  **Con** un sistema digital de registro y validación de datos centralizado.
+
 
 - **Hypothesis Statement 05:**
-  **Creemos que** los veterinarios usarán AniTec para consultar clientes asignados, revisar pacientes y registrar eventos sanitarios de manera más ordenada.
-  **Sabremos** que hemos tenido éxito.
-  **Cuando** al menos un 50% de los veterinarios entrevistados indique que la plataforma facilita el seguimiento sanitario básico de los animales atendidos.
+  
+  **Creemos que lograremos** una mejor colaboración entre ganaderos y veterinarios y un seguimiento sanitario más eficiente
+
+  **Si** los veterinarios
+
+  **Obtienen** acceso rápido a los clientes asignados, al historial de los animales y al registro de eventos sanitarios
+
+  **Con** un módulo para veterinarios integrado dentro de la plataforma AniTec.
 
 ### 1.2.2.4. Lean UX Canvas.
 
