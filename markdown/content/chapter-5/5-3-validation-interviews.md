@@ -63,6 +63,8 @@ En el caso del segmento ganadero, la evaluación se orienta a la gestión de hat
 
 A continuación, se presentan los cuadros de registro para las entrevistas de validación. Estos cuadros serán completados manualmente con los datos del entrevistado, evidencia, enlace de la entrevista y transcripción correspondiente.
 
+**Segmento Objetivo 1: Ganaderos**
+
 ### Segmento Ganadero: E01
 
 | **CATEGORÍA** | **DETALLE** |
@@ -71,7 +73,6 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Edad** | 25 años |
 | **Ocupación** | Ganadero |
 | **Experiencia** | 20 años |
-| **Fecha** | 25/06/2026 |
 | **Inicio del video** | 00:00:13 |
 | **Fin del video** | 00:09:36 |
 | **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI) |
@@ -95,7 +96,6 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Código** | E02 |
 | **Edad** | 22 años |
 | **Ocupación** | Ganadera |
-| **Fecha** | 03/07/2026 |
 | **Inicio del video** | 00:06:30 |
 | **Fin del video** | 00:17:25 |
 | **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD) |
@@ -111,14 +111,13 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Recomendaciones** | Explicación didáctica sobre IoT, versión móvil optimizada y mejores recordatorios automáticos. |
 | **Conclusión** | AniTec satisface las necesidades de organización y control, validando su valor, aunque requiere mejorar la comunicación sobre tecnologías avanzadas como el IoT. |
 
-### Entrevista de validación - Segmento Ganadero: E03
+###  Segmento Ganadero: E03
 
 | **CATEGORÍA** | **DETALLE** |
 | :--- | :--- |
 | **Código** | E03 |
 | **Edad** | 61 años |
 | **Ocupación** | Ganadero (vacuno) |
-| **Fecha** | 03/07/2026 |
 | **Inicio del video** | 00:00:00 |
 | **Fin del video** | 00:07:30 |
 | **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0) |
@@ -134,51 +133,30 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Recomendaciones** | Ampliar con funciones agrícolas (suelos/cultivos) e implementar alertas automáticas. |
 | **Conclusión** | AniTec centraliza la gestión y mejora la eficiencia. La integración de funciones agrícolas consolidaría su valor como solución integral. |
 
+**Segmento Objetivo 2: Veterinarios**
 
+### Segmento Veterinario: E05
 
-**Segmento Objetivo 1: Ganaderos**
-
-| **ENTREVISTA N°1** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** |Rodrigo Alfaro |
-| **Edad** | 25 |
-| **Profesión** | Ganadero |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:13 |
-| **Fin del video** | 00:09:36 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI |
-| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaRodrigo2.jpeg) |
-| **Resumen** | En la entrevista, el ganadero Rodrigo Alfaro comenta que trabaja en la crianza de bovinos, ovinos y aves en una finca familiar, donde actualmente registra la información de manera poco ordenada en cuadernos y Excel. Señala que AniTec le parece una solución clara y confiable para organizar mejor la gestión de sus animales, la sanidad, las actividades y las finanzas, destacando especialmente el dashboard y las funcionalidades principales. También sugiere mejoras como incluir más datos en el registro de animales, recordatorios automáticos, fotos y una versión móvil más práctica. En general, considera que la aplicación sería muy útil para su trabajo diario. |
-
-<br>
-
-| **ENTREVISTA N°2** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** |Kiara Gallardo  |
-| **Edad** | 22 |
-| **Profesión** | Ganadero |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:06:30 |
-| **Fin del video** | 00:17:25 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD |
-| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaKiara.png) |
-| **Resumen** | La ganadera Kiara señaló que actualmente gestiona información de su ganado mediante registros manuales y consideró que AniTec comunica de forma clara su propósito y beneficios desde el landing page. Destacó la facilidad para navegar por la aplicación, la utilidad del dashboard para visualizar información relevante y la claridad de las secciones relacionadas con animales, sanidad, actividades, finanzas e IoT. Asimismo, valoró positivamente las herramientas para registrar eventos sanitarios, organizar tareas y controlar ingresos y gastos de la finca. En general, tuvo una experiencia satisfactoria, no identificó dificultades importantes durante el uso y afirmó que utilizaría AniTec en sus actividades diarias, recomendando únicamente ampliar la cantidad de reportes y estadísticas disponibles para apoyar una mejor toma de decisiones. |
-
-<br>
-
-| **ENTREVISTA N°3** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** | Vicente |
-| **Edad** | 61 |
-| **Profesión** | Ganadero |
-| **Departamento** | Lima |
+| **CATEGORÍA** | **DETALLE** |
+| :--- | :--- |
+| **Código** | E05 |
+| **Ocupación** | Veterinario |
+| **Fecha** | 03/07/2026 |
 | **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:07:30 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0 |
-| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-bruno.png) |
-| **Resumen** | Entrevistado: Vicente, quien es ganadero y se dedica a la crianza de vacunos, lo cual aporta un perfil técnico y práctico necesario para validar la utilidad de la aplicación. ​Problemática Actual del Entrevistado: ​Vicente menciona que, actualmente, el registro de información sobre sus animales, fincas, actividades y gastos lo realiza de manera espontánea utilizando una hoja de cálculo en Excel, lo cual indica una oportunidad clara para digitalizar y automatizar estos procesos.  ​Validación de la Solución (AniTec): ​Confianza y Usabilidad: Aunque Vicente no afirma estar convencido al 100% de inmediato, reconoce la utilidad de la aplicación para llevar un mejor control y organizar actividades, como el control de vacunas, tratamientos y alimentación, basándose en la edad y tipo de ganado. ​Sugerencias de Mejora: Vicente sugiere que la aplicación debería permitir agregar variables adicionales, como el tipo de suelo o clima, para complementar los datos sanitarios y de alimentación, lo que ayudaría a una toma de decisiones más precisa. ​Valor del Dashboard: El entrevistado coincide en que el panel de control (dashboard) es una herramienta valiosa para obtener información útil y rápida para la toma de decisiones, especialmente si la información se puede centralizar en un solo lugar. |
+| **Fin del video** | 00:04:30 |
+| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-hugo.png) |
+| **Objetivo** | Validar si la aplicación AniTec responde a las necesidades del *User Persona* del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del *dashboard*. |
+| **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
+| Frustración: falta de historial org. | Destaca la importancia y utilidad del historial médico como herramienta de trabajo. / Sí |
+| Meta: acceder a info. de tratamiento | Considera que el historial médico permite un mejor tratamiento y seguimiento clínico. / Sí |
+| Motivación: mejorar eficiencia | Valora la centralización de información y la visualización organizada de problemas pasados. / Sí |
+| Meta: reducir carga administrativa | Considera que el sistema agiliza el trabajo diario frente a métodos tradicionales (Excel). / Sí |
+| **Aspectos positivos** | Historial clínico como funcionalidad más valiosa; *dashboard* útil para visión general rápida. |
+| **Dificultades** | Desconocimiento sobre funciones de dispositivos inteligentes (IoT); terminología técnica compleja. |
+| **Recomendaciones** | Explicación didáctica sobre ventajas de IoT e integración de registros clínicos más detallados. |
+| **Conclusión** | AniTec satisface necesidades de organización y acceso al historial médico, optimizando el tiempo y la atención veterinaria, aunque requiere mejor comunicación sobre el alcance de IoT. |
 
-<br>
 
 **Segmento Objetivo 2: Veterinarios**
 
@@ -198,19 +176,6 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 <br>
 
-| **ENTREVISTA N°5** | |
-|------------------|----------------------------|
-| **Nombre del entrevistado** | Hugo Jorge  |
-| **Edad** | 25 |
-| **Profesión** | Veterinario |
-| **Departamento** | Lima |
-| **Inicio del video** | 00:00:00 |
-| **Fin del video** | 00:04:30 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN |
-| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-hugo.png) |
-| **Resumen** | Como resultado de la entrevista, el veterinario indicó que actualmente organiza la información de clientes, pacientes y visitas mediante registros manuales y herramientas básicas, por lo que valoró que AniTec centralice toda la información en una sola plataforma. Señaló que el landing page transmite de manera general el propósito de la aplicación, aunque recomendó destacar con mayor claridad los beneficios específicos para veterinarios mediante ejemplos de uso, testimonios y detalles sobre la gestión sanitaria del ganado para generar mayor confianza. Respecto al registro sanitario, sugirió incorporar campos adicionales relacionados con tratamientos, historial clínico, vacunaciones y observaciones médicas. Consideró que la sección de actividades sería útil para programar visitas, controles y seguimientos periódicos, mientras que las alertas y estados sanitarios del dashboard le parecieron comprensibles y fáciles de identificar. Finalmente, destacó que la sección de analíticas proporciona información relevante para el seguimiento de clientes, animales y eventos sanitarios, facilitando la toma de decisiones y el monitoreo integral de la salud del ganado. |
-
-<br>
 
 ## 5.3.3. Evaluaciones según heurísticas
 
