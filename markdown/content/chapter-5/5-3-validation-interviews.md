@@ -72,7 +72,6 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Código** | E01 |
 | **Edad** | 25 años |
 | **Ocupación** | Ganadero |
-| **Experiencia** | 20 años |
 | **Inicio del video** | 00:00:13 |
 | **Fin del video** | 00:09:36 |
 | **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI |
@@ -135,11 +134,11 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 **Segmento Objetivo 2: Veterinarios**
 
-### Entrevista de validación - Segmento Veterinario: E05
+### Segmento Veterinario: E04
 
 | **CATEGORÍA** | **DETALLE** |
 | :--- | :--- |
-| **Código** | E05 |
+| **Código** | E04 |
 | **Ocupación** | Veterinario |
 | **Inicio del video** | 00:00:00 |
 | **Fin del video** | 00:07:00 |
