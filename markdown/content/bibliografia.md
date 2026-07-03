@@ -30,8 +30,8 @@ Structurizr. (2026). _Structurizr documentation_. https://docs.structurizr.com/
 
 Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
 
-Ddd-By-Examples. (s. f.). library/docs/big-picture.md at master · ddd-by-examples/library. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
+Ddd-By-Examples. (s. f.). library/docs/big-picture.md at master. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
 
-Ddd-By-Examples. (s. f.-b). library/docs/design-level.md at master · ddd-by-examples/library. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/design-level.md
+Ddd-By-Examples. (s. f.-b). library/docs/design-level.md at master. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/design-level.md
 
 Weerakoon, S. (2020, 1 noviembre). How to Write a User Story for an API Product. Medium. https://sameera17w.medium.com/how-to-write-a-user-story-for-an-api-product-7af6abd4ad2e
