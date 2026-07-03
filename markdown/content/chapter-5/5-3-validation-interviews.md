@@ -63,12 +63,12 @@ En el caso del segmento ganadero, la evaluación se orienta a la gestión de hat
 
 A continuación, se presentan los cuadros de registro para las entrevistas de validación. Estos cuadros serán completados manualmente con los datos del entrevistado, evidencia, enlace de la entrevista y transcripción correspondiente.
 
-### Entrevista de validación - Segmento Ganadero: E01
+### Segmento Ganadero: E01
 
 | **CATEGORÍA** | **DETALLE** |
 | :--- | :--- |
 | **Código** | E01 |
-| **Edad** | 47 años |
+| **Edad** | 25 años |
 | **Ocupación** | Ganadero |
 | **Experiencia** | 20 años |
 | **Fecha** | 25/06/2026 |
@@ -86,6 +86,53 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Dificultades** | Sección IoT difícil de comprender y encontrar; requiere mayor apoyo visual. |
 | **Recomendaciones** | Alertas automáticas para actividades, fotos de animales y versión móvil optimizada. |
 | **Conclusión** | AniTec resuelve problemas reales (registro manual). Se requiere simplificar la sección IoT y mejorar la usabilidad móvil. |
+
+
+### Segmento Ganadero: E02
+
+| **CATEGORÍA** | **DETALLE** |
+| :--- | :--- |
+| **Código** | E02 |
+| **Edad** | 22 años |
+| **Ocupación** | Ganadera |
+| **Fecha** | 03/07/2026 |
+| **Inicio del video** | 00:06:30 |
+| **Fin del video** | 00:17:25 |
+| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaKiara.png) |
+| **Objetivo** | Validar si la *landing page* y la aplicación web AniTec responden a las necesidades del *User Persona*, enfocándose en la gestión, organización y el valor de la herramienta. |
+| **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
+| Frustración: desorden manual | Registra información en papeles y libros; le resulta difícil de ordenar. / Sí |
+| Frustración: control de fechas | El control de fechas es un desafío constante; la App ayudaría a no olvidarlas. / Sí |
+| Meta: información organizada | Valora la centralización de información y el filtrado de animales. / Sí |
+| Meta: decisiones basadas en datos | El *dashboard* y la sección financiera ayudan a visualizar ganancias, pérdidas y salud. / Sí |
+| **Aspectos positivos** | Interfaz clara e intuitiva, *dashboard* muy útil y eliminación del uso de papel. |
+| **Dificultades** | Desconocimiento del concepto/utilidad de "IoT" y familiarización inicial con el *dashboard*. |
+| **Recomendaciones** | Explicación didáctica sobre IoT, versión móvil optimizada y mejores recordatorios automáticos. |
+| **Conclusión** | AniTec satisface las necesidades de organización y control, validando su valor, aunque requiere mejorar la comunicación sobre tecnologías avanzadas como el IoT. |
+
+### Entrevista de validación - Segmento Ganadero: E03
+
+| **CATEGORÍA** | **DETALLE** |
+| :--- | :--- |
+| **Código** | E03 |
+| **Edad** | 61 años |
+| **Ocupación** | Ganadero (vacuno) |
+| **Fecha** | 03/07/2026 |
+| **Inicio del video** | 00:00:00 |
+| **Fin del video** | 00:07:30 |
+| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0) |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-bruno.png) |
+| **Objetivo** | Validar si la *landing page* y la aplicación web AniTec responden a las necesidades del *User Persona* para la gestión de ganado, con un enfoque en la organización sanitaria y administrativa. |
+| **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
+| Frustración: registros manuales | Utiliza Excel y anotaciones manuales; es ineficiente y propenso a errores. / Sí |
+| Meta: control preciso | Valora la centralización de datos estadísticos para mayor control y precisión. / Sí |
+| Meta: decisiones basadas en datos | El *dashboard* facilita la toma de decisiones rápidas y precisas. / Sí |
+| Motivación: organización sanitaria | Reconoce la importancia del módulo sanitario para gestionar el control de enfermedades. / Sí |
+| **Aspectos positivos** | Herramienta fácil y efectiva; la aplicación móvil simplificaría las tareas diarias. |
+| **Dificultades** | Requiere familiarización con el *dashboard*; posible confusión en registros sanitarios. |
+| **Recomendaciones** | Ampliar con funciones agrícolas (suelos/cultivos) e implementar alertas automáticas. |
+| **Conclusión** | AniTec centraliza la gestión y mejora la eficiencia. La integración de funciones agrícolas consolidaría su valor como solución integral. |
 
 
 
