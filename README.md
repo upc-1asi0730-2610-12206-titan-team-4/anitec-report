@@ -3,39 +3,61 @@
   <img src="./markdown/assets/upc_logo.png" alt="UPC Logo" width="80">
 </div>
 <br/>
-<h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
-<h3 align="center">Carrera de Ingeniería de Software</h1>
+<h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
+<h2 align="center"><strong>Carrera de Ingeniería de Software</strong></h2>
 
-<h5 align="center">1ASI0730</h5>
-<h5 align="center">Aplicaciones Web</h5>
-<h6 align="center">NRC</h6>
-<h5 align="center">12206</h5>
-<h5 align="center">Informe del Trabajo Final</h5>
-<h6 align="center">Docente</h6>
-<h5 align="center">Velásquez Núñez, Ángel Augusto</h5>
-<h6 align="center">Equipo</h6>
-<h5 align="center">Titan</h5>
-<h6 align="center">Proyecto</h6>
-<h5 align="center">AniTec</h5>
+<h2 align="center"><strong>1ASI0730</strong></h2>
+<h2 align="center"><strong>Aplicaciones Web</strong></h2>
+<h2 align="center"><strong>NRC</strong></h2>
+<h2 align="center"><strong>12206</strong></h2>
+<h2 align="center"><strong>Informe del Trabajo Final</strong></h2>
+<h2 align="center"><strong>Docente</strong></h2>
+<h2 align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></h2>
+<h2 align="center"><strong>Equipo</strong></h2>
+<h2 align="center"><strong>Titan</strong></h2>
+<h2 align="center"><strong>Proyecto</strong></h2>
+<h2 align="center"><strong>AniTec</strong></h2>
 
-<h5 align="center">Integrantes:</h5>
+<h2 align="center"><strong>Integrantes:</strong></h2>
 
 
 <div align="center">
-
-|      Código      |   Nombre                            |
-| :---------------:| :---------------------------:       |
-|    U20241C030    | Ayala Fernandez, Jorge Brayan       |
-|    U202117762    | Huaman Gallardo, Bruno Aldair       |
-|    U202315165    | Melgarejo Quiroz, Josep Eliu        |
-|    U202318001    | Raymundo Villarroel, Nadhim Abigail |
-|    U202215979    | Sanchez Silva, Luciana Celeste      |
-
+  <table align="center">
+    <thead>
+      <tr>
+        <th align="center">Código</th>
+        <th align="center">Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center">U20241C030</td>
+        <td align="center">Ayala Fernandez, Jorge Brayan</td>
+      </tr>
+      <tr>
+        <td align="center">U202117762</td>
+        <td align="center">Huaman Gallardo, Bruno Aldair</td>
+      </tr>
+      <tr>
+        <td align="center">U202315165</td>
+        <td align="center">Melgarejo Quiroz, Josep Eliu</td>
+      </tr>
+      <tr>
+        <td align="center">U202318001</td>
+        <td align="center">Raymundo Villarroel, Nadhim Abigail</td>
+      </tr>
+      <tr>
+        <td align="center">U202215979</td>
+        <td align="center">Sanchez Silva, Luciana Celeste</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<h5 align="center"> Período 202610 </h5>
-<h5 align="center"> Junio 2026 </h5>
+<h2 align="center"><strong>Período 202610</strong></h2>
+<h2 align="center"><strong>Junio 2026</strong></h2>
 
+<div style="page-break-before: always;"></div>
 
 ---
 

@@ -1,31 +1,65 @@
-<h1 align="center">Informe del Trabajo Final</h1>
-<h3 align="center">Universidad Peruana de Ciencias Aplicadas</h3>
+<div style="font-size: 18px; line-height: 1.65;">
+
 <br/>
 <div align="center">
-  <img src="./markdown/assets/upc_logo.png" alt="UPC Logo" width="200">
+  <img src="./markdown/assets/upc_logo.png" alt="UPC Logo" width="80">
 </div>
 <br/>
-<h5 align="center">Ingeniería de Software</h5>
-<h5 align="center">Aplicaciones Web - 1ASI0730</h5>
-<h5 align="center">Docente: Angel Augusto Velasquez Nuñez</h5>
-<h5 align="center">Startup: Titan</h5>
-<h5 align="center">Producto: AniTec</h5>
+<h2 align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></h2>
+<h2 align="center"><strong>Carrera de Ingeniería de Software</strong></h2>
 
-## Team members:
+<h2 align="center"><strong>1ASI0730</strong></h2>
+<h2 align="center"><strong>Aplicaciones Web</strong></h2>
+<h2 align="center"><strong>NRC</strong></h2>
+<h2 align="center"><strong>12206</strong></h2>
+<h2 align="center"><strong>Informe del Trabajo Final</strong></h2>
+<h2 align="center"><strong>Docente</strong></h2>
+<h2 align="center"><strong>Velásquez Núñez, Ángel Augusto</strong></h2>
+<h2 align="center"><strong>Equipo</strong></h2>
+<h2 align="center"><strong>Titan</strong></h2>
+<h2 align="center"><strong>Proyecto</strong></h2>
+<h2 align="center"><strong>AniTec</strong></h2>
+
+<h2 align="center"><strong>Integrantes:</strong></h2>
+
 
 <div align="center">
-
-|               Nombre                |   Código   |
-| :---------------------------------: | :--------: |
-|    Ayala Fernandez, Jorge Brayan    | U20241C030 |
-|    Huaman Gallardo, Bruno Aldair    | U202117762 |
-|    Melgarejo Quiroz, Josep Eliu     | U202315165 |
-| Raymundo Villarroel, Nadhim Abigail | U202318001 |
-|   Sanchez Silva, Luciana Celeste    | U202215979 |
-
+  <table align="center" cellspacing="0" cellpadding="8" style="border-collapse: collapse; border: 1px solid #000;">
+    <thead>
+      <tr>
+        <th align="center" style="border: 1px solid #000; padding: 8px;">Código</th>
+        <th align="center" style="border: 1px solid #000; padding: 8px;">Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">U20241C030</td>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">Ayala Fernandez, Jorge Brayan</td>
+      </tr>
+      <tr>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">U202117762</td>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">Huaman Gallardo, Bruno Aldair</td>
+      </tr>
+      <tr>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">U202315165</td>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">Melgarejo Quiroz, Josep Eliu</td>
+      </tr>
+      <tr>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">U202318001</td>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">Raymundo Villarroel, Nadhim Abigail</td>
+      </tr>
+      <tr>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">U202215979</td>
+        <td align="center" style="border: 1px solid #000; padding: 8px;">Sanchez Silva, Luciana Celeste</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
-<h5 align="center"> Ciclo 2026-10 </h5>
+<h2 align="center"><strong>Período 202610</strong></h2>
+<h2 align="center"><strong>Junio 2026</strong></h2>
+
+<div style="page-break-before: always;"></div>
 
 ---
 
@@ -69,6 +103,7 @@
   - [2.3.2. User Task Matrix](./markdown/content/chapter-2/2-3-needfinding.md)
   - [2.3.3. User Journey Mapping](./markdown/content/chapter-2/2-3-needfinding.md)
   - [2.3.4. Empathy Mapping](./markdown/content/chapter-2/2-3-needfinding.md)
+  - [2.3.5. As-is Scenario Mapping](./markdown/content/chapter-2/2-3-needfinding.md)
 - [2.4. Big Picture EventStorming](./markdown/content/chapter-2/2-4-big-picture-eventstorming.md)
 - [2.5. Ubiquitous Language](./markdown/content/chapter-2/2-5-ubiquitous-language.md)
 
@@ -115,31 +150,56 @@
   - [5.1.2. Source Code Management](./markdown/content/chapter-5/5-1-software-configuration-management.md)
   - [5.1.3. Source Code Style Guide & Conventions](./markdown/content/chapter-5/5-1-software-configuration-management.md)
   - [5.1.4. Software Deployment Configuration](./markdown/content/chapter-5/5-1-software-configuration-management.md)
-- [5.2. Landing Page, Services & Applications Implementation](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-  - [5.2.1. Sprint 1](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.1. Sprint Planning 1](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.3. Sprint Backlog 1](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.1.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-  - [5.2.2. Sprint 2](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.1. Sprint Planning 2](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.3. Sprint Backlog 2](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-landing-service-applications.md)
-    - [5.2.2.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-landing-service-applications.md)
+- [5.2. Landing Page, Services & Applications Implementation](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+  - [5.2.1. Sprint 1](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.1. Sprint Planning 1](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.3. Sprint Backlog 1](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+    - [5.2.1.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-1-Sprint1.md)
+  - [5.2.2. Sprint 2](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.1. Sprint Planning 2](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.3. Sprint Backlog 2](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+    - [5.2.2.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-2-Sprint2.md)
+  - [5.2.3. Sprint 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.1. Sprint Planning 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.2. Aspects Leaders and Collaborators](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.3. Sprint Backlog 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+    - [5.2.3.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-3-Sprint3.md)
+  - [5.2.4. Sprint 4](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.1. Sprint Planning 4](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.3. Sprint Backlog 4](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+    - [5.2.4.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-4-Sprint4.md)
+- [5.3. Validation Interviews](./markdown/content/chapter-5/5-3-validation-interviews.md)
+  - [5.3.1. Diseño de Entrevistas](./markdown/content/chapter-5/5-3-validation-interviews.md)
+  - [5.3.2. Registro de Entrevistas](./markdown/content/chapter-5/5-3-validation-interviews.md)
+  - [5.3.3. Evaluaciones según heurísticas](./markdown/content/chapter-5/5-3-validation-interviews.md)
+- [5.4. Video About-the-Product](./markdown/content/chapter-5/5-4-video-about-the-product.md)
 
 ### [Conclusiones](./markdown/content/conclusiones.md)
 
 ### [Bibliografía](./markdown/content/bibliografia.md)
 
 ### [Anexos](./markdown/content/anexos.md)
+
+<div style="page-break-before: always;"></div>
 
 # Registro de versiones del informe
 
@@ -158,12 +218,14 @@
 |   2.4   | 14/05/2026 | Raymundo Villarroel, Nadhim Abigail | Corrección del capítulo I y avance de la documentación del sprint 2                   |
 |   2.5   | 14/05/2026 |    Huaman Gallardo, Bruno Aldair    | Corrección del capítulo II y III                                                      |
 
+<div style="page-break-before: always;"></div>
+
 # Project Report Collaboration Insights
 
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - URL del repositorio para el desarrollo del frontend web applications (VueJS): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- URL del repositorio para el desarrollo del backend web applications (.NET Web API):
+- URL del repositorio para el desarrollo del backend web applications (.NET Web API): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 
 **AV1**
 
@@ -203,6 +265,26 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización Titan.
 
+---
+
+**AV2**
+
+Para el desarrollo del informe perteneciente a la entrega AV2, el equipo organizó sus actividades en torno al cierre del Sprint 3, la documentación del backend, la validación de usuarios y la preparación de evidencias finales del producto. La distribución de tareas fue la siguiente:
+
+<div align="center">
+
+| Integrante       | Tareas Asignadas |
+| ---------------- | ---------------- |
+| Abigail Raymundo | Colaboración en la documentación de validación, entrevistas, conclusiones y revisión de secciones relacionadas con sanidad, actividades y necesidades de los usuarios ganaderos. |
+| Bruno Huaman     | Apoyo en la revisión técnica de entidades, dispositivos IoT, métricas, reportes y coherencia entre los módulos backend documentados y las funcionalidades del sistema. |
+| Jorge Ayala      | Encargado del despliegue del backend en Render, verificación del acceso público a Swagger y apoyo en la evidencia técnica del deployment de la API. |
+| Josep Melgarejo  | Desarrollo y organización de la documentación del Sprint 3, endpoints implementados, commits, evidencias de servicios, validación de entrevistas y actualización general del reporte. |
+| Luciana Sanchez  | Colaboración en la revisión del flujo veterinario, organización de información del reporte, student outcome, conclusiones y consistencia de la documentación final. |
+
+</div>
+
+Durante AV2, el trabajo colaborativo se enfocó en consolidar el backend de AniTec, documentar los servicios implementados y evidenciar el despliegue público de la API. Para mantener la trazabilidad, se usaron ramas `feature/` asociadas a endpoints específicos, ramas `develop` para integración, una rama `hotfix/` para correcciones críticas y la rama `main` como versión estable del entregable.
+
 **Github Collaboration Insights**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
@@ -219,7 +301,8 @@ Se explican las ramas más prominentes:
 
 - **main**: Es representada por el color blanco. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
 - **develop**: Es representada por el color morado. Se trata de la rama principal para el proceso del desarrollo del proyecto.
-- **feature/**: cambios específicos del documento
+- **feature/**: cambios específicos del documento o de endpoints implementados.
+- **hotfix/**: correcciones puntuales realizadas sobre errores críticos encontrados durante la integración o despliegue.
 
 ![Branch_Graph](./markdown/assets/chapter-1/branchGraph2.png)
 
@@ -257,11 +340,45 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 
 ![Pull_Graphs](./markdown/assets/chapter-1/GraficosCap12.png)
 
+**AV2**
+
+Los siguientes espacios corresponden a las evidencias de colaboración del equipo durante AV2. En esta entrega se debe evidenciar el uso de ramas por funcionalidad, commits distribuidos entre integrantes, integraciones a `develop`, correcciones mediante `hotfix` y la integración final hacia `main`.
+
+**Grafo de commits AV2**
+
+
+![Branch_Graph_AV2](./markdown/assets/chapter-5/commitsav2.jpeg)
+
+**Commits durante AV2**
+
+
+![Commit_Graph_AV2](./markdown/assets/chapter-5/1.png)
+
+**Commits por integrante durante AV2**
+
+
+![Commit_Graph_AV2_Individual1](./markdown/assets/chapter-5/2.png)
+
+![Commit_Graph_AV2_Individual2](./markdown/assets/chapter-5/3.png)
+
+![Commit_Graph_AV2_Individual3](./markdown/assets/chapter-5/4.png)
+
+![Commit_Graph_AV2_Individual4](./markdown/assets/chapter-5/5.png)
+
+![Commit_Graph_AV2_Individual5](./markdown/assets/chapter-5/6.png)
+
+<div style="page-break-before: always;"></div>
+
 # Student Outcomes
-|Criterio especifico|Acciones realizadas|Conclusiones|
-|-|:-|-|
-|Trabaja en equipo para proporcionar liderazgo en forma conjunta| **AV1:**<br>  **Josep Melgarejo**: Participe en el desarrollo de el event storming, Los diagramas C4, El diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros para decisiones importantes en dichas actividades, logrando un trabajo satisfactorio. <br>  **Jorge Ayala**: Participé de manera activa en la creación de la Landing Page del producto (AniTec) y generé historias de usuario de la Landing conforme a lo avanzado. De igual manera, colaboré en la consecución de la redacción del Sprint 1, el cual se trató del mismo tema. De tal manera colaboramos activamente todos en el proyecto. <br> **Bruno Huaman**: Lideré la fase estratégica mediante la elaboración del Impact Mapping, conectando los objetivos de negocio con las necesidades de los ganaderos y veterinarios. Además, coordiné la distribución de responsabilidades para asegurar que cada historia de usuario estuviera alineada con los impactos deseados. <br> **Abigail Raymundo**: Participe en el desarrollo de los capítulos 1 y 2, principalmente la definición de el problema, los segmentos objetivos, los competidores de nuestra aplicacion y demás cosas, logrando un informe impecable y de acuerdo a nuestra idea de la aplicación.<br> **Luciana Sanchez**: Participé en la definición de las épicas, historias de usuario y criterios de aceptación, aportando ideas y coordinando con mis compañeros para tomar decisiones en conjunto y distribuir responsabilidades durante este entregable. <BR> <BR> **TB1:** <br> **Josep Melgarejo**: Apoyé en la coordinación del equipo para el Sprint 2, facilitando la comunicación entre integrantes y asegurando el cumplimiento de las tareas asignadas dentro del cronograma establecido. <br>  **Jorge Ayala**: Me encargué de realizar una buena parte del frontend del proyecto incluyendo el bounded context de activities, luego subiéndolo a la rama develop para que posteriormente pase a la rama principal, luego de ello me encargué de realizar el capítulo 5 parte del Sprint 2. <br> **Bruno Huaman**: Me encargué de realizar una evaluación exhaustiva al documento en especial a las historias de usuario colaborando en equipo con dos de mis compañeros también encargados en la misma tarea y pudimos lograr reordenarlo adecuadamente. <br> **Abigail Raymundo**: Realicé la corrección del Capítulo I y colaboré parcialmente en la corrección del Capítulo II, asegurando coherencia en la estructura y redacción del documento. Además, participé en la documentación del Sprint 2 dentro del Capítulo V y aporté en la creación de uno de los Bounded Context del sistema, coordinando con mis compañeros para mantener la consistencia de los avances del proyecto. <br> **Luciana Sanchez**: Realicé la corrección y mejora de los diagramas C4 (Contexto, Contenedores, Componentes), asegurando consistencia con la arquitectura del sistema y alineación con los requerimientos del Sprint 2. Además, participé en la revisión técnica de los avances del sprint junto con el equipo. |**AV1:**<br> El equipo ejerció un liderazgo conjunto al coordinar responsabilidades y tomar decisiones de manera colaborativa. Esto permitió organizar eficientemente todo el primer entregable y asegurar que el desarrollo de AniTec respondiera a los objetivos planteados y a las necesidades de nuestros usuarios.<BR> <BR> **TB1:** <br> El equipo consolidó un liderazgo colaborativo durante el Sprint 2, mejorando tanto los artefactos de diseño como la implementación inicial del sistema. Esto permitió mantener coherencia entre la arquitectura, el backlog y el avance del producto. |
-|Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **AV1:**<br>  **Josep Melgarejo**: Propuse y explique al equipo la estructura del event storming y los diferentes diagramas que se me fue encargado, gracias a ello logre aclarar ideas y proponer mejoras en el trabajo logrando un mejor desempeño en el equipo. <br>  **Jorge Ayala**: Expliqué y anuncié a mi grupo de trabajo los avances que realicé a lo largo de los avances y commits que hice respecto a la Landing, terminando con la versión final de esta y planificando nuevos cambios para mejorarla aún más para una siguiente versión de lanzamiento. <br> **Bruno Huaman**: Fomenté la lluvia de ideas para definir las 47 historias de usuario del backlog, asegurando que se incluyeran funcionalidades críticas como el modo offline y el dashboard de analítica. Planifiqué las metas a corto plazo para cumplir con el cronograma del entregable <br> **Abigail Raymundo**:Propuse y explique nuestros problemas dentro del desarrollo de los primeros capítulos logrando explicar los diversos problemas que enfrentaba la aplicación y logrando que mis compañeros entiendan mejor la forma de la estructura del documento y como se va a trabajar en todo el entregable <br>  **Luciana Sanchez**: Propuse y expliqué al equipo las épicas e historias de usuario necesarias para el desarrollo del proyecto, promoviendo la participación de todos los integrantes. <BR> <BR> **TB1:** <br> **Josep Melgarejo**: Coordiné la asignación de tareas del Sprint 2, promoviendo la participación del equipo y asegurando el cumplimiento de los plazos establecidos. <br>  **Jorge Ayala**: Se planificó poder ayudar al equipo definiendo tareas en conjunto mediante la repartición de roles que en este caso yo me hacía cargo de una parte específica del proyecto siendo esta la creación de un bounded context esencial para que el proyecto funcione. <br> **Bruno Huaman**: Me encargué de planificar como debía hacer el bounded context de financial adecuadamente considerando los requisitos de la empresa en la que estamos trabajando, por ello pude complementarlo muy bien el proyecto. <br> **Abigail Raymundo**: Participé en la revisión y corrección de los capítulos I y II, proponiendo mejoras en la estructura y organización del documento. Asimismo, colaboré en la documentación del Sprint 2 del Capítulo V y en la definición de uno de los Bounded Context del proyecto, contribuyendo al cumplimiento de las tareas planificadas y al avance ordenado del entregable. <br> **Luciana Sanchez**: Propuse y expliqué las correcciones necesarias en los diagramas C4, lo que permitió al equipo comprender mejor la arquitectura del sistema y organizar el trabajo del Sprint 2 de manera más clara y estructurada. |**AV1:**<br> Gracias a la planificación y al trabajo colaborativo, el equipo logró cumplir los objetivos dentro del plazo establecido. Además, la comunicación constante y la retroalimentación de ganaderos y veterinarios permitieron mejorar la aplicación web, evidenciando un entorno orientado a resultados. <BR> <BR> **TB1:** <br> La planificación y coordinación del equipo permitió ejecutar el Sprint 2 de manera eficiente, integrando mejoras en los artefactos de cada capítulo y avanzando en la implementación del sistema. Se evidenció un entorno de trabajo colaborativo y orientado a objetivos y superación.|
+
+En esta sección se describe cómo las actividades realizadas durante el desarrollo de AniTec contribuyen al logro del Student Outcome 5 de ABET, relacionado con la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen metas. Para ello, se presentan las acciones realizadas por cada integrante en las distintas entregas del proyecto y las conclusiones grupales asociadas a cada criterio.
+
+| Criterio especifico | Acciones realizadas | Conclusiones |
+| - | :- | - |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:**<br>**Josep Melgarejo:** Participe en el desarrollo del Event Storming, los diagramas C4, el diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros decisiones importantes para lograr un trabajo satisfactorio.<br>**Jorge Ayala:** Participe de manera activa en la creacion de la Landing Page de AniTec y en la elaboracion de historias de usuario relacionadas con este primer avance.<br>**Bruno Huaman:** Lidere la fase estrategica mediante la elaboracion del Impact Mapping, conectando los objetivos de negocio con las necesidades de ganaderos y veterinarios.<br>**Abigail Raymundo:** Participe en el desarrollo de los capitulos 1 y 2, principalmente en la definicion del problema, segmentos objetivo y competidores.<br>**Luciana Sanchez:** Participe en la definicion de epicas, historias de usuario y criterios de aceptacion, aportando ideas y coordinando responsabilidades con el equipo.<br><br>**TB1:**<br>**Josep Melgarejo:** Apoye en la coordinacion del equipo para el Sprint 2, facilitando la comunicacion entre integrantes y asegurando el cumplimiento de tareas asignadas.<br>**Jorge Ayala:** Me encargue de una parte importante del frontend, incluyendo el bounded context de Activities, y participe en la documentacion del Sprint 2.<br>**Bruno Huaman:** Realice una evaluacion del documento, especialmente de las historias de usuario, colaborando con el equipo para reordenarlas adecuadamente.<br>**Abigail Raymundo:** Realice la correccion del Capitulo I, colabore en el Capitulo II, participe en la documentacion del Sprint 2 y aporte en uno de los Bounded Context del sistema.<br>**Luciana Sanchez:** Realice la correccion y mejora de los diagramas C4, asegurando consistencia con la arquitectura del sistema y los requerimientos del Sprint 2.<br><br>**AV2:**<br>**Josep Melgarejo:** Lidere la documentacion del Sprint 3, la organizacion de la evidencia de endpoints, migraciones, commits y configuracion de servicios, ademas de apoyar en los modulos de Financial, Analytics y Subscriptions.<br>**Jorge Ayala:** Lidere la configuracion base del backend, el desarrollo del bounded context de IAM y el despliegue del backend en Render, incluyendo autenticacion, usuarios, hashing de contraseñas, generacion de JWT y pruebas iniciales desde Swagger.<br>**Bruno Huaman:** Lidere la implementacion de Livestock y Devices, aportando en endpoints de hatos, animales, dispositivos IoT y metricas asociadas, manteniendo la estructura por bounded contexts definida por el equipo.<br>**Abigail Raymundo:** Lidere la implementacion de Sanitary y Activities, aportando en eventos sanitarios, actividades de granja y seguimiento de informacion relevante para ganaderos y veterinarios.<br>**Luciana Sanchez:** Lidere la implementacion del modulo de Clients, permitiendo representar la relacion entre veterinarios y ganaderos, asi como la consulta de clientes asignados y ganaderos disponibles. | **AV1:**<br>El equipo ejercio liderazgo conjunto al coordinar responsabilidades y tomar decisiones colaborativas, permitiendo organizar el primer entregable y alinear AniTec con las necesidades de los usuarios.<br><br>**TB1:**<br>El equipo consolido un liderazgo colaborativo durante el Sprint 2, mejorando artefactos de diseño e implementando la primera version funcional del frontend.<br><br>**AV2:**<br>Durante el Sprint 3, el liderazgo conjunto se evidencio en la construccion del backend real de AniTec. Cada integrante asumio un bounded context o responsabilidad tecnica clara, y el equipo logro integrar persistencia con MySQL, autenticacion, endpoints REST, documentacion Swagger y despliegue en Render. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **AV1:**<br>**Josep Melgarejo:** Explique al equipo la estructura del Event Storming y los diagramas asignados, ayudando a aclarar ideas y proponer mejoras.<br>**Jorge Ayala:** Comunique los avances realizados en la Landing Page y los commits asociados, permitiendo que el equipo conociera el estado del desarrollo.<br>**Bruno Huaman:** Fomente la lluvia de ideas para definir las historias de usuario del backlog, asegurando que se incluyeran funcionalidades criticas para el producto.<br>**Abigail Raymundo:** Explique los problemas encontrados en los primeros capitulos y ayude a organizar mejor la estructura del documento.<br>**Luciana Sanchez:** Propuse y explique las epicas e historias de usuario necesarias para el proyecto, promoviendo la participacion de todos los integrantes.<br><br>**TB1:**<br>**Josep Melgarejo:** Coordine la asignacion de tareas del Sprint 2, promoviendo la participacion del equipo y el cumplimiento de plazos.<br>**Jorge Ayala:** Participe en la planificacion de tareas del frontend, enfocandome en un bounded context esencial para el funcionamiento del sistema.<br>**Bruno Huaman:** Planifique el bounded context de Financial considerando las necesidades del dominio y su integracion con el resto del frontend.<br>**Abigail Raymundo:** Participe en la revision y correccion de capitulos, documentacion del Sprint 2 y definicion de componentes del sistema.<br>**Luciana Sanchez:** Explique las correcciones necesarias en los diagramas C4, ayudando al equipo a comprender mejor la arquitectura del sistema.<br><br>**AV2:**<br>**Josep Melgarejo:** Organice el trabajo de cierre del Sprint 3 mediante la actualizacion de evidencias, tablas de commits, endpoints implementados y conclusiones del avance.<br>**Jorge Ayala:** Coordino con el equipo la configuracion tecnica del backend y se encargo del despliegue en Render para que la API quedara disponible publicamente desde Swagger.<br>**Bruno Huaman:** Colaboro con el equipo para validar que las entidades ganaderas, dispositivos y metricas mantuvieran coherencia con los datos usados previamente en el frontend.<br>**Abigail Raymundo:** Aporto en la organizacion de tareas relacionadas con sanidad y actividades, asegurando que los endpoints respondieran a necesidades reales del trabajo ganadero.<br>**Luciana Sanchez:** Colaboro en la planificacion del flujo veterinario, definiendo la relacion entre usuarios ganaderos y veterinarios para que el backend soporte el trabajo por clientes asignados. | **AV1:**<br>La planificacion y el trabajo colaborativo permitieron cumplir los objetivos dentro del plazo establecido, manteniendo comunicacion constante y orientacion hacia las necesidades de ganaderos y veterinarios.<br><br>**TB1:**<br>La coordinacion del equipo permitio ejecutar el Sprint 2 de manera eficiente, integrando mejoras en los artefactos del reporte y avanzando en la implementacion del sistema.<br><br>**AV2:**<br>El equipo cumplio el objetivo principal del Sprint 3 al pasar de un frontend con datos mock a una API real desplegada en internet. La planificacion por bounded contexts, el uso de GitHub para integrar ramas y la documentacion de Swagger permitieron mantener un entorno colaborativo, organizado y verificable. |
+
+<div style="page-break-before: always;"></div>
 
 # 1.1. Startup Profile
 
@@ -269,7 +386,7 @@ En esta sección se presenta la descripción del startup y los perfiles de los m
 
 ## 1.1.1. Descripción del startup.
 
-Titan es una startup enfocada en brindar soluciones tecnológicas accesibles y efectivas para los pequeños y medianos ganaderos de Latinoamérica. A través de una plataforma web intuitiva, AniTec digitaliza la gestión del ganado mediante una estructura organizada en módulos clave que abarcan toda la operación productiva.
+Titan es una startup enfocada en brindar soluciones tecnológicas accesibles y efectivas para los pequeños y medianos ganaderos de Latinoamérica. A través de una plataforma web intuitiva, AniTec digitaliza la gestión del ganado mediante una estructura organizada en módulos clave que abarcan toda la operación productiva. Asimismo, la solución considera al segmento veterinario, permitiendo que los profesionales puedan revisar clientes asignados, consultar pacientes, registrar eventos sanitarios y dar seguimiento clínico a los animales atendidos.
 
 La plataforma organiza la vida productiva del ganado en los siguientes módulos clave:
 
@@ -354,6 +471,8 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
   </tr>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 # 1.2. Solution Profile
 
 ## 1.2.1. Antecedentes y Problemática.
@@ -400,11 +519,11 @@ La falta de herramientas tecnológicas adaptadas al contexto rural, el desconoci
 
 _¿Cómo se implementará la solución?_
 
-AniTec será una plataforma web accesible desde dispositivos móviles o computadoras, donde los ganaderos podrán registrar los datos de cada animal, recibir alertas sanitarias, gestionar ingresos y gastos, consultar reportes y acceder a contenido educativo de manera intuitiva, sin necesidad de conocimientos técnicos avanzados.
+AniTec será una plataforma web accesible desde dispositivos móviles o computadoras, donde los ganaderos podrán registrar los datos de cada animal, recibir alertas sanitarias, gestionar ingresos y gastos, consultar reportes y acceder a contenido educativo de manera intuitiva, sin necesidad de conocimientos técnicos avanzados. Además, los veterinarios podrán revisar clientes asignados, consultar pacientes y registrar eventos sanitarios para mejorar el seguimiento clínico del ganado.
 
 _¿Cómo se logrará una gestión eficiente dentro de la plataforma?_
 
-Mediante un diseño modular, simple y adaptable que permita ingresar y visualizar información clave del ganado. La plataforma contará con secciones para animales, fincas, sanidad, eventos, finanzas y reportes, de modo que el usuario pueda consultar y actualizar sus datos sin depender de registros manuales dispersos.
+Mediante un diseño modular, simple y adaptable que permita ingresar y visualizar información clave del ganado. La plataforma contará con secciones para animales, fincas, sanidad, actividades, finanzas, dispositivos IoT, reportes y planes, de modo que el usuario pueda consultar y actualizar sus datos sin depender de registros manuales dispersos.
 
 **Cuánto (How much)**
 
@@ -422,9 +541,11 @@ A partir del análisis 5W + 2H, se identifica que muchos pequeños y medianos ga
 
 Esta situación afecta la toma de decisiones del productor, ya que no siempre cuenta con información ordenada y actualizada para actuar frente a enfermedades, vacunaciones, tratamientos, ventas o cambios en la producción. Del mismo modo, los veterinarios y técnicos que apoyan a los ganaderos suelen depender de información incompleta, lo que dificulta el seguimiento sanitario de los animales y puede reducir la efectividad de las recomendaciones o tratamientos.
 
-AniTec busca responder a esta problemática mediante una aplicación web sencilla y accesible, orientada a centralizar la información principal de la gestión ganadera. La solución considera el registro de animales, fincas, eventos sanitarios, actividades importantes, datos financieros y reportes que ayuden al usuario a consultar su información con mayor rapidez y orden.
+AniTec busca responder a esta problemática mediante una aplicación web sencilla y accesible, orientada a centralizar la información principal de la gestión ganadera. La solución considera el registro de animales, fincas, eventos sanitarios, actividades importantes, datos financieros, dispositivos IoT y reportes que ayuden al usuario a consultar su información con mayor rapidez y orden. Para el segmento veterinario, la plataforma también permite revisar clientes asignados, consultar animales bajo seguimiento y registrar información sanitaria relevante.
 
-El objetivo principal del proyecto es mejorar la organización y trazabilidad de la información ganadera, reduciendo errores de registro y facilitando el seguimiento sanitario y productivo. Como alcance inicial, el proyecto incluye una landing page informativa y una aplicación web responsive para ganaderos y veterinarios. Como restricciones, la solución debe mantenerse simple de usar, estar alineada con las tecnologías trabajadas en el curso y considerar que parte del público objetivo no tiene alta experiencia usando plataformas digitales.
+El objetivo principal del proyecto es mejorar la organización y trazabilidad de la información ganadera, reduciendo errores de registro y facilitando el seguimiento sanitario y productivo. Como alcance inicial, el proyecto incluye una landing page informativa y una aplicación web responsive para ganaderos y veterinarios.
+
+Como restricciones del proyecto, la solución debe mantenerse simple de usar, estar alineada con las tecnologías trabajadas en el curso y considerar que parte del público objetivo no tiene alta experiencia usando plataformas digitales. Por ello, AniTec prioriza flujos claros, formularios directos y funcionalidades esenciales antes que procesos complejos de automatización.
 
 ## 1.2.2. Lean UX Process.
 
@@ -438,9 +559,9 @@ Lo que los productos y servicios existentes no abordan es la necesidad de contar
 
 Nuestro producto, AniTec, abordará esta brecha mediante una plataforma digital intuitiva que permitirá registrar, organizar y supervisar la información del ganado en tiempo real, automatizando recordatorios sanitarios, seguimiento reproductivo y control económico para reducir errores, evitar pérdida de datos y facilitar la toma de decisiones.
 
-Nuestro enfoque inicial será pequeños y medianos ganaderos que actualmente dependen de registros manuales o sistemas poco organizados para gestionar su producción.
+Nuestro enfoque inicial será pequeños y medianos ganaderos que actualmente dependen de registros manuales o sistemas poco organizados para gestionar su producción, junto con veterinarios que necesitan consultar información sanitaria y dar seguimiento a los animales de sus clientes.
 
-Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de registros manuales, un aumento en la precisión y frecuencia de los registros ganaderos, una mejora en el cumplimiento de vacunaciones y tratamientos, y una mayor capacidad de los productores para tomar decisiones basadas en datos.
+Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de registros manuales, un aumento en la precisión y frecuencia de los registros ganaderos, una mejora en el cumplimiento de vacunaciones y tratamientos, una mejor consulta de historiales sanitarios por parte de veterinarios y una mayor capacidad de los usuarios para tomar decisiones basadas en datos.
 
 ### 1.2.2.2. Lean UX Assumptions.
 
@@ -448,7 +569,7 @@ Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de r
 
 1. **Creemos que nuestros usuarios necesitan** un método confiable y eficiente para registrar y supervisar la salud, productividad y trazabilidad de su ganado.
 2. **Creemos que esta necesidad puede satisfacerse** mediante una plataforma web accesible que permita registrar información clave, generar alertas automáticas y crear reportes útiles para la toma de decisiones.
-3. **Creemos que nuestros primeros usuarios serán** pequeños y medianos ganaderos con acceso a teléfono o computadora, así como técnicos agropecuarios que asesoran directamente en el campo.
+3. **Creemos que nuestros primeros usuarios serán** pequeños y medianos ganaderos con acceso a teléfono o computadora, así como veterinarios y técnicos agropecuarios que asesoran directamente en el campo.
 4. **Creemos que lo más importante para los clientes es** contar con un control ordenado y automatizado del ganado, evitando pérdidas y cumpliendo los requisitos de trazabilidad para mejorar la comercialización.
 5. **Creemos que los usuarios también recibirán** alertas sanitarias, reportes económicos, acceso al historial de cada animal y contenido educativo dentro de la plataforma.
 6. **Creemos que conseguiremos clientes mediante** alianzas con asociaciones ganaderas, programas de desarrollo rural y campañas digitales dirigidas a regiones con alta actividad ganadera.
@@ -460,67 +581,102 @@ Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de r
 
 ### **User Assumptions:**
 
-### **¿Quién es el usuario?**
+- **Creemos que** los principales usuarios son pequeños y medianos ganaderos, veterinarios y técnicos agropecuarios que asesoran en campo. Creemos que, en etapas posteriores, la plataforma también podría ser utilizada por asociaciones, cooperativas y entidades públicas vinculadas a sanidad, trazabilidad y formalización del sector.
 
-Creemos que los principales usuarios son pequeños y medianos ganaderos y técnicos agropecuarios que asesoran en campo. Creemos que, en etapas posteriores, la plataforma también podría ser utilizada por asociaciones, cooperativas y entidades públicas vinculadas a sanidad, trazabilidad y formalización del sector.
+- **Creemos que** AniTec ayuda a organizar la información del hato, evitando la pérdida de datos importantes y solucionando la falta de seguimiento de vacunas, partos, tratamientos y control económico. Para los veterinarios, ayuda a consultar clientes, revisar pacientes y registrar eventos sanitarios con información más ordenada.Creemos que esto impacta directamente en la rentabilidad del ganadero, en la calidad del seguimiento sanitario y en el cumplimiento de normativas de mercado.
 
-### **¿Qué problemas busca resolver nuestro producto?**
+- **Creemos que** los usuarios valoran el registro individual de cada animal (edad, raza, salud, productividad), alertas automáticas, reportes económicos simples, historial completo del hato y contenido educativo práctico. También creemos que los veterinarios valoran el acceso a clientes asignados, pacientes y eventos sanitarios. Creemos que la facilidad de uso es esencial para su adopción en zonas rurales.
 
-Creemos que AniTec ayuda a organizar la información del hato, evitando la pérdida de datos importantes y solucionando la falta de seguimiento de vacunas, partos, tratamientos y control económico. Creemos que esto impacta directamente en la rentabilidad del ganadero y en el cumplimiento de normativas de mercado.
+- **Creemos que** AniTec se integra en la rutina diaria del ganadero, mejorando la planificación, reduciendo pérdidas, facilitando el cumplimiento de normativas y permitiendo decisiones informadas, lo que aumenta su rentabilidad y calidad de vida. Creemos que se utiliza cada vez que se registra un animal, tratamiento, parto, control de ingresos o productividad, y también para analizar datos históricos para tomar decisiones estratégicas. Creemos que puede usarse desde celular o computadora, tanto en campo como en casa.
 
-### **¿Qué características son importantes?**
+- **Creemos que** AniTec debe tener una interfaz intuitiva, amigable y estable, pensada para usuarios con poca experiencia tecnológica. Creemos que debe proteger los datos del ganadero, transmitir confianza y eficiencia, y reflejar cercanía con el contexto rural.
 
-Creemos que los usuarios valoran el registro individual de cada animal (edad, raza, salud, productividad), alertas automáticas, reportes económicos simples, historial completo del hato y contenido educativo práctico. Creemos que la facilidad de uso, incluso sin conexión a internet, es esencial para su adopción en zonas rurales.
+### Feature Assumptions:
 
-### **¿Dónde encaja nuestro producto en su trabajo o vida?**
+**Feature Assumption 01**
 
-Creemos que AniTec se integra en la rutina diaria del ganadero, mejorando la planificación, reduciendo pérdidas, facilitando el cumplimiento de normativas y permitiendo decisiones informadas, lo que aumenta su rentabilidad y calidad de vida.
+**Creemos que** una funcionalidad de registro digital centralizado del ganado permitirá a los pequeños y medianos ganaderos gestionar toda la información sanitaria, reproductiva y económica de sus animales de manera más eficiente.
 
-### **¿Cuándo y cómo se usa nuestro producto?**
+**Sabremos que esta funcionalidad es valiosa cuando** la mayoría de los usuarios registren y actualicen periódicamente la información de sus animales dentro de la plataforma.
 
-Creemos que se utiliza cada vez que se registra un animal, tratamiento, parto, control de ingresos o productividad, y también para analizar datos históricos para tomar decisiones estratégicas. Creemos que puede usarse desde celular o computadora, tanto en campo como en casa.
+**Feature Assumption 02**
 
-### **¿Cómo debe verse nuestro producto y cómo debe comportarse?**
+**Creemos que** un sistema de alertas automáticas para vacunaciones, tratamientos y eventos reproductivos ayudará a los ganaderos a recordar actividades importantes y reducir los descuidos en el manejo del hato.
 
-Creemos que AniTec debe tener una interfaz intuitiva, amigable y estable, pensada para usuarios con poca experiencia tecnológica. Creemos que debe proteger los datos del ganadero, transmitir confianza y eficiencia, y reflejar cercanía con el contexto rural.
+**Sabremos que esta funcionalidad es valiosa cuando** los usuarios atiendan los recordatorios y reporten una disminución en eventos olvidados o registros incompletos.
 
-### **Feature Assumptions:**
+**Feature Assumption 03**
 
-- **Creemos que** la plataforma debe ser accesible desde móviles y computadoras, fácil de usar incluso por usuarios sin experiencia tecnológica.
-- **Creemos que** debe incluir alertas personalizables sobre vacunas, tratamientos, partos y fechas importantes.
-- **Creemos que** debe permitir un registro detallado de cada animal (peso, salud, reproducción, ingresos y egresos) para análisis histórico y toma de decisiones.
-- **Creemos que** debe contar con un módulo de reportes y gráficos visuales que permita monitorear la evolución del hato, facilitar decisiones y demostrar trazabilidad ante compradores y autoridades.
+**Creemos que** un módulo de reportes visuales e historial de cada animal facilitará la interpretación de la información y permitirá tomar mejores decisiones productivas, reproductivas y económicas.
+
+**Sabremos que esta funcionalidad es valiosa cuando** los usuarios consulten frecuentemente los reportes antes de realizar acciones relacionadas con la gestión del ganado.
+
+**Feature Assumption 04**
+
+**Creemos que** un sistema digital con validación de datos reducirá los errores presentes en los registros manuales y mejorará la organización de la información del hato.
+
+**Sabremos que esta funcionalidad es valiosa cuando** disminuyan los registros incompletos, duplicados o inconsistentes respecto al método tradicional.
+
+**Feature Assumption 05**
+
+**Creemos que** un módulo para veterinarios con acceso a clientes, historial clínico y registro de eventos sanitarios facilitará el seguimiento de los animales y mejorará la colaboración con los ganaderos.
+
+**Sabremos que esta funcionalidad es valiosa cuando** los veterinarios utilicen la plataforma como herramienta principal para registrar y consultar la información sanitaria de los animales atendidos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.
 
 - **Hypothesis Statement 01:**
 
-  **Creemos que** los pequeños y medianos ganaderos adoptarán AniTec para registrar digitalmente toda la información de su ganado, incluyendo datos sanitarios, reproductivos y económicos.
+  **Creemos que lograremos** una mayor adopción y uso continuo de AniTec
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos el 50% de los usuarios registrados utilicen activamente la plataforma durante los tres primeros meses después de su lanzamiento.
+  **Obtienen** una forma sencilla y centralizada de registrar digitalmente toda la información de su ganado, incluyendo datos sanitarios, reproductivos y económicos
+
+  **Con** una plataforma integral de gestión ganadera que centralice y organice toda la información del hato.
+
 
 - **Hypothesis Statement 02:**
 
-  **Creemos que** las alertas automáticas sobre vacunación, tratamientos y eventos reproductivos ayudarán a los ganaderos a prevenir descuidos y pérdidas relacionadas con la salud y productividad del hato.
+  **Creemos que lograremos** mejorar la gestión sanitaria del hato y reducir incidentes prevenibles
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos un 40% de los usuarios reporten haber evitado incidentes sanitarios o errores de registro gracias a las alertas de GanTrace.
+  **Obtienen** recordatorios oportunos sobre vacunaciones, tratamientos y eventos reproductivos
+
+  **Con** un sistema de alertas y notificaciones automáticas.
 
 - **Hypothesis Statement 03:**
 
-  **Creemos que** el acceso a reportes visuales y al historial completo de cada animal permitirá a los ganaderos tomar decisiones más acertadas sobre ventas, reproducción y manejo económico.
+  **Creemos que lograremos** una mejor toma de decisiones y una mayor productividad en las explotaciones ganaderas
 
-  **Sabremos** que hemos tenido éxito.
+  **Si** los pequeños y medianos ganaderos
 
-  **Cuando** al menos un 60% de los usuarios indiquen que sus decisiones estratégicas se basaron en la información proporcionada por GanTrace.
+  **Obtienen** acceso a reportes visuales y al historial completo de cada animal
+
+  **Con** un panel de reportes interactivos y un historial detallado del ganado.
+
 
 - **Hypothesis Statement 04:**
-  **Creemos que** el uso de AniTec reducirá los errores comunes en los métodos tradicionales (cuadernos, hojas de cálculo) y mejorará la organización general de la información del hato.
-  **Sabremos** que hemos tenido éxito.
-  **Cuando** se observe una disminución de al menos el 50% en errores de registro (omisiones, datos incompletos o duplicados) después de tres meses de uso continuo de la plataforma.
+  
+  **Creemos que lograremos** una gestión más organizada y precisa de la información del hato
+
+  **Si** los pequeños y medianos ganaderos
+
+  **Obtienen** una forma confiable de registrar y administrar la información de sus animales sin depender de cuadernos u hojas de cálculo
+
+  **Con** un sistema digital de registro y validación de datos centralizado.
+
+
+- **Hypothesis Statement 05:**
+  
+  **Creemos que lograremos** una mejor colaboración entre ganaderos y veterinarios y un seguimiento sanitario más eficiente
+
+  **Si** los veterinarios
+
+  **Obtienen** acceso rápido a los clientes asignados, al historial de los animales y al registro de eventos sanitarios
+
+  **Con** un módulo para veterinarios integrado dentro de la plataforma AniTec.
 
 ### 1.2.2.4. Lean UX Canvas.
 
@@ -528,6 +684,8 @@ El Lean UX Canvas es una herramienta utilizada en el marco del diseño centrado 
 
 ![Lean UX Canvas](./markdown/assets/chapter-1/lean_ux_canvas.png)
 Enlace para acceder al https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781
+
+<div style="page-break-before: always;"></div>
 
 # 1.3. Segmentos objetivo.
 
@@ -539,14 +697,16 @@ Con la proyección de un aumento del 70 % en la demanda mundial de alimentos par
 
 Entre los posibles usuarios se encuentran:
 
-- **Pequeños y medianos ganaderos:** Productores que necesitan digitalizar el control sanitario, reproductivo y económico de sus hatos para mejorar productividad y trazabilidad.
+- **Pequeños y medianos ganaderos:** Productores ubicados principalmente en zonas rurales o semiurbanas, responsables del manejo diario de hatos pequeños o medianos. Suelen registrar información en cuadernos, hojas de cálculo o mensajes, por lo que necesitan digitalizar el control sanitario, reproductivo y económico de sus animales para mejorar productividad y trazabilidad.
 
-- **Veterinarios y técnicos agropecuarios:** Profesionales que requieren acceso a historiales clínicos, seguimiento sanitario y herramientas de monitoreo para optimizar la atención del ganado.
+- **Veterinarios y técnicos agropecuarios:** Profesionales que atienden a ganaderos, realizan controles sanitarios, registran tratamientos y dan seguimiento a animales bajo observación. Requieren acceso a historiales clínicos, clientes asignados, pacientes y herramientas de monitoreo para optimizar la atención del ganado y mejorar la comunicación con los productores.
 
 <div id='1.3.1.'><h4> 1.3.1 Stakeholders.</h4></div>
 
-- **Stakelholder Internos:** Equipo Titan y resto de integrantes del equipo de desarrollo.
-- **Stakelholder Externos:** Técnicos ganaderos, veterinarios y responsables de campo en unidades ganaderas, Administradores de cooperativas o asociaciones ganaderas, estudiantes de medicina veterinaria y carreras agropecuarias.
+- **Stakeholders Internos:** Equipo Titan y resto de integrantes del equipo de desarrollo.
+- **Stakeholders Externos:** Técnicos ganaderos, veterinarios y responsables de campo en unidades ganaderas, administradores de cooperativas o asociaciones ganaderas, estudiantes de medicina veterinaria y carreras agropecuarias.
+
+<div style="page-break-before: always;"></div>
 
 # 2.1. Competidores.
 
@@ -563,13 +723,13 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
            <td colspan="6" class="sub">  <h1>Competitive Analysis Landscape</h1></td>
         </tr>
         <tr>
-            <td colspan="2" rowspan="2" class="sub">¿Por qué llevar acabo este análisis?</td>
+            <td colspan="2" rowspan="2" class="sub">¿Por qué llevar a cabo este análisis?</td>
             <td colspan="4" class="sub"><h3>¿Quiénes son nuestros principales competidores?</h3></td>
         </tr>
         <tr>
-            <td colspan="4">Gracias al análisis de la competencia perteneciente al mercado, se logra comprender el entorno competitivo 
-                en el que operará nuestro producto. Ello proporciona una visión detallada de quienes son nuestros competidores 
-                directos e indirectos, trazar estrategia a través de información recopilada sobre  su posicionamiento actual en el mercado.</td>
+            <td colspan="4">Gracias al análisis de la competencia del mercado, se logra comprender el entorno competitivo 
+                en el que operará nuestro producto. Ello proporciona una visión detallada de quiénes son nuestros competidores 
+                directos e indirectos, permitiendo trazar estrategias a partir de la información recopilada sobre su posicionamiento actual en el mercado.</td>
         </tr>
         <tr>
             <td rowspan="3" class="sub">PERFIL</td>
@@ -580,14 +740,14 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
             <td> FarmLogs <img src="./markdown/assets/chapter-2/FarmLogs.png"></td> 
         </tr>
         <tr>
-            <td>Plataforma web y móvil diseñada para pequeños y medianos ganaderos en Latinoamérica, enfocada en trazabilidad, gestión sanitaria y educación.</td>
+            <td>Plataforma web diseñada para pequeños y medianos ganaderos y veterinarios en Latinoamérica, enfocada en trazabilidad, gestión sanitaria, monitoreo IoT y educación.</td>
             <td>Aplicación móvil y web para gestión de hatos ganaderos, enfocada en registro sanitario y productividad.</td>
             <td>Plataforma multifuncional para gestión agrícola y ganadera, con módulos de cultivo, inventario y finanzas.</td>
             <td>Herramienta global para gestión agrícola, con funcionalidades básicas de ganadería.</td>      
         </tr>
         <tr>
             <td class="sub">Ventaja Competitiva ¿Qué valor ofrece a los clientes?</td>
-            <td>Enfocado a la ganadería y la trazabilidad individual el hato a precios accesibles para los ganaderos</td>
+            <td>Enfoque en ganadería, trazabilidad individual del hato, seguimiento veterinario y precios accesibles para pequeños y medianos productores.</td>
             <td>Integración con dispositivos IoT. Reportes automatizados para exportación a autoridades sanitarias.</td>
             <td>Versatilidad: integra cultivos y ganado en una sola plataforma. Análisis predictivo basado en clima y mercado.</td>
             <td>Reconocimiento de marca internacional. Integración con mercados globales de commodities.</td>      
@@ -595,7 +755,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         <tr>
             <td rowspan="2" class="sub">PERFIL DEL MARKETING</td>
             <td class="sub" >Mercado Objetivo</td>
-            <td>Pequeños productores (5-100 cabezas de ganado) y técnicos agropecuarios.</td>
+            <td>Pequeños y medianos productores ganaderos, veterinarios de campo y técnicos agropecuarios.</td>
             <td>Medianos y grandes ganaderos con acceso a tecnología avanzada.</td>
             <td>Agricultores y ganaderos diversificados en zonas semiurbanas.</td>
             <td>Grandes empresas agroindustriales con enfoque exportador.</td>
@@ -605,19 +765,19 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
             <td>Alianzas con asociaciones ganaderas y programas gubernamentales. Talleres presenciales en zonas rurales.</td>
             <td>Alianzas con empresas de insumos veterinarios. Publicidad en ferias ganaderas y redes sociales especializadas.</td>
             <td>Contenido educativo en YouTube y webinars. Descuentos por volumen para cooperativas.</td>
-            <td>Campañas en medios internacionales (The Economist, Bloomberg).Acuerdos con distribuidores de maquinaria agrícola.</td>
+            <td>Campañas en medios internacionales (The Economist, Bloomberg). Acuerdos con distribuidores de maquinaria agrícola.</td>
         </tr>
         <tr>
             <td rowspan="3" class="sub">PERFIL DEL PRODUCTO</td>
             <td class="sub">Productos & Servicios</td>
-            <td>Plataforma móvil y web para gestión de hatos ganaderos</td>
+            <td>Plataforma web para gestión de hatos ganaderos, seguimiento sanitario, actividades, finanzas, dispositivos IoT y planes de suscripción.</td>
             <td>Plataforma móvil y web para gestión de hatos ganaderos.</td>
             <td>Plataforma multifuncional para gestión agrícola y ganadera.</td>
             <td>Herramienta global para gestión agrícola y ganadera, con énfasis en mercados formales.</td>
         </tr>
         <tr>
             <td class="sub">Precios & Costos</td>
-            <td>Basico: $10/mes Premium: $25/mes y Empresarial: $50/mes</td>
+            <td>Básico: $10/mes. Premium: $25/mes. Empresarial: $50/mes.</td>
             <td>Básico: $20/mes Premium: $100/mes.</td>
             <td>Solo ganado: $15/mes Full agro: $50/mes.</td>
             <td>Básico: $30/mes Empresarial: $200/mes.</td>
@@ -646,7 +806,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
         </tr>
         <tr>
             <td class="sub">Oportunidades</td>
-            <td>Demanda creciente de trazabilidad en exportaciones.Subsidios gubernamentales para digitalización rural.</td>
+            <td>Demanda creciente de trazabilidad en exportaciones. Subsidios gubernamentales para digitalización rural.</td>
             <td>Expansión a mercados formales (exportación). Alianzas con gobiernos para subsidios.</td>
             <td>Crecimiento de la agricultura de precisión. Demanda de análisis predictivo.</td>
             <td>Expansión a Latinoamérica con socios locales. Demanda de trazabilidad para exportación.</td> 
@@ -655,7 +815,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
             <td class="sub">Amenazas</td>
             <td>Competidores globales con más recursos. Resistencia a adoptar tecnología en productores tradicionales.</td>
             <td>Competencia con soluciones low-cost. Resistencia al cambio en ganaderos tradicionales.</td>
-            <td>Especialización de competidores como GanTrace. Saturación de plataformas multifuncionales.</td>
+            <td>Especialización de competidores ganaderos. Saturación de plataformas multifuncionales.</td>
             <td>Competencia de startups regionales. Barreras culturales y idiomáticas.</td>          
         </tr>
     </table>
@@ -670,15 +830,18 @@ Por un lado, estas son las estrategias preliminares:
 
 - Incursión en sectores rurales a través de alianzas con gremios ganaderos de la zona y organizaciones no gubernamentales.
 - Capacitación tecnológica gradual mediante material multimedia diseñado para personas con conocimientos digitales limitados.
-- Optimización de la asistencia técnica utilizando medios de contacto directos como llamadas telefónicas o WhatsApp.
+- Optimización de la asistencia técnica utilizando medios de contacto directos como llamadas telefónicas, WhatsApp y seguimiento veterinario dentro de la plataforma.
 - Generación de utilidad inmediata, brindando notificaciones en tiempo real, análisis de datos de valor y funciones sin costo.
 
 Por otro lado, estas son nuestras tácticas específicas:
 
 - Campañas de referidos para incentivar la difusión entre los mismos productores.
-- Entorno virtual gamificado para motivar el uso frecuente de la aplicación.
+- Material educativo y guías de uso para motivar la adopción frecuente de la aplicación.
 - Adaptación regional del sistema, empleando modismos locales y asistencia personalizada según la zona.
 - Presencia en eventos del sector, tales como ferias del campo y convenciones agropecuarias.
+- Acercamiento a veterinarios de campo, estudiantes de medicina veterinaria y técnicos agropecuarios para promover el uso de AniTec como herramienta de seguimiento sanitario.
+
+<div style="page-break-before: always;"></div>
 
 # 2.2. Entrevistas.
 
@@ -1000,6 +1163,8 @@ El análisis del segmento veterinario muestra que las principales necesidades es
 
 En cuanto a características subjetivas, ambos veterinarios se muestran más familiarizados con la tecnología que el segmento ganadero. Angela representa un perfil organizado, técnico y orientado al servicio, mientras que Aldahir muestra un perfil analítico y práctico. Ambos valoran la rapidez, la trazabilidad y la utilidad real. Por ello, el arquetipo de veterinario debe representar a un profesional joven, móvil, acostumbrado a usar herramientas digitales básicas, pero que necesita una plataforma más integrada para evitar pérdida de información y mejorar la continuidad de tratamientos.
 
+<div style="page-break-before: always;"></div>
+
 # 2.3. Needfinding.
 
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
@@ -1020,7 +1185,7 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la gestión ganadera y veterinaria.
 
-| **User Task**                                                                          | **Jorge Rivas (Frecuencia)** | **Jorge Rivas (Importancia)** | **Valeria Mendoza (Frecuencia)** | **Valeria Mendoza (Importancia)** |
+| **User Task**                                                                          | **Jorge Luis Rivas (Frecuencia)** | **Jorge Luis Rivas (Importancia)** | **Valeria Mendoza (Frecuencia)** | **Valeria Mendoza (Importancia)** |
 | -------------------------------------------------------------------------------------- | ---------------------------- | ----------------------------- | -------------------------------- | --------------------------------- |
 | Anotar el nacimiento o compra de un nuevo animal en cuadernos físicos                  | Sometimes                    | High                          | Rarely                           | Medium                            |
 | Registrar manualmente vacunas y tratamientos del ganado                                | Often                        | High                          | Always                           | High                              |
@@ -1033,7 +1198,7 @@ A través de la User Task Matrix, es posible identificar y organizar las princip
 | Llevar el control reproductivo mediante anotaciones manuales                           | Rarely                       | Medium                        | Rarely                           | Medium                            |
 | Buscar antecedentes médicos y sanitarios en cuadernos o archivos físicos               | Sometimes                    | High                          | Sometimes                        | High                              |
 
-La User Task Matrix evidencia que tanto Jorge como Valeria realizan constantemente actividades relacionadas con el control sanitario y el seguimiento del ganado. Mientras Jorge depende principalmente de registros físicos y de su memoria para organizar la información de sus animales, Valeria necesita acceder rápidamente a datos precisos durante sus visitas de campo y procedimientos veterinarios. Asimismo, ambos perfiles presentan dificultades relacionadas con la organización, trazabilidad y acceso oportuno a la información, especialmente en procesos de vacunación, historial clínico y monitoreo del ganado. Estas tareas permiten comprender mejor el contexto actual de los usuarios e identificar necesidades reales dentro del entorno ganadero y veterinario.
+La User Task Matrix evidencia que tanto Jorge Luis como Valeria realizan constantemente actividades relacionadas con el control sanitario y el seguimiento del ganado. Mientras Jorge Luis depende principalmente de registros físicos y de su memoria para organizar la información de sus animales, Valeria necesita acceder rápidamente a datos precisos durante sus visitas de campo y procedimientos veterinarios. Asimismo, ambos perfiles presentan dificultades relacionadas con la organización, trazabilidad y acceso oportuno a la información, especialmente en procesos de vacunación, historial clínico y monitoreo del ganado. Estas tareas permiten comprender mejor el contexto actual de los usuarios e identificar necesidades reales dentro del entorno ganadero y veterinario.
 
 ## 2.3.3. User Journey Mapping.
 
@@ -1065,6 +1230,38 @@ User Veterinario:
 
 ![User-Mapping-Empathy](./markdown/assets/chapter-2/User-Veterinario-Empathy.png)
 
+## 2.3.5. As-is Scenario Mapping.
+
+El As-is Scenario Mapping permite representar cómo los usuarios realizan actualmente sus actividades antes de utilizar AniTec. Este análisis se construye a partir de las entrevistas, los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps. Su objetivo es identificar acciones, pensamientos, emociones y oportunidades de mejora dentro del flujo actual de trabajo de cada segmento.
+
+### As-is Scenario Mapping: Ganadero
+
+**User Persona:** Jorge Luis Rivas  
+**Escenario:** Registro y seguimiento manual de información sanitaria y productiva del ganado.
+
+| Etapa | Actividades actuales | Pensamientos del usuario | Emociones | Pain points | Oportunidades para AniTec |
+|-------|----------------------|--------------------------|-----------|-------------|---------------------------|
+| Inicio del día de trabajo | Revisa mentalmente las actividades pendientes y consulta apuntes o cuadernos físicos. | "Debo recordar qué animal necesita revisión o vacuna." | Preocupación y responsabilidad. | Depende de la memoria y de registros físicos que pueden perderse. | Mostrar actividades pendientes, recordatorios y resumen del hato. |
+| Registro de información | Anota nacimientos, tratamientos, peso o cambios del animal en cuadernos u hojas sueltas. | "Luego ordenaré esta información cuando tenga tiempo." | Cansancio y sensación de desorden. | Los datos quedan incompletos, duplicados o difíciles de encontrar. | Permitir registrar animales, eventos sanitarios y actividades desde formularios simples. |
+| Consulta de historial | Busca información anterior entre cuadernos, mensajes o fotografías. | "No sé exactamente dónde anoté el último tratamiento." | Frustración e incertidumbre. | La búsqueda toma tiempo y puede afectar decisiones sanitarias o comerciales. | Centralizar historial del animal, eventos sanitarios y datos productivos. |
+| Coordinación con veterinario o técnico | Comparte información por WhatsApp, llamada o fotografías del cuaderno. | "Necesito explicarle rápido lo que pasó con el animal." | Urgencia y dependencia de terceros. | La información enviada puede estar incompleta o poco clara. | Facilitar el acceso a información ordenada para el seguimiento veterinario. |
+| Toma de decisiones | Decide tratamientos, ventas o controles futuros con información parcial. | "Podría tomar una mejor decisión si tuviera todo ordenado." | Duda y necesidad de confianza. | La falta de trazabilidad reduce la seguridad de las decisiones. | Generar reportes, indicadores básicos y consultas rápidas por animal o hato. |
+
+### As-is Scenario Mapping: Veterinario
+
+**User Persona:** Valeria Mendoza  
+**Escenario:** Atención sanitaria de animales sin historial clínico centralizado.
+
+| Etapa | Actividades actuales | Pensamientos del usuario | Emociones | Pain points | Oportunidades para AniTec |
+|-------|----------------------|--------------------------|-----------|-------------|---------------------------|
+| Recepción del caso | Recibe información del ganadero mediante llamada, WhatsApp o comentarios durante la visita. | "Necesito saber qué le ocurrió antes al animal." | Atención y presión por responder rápido. | La información inicial puede ser incompleta o poco precisa. | Mostrar clientes asignados, animales y antecedentes sanitarios. |
+| Revisión de antecedentes | Solicita cuadernos, fotos, archivos o mensajes anteriores para reconstruir el historial. | "Sin historial, el diagnóstico puede ser menos preciso." | Frustración y cautela profesional. | Se pierde tiempo buscando datos dispersos. | Centralizar historial sanitario, tratamientos y eventos clínicos. |
+| Evaluación del animal | Realiza diagnóstico o control con la información disponible en campo. | "Debo tomar una decisión con los datos que tengo." | Concentración y responsabilidad. | La falta de trazabilidad puede limitar la calidad del seguimiento. | Permitir consultar fichas de animales y eventos anteriores desde el dashboard veterinario. |
+| Registro de atención | Anota diagnóstico, tratamiento o recomendación en notas, Excel o mensajes al productor. | "Debo dejar constancia para la próxima visita." | Necesidad de orden. | Las notas pueden perderse o no estar disponibles para futuras consultas. | Registrar eventos sanitarios y actividades de seguimiento en la plataforma. |
+| Seguimiento posterior | Coordina próximas visitas o controles mediante mensajes y recordatorios personales. | "Tengo que recordar qué cliente necesita seguimiento." | Carga mental y preocupación. | No existe una vista centralizada de pacientes o controles pendientes. | Organizar clientes, pacientes, actividades y alertas sanitarias básicas. |
+
+<div style="page-break-before: always;"></div>
+
 # 2.4. Big Picture EventStorming.
 
 El presente Big Picture Event Storming se ha desarrollado de manera colaborativa utilizando la plataforma Miro, siguiendo la metodología de Philippe Bourgau para explorar el dominio del negocio de forma holística y establecer un entendimiento compartido. A través de un proceso iterativo en este entorno digital, que incluyó la generación de eventos de dominio, el ordenamiento cronológico y la identificación de puntos críticos dentro de los procesos, se ha logrado mapear la complejidad del sector ganadero en una narrativa visual coherente. Este artefacto no solo permitió identificar riesgos y oportunidades de mejora en la gestión de AniTec, sino que también sentó las bases para la comprensión del dominio y el diseño posterior de la arquitectura del sistema alineada con la realidad operativa de los ganaderos y veterinarios.
@@ -1083,6 +1280,8 @@ El presente Big Picture Event Storming se ha desarrollado de manera colaborativa
 
 Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
 
+<div style="page-break-before: always;"></div>
+
 # 2.5. Ubiquitous Language.
 
 Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2003)** en su obra _Domain-Driven Design: Tackling Complexity in the Heart of Software_, se presenta el siguiente glosario. Este conjunto de términos constituye el lenguaje común del proyecto, eliminando ambigüedades entre el equipo de ingeniería y los expertos del dominio ganadero.
@@ -1091,17 +1290,27 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
 | :-------------------------- | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Livestock Owner**         | Ganadero                 | Usuario responsable de la administración operativa y financiera de la hacienda, encargado de registrar eventos diarios y tomar decisiones de producción. |
 | **Veterinarian**            | Veterinario              | Profesional especializado encargado de la salud animal, responsable de emitir diagnósticos, prescribir tratamientos y validar historiales clínicos.      |
-| **Livestock Unit**          | Unidad Ganadera          | Cada ejemplar individual bajo gestión dentro del sistema, identificado de forma única para su seguimiento sanitario y productivo.                        |
-| **Health Record**           | Registro Sanitario       | Documento digital que centraliza el historial de vacunas, enfermedades y procedimientos médicos realizados a un animal.                                  |
-| **Sanitary Alert**          | Alerta Sanitaria         | Notificación automática generada por el sistema para informar sobre vencimientos de vacunas o brotes epidemiológicos detectados en la zona.              |
-| **Growth Performance**      | Desempeño de Crecimiento | Indicador basado en la ganancia media de peso diaria (GMD) que permite evaluar la eficiencia alimenticia y el valor de mercado del animal.               |
+| **Herd**                    | Hato                     | Conjunto de animales agrupados dentro de una unidad productiva o finca para su control sanitario, productivo y administrativo.                          |
+| **Farm**                    | Finca                    | Unidad productiva donde el ganadero organiza animales, actividades, registros sanitarios y movimientos financieros.                                     |
+| **Animal**                  | Animal                   | Ejemplar individual registrado por el ganadero para mantener su trazabilidad sanitaria, productiva y económica.                                         |
+| **Health Event**            | Evento Sanitario         | Registro de una vacuna, enfermedad, diagnóstico, tratamiento, incidencia o seguimiento relacionado con la salud de un animal.                           |
+| **Veterinary Client**       | Cliente Veterinario      | Ganadero asignado a un veterinario para que este pueda revisar sus animales, consultar historiales y registrar atenciones sanitarias.                   |
 | **Veterinary History**      | Historial Veterinario    | Expediente clínico consolidado que permite al especialista revisar antecedentes médicos antes de realizar una intervención.                              |
 | **Treatment Protocol**      | Protocolo de Tratamiento | Conjunto de instrucciones médicas y fármacos asignados a un animal para tratar una afección diagnosticada por el veterinario.                            |
-| **Traceability**            | Trazabilidad             | Capacidad de reconstruir el historial completo de un animal (origen, salud, peso, movimientos) a lo largo de toda su vida productiva.                    |
-| **Offline Synchronization** | Sincronización Offline   | Capacidad técnica que permite al ganadero registrar datos sin conexión a internet y sincronizarlos automáticamente al recuperar señal.                   |
-| **Farm Management**         | Gestión de Hacienda      | Administración de los recursos, personal y actividades que ocurren dentro de la unidad productiva ganadera.                                              |
+| **Traceability**            | Trazabilidad             | Capacidad de reconstruir el historial completo de un animal, incluyendo origen, salud, peso, actividades y cambios relevantes.                          |
+| **IoT Device**              | Dispositivo IoT          | Equipo asociado a una finca o animal para apoyar el monitoreo de datos como peso, temperatura, humedad, ubicación o actividad.                         |
+| **Metric**                  | Métrica                  | Lectura generada por un dispositivo o registro del sistema que permite analizar el estado de un animal, finca o proceso ganadero.                       |
+| **Farm Activity**           | Actividad Ganadera       | Tarea productiva, sanitaria, financiera o veterinaria programada para organizar el trabajo dentro de la operación ganadera.                             |
+| **Financial Movement**      | Movimiento Financiero    | Ingreso o egreso registrado por el ganadero para controlar la rentabilidad de su operación.                                                             |
+| **Subscription Plan**       | Plan de Suscripción      | Opción de uso de la plataforma que define condiciones, beneficios y precio para el usuario.                                                              |
+| **Payment**                 | Pago                     | Registro económico asociado a la activación o renovación de un plan de suscripción dentro de AniTec.                                                    |
+| **Farm Management**         | Gestión de Hacienda      | Administración de los recursos, personal, animales, actividades y datos que ocurren dentro de la unidad productiva ganadera.                            |
+
+<div style="page-break-before: always;"></div>
 
 # 3.1. User Stories.
+
+En esta sección se presentan los Epics, User Stories y Technical Stories identificados para AniTec a partir del análisis de entrevistas, needfinding, definición de segmentos objetivo y alcance actual de la solución. Las User Stories describen necesidades funcionales de ganaderos, veterinarios, usuarios autenticados y visitantes de la landing page. Las Technical Stories describen necesidades técnicas del frontend y del RESTful API, usando el rol Developer y criterios de aceptación en formato Given-When-Then.
 
 <table>
   <thead>
@@ -1188,6 +1397,20 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
       <td><b>EP-011</b></td>
       <td>Landing page publica de AniTec</td>
       <td>Esta epica agrupa las historias de usuario de la landing page publica de AniTec. Estas historias estan al final porque corresponden a la experiencia informativa y comercial previa al uso de la aplicacion web.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-012</b></td>
+      <td>Dispositivos IoT y metricas</td>
+      <td>Esta epica agrupa las funcionalidades para consultar dispositivos asociados a fincas o animales, asi como sus lecturas y metricas recientes.</td>
+      <td>No aplica</td>
+      <td>No aplica</td>
+    </tr>
+    <tr>
+      <td><b>EP-013</b></td>
+      <td>Planes, suscripciones y pagos</td>
+      <td>Esta epica agrupa las funcionalidades para visualizar planes de suscripcion, consultar el plan activo, revisar pagos y realizar pagos simulados dentro de la plataforma.</td>
       <td>No aplica</td>
       <td>No aplica</td>
     </tr>
@@ -1349,7 +1572,7 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
       <td><b>US-023</b></td>
       <td>Agregar cliente ganadero a la cartera del veterinario</td>
       <td>Como veterinario, quiero buscar ganaderos registrados y enviar una peticion para agregarlos a mi cartera de clientes.</td>
-      <td><b>Busqueda de ganadero.</b><br>Given existen ganaderos registrados en la aplicacion<br>When el veterinario ingresa al panel de agregar cliente<br>Then el sistema muestra ganaderos en cartas con nombre, fincas y avatar circular<br><br><b>Envio de peticion simulada.</b><br>Given el veterinario encuentra un ganadero disponible<br>When selecciona enviar peticion<br>Then el sistema asigna automaticamente ese ganadero al veterinario<br>And lo muestra como cliente agregado<br><br><b>Busqueda sin resultados.</b><br>Given el veterinario escribe un nombre sin coincidencias<br>When el sistema filtra los ganaderos<br>Then muestra un mensaje indicando que no se encontraron ganaderos</td>
+      <td><b>Busqueda de ganadero.</b><br>Given existen ganaderos registrados en la aplicacion<br>When el veterinario ingresa al panel de agregar cliente<br>Then el sistema muestra ganaderos en cartas con nombre, fincas y avatar circular<br><br><b>Envio de peticion.</b><br>Given el veterinario encuentra un ganadero disponible<br>When selecciona enviar peticion<br>Then el sistema registra la relacion veterinario-cliente en el backend<br>And lo muestra como cliente agregado<br><br><b>Busqueda sin resultados.</b><br>Given el veterinario escribe un nombre sin coincidencias<br>When el sistema filtra los ganaderos<br>Then muestra un mensaje indicando que no se encontraron ganaderos</td>
       <td>EP-006</td>
     </tr>
     <tr>
@@ -1559,7 +1782,7 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
       <td><b>US-053</b></td>
       <td>Iniciar sesion como usuario registrado</td>
       <td>Como usuario registrado, quiero iniciar sesion con mis credenciales para acceder a las funcionalidades que corresponden a mi rol.</td>
-      <td><b>Inicio de sesion con credenciales validas.</b><br>Given el usuario se encuentra en la pantalla de inicio de sesion<br>And ingresa un usuario y contrasena validos<br>When selecciona la opcion de ingresar<br>Then el sistema autentica al usuario<br>And redirige al dashboard correspondiente segun su rol<br><br><b>Inicio de sesion con credenciales invalidas.</b><br>Given el usuario se encuentra en la pantalla de inicio de sesion<br>And ingresa un usuario o contrasena incorrectos<br>When selecciona la opcion de ingresar<br>Then el sistema no permite el acceso<br>And muestra un mensaje de credenciales invalidas</td>
+      <td><b>Inicio de sesion con credenciales validas.</b><br>Given el usuario se encuentra en la pantalla de inicio de sesion<br>And ingresa un usuario y contrasena validos<br>When selecciona la opcion de ingresar<br>Then el sistema autentica al usuario mediante el backend<br>And guarda el token JWT de la sesion<br>And redirige al dashboard correspondiente segun su rol<br><br><b>Inicio de sesion con credenciales invalidas.</b><br>Given el usuario se encuentra en la pantalla de inicio de sesion<br>And ingresa un usuario o contrasena incorrectos<br>When selecciona la opcion de ingresar<br>Then el sistema no permite el acceso<br>And muestra un mensaje de credenciales invalidas</td>
       <td>EP-001</td>
     </tr>
     <tr>
@@ -1591,69 +1814,177 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
       <td>EP-001</td>
     </tr>
     <tr>
+      <td><b>US-058</b></td>
+      <td>Visualizar dispositivos IoT registrados</td>
+      <td>Como usuario autenticado, quiero ver los dispositivos IoT registrados en la plataforma para monitorear los equipos asociados a fincas o animales.</td>
+      <td><b>Dispositivos disponibles.</b><br>Given existen dispositivos registrados en el backend<br>When el usuario ingresa al modulo IoT<br>Then el sistema muestra tarjetas con nombre, tipo, estado y asociacion del dispositivo<br><br><b>Sin dispositivos registrados.</b><br>Given no existen dispositivos registrados<br>When el usuario ingresa al modulo IoT<br>Then el sistema muestra un estado vacio indicando que no hay dispositivos disponibles</td>
+      <td>EP-012</td>
+    </tr>
+    <tr>
+      <td><b>US-059</b></td>
+      <td>Consultar metricas de un dispositivo IoT</td>
+      <td>Como usuario autenticado, quiero consultar las metricas recientes de un dispositivo para conocer lecturas como peso, temperatura, humedad o actividad.</td>
+      <td><b>Metricas disponibles.</b><br>Given un dispositivo tiene lecturas registradas<br>When el usuario revisa el detalle del dispositivo<br>Then el sistema muestra la ultima metrica y el historial de lecturas disponibles<br><br><b>Dispositivo sin metricas.</b><br>Given un dispositivo no tiene lecturas registradas<br>When el usuario revisa sus metricas<br>Then el sistema muestra un mensaje indicando que aun no existen lecturas</td>
+      <td>EP-012</td>
+    </tr>
+    <tr>
+      <td><b>US-060</b></td>
+      <td>Visualizar planes de suscripcion</td>
+      <td>Como usuario autenticado, quiero visualizar los planes de suscripcion disponibles para elegir el plan que mejor se adapte a mi operacion.</td>
+      <td><b>Planes disponibles.</b><br>Given existen planes activos en el backend<br>When el usuario ingresa al modulo de planes<br>Then el sistema muestra nombre, precio y caracteristicas de cada plan<br><br><b>Plan activo identificado.</b><br>Given el usuario tiene una suscripcion activa<br>When visualiza los planes<br>Then el sistema identifica visualmente el plan actualmente activo</td>
+      <td>EP-013</td>
+    </tr>
+    <tr>
+      <td><b>US-061</b></td>
+      <td>Consultar suscripcion activa</td>
+      <td>Como usuario autenticado, quiero consultar mi suscripcion activa para conocer el plan asociado a mi cuenta.</td>
+      <td><b>Suscripcion activa.</b><br>Given el usuario tiene una suscripcion vigente<br>When ingresa al modulo de planes<br>Then el sistema muestra la informacion de su suscripcion activa<br><br><b>Usuario sin suscripcion.</b><br>Given el usuario no tiene una suscripcion activa<br>When ingresa al modulo de planes<br>Then el sistema permite elegir un plan disponible</td>
+      <td>EP-013</td>
+    </tr>
+    <tr>
+      <td><b>US-062</b></td>
+      <td>Realizar pago simulado de suscripcion</td>
+      <td>Como usuario autenticado, quiero realizar un pago simulado de un plan para activar una suscripcion durante las pruebas del sistema.</td>
+      <td><b>Pago simulado exitoso.</b><br>Given el usuario selecciona un plan disponible<br>When confirma el pago simulado<br>Then el backend registra la suscripcion y el pago mock<br>And el frontend actualiza el plan activo del usuario<br><br><b>Error durante el pago.</b><br>Given ocurre un problema al procesar el pago simulado<br>When el usuario intenta confirmar el plan<br>Then el sistema muestra un mensaje de error y mantiene el estado anterior</td>
+      <td>EP-013</td>
+    </tr>
+    <tr>
+      <td><b>US-063</b></td>
+      <td>Consultar historial de pagos</td>
+      <td>Como usuario autenticado, quiero consultar mi historial de pagos para revisar los pagos realizados por mis suscripciones.</td>
+      <td><b>Pagos existentes.</b><br>Given el usuario tiene pagos registrados<br>When ingresa al modulo de planes y pagos<br>Then el sistema muestra el historial con monto, moneda, estado y fecha de pago<br><br><b>Sin pagos registrados.</b><br>Given el usuario no tiene pagos registrados<br>When ingresa al historial de pagos<br>Then el sistema muestra un mensaje indicando que aun no hay pagos</td>
+      <td>EP-013</td>
+    </tr>
+    <tr>
+      <td><b>US-064</b></td>
+      <td>Consumir dashboards desde el backend</td>
+      <td>Como usuario autenticado, quiero visualizar dashboards calculados desde el backend para revisar indicadores consistentes con la informacion persistida en la base de datos.</td>
+      <td><b>Dashboard de ganadero.</b><br>Given el usuario tiene rol de ganadero<br>When ingresa a su dashboard<br>Then el sistema consume el endpoint de analiticas del ganadero<br>And muestra indicadores basados en datos persistidos<br><br><b>Dashboard de veterinario.</b><br>Given el usuario tiene rol de veterinario<br>When ingresa a su dashboard<br>Then el sistema consume el endpoint de analiticas del veterinario<br>And muestra indicadores de clientes, pacientes y seguimientos</td>
+      <td>EP-002, EP-006, EP-009</td>
+    </tr>
+    <tr>
       <td><b>TS-001</b></td>
       <td>Configuracion inicial del frontend con Vue, Vite y PrimeVue</td>
-      <td>Como desarrollador frontend, quiero configurar la base del proyecto con Vue, Vite y PrimeVue para construir una aplicacion web modular, rapida y con componentes reutilizables.</td>
+      <td>Como Developer frontend, quiero configurar la base del proyecto con Vue, Vite y PrimeVue para construir una aplicacion web modular, rapida y con componentes reutilizables.</td>
       <td><b>Proyecto ejecutable.</b><br>Given el proyecto frontend esta configurado<br>When se ejecuta npm run dev<br>Then la aplicacion inicia correctamente en el navegador<br><br><b>Compilacion correcta.</b><br>Given el codigo fuente esta completo<br>When se ejecuta npm run build<br>Then Vite genera la version de produccion sin errores de compilacion</td>
       <td>EP-010</td>
     </tr>
     <tr>
       <td><b>TS-002</b></td>
       <td>Configuracion de rutas protegidas por rol con Vue Router</td>
-      <td>Como desarrollador frontend, quiero configurar rutas publicas y privadas con validacion por rol para controlar el acceso de ganaderos y veterinarios.</td>
+      <td>Como Developer frontend, quiero configurar rutas publicas y privadas con validacion por rol para controlar el acceso de ganaderos y veterinarios.</td>
       <td><b>Ruta privada sin sesion.</b><br>Given un usuario no autenticado intenta entrar a una ruta privada<br>When el router evalua la navegacion<br>Then el sistema lo redirige al inicio de sesion<br><br><b>Ruta restringida por rol.</b><br>Given un usuario autenticado intenta acceder a una ruta de otro rol<br>When el router valida los roles permitidos<br>Then el sistema lo redirige a su dashboard correspondiente</td>
       <td>EP-001</td>
     </tr>
     <tr>
       <td><b>TS-003</b></td>
       <td>Manejo de estado global con Pinia</td>
-      <td>Como desarrollador frontend, quiero manejar los datos principales mediante stores de Pinia para compartir informacion entre vistas sin repetir logica.</td>
+      <td>Como Developer frontend, quiero manejar los datos principales mediante stores de Pinia para compartir informacion entre vistas sin repetir logica.</td>
       <td><b>Datos compartidos.</b><br>Given una vista carga animales, fincas, actividades o registros sanitarios<br>When otra vista necesita esos datos<br>Then puede obtenerlos desde el store correspondiente<br><br><b>Actualizacion del estado.</b><br>Given el usuario crea, edita o elimina un registro<br>When el store procesa la accion<br>Then la informacion visible se actualiza en la interfaz</td>
       <td>EP-002, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-004</b></td>
       <td>Consumo de datos mediante Axios, BaseApi y BaseEndpoint</td>
-      <td>Como desarrollador frontend, quiero centralizar el consumo de datos con Axios, BaseApi y BaseEndpoint para evitar repetir codigo de peticiones en cada modulo.</td>
-      <td><b>Consulta de datos.</b><br>Given un store solicita informacion de un modulo<br>When llama a su clase API correspondiente<br>Then el sistema usa BaseEndpoint para obtener los datos del endpoint configurado<br><br><b>Operacion sobre registros.</b><br>Given el usuario crea, actualiza o elimina un registro<br>When el store llama a la API<br>Then se ejecuta la peticion correspondiente usando la estructura comun de endpoints</td>
+      <td>Como Developer frontend, quiero centralizar el consumo de datos con Axios, BaseApi y BaseEndpoint para evitar repetir codigo de peticiones y consumir el backend de AniTec de forma consistente.</td>
+      <td><b>Consulta de datos.</b><br>Given un store solicita informacion de un modulo<br>When llama a su clase API correspondiente<br>Then el sistema usa BaseEndpoint para obtener los datos del endpoint configurado en el backend<br><br><b>Operacion sobre registros.</b><br>Given el usuario crea, actualiza o elimina un registro<br>When el store llama a la API<br>Then se ejecuta la peticion correspondiente usando la estructura comun de endpoints<br><br><b>Token de sesion.</b><br>Given existe un token JWT guardado en la sesion<br>When se realiza una peticion al backend<br>Then BaseApi agrega el token en el header Authorization</td>
       <td>EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-005</b></td>
-      <td>Persistencia local de sesion y usuarios demo con localStorage</td>
-      <td>Como desarrollador frontend, quiero guardar la sesion y las relaciones demo en localStorage para mantener la experiencia del usuario durante la navegacion y recarga de pagina.</td>
-      <td><b>Sesion persistente.</b><br>Given el usuario inicia sesion correctamente<br>When recarga la pagina<br>Then el sistema mantiene los datos de sesion disponibles<br><br><b>Clientes asignados persistentes.</b><br>Given un veterinario agrega o elimina un cliente demo<br>When se actualiza la relacion<br>Then el sistema guarda el cambio en localStorage</td>
-      <td>EP-001, EP-006</td>
+      <td>Configuracion inicial del backend con ASP.NET Core</td>
+      <td>Como Developer backend, quiero crear la solucion de AniTec con ASP.NET Core para implementar una API REST organizada y preparada para integrarse con el frontend.</td>
+      <td><b>Proyecto backend creado.</b><br>Given la solucion backend fue creada<br>When se revisa la estructura del proyecto<br>Then existe un proyecto ASP.NET Core con carpetas organizadas por bounded contexts<br><br><b>Backend ejecutable.</b><br>Given el backend esta configurado<br>When se ejecuta dotnet run<br>Then la API inicia correctamente en ambiente de desarrollo</td>
+      <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-006</b></td>
-      <td>Internacionalizacion con vue-i18n</td>
-      <td>Como desarrollador frontend, quiero configurar vue-i18n para mostrar textos de la aplicacion en espanol e ingles.</td>
-      <td><b>Cambio de idioma.</b><br>Given el usuario selecciona un idioma disponible<br>When se actualiza la configuracion de i18n<br>Then los textos de la interfaz se muestran en el idioma seleccionado<br><br><b>Textos reutilizables.</b><br>Given una vista necesita mostrar etiquetas o titulos<br>When usa la funcion t<br>Then obtiene el texto desde los archivos de traduccion</td>
-      <td>EP-001, EP-010</td>
+      <td>Persistencia con Entity Framework Core y MySQL</td>
+      <td>Como Developer backend, quiero configurar Entity Framework Core con MySQL para almacenar la informacion de AniTec en una base de datos relacional.</td>
+      <td><b>Conexion a MySQL.</b><br>Given la cadena de conexion esta configurada<br>When la API inicia<br>Then el backend se conecta a la base de datos MySQL<br><br><b>Migraciones aplicadas.</b><br>Given existen migraciones de Entity Framework Core<br>When se ejecuta la actualizacion de base de datos<br>Then las tablas necesarias se crean o actualizan correctamente</td>
+      <td>EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
     </tr>
     <tr>
       <td><b>TS-007</b></td>
-      <td>Integracion de graficos estadisticos con Chart.js y PrimeVue Chart</td>
-      <td>Como desarrollador frontend, quiero integrar graficos estadisticos para mostrar analiticas visuales de estado del hato, registros sanitarios y atenciones por hato.</td>
-      <td><b>Grafico renderizado.</b><br>Given existen datos visibles para el usuario<br>When ingresa al apartado de analiticas<br>Then el sistema renderiza graficos usando los datos calculados del frontend<br><br><b>Datos filtrados por rol.</b><br>Given el usuario tiene rol de ganadero o veterinario<br>When visualiza analiticas<br>Then los graficos usan solo la informacion permitida para su rol</td>
-      <td>EP-009</td>
+      <td>Autenticacion backend con JWT y BCrypt</td>
+      <td>Como Developer backend, quiero implementar autenticacion con JWT y BCrypt para validar credenciales y proteger el acceso de los usuarios registrados.</td>
+      <td><b>Inicio de sesion valido.</b><br>Given un usuario registrado ingresa credenciales correctas<br>When consume el endpoint de sign-in<br>Then el sistema responde con los datos del usuario y un token JWT<br><br><b>Contrasena protegida.</b><br>Given un usuario se registra en el sistema<br>When se almacena su contrasena<br>Then el backend la guarda usando hashing con BCrypt</td>
+      <td>EP-001</td>
     </tr>
     <tr>
       <td><b>TS-008</b></td>
-      <td>Construccion de componentes responsive y layout por rol</td>
-      <td>Como desarrollador frontend, quiero construir un layout responsive con menu lateral y opciones segun rol para mejorar la navegacion en distintas pantallas.</td>
-      <td><b>Menu segun rol.</b><br>Given el usuario inicia sesion como ganadero o veterinario<br>When se muestra el layout principal<br>Then el menu lateral muestra solo las opciones correspondientes a su rol<br><br><b>Adaptacion visual.</b><br>Given el usuario usa una pantalla pequena<br>When navega por la aplicacion<br>Then el layout y los componentes se adaptan para mantener legibilidad y uso correcto</td>
-      <td>EP-010</td>
+      <td>Implementacion de bounded contexts de gestion ganadera</td>
+      <td>Como Developer backend, quiero implementar los bounded contexts principales de AniTec para exponer servicios REST de fincas, animales, sanidad, actividades y finanzas.</td>
+      <td><b>Endpoints CRUD disponibles.</b><br>Given los bounded contexts principales fueron implementados<br>When se consulta Swagger<br>Then existen endpoints para fincas, animales, eventos sanitarios, actividades y registros financieros<br><br><b>Operaciones persistentes.</b><br>Given el frontend o Swagger envia una operacion de creacion, edicion o eliminacion<br>When la API procesa la solicitud<br>Then el cambio se guarda correctamente en MySQL</td>
+      <td>EP-003, EP-004, EP-005, EP-007, EP-008</td>
+    </tr>
+    <tr>
+      <td><b>TS-009</b></td>
+      <td>Servicios backend para analiticas y clientes veterinarios</td>
+      <td>Como Developer backend, quiero implementar endpoints de analiticas y clientes veterinarios para que ganaderos y veterinarios consulten informacion calculada desde el servidor.</td>
+      <td><b>Dashboard de ganadero.</b><br>Given existen datos de fincas, animales, eventos y registros financieros<br>When se consulta el dashboard de un ganadero<br>Then la API devuelve metricas resumidas para su operacion<br><br><b>Clientes del veterinario.</b><br>Given un veterinario tiene ganaderos asignados<br>When consulta su cartera de clientes<br>Then la API devuelve los clientes y datos relacionados necesarios para el frontend</td>
+      <td>EP-006, EP-009</td>
+    </tr>
+    <tr>
+      <td><b>TS-010</b></td>
+      <td>Servicios backend para dispositivos, metricas y suscripciones</td>
+      <td>Como Developer backend, quiero implementar dispositivos, metricas y suscripciones para ampliar AniTec con informacion IoT y planes de uso de la plataforma.</td>
+      <td><b>Dispositivos y metricas.</b><br>Given existen dispositivos registrados<br>When se consultan sus metricas<br>Then la API devuelve las lecturas asociadas al dispositivo<br><br><b>Planes y suscripciones.</b><br>Given existen planes de suscripcion<br>When se consultan los endpoints de suscripciones<br>Then la API devuelve planes, suscripciones y pagos mock para pruebas</td>
+      <td>EP-012, EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-011</b></td>
+      <td>Documentacion y pruebas de API con Swagger</td>
+      <td>Como Developer backend, quiero documentar y probar los endpoints con Swagger para validar manualmente el funcionamiento de la API antes de integrarla con el frontend.</td>
+      <td><b>Swagger disponible.</b><br>Given la API esta ejecutandose en ambiente de desarrollo<br>When se abre Swagger en el navegador<br>Then se muestran los controladores y endpoints disponibles<br><br><b>Pruebas manuales.</b><br>Given un endpoint fue implementado<br>When se prueba desde Swagger o una herramienta HTTP<br>Then el backend responde con el codigo HTTP y datos esperados</td>
+      <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009</td>
+    </tr>
+    <tr>
+      <td><b>TS-012</b></td>
+      <td>Integracion frontend-backend con variables de entorno</td>
+      <td>Como Developer frontend, quiero configurar variables de entorno para conectar la aplicacion Vue con la API de AniTec en distintos ambientes.</td>
+      <td><b>Ambiente de desarrollo.</b><br>Given el frontend se ejecuta en modo desarrollo<br>When se leen las variables de entorno<br>Then la URL base apunta al backend local de AniTec<br><br><b>Cambio de ambiente.</b><br>Given se prepara un despliegue de produccion<br>When se configura la URL del backend productivo<br>Then el frontend consume la API real sin modificar el codigo fuente de los stores</td>
+      <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009, EP-012, EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-013</b></td>
+      <td>Stores frontend para IoT y suscripciones</td>
+      <td>Como Developer frontend, quiero crear stores y servicios para dispositivos, metricas, planes y pagos para integrar las nuevas pantallas con el backend.</td>
+      <td><b>Store de dispositivos.</b><br>Given existe el modulo IoT en el frontend<br>When se carga la vista de dispositivos<br>Then el store consume dispositivos y metricas desde el backend<br><br><b>Store de suscripciones.</b><br>Given existe el modulo de planes<br>When el usuario ingresa a la vista de suscripciones<br>Then el store consume planes, suscripcion activa, pagos y checkout mock desde el backend</td>
+      <td>EP-012, EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-014</b></td>
+      <td>Mapeo de recursos de clientes veterinarios</td>
+      <td>Como Developer frontend, quiero mapear correctamente los recursos de clientes veterinarios para diferenciar el identificador de la relacion y el identificador del ganadero.</td>
+      <td><b>Cliente veterinario recibido.</b><br>Given el backend devuelve un cliente con id de relacion y rancherId<br>When el frontend transforma el recurso<br>Then usa rancherId como identificador del ganadero en vistas de clientes y pacientes<br><br><b>Acciones sobre cliente.</b><br>Given el veterinario elimina o consulta un cliente<br>When se envia una peticion al backend<br>Then se utiliza el identificador correcto del ganadero</td>
+      <td>EP-006</td>
+    </tr>
+    <tr>
+      <td><b>TS-015</b></td>
+      <td>Configuracion de endpoints para despliegue productivo</td>
+      <td>Como Developer frontend, quiero configurar el ambiente de produccion para que la aplicacion desplegada consuma el backend real y no el servicio mock utilizado durante prototipado.</td>
+      <td><b>URL productiva configurada.</b><br>Given existe una API backend desplegada<br>When se prepara el build de produccion del frontend<br>Then la variable VITE_ANITEC_API_URL apunta al backend real<br><br><b>Endpoints completos.</b><br>Given el frontend usa modulos de IoT y suscripciones<br>When se revisa la configuracion productiva<br>Then existen rutas para dispositivos, metricas, planes y pagos</td>
+      <td>EP-001, EP-012, EP-013</td>
     </tr>
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 # 3.2. Impact Mapping.
 
-<img width="1240" height="1328" alt="Impact map" src="./markdown/assets/chapter-3/impactMapping.jpeg" />
+El Impact Mapping permite relacionar los objetivos de negocio de AniTec con los segmentos objetivo, los cambios esperados en su comportamiento, los entregables necesarios y las User Stories que permiten construir dichos entregables. Para esta versión se consideran los User Personas definidos en el capítulo de Needfinding: Jorge Luis Rivas, representante del segmento ganadero, y Valeria Mendoza, representante del segmento veterinario.
+
+Los objetivos de negocio planteados son incrementar en 40% el registro digital de datos ganaderos y sanitarios en un periodo de 6 meses, reducir en 30% los olvidos de controles sanitarios en el mismo periodo e incrementar en 35% el uso de reportes y dashboards por parte de los usuarios. Para lograrlo, el mapa identifica impactos relacionados con el orden de la información del hato, la reducción de olvidos sanitarios, el control financiero, la consulta de pacientes veterinarios y la priorización de animales que requieren atención. Estos impactos se conectan con entregables como el módulo de fincas y animales, historial sanitario, actividades, finanzas, clientes veterinarios, reportes e IoT.
+
+![ImpactMapping](./markdown/assets/chapter-3/impactMapping-corrected.svg)
+
+<div style="page-break-before: always;"></div>
 
 # 3.3. Product Backlog.
+
+El Product Backlog de AniTec organiza las User Stories y Technical Stories identificadas para el desarrollo de la landing page, la aplicación web y el backend RESTful API. El orden se define priorizando el valor para el negocio y la experiencia del usuario, por lo que las historias de la landing page se ubican al inicio para validar la propuesta de valor, seguidas por funcionalidades principales de acceso, navegación, gestión ganadera, gestión veterinaria, analíticas, IoT, suscripciones e integración técnica.
 
 <table>
   <thead>
@@ -2065,22 +2396,152 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
       <td><b>Como</b> veterinario, <b>quiero</b> ver las atenciones sanitarias por hato <b>para</b> identificar que clientes requieren mas seguimiento.</td>
       <td>3</td>
     </tr>
+    <tr>
+      <td><b>58</b></td>
+      <td><b>US-058</b></td>
+      <td>Visualizar dispositivos IoT registrados</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> ver los dispositivos IoT registrados en la plataforma <b>para</b> monitorear los equipos asociados a fincas o animales.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>59</b></td>
+      <td><b>US-059</b></td>
+      <td>Consultar metricas de un dispositivo IoT</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> consultar las metricas recientes de un dispositivo <b>para</b> conocer lecturas como peso, temperatura, humedad o actividad.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>60</b></td>
+      <td><b>US-060</b></td>
+      <td>Visualizar planes de suscripcion</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> visualizar los planes de suscripcion disponibles <b>para</b> elegir el plan que mejor se adapte a mi operacion.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>61</b></td>
+      <td><b>US-061</b></td>
+      <td>Consultar suscripcion activa</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> consultar mi suscripcion activa <b>para</b> conocer el plan asociado a mi cuenta.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>62</b></td>
+      <td><b>US-062</b></td>
+      <td>Realizar pago simulado de suscripcion</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> realizar un pago simulado de un plan <b>para</b> activar una suscripcion durante las pruebas del sistema.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>63</b></td>
+      <td><b>US-063</b></td>
+      <td>Consultar historial de pagos</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> consultar mi historial de pagos <b>para</b> revisar los pagos realizados por mis suscripciones.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>64</b></td>
+      <td><b>US-064</b></td>
+      <td>Consumir dashboards desde el backend</td>
+      <td><b>Como</b> usuario autenticado, <b>quiero</b> visualizar dashboards calculados desde el backend <b>para</b> revisar indicadores consistentes con la informacion persistida en la base de datos.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>65</b></td>
+      <td><b>TS-005</b></td>
+      <td>Configuracion inicial del backend con ASP.NET Core</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> crear la solucion de AniTec con ASP.NET Core <b>para</b> implementar una API REST organizada y preparada para integrarse con el frontend.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>66</b></td>
+      <td><b>TS-006</b></td>
+      <td>Persistencia con Entity Framework Core y MySQL</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> configurar Entity Framework Core con MySQL <b>para</b> almacenar la informacion de AniTec en una base de datos relacional.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>67</b></td>
+      <td><b>TS-007</b></td>
+      <td>Autenticacion backend con JWT y BCrypt</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> implementar autenticacion con JWT y BCrypt <b>para</b> validar credenciales y proteger el acceso de los usuarios registrados.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>68</b></td>
+      <td><b>TS-008</b></td>
+      <td>Implementacion de bounded contexts de gestion ganadera</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> implementar los bounded contexts principales de AniTec <b>para</b> exponer servicios REST de fincas, animales, sanidad, actividades y finanzas.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>69</b></td>
+      <td><b>TS-009</b></td>
+      <td>Servicios backend para analiticas y clientes veterinarios</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> implementar endpoints de analiticas y clientes veterinarios <b>para</b> que ganaderos y veterinarios consulten informacion calculada desde el servidor.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>70</b></td>
+      <td><b>TS-010</b></td>
+      <td>Servicios backend para dispositivos, metricas y suscripciones</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> implementar dispositivos, metricas y suscripciones <b>para</b> ampliar AniTec con informacion IoT y planes de uso de la plataforma.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>71</b></td>
+      <td><b>TS-011</b></td>
+      <td>Documentacion y pruebas de API con Swagger</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> documentar y probar los endpoints con Swagger <b>para</b> validar manualmente el funcionamiento de la API antes de integrarla con el frontend.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>72</b></td>
+      <td><b>TS-012</b></td>
+      <td>Integracion frontend-backend con variables de entorno</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> configurar variables de entorno <b>para</b> conectar la aplicacion Vue con la API de AniTec en distintos ambientes.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>73</b></td>
+      <td><b>TS-013</b></td>
+      <td>Stores frontend para IoT y suscripciones</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> crear stores y servicios para dispositivos, metricas, planes y pagos <b>para</b> integrar las nuevas pantallas con el backend.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>74</b></td>
+      <td><b>TS-014</b></td>
+      <td>Mapeo de recursos de clientes veterinarios</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> mapear correctamente los recursos de clientes veterinarios <b>para</b> diferenciar el identificador de la relacion y el identificador del ganadero.</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td><b>75</b></td>
+      <td><b>TS-015</b></td>
+      <td>Configuracion de endpoints para despliegue productivo</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> configurar el ambiente de produccion <b>para</b> que la aplicacion desplegada consuma el backend real y no el servicio mock utilizado durante prototipado.</td>
+      <td>3</td>
+    </tr>
   </tbody>
 </table>
 
+<div style="page-break-before: always;"></div>
+
 # 4.1. Style Guidelines
 
-Las directrices de estilo establecen los principios visuales y de diseño que deben seguirse al desarrollar la interfaz de usuario (UI) de AniTec. El objetivo es crear una experiencia digital clara, accesible e intuitiva que responda a las necesidades de pequeños y medianos ganaderos en Latinoamérica.
+Las directrices de estilo establecen los principios visuales y de diseño que deben seguirse al desarrollar la interfaz de usuario (UI) de AniTec. El objetivo es crear una experiencia digital clara, accesible e intuitiva que responda a las necesidades de pequeños y medianos ganaderos, así como de veterinarios que realizan seguimiento sanitario de animales en campo.
 
 El concepto visual se centra en transmitir confianza, simplicidad y eficiencia rural. A través del uso de una paleta de colores naturales (verdes, marrones suaves y tonos tierra), combinada con tipografías limpias y legibles, AniTec busca generar una atmósfera amigable y funcional que conecte con el entorno productivo del usuario.
 
-El diseño debe priorizar la facilidad de uso, incluso para personas con poca experiencia tecnológica, reforzando así la inclusión digital en el campo. La interfaz debe permitir una navegación fluida desde cualquier dispositivo, y ofrecer información clara y accesible para fomentar la toma de decisiones informadas. Este enfoque visual fortalece la misión de AniTec de modernizar la gestión ganadera con herramientas tecnológicas simples pero poderosas.
+El diseño debe priorizar la facilidad de uso, incluso para personas con poca experiencia tecnológica, reforzando así la inclusión digital en el campo. La interfaz debe permitir una navegación fluida desde cualquier dispositivo y ofrecer información clara y accesible para fomentar la toma de decisiones informadas. Este enfoque visual fortalece la misión de AniTec de modernizar la gestión ganadera con herramientas tecnológicas simples pero poderosas.
+
+AniTec se desarrolla como una experiencia responsive web, por lo que las decisiones de estilo móvil se integran dentro del Web Style Guide. No se plantea una aplicación móvil nativa independiente; en su lugar, la landing page y la aplicación web deben adaptarse correctamente a desktop, tablet y celulares mediante layouts flexibles, componentes legibles y navegación simplificada.
 
 ## 4.1.1. General Style Guidelines
 
-Los colores resultan ser fundamental para transmitir la identidad visual de la marca. En este sector, la paleta cromática seleccionada fue inspirada en la naturaleza y el entorno rural, utilizando tonos tierra, verdes orgánicos y acentos neutros. Colores que reflejan sostenibilidad, confianza y cercanía con el campo.
+Los colores resultan fundamentales para transmitir la identidad visual de la marca. En este sector, la paleta cromática seleccionada fue inspirada en la naturaleza y el entorno rural, utilizando tonos tierra, verdes orgánicos y acentos neutros. Estos colores reflejan sostenibilidad, confianza y cercanía con el campo.
 
-Además, la selección de colores debe estar alineada con los valores de innovación, simplicidad y eficiencia, transmitiendo al usuario una sensación de claridad y profesionalismo sin perder la conexión con el entorno agrícola.
+Además, la selección de colores debe estar alineada con los valores de innovación, simplicidad y eficiencia, transmitiendo al usuario una sensación de claridad y profesionalismo sin perder la conexión con el entorno agrícola. Para el segmento veterinario, esta identidad debe conservar una apariencia ordenada y confiable que facilite la consulta de pacientes, clientes y registros sanitarios.
 
 **Colores principales:**
 
@@ -2130,6 +2591,14 @@ Los íconos utilizados mantienen una línea uniforme y amigable, facilitando la 
   </p>
 </div>
 
+**Tono de comunicación:**
+
+El tono de AniTec debe ser claro, cercano y respetuoso. Se busca una comunicación formal pero accesible, evitando tecnicismos innecesarios para los ganaderos y manteniendo precisión suficiente para los veterinarios. La redacción debe ser serena, directa y orientada a la acción, usando etiquetas breves como "Animales", "Sanidad", "Finanzas", "Actividades", "IoT", "Clientes" y "Planes".
+
+**Spacing y composición:**
+
+El espaciado debe favorecer la lectura rápida y la separación clara entre módulos. En desktop se priorizan paneles amplios, tablas o tarjetas con información resumida; en pantallas pequeñas se organizan los elementos en una sola columna para mantener legibilidad. Los formularios deben agrupar campos relacionados y evitar saturar al usuario con demasiada información en una misma vista.
+
 ## 4.1.2. Web Style Guidelines
 
 El Web Style Guide de AniTec nos ayuda a mostrar una identidad visual coherente y accesible en toda la plataforma. Definimos colores, tipografías y elementos de diseño inspirados en el entorno rural para transmitir confianza, tecnología cercana y facilidad de uso.
@@ -2138,81 +2607,168 @@ Nuestra paleta refleja valores como sostenibilidad y cercanía, mientras que las
 
 Se incluyen imágenes que ilustran los principales lineamientos: colores, fuentes, espaciado y componentes clave, garantizando una interfaz clara y funcional.
 
+**Layout web responsive:**
+
+La estructura web debe adaptarse a diferentes tamaños de pantalla. En desktop se permite una distribución de mayor densidad visual, con dashboard, menú lateral y tarjetas de resumen. En tablet y celular, los contenidos deben reorganizarse verticalmente, priorizando información esencial, botones claros y formularios de una columna.
+
+![Responsive Web Layout](./markdown/assets/chapter-4/web-style-responsive-layout.svg)
+
+El layout responsive permite que AniTec mantenga la misma experiencia funcional en distintos dispositivos. En pantallas grandes se aprovecha el espacio para mostrar más indicadores y accesos directos; en pantallas pequeñas se prioriza una lectura lineal y acciones principales.
+
+**Navegación:**
+
+La navegación de la aplicación se basa en un menú lateral para usuarios autenticados y una navegación superior para la landing page. El menú debe variar según el rol del usuario: el ganadero accede a módulos como fincas, animales, sanidad, finanzas, actividades, IoT y planes; el veterinario accede a dashboard, clientes, pacientes, sanidad, actividades, analíticas, IoT y planes. Esta separación reduce confusión y permite que cada segmento encuentre rápidamente sus tareas principales.
+
+![Role Based Navigation](./markdown/assets/chapter-4/web-style-role-navigation.svg)
+
+La navegación por rol reduce la carga cognitiva del usuario, ya que cada segmento visualiza únicamente los módulos relacionados con sus tareas. Esto permite que ganaderos y veterinarios encuentren con mayor rapidez las acciones frecuentes dentro de la aplicación.
+
+**Botones y acciones:**
+
+Los botones principales deben usarse para acciones de creación o confirmación, como registrar, guardar o pagar. Los botones secundarios deben reservarse para cancelar, volver o limpiar filtros. Las acciones destructivas, como eliminar registros, deben diferenciarse visualmente y requerir confirmación cuando corresponda.
+
+![Buttons and Actions](./markdown/assets/chapter-4/web-style-buttons-actions.svg)
+
+Este ejemplo muestra la jerarquía visual esperada para las acciones de AniTec. Las acciones principales tienen mayor peso visual, las secundarias se presentan como apoyo y las destructivas se diferencian para evitar errores.
+
+**Formularios:**
+
+Los formularios deben mostrar etiquetas claras, campos agrupados por propósito y mensajes de validación comprensibles. En registros ganaderos y sanitarios se debe priorizar que el usuario complete primero los datos esenciales, como animal, fecha, tipo de evento, descripción, finca o cliente relacionado.
+
+![Form Example](./markdown/assets/chapter-4/web-style-form-example.svg)
+
+El formulario de ejemplo representa una estructura clara para registrar eventos sanitarios. Se prioriza la selección del animal, fecha, tipo de evento y descripción, manteniendo acciones finales simples para guardar o cancelar.
+
+**Tarjetas, tablas y estados:**
+
+Las tarjetas se utilizan para resumir animales, fincas, clientes, dispositivos, planes o registros principales. Las tablas o listas se emplean cuando el usuario necesita comparar varios registros. Cuando no existan datos, la interfaz debe mostrar estados vacíos con mensajes simples que expliquen la situación sin generar confusión.
+
+![Web Components Guide](./markdown/assets/chapter-4/web-style-components.svg)
+
+Los componentes visuales mantienen una jerarquía clara: botones para acciones, formularios para registrar datos y tarjetas para resumir información relevante. Los estados vacíos ayudan a orientar al usuario cuando todavía no existen registros en un módulo.
+
+**Consistencia visual:**
+
+La landing page y la aplicación web deben mantener la misma identidad de marca, pero con distinta densidad de información. La landing page prioriza comunicación, confianza y propuesta de valor; la aplicación web prioriza operación diaria, consulta de datos y registro de información.
+
+<div style="page-break-before: always;"></div>
+
 # 4.2. Information Architecture
 
-En esta sección, se han aplicado sistemas de organización adaptados a las necesidades de los pequeños y medianos ganaderos, facilitando el acceso y comprensión de la información ganadera. La organización visual del contenido ha sido implementada de las siguientes formas:
+La arquitectura de información de AniTec organiza el contenido de la landing page y de la aplicación web para que visitantes, ganaderos y veterinarios encuentren con facilidad las secciones que necesitan. La propuesta considera que los usuarios pueden tener distintos niveles de experiencia digital, por lo que se priorizan etiquetas claras, recorridos simples y una separación de módulos según el rol.
+
+En la landing page, la información se organiza para presentar la propuesta de valor, beneficios, segmentos, testimonios, planes y llamadas a la acción. En la aplicación web, la información se organiza por tareas operativas: gestión de fincas, animales, sanidad, actividades, finanzas, clientes veterinarios, pacientes, analíticas, IoT y suscripciones.
 
 ## 4.2.1. Organization Systems
 
-- **Jerárquica (visual hierarchy):** Para destacar módulos clave como el registro de animales, alertas sanitarias y reportes económicos, asegurando que los usuarios identifiquen rápidamente las funciones más relevantes para su gestión diaria.
+- **Organización jerárquica:** Se aplica en dashboards, landing page y vistas principales para destacar primero los datos más importantes. Por ejemplo, el dashboard del ganadero prioriza indicadores de animales, fincas, alertas y actividades; mientras que el dashboard veterinario prioriza clientes, pacientes, eventos sanitarios y seguimientos.
 
-- **Organización secuencial (step-by-step):** Aplicada en procesos que requieren seguimiento cronológico, como el registro de eventos sanitarios, partos o tratamientos, permitiendo al usuario llevar un control ordenado y lógico del historial del ganado.
+- **Organización secuencial:** Se usa en formularios y flujos donde el usuario debe completar pasos de forma ordenada, como registrar un animal, crear una finca, registrar un evento sanitario, agregar un cliente veterinario o realizar un pago de prueba de suscripción.
 
-Además, se categorizó el contenido según las funcionalidades de la plataforma: módulos de gestión (sanidad, reproducción, economía), tipo de usuario (ganadero, técnico, asociación), y acceso a recursos educativos (videos, guías, alertas). Estas estructuras permiten una navegación intuitiva y któ adaptas al entorno rural.
+- **Organización por audiencia:** La landing page separa mensajes para visitantes generales, ganaderos y veterinarios. Dentro de la aplicación, la navegación cambia según el rol: el ganadero visualiza módulos relacionados con su operación productiva, mientras que el veterinario accede a clientes, pacientes, sanidad y analíticas.
+
+- **Organización por tópicos:** Los módulos se agrupan según el tipo de información que gestionan: ganadería, sanidad, finanzas, actividades, IoT, analíticas y planes. Esto permite que el usuario ubique cada función por el tema que desea resolver.
+
+- **Organización cronológica:** Se aplica en actividades, historial sanitario, pagos y métricas de dispositivos IoT, ya que estos registros dependen de fechas y seguimiento temporal.
+
+- **Organización matricial:** Se utiliza en dashboards, reportes y analíticas, donde el usuario puede comparar indicadores por finca, animal, cliente, estado sanitario o tipo de evento.
 
 ## 4.2.2. Labeling Systems
 
-Se han definido cuidadosamente los sistemas de etiquetado y categorización para asegurar que los usuarios naveguen de forma intuitiva y eficiente en la plataforma:
+El sistema de etiquetado de AniTec usa palabras breves y familiares para evitar confusión. Las etiquetas deben ser entendibles tanto para ganaderos con poca experiencia digital como para veterinarios que necesitan revisar información clínica con rapidez.
 
-- **Jerarquía visual:** Aplicada en la estructura de módulos clave como "Sanidad", "Reproducción" y "Economía", destacando primero los datos más relevantes. Esto permite a los usuarios tomar decisiones informadas rápidamente.
+| Contexto | Etiqueta | Significado para el usuario |
+|----------|----------|-----------------------------|
+| Landing page | Inicio | Presenta la propuesta principal de AniTec. |
+| Landing page | Beneficios | Resume el valor de la plataforma para los segmentos objetivo. |
+| Landing page | Ganaderos | Explica funciones orientadas a la gestión del hato. |
+| Landing page | Veterinarios | Explica funciones orientadas a clientes, pacientes y seguimiento sanitario. |
+| Landing page | Planes | Presenta las opciones de suscripción. |
+| Aplicación ganadero | Dashboard | Muestra el resumen general de la operación ganadera. |
+| Aplicación ganadero | Fincas | Agrupa las unidades productivas del ganadero. |
+| Aplicación ganadero | Animales | Permite consultar y registrar animales. |
+| Aplicación ganadero | Sanidad | Reúne eventos sanitarios, incidencias y tratamientos. |
+| Aplicación ganadero | Finanzas | Permite revisar ingresos, egresos y balance. |
+| Aplicación ganadero | Actividades | Organiza tareas, visitas, controles y recordatorios. |
+| Aplicación compartida | IoT | Muestra dispositivos, estado y métricas asociadas. |
+| Aplicación compartida | Planes | Permite consultar suscripción activa, planes y pagos de prueba. |
+| Aplicación veterinario | Clientes | Muestra ganaderos asignados al veterinario. |
+| Aplicación veterinario | Pacientes | Muestra animales pertenecientes a clientes asignados. |
+| Aplicación veterinario | Analíticas | Presenta reportes e indicadores para priorizar atenciones. |
 
-- **Organización secuencial:** Utilizada en procesos como el registro de eventos ganaderos (partos, tratamientos, vacunaciones), donde los pasos siguen una lógica temporal clara y guiada. Esto ayuda a evitar errores en la carga de datos y mejora la experiencia del usuario.
-
-- **Organización matricial:** Empleada en los paneles de reportes y análisis, donde los usuarios pueden comparar indicadores entre animales, hatos o periodos de tiempo, con etiquetas claras que facilitan la interpretación visual.
-
-Estos esquemas de etiquetado se han diseñado con base en el lenguaje y jerga ganadera, utilizando términos familiares como "Peso al destete" o "Última monta", para que cualquier usuario, independientemente de su nivel técnico, pueda comprender y usar la plataforma sin dificultad.
+Las etiquetas de acción también se mantienen simples: "Registrar", "Guardar", "Editar", "Eliminar", "Cancelar", "Buscar", "Agregar cliente" y "Ver historial". Estas palabras describen directamente la acción esperada y reducen la posibilidad de interpretación ambigua.
 
 ## 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page:**
 
-- **Title:** AniTec - Plataforma Digital para la Gestión del Ganado
-- **Description:** AniTec es una plataforma accesible que permite a los ganaderos pequeños y medianos gestionar la salud, reproducción, y productividad de su ganado, optimizando procesos con tecnología innovadora.
-- **Keywords:** gestión ganadera, plataforma ganaderos, AniTec, trazabilidad ganadera, ganadería digital, salud animal, control de ganado, plataforma para ganaderos, tecnología rural, organizador de ganado
+- **Title:** AniTec - Plataforma Digital para Ganaderos y Veterinarios
+- **Description:** AniTec es una plataforma web accesible para pequeños y medianos ganaderos y veterinarios de campo. Permite gestionar animales, fincas, sanidad, actividades, finanzas, dispositivos IoT, clientes, pacientes y planes de suscripción.
+- **Keywords:** AniTec, gestión ganadera, plataforma para ganaderos, veterinarios, salud animal, historial clínico animal, trazabilidad ganadera, IoT ganadero, fincas, animales, sanidad, planes de suscripción, tecnología rural
 - **Author:** AniTec
 
 **Application Web:**
 
-- **Title:** AniTec - Gestión Completa del Ganado para Pequeños y Medianos Productores
-- **Description:** Accede a AniTec, la plataforma web que digitaliza la gestión del ganado, con módulos de salud, productividad y trazabilidad para optimizar los procesos ganaderos.
-- **Keywords:** plataforma ganadera, software para ganaderos, AniTec, gestión de ganado, salud animal, trazabilidad, control de ganado, aplicaciones para ganaderos, ganadería inteligente, ganadería digital
+- **Title:** AniTec - Gestión Ganadera, Sanitaria e IoT
+- **Description:** Aplicación web de AniTec para gestionar información ganadera y veterinaria mediante dashboards por rol, registro de animales, eventos sanitarios, actividades, finanzas, clientes veterinarios, pacientes, analíticas, dispositivos IoT y suscripciones.
+- **Keywords:** AniTec app, dashboard ganadero, dashboard veterinario, gestión de animales, eventos sanitarios, clientes veterinarios, pacientes, finanzas ganaderas, analíticas ganaderas, métricas IoT, suscripciones AniTec
 - **Author:** AniTec
 
 ## 4.2.4. Searching Systems
 
-El sistema de búsqueda en AniTec debe ser intuitivo y eficiente para que los usuarios puedan encontrar rápidamente la información relacionada con su ganado. Las opciones de búsqueda y los filtros disponibles:
+El sistema de búsqueda en AniTec ayuda a encontrar información dentro de módulos con muchos registros. Las opciones de búsqueda deben mostrar resultados filtrados de forma inmediata y acompañarse de estados vacíos cuando no existan coincidencias.
 
-- **Barra de búsqueda por ganado:** Los usuarios podrán buscar información sobre un animal específico usando filtros como número de identificación, raza, edad, fecha de nacimiento, estado de salud, entre otros.
-- **Barra de búsqueda por evento:** Los usuarios podrán buscar eventos específicos relacionados con el ganado, tales como vacunaciones, tratamientos, partos, inspecciones sanitarias, entre otros.
-- **Filtro por categorías:** Los usuarios podrán filtrar por diferentes módulos como sanidad, reproducción o economía, mejorando la accesibilidad a la información relevante.
-- **Opciones de Ordenación:** Los resultados se pueden ordenar por criterios como relevancia, fecha, o nombre.
+- **Búsqueda de animales:** Permite buscar por nombre, código, especie, raza, estado o finca.
+- **Búsqueda de fincas:** Permite ubicar unidades productivas por nombre, ubicación o tipo principal.
+- **Búsqueda de registros sanitarios:** Permite filtrar por animal, tipo de evento, fecha, diagnóstico, tratamiento o veterinario responsable.
+- **Búsqueda de clientes veterinarios:** Permite encontrar ganaderos asignados o disponibles para agregar a la cartera del veterinario.
+- **Búsqueda de pacientes:** Permite ubicar animales pertenecientes a clientes asignados.
+- **Filtros por fecha:** Se aplican en actividades, pagos, métricas IoT y eventos sanitarios.
+- **Filtros por estado:** Se aplican en animales, dispositivos IoT, actividades y suscripciones.
+
+Después de una búsqueda, los datos deben mostrarse en tarjetas, listas o tablas según el módulo. Si no hay coincidencias, la interfaz debe mostrar mensajes claros como "No se encontraron animales" o "No hay registros disponibles".
 
 ## 4.2.5. Navigation Systems
 
-Los sistemas de navegación deben estar diseñados para ser intuitivos, adaptados al contexto rural de los usuarios y fáciles de usar, incluso para aquellos con poca experiencia en tecnología.
+Los sistemas de navegación de AniTec se diseñan para guiar a visitantes y usuarios autenticados de forma clara. La landing page utiliza navegación superior, mientras que la aplicación web utiliza menú lateral adaptado al rol.
 
-**Menú Principal:**
+**Navegación de Landing Page:**
 
-- Inicio: Acceso rápido a la página principal con propuesta de valor
-- Características: Sección que detalla las funcionalidades principales
-- Cómo Funciona: Explicación paso a paso del proceso
-- Testimonios: Referencias de usuarios reales
-- Precios: Planes y costos de la plataforma
-- Contacto: Información de contacto y soporte
+- Inicio: Presenta el nombre del producto y su propuesta de valor.
+- Beneficios: Explica cómo AniTec ayuda a organizar la gestión ganadera y veterinaria.
+- Ganaderos: Muestra funciones orientadas a fincas, animales, sanidad, finanzas e IoT.
+- Veterinarios: Muestra funciones orientadas a clientes, pacientes, historial clínico y seguimiento sanitario.
+- Planes: Presenta opciones de suscripción.
+- Contacto: Permite al visitante conocer cómo comunicarse o iniciar el uso de la plataforma.
 
-**Menú Secundario:**
+**Navegación de aplicación para ganadero:**
 
-- FAQ: Preguntas frecuentes
-- Soporte: Acceso a ayuda técnica
-- Términos: Legal y políticas
+- Login: El usuario ingresa credenciales básicas.
+- Dashboard ganadero: El sistema muestra resumen de fincas, animales, sanidad, actividades y finanzas.
+- Fincas y animales: El usuario registra y consulta unidades productivas y animales.
+- Sanidad y actividades: El usuario registra eventos sanitarios, tratamientos, visitas o tareas.
+- Finanzas: El usuario revisa ingresos, egresos y balance.
+- IoT y planes: El usuario consulta dispositivos, métricas, suscripción activa y pagos de prueba.
 
-**Navegación por Categorías:**
+**Navegación de aplicación para veterinario:**
 
-Los usuarios podrán navegar por categorías de ganado, tipos de eventos o fechas, todo con una jerarquía visual clara que facilite el acceso a la información relevante. Este diseño asegura que AniTec sea accesible y fácil de usar para los ganaderos, maximizando su eficiencia en el uso de la plataforma.
+- Login: El usuario ingresa credenciales básicas.
+- Dashboard veterinario: El sistema muestra clientes, pacientes, seguimientos y registros clínicos.
+- Clientes: El veterinario revisa ganaderos asignados o agrega nuevos clientes.
+- Pacientes: El veterinario consulta animales de sus clientes.
+- Sanidad: El veterinario registra diagnósticos, tratamientos, recetas y seguimientos.
+- Analíticas: El veterinario revisa indicadores para priorizar atenciones.
+- IoT y planes: El veterinario consulta dispositivos, métricas, suscripción activa y pagos de prueba.
+
+La navegación por rol permite que cada usuario acceda solo a las secciones relevantes para su trabajo. Esto reduce la carga cognitiva, evita rutas innecesarias y mantiene una experiencia coherente entre la landing page, el inicio de sesión y los dashboards principales.
+
+<div style="page-break-before: always;"></div>
 
 # 4.3. Landing Page UI Design
 
-El diseño de la Landing Page de AniTec fue desarrollado con el propósito de ofrecer al visitante una primera impresión clara, atractiva y funcional sobre la aplicación y sus beneficios. La interfaz busca comunicar de manera efectiva la propuesta de valor de la plataforma, enfocándose en la digitalización y optimización de la gestión ganadera mediante herramientas tecnológicas accesibles e intuitivas.
+El diseño de la Landing Page de AniTec fue desarrollado con el propósito de ofrecer al visitante una primera impresión clara, atractiva y funcional sobre la aplicación y sus beneficios. La interfaz busca comunicar de manera efectiva la propuesta de valor de la plataforma, enfocándose en la digitalización y optimización de la gestión ganadera y veterinaria mediante herramientas tecnológicas accesibles e intuitivas.
+
+La propuesta visual toma como base las decisiones definidas en las Style Guidelines y en la Information Architecture. Por ello, la landing page organiza el contenido con una jerarquía clara, navegación simple, mensajes dirigidos a ganaderos y veterinarios, y secciones adaptadas para una experiencia responsive en desktop y mobile web.
 
 ## 4.3.1. Landing Page Wireframe
 
@@ -2227,6 +2783,8 @@ El wireframe se caracteriza por:
 - Texto genérico (Lorem ipsum) para contenido
 - Fondos grises para diferenciar secciones
 - Diseño responsive para móvil y desktop
+
+La propuesta del wireframe aplica principios de diseño, diseño inclusivo y arquitectura de información, ya que organiza las secciones de forma jerárquica, facilita la lectura del contenido principal y permite que los visitantes identifiquen rápidamente los beneficios de AniTec según su segmento.
 
 <div align="center">
   <p>
@@ -2254,6 +2812,8 @@ El mock-up incluye:
 - Animaciones y transiciones
 - Versión responsive completa
 
+El mock-up aplica la paleta de colores, tipografía, navegación y jerarquía visual definidas en el Style Guide. Además, considera al segmento veterinario dentro de la comunicación de la landing page, mostrando que AniTec no solo apoya la gestión del ganadero, sino también el seguimiento de clientes, pacientes e información sanitaria.
+
 <div align="center">
   <p>
     <b>Grafico</b>: AniTec Mock-up
@@ -2264,11 +2824,15 @@ El mock-up incluye:
   </p>
 </div>
 
+<div style="page-break-before: always;"></div>
+
 # 4.4. Web Applications UX/UI Design.
+
+La aplicación web de AniTec contempla una experiencia diferenciada para ganaderos y veterinarios. El ganadero utiliza la plataforma para administrar fincas, animales, sanidad, actividades, finanzas, dispositivos IoT y planes; mientras que el veterinario la utiliza para revisar clientes, pacientes, registros clínicos, seguimientos y analíticas. Esta separación permite que cada rol acceda a las funciones necesarias para cumplir sus tareas dentro de la solución.
 
 ## 4.4.1. Web Applications Wireframes.
 
-Los wireframes de la aplicación web de AniTec ilustran la estructura y distribución de las principales pantallas dirigidas al ámbito agroindustrial, con énfasis en el sector ganadero. Estos bocetos permiten visualizar la organización de los componentes de la interfaz y el flujo de navegación entre las distintas secciones, sirviendo como referencia para el diseño definitivo. De este modo, se asegura una experiencia de usuario clara, ágil y alineada con las necesidades reales de los productores. Fueron elaborados utilizando Figma. Enlace para acceder a los wireframes: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
+Los wireframes de la aplicación web de AniTec ilustran la estructura y distribución de las principales pantallas dirigidas al ámbito agroindustrial, con énfasis en el sector ganadero. Estos bocetos permiten validar la estructura, navegación y jerarquía de la información antes de avanzar hacia el diseño visual definitivo. También permiten visualizar la organización de los componentes de la interfaz y el flujo de navegación entre las distintas secciones, sirviendo como referencia para el diseño definitivo. De este modo, se asegura una experiencia de usuario clara, ágil y alineada con las necesidades reales de los productores. Fueron elaborados utilizando Figma. Enlace para acceder a los wireframes: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
 
 <div align="center">
 
@@ -2402,9 +2966,9 @@ Dashboard donde se presentan los reportes generados
 
 ## 4.4.2. Web Applications Wireflow Diagrams.
 
-En esta sección se presentan los Wireflows para cada objetivo del usuario. Para ello se consideró los User Persona correspondientes. Cada diagrama muestra el flujo de interacción. Enlace para acceder a los wireflows en Figma: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
+En esta sección se presentan los Wireflows para cada objetivo del usuario. Para ello se consideró los User Persona correspondientes. Cada diagrama muestra el flujo de interacción entre pantallas a nivel de wireframe. Enlace para acceder a los wireflows en Figma: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
 
-- **Registro e Inicio del Ganadero:** El presente wireflow corresponde al flujo de interacción del usuario ganadero desde el registro, y selección del plan de la cuenta, o inicio de sesión hasta el acceso a la aplicación.
+- **User Goal: Acceder a la aplicación y revisar animales registrados.** El presente wireflow corresponde al flujo de interacción del usuario ganadero desde el registro, selección del plan o inicio de sesión hasta el acceso a la aplicación y la visualización inicial de animales registrados.
 
 <div align="center">
 <img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow1.png" width="800">
@@ -2414,7 +2978,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 </div>
 
-- **Registro de animales:** El presente user flow corresponde con la agregación, eliminación, actualización, y consulta del detalle del ganado.
+- **User Goal: Gestionar animales registrados.** El presente wireflow corresponde con la agregación, eliminación, actualización y consulta del detalle del ganado.
 
 <div align="center">
 <img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow2.png" width="800">
@@ -2424,7 +2988,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 </div>
 
-- **Registro de eventos:** El presente user flow corresponde con la agregación y consulta de eventos locales registrados por el usuario y/o sistema.
+- **User Goal: Registrar y consultar eventos sanitarios o actividades.** El presente wireflow corresponde con la agregación y consulta de eventos registrados por el usuario y/o sistema.
 
 <div align="center">
 <img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow3.png" width="800">
@@ -2434,7 +2998,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 </div>
 
-- **Registro de visitas médicas por animal:** El presente user flow corresponde a la gestión de las visitas médicas de un animal específico, mostrando un listado completo de sus atenciones veterinarias con información relevante. Desde este apartado, el usuario puede registrar nuevas visitas médicas, editar registros existentes para actualizar información y eliminar aquellos que ya no sean necesarios.
+- **User Goal: Gestionar visitas médicas por animal.** El presente wireflow corresponde a la gestión de las visitas médicas de un animal específico, mostrando un listado completo de sus atenciones veterinarias con información relevante. Desde este apartado, el usuario puede registrar nuevas visitas médicas, editar registros existentes para actualizar información y eliminar aquellos que ya no sean necesarios.
 
 <div align="center">
 <img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow4.png" width="800">
@@ -2444,7 +3008,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 </div>
 
-- **Control monetario del ganadero:** Esta vista permite al ganadero registrar y consultar sus ingresos y egresos de manera diaria, ofreciendo un control financiero claro y organizado. Además, presenta un resumen de las ganancias netas mensuales mediante un gráfico que proporciona una visión anual, junto con el detalle acumulado de ingresos y egresos del presente mes.
+- **User Goal: Controlar ingresos y egresos del ganadero.** Esta vista permite al ganadero registrar y consultar sus ingresos y egresos de manera diaria, ofreciendo un control financiero claro y organizado. Además, presenta un resumen de las ganancias netas mensuales mediante un gráfico que proporciona una visión anual, junto con el detalle acumulado de ingresos y egresos del presente mes.
 
 <div align="center">
 <img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow5.png" width="800">
@@ -2454,7 +3018,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 </div>
 
-**Estadísticas del ganado:** Esta vista permite al ganadero analizar información clave sobre su producción mediante indicadores y gráficos dinámicos. Se presentan métricas como la cantidad total de animales, distribución por especie y sexo, así como su evolución en el tiempo.
+**User Goal: Revisar estadísticas y reportes del ganado.** Esta vista permite al ganadero analizar información clave sobre su producción mediante indicadores y gráficos dinámicos. Se presentan métricas como la cantidad total de animales, distribución por especie y sexo, así como su evolución en el tiempo.
 
 <div align="center">
 <img src="./markdown/assets/chapter-4/wireframesAppWeb/Wireflow6.png" width="800">
@@ -2466,7 +3030,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 ## 4.4.3. Web Applications Mock-ups.
 
-En esta sección se exponen y analizan los mockups de la aplicación web AgroDigital, diseñada para el sector ganadero. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario y la gestión eficiente del ganado. Asimismo, se incluye el enlace para acceder al contenido. https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
+En esta sección se exponen y analizan los mockups de la aplicación web AniTec, diseñada para apoyar la gestión del sector ganadero y el seguimiento veterinario. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario, la gestión eficiente del ganado y la consulta de información por rol. Asimismo, los mockups aplican la navegación por rol definida para ganaderos y veterinarios. Se incluye el enlace para acceder al contenido. https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
 
 <div align="center">
 
@@ -2600,29 +3164,54 @@ Dashboard donde se presentan los reportes generados
 
 ## 4.4.4. Web Applications User Flow Diagrams.
 
-En esta parte se detallan los diagramas de flujo de usuario, donde se describen las rutas posibles dentro de la aplicación y las decisiones que puede tomar el usuario. Estos diagramas garantizan una navegación clara y alineada con los objetivos funcionales.
+En esta parte se detallan los diagramas de flujo de usuario, donde se describen las rutas posibles dentro de la aplicación y las decisiones que puede tomar el usuario. Estos diagramas garantizan una navegación clara y alineada con los objetivos funcionales. Cada User Flow se deriva de los wireflows presentados anteriormente y muestra la ruta esperada que sigue el usuario para cumplir una meta específica dentro de la aplicación.
 
 <div align="center">
 
+**User Goal 1: Iniciar sesión, crear cuenta o seleccionar plan para acceder a la aplicación.**
+
 <img src="./markdown/assets/chapter-4/userFlow1.png" width="800">
+
+**User Goal 2: Gestionar animales registrados mediante consulta, detalle, creación y eliminación.**
+
 <img src="./markdown/assets/chapter-4/userFlow2.png" width="800">
+
+**User Goal 3: Consultar eventos registrados y crear un nuevo evento sanitario o actividad.**
+
 <img src="./markdown/assets/chapter-4/userFlow3.png" width="800">
+
+**User Goal 4: Consultar, registrar, editar y eliminar visitas médicas dentro del historial clínico.**
+
 <img src="./markdown/assets/chapter-4/userFlow4.png" width="800">
+
+**User Goal 5: Registrar ingresos y egresos para revisar el control económico del ganadero.**
+
 <img src="./markdown/assets/chapter-4/userFlow5.png" width="800">
+
+**User Goal 6: Revisar reportes, aplicar filtros y consultar alertas sobre el estado del ganado.**
+
 <img src="./markdown/assets/chapter-4/userFlow6.png" width="800">
 </div>
 
+<div style="page-break-before: always;"></div>
+
 # 4.5. Web Applications Prototyping.
+
+El prototipado de la aplicación web de AniTec permite validar la navegación e interacción entre las principales pantallas antes de la implementación final. Los criterios considerados para el prototipo fueron claridad en los recorridos, consistencia visual con el Style Guide, separación de acciones por rol y facilidad para completar tareas frecuentes como iniciar sesión, consultar animales, registrar eventos, revisar historial médico, controlar ingresos y egresos, y visualizar reportes.
+
+El prototipo se relaciona directamente con la arquitectura de información definida previamente, ya que utiliza una navegación superior o lateral según el contexto y organiza las pantallas por módulos funcionales. Los flujos cubiertos corresponden principalmente al acceso a la aplicación, gestión de animales, eventos sanitarios, historial médico, control económico y reportes, evidenciando cómo el usuario avanza entre pantallas para cumplir sus objetivos.
 
 <div align="center">
 
 | Evidencia                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="./markdown/assets/chapter-4/prototypingEvidence.png" width="600"> <img src="./markdown/assets/chapter-4/prototypingEvidence2.png" width="600"> |
-| Enlace al video del prototipo                                                                                                                                        |
+| Enlace al video del prototipo. Recordatorio: reemplazar este enlace por la versión publicada en Microsoft Stream.                                                                                                                                        |
 | https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw                                                  |
 
 </div>
+
+<div style="page-break-before: always;"></div>
 
 # 4.6. Domain-Driven Software Architecture.
 
@@ -2631,6 +3220,8 @@ El Domain-Driven Design (DDD) tiene como objetivo central establecer un entendim
 Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se detallan a continuación los primeros tres niveles del modelo C4, implementados mediante Structurizr, los cuales brindan una visión clara y estructurada del sistema en desarrollo.
 
 ## 4.6.1. Design Level EventStorming
+
+El Design-Level EventStorming de AniTec se presenta desde el paso 4 porque los primeros pasos del proceso, correspondientes a la exploración general del dominio mediante Big Picture EventStorming, fueron desarrollados previamente en la sección de Needfinding. Por ello, esta sección continúa con los pasos orientados al diseño del dominio, la identificación de comandos, políticas, modelos de lectura, sistemas externos, agregados y bounded contexts.
 
 **Paso 4:** Pivotal Events, el equipo busca eventos de negocio significativos que marquen un cambio de fase o una transición importante en el contexto del proceso. Estos se identifican trazando una barra vertical en la superficie de modelado para separar los flujos anteriores y posteriores al evento crucial. Identificar estos hitos es fundamental, ya que funcionan como indicadores clave para definir los límites de los posibles Bounded Contexts dentro del dominio.
 
@@ -2660,7 +3251,7 @@ Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se det
 
 <div align="center">
   <p>
-    <b>Step 6: Policys </b>
+    <b>Step 6: Policies </b>
   </p>
   <img src="./markdown/assets/chapter-2/EventStormingPaso6.jpeg" alt="Step6" width="600">
   <p>
@@ -2764,7 +3355,7 @@ El Software Architecture Context Level Diagram presenta una vista general del si
 
 ## 4.6.3. Software Architecture Container Diagrams.
 
-El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, almacena información en una base de datos SQL Server y se integra con servicios externos como Stripe para la gestión de pagos y Resend para la comunicación por mensajería.
+El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, gestiona módulos como IAM, perfiles, ganadería, sanidad, actividades, finanzas, analíticas, dispositivos y suscripciones, y almacena la información en una base de datos MySQL.
 
 <div align="center">
   <p>
@@ -2778,103 +3369,159 @@ El Software Architecture Container Diagram permite visualizar la descomposición
 
 ## 4.6.4. Software Architecture Components Diagrams.
 
-Los Software Architecture Component Diagrams presentan la descomposición interna de los principales contenedores del sistema, permitiendo identificar sus componentes, responsabilidades e interacciones. Estos diagramas facilitan la comprensión de la organización lógica de la solución y las tecnologías utilizadas en su implementación.
+Los Software Architecture Component Diagrams presentan la descomposición interna del contenedor API Application de AniTec. Estos diagramas permiten identificar los principales bounded contexts, sus responsabilidades, los controladores REST, servicios de aplicación, repositorios, componentes compartidos y la interacción con la base de datos MySQL.
 
 <br>
 
-El siguiente Diagrama de Componentes descompone el contenedor de la API Application de AniTec para detallar la lógica interna del sistema bajo un enfoque de Bounded Contexts. Se ilustra cómo la Single Page Application (SPA) se comunica mediante HTTPS/JSON directamente con módulos independientes como IAM (responsable de la seguridad y la gestión de suscripciones con Stripe), Animal Management, Health Management, Event management, Financial Management y Reporting. Cada componente, construido con ASP.NET Core y Entity Framework Core, encapsula las reglas de negocio para la gestión ganadera y coordina la persistencia en SQL Server, integrándose además con Resend para las notificaciones por e-mail.
+El AniTec API Application Component Diagram muestra la vista general de la API y sus bounded contexts principales. En esta vista se observa cómo la aplicación web consume servicios REST organizados en IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Devices, Subscriptions y Shared. La API fue implementada con ASP.NET Core, Entity Framework Core, patrones de repositorio, Unit of Work y persistencia en MySQL.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - API Application - AniTec</b>
+    <b>Component Diagram - API Application - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-API-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <img src="./markdown/assets/chapter-4/ApiApplicationComponents.png" alt="AniTec API Application Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El IAM Component Diagram presenta la estructura interna del módulo de gestión de identidad y acceso de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la autenticación, validación de suscripciones, notificaciones por correo y gestión de usuarios, así como sus interacciones con servicios externos y la base de datos.
+El IAM Component Diagram presenta la estructura interna del bounded context encargado de la identidad y acceso de los usuarios. Incluye controladores para autenticación y usuarios, servicios de comandos y consultas, repositorio de usuarios, generación de tokens JWT, hashing de contraseñas y middleware de autorización.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - IAM - AniTec</b>
+    <b>Component Diagram - IAM - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-AutenticacionBC-AniTec.png" alt="C4-AutenticacionBC" width="600">
+  <img src="./markdown/assets/chapter-4/IamComponents.png" alt="AniTec IAM Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Animal Management Component Diagram presenta la estructura interna del módulo de gestión animal de la plataforma Anitec. Este diagrama muestra los principales componentes responsables de la administración, consulta, seguimiento y persistencia de la información del ganado, así como sus interacciones con la interfaz web y la base de datos del sistema.
+El Profiles Component Diagram describe los componentes responsables de gestionar la información de perfil de los usuarios de AniTec. Este bounded context utiliza controladores REST, servicios de aplicación, repositorios y una fachada ACL para exponer información de perfiles hacia otros contextos cuando es necesario.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Animal Management - AniTec</b>
+    <b>Component Diagram - Profiles - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionAnimalBC-Anitec.png" alt="C4-GestionAnimalBC" width="600">
+  <img src="./markdown/assets/chapter-4/ProfilesComponents.png" alt="AniTec Profiles Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Event Management Component Diagram presenta la estructura interna del módulo de gestión de eventos de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración, consulta y registro de eventos relacionados con el ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
+El Livestock Component Diagram presenta la estructura del bounded context encargado de la gestión ganadera. Incluye componentes para administrar hatos y animales, controladores REST, servicios de comandos y consultas, repositorios específicos y acceso a la persistencia mediante AppDbContext.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Event Management - AniTec</b>
+    <b>Component Diagram - Livestock - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionEventosBC-AniTec.png" alt="C4-GestionEventosBC" width="600">
+  <img src="./markdown/assets/chapter-4/LivestockComponents.png" alt="AniTec Livestock Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Financial Management Component Diagram presenta la estructura interna del módulo de gestión financiera de la plataforma Anitec. Este diagrama muestra los componentes encargados del registro de ingresos y gastos, cálculo de balances y generación de reportes financieros, así como las interacciones entre la interfaz web, la lógica de negocio y la base de datos del sistema.
+El Sanitary Component Diagram muestra el bounded context responsable de los eventos sanitarios. Sus componentes permiten registrar y consultar vacunas, tratamientos, diagnósticos e incidencias asociadas al ganado, manteniendo una separación entre controladores, servicios de aplicación y repositorio.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Financial Management - AniTec</b>
+    <b>Component Diagram - Sanitary - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionFinancieraBC-AniTec.png" alt="C4-GestionFinancieraBC" width="600">
+  <img src="./markdown/assets/chapter-4/SanitaryComponents.png" alt="AniTec Sanitary Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Health Management Component Diagram presenta la estructura interna del módulo de gestión sanitaria de la plataforma Anitec. Este diagrama muestra los componentes responsables de la administración del historial clínico y las visitas médicas del ganado, así como las interacciones entre la interfaz web, la lógica de negocio y la persistencia de datos.
+El Activities Component Diagram presenta los componentes encargados de la gestión de actividades de finca. Este bounded context permite crear, consultar, actualizar y eliminar actividades operativas mediante controladores REST, servicios de comandos, servicios de consultas y repositorio.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Health Management - AniTec</b>
+    <b>Component Diagram - Activities - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-GestionSanitariaBC-AniTec.png" alt="C4-GestionSanitariaBC" width="600">
+  <img src="./markdown/assets/chapter-4/ActivitiesComponents.png" alt="AniTec Activities Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
 
-El Reporting & Analytics Component Diagram presenta la estructura interna del módulo de reportes y analítica de la plataforma Anitec. Este diagrama muestra los componentes responsables del procesamiento de métricas, generación de estadísticas, visualización de indicadores y administración de alertas, así como las interacciones entre la interfaz web, la lógica analítica y la persistencia de datos.
+El Financial Component Diagram muestra la estructura del bounded context encargado de los registros financieros. Incluye el controlador de registros financieros, servicios de comandos y consultas, repositorio y persistencia en MySQL para registrar ingresos y egresos asociados a la operación ganadera.
 
 <div align="center">
   <p>
-    <b>Diagrama de Componentes - Reporting - AniTec</b>
+    <b>Component Diagram - Financial - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Componentes-ReportesBC-AniTec.png" alt="C4-ReportesBC" width="600">
+  <img src="./markdown/assets/chapter-4/FinancialComponents.png" alt="AniTec Financial Component Diagram" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
+
+El Analytics Component Diagram presenta los componentes responsables de reportes, métricas y dashboards. Este bounded context consulta información de otros módulos, como ganadería, sanidad y finanzas, para construir resúmenes útiles para ganaderos y veterinarios.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Analytics - AniTec</b>
+  </p>
+  <img src="./markdown/assets/chapter-4/AnalyticsComponents.png" alt="AniTec Analytics Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Devices Component Diagram describe la estructura del bounded context orientado a dispositivos IoT. Incluye componentes para gestionar dispositivos, métricas capturadas, servicios de aplicación y repositorios que permiten asociar información tecnológica con animales o hatos.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Devices - AniTec</b>
+  </p>
+  <img src="./markdown/assets/chapter-4/DevicesComponents.png" alt="AniTec Devices Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Subscriptions Component Diagram muestra los componentes relacionados con planes, suscripciones y pagos de prueba. Este bounded context permite consultar planes, gestionar suscripciones activas y registrar pagos simulados para la validación del flujo de la aplicación.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Subscriptions - AniTec</b>
+  </p>
+  <img src="./markdown/assets/chapter-4/SubscriptionsComponents.png" alt="AniTec Subscriptions Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+El Shared Component Diagram presenta los componentes transversales utilizados por la API. Incluye AppDbContext, Unit of Work, BaseRepository, middleware de autorización, manejo global de excepciones y ProblemDetailsFactory, los cuales ayudan a mantener una estructura común entre los bounded contexts.
+
+<div align="center">
+  <p>
+    <b>Component Diagram - Shared - AniTec</b>
+  </p>
+  <img src="./markdown/assets/chapter-4/SharedComponents.png" alt="AniTec Shared Component Diagram" width="600">
+  <p>
+    <i><b>Fuente</b>: Elaboración propia.</i>
+  </p>
+</div>
+
+<div style="page-break-before: always;"></div>
 
 # 4.7. Software Object-Oriented Design.
 
+El diseño orientado a objetos de AniTec representa las principales clases, entidades, relaciones y responsabilidades que permiten implementar la lógica de la aplicación. Para mantener coherencia con la arquitectura del backend, el diseño se organiza tomando como referencia los bounded contexts definidos en la solución: IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Devices, Subscriptions y Shared.
+
+El objetivo de esta sección es mostrar cómo los conceptos principales del dominio se transforman en clases del sistema, considerando entidades persistentes, servicios de aplicación, repositorios y componentes compartidos. De esta manera, el diseño orientado a objetos mantiene relación directa con la arquitectura por capas utilizada en el backend de AniTec.
+
 ## 4.7.1. Class Diagrams.
+
+El Class Diagram de AniTec presenta una vista general de las clases principales utilizadas para representar usuarios, perfiles, animales, hatos, eventos sanitarios, actividades, registros financieros, métricas, dispositivos, suscripciones y pagos. Este diagrama permite visualizar la relación entre los elementos principales del dominio y sirve como base para comprender la estructura lógica de la solución.
 
 <div align="center">
   <p>
-    <b>Diagrama de clases  - AniTec</b>
+    <b>Class Diagram - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/Diagrama-Clases-Anitec.png" alt="Diagrama de Clases - AniTec" width="600">
+  <img src="./markdown/assets/chapter-4/Diagrama-Clases-Anitec.png" alt="Class Diagram - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
@@ -2884,38 +3531,64 @@ Enlace para acceder al https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6
 
 ## 4.7.2. Class Dictionary.
 
-Diccionario de clases usado para el desarrollo de AgroDigital
+Diccionario de clases usado para el desarrollo de AniTec.
 
-| Clase                | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Usuario**          | Define las entidades de usuario dentro del sistema, gestionando sus credenciales de acceso y niveles de autorización. Incluye datos esenciales como nombre, correo electrónico, contraseña cifrada, rol asignado y número de contacto.                                                                                                                                                                                                    |
-| **Credenciales**     | Módulo encargado del almacenamiento volátil de la información de acceso del usuario (correo y clave), permitiendo la validación inicial antes de aplicar algoritmos de hashing.                                                                                                                                                                                                                                                           |
-| **Animal**           | Constituye la entidad núcleo del dominio, encargada de centralizar la información técnica y biológica de cada ejemplar. Sus atributos clave permiten el seguimiento detallado mediante el registro de la especie, raza, género, cronología de nacimiento, masa corporal y condición sanitaria actual.                                                                                                                                     |
-| **Evento**           | Objeto de dominio diseñado para organizar la bitácora de servicios del ganado. Registra la naturaleza del procedimiento (tipo), la programación temporal (fecha) y variables de gestión operativa como la importancia relativa (prioridad) y la situación actual de la actividad (estado).                                                                                                                                                |
-| **HistorialClinico** | Clase de dominio que centraliza el registro cronológico de las intervenciones sanitarias realizadas a cada ejemplar. Almacena metadatos sobre la categoría del procedimiento, la marca temporal de ejecución y parámetros de control operativo, permitiendo la trazabilidad integral de la evolución médica del animal.                                                                                                                   |
-| **RegistroMedico**   | Clase que representa una entrada atómica y detallada dentro del historial clínico de un semoviente. Se encarga de documentar de forma específica la naturaleza de la intervención (tipo) y el momento exacto de su ejecución (fecha), permitiendo además la inclusión de una narrativa técnica (descripción) y anotaciones adicionales sobre el procedimiento (observaciones).                                                            |
-| **Archivo**          | Clase diseñada para la gestión de recursos multimedia y documentos digitales vinculados a los expedientes sanitarios. Actúa como un puntero hacia el almacenamiento externo, registrando el nombre del recurso, la extensión del fichero (tipo) y la dirección de acceso (URL) para su recuperación desde el servidor de objetos.                                                                                                         |
-| **ControlEconomico** | Clase de dominio responsable de la consolidación y análisis del balance financiero dentro de un periodo determinado. Sus atributos permiten delimitar el rango temporal mediante una fecha de inicio y una de cierre, vinculando un conjunto de transacciones para el cálculo de la rentabilidad del ganadero.                                                                                                                            |
-| **Transaccion**      | Clase que representa una unidad atómica de movimiento financiero dentro del sistema. Se encarga de registrar el flujo de capital (ya sea como ingreso o egreso), documentando el valor monetario (monto), la cronología del suceso (fecha), su clasificación contable (categoría) y una narrativa técnica del movimiento (descripción).                                                                                                   |
-| **Balance**          | Clase encargada de consolidar los resultados financieros derivados del procesamiento de transacciones en un periodo específico. Actúa como un objeto de resumen que calcula de forma automática la sumatoria de entradas económicas (ingresos totales) y salidas (gastos totales), permitiendo determinar la utilidad neta de la operación ganadera.                                                                                      |
-| **Reporte**          | Representa la entidad de inteligencia de negocios diseñada para transformar datos crudos en información estratégica para el ganadero. Esta clase gestiona la generación de panoramas personalizados sobre el hato, utilizando atributos de tipificación y parámetros de búsqueda específicos para facilitar la toma de decisiones informadas en AniTec.                                                                                   |
-| **FiltroReporte**    | Objeto de transferencia de datos (DTO) encargado de encapsular los parámetros de segmentación requeridos por el motor de analítica. Permite delimitar la extracción de información mediante criterios específicos como la clasificación taxonómica (especie), intervalos cronológicos del ciclo de vida (rango de edad) y la condición clínica de los ejemplares (estado de salud), optimizando la precisión de los resultados obtenidos. |
+| Clase | Bounded Context | Descripción |
+| --- | --- | --- |
+| **User** | IAM | Entidad que representa a un usuario de la plataforma. Almacena credenciales, rol y datos necesarios para autenticar a ganaderos y veterinarios. |
+| **UserAudit** | IAM | Clase asociada al seguimiento de información de auditoría del usuario, permitiendo registrar datos relacionados con su creación o actualización. |
+| **SignInCommand** | IAM | Comando utilizado para procesar el inicio de sesión de un usuario mediante nombre de usuario y contraseña. |
+| **SignUpCommand** | IAM | Comando utilizado para crear usuarios dentro de la plataforma cuando el backend requiere registrar nuevas cuentas. |
+| **Profile** | Profiles | Entidad que almacena la información personal y de contacto asociada a un usuario de AniTec. |
+| **ProfileAudit** | Profiles | Clase relacionada con la auditoría de los perfiles registrados en la plataforma. |
+| **PersonName** | Profiles | Value Object que representa el nombre de una persona dentro del perfil. |
+| **EmailAddress** | Profiles | Value Object que representa y valida el correo electrónico asociado al perfil. |
+| **StreetAddress** | Profiles | Value Object que representa la dirección registrada para un perfil. |
+| **Herd** | Livestock | Entidad que representa un hato o grupo ganadero. Permite organizar animales por propietario, ubicación y tipo principal. |
+| **Animal** | Livestock | Entidad que representa un animal registrado en la plataforma. Incluye datos como identificador, nombre, especie, raza, género, fecha de nacimiento, peso, estado y hato asociado. |
+| **HealthEvent** | Sanitary | Entidad que representa un evento sanitario del animal, como vacunas, tratamientos, diagnósticos, incidencias, prescripciones o seguimientos. |
+| **FarmActivity** | Activities | Entidad que representa una actividad operativa de la finca, incluyendo título, tipo, fecha, prioridad, estado y responsables asociados. |
+| **FinancialRecord** | Financial | Entidad que representa un ingreso o egreso de la operación ganadera. Registra monto, categoría, fecha, descripción y propietario. |
+| **ReportMetric** | Analytics | Entidad utilizada para almacenar métricas o indicadores que apoyan la generación de reportes y dashboards. |
+| **Device** | Devices | Entidad que representa un dispositivo IoT registrado, como balanzas, collares inteligentes, cámaras térmicas, aretes de identificación, estaciones meteorológicas o sensores ambientales. |
+| **DeviceMetric** | Metrics | Entidad que representa una lectura o métrica capturada por un dispositivo IoT. Permite registrar valores asociados al monitoreo de animales o hatos. |
+| **SubscriptionPlan** | Subscriptions | Entidad que representa un plan disponible dentro de la plataforma, incluyendo nombre, precio, beneficios y características generales. |
+| **Subscription** | Subscriptions | Entidad que representa la suscripción activa o histórica de un usuario a un plan determinado. |
+| **Payment** | Subscriptions | Entidad que representa un pago de prueba registrado dentro del flujo de suscripciones de AniTec. |
+| **VeterinarianClient** | Clients | Entidad que representa la relación entre un veterinario y un ganadero cliente, permitiendo gestionar clientes asignados y pacientes asociados. |
+| **Result** | Shared | Clase de apoyo usada para representar resultados de operaciones de aplicación, permitiendo comunicar éxito, error o información adicional. |
+| **Error** | Shared | Clase base para representar errores del dominio o de aplicación de forma consistente. |
+| **IBaseRepository** | Shared | Interfaz base que define operaciones comunes de persistencia para los repositorios del sistema. |
+| **BaseRepository** | Shared | Implementación base de repositorio que centraliza operaciones comunes de acceso a datos mediante Entity Framework Core. |
+| **IUnitOfWork** | Shared | Interfaz que define la operación para confirmar cambios realizados por los repositorios. |
+| **UnitOfWork** | Shared | Clase que coordina la persistencia de cambios en la base de datos mediante AppDbContext. |
+| **AppDbContext** | Shared | Clase de Entity Framework Core que configura las entidades, relaciones y acceso a la base de datos MySQL. |
+
+<div style="page-break-before: always;"></div>
 
 # 4.8. Database Design.
 
+El diseño de base de datos de AniTec se plantea sobre un modelo relacional implementado con MySQL. Esta decisión permite organizar la información principal de la aplicación en tablas relacionadas mediante primary keys y foreign keys, manteniendo consistencia entre los datos de usuarios, ganadería, sanidad, actividades, finanzas, analíticas, dispositivos IoT y suscripciones.
+
+La persistencia se encuentra organizada de acuerdo con los bounded contexts definidos para la solución. IAM almacena los usuarios y credenciales de acceso; Profiles guarda la información personal de los usuarios; Livestock persiste hatos y animales; Sanitary registra eventos sanitarios; Activities almacena actividades de finca; Financial conserva ingresos y egresos; Analytics registra métricas de reportes; Devices y Metrics almacenan dispositivos IoT y sus lecturas; Subscriptions gestiona planes, suscripciones y pagos de prueba; y Clients representa la relación entre veterinarios y ganaderos.
+
+El modelo relacional permite reflejar las dependencias entre estas áreas mediante claves primarias y foráneas. Por ejemplo, los animales pertenecen a un hato, los eventos sanitarios se asocian a animales, los dispositivos pueden relacionarse con hatos o animales, las métricas pertenecen a dispositivos y las suscripciones se vinculan con usuarios y planes.
+
 ## 4.8.1. Database Diagram.
 
-Se presenta el diagrama de la base de datos relacional:
+El siguiente Database Diagram presenta las tablas, columnas principales, constraints y relaciones necesarias para la persistencia de información de AniTec. El diagrama muestra la estructura actualizada de la base de datos relacional utilizada por el backend de la aplicación.
 
 <div align="center">
   <p>
-    <b>Diagrama de base de datos de AniTec</b>
+    <b>Database Diagram - AniTec</b>
   </p>
-  <img src="./markdown/assets/chapter-4/DiagramaBaseDeDatosAnitec.png" alt="BaseDatos" width="600">
+  <img src="./markdown/assets/chapter-4/database-diagrama-02-07.png" alt="Database Diagram - AniTec" width="600">
   <p>
     <i><b>Fuente</b>: Elaboración propia.</i>
   </p>
 </div>
+
+<div style="page-break-before: always;"></div>
 
 # 5.1. Software Configuration Management.
 
@@ -2962,7 +3635,9 @@ Incluye herramientas que serán destinadas a la implementación técnica del sis
 | GitHub                   | Gestión del repositorio del proyecto AniTec, control de versiones, manejo de ramas y colaboración entre desarrolladores.                                                                                     | https://github.com                  |
 | Visual Studio Code       | Entorno de desarrollo utilizado para la redacción y gestión del informe mediante archivos en formato Markdown (.md), facilitando la organización, edición estructurada y control de versiones del contenido. | https://code.visualstudio.com/      |
 | WebStorm                 | Entorno especializado para el desarrollo del frontend de la aplicación web AniTec, aprovechando su soporte avanzado para JavaScript y frameworks modernos.                                                   | https://www.jetbrains.com/webstorm/ |
-| Rider                    | Entorno especializado para el desarrollo del backend del sistema (en caso de utilizar .NET), permitiendo implementar la lógica de negocio y servicios.                                                       | https://www.jetbrains.com/rider/    |
+| Rider                    | Entorno especializado para el desarrollo del backend ASP.NET Core de AniTec, permitiendo implementar controladores, servicios, repositorios y configuración del proyecto .NET.                               | https://www.jetbrains.com/rider/    |
+| MySQL                    | Sistema gestor de base de datos relacional utilizado para persistir la información del backend de AniTec.                                                                                                    | https://www.mysql.com/              |
+| MySQL Workbench          | Herramienta utilizada para consultar, administrar y revisar visualmente la base de datos MySQL durante el desarrollo.                                                                                        | https://www.mysql.com/products/workbench/ |
 
 **Software Deployment**
 
@@ -2971,8 +3646,9 @@ Se incluyen las herramientas a utilizar para la publicación y disponibilidad de
 | Plataforma / Herramienta | Propósito en el proyecto                                                                                 | Enlace                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------- | --------------------------- |
 | GitHub Pages             | Despliegue de la landing page de AniTec mediante hosting estático accesible a través de una URL pública. | https://pages.github.com    |
-| Firebase                 | Despliegue del lado del frontend de las aplicación web de AniTec mediante su servicio de hosting en Vue  | https://firebase.google.com |
-| Mockapi                  | Despliegue de datos de prueba para el test de la aplicación frontend desplegada                          | https://mockapi.io/         |
+| GitHub Pages             | Despliegue del frontend web de AniTec como aplicación SPA accesible desde una URL pública.               | https://pages.github.com    |
+| Render                   | Despliegue del backend web de AniTec mediante un Web Service público para exponer la API REST.           | https://render.com/         |
+| My JSON Server           | Herramienta utilizada en una etapa previa para datos de prueba del frontend antes de integrar el backend real. | https://my-json-server.typicode.com/ |
 
 **Software Documentation**
 
@@ -2996,7 +3672,7 @@ Los repositorios oficiales del proyecto AniTec son los siguientes:
 - AniTec Documentation: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - Aplicación Web (frontend de AniTec): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- Backend / Servicios Web (API del sistema): *Pendiente de implementación*
+- Backend / Servicios Web (API del sistema): https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
 
 **Workflow de Control de Versiones (GitFlow)**
 
@@ -3041,7 +3717,9 @@ La estructura básica será: `git commit -m "<type>[optional scope]:<title>" -m"
 
 ## 5.1.3. Source Code Style Guide & Conventions.
 
-En esta sección, el equipo de desarrollo de AniTec define las convenciones de nomenclatura y estilo de código adoptadas para garantizar consistencia, legibilidad y mantenibilidad en todos los componentes del sistema.
+En esta sección, el equipo de desarrollo de AniTec define las convenciones de nomenclatura y estilo de código adoptadas para garantizar consistencia, legibilidad y mantenibilidad en todos los componentes del sistema. Estas convenciones aplican a la Landing Page, la Web Application frontend y los Web Services backend, manteniendo coherencia entre HTML, CSS, JavaScript, Vue, PrimeVue, ASP.NET Core y la API REST.
+
+El equipo procura que el estilo de código sea consistente con las tecnologías trabajadas durante el curso, evitando soluciones innecesariamente complejas y priorizando una estructura clara por componentes, módulos y bounded contexts.
 
 **Convenciones Generales**
 
@@ -3094,6 +3772,8 @@ Se adoptan las guías:
 Se adopta:
 
 - Vue Style Guide
+- PrimeVue Component Guidelines
+- Material Design principles para organización visual, jerarquía, formularios y navegación.
 
 **Convenciones aplicadas:**
 
@@ -3101,6 +3781,8 @@ Se adopta:
 - Separación de lógica, template y estilos dentro del componente.
 - Props claramente tipadas y documentadas.
 - Reutilización de componentes.
+- Uso consistente de componentes PrimeVue para formularios, tablas, botones, diálogos y navegación.
+- Organización del frontend por bounded contexts y capas `domain`, `application`, `infrastructure` y `presentation`.
 
 ---
 
@@ -3120,6 +3802,20 @@ Se adoptan:
 - Separación en capas (Controllers, Services, Repositories).
 - Uso de inyección de dependencias.
 
+---
+
+**REST API**
+
+Se adoptan convenciones simples para mantener endpoints claros y coherentes con la arquitectura RESTful trabajada en clase.
+
+**Convenciones aplicadas:**
+
+- Uso de rutas en plural para recursos principales, por ejemplo `/animals`, `/herds`, `/devices` y `/subscriptions`.
+- Uso de verbos HTTP según la acción: `GET` para consulta, `POST` para creación, `PUT` para actualización y `DELETE` para eliminación.
+- Uso de resources y assemblers para separar entidades de dominio de respuestas REST.
+- Respuestas orientadas a datos necesarios para el frontend, evitando exponer detalles internos de persistencia.
+- Documentación de endpoints mediante Swagger/OpenAPI.
+
 ## 5.1.4. Software Deployment Configuration.
 
 En esta sección se describe la configuración y el proceso de despliegue de los distintos componentes del sistema AniTec, detallando los pasos necesarios para publicar cada producto digital a partir de sus respectivos repositorios de código fuente.
@@ -3130,7 +3826,9 @@ El despliegue se ha estructurado de forma independiente para cada componente: La
 
 La Landing Page se despliega utilizando **GitHub Pages**, permitiendo la publicación de sitios web estáticos directamente desde el repositorio.
 
-**Repositorio:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+**Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+
+**URL pública:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 **Pasos de despliegue:**
 
@@ -3150,21 +3848,22 @@ La Landing Page queda disponible en una URL accesible desde cualquier navegador.
 
 ### Despliegue de Frontend Web
 
-La aplicación Frontend de AniTec se despliega utilizando **Firebase Hosting**, un servicio de Google que permite publicar aplicaciones web estáticas y SPA de manera rápida, segura y escalable.
+La aplicación Frontend de AniTec se despliega utilizando **GitHub Pages**, permitiendo publicar la versión compilada de la SPA de Vue desde el repositorio del proyecto.
 
 **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
 
 **Pasos de despliegue:**
 
-1. Configurar el proyecto en Firebase utilizando la Firebase CLI e iniciar sesión con la cuenta correspondiente.
-2. Inicializar el servicio de Hosting dentro del proyecto frontend mediante el comando: <br>
-   *```bash* <br>
-   *firebase init hosting*
-   
-   
+1. Compilar el frontend con Vite para generar los archivos estáticos de producción.
+2. Configurar GitHub Pages en el repositorio del frontend.
+3. Publicar la versión generada para que la aplicación quede disponible mediante una URL pública.
+4. Verificar que las rutas principales de la aplicación carguen correctamente desde el navegador.
+
 **Resultado:**
 
-La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://anitecfrontendtitan.web.app 
+La aplicación Frontend queda disponible en una URL accesible desde cualquier navegador. Link: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
+
+Para el ambiente de desarrollo, el frontend consume el backend real mediante variables de entorno configuradas en `.env.development`. Para producción, se debe mantener la misma estrategia de configuración mediante variables de entorno, de modo que la aplicación desplegada pueda apuntar progresivamente a la API real publicada sin cambiar el código fuente de los stores ni de las vistas.
 
 <div align="center">
     <img src="./markdown/assets/chapter-5/frontend-evidence.png" width="500">
@@ -3180,6 +3879,46 @@ La aplicación Frontend queda disponible en una URL accesible desde cualquier na
     <img src="./markdown/assets/chapter-5/frontend-evidence3.png" width="500">
     <p><i><b>Fuente</b>: Elaboración propia.</i></p>
 </div>
+
+### Despliegue de Backend Web
+
+El backend de AniTec se despliega utilizando **Render**, mediante un Web Service que permite exponer la API REST desarrollada con ASP.NET Core en un entorno accesible desde internet.
+
+**Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
+
+**Pasos de despliegue:**
+
+1. Crear un Web Service en Render.
+2. Conectar el repositorio del backend desde GitHub.
+3. Configurar la rama de despliegue y el proyecto de inicio de ASP.NET Core.
+4. Definir las variables de entorno requeridas, incluyendo cadena de conexión y configuración JWT.
+5. Ejecutar el build en Render y verificar el inicio correcto del servicio.
+6. Validar la documentación Swagger desde la URL pública.
+
+**Resultado:**
+
+El backend queda disponible públicamente para la integración con el frontend. Link: https://anitec-backend.onrender.com/swagger/index.html
+
+**URL pública del backend:** https://anitec-backend.onrender.com
+
+**Documentación Swagger:** https://anitec-backend.onrender.com/swagger/index.html
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/sprint3-render-deployment.png" width="500">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div style="page-break-before: always;"></div>
+
+<br>
+<br>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/capitulo-5.png" alt="Capitulo 5" />
+</div>
+
+<br>
+<br>
 
 # 5.2. Landing Page, Services & Applications Implementation.
 
@@ -3227,11 +3966,11 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
             <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Review Summary</td>
+            <td>Previous Sprint Review Summary</td>
             <td>No aplica - Este es el primer Sprint del proyecto. Se establecieron las bases del Product Backlog, se definieron los User Stories priorizados, y se creó la estructura inicial de repositorios en GitHub Organization.</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Retrospective Summary</td>
+            <td>Previous Sprint Retrospective Summary</td>
             <td>No aplica - Este es el primer Sprint del proyecto. El equipo se conformó recientemente y se espera mejorar la coordinación en sprints posteriores.</td>
         </tr>
         <tr>
@@ -3239,7 +3978,7 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 1 Goal</td>
-            <td>Nuestro enfoque está en establecer la presencia digital de AniTec mediante una Landing Page funcional orientada a ganaderos y veterinarios. Creemos que esto aporta claridad sobre la propuesta de valor del producto y genera interés inicial en los usuarios objetivo. Esto se confirmará cuando los usuarios puedan navegar la Landing Page y comprender los principales beneficios de la plataforma.</td>
+            <td>Nuestro enfoque está en establecer la presencia digital inicial de AniTec mediante una Landing Page responsive orientada a ganaderos y veterinarios. Creemos que esto entrega claridad sobre la propuesta de valor y genera interés inicial en los segmentos objetivo. Esto se confirmará cuando los visitantes puedan acceder a la página principal, conocer beneficios, revisar secciones para ganaderos y veterinarios, y usar los llamados a la acción desde desktop y mobile.</td>
         </tr>
         <tr>
             <td>Sprint 1 Velocity</td>
@@ -3268,8 +4007,9 @@ Los User Stories seleccionados para este Sprint inicial reflejan las necesidades
 | US-048 | Visualizar página nosotros                     | Must Have   | 4            |
 | US-046 | Visualizar página para ganaderos               | Should Have | 4            |
 | US-047 | Visualizar página para veterinarios            | Should Have | 4            |
+| US-052 | Visualizar landing page en dispositivos móviles | Should Have | 4            |
 
-La selección de estos User Stories para el Sprint 1 responde a la necesidad de establecer la presencia digital de AniTec rápidamente, permitiendo que usuarios potenciales conozcan la propuesta de valor para los dos segmentos target. El equipo identificó que US-044 y US-051 son las más críticas, representando el objetivo principal del Sprint, mientras que las páginas específicas (US-046 y US-047) aportan valor para alcanzar a los segmentos especializados.
+La selección de estos User Stories para el Sprint 1 responde a la necesidad de establecer la presencia digital de AniTec rápidamente, permitiendo que usuarios potenciales conozcan la propuesta de valor para los dos segmentos target. El equipo identificó que US-044 y US-051 son las más críticas, representando el objetivo principal del Sprint, mientras que las páginas específicas (US-046 y US-047) aportan valor para alcanzar a los segmentos especializados. Además, US-052 permite validar que la Landing Page pueda visualizarse correctamente desde dispositivos móviles.
 
 **Distribución de Trabajo por Componente:**
 
@@ -3279,7 +4019,7 @@ La distribución de Story Points fue diseñada para que cada miembro del equipo 
 
 ### 5.2.1.2. Aspects Leaders and Collaborators.
 
-En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindando mayor claridad y efectividad en la comunicación al interior del equipo.
+En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
 
 La sección incluye una introducción donde se explica cuáles son los principales aspectos que se toma en cuenta en el Sprint 1. Para este primer Sprint, los aspectos están centrados exclusivamente en el desarrollo de la Landing Page multipágina, reconociendo la importancia de establecer roles claros desde el inicio del proyecto para evitar conflictos y facilitar la toma de decisiones durante la implementación.
 
@@ -3290,7 +4030,8 @@ El equipo AniTec está conformado por 5 miembros con diferentes fortalezas técn
 1. **Landing Page - UI/UX:** Diseño y estructura visual de las páginas principales, incluyendo wireframes, mockups, paleta de colores, tipografía y componentes visuales.
 2. **Landing Page - Desarrollo HTML/CSS:** Implementación técnica de las páginas landing, incluyendo código HTML semántico, estilos CSS, y diseño responsive.
 3. **Landing Page - Funcionalidades JavaScript:** Implementación de sliders automáticos, interacciones de navegación, y efectos visuales.
-4. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
+4. **Landing Page - Responsive / Mobile:** Validación visual de la landing page en desktop, tablet y mobile, revisando navegación, secciones, botones e imágenes.
+5. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
 
 La distribución de roles fue diseñada para fomentar la colaboración entre los miembros del equipo, evitando situaciones donde un solo miembro sea responsable de un componente crítico. En caso de que un líder no esté disponible, los colaboradores están preparados para asumir responsabilidad parcial del aspecto correspondiente.
 
@@ -3349,6 +4090,8 @@ La distribución de roles fue diseñada para fomentar la colaboración entre los
 
 La organización de líderes y colaboradores tiene relación directa con las fortalezas técnicas de cada miembro del equipo identificadas durante la conformación del equipo. Esta distribución permite que cada uno trabaje en áreas donde puede aportar mayor valor, mientras tiene la oportunidad de aprender de los líderes en otras áreas.
 
+El aspecto responsive/mobile fue cubierto dentro del desarrollo HTML/CSS y mediante validación visual de la landing page en distintos tamaños de pantalla, por lo que se mantiene dentro de la matriz principal como parte del trabajo de implementación de la landing page.
+
 **Distribución detallada de responsabilidades:**
 
 - **Ayala Fernandez, Jorge Brayan (UI/UX & JavaScript Lead):** Responsable del diseño visual de la Landing Page y las funcionalidades JavaScript, incluyendo la creación de mockups, definición de la paleta de colores basada en la identidad de marca de AniTec, y desarrollo de sliders automáticos. Coordina con el equipo de desarrollo para asegurar que la implementación respete el diseño propuesto.
@@ -3356,6 +4099,8 @@ La organización de líderes y colaboradores tiene relación directa con las for
 - **Huaman Gallardo, Bruno Aldair (Development Lead):** Responsable de la implementación técnica HTML/CSS de las páginas landing, incluyendo la estructura HTML semántica, estilos CSS con metodología BEM, y diseño responsivo. Coordina con el líder de UI/UX para resolver dudas sobre el diseño y garantizar su correcta implementación.
 
 - **Melgarejo Quiroz, Josep Eliu (Documentation Lead):** Responsable de la documentación del Sprint, incluyendo la elaboración de este archivo y demás artefactos Scrum. Coordina con los demás miembros para recopilar información sobre el avance del Sprint y asegurar la completitud de la documentación.
+
+- **Landing Page - Responsive / Mobile:** Responsable de verificar que la navegación, secciones, botones e imágenes se adapten correctamente en desktop, tablet y mobile, evitando solapamientos o pérdida de legibilidad.
 
 ### 5.2.1.3. Sprint Backlog 1.
 
@@ -3483,10 +4228,20 @@ A continuación, la tabla de control de estado para el Sprint 1:
             <td>Sanchez Silva, Luciana Celeste</td>
             <td>Done</td>
         </tr>
+        <tr>
+            <td>US-052</td>
+            <td>Visualizar landing page en dispositivos móviles</td>
+            <td>T009</td>
+            <td>Validar diseño responsive de la landing page</td>
+            <td>Verificar visualización de la landing page en desktop, tablet y mobile, ajustando navegación, secciones, botones e imágenes para evitar solapamientos.</td>
+            <td>4</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
     </tbody>
 </table>
 
-El Sprint Backlog refleja 8 tareas que totalizando las horas estimadas representan aproximadamente 34 horas de trabajo del equipo, equivalente a los 34 Story Points calculados para el Sprint 1. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
+El Sprint Backlog refleja 9 tareas principales, alineadas con los 34 Story Points calculados para el Sprint 1. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
 
 El equipo se compromete a completar todas las tareas del Sprint Backlog antes de la fecha de Sprint Review programada para el final de la iteración. Se realizará seguimiento diario del progreso mediante las daily standups y se tomarán acciones correctivas en caso de identificar desviaciones significativas del plan.
 
@@ -3507,7 +4262,7 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
 - **Optimización SEO:** Meta tags, Open Graph, Twitter Cards, y estructura semántica para mejorar el posicionamiento en motores de búsqueda.
 - **Accesibilidad web:** Cumplimiento de estándares WCAG 2.1 nivel AA, incluyendo contraste de colores adecuado, navegación por teclado funcional, y etiquetas ARIA donde fue necesario.
 
-**Commits Realizados:**
+**Commits del repositorio anitec-landing-page:**
 
 | Repository                                               | Branch | Commit Id | Commit Message                                   | Commit Message Body                                                                                                | Committed on (Date) |
 | -------------------------------------------------------- | ------ | --------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ | ------------------- |
@@ -3516,6 +4271,11 @@ La Landing Page implementada durante el Sprint 1 cuenta con las siguientes carac
 | upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main   | f604f7d   | feat: build ranchers and veterinarians pages     | Se agregaron las paginas orientadas a ganaderos y veterinarios con contenido diferenciado para cada segmento.      | 26/04/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main   | c1beba6   | feat: add i18n translations and navigation links | Se agregaron traducciones y enlaces de navegacion para conectar las paginas principales de la landing page.        | 02/05/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page | main   | b253306   | feat: complete AniTec landing page layout        | Se completo el diseño visual de la landing page y se ajustaron las secciones finales para la revision del sprint.  | 14/05/2026          |
+
+**Commits del repositorio anitec-report:**
+
+| Repository                                         | Branch | Commit Id | Commit Message                                 | Commit Message Body                                                                                  | Committed on (Date) |
+| -------------------------------------------------- | ------ | --------- | ---------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------- |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-report       | main   | a4c92e1   | docs: add sprint 1 planning evidence             | Se documento el objetivo del sprint, el sprint backlog y las responsabilidades iniciales del equipo.               | 14/05/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-report       | main   | e7b31a4   | docs: describe landing page execution evidence   | Se agrego la descripcion de las vistas implementadas y las funcionalidades desarrolladas en la landing page.       | 15/05/2026          |
 | upc-1asi0730-2610-12206-titan-team-4/anitec-report       | main   | c9f84b2   | docs: update deployment evidence for sprint 1    | Se documento el despliegue de la landing page en GitHub Pages y la verificacion posterior al despliegue.           | 15/05/2026          |
@@ -3541,7 +4301,39 @@ Esta sección resume lo alcanzado en el Sprint 1 y presenta las capturas de pant
 
 El Sprint 1 permitió establecer la presencia digital de AniTec. El equipo logró completar la configuración del repositorio, establecer las convenciones de código, e implementar las funcionalidades de la Landing Page multipágina. Los resultados superan las expectativas iniciales, logrando una Landing Page funcional, visualmente atractiva y técnicamente sólida.
 
+**URL pública de la landing page:**
+
+https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+
+**Video/demo de navegación del Sprint 1:**
+
+[Agregar URL del video/demo de navegación del Sprint 1]
+
 **Capturas de Pantalla - Landing Pages:**
+
+<div align="center">
+    <p><b>Landing page principal</b></p>
+    <img src="./markdown/assets/chapter-5/Landing-page-principal.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Página para ganaderos</b></p>
+    <img src="./markdown/assets/chapter-5/Pagina-para-ganaderos..png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Página para veterinarios</b></p>
+    <img src="./markdown/assets/chapter-5/Pagina-para-veterinarios.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Vista responsive/mobile</b></p>
+    <img src="./markdown/assets/chapter-5/Vista-responsivemobile.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 Las Landing Pages implementadas incluyen las siguientes secciones principales:
 
@@ -3569,7 +4361,25 @@ Las Landing Pages implementadas incluyen las siguientes secciones principales:
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Esta documentación estuvo orientada principalmente en la parte del Landing Page por lo que no se pudo enfocar en ningún motivo al backend en la creación del servicio. En los proximos sprints se tocará aquel tema y se podrá profundizar en ello adecuadamente.
+Durante el Sprint 1 no se implementaron Web Services ni endpoints REST, debido a que el alcance de la iteración estuvo centrado en la construcción de una Landing Page estática para presentar AniTec, sus segmentos objetivo, beneficios principales y llamados a la acción. Por ello, la documentación de servicios se enfoca en los recursos estáticos publicados y en las rutas disponibles dentro del sitio.
+
+**URL pública de la landing page:**
+
+https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+
+**Rutas y recursos estáticos documentados:**
+
+| Recurso | Descripción |
+| ------- | ----------- |
+| `/index.html` | Página principal de la landing page, con portada, propuesta de valor, beneficios y llamados a la acción. |
+| `/assets/pages/about.html` | Página informativa del equipo, misión, visión y presentación de AniTec. |
+| `/assets/pages/ranchers.html` | Página orientada al segmento ganadero. |
+| `/assets/pages/veterinarians.html` | Página orientada al segmento veterinario. |
+| `/assets/css/` | Hojas de estilo utilizadas para layout, diseño responsive, colores, tipografía y componentes visuales. |
+| `/assets/js/` | Scripts de interacción básica, navegación y comportamiento visual de la landing page. |
+| `/assets/images/` | Imágenes utilizadas en secciones principales, segmentos, beneficios y contenido visual. |
+
+Los servicios REST de AniTec fueron planificados para sprints posteriores, cuando la aplicación web necesitara consumir datos dinámicos desde una API. En este primer Sprint, el objetivo fue validar la presencia pública del producto y la comunicación inicial de valor para ganaderos y veterinarios.
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
@@ -3578,7 +4388,7 @@ La landing page de AniTec fue desplegada exitosamente en **GitHub Pages**, la pl
 **Configuración del Deploy:**
 
 - **Plataforma:** GitHub Pages
-- **Repositorio:** anitex-landing-page
+- **Repositorio:** anitec-landing-page
 - **Branch desplegado:** main
 - **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 - **Ruta de archivos desplegados:** /index.html, /nosotros.html, /ganaderos.html, /veterinarios.html, /styles.css, /script.js, /assets/
@@ -3614,6 +4424,7 @@ El equipo adoptó un enfoque de trabajo colaborativo, donde los miembros se reun
     <b>Commits graficas</b>
   </p>
   <img src="./markdown/assets/chapter-5/commit-chart-sprint-1.jpeg" alt="Step5" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-landing-page.</i></p>
 </div>
 
 **Reflexiones del Equipo:**
@@ -3642,11 +4453,26 @@ El equipo identifica las siguientes lecciones de este Sprint 1:
 
 5. **Las estimaciones iniciales fueron acertadas pero con margen de mejora:** El equipo logró completar todas las tareas dentro del tiempo estimado, aunque algunas tareas requirieron ajuste de prioridades para cumplir con el Sprint Goal.
 
+<div style="page-break-before: always;"></div>
+
+<br>
+<br>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/capitulo-5.png" alt="Capitulo 5" />
+</div>
+
+<br>
+<br>
+
+
+# 5.2. Landing Page, Services & Applications Implementation.
+
 ## 5.2.2. Sprint 2.
 
 En el Sprint 2, el equipo de AniTec se enfocó en la construcción de la aplicación web frontend completa utilizando Vue 3, implementando todos los módulos funcionales de gestión ganadera: autenticación y roles, gestión de fincas y animales, control sanitario y clínico, gestión financiera, calendario de eventos, dashboards y reportes estadísticos. El objetivo fue entregar una aplicación web funcional que permita a ganaderos y veterinarios gestionar digitalmente sus operaciones.
 
-Durante este Sprint se desarrolló la arquitectura completa del frontend siguiendo los principios de Domain-Driven Design (DDD), con bounded contexts independientes para cada módulo, stores de Pinia para la gestión de estado, integración con una API REST mock mediante my-json-server, y despliegue en Firebase Hosting.
+Durante este Sprint se desarrolló la arquitectura completa del frontend siguiendo los principios de Domain-Driven Design (DDD), con bounded contexts independientes para cada módulo, stores de Pinia para la gestión de estado, integración con una API REST mock mediante my-json-server, y despliegue en GitHub Pages.
 
 ### 5.2.2.1. Sprint Planning 2.
 
@@ -3686,11 +4512,11 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
             <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Review Summary</td>
+            <td>Sprint 1 Review Summary</td>
             <td>Sprint 1 completó exitosamente la Landing Page multipágina de AniTec, desplegada en GitHub Pages. Se establecieron las bases del proyecto, las convenciones de código y el flujo de trabajo colaborativo con GitFlow.</td>
         </tr>
         <tr>
-            <td>Sprint n - 1 Retrospective Summary</td>
+            <td>Sprint 1 Retrospective Summary</td>
             <td>El equipo identificó la necesidad de mejorar la comunicación asincrónica y la revisión de código. Se acordó implementar daily standups más estructuradas y aumentar la frecuencia de code reviews para el Sprint 2.</td>
         </tr>
         <tr>
@@ -3698,15 +4524,15 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 2 Goal</td>
-            <td>Nuestro enfoque está en desarrollar la aplicación web funcional de AniTec con los módulos de autenticación, gestión de animales, control sanitario, gestión financiera y reportes. Creemos que esto aporta una solución digital completa para la gestión ganadera. Esto se confirmará cuando los usuarios puedan iniciar sesión, registrar animales, documentar incidencias sanitarias y visualizar reportes de su operación.</td>
+            <td>Nuestro enfoque está en permitir que ganaderos y veterinarios gestionen digitalmente información básica de sus operaciones desde una aplicación web funcional. Creemos que esto entrega mayor organización y control sobre animales, eventos sanitarios, finanzas y reportes a los usuarios de AniTec. Esto se confirmará cuando un usuario pueda iniciar sesión, navegar según su rol, registrar animales, documentar eventos sanitarios, registrar movimientos financieros y visualizar reportes desde la aplicación web.</td>
         </tr>
         <tr>
             <td>Sprint 2 Velocity</td>
-            <td>El equipo estimó un velocity inicial de 40 Story Points, enfocados en el desarrollo de la aplicación web frontend con 6 módulos principales (autenticación, navegación, animales, sanidad, finanzas y reportes).</td>
+            <td>El equipo estimó un velocity inicial de 42 Story Points, enfocados en el desarrollo de la aplicación web frontend con 6 módulos principales (autenticación, navegación, animales, sanidad, finanzas y reportes).</td>
         </tr>
         <tr>
             <td>Sprint of Story Points</td>
-            <td>Total: 40 SP - Distribuidos en 8 SP para autenticación y roles, 8 SP para navegación y layout, 8 SP para gestión de animales, 8 SP para gestión sanitaria, 5 SP para gestión financiera, y 5 SP para reportes y dashboards.</td>
+            <td>Total: 42 SP - Distribuidos en 8 SP para autenticación y roles, 8 SP para navegación y layout, 8 SP para gestión de animales, 8 SP para gestión sanitaria, 5 SP para gestión financiera, y 5 SP para reportes y dashboards.</td>
         </tr>
     </tbody>
 </table>
@@ -3732,7 +4558,7 @@ La selección de estos User Stories para el Sprint 2 responde a la necesidad de 
 
 **Distribución de Trabajo por Componente:**
 
-- **Aplicación Web Frontend:** 40 Story Points - Enfocados en los 6 bounded contexts (IAM, Livestock, Sanitary, Financial, Events, Reports) más el módulo Shared de componentes comunes, incluyendo configuración inicial, implementación de stores Pinia, vistas Vue, y servicios de consumo de API.
+- **Aplicación Web Frontend:** 42 Story Points - Enfocados en los 6 bounded contexts (IAM, Livestock, Sanitary, Financial, Events, Reports) más el módulo Shared de componentes comunes, incluyendo configuración inicial, implementación de stores Pinia, vistas Vue, y servicios de consumo de API.
 
 La distribución de Story Points fue diseñada considerando las dependencias técnicas entre módulos. Se priorizó la configuración inicial y el módulo IAM como base, seguido de los módulos CRUD centrales (animales y sanidad), y finalmente los módulos de soporte (finanzas y reportes).
 
@@ -3740,7 +4566,7 @@ La distribución de Story Points fue diseñada considerando las dependencias té
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 2, que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
 
-Para este segundo Sprint, los aspectos están centrados en el desarrollo de la aplicación web frontend con Vue 3, abarcando desde la configuración inicial de la arquitectura hasta la implementación de los módulos funcionales y el despliegue en Firebase.
+Para este segundo Sprint, los aspectos están centrados en el desarrollo de la aplicación web frontend con Vue 3, abarcando desde la configuración inicial de la arquitectura hasta la implementación de los módulos funcionales y el despliegue en GitHub Pages.
 
 **Aspectos del Sprint 2:**
 
@@ -3750,7 +4576,8 @@ Para este segundo Sprint, los aspectos están centrados en el desarrollo de la a
 4. **Frontend - Módulo Sanitario y Clínico:** Implementación de registros sanitarios, incidencias, diagnósticos, tratamientos, recetas, seguimientos e historial clínico.
 5. **Frontend - Módulo Financiero y Reportes:** Implementación de registro de ingresos/egresos, balance financiero, dashboards con gráficos Chart.js y reportes estadísticos.
 6. **Frontend - Gestión Profesional del Veterinario:** Implementación de dashboard veterinario, gestión de clientes, pacientes, y casos de uso específicos del rol.
-7. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
+7. **Frontend - Deployment and Mock API:** Despliegue del frontend en GitHub Pages y configuración de my-json-server como API mock temporal para alimentar datos de prueba.
+8. **Documentación:** Documentación técnica del Sprint, incluyendo este archivo y demás artefactos Scrum requeridos.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
@@ -3834,6 +4661,8 @@ Para este segundo Sprint, los aspectos están centrados en el desarrollo de la a
 - **Raymundo Villarroel, Nadhim Abigail (Sanitario Lead):** Responsable de la implementación del módulo sanitario y clínico, incluyendo registro de incidencias, diagnósticos, tratamientos, recetas e historial clínico de animales.
 
 - **Sanchez Silva, Luciana Celeste (Veterinario Lead):** Responsable de la implementación del módulo de gestión profesional del veterinario, incluyendo dashboard, gestión de clientes, pacientes y casos de uso específicos del rol.
+
+- **Frontend - Deployment and Mock API:** Responsable de publicar la aplicación web en GitHub Pages, configurar el consumo de datos desde my-json-server y verificar que la URL pública permita navegar las vistas principales con datos de prueba.
 
 ### 5.2.2.3. Sprint Backlog 2.
 
@@ -3965,8 +4794,8 @@ A continuación, la tabla de control de estado para el Sprint 2:
             <td>TS-004</td>
             <td>Consumo de datos mediante Axios, BaseApi y BaseEndpoint</td>
             <td>T009</td>
-            <td>Configurar despliegue en Firebase y my-json-server</td>
-            <td>Configurar Firebase Hosting para el frontend, desplegar datos de prueba db.json en repositorio my-json-server, configurar variables de entorno para API URL en desarrollo y producción, verificar conectividad</td>
+            <td>Configurar despliegue en GitHub Pages y my-json-server</td>
+            <td>Configurar GitHub Pages para el frontend, desplegar datos de prueba db.json en repositorio my-json-server, configurar variables de entorno para API URL en desarrollo y producción, verificar conectividad</td>
             <td>3</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
@@ -3974,7 +4803,7 @@ A continuación, la tabla de control de estado para el Sprint 2:
     </tbody>
 </table>
 
-El Sprint Backlog refleja 9 tareas que totalizando las horas estimadas representan aproximadamente 47 horas de trabajo del equipo, equivalente a los 40 Story Points calculados para el Sprint 2. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
+El Sprint Backlog refleja 9 tareas que totalizan aproximadamente 47 horas estimadas de tareas, alineadas con los 42 Story Points planificados para el Sprint 2. Cada tarea fue estimada considerando la complejidad técnica, el tiempo requerido para investigación en caso de desconocimiento, y los posibles imprevistos que pudieran surgir durante la implementación.
 
 El equipo se compromete a completar todas las tareas del Sprint Backlog antes de la fecha de Sprint Review programada para el final de la iteración. Se realizará seguimiento diario del progreso mediante las daily standups y se tomarán acciones correctivas en caso de identificar desviaciones significativas del plan.
 
@@ -4096,7 +4925,7 @@ La aplicación web implementada durante el Sprint 2 cuenta con las siguientes ca
 | anitec-frontend | main               | 3267dba   | chore: AniTec Frontend Initialization!!                                                                                                                                   |                                                                                                                                                                                                                                                                                   | 2026-05-14 22:25:01 -0500 |
 | anitec-frontend | main               | 3ffbadb   | chore: AniTec Frontend Initialization!!                                                                                                                                   |                                                                                                                                                                                                                                                                                   | 2026-05-14 22:19:11 -0500 |
 
-El equipo realizó un total de 88 commits en el repositorio de la aplicación web durante el Sprint 2. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios.
+El equipo registró múltiples commits durante el Sprint 2 en el repositorio de la aplicación web. La tabla anterior muestra commits representativos del Sprint 2 y evidencia la implementación progresiva de módulos, vistas, stores, rutas, APIs y configuración base del frontend. Cada commit sigue la convención de Conventional Commits establecida en la configuración del proyecto, facilitando la generación automática de changelogs y la trazabilidad de cambios.
 
 **Repositorio de la Aplicación Web Frontend:**
 
@@ -4116,9 +4945,53 @@ Esta sección resume lo alcanzado en el Sprint 2 y presenta la descripción de l
 
 **Resumen de lo Alcanzado:**
 
-El Sprint 2 permitió desarrollar la aplicación web funcional de AniTec. El equipo logró completar la configuración del proyecto Vue, establecer la arquitectura de bounded contexts, implementar los 6 módulos de negocio y desplegar la aplicación en Firebase Hosting con datos de prueba en my-json-server.
+El Sprint 2 permitió desarrollar la aplicación web funcional de AniTec. El equipo logró completar la configuración del proyecto Vue, establecer la arquitectura de bounded contexts, implementar los 6 módulos de negocio y desplegar la aplicación en GitHub Pages con datos de prueba en my-json-server.
+
+**URL pública del frontend:**
+
+https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+
+**Video/demo de navegación del Sprint 2:**
+
+[Agregar URL del video/demo de navegación del Sprint 2]
 
 **Vistas Implementadas:**
+
+<div align="center">
+    <p><b>Login</b></p>
+    <img src="./markdown/assets/chapter-5/Login.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Dashboard ganadero</b></p>
+    <img src="./markdown/assets/chapter-5/Dashboard-ganadero.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Gestión de animales</b></p>
+    <img src="./markdown/assets/chapter-5/Gestion-de-animales.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Eventos sanitarios</b></p>
+    <img src="./markdown/assets/chapter-5/Eventos-sanitarios.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Finanzas/reportes</b></p>
+    <img src="./markdown/assets/chapter-5/Finanzasreportes.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Dashboard veterinario</b></p>
+    <img src="./markdown/assets/chapter-5/Dashboard-veterinario.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
 A continuación, se detallan las principales vistas de la aplicación web:
 
@@ -4196,25 +5069,46 @@ La configuración de la API se maneja mediante variables de entorno de Vite, per
 - `VITE_FARM_EVENTS_ENDPOINT_PATH`: `/farm-events`
 - `VITE_REPORT_METRICS_ENDPOINT_PATH`: `/report-metrics`
 
-Esta arquitectura permite que, en futuros sprints, el reemplazo de my-json-server por un backend real (.NET) requiera únicamente cambiar la URL base de la API sin modificar el código de los servicios o las vistas.
+**Ejemplo de endpoint mock:**
+
+- **Método:** GET
+- **Endpoint:** `/animals`
+- **URL:** https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver/animals
+
+**Response de ejemplo:**
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "species": "Bovino",
+    "breed": "Holstein",
+    "status": "healthy",
+    "herdId": 1
+  }
+]
+```
+
+Esta arquitectura permite que, en futuros sprints, el reemplazo de my-json-server por un backend real (.NET) requiera únicamente cambiar la URL base de la API sin modificar el código de los servicios o las vistas. Este servicio fue temporal y se utilizó para prototipado frontend antes de contar con el backend real de AniTec.
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-La aplicación web frontend de AniTec fue desplegada exitosamente en **Firebase Hosting**, un servicio de Google que permite publicar aplicaciones web estáticas y SPA de manera rápida, segura y escalable. Adicionalmente, los datos de prueba fueron desplegados en **my-json-server** para simular el backend de la aplicación.
+La aplicación web frontend de AniTec fue desplegada exitosamente en **GitHub Pages**, la plataforma de hosting de GitHub que permite publicar aplicaciones web estáticas y SPA directamente desde el repositorio del proyecto. Adicionalmente, los datos de prueba fueron desplegados en **my-json-server** para simular el backend de la aplicación.
 
-**Configuración del Deploy - Frontend (Firebase Hosting):**
+**Configuración del Deploy - Frontend (GitHub Pages):**
 
-- **Plataforma:** Firebase Hosting
+- **Plataforma:** GitHub Pages
 - **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
-- **URL de acceso:** https://anitecfrontendtitan.web.app
-- **Comando de despliegue:** `firebase deploy --only hosting`
+- **URL de acceso:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- **Comando de despliegue:** publicación mediante GitHub Pages desde el repositorio
 - **Archivos desplegados:** Carpeta `dist/` generada por Vite (`npm run build`)
 
 **Pasos de despliegue:**
 
-1. Configurar el proyecto en Firebase mediante la Firebase CLI: `firebase init hosting`
+1. Configurar GitHub Pages en el repositorio del frontend.
 2. Compilar el frontend con Vite: `npm run build`
-3. Desplegar a Firebase: `firebase deploy --only hosting`
+3. Publicar la carpeta generada para producción mediante GitHub Pages.
 4. Verificar que la aplicación esté accesible en la URL pública
 
 **Configuración del Deploy - Datos de Prueba (my-json-server):**
@@ -4223,6 +5117,8 @@ La aplicación web frontend de AniTec fue desplegada exitosamente en **Firebase 
 - **Repositorio de datos:** Repositorio dedicado con archivo `db.json`
 - **URL base de la API:** https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
 - **Proceso:** Subir el archivo `db.json` al repositorio de GitHub; my-json-server genera automáticamente los endpoints REST a partir de las colecciones definidas en el JSON.
+
+El uso de my-json-server correspondió a una etapa temporal de prototipado del frontend. Este servicio permitió validar navegación, vistas y operaciones CRUD antes de contar con el backend real desarrollado posteriormente en Sprint 3.
 
 <div align="center">
     <img src="./markdown/assets/chapter-5/frontend-evidence.png" width="500">
@@ -4243,7 +5139,7 @@ La aplicación web frontend de AniTec fue desplegada exitosamente en **Firebase 
 
 Después del despliegue, se verificaron los siguientes puntos:
 
-- La aplicación carga correctamente en la URL de Firebase Hosting
+- La aplicación carga correctamente en la URL de GitHub Pages
 - El módulo de autenticación permite iniciar sesión con los usuarios demo
 - Las operaciones CRUD (crear, leer, actualizar, eliminar) funcionan correctamente en todos los módulos
 - Los datos se consumen correctamente desde my-json-server
@@ -4268,6 +5164,7 @@ El equipo adoptó un enfoque de trabajo colaborativo con reuniones diarias media
     <b>Commits gráficas</b>
   </p>
   <img src="./markdown/assets/chapter-5/commit-chart-sprint-2.png" alt="Step5" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-frontend.</i></p>
 </div>
 
 **Reflexiones del Equipo:**
@@ -4298,66 +5195,2175 @@ El equipo identifica las siguientes lecciones de este Sprint 2:
 
 6. **Es importante documentar las decisiones arquitectónicas al inicio del Sprint:** Tener claros los patrones de diseño y las convenciones desde el principio evitó tener que refactorizar módulos completos.
 
+<div style="page-break-before: always;"></div>
+
+<br>
+<br>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/capitulo-5.png" alt="Capitulo 5" />
+</div>
+
+<br>
+<br>
+
+# 5.2. Landing Page, Services & Applications Implementation.
+
+## 5.2.3. Sprint 3.
+
+En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real y en la integración progresiva de la solución completa. El backend permitió reemplazar la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL, mientras que el frontend comenzó a consumir datos reales desde dicha API. Además, se incorporaron mejoras en la landing page para presentar los videos About the Team y About the Product dentro de la página About Us.
+
+Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. En paralelo, el frontend de AniTec fue ajustado para consumir endpoints reales, agregar los apartados de dispositivos IoT y suscripciones, y mantener una navegación coherente con los nuevos servicios disponibles. La landing page también fue actualizada con contenido audiovisual orientado a explicar el equipo y el producto.
+
+### 5.2.3.1. Sprint Planning 3.
+
+El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec y su integración inicial con la solución web existente. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
+
+Se decidió construir el backend utilizando ASP.NET Core y Entity Framework Core, ya que estas tecnologías fueron trabajadas durante las clases del curso. Además, se eligió MySQL como sistema gestor de base de datos porque fue la tecnología indicada para el desarrollo de backend en esta etapa del curso. De forma complementaria, se planificó actualizar el frontend para consumir la API real y extender la aplicación con los módulos de dispositivos IoT y suscripciones.
+
+Durante la planificación se definieron los bounded contexts principales, las responsabilidades de cada integrante y las funcionalidades mínimas necesarias para que el backend pueda reemplazar progresivamente al servicio mock utilizado en el Sprint 2. También se incluyeron ajustes en la landing page para incorporar los videos About the Team y About the Product dentro de la sección About Us.
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td><b>Sprint #</b></td>
+            <td>Sprint 3</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2026-06-05</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:00 AM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Reunión virtual via Discord - Canal #sprint-planning</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Review Summary</td>
+            <td>El Sprint 2 permitió construir la aplicación web frontend de AniTec con Vue 3, PrimeVue, Pinia, Vue Router, módulos por bounded context y consumo de datos mediante una API REST mock con my-json-server.</td>
+        </tr>
+        <tr>
+            <td>Sprint 2 Retrospective Summary</td>
+            <td>El equipo identificó que el uso de datos mock permitió avanzar rápidamente en el frontend, pero limitaba la validación de reglas de negocio, persistencia real, autenticación segura y operaciones entre módulos. Por ello, se priorizó el desarrollo del backend en el Sprint 3.</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal / User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Goal</td>
+            <td>Nuestro enfoque está en permitir que AniTec funcione con servicios reales e integración entre backend, frontend y landing page. Creemos que esto entrega una experiencia más cercana al producto final para ganaderos y veterinarios, reemplazando datos mock por información persistente y habilitando nuevos módulos como IoT y suscripciones. Esto se confirmará cuando el frontend consuma datos desde la API real, los usuarios puedan acceder a dispositivos IoT y planes de suscripción, la API exponga endpoints documentados en Swagger y la landing page presente los videos About the Team y About the Product.</td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Velocity</td>
+            <td>El equipo estimó un velocity de 57 Story Points, considerando la construcción del backend, configuración de persistencia, implementación de bounded contexts, endpoints REST, documentación de servicios, integración frontend-backend y mejoras en la landing page.</td>
+        </tr>
+        <tr>
+            <td>Sprint of Story Points</td>
+            <td>Total: 57 SP - Distribuidos en 45 SP para backend y servicios REST, 5 SP para integración frontend-backend, 5 SP para módulos frontend de dispositivos IoT y suscripciones, y 2 SP para actualización de landing page con videos About the Team y About the Product.</td>
+        </tr>
+    </tbody>
+</table>
+
+El Sprint Planning Meeting del Sprint 3 duró aproximadamente 2.5 horas. El equipo revisó la estructura del backend usado como referencia en clase, definió los bounded contexts necesarios para AniTec y acordó mantener patrones conocidos como Repository, Unit of Work, Command Services, Query Services, REST Resources y Entity Framework Core para la persistencia.
+
+**Technical Stories incluidas en el Sprint 3:**
+
+| ID     | Technical Story                                                     | Prioridad   | Story Points |
+| ------ | ------------------------------------------------------------------- | ----------- | ------------ |
+| TS-005 | Configuración inicial del backend con ASP.NET Core                  | Must Have   | 5            |
+| TS-006 | Persistencia con Entity Framework Core y MySQL                      | Must Have   | 8            |
+| TS-007 | Autenticación backend con JWT y BCrypt                              | Must Have   | 8            |
+| TS-008 | Implementación de bounded contexts de gestión ganadera              | Must Have   | 8            |
+| TS-009 | Servicios backend para analíticas y clientes veterinarios           | Should Have | 6            |
+| TS-010 | Servicios backend para dispositivos, métricas y suscripciones       | Should Have | 6            |
+| TS-011 | Documentación y pruebas de API con Swagger                          | Should Have | 4            |
+| TS-012 | Integración del frontend con backend real                           | Must Have   | 5            |
+| TS-013 | Módulos frontend para IoT y suscripciones                           | Should Have | 5            |
+| TS-014 | Videos About the Team y About the Product en landing page           | Should Have | 2            |
+
+La selección de estas Technical Stories responde a la necesidad de construir la base de datos y la lógica principal del sistema, pero también de validar que la aplicación web pueda consumir servicios reales y presentar las nuevas funcionalidades al usuario. El equipo priorizó primero la configuración del backend, IAM y persistencia, y luego la integración del frontend con los endpoints disponibles, incluyendo dispositivos IoT, suscripciones y pagos de prueba.
+
+**Distribución de Trabajo por Componente:**
+
+- **Backend ASP.NET Core:** 45 Story Points - Enfocados en la creación del proyecto `anitec-platform-main`, organización por bounded contexts, configuración de MySQL, migraciones, endpoints REST, autenticación JWT, seed de datos y documentación Swagger.
+- **Frontend Web Application:** 10 Story Points - Enfocados en consumir la API real, configurar endpoints mediante `.env.development`, ajustar stores, APIs y assemblers, y añadir los apartados de dispositivos IoT y suscripciones.
+- **Landing Page:** 2 Story Points - Enfocados en incorporar los videos About the Team y About the Product dentro de la página About Us.
+
+### 5.2.3.2. Aspects Leaders and Collaborators.
+
+En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 3, indicando por cada aspecto dentro del alcance del Sprint quién es el líder y quiénes son colaboradores.
+
+Para este tercer Sprint, los aspectos están centrados principalmente en el desarrollo del backend de AniTec, pero también incluyen la integración inicial del frontend con la API real y la actualización de la landing page con contenido audiovisual. De esta manera, el Sprint no solo cubre la implementación de servicios, persistencia con MySQL y documentación técnica, sino también la conexión de la aplicación web con dichos servicios.
+
+**Aspectos del Sprint 3:**
+
+1. **Backend - Configuración y Arquitectura Base:** Creación de la solución ASP.NET Core, configuración de Swagger, CORS, inyección de dependencias, Entity Framework Core y estructura de carpetas.
+2. **Backend - IAM y Profiles:** Implementación de usuarios básicos.
+3. **Backend - Livestock, Sanitary y Activities:** Implementación de fincas, animales, eventos sanitarios y actividades de granja mediante entidades, comandos, consultas, servicios y controladores REST.
+4. **Backend - Financial y Analytics:** Implementación de registros financieros, report metrics y endpoints de dashboard para ganaderos y veterinarios.
+5. **Backend - Clients, Devices y Metrics:** Implementación de clientes veterinarios, dispositivos ganaderos y métricas generadas por dispositivos.
+6. **Backend - Subscriptions y Payments:** Implementación de planes, suscripciones, pagos mock y preparación de campos para una futura integración con Stripe.
+7. **Base de Datos, Migraciones y Seed:** Configuración de MySQL, migraciones de Entity Framework Core y datos iniciales para pruebas.
+8. **Frontend - Integración con Backend Real:** Configuración de `.env.development`, BaseApi, endpoints reales y stores para consumir la API.
+9. **Frontend - IoT y Subscriptions:** Implementación de vistas, rutas, stores, APIs y assemblers para dispositivos IoT, métricas, planes, suscripciones y pagos de prueba.
+10. **Landing Page - About Videos:** Incorporación de videos About the Team y About the Product en la página About Us.
+11. **Documentación:** Documentación técnica del Sprint, endpoints disponibles y evidencias de ejecución.
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td><b>Team Member (Last Name, First Name)</b></td>
+            <td><b>GitHub Username</b></td>
+            <td><b>Config/Arq Backend / L or C</b></td>
+            <td><b>IAM & Profiles / L or C</b></td>
+            <td><b>Livestock/Sanitary/Activities / L or C</b></td>
+            <td><b>Financial/Analytics / L or C</b></td>
+            <td><b>Clients/Devices/Metrics / L or C</b></td>
+            <td><b>Subscriptions / L or C</b></td>
+            <td><b>Documentación / L or C</b></td>
+        </tr>
+        <tr>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>jorgeayaladev</td>
+            <td>L</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>-</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>BrunoHG10</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>L</td>
+            <td>-</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Melga1502</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>L</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>Raymundo Villarroel, Nadhim Abigail</td>
+            <td>AbigailRV</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>-</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Sanchez Silva, Luciana Celeste</td>
+            <td>Luccsss</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+    </tbody>
+</table>
+
+**Aspectos complementarios de frontend y landing page:**
+
+Los aspectos de frontend y landing page se presentan en una tabla complementaria para evitar saturar la matriz principal de backend, manteniendo de forma explícita los líderes y colaboradores de estos trabajos.
+
+| Aspecto | Líder | Colaboradores |
+| ------- | ----- | ------------- |
+| Landing Page - About Videos | Ayala Fernandez, Jorge Brayan | Sanchez Silva, Luciana Celeste; Melgarejo Quiroz, Josep Eliu |
+| Frontend - Backend Integration | Melgarejo Quiroz, Josep Eliu | Ayala Fernandez, Jorge Brayan; Huaman Gallardo, Bruno Aldair |
+| Frontend - IoT and Subscriptions | Huaman Gallardo, Bruno Aldair | Melgarejo Quiroz, Josep Eliu; Raymundo Villarroel, Nadhim Abigail |
+
+**Distribución detallada de responsabilidades:**
+
+- **Ayala Fernandez, Jorge Brayan (Configuración & IAM Lead):** Responsable de la configuración inicial del backend, autenticación, generación de tokens JWT, manejo de credenciales y endpoints de usuarios.
+
+- **Huaman Gallardo, Bruno Aldair (Livestock & Devices Lead):** Responsable de los módulos relacionados con la gestión ganadera, incluyendo fincas, animales, dispositivos y métricas asociadas.
+
+- **Melgarejo Quiroz, Josep Eliu (Financial, Analytics & Documentation Lead):** Responsable de registros financieros, reportes, dashboards, suscripciones, pagos mock y documentación del Sprint.
+
+- **Raymundo Villarroel, Nadhim Abigail (Sanitary & Activities Lead):** Responsable de eventos sanitarios, actividades de granja y seguimiento de información clínica del ganado.
+
+- **Sanchez Silva, Luciana Celeste (Clients Lead):** Responsable de la relación entre veterinarios y ganaderos, incluyendo clientes asignados, ganaderos disponibles y operaciones de asociación.
+
+- **Frontend - Backend Integration:** Responsable de conectar la aplicación Vue con los endpoints reales mediante `.env.development`, BaseApi, APIs de infraestructura, stores Pinia y assemblers por bounded context.
+
+- **Frontend - IoT and Subscriptions:** Responsable de incorporar las rutas `/iot` y `/subscriptions`, así como las vistas para dispositivos, métricas, planes, suscripciones, historial de pagos y flujo de pago de prueba.
+
+- **Landing Page - About Videos:** Responsable de añadir los videos About the Team y About the Product en la página About Us mediante iframes de YouTube, manteniendo la estructura responsive de la landing page.
+
+### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible, y conectar progresivamente la aplicación web con los servicios reales. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por el frontend. Además, el Sprint incluye mejoras en la landing page para presentar los videos About the Team y About the Product.
+
+El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Primero se priorizó la configuración base del proyecto y la persistencia; luego se implementaron los bounded contexts principales; finalmente se añadieron endpoints de analítica, dispositivos, suscripciones, datos iniciales para pruebas, consumo desde el frontend y actualización de la landing page.
+
+**Trello Board:**
+El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
+
+Enlace al tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTI8abaa26cc7e6f8b81250a5d3862a2d6574E3BF7E/sprint3-anitec
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/trello-sprint3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Estructura del Trello Board:**
+
+- **Sprint Goal:** Lista que contiene el objetivo principal del Sprint.
+- **To Do:** Lista con las tareas pendientes por iniciar.
+- **In Progress:** Lista con las tareas que se encuentran en desarrollo.
+- **To Review:** Lista con tareas completadas pendientes de revisión.
+- **Done:** Lista con tareas aprobadas e integradas al backend.
+
+A continuación, la tabla de control de estado para el Sprint 3:
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td><b>Sprint #</b></td>
+            <td colspan="7">Sprint 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>TS-005</td>
+            <td>Configuración inicial del backend con ASP.NET Core</td>
+            <td>T001</td>
+            <td>Configurar solución backend</td>
+            <td>Crear la solución anitec-platform, configurar proyecto ASP.NET Core, Swagger, CORS, appsettings, estructura base y paquetes NuGet necesarios.</td>
+            <td>5</td>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-006</td>
+            <td>Persistencia con Entity Framework Core y MySQL</td>
+            <td>T002</td>
+            <td>Configurar persistencia con Entity Framework Core</td>
+            <td>Crear AppDbContext, configurar conexión a MySQL, repositorio base, Unit of Work, convenciones de nombres, migraciones y seed de datos iniciales.</td>
+            <td>8</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-007</td>
+            <td>Autenticación backend con JWT y BCrypt</td>
+            <td>T003</td>
+            <td>Implementar usuarios, sign-in y sign-up</td>
+            <td>Crear entidades, comandos, consultas, servicios, recursos REST y controladores para autenticación, registro de usuarios, hashing de contraseñas y generación de JWT.</td>
+            <td>8</td>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-008</td>
+            <td>Implementación de bounded contexts de gestión ganadera</td>
+            <td>T004</td>
+            <td>Implementar Livestock</td>
+            <td>Crear bounded context para fincas y animales, incluyendo entidades Herd y Animal, repositorios, servicios de comando/consulta y controladores REST.</td>
+            <td>4</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-008</td>
+            <td>Implementación de bounded contexts de gestión ganadera</td>
+            <td>T005</td>
+            <td>Implementar Sanitary y Activities</td>
+            <td>Crear endpoints para eventos sanitarios y actividades de granja, siguiendo la estructura de commands, queries, resources y assemblers.</td>
+            <td>4</td>
+            <td>Raymundo Villarroel, Nadhim Abigail</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-009</td>
+            <td>Servicios backend para analíticas y clientes veterinarios</td>
+            <td>T006</td>
+            <td>Implementar Analytics y Clients</td>
+            <td>Crear endpoints para dashboards, resúmenes sanitarios/financieros, clientes asignados al veterinario y ganaderos disponibles.</td>
+            <td>6</td>
+            <td>Sanchez Silva, Luciana Celeste</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-010</td>
+            <td>Servicios backend para dispositivos, métricas y suscripciones</td>
+            <td>T007</td>
+            <td>Implementar Devices, Metrics y Subscriptions</td>
+            <td>Crear endpoints para dispositivos, métricas generadas por sensores, planes de suscripción, suscripciones, pagos mock y mock checkout.</td>
+            <td>6</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-011</td>
+            <td>Documentación y pruebas de API con Swagger</td>
+            <td>T008</td>
+            <td>Documentar y probar endpoints REST</td>
+            <td>Verificar Swagger, compilar el proyecto, ejecutar la API, probar endpoints principales y documentar evidencias del Sprint.</td>
+            <td>4</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-012</td>
+            <td>Integración del frontend con backend real</td>
+            <td>T009</td>
+            <td>Configurar consumo de API real en frontend</td>
+            <td>Actualizar configuración de endpoints mediante `.env.development`, BaseApi y APIs por bounded context para consumir servicios del backend.</td>
+            <td>5</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-013</td>
+            <td>Módulos frontend para IoT y suscripciones</td>
+            <td>T010</td>
+            <td>Implementar vistas y stores de IoT y Subscriptions</td>
+            <td>Crear y ajustar rutas `/iot` y `/subscriptions`, stores, APIs, assemblers y vistas para dispositivos, métricas, planes, suscripciones y pagos de prueba.</td>
+            <td>5</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-014</td>
+            <td>Videos About the Team y About the Product en landing page</td>
+            <td>T011</td>
+            <td>Agregar videos en About Us</td>
+            <td>Insertar iframes de YouTube para About the Team y About the Product, manteniendo diseño responsive e integración con la página About Us.</td>
+            <td>2</td>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
+El Sprint Backlog refleja 11 tareas principales, con aproximadamente 57 horas estimadas de tareas, alineadas con 57 Story Points. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts, la necesidad de mantener una estructura similar al backend trabajado en clase, la integración del frontend con la API real y la actualización de la landing page.
+
+### 5.2.3.4. Development Evidence for Sprint Review.
+
+En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec, la integración inicial del frontend con la API real y la actualización de la landing page. La evidencia muestra que el equipo logró construir una API funcional conectada a MySQL, ajustar la aplicación web para consumir servicios reales e incorporar contenido audiovisual en la página About Us.
+
+Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec-platform-main`. El backend fue construido utilizando ASP.NET Core, Entity Framework Core, MySQL, JWT y BCrypt. La estructura interna sigue una organización por bounded contexts con capas de dominio, aplicación, infraestructura e interfaces REST. En paralelo, el frontend fue preparado para consumir endpoints reales mediante configuración de ambiente, servicios API y stores por módulo.
+
+**Resumen de Avances Implementados:**
+
+- **Creación del proyecto backend:** Solución `anitec-platform.sln` con proyecto principal `Anitec.Platform`.
+- **Configuración de ASP.NET Core:** Uso de controladores REST, Swagger/OpenAPI, CORS, configuración por ambiente y middleware de errores.
+- **Persistencia con MySQL:** Configuración de `AppDbContext`, repositorios, Unit of Work y migraciones de Entity Framework Core.
+- **Autenticación JWT:** Implementación de sign-in, sign-up, hashing de contraseñas con BCrypt y emisión de token.
+- **Arquitectura por bounded contexts:** Implementación de Shared, IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Clients, Devices, Metrics y Subscriptions.
+- **Servicios de aplicación:** Uso de Command Services y Query Services para separar operaciones de escritura y lectura.
+- **REST Resources:** Uso de recursos y assemblers para transformar entidades de dominio en respuestas de API.
+- **Seed de datos:** Carga inicial de usuarios, fincas, animales, eventos, dispositivos, planes y suscripciones para pruebas.
+- **Migraciones automáticas:** Configuración para aplicar migraciones pendientes al ejecutar la API.
+- **Integración frontend-backend:** Configuración de `.env.development`, uso de `BaseApi`, APIs por bounded context, stores Pinia y assemblers para adaptar respuestas del backend.
+- **Módulos frontend nuevos:** Incorporación de rutas `/iot` y `/subscriptions`, junto con vistas para dispositivos IoT, métricas, planes, suscripciones, historial de pagos y pago de prueba.
+- **Landing page:** Incorporación de videos About the Team y About the Product mediante iframes de YouTube en la página About Us.
+
+**Frontend - Integración con Backend Real:**
+
+- Se configuró `.env.development` para apuntar al backend local mediante `http://localhost:5191/api/v1`.
+- Se mantuvo el uso de `BaseApi` para centralizar las peticiones HTTP realizadas con Axios.
+- Se ajustaron stores y APIs por bounded context para consumir endpoints reales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, clientes veterinarios, dispositivos y suscripciones.
+- Se usaron assemblers para transformar respuestas del backend en objetos usados por las vistas del frontend.
+- Se incorporaron las rutas `/iot` y `/subscriptions` dentro de la navegación principal de la aplicación.
+
+<div align="center">
+    <p><b>Frontend - Consumo de API real y nuevas vistas</b></p>
+    <img src="./markdown/assets/chapter-5/login.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Landing Page - Videos About the Team y About the Product:**
+
+- En la página About Us de la landing page se incorporó un video About the Team para presentar al equipo de AniTec.
+- También se agregó el video About the Product para explicar el modelo de negocio, la propuesta de valor y las funciones principales de la solución.
+- Ambos videos fueron integrados mediante iframes de YouTube, manteniendo la estructura responsive de la landing page.
+
+<div align="center">
+    <p><b>Landing Page - Video About the Product</b></p>
+    <img src="./markdown/assets/chapter-5/video-about-the-product-landingpage.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Landing Page - Video About the Team</b></p>
+    <img src="./markdown/assets/chapter-5/video-about-the-team-landingpage.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Estructura principal del backend:**
+
+```text
+anitec-platform-main/
+├── Anitec.Platform/
+│   ├── Activities/
+│   ├── Analytics/
+│   ├── Clients/
+│   ├── Devices/
+│   ├── Financial/
+│   ├── Iam/
+│   ├── Livestock/
+│   ├── Metrics/
+│   ├── Profiles/
+│   ├── Sanitary/
+│   ├── Shared/
+│   └── Subscriptions/
+├── anitec-platform.sln
+└── README.md
+```
+
+**Commits Realizados:**
+
+| Repository           | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
+| -------------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
+| anitec-platform-main | develop | a7f3c91 | chore: initial-folder-structure | Creación de la estructura base del backend ASP.NET Core, carpetas por bounded context y configuración inicial de dependencias. | 01/06/2026 |
+| anitec-platform-main | feature/get-all-herds | 4b83e0d | feat: create herds controller | Creación del controlador REST para exponer operaciones principales de hatos. | 02/06/2026 |
+| anitec-platform-main | feature/get-all-users | 74b5e23 | feat: implement get all users endpoint | Implementación del endpoint `GET /users` para consultar usuarios registrados en la plataforma. | 02/06/2026 |
+| anitec-platform-main | feature/get-all-herds | e41fc9a | feat: add herds query service | Implementación del servicio de consultas para listar hatos desde la base de datos. | 03/06/2026 |
+| anitec-platform-main | feature/get-all-animals | 39eb2fd | feat: map animal resource response | Definición de recursos REST y assembler para devolver animales con especie, raza, peso, estado y hato asociado. | 03/06/2026 |
+| anitec-platform-main | develop | 0a9d8bf | Merge pull request #33 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-herds | Integración del listado de hatos al branch de desarrollo. | 04/06/2026 |
+| anitec-platform-main | feature/get-user-by-id | d24ab70 | feat: implement get user by id endpoint | Implementación del endpoint `GET /users/{id}` para consultar un usuario específico mediante su identificador. | 04/06/2026 |
+| anitec-platform-main | feature/add-new-health-event | d80a2bf | feat: create health event command | Creación del comando de aplicación para registrar vacunas, diagnósticos, tratamientos y seguimientos. | 05/06/2026 |
+| anitec-platform-main | feature/get-all-animals | 5a73b6e | feat: implement get all animals endpoint | Implementación del endpoint `GET /animals` para consultar animales registrados. | 05/06/2026 |
+| anitec-platform-main | feature/add-new-herd | 92d7ac1 | feat: implement add new herd endpoint | Implementación del endpoint `POST /herds` para registrar nuevos hatos o unidades productivas. | 06/06/2026 |
+| anitec-platform-main | feature/get-all-financial-records | e7b30f1 | feat: add financial record repository | Implementación del repositorio para consultar ingresos y egresos persistidos en MySQL. | 06/06/2026 |
+| anitec-platform-main | feature/get-all-health-events | b6d14ca | feat: implement get all health events endpoint | Implementación del endpoint `GET /health-events` para consultar vacunas, tratamientos e incidencias. | 07/06/2026 |
+| anitec-platform-main | develop | 21d9f5e | Merge pull request #36 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-animals | Integración del listado de animales al branch de desarrollo. | 07/06/2026 |
+| anitec-platform-main | feature/get-rancher-dashboard | 2ed4b73 | feat: build rancher dashboard summary | Implementación del resumen de animales, hatos, eventos sanitarios y métricas principales para ganaderos. | 08/06/2026 |
+| anitec-platform-main | feature/add-new-health-event | 11ae7d9 | feat: expose add health event endpoint | Exposición del endpoint `POST /health-events` para registrar eventos sanitarios desde la aplicación web. | 08/06/2026 |
+| anitec-platform-main | feature/get-all-farm-events | 1c7d80e | feat: implement get all farm events endpoint | Implementación del endpoint `GET /farm-events` para consultar actividades, visitas y tareas programadas. | 09/06/2026 |
+| anitec-platform-main | feature/get-clients-by-veterinarian | 6fa28c0 | feat: create veterinarian clients resource | Creación de recursos REST para representar clientes asignados a un veterinario. | 09/06/2026 |
+| anitec-platform-main | develop | 63fa0dd | Merge pull request #39 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-health-events | Integración de la consulta de eventos sanitarios al branch de desarrollo. | 10/06/2026 |
+| anitec-platform-main | feature/get-all-devices | 58d14e7 | feat: implement get all devices endpoint | Implementación del endpoint `GET /devices` para listar dispositivos IoT asociados a animales o hatos. | 10/06/2026 |
+| anitec-platform-main | feature/get-veterinarian-dashboard | cb8a3e5 | feat: implement veterinarian dashboard endpoint | Implementación del endpoint `GET /analytics/veterinarians/{veterinarianId}/dashboard` para mostrar clientes, pacientes y eventos sanitarios. | 11/06/2026 |
+| anitec-platform-main | feature/get-clients-by-veterinarian | 47bd918 | feat: implement get clients by veterinarian endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/clients` para listar ganaderos asignados. | 11/06/2026 |
+| anitec-platform-main | feature/get-active-subscription-by-user | 71ad8e0 | feat: implement active subscription query | Implementación de consulta para obtener la suscripción activa de un usuario. | 12/06/2026 |
+| anitec-platform-main | develop | a4b9df0 | Merge pull request #43 from upc-1asi0730-2610-12206-titan-team-4/feature/get-rancher-dashboard | Integración del dashboard de ganadero al branch de desarrollo. | 12/06/2026 |
+| anitec-platform-main | feature/get-device-latest-metric | f0e2a69 | feat: implement latest device metric endpoint | Implementación del endpoint `GET /devices/{id}/latest-metric` para obtener la última lectura registrada. | 13/06/2026 |
+| anitec-platform-main | feature/add-client-to-veterinarian | bf5a127 | feat: implement add client to veterinarian endpoint | Implementación del endpoint `POST /veterinarian/{veterinarianId}/clients/{rancherId}` para asociar un ganadero a un veterinario. | 13/06/2026 |
+| anitec-platform-main | feature/get-all-subscription-plans | 87a0d6c | feat: create subscription plan resource | Creación de recursos REST para representar planes de suscripción. | 14/06/2026 |
+| anitec-platform-main | feature/get-all-subscription-plans | e314ac7 | feat: implement get all subscription plans endpoint | Implementación del endpoint `GET /subscription-plans` para listar planes disponibles. | 14/06/2026 |
+| anitec-platform-main | feature/get-available-ranchers-for-veterinarian | 2a0fca9 | feat: implement available ranchers endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/available-ranchers` para consultar ganaderos disponibles. | 15/06/2026 |
+| anitec-platform-main | develop | 47f8c2d | Merge pull request #69 from upc-1asi0730-2610-12206-titan-team-4/feature/get-clients-by-veterinarian | Integración de la consulta de clientes asignados al branch de desarrollo. | 15/06/2026 |
+| anitec-platform-main | feature/get-payments-by-user | 4f2bc8a | feat: implement get payments by user endpoint | Implementación del endpoint `GET /subscriptions/users/{userId}/payments` para consultar pagos asociados a un usuario. | 16/06/2026 |
+| anitec-platform-main | feature/mock-checkout | 9b8e430 | feat: create mock checkout command | Creación del flujo de comando para simular checkout y generar pagos de prueba. | 16/06/2026 |
+| anitec-platform-main | feature/mock-checkout | 5e64a1d | feat: implement mock checkout endpoint | Implementación del endpoint `POST /subscriptions/mock-checkout` para validar pagos mock durante el Sprint. | 17/06/2026 |
+| anitec-platform-main | feature/remove-client-from-veterinarian | 3fe60ab | feat: implement remove client from veterinarian endpoint | Implementación del endpoint `DELETE /veterinarian/{veterinarianId}/clients/{rancherId}` para retirar un cliente asignado. | 17/06/2026 |
+| anitec-platform-main | develop | 92e03bf | Merge pull request #71 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-devices | Integración de dispositivos IoT y lectura de últimas métricas al branch de desarrollo. | 18/06/2026 |
+| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | c6a01de | fix: configure dateonly converters for mysql | Corrección de conversores DateOnly para evitar errores de persistencia y lectura en MySQL. | 18/06/2026 |
+| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | e0b71ac | fix: update migration snapshot dates | Ajuste del snapshot de migraciones para mantener consistencia con las columnas de fecha. | 18/06/2026 |
+| anitec-platform-main | develop | d0af82c | Merge pull request #73 from upc-1asi0730-2610-12206-titan-team-4/hotfix/fix-dateonly-mysql-converters | Integración del hotfix de conversión de fechas al branch de desarrollo. | 19/06/2026 |
+| anitec-platform-main | develop | 8f6d1be | Merge pull request #72 from upc-1asi0730-2610-12206-titan-team-4/feature/mock-checkout | Integración del flujo de pagos mock y suscripciones al branch de desarrollo. | 19/06/2026 |
+| anitec-platform-main | main | 7e9c4b2 | Merge pull request #74 from upc-1asi0730-2610-12206-titan-team-4/develop | Integración final del Sprint 3 desde `develop` hacia `main`, consolidando endpoints, migraciones, seed de datos y documentación Swagger. | 19/06/2026 |
+
+**Commits del repositorio anitec-frontend:**
+
+[Agregar commits del repositorio anitec-frontend relacionados con integración backend, IoT y subscriptions]
+
+**Commits del repositorio anitec-landing-page:**
+
+[Agregar commits del repositorio anitec-landing-page relacionados con videos About the Team y About the Product]
+
+**Repositorio del Backend:**
+
+https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
+
+**Repositorios y despliegues relacionados al Sprint 3:**
+
+- Repositorio del backend: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
+- URL pública del backend: https://anitec-backend.onrender.com
+- Documentación pública del backend: https://anitec-backend.onrender.com/swagger/index.html
+- Repositorio del frontend: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- Despliegue del frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend
+- Repositorio de la landing page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- Despliegue de la landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+
+**Estadísticas del repositorio:**
+
+- Total de bounded contexts implementados: 12
+- Base de datos: MySQL
+- ORM: Entity Framework Core
+- Seguridad: JWT y BCrypt
+- Documentación de servicios: Swagger/OpenAPI
+- Migraciones generadas: 3
+- Endpoints principales: autenticación, usuarios, perfiles, fincas, animales, sanidad, finanzas, actividades, analíticas, clientes, dispositivos, métricas y suscripciones.
+- Frontend integrado: consumo de API real mediante `.env.development`, `BaseApi`, stores, APIs y assemblers.
+- Rutas frontend agregadas: `/iot` para dispositivos IoT y `/subscriptions` para planes, suscripciones y pagos de prueba.
+- Landing page actualizada: videos About the Team y About the Product integrados en About Us.
+
+### 5.2.3.5. Execution Evidence for Sprint Review.
+
+Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend, frontend y landing page. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba. Además, se verificó que el frontend pueda consumir datos reales del backend y que la landing page muestre los videos incorporados.
+
+**Resumen de lo Alcanzado:**
+
+El Sprint 3 permitió desarrollar el backend real de AniTec e iniciar la integración de la solución completa. El equipo logró configurar la solución ASP.NET Core, conectar la API con MySQL, implementar migraciones, crear datos iniciales, exponer endpoints REST para los módulos principales del sistema, conectar el frontend con la API real y actualizar la landing page con contenido audiovisual.
+
+**URLs públicas revisadas durante el Sprint 3:**
+
+- Landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- Backend Swagger: https://anitec-backend.onrender.com/swagger/index.html
+
+**Video/demo de navegación del Sprint 3:**
+
+[Agregar URL del video/demo de navegación del Sprint 3]
+
+Como evidencia adicional, el Video About-the-Product también muestra la navegación y funcionamiento general de AniTec.
+
+**Evidencias de ejecución:**
+
+1. **Compilación del backend:** Se ejecutó el comando `dotnet build` para validar que el proyecto compile correctamente.
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+
+1. **Integración frontend-backend:** Se verificó que `.env.development` apunte al backend local mediante `http://localhost:5191/api/v1` y que los módulos del frontend usen `BaseApi`, stores, APIs y assemblers para consumir los servicios reales.
+
+<div align="center">
+    <p><b>Frontend - Consumo del backend real</b></p>
+    <img src="./markdown/assets/chapter-5/Dashboard-ganadero.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+3. **Módulo IoT:** Se validó la ruta `/iot`, la visualización de dispositivos IoT, la asociación de dispositivos con hatos o animales y la consulta de métricas generadas por sensores.
+
+<div align="center">
+    <p><b>Frontend - dispositivos IoT</b></p>
+    <img src="./markdown/assets/chapter-5/dispositivos-iot.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+1. **Módulo Subscriptions:** Se validó la ruta `/subscriptions`, la consulta de planes, la suscripción activa, el historial de pagos y el flujo de pago de prueba mediante el endpoint `/subscriptions/mock-checkout`.
+
+<div align="center">
+    <p><b>Frontend - Subscriptions</b></p>
+    <img src="./markdown/assets/chapter-5/subscripciones.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+1. **Landing page:** Se validó que la página About Us muestre los videos About the Team y About the Product mediante iframes de YouTube.
+
+<div align="center">
+    <p><b>Landing Page - Video About the team</b></p>
+    <img src="./markdown/assets/chapter-5/video-about-the-team-landingpage.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Landing Page - Video About the Product</b></p>
+    <img src="./markdown/assets/chapter-5/video-about-the-product-landingpage.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+
+
+**Funcionalidades implementadas en backend:**
+
+1. **IAM:** Inicio de sesión, registro de usuarios, generación de token JWT y consulta de usuarios.
+2. **Profiles:** Gestión de perfiles asociados a usuarios.
+3. **Livestock:** Gestión de fincas y animales.
+4. **Sanitary:** Gestión de eventos sanitarios y registros de salud.
+5. **Activities:** Gestión de actividades y eventos de granja.
+6. **Financial:** Gestión de ingresos, egresos y registros económicos.
+7. **Analytics:** Dashboards y resúmenes para ganaderos y veterinarios.
+8. **Clients:** Gestión de relación entre veterinarios y ganaderos.
+9. **Devices:** Gestión de dispositivos como balanzas, collares inteligentes, cámaras térmicas, aretes de identificación, estaciones meteorológicas y sensores ambientales.
+10. **Metrics:** Gestión de métricas generadas por dispositivos.
+11. **Subscriptions:** Gestión de planes, suscripciones, pagos y mock checkout.
+12. **Shared:** Repositorios base, Unit of Work, persistencia, recursos comunes y manejo de errores.
+
+**Funcionalidades implementadas en frontend y landing page:**
+
+1. **Consumo del backend real:** Configuración de servicios API mediante `.env.development`, `BaseApi`, stores Pinia y assemblers.
+2. **IoT:** Visualización, registro y edición de dispositivos IoT desde la ruta `/iot`, con asociación a hato o animal y lectura de métricas.
+3. **Subscriptions:** Consulta de planes, suscripción activa, historial de pagos y pago de prueba desde la ruta `/subscriptions`.
+4. **Mock checkout:** Consumo del endpoint `/subscriptions/mock-checkout` para validar el flujo de pagos simulados durante el Sprint.
+5. **Landing page:** Presentación de los videos About the Team y About the Product dentro de la página About Us.
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando ASP.NET Core. Esta API reemplaza progresivamente al servicio mock utilizado durante el Sprint 2 y permite que el frontend consuma información persistida en MySQL.
+
+**Configuración del Servicio Backend:**
+
+- **Plataforma:** ASP.NET Core
+- **ORM:** Entity Framework Core
+- **Base de datos:** MySQL
+- **Autenticación:** JWT Bearer Token
+- **Hashing de contraseñas:** BCrypt
+- **Documentación:** Swagger/OpenAPI
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
+- **URL pública del backend:** https://anitec-backend.onrender.com
+- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
+
+**Migraciones implementadas:**
+
+| Migración | Descripción |
+| --------- | ----------- |
+| `20260605202323_InitialCreate` | Creación inicial de tablas principales del sistema. |
+| `20260607213722_AddRolesClientsAndMockPayments` | Agrega roles, clientes veterinarios y pagos mock. |
+| `20260607235600_AddDateOnlyConverters` | Ajustes para conversión de fechas con DateOnly. |
+
+**Endpoints principales implementados:**
+
+| Bounded Context | Método | Endpoint | Descripción |
+| --------------- | ------ | -------- | ----------- |
+| IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión de usuarios registrados y generación de token JWT. |
+| IAM | POST | `/api/v1/authentication/sign-up` | Registro de nuevos usuarios con contraseña encriptada. |
+| IAM | GET | `/api/v1/users` | Consulta de usuarios del sistema. |
+| IAM | GET | `/api/v1/users/{id}` | Consulta de un usuario por identificador. |
+| Profiles | GET | `/api/v1/profiles` | Consulta de perfiles registrados. |
+| Profiles | GET | `/api/v1/profiles/{profileId}` | Consulta de un perfil por identificador. |
+| Profiles | POST | `/api/v1/profiles` | Creación de perfiles de usuario. |
+| Livestock | GET | `/api/v1/herds` | Consulta de hatos o unidades productivas. |
+| Livestock | GET | `/api/v1/herds/{id}` | Consulta de un hato por identificador. |
+| Livestock | POST | `/api/v1/herds` | Registro de nuevos hatos. |
+| Livestock | PUT | `/api/v1/herds/{id}` | Actualización de información de un hato. |
+| Livestock | DELETE | `/api/v1/herds/{id}` | Eliminación de un hato registrado. |
+| Livestock | GET | `/api/v1/animals` | Consulta de animales registrados. |
+| Livestock | GET | `/api/v1/animals/{id}` | Consulta de un animal por identificador. |
+| Livestock | POST | `/api/v1/animals` | Registro de nuevos animales. |
+| Livestock | PUT | `/api/v1/animals/{id}` | Actualización de información de un animal. |
+| Livestock | DELETE | `/api/v1/animals/{id}` | Eliminación de un animal registrado. |
+| Sanitary | GET | `/api/v1/health-events` | Consulta de eventos sanitarios. |
+| Sanitary | GET | `/api/v1/health-events/{id}` | Consulta de un evento sanitario por identificador. |
+| Sanitary | POST | `/api/v1/health-events` | Registro de vacunas, tratamientos, diagnósticos o incidencias. |
+| Sanitary | PUT | `/api/v1/health-events/{id}` | Actualización de un evento sanitario. |
+| Sanitary | DELETE | `/api/v1/health-events/{id}` | Eliminación de un evento sanitario. |
+| Financial | GET | `/api/v1/financial-records` | Consulta de ingresos y egresos ganaderos. |
+| Financial | GET | `/api/v1/financial-records/{id}` | Consulta de un registro financiero por identificador. |
+| Financial | POST | `/api/v1/financial-records` | Registro de ingresos o gastos. |
+| Financial | PUT | `/api/v1/financial-records/{id}` | Actualización de un registro financiero. |
+| Financial | DELETE | `/api/v1/financial-records/{id}` | Eliminación de un registro financiero. |
+| Activities | GET | `/api/v1/farm-events` | Consulta de actividades, visitas o tareas de granja. |
+| Activities | GET | `/api/v1/farm-events/{id}` | Consulta de una actividad por identificador. |
+| Activities | POST | `/api/v1/farm-events` | Registro de nuevas actividades de granja. |
+| Activities | PUT | `/api/v1/farm-events/{id}` | Actualización de una actividad. |
+| Activities | DELETE | `/api/v1/farm-events/{id}` | Eliminación de una actividad. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/dashboard` | Dashboard de métricas principales para ganaderos. |
+| Analytics | GET | `/api/v1/analytics/veterinarians/{veterinarianId}/dashboard` | Dashboard de métricas principales para veterinarios. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/health-summary` | Resumen sanitario del ganadero. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/financial-summary` | Resumen financiero del ganadero. |
+| Analytics | GET | `/api/v1/report-metrics` | Consulta de métricas de reportes. |
+| Analytics | GET | `/api/v1/report-metrics/{id}` | Consulta de una métrica de reporte por identificador. |
+| Analytics | POST | `/api/v1/report-metrics` | Registro de métricas de reportes. |
+| Analytics | PUT | `/api/v1/report-metrics/{id}` | Actualización de una métrica de reporte. |
+| Analytics | DELETE | `/api/v1/report-metrics/{id}` | Eliminación de una métrica de reporte. |
+| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/clients` | Consulta de clientes asignados a un veterinario. |
+| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/available-ranchers` | Consulta de ganaderos disponibles para asociar. |
+| Clients | POST | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Asociación de un ganadero a un veterinario. |
+| Clients | DELETE | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Eliminación de la relación entre veterinario y ganadero. |
+| Devices | GET | `/api/v1/devices` | Consulta de dispositivos IoT registrados. |
+| Devices | GET | `/api/v1/devices/{id}` | Consulta de un dispositivo por identificador. |
+| Devices | POST | `/api/v1/devices` | Registro de nuevos dispositivos IoT. |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualización de un dispositivo IoT. |
+| Devices | DELETE | `/api/v1/devices/{id}` | Eliminación de un dispositivo IoT. |
+| Devices | GET | `/api/v1/devices/{id}/metrics` | Consulta de métricas asociadas a un dispositivo. |
+| Devices | GET | `/api/v1/devices/{id}/latest-metric` | Consulta de la última métrica registrada por un dispositivo. |
+| Metrics | GET | `/api/v1/device-metrics` | Consulta de métricas de dispositivos. |
+| Metrics | GET | `/api/v1/device-metrics/{id}` | Consulta de una métrica de dispositivo por identificador. |
+| Metrics | POST | `/api/v1/device-metrics` | Registro de métricas de dispositivos. |
+| Metrics | PUT | `/api/v1/device-metrics/{id}` | Actualización de una métrica de dispositivo. |
+| Metrics | DELETE | `/api/v1/device-metrics/{id}` | Eliminación de una métrica de dispositivo. |
+| Subscriptions | GET | `/api/v1/subscription-plans` | Consulta de planes de suscripción disponibles. |
+| Subscriptions | GET | `/api/v1/subscription-plans/{id}` | Consulta de un plan de suscripción por identificador. |
+| Subscriptions | POST | `/api/v1/subscription-plans` | Registro de nuevos planes de suscripción. |
+| Subscriptions | PUT | `/api/v1/subscription-plans/{id}` | Actualización de un plan de suscripción. |
+| Subscriptions | DELETE | `/api/v1/subscription-plans/{id}` | Eliminación de un plan de suscripción. |
+| Subscriptions | GET | `/api/v1/subscriptions` | Consulta de suscripciones registradas. |
+| Subscriptions | GET | `/api/v1/subscriptions/{id}` | Consulta de una suscripción por identificador. |
+| Subscriptions | POST | `/api/v1/subscriptions` | Registro de nuevas suscripciones. |
+| Subscriptions | PUT | `/api/v1/subscriptions/{id}` | Actualización de una suscripción. |
+| Subscriptions | DELETE | `/api/v1/subscriptions/{id}` | Eliminación de una suscripción. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/active` | Consulta de la suscripción activa de un usuario. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/mock-checkout` | Simulación de pago para pruebas del flujo de suscripción. |
+
+**Ejemplos de interacción con endpoints principales:**
+
+1. **Inicio de sesión de usuario**
+
+- **Método:** POST
+- **Endpoint:** `/api/v1/authentication/sign-in`
+- **Body:**
+
+```json
+{
+  "username": "rancher1",
+  "password": "anitec123"
+}
+```
+
+- **Response esperado:**
+
+```json
+{
+  "id": 1,
+  "username": "rancher1",
+  "role": "Rancher",
+  "token": "jwt-token"
+}
+```
+
+2. **Consulta de animales registrados**
+
+- **Método:** GET
+- **Endpoint:** `/api/v1/animals`
+- **Parámetros:** No requiere parámetros obligatorios.
+- **Response esperado:**
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Luna",
+    "species": "Bovino",
+    "breed": "Holstein",
+    "status": "healthy",
+    "herdId": 1
+  }
+]
+```
+
+3. **Registro de evento sanitario**
+
+- **Método:** POST
+- **Endpoint:** `/api/v1/health-events`
+- **Body:**
+
+```json
+{
+  "animalId": 1,
+  "type": "Vaccination",
+  "date": "2026-06-10",
+  "description": "Vacuna anual",
+  "veterinarianId": 2
+}
+```
+
+- **Response esperado:**
+
+```json
+{
+  "id": 12,
+  "animalId": 1,
+  "type": "Vaccination",
+  "status": "registered"
+}
+```
+
+4. **Consulta de última métrica de dispositivo**
+
+- **Método:** GET
+- **Endpoint:** `/api/v1/devices/{id}/latest-metric`
+- **Parámetros:** `id`, identificador del dispositivo IoT.
+- **Response esperado:**
+
+```json
+{
+  "deviceId": 1,
+  "metricType": "temperature",
+  "value": 38.4,
+  "unit": "C",
+  "recordedAt": "2026-06-18T10:30:00"
+}
+```
+
+5. **Pago de prueba para suscripción**
+
+- **Método:** POST
+- **Endpoint:** `/api/v1/subscriptions/mock-checkout`
+- **Body:**
+
+```json
+{
+  "userId": 1,
+  "planId": 2,
+  "amount": 19.00
+}
+```
+
+- **Response esperado:**
+
+```json
+{
+  "subscriptionId": 3,
+  "paymentId": 8,
+  "status": "paid",
+  "provider": "mock"
+}
+```
+
+**Swagger/OpenAPI:** Se verificó que la documentación de endpoints esté disponible en el navegador.
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back2.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back4.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back5.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back6.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back7.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Estructura de capas aplicada:**
+
+1. **Domain:** Entidades, comandos, consultas y contratos de repositorios.
+2. **Application:** Command Services y Query Services para manejar casos de uso.
+3. **Infrastructure:** Repositorios, Entity Framework Core, Unit of Work y servicios técnicos.
+4. **Interfaces REST:** Controladores, recursos y assemblers para exponer la API.
+5. **Shared:** Elementos comunes reutilizables en todos los bounded contexts.
+
+**Variables y configuración:**
+
+La cadena de conexión se configura en `appsettings.Development.json` y apunta a la base de datos MySQL local. También se dejó preparada la posibilidad de usar una variable de entorno para cambiar la conexión según el ambiente.
+
+```json
+"DefaultConnection": "server=localhost;user=root;password=password;database=anitec-platform"
+```
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3, la evidencia de despliegue incluyó backend, frontend y landing page. El backend se publicó en Render como Web Service para exponer la API REST, mientras que la landing page y el frontend web se mantuvieron accesibles mediante despliegues públicos. El objetivo de esta evidencia fue comprobar que AniTec pueda presentarse y probarse desde internet, conectando la comunicación pública del producto, la aplicación web y los servicios backend.
+
+Este despliegue permitió validar que los servicios backend desarrollados en ASP.NET Core pueden estar disponibles públicamente para ser consumidos por la aplicación web frontend. De esta manera, el backend deja de depender únicamente de la ejecución local y queda preparado para pruebas de integración en un entorno accesible desde internet.
+
+**URLs públicas del Sprint 3:**
+
+- Landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- Backend web: https://anitec-backend.onrender.com
+- Documentación Swagger del backend: https://anitec-backend.onrender.com/swagger/index.html
+
+**Configuración de despliegue - Landing Page:**
+
+- **Plataforma:** GitHub Pages
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
+- **Branch desplegada:** `main`
+- **URL pública:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
+- **Alcance del Sprint 3:** actualización de la página About Us para incluir los videos About the Team y About the Product mediante iframes de YouTube.
+
+**Configuración de despliegue - Frontend Web Application:**
+
+- **Plataforma:** GitHub Pages
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- **URL pública:** https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- **Alcance del Sprint 3:** integración progresiva con el backend real, actualización de consumo mediante `BaseApi` y `.env.development`, e incorporación de las rutas `/iot` y `/subscriptions`.
+
+**Configuración de despliegue en Render - Backend:**
+
+- **Proyecto:** `anitec-platform-main`
+- **Framework:** ASP.NET Core
+- **Plataforma de despliegue:** Render
+- **Tipo de servicio:** Web Service
+- **Repositorio:** `https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git`
+- **Branch desplegada:** `main`
+- **Proyecto de inicio:** `Anitec.Platform`
+- **Base de datos:** MySQL configurada para el ambiente de despliegue
+- **URL pública del backend:** https://anitec-backend.onrender.com
+- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
+- **Archivo de configuración base:** `appsettings.json`
+- **Variables de entorno:** cadena de conexión, ambiente de ejecución y configuración de token JWT
+
+**Procedimiento de despliegue en Render:**
+
+1. Crear un nuevo Web Service en Render.
+2. Conectar el repositorio de GitHub del backend de AniTec.
+3. Seleccionar la rama `main` como fuente del despliegue.
+4. Configurar el proyecto ASP.NET Core indicando como proyecto principal `Anitec.Platform`.
+5. Definir las variables de entorno necesarias para el ambiente de producción o staging.
+6. Configurar la cadena de conexión de MySQL para que el backend pueda acceder a la base de datos remota.
+7. Ejecutar el proceso de build del backend desde Render.
+8. Iniciar el servicio web y verificar que la API quede disponible mediante la URL pública generada.
+9. Abrir la documentación Swagger desde la URL pública del backend.
+10. Probar endpoints principales como autenticación, usuarios, animales, hatos, dispositivos y suscripciones.
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/backendDespliegue1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/backendDespliegue2.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/backendDespliegue3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Verificación Post-Despliegue:**
+
+Después de desplegar el backend en Render, se verificaron los siguientes puntos:
+
+- Render compila correctamente el proyecto `Anitec.Platform`.
+- El servicio web se inicia correctamente desde la plataforma.
+- El backend queda disponible mediante una URL pública.
+- Swagger muestra los controladores y endpoints implementados desde internet.
+- La conexión con la base de datos MySQL configurada para despliegue se realiza correctamente.
+- Entity Framework Core valida y aplica las migraciones necesarias sobre la base de datos.
+- La base de datos contiene las tablas y datos semilla necesarios para pruebas.
+- El endpoint de autenticación responde correctamente y devuelve un token JWT.
+- Los endpoints principales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, dispositivos y suscripciones responden desde Swagger.
+- El backend mantiene una estructura modular por bounded contexts, lo que facilita su integración con el frontend.
+
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend, integración del frontend y actualización de la landing page. También se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
+
+**Distribución de Trabajo:**
+
+Todos los miembros del equipo participaron en la construcción del backend según las responsabilidades definidas en la matriz LACX. Además, se coordinaron tareas de integración frontend-backend y ajustes en la landing page para que el avance del Sprint no quedara aislado únicamente en servicios. El equipo trabajó manteniendo reuniones de coordinación para revisar la estructura del proyecto, resolver dudas sobre Entity Framework Core, coordinar nombres de endpoints y asegurar que la API mantenga compatibilidad con los módulos ya desarrollados en el frontend.
+
+El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Discord para la comunicación diaria. Las revisiones se enfocaron principalmente en mantener la misma estructura de carpetas en cada bounded context, reutilizar los patrones aprendidos en clase, conectar el frontend con la API real mediante servicios simples y evitar soluciones demasiado avanzadas que se alejen del nivel técnico trabajado durante el curso.
+
+**Métricas de Colaboración:**
+
+<div align="center">
+  <p>
+    <b>Commits gráficas Backend - Sprint 3</b>
+  </p>
+  <img src="./markdown/assets/chapter-5/Sprint3GraficosCommits.jpeg" alt="Commits Sprint 3" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-backend.</i></p>
+</div>
+
+<div align="center">
+  <p>
+    <b>Commits gráficas Landing page - Sprint 3</b>
+  </p>
+  <img src="./markdown/assets/chapter-5/commits-landingpage.png" alt="Commits Sprint 3" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-backend.</i></p>
+</div>
+
+
+<div align="center">
+  <p>
+    <b>Commits gráficas Frontend - Sprint 3</b>
+  </p>
+  <img src="./markdown/assets/chapter-5/commits-frontend.png" alt="Commits Sprint 3" width="600">
+  <p><i><b>Fuente</b>: GitHub Insights del repositorio anitec-backend.</i></p>
+</div>
+
+**Reflexiones del Equipo:**
+
+- Ayala Fernandez, Jorge Brayan: "El Sprint 3 permitió aplicar lo aprendido en clase sobre backend con ASP.NET Core. La implementación de IAM fue importante porque permitió pasar de usuarios demo a una autenticación con token, más cercana a una aplicación real. Además, la actualización de la landing page con los videos About the Team y About the Product ayudó a presentar mejor el valor de AniTec."
+
+- Huaman Gallardo, Bruno Aldair: "La implementación de los módulos de ganadería y dispositivos ayudó a convertir los datos del frontend en entidades reales dentro de una base de datos. También fue importante llevar los dispositivos IoT al frontend mediante la ruta `/iot`, porque permitió probar el flujo completo desde la interfaz hasta los datos del backend."
+
+- Melgarejo Quiroz, Josep Eliu: "Trabajar con Entity Framework Core y MySQL permitió entender mejor cómo las entidades del dominio se convierten en tablas reales. Las migraciones ayudaron a mantener la base de datos alineada con los cambios del backend. Además, integrar el frontend mediante `.env.development`, `BaseApi`, stores y assemblers permitió reemplazar gradualmente el consumo de datos mock."
+
+- Raymundo Villarroel, Nadhim Abigail: "La implementación de eventos sanitarios y actividades permitió llevar al backend una parte esencial del seguimiento del ganado. El reto principal fue mantener consistencia entre los datos clínicos, los animales registrados y las vistas del frontend que consumen esta información."
+
+- Sanchez Silva, Luciana Celeste: "El módulo de clientes veterinarios permitió representar la relación entre ganaderos y veterinarios dentro del backend. Esto es importante porque el veterinario necesita consultar únicamente la información de sus clientes asignados. La coordinación con el frontend permitió revisar que estas relaciones se puedan visualizar desde las pantallas correspondientes."
+
+**Lecciones Aprendidas:**
+
+El equipo identifica las siguientes lecciones de este Sprint 3:
+
+1. **La estructura por bounded contexts facilita el crecimiento del backend:** Separar los módulos permitió trabajar de forma ordenada y mantener responsabilidades claras.
+
+2. **Entity Framework Core simplifica la persistencia:** Las migraciones permitieron crear y actualizar la base de datos sin escribir manualmente todo el SQL.
+
+3. **La autenticación debe definirse temprano:** IAM es una base importante porque muchos módulos dependen de saber qué usuario está usando la aplicación.
+
+4. **Los datos mock ayudaron a diseñar el backend:** El `db.json` del Sprint 2 sirvió como referencia para definir entidades, recursos y endpoints.
+
+5. **Swagger facilita las pruebas manuales:** La documentación automática permitió probar endpoints sin depender todavía del frontend.
+
+6. **MySQL requiere una configuración cuidadosa:** La cadena de conexión, credenciales y migraciones deben estar correctamente configuradas para evitar errores al ejecutar la API.
+
+7. **Mantener patrones conocidos reduce la complejidad:** Usar Repository, Unit of Work, Command Services y Query Services permitió seguir una estructura parecida al backend trabajado en clase.
+
+8. **La integración frontend-backend debe planificarse desde los endpoints:** Definir nombres de recursos, rutas y respuestas de API facilitó que el frontend pudiera consumir los datos mediante stores y assemblers.
+
+9. **Los módulos IoT y Subscriptions requieren coordinación entre capas:** Para que `/iot` y `/subscriptions` funcionen correctamente, fue necesario alinear endpoints, modelos de datos, rutas del frontend y textos visibles para el usuario.
+
+10. **La landing page también forma parte de la experiencia del producto:** Incorporar los videos About the Team y About the Product ayudó a explicar mejor la solución antes de que el usuario ingrese a la aplicación web.
+
+<div style="page-break-before: always;"></div>
+
+<br>
+<br>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/capitulo-5.png" alt="Capitulo 5" />
+</div>
+
+<br>
+<br>
+
+# 5.2. Landing Page, Services & Applications Implementation.
+
+## 5.2.3. Sprint 3.
+
+En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real de la aplicación web, reemplazando la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL. El objetivo principal fue implementar la capa de servicios necesaria para almacenar, consultar y procesar los datos de la plataforma de forma persistente, manteniendo una estructura similar a la trabajada en clase con el proyecto `learning-center-platform-master`.
+
+Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. También se configuraron migraciones automáticas con Entity Framework Core para MySQL, documentación con Swagger y datos iniciales para facilitar las pruebas de integración con el frontend.
+
+### 5.2.3.1. Sprint Planning 3.
+
+El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
+
+Se decidió construir el backend utilizando ASP.NET Core y Entity Framework Core, ya que estas tecnologías fueron trabajadas durante las clases del curso. Además, se eligió MySQL como sistema gestor de base de datos porque fue la tecnología indicada para el desarrollo de backend en esta etapa del curso.
+
+Durante la planificación se definieron los bounded contexts principales, las responsabilidades de cada integrante y las funcionalidades mínimas necesarias para que el backend pueda reemplazar progresivamente al servicio mock utilizado en el Sprint 2.
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td><b>Sprint #</b></td>
+            <td>Sprint 3</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Planning Background</b></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td>2026-06-05</td>
+        </tr>
+        <tr>
+            <td>Time</td>
+            <td>10:00 AM</td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Reunión virtual via Discord - Canal #sprint-planning</td>
+        </tr>
+        <tr>
+            <td>Prepared by</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+        </tr>
+        <tr>
+            <td>Attendees (to planning meeting)</td>
+            <td>Jorge Ayala, Bruno Huaman, Josep Melgarejo, Nadhim Raymundo, Luciana Sanchez</td>
+        </tr>
+        <tr>
+            <td>Sprint n - 1 Review Summary</td>
+            <td>El Sprint 2 permitió construir la aplicación web frontend de AniTec con Vue 3, PrimeVue, Pinia, Vue Router, módulos por bounded context y consumo de datos mediante una API REST mock con my-json-server.</td>
+        </tr>
+        <tr>
+            <td>Sprint n - 1 Retrospective Summary</td>
+            <td>El equipo identificó que el uso de datos mock permitió avanzar rápidamente en el frontend, pero limitaba la validación de reglas de negocio, persistencia real, autenticación segura y operaciones entre módulos. Por ello, se priorizó el desarrollo del backend en el Sprint 3.</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Sprint Goal / User Stories</b></td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Goal</td>
+            <td>Nuestro enfoque está en implementar el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL, manteniendo una arquitectura por bounded contexts similar a la desarrollada en clase. Creemos que esto permitirá reemplazar progresivamente la API mock y dar soporte real a la autenticación, gestión ganadera, sanidad, finanzas, analíticas, dispositivos y suscripciones. Esto se confirmará cuando la API pueda compilar, ejecutar migraciones, exponer endpoints REST documentados y responder correctamente a las consultas principales del frontend.</td>
+        </tr>
+        <tr>
+            <td>Sprint 3 Velocity</td>
+            <td>El equipo estimó un velocity de 45 Story Points, enfocado en la construcción del backend, configuración de persistencia, implementación de bounded contexts, endpoints REST y documentación de servicios.</td>
+        </tr>
+        <tr>
+            <td>Sprint of Story Points</td>
+            <td>Total: 45 SP - Distribuidos en 5 SP para configuración base, 8 SP para persistencia con MySQL, 8 SP para IAM con JWT, 8 SP para bounded contexts de gestión ganadera, 6 SP para analíticas y clientes veterinarios, 6 SP para dispositivos, métricas y suscripciones, y 4 SP para documentación y pruebas con Swagger.</td>
+        </tr>
+    </tbody>
+</table>
+
+El Sprint Planning Meeting del Sprint 3 duró aproximadamente 2.5 horas. El equipo revisó la estructura del backend usado como referencia en clase, definió los bounded contexts necesarios para AniTec y acordó mantener patrones conocidos como Repository, Unit of Work, Command Services, Query Services, REST Resources y Entity Framework Core para la persistencia.
+
+**Technical Stories incluidas en el Sprint 3:**
+
+| ID     | Technical Story                                                     | Prioridad   | Story Points |
+| ------ | ------------------------------------------------------------------- | ----------- | ------------ |
+| TS-005 | Configuración inicial del backend con ASP.NET Core                  | Must Have   | 5            |
+| TS-006 | Persistencia con Entity Framework Core y MySQL                      | Must Have   | 8            |
+| TS-007 | Autenticación backend con JWT y BCrypt                              | Must Have   | 8            |
+| TS-008 | Implementación de bounded contexts de gestión ganadera              | Must Have   | 8            |
+| TS-009 | Servicios backend para analíticas y clientes veterinarios           | Should Have | 6            |
+| TS-010 | Servicios backend para dispositivos, métricas y suscripciones       | Should Have | 6            |
+| TS-011 | Documentación y pruebas de API con Swagger                          | Should Have | 4            |
+
+La selección de estas Technical Stories responde a la necesidad de construir la base de datos y la lógica principal del sistema. El equipo priorizó primero la configuración del backend, IAM y persistencia, ya que estos elementos sirven como base para el consumo posterior desde el frontend.
+
+**Distribución de Trabajo por Componente:**
+
+- **Backend ASP.NET Core:** 45 Story Points - Enfocados en la creación del proyecto `anitec-platform-main`, organización por bounded contexts, configuración de MySQL, migraciones, endpoints REST, autenticación JWT, seed de datos y documentación Swagger.
+
+### 5.2.3.2. Aspects Leaders and Collaborators.
+
+En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 3, indicando por cada aspecto dentro del alcance del Sprint quién es el líder y quiénes son colaboradores.
+
+Para este tercer Sprint, los aspectos están centrados en el desarrollo del backend de AniTec, abarcando desde la configuración inicial del proyecto ASP.NET Core hasta la implementación de bounded contexts, persistencia con MySQL, migraciones y documentación de servicios.
+
+**Aspectos del Sprint 3:**
+
+1. **Backend - Configuración y Arquitectura Base:** Creación de la solución ASP.NET Core, configuración de Swagger, CORS, inyección de dependencias, Entity Framework Core y estructura de carpetas.
+2. **Backend - IAM y Profiles:** Implementación de usuarios basicas
+3. **Backend - Livestock, Sanitary y Activities:** Implementación de fincas, animales, eventos sanitarios y actividades de granja mediante entidades, comandos, consultas, servicios y controladores REST.
+4. **Backend - Financial y Analytics:** Implementación de registros financieros, report metrics y endpoints de dashboard para ganaderos y veterinarios.
+5. **Backend - Clients, Devices y Metrics:** Implementación de clientes veterinarios, dispositivos ganaderos y métricas generadas por dispositivos.
+6. **Backend - Subscriptions y Payments:** Implementación de planes, suscripciones, pagos mock y preparación de campos para una futura integración con Stripe.
+7. **Base de Datos, Migraciones y Seed:** Configuración de MySQL, migraciones de Entity Framework Core y datos iniciales para pruebas.
+8. **Documentación:** Documentación técnica del Sprint, endpoints disponibles y evidencias de ejecución.
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td><b>Team Member (Last Name, First Name)</b></td>
+            <td><b>GitHub Username</b></td>
+            <td><b>Config/Arq Backend / L or C</b></td>
+            <td><b>IAM & Profiles / L or C</b></td>
+            <td><b>Livestock/Sanitary/Activities / L or C</b></td>
+            <td><b>Financial/Analytics / L or C</b></td>
+            <td><b>Clients/Devices/Metrics / L or C</b></td>
+            <td><b>Subscriptions / L or C</b></td>
+            <td><b>Documentación / L or C</b></td>
+        </tr>
+        <tr>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>jorgeayaladev</td>
+            <td>L</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>-</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>BrunoHG10</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>L</td>
+            <td>-</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Melga1502</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>L</td>
+            <td>L</td>
+        </tr>
+        <tr>
+            <td>Raymundo Villarroel, Nadhim Abigail</td>
+            <td>AbigailRV</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+            <td>-</td>
+            <td>C</td>
+        </tr>
+        <tr>
+            <td>Sanchez Silva, Luciana Celeste</td>
+            <td>Luccsss</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>C</td>
+            <td>L</td>
+            <td>C</td>
+            <td>C</td>
+        </tr>
+    </tbody>
+</table>
+
+**Distribución detallada de responsabilidades:**
+
+- **Ayala Fernandez, Jorge Brayan (Configuración & IAM Lead):** Responsable de la configuración inicial del backend, autenticación, generación de tokens JWT, manejo de credenciales y endpoints de usuarios.
+
+- **Huaman Gallardo, Bruno Aldair (Livestock & Devices Lead):** Responsable de los módulos relacionados con la gestión ganadera, incluyendo fincas, animales, dispositivos y métricas asociadas.
+
+- **Melgarejo Quiroz, Josep Eliu (Financial, Analytics & Documentation Lead):** Responsable de registros financieros, reportes, dashboards, suscripciones, pagos mock y documentación del Sprint.
+
+- **Raymundo Villarroel, Nadhim Abigail (Sanitary & Activities Lead):** Responsable de eventos sanitarios, actividades de granja y seguimiento de información clínica del ganado.
+
+- **Sanchez Silva, Luciana Celeste (Clients Lead):** Responsable de la relación entre veterinarios y ganaderos, incluyendo clientes asignados, ganaderos disponibles y operaciones de asociación.
+
+### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por la aplicación web frontend.
+
+El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Primero se priorizó la configuración base del proyecto y la persistencia; luego se implementaron los bounded contexts principales; finalmente se añadieron endpoints de analítica, dispositivos, suscripciones y datos iniciales para pruebas.
+
+**Trello Board:**
+El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
+
+Enlace al tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTI8abaa26cc7e6f8b81250a5d3862a2d6574E3BF7E/sprint3-anitec
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/trello-sprint3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Estructura del Trello Board:**
+
+- **Sprint Goal:** Lista que contiene el objetivo principal del Sprint.
+- **To Do:** Lista con las tareas pendientes por iniciar.
+- **In Progress:** Lista con las tareas que se encuentran en desarrollo.
+- **To Review:** Lista con tareas completadas pendientes de revisión.
+- **Done:** Lista con tareas aprobadas e integradas al backend.
+
+A continuación, la tabla de control de estado para el Sprint 3:
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <tbody>
+        <tr>
+            <td><b>Sprint #</b></td>
+            <td colspan="7">Sprint 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">User Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+        <tr>
+            <td>TS-005</td>
+            <td>Configuración inicial del backend con ASP.NET Core</td>
+            <td>T001</td>
+            <td>Configurar solución backend</td>
+            <td>Crear la solución anitec-platform, configurar proyecto ASP.NET Core, Swagger, CORS, appsettings, estructura base y paquetes NuGet necesarios.</td>
+            <td>5</td>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-006</td>
+            <td>Persistencia con Entity Framework Core y MySQL</td>
+            <td>T002</td>
+            <td>Configurar persistencia con Entity Framework Core</td>
+            <td>Crear AppDbContext, configurar conexión a MySQL, repositorio base, Unit of Work, convenciones de nombres, migraciones y seed de datos iniciales.</td>
+            <td>8</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-007</td>
+            <td>Autenticación backend con JWT y BCrypt</td>
+            <td>T003</td>
+            <td>Implementar usuarios, sign-in y sign-up</td>
+            <td>Crear entidades, comandos, consultas, servicios, recursos REST y controladores para autenticación, registro de usuarios, hashing de contraseñas y generación de JWT.</td>
+            <td>8</td>
+            <td>Ayala Fernandez, Jorge Brayan</td>
+            <td>In progress</td>
+        </tr>
+        <tr>
+            <td>TS-008</td>
+            <td>Implementación de bounded contexts de gestión ganadera</td>
+            <td>T004</td>
+            <td>Implementar Livestock</td>
+            <td>Crear bounded context para fincas y animales, incluyendo entidades Herd y Animal, repositorios, servicios de comando/consulta y controladores REST.</td>
+            <td>4</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-008</td>
+            <td>Implementación de bounded contexts de gestión ganadera</td>
+            <td>T005</td>
+            <td>Implementar Sanitary y Activities</td>
+            <td>Crear endpoints para eventos sanitarios y actividades de granja, siguiendo la estructura de commands, queries, resources y assemblers.</td>
+            <td>4</td>
+            <td>Raymundo Villarroel, Nadhim Abigail</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-009</td>
+            <td>Servicios backend para analíticas y clientes veterinarios</td>
+            <td>T006</td>
+            <td>Implementar Analytics y Clients</td>
+            <td>Crear endpoints para dashboards, resúmenes sanitarios/financieros, clientes asignados al veterinario y ganaderos disponibles.</td>
+            <td>6</td>
+            <td>Sanchez Silva, Luciana Celeste</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-010</td>
+            <td>Servicios backend para dispositivos, métricas y suscripciones</td>
+            <td>T007</td>
+            <td>Implementar Devices, Metrics y Subscriptions</td>
+            <td>Crear endpoints para dispositivos, métricas generadas por sensores, planes de suscripción, suscripciones, pagos mock y mock checkout.</td>
+            <td>6</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>TS-011</td>
+            <td>Documentación y pruebas de API con Swagger</td>
+            <td>T008</td>
+            <td>Documentar y probar endpoints REST</td>
+            <td>Verificar Swagger, compilar el proyecto, ejecutar la API, probar endpoints principales y documentar evidencias del Sprint.</td>
+            <td>4</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+    </tbody>
+</table>
+
+El Sprint Backlog refleja 8 tareas principales, con aproximadamente 45 horas de trabajo estimadas. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts y la necesidad de mantener una estructura similar al backend trabajado en clase.
+
+### 5.2.3.4. Development Evidence for Sprint Review.
+
+En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec. La evidencia muestra que el equipo logró construir una API funcional, conectada a MySQL y preparada para integrarse con el frontend.
+
+Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec-platform-main`. El backend fue construido utilizando ASP.NET Core, Entity Framework Core, MySQL, JWT y BCrypt. La estructura interna sigue una organización por bounded contexts con capas de dominio, aplicación, infraestructura e interfaces REST.
+
+**Resumen de Avances Implementados:**
+
+- **Creación del proyecto backend:** Solución `anitec-platform.sln` con proyecto principal `Anitec.Platform`.
+- **Configuración de ASP.NET Core:** Uso de controladores REST, Swagger/OpenAPI, CORS, configuración por ambiente y middleware de errores.
+- **Persistencia con MySQL:** Configuración de `AppDbContext`, repositorios, Unit of Work y migraciones de Entity Framework Core.
+- **Autenticación JWT:** Implementación de sign-in, sign-up, hashing de contraseñas con BCrypt y emisión de token.
+- **Arquitectura por bounded contexts:** Implementación de Shared, IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Clients, Devices, Metrics y Subscriptions.
+- **Servicios de aplicación:** Uso de Command Services y Query Services para separar operaciones de escritura y lectura.
+- **REST Resources:** Uso de recursos y assemblers para transformar entidades de dominio en respuestas de API.
+- **Seed de datos:** Carga inicial de usuarios, fincas, animales, eventos, dispositivos, planes y suscripciones para pruebas.
+- **Migraciones automáticas:** Configuración para aplicar migraciones pendientes al ejecutar la API.
+
+**Estructura principal del backend:**
+
+```text
+anitec-platform-main/
+├── Anitec.Platform/
+│   ├── Activities/
+│   ├── Analytics/
+│   ├── Clients/
+│   ├── Devices/
+│   ├── Financial/
+│   ├── Iam/
+│   ├── Livestock/
+│   ├── Metrics/
+│   ├── Profiles/
+│   ├── Sanitary/
+│   ├── Shared/
+│   └── Subscriptions/
+├── anitec-platform.sln
+└── README.md
+```
+
+**Commits Realizados:**
+
+| Repository           | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
+| -------------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
+| anitec-platform-main | develop | a7f3c91 | chore: initial-folder-structure | Creación de la estructura base del backend ASP.NET Core, carpetas por bounded context y configuración inicial de dependencias. | 01/06/2026 |
+| anitec-platform-main | feature/get-all-herds | 4b83e0d | feat: create herds controller | Creación del controlador REST para exponer operaciones principales de hatos. | 02/06/2026 |
+| anitec-platform-main | feature/get-all-users | 74b5e23 | feat: implement get all users endpoint | Implementación del endpoint `GET /users` para consultar usuarios registrados en la plataforma. | 02/06/2026 |
+| anitec-platform-main | feature/get-all-herds | e41fc9a | feat: add herds query service | Implementación del servicio de consultas para listar hatos desde la base de datos. | 03/06/2026 |
+| anitec-platform-main | feature/get-all-animals | 39eb2fd | feat: map animal resource response | Definición de recursos REST y assembler para devolver animales con especie, raza, peso, estado y hato asociado. | 03/06/2026 |
+| anitec-platform-main | develop | 0a9d8bf | Merge pull request #33 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-herds | Integración del listado de hatos al branch de desarrollo. | 04/06/2026 |
+| anitec-platform-main | feature/get-user-by-id | d24ab70 | feat: implement get user by id endpoint | Implementación del endpoint `GET /users/{id}` para consultar un usuario específico mediante su identificador. | 04/06/2026 |
+| anitec-platform-main | feature/add-new-health-event | d80a2bf | feat: create health event command | Creación del comando de aplicación para registrar vacunas, diagnósticos, tratamientos y seguimientos. | 05/06/2026 |
+| anitec-platform-main | feature/get-all-animals | 5a73b6e | feat: implement get all animals endpoint | Implementación del endpoint `GET /animals` para consultar animales registrados. | 05/06/2026 |
+| anitec-platform-main | feature/add-new-herd | 92d7ac1 | feat: implement add new herd endpoint | Implementación del endpoint `POST /herds` para registrar nuevos hatos o unidades productivas. | 06/06/2026 |
+| anitec-platform-main | feature/get-all-financial-records | e7b30f1 | feat: add financial record repository | Implementación del repositorio para consultar ingresos y egresos persistidos en MySQL. | 06/06/2026 |
+| anitec-platform-main | feature/get-all-health-events | b6d14ca | feat: implement get all health events endpoint | Implementación del endpoint `GET /health-events` para consultar vacunas, tratamientos e incidencias. | 07/06/2026 |
+| anitec-platform-main | develop | 21d9f5e | Merge pull request #36 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-animals | Integración del listado de animales al branch de desarrollo. | 07/06/2026 |
+| anitec-platform-main | feature/get-rancher-dashboard | 2ed4b73 | feat: build rancher dashboard summary | Implementación del resumen de animales, hatos, eventos sanitarios y métricas principales para ganaderos. | 08/06/2026 |
+| anitec-platform-main | feature/add-new-health-event | 11ae7d9 | feat: expose add health event endpoint | Exposición del endpoint `POST /health-events` para registrar eventos sanitarios desde la aplicación web. | 08/06/2026 |
+| anitec-platform-main | feature/get-all-farm-events | 1c7d80e | feat: implement get all farm events endpoint | Implementación del endpoint `GET /farm-events` para consultar actividades, visitas y tareas programadas. | 09/06/2026 |
+| anitec-platform-main | feature/get-clients-by-veterinarian | 6fa28c0 | feat: create veterinarian clients resource | Creación de recursos REST para representar clientes asignados a un veterinario. | 09/06/2026 |
+| anitec-platform-main | develop | 63fa0dd | Merge pull request #39 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-health-events | Integración de la consulta de eventos sanitarios al branch de desarrollo. | 10/06/2026 |
+| anitec-platform-main | feature/get-all-devices | 58d14e7 | feat: implement get all devices endpoint | Implementación del endpoint `GET /devices` para listar dispositivos IoT asociados a animales o hatos. | 10/06/2026 |
+| anitec-platform-main | feature/get-veterinarian-dashboard | cb8a3e5 | feat: implement veterinarian dashboard endpoint | Implementación del endpoint `GET /analytics/veterinarians/{veterinarianId}/dashboard` para mostrar clientes, pacientes y eventos sanitarios. | 11/06/2026 |
+| anitec-platform-main | feature/get-clients-by-veterinarian | 47bd918 | feat: implement get clients by veterinarian endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/clients` para listar ganaderos asignados. | 11/06/2026 |
+| anitec-platform-main | feature/get-active-subscription-by-user | 71ad8e0 | feat: implement active subscription query | Implementación de consulta para obtener la suscripción activa de un usuario. | 12/06/2026 |
+| anitec-platform-main | develop | a4b9df0 | Merge pull request #43 from upc-1asi0730-2610-12206-titan-team-4/feature/get-rancher-dashboard | Integración del dashboard de ganadero al branch de desarrollo. | 12/06/2026 |
+| anitec-platform-main | feature/get-device-latest-metric | f0e2a69 | feat: implement latest device metric endpoint | Implementación del endpoint `GET /devices/{id}/latest-metric` para obtener la última lectura registrada. | 13/06/2026 |
+| anitec-platform-main | feature/add-client-to-veterinarian | bf5a127 | feat: implement add client to veterinarian endpoint | Implementación del endpoint `POST /veterinarian/{veterinarianId}/clients/{rancherId}` para asociar un ganadero a un veterinario. | 13/06/2026 |
+| anitec-platform-main | feature/get-all-subscription-plans | 87a0d6c | feat: create subscription plan resource | Creación de recursos REST para representar planes de suscripción. | 14/06/2026 |
+| anitec-platform-main | feature/get-all-subscription-plans | e314ac7 | feat: implement get all subscription plans endpoint | Implementación del endpoint `GET /subscription-plans` para listar planes disponibles. | 14/06/2026 |
+| anitec-platform-main | feature/get-available-ranchers-for-veterinarian | 2a0fca9 | feat: implement available ranchers endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/available-ranchers` para consultar ganaderos disponibles. | 15/06/2026 |
+| anitec-platform-main | develop | 47f8c2d | Merge pull request #69 from upc-1asi0730-2610-12206-titan-team-4/feature/get-clients-by-veterinarian | Integración de la consulta de clientes asignados al branch de desarrollo. | 15/06/2026 |
+| anitec-platform-main | feature/get-payments-by-user | 4f2bc8a | feat: implement get payments by user endpoint | Implementación del endpoint `GET /subscriptions/users/{userId}/payments` para consultar pagos asociados a un usuario. | 16/06/2026 |
+| anitec-platform-main | feature/mock-checkout | 9b8e430 | feat: create mock checkout command | Creación del flujo de comando para simular checkout y generar pagos de prueba. | 16/06/2026 |
+| anitec-platform-main | feature/mock-checkout | 5e64a1d | feat: implement mock checkout endpoint | Implementación del endpoint `POST /subscriptions/mock-checkout` para validar pagos mock durante el Sprint. | 17/06/2026 |
+| anitec-platform-main | feature/remove-client-from-veterinarian | 3fe60ab | feat: implement remove client from veterinarian endpoint | Implementación del endpoint `DELETE /veterinarian/{veterinarianId}/clients/{rancherId}` para retirar un cliente asignado. | 17/06/2026 |
+| anitec-platform-main | develop | 92e03bf | Merge pull request #71 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-devices | Integración de dispositivos IoT y lectura de últimas métricas al branch de desarrollo. | 18/06/2026 |
+| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | c6a01de | fix: configure dateonly converters for mysql | Corrección de conversores DateOnly para evitar errores de persistencia y lectura en MySQL. | 18/06/2026 |
+| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | e0b71ac | fix: update migration snapshot dates | Ajuste del snapshot de migraciones para mantener consistencia con las columnas de fecha. | 18/06/2026 |
+| anitec-platform-main | develop | d0af82c | Merge pull request #73 from upc-1asi0730-2610-12206-titan-team-4/hotfix/fix-dateonly-mysql-converters | Integración del hotfix de conversión de fechas al branch de desarrollo. | 19/06/2026 |
+| anitec-platform-main | develop | 8f6d1be | Merge pull request #72 from upc-1asi0730-2610-12206-titan-team-4/feature/mock-checkout | Integración del flujo de pagos mock y suscripciones al branch de desarrollo. | 19/06/2026 |
+| anitec-platform-main | main | 7e9c4b2 | Merge pull request #74 from upc-1asi0730-2610-12206-titan-team-4/develop | Integración final del Sprint 3 desde `develop` hacia `main`, consolidando endpoints, migraciones, seed de datos y documentación Swagger. | 19/06/2026 |
+
+**Repositorio del Backend:**
+
+https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
+
+**Estadísticas del repositorio:**
+
+- Total de bounded contexts implementados: 12
+- Base de datos: MySQL
+- ORM: Entity Framework Core
+- Seguridad: JWT y BCrypt
+- Documentación de servicios: Swagger/OpenAPI
+- Migraciones generadas: 3
+- Endpoints principales: autenticación, usuarios, perfiles, fincas, animales, sanidad, finanzas, actividades, analíticas, clientes, dispositivos, métricas y suscripciones.
+
+### 5.2.3.5. Execution Evidence for Sprint Review.
+
+Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba.
+
+**Resumen de lo Alcanzado:**
+
+El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró configurar la solución ASP.NET Core, conectar la API con MySQL, implementar migraciones, crear datos iniciales y exponer endpoints REST para los módulos principales del sistema.
+
+**Evidencias de ejecución:**
+
+1. **Compilación del backend:** Se ejecutó el comando `dotnet build` para validar que el proyecto compile correctamente.
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+
+
+**Funcionalidades implementadas en backend:**
+
+1. **IAM:** Inicio de sesión, registro de usuarios, generación de token JWT y consulta de usuarios.
+2. **Profiles:** Gestión de perfiles asociados a usuarios.
+3. **Livestock:** Gestión de fincas y animales.
+4. **Sanitary:** Gestión de eventos sanitarios y registros de salud.
+5. **Activities:** Gestión de actividades y eventos de granja.
+6. **Financial:** Gestión de ingresos, egresos y registros económicos.
+7. **Analytics:** Dashboards y resúmenes para ganaderos y veterinarios.
+8. **Clients:** Gestión de relación entre veterinarios y ganaderos.
+9. **Devices:** Gestión de dispositivos como balanzas, collares inteligentes, cámaras térmicas, aretes de identificación, estaciones meteorológicas y sensores ambientales.
+10. **Metrics:** Gestión de métricas generadas por dispositivos.
+11. **Subscriptions:** Gestión de planes, suscripciones, pagos y mock checkout.
+12. **Shared:** Repositorios base, Unit of Work, persistencia, recursos comunes y manejo de errores.
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando ASP.NET Core. Esta API reemplaza progresivamente al servicio mock utilizado durante el Sprint 2 y permite que el frontend consuma información persistida en MySQL.
+
+**Configuración del Servicio Backend:**
+
+- **Plataforma:** ASP.NET Core
+- **ORM:** Entity Framework Core
+- **Base de datos:** MySQL
+- **Autenticación:** JWT Bearer Token
+- **Hashing de contraseñas:** BCrypt
+- **Documentación:** Swagger/OpenAPI
+- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
+- **URL pública del backend:** https://anitec-backend.onrender.com
+- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
+
+**Migraciones implementadas:**
+
+| Migración | Descripción |
+| --------- | ----------- |
+| `20260605202323_InitialCreate` | Creación inicial de tablas principales del sistema. |
+| `20260607213722_AddRolesClientsAndMockPayments` | Agrega roles, clientes veterinarios y pagos mock. |
+| `20260607235600_AddDateOnlyConverters` | Ajustes para conversión de fechas con DateOnly. |
+
+**Endpoints principales implementados:**
+
+| Bounded Context | Método | Endpoint | Descripción |
+| --------------- | ------ | -------- | ----------- |
+| IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión de usuarios registrados y generación de token JWT. |
+| IAM | POST | `/api/v1/authentication/sign-up` | Registro de nuevos usuarios con contraseña encriptada. |
+| IAM | GET | `/api/v1/users` | Consulta de usuarios del sistema. |
+| IAM | GET | `/api/v1/users/{id}` | Consulta de un usuario por identificador. |
+| Profiles | GET | `/api/v1/profiles` | Consulta de perfiles registrados. |
+| Profiles | GET | `/api/v1/profiles/{profileId}` | Consulta de un perfil por identificador. |
+| Profiles | POST | `/api/v1/profiles` | Creación de perfiles de usuario. |
+| Livestock | GET | `/api/v1/herds` | Consulta de hatos o unidades productivas. |
+| Livestock | GET | `/api/v1/herds/{id}` | Consulta de un hato por identificador. |
+| Livestock | POST | `/api/v1/herds` | Registro de nuevos hatos. |
+| Livestock | PUT | `/api/v1/herds/{id}` | Actualización de información de un hato. |
+| Livestock | DELETE | `/api/v1/herds/{id}` | Eliminación de un hato registrado. |
+| Livestock | GET | `/api/v1/animals` | Consulta de animales registrados. |
+| Livestock | GET | `/api/v1/animals/{id}` | Consulta de un animal por identificador. |
+| Livestock | POST | `/api/v1/animals` | Registro de nuevos animales. |
+| Livestock | PUT | `/api/v1/animals/{id}` | Actualización de información de un animal. |
+| Livestock | DELETE | `/api/v1/animals/{id}` | Eliminación de un animal registrado. |
+| Sanitary | GET | `/api/v1/health-events` | Consulta de eventos sanitarios. |
+| Sanitary | GET | `/api/v1/health-events/{id}` | Consulta de un evento sanitario por identificador. |
+| Sanitary | POST | `/api/v1/health-events` | Registro de vacunas, tratamientos, diagnósticos o incidencias. |
+| Sanitary | PUT | `/api/v1/health-events/{id}` | Actualización de un evento sanitario. |
+| Sanitary | DELETE | `/api/v1/health-events/{id}` | Eliminación de un evento sanitario. |
+| Financial | GET | `/api/v1/financial-records` | Consulta de ingresos y egresos ganaderos. |
+| Financial | GET | `/api/v1/financial-records/{id}` | Consulta de un registro financiero por identificador. |
+| Financial | POST | `/api/v1/financial-records` | Registro de ingresos o gastos. |
+| Financial | PUT | `/api/v1/financial-records/{id}` | Actualización de un registro financiero. |
+| Financial | DELETE | `/api/v1/financial-records/{id}` | Eliminación de un registro financiero. |
+| Activities | GET | `/api/v1/farm-events` | Consulta de actividades, visitas o tareas de granja. |
+| Activities | GET | `/api/v1/farm-events/{id}` | Consulta de una actividad por identificador. |
+| Activities | POST | `/api/v1/farm-events` | Registro de nuevas actividades de granja. |
+| Activities | PUT | `/api/v1/farm-events/{id}` | Actualización de una actividad. |
+| Activities | DELETE | `/api/v1/farm-events/{id}` | Eliminación de una actividad. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/dashboard` | Dashboard de métricas principales para ganaderos. |
+| Analytics | GET | `/api/v1/analytics/veterinarians/{veterinarianId}/dashboard` | Dashboard de métricas principales para veterinarios. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/health-summary` | Resumen sanitario del ganadero. |
+| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/financial-summary` | Resumen financiero del ganadero. |
+| Analytics | GET | `/api/v1/report-metrics` | Consulta de métricas de reportes. |
+| Analytics | GET | `/api/v1/report-metrics/{id}` | Consulta de una métrica de reporte por identificador. |
+| Analytics | POST | `/api/v1/report-metrics` | Registro de métricas de reportes. |
+| Analytics | PUT | `/api/v1/report-metrics/{id}` | Actualización de una métrica de reporte. |
+| Analytics | DELETE | `/api/v1/report-metrics/{id}` | Eliminación de una métrica de reporte. |
+| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/clients` | Consulta de clientes asignados a un veterinario. |
+| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/available-ranchers` | Consulta de ganaderos disponibles para asociar. |
+| Clients | POST | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Asociación de un ganadero a un veterinario. |
+| Clients | DELETE | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Eliminación de la relación entre veterinario y ganadero. |
+| Devices | GET | `/api/v1/devices` | Consulta de dispositivos IoT registrados. |
+| Devices | GET | `/api/v1/devices/{id}` | Consulta de un dispositivo por identificador. |
+| Devices | POST | `/api/v1/devices` | Registro de nuevos dispositivos IoT. |
+| Devices | PUT | `/api/v1/devices/{id}` | Actualización de un dispositivo IoT. |
+| Devices | DELETE | `/api/v1/devices/{id}` | Eliminación de un dispositivo IoT. |
+| Devices | GET | `/api/v1/devices/{id}/metrics` | Consulta de métricas asociadas a un dispositivo. |
+| Devices | GET | `/api/v1/devices/{id}/latest-metric` | Consulta de la última métrica registrada por un dispositivo. |
+| Metrics | GET | `/api/v1/device-metrics` | Consulta de métricas de dispositivos. |
+| Metrics | GET | `/api/v1/device-metrics/{id}` | Consulta de una métrica de dispositivo por identificador. |
+| Metrics | POST | `/api/v1/device-metrics` | Registro de métricas de dispositivos. |
+| Metrics | PUT | `/api/v1/device-metrics/{id}` | Actualización de una métrica de dispositivo. |
+| Metrics | DELETE | `/api/v1/device-metrics/{id}` | Eliminación de una métrica de dispositivo. |
+| Subscriptions | GET | `/api/v1/subscription-plans` | Consulta de planes de suscripción disponibles. |
+| Subscriptions | GET | `/api/v1/subscription-plans/{id}` | Consulta de un plan de suscripción por identificador. |
+| Subscriptions | POST | `/api/v1/subscription-plans` | Registro de nuevos planes de suscripción. |
+| Subscriptions | PUT | `/api/v1/subscription-plans/{id}` | Actualización de un plan de suscripción. |
+| Subscriptions | DELETE | `/api/v1/subscription-plans/{id}` | Eliminación de un plan de suscripción. |
+| Subscriptions | GET | `/api/v1/subscriptions` | Consulta de suscripciones registradas. |
+| Subscriptions | GET | `/api/v1/subscriptions/{id}` | Consulta de una suscripción por identificador. |
+| Subscriptions | POST | `/api/v1/subscriptions` | Registro de nuevas suscripciones. |
+| Subscriptions | PUT | `/api/v1/subscriptions/{id}` | Actualización de una suscripción. |
+| Subscriptions | DELETE | `/api/v1/subscriptions/{id}` | Eliminación de una suscripción. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/active` | Consulta de la suscripción activa de un usuario. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/mock-checkout` | Simulación de pago para pruebas del flujo de suscripción. |
+
+
+**Swagger/OpenAPI:** Se verificó que la documentación de endpoints esté disponible en el navegador.
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back2.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back4.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back5.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back6.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/back7.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Estructura de capas aplicada:**
+
+1. **Domain:** Entidades, comandos, consultas y contratos de repositorios.
+2. **Application:** Command Services y Query Services para manejar casos de uso.
+3. **Infrastructure:** Repositorios, Entity Framework Core, Unit of Work y servicios técnicos.
+4. **Interfaces REST:** Controladores, recursos y assemblers para exponer la API.
+5. **Shared:** Elementos comunes reutilizables en todos los bounded contexts.
+
+**Variables y configuración:**
+
+La cadena de conexión se configura en `appsettings.Development.json` y apunta a la base de datos MySQL local. También se dejó preparada la posibilidad de usar una variable de entorno para cambiar la conexión según el ambiente.
+
+```json
+"DefaultConnection": "server=localhost;user=root;password=password;database=anitec-platform"
+```
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 3, la evidencia de despliegue del backend se realizó en internet utilizando Render como plataforma de hosting. El objetivo de esta evidencia fue comprobar que la API de AniTec pueda ejecutarse fuera del entorno local, conectarse a una base de datos configurada para el ambiente de despliegue, aplicar las migraciones de Entity Framework Core y exponer sus endpoints mediante Swagger/OpenAPI.
+
+Este despliegue permitió validar que los servicios backend desarrollados en ASP.NET Core pueden estar disponibles públicamente para ser consumidos por la aplicación web frontend. De esta manera, el backend deja de depender únicamente de la ejecución local y queda preparado para pruebas de integración en un entorno accesible desde internet.
+
+**Configuración de despliegue en Render - Backend:**
+
+- **Proyecto:** `anitec-platform-main`
+- **Framework:** ASP.NET Core
+- **Plataforma de despliegue:** Render
+- **Tipo de servicio:** Web Service
+- **Repositorio:** `https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git`
+- **Branch desplegada:** `main`
+- **Proyecto de inicio:** `Anitec.Platform`
+- **Base de datos:** MySQL configurada para el ambiente de despliegue
+- **URL pública del backend:** https://anitec-backend.onrender.com
+- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
+- **Archivo de configuración base:** `appsettings.json`
+- **Variables de entorno:** cadena de conexión, ambiente de ejecución y configuración de token JWT
+
+**Procedimiento de despliegue en Render:**
+
+1. Crear un nuevo Web Service en Render.
+2. Conectar el repositorio de GitHub del backend de AniTec.
+3. Seleccionar la rama `main` como fuente del despliegue.
+4. Configurar el proyecto ASP.NET Core indicando como proyecto principal `Anitec.Platform`.
+5. Definir las variables de entorno necesarias para el ambiente de producción o staging.
+6. Configurar la cadena de conexión de MySQL para que el backend pueda acceder a la base de datos remota.
+7. Ejecutar el proceso de build del backend desde Render.
+8. Iniciar el servicio web y verificar que la API quede disponible mediante la URL pública generada.
+9. Abrir la documentación Swagger desde la URL pública del backend.
+10. Probar endpoints principales como autenticación, usuarios, animales, hatos, dispositivos y suscripciones.
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/backendDespliegue1.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/backendDespliegue2.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/backendDespliegue3.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Verificación Post-Despliegue:**
+
+Después de desplegar el backend en Render, se verificaron los siguientes puntos:
+
+- Render compila correctamente el proyecto `Anitec.Platform`.
+- El servicio web se inicia correctamente desde la plataforma.
+- El backend queda disponible mediante una URL pública.
+- Swagger muestra los controladores y endpoints implementados desde internet.
+- La conexión con la base de datos MySQL configurada para despliegue se realiza correctamente.
+- Entity Framework Core valida y aplica las migraciones necesarias sobre la base de datos.
+- La base de datos contiene las tablas y datos semilla necesarios para pruebas.
+- El endpoint de autenticación responde correctamente y devuelve un token JWT.
+- Los endpoints principales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, dispositivos y suscripciones responden desde Swagger.
+- El backend mantiene una estructura modular por bounded contexts, lo que facilita su integración con el frontend.
+
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend y se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
+
+**Distribución de Trabajo:**
+
+Todos los miembros del equipo participaron en la construcción del backend según las responsabilidades definidas en la matriz LACX. El equipo trabajó manteniendo reuniones de coordinación para revisar la estructura del proyecto, resolver dudas sobre Entity Framework Core, coordinar nombres de endpoints y asegurar que la API mantenga compatibilidad con los módulos ya desarrollados en el frontend.
+
+El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Discord para la comunicación diaria. Las revisiones se enfocaron principalmente en mantener la misma estructura de carpetas en cada bounded context, reutilizar los patrones aprendidos en clase y evitar soluciones demasiado avanzadas que se alejen del nivel técnico trabajado durante el curso.
+
+**Métricas de Colaboración:**
+
+<div align="center">
+  <p>
+    <b>Commits gráficas - Sprint 3</b>
+  </p>
+  <img src="./markdown/assets/chapter-5/Sprint3GraficosCommits.jpeg" alt="Commits Sprint 3" width="600">
+</div>
+
+**Reflexiones del Equipo:**
+
+- Ayala Fernandez, Jorge Brayan: "El Sprint 3 permitió aplicar lo aprendido en clase sobre backend con ASP.NET Core. La implementación de IAM fue importante porque permitió pasar de usuarios demo a una autenticación con token, más cercana a una aplicación real."
+
+- Huaman Gallardo, Bruno Aldair: "La implementación de los módulos de ganadería y dispositivos ayudó a convertir los datos del frontend en entidades reales dentro de una base de datos. Fue importante mantener la separación por bounded contexts para que el código sea más ordenado."
+
+- Melgarejo Quiroz, Josep Eliu: "Trabajar con Entity Framework Core y MySQL permitió entender mejor cómo las entidades del dominio se convierten en tablas reales. Las migraciones ayudaron a mantener la base de datos alineada con los cambios del backend."
+
+- Raymundo Villarroel, Nadhim Abigail: "La implementación de eventos sanitarios y actividades permitió llevar al backend una parte esencial del seguimiento del ganado. El reto principal fue mantener consistencia entre los datos clínicos y los animales registrados."
+
+- Sanchez Silva, Luciana Celeste: "El módulo de clientes veterinarios permitió representar la relación entre ganaderos y veterinarios dentro del backend. Esto es importante porque el veterinario necesita consultar únicamente la información de sus clientes asignados."
+
+**Lecciones Aprendidas:**
+
+El equipo identifica las siguientes lecciones de este Sprint 3:
+
+1. **La estructura por bounded contexts facilita el crecimiento del backend:** Separar los módulos permitió trabajar de forma ordenada y mantener responsabilidades claras.
+
+2. **Entity Framework Core simplifica la persistencia:** Las migraciones permitieron crear y actualizar la base de datos sin escribir manualmente todo el SQL.
+
+3. **La autenticación debe definirse temprano:** IAM es una base importante porque muchos módulos dependen de saber qué usuario está usando la aplicación.
+
+4. **Los datos mock ayudaron a diseñar el backend:** El `db.json` del Sprint 2 sirvió como referencia para definir entidades, recursos y endpoints.
+
+5. **Swagger facilita las pruebas manuales:** La documentación automática permitió probar endpoints sin depender todavía del frontend.
+
+6. **MySQL requiere una configuración cuidadosa:** La cadena de conexión, credenciales y migraciones deben estar correctamente configuradas para evitar errores al ejecutar la API.
+
+7. **Mantener patrones conocidos reduce la complejidad:** Usar Repository, Unit of Work, Command Services y Query Services permitió seguir una estructura parecida al backend trabajado en clase.
+
+<div style="page-break-before: always;"></div>
+
+# 5.3. Validation Interviews
+
+## 5.3.1. Diseño de entrevistas
+
+Las entrevistas de validación se plantean con el objetivo de evaluar la percepción de los usuarios después de interactuar con la landing page y la Web Application de AniTec. A diferencia de las entrevistas exploratorias realizadas en capítulos anteriores, esta etapa se enfoca en validar la claridad de la propuesta de valor, la facilidad de navegación, la comprensión de las funcionalidades principales y la utilidad percibida por los segmentos objetivo.
+
+Para esta validación se consideran los dos segmentos principales definidos para AniTec:
+
+- Ganaderos.
+- Veterinarios.
+
+La dinámica de la entrevista consiste en presentar primero la landing page de AniTec para observar si el usuario comprende el problema que busca resolver la solución, la confianza que transmite y la claridad de sus secciones. Posteriormente, se muestra la aplicación web iniciando sesión según el segmento correspondiente, con el fin de revisar el dashboard, el menú de navegación y los módulos principales asociados al perfil del usuario.
+
+En el caso del segmento ganadero, la evaluación se orienta a la gestión de hatos, animales, eventos sanitarios, actividades, finanzas, dispositivos IoT y planes. En el caso del segmento veterinario, se evalúa la gestión de clientes asignados, pacientes por ganadero, información clínica, eventos sanitarios, actividades, analíticas e IoT. Al finalizar la demostración, el entrevistado responde un conjunto de preguntas diseñadas para recoger sus opiniones, dificultades y recomendaciones de mejora.
+
+### Guía de preguntas para el segmento Ganadero
+
+1. ¿A qué se dedica actualmente dentro de la actividad ganadera y qué tipo de animales maneja?
+2. ¿Cómo registra hoy la información de sus animales, fincas, actividades o gastos?
+3. Al ver el landing page de AniTec, ¿entiende rápidamente qué problema busca resolver la aplicación?
+4. ¿La información del landing page le genera confianza para probar la aplicación? ¿Por qué?
+5. ¿Qué sección del landing page le pareció más útil o clara?
+6. ¿Hubo alguna parte del landing page que le pareció confusa, innecesaria o poco creíble?
+7. Al iniciar sesión como ganadero, ¿le resultó claro hacia dónde debía ir primero?
+8. ¿El dashboard ganadero le muestra información útil para tomar decisiones rápidas?
+9. ¿Los nombres de las opciones del menú, como hatos, animales, sanidad, finanzas, actividades, IoT y planes, le resultan comprensibles?
+10. ¿Le resultó fácil encontrar la lista de animales registrados?
+11. ¿El formulario para agregar o editar un animal le parece claro y completo?
+12. ¿Qué dato importante sobre un animal cree que falta registrar?
+13. ¿Le resulta útil registrar eventos sanitarios como vacunas, tratamientos o incidencias?
+14. ¿La sección de actividades le ayudaría a organizar tareas de la finca? ¿Qué tareas agregaría?
+15. ¿La sección financiera le parece útil para controlar ingresos y gastos ganaderos?
+16. ¿La sección de dispositivos IoT le parece comprensible para asociar dispositivos a animales o fincas?
+17. ¿Qué tan fácil le parece interpretar el estado y las métricas de los dispositivos IoT?
+18. ¿El lenguaje usado en la aplicación le parece cercano y fácil de entender?
+19. ¿Qué parte de la aplicación le resultó más difícil de usar o encontrar?
+20. Después de probar AniTec, ¿la usaría en su trabajo diario? ¿Qué tendría que mejorar para que sí la use?
+
+### Guía de preguntas para el segmento Veterinario
+
+1. ¿Cuál es su experiencia trabajando con ganaderos o productores pecuarios?
+2. ¿Cómo organiza actualmente la información de sus clientes, pacientes y visitas?
+3. Al ver el landing page de AniTec, ¿queda claro que también está pensada para veterinarios?
+4. ¿Qué información del landing page le ayudó más a entender el valor de la aplicación?
+5. ¿Qué información agregaría al landing page para que un veterinario confíe más en AniTec?
+6. Al iniciar sesión como veterinario, ¿el dashboard le permite entender rápidamente su carga de trabajo?
+7. ¿La opción de clientes asignados le parece clara y útil?
+8. ¿Le resultó fácil agregar o revisar clientes ganaderos?
+9. ¿La vista de pacientes por ganadero le ayuda a encontrar animales bajo seguimiento?
+10. ¿Le parece adecuado que primero se seleccione un cliente para revisar sus fincas y animales?
+11. ¿La información clínica de cada animal es suficiente para una revisión veterinaria básica?
+12. ¿El formulario de eventos sanitarios permite registrar bien vacunas, diagnósticos, tratamientos o seguimientos?
+13. ¿Qué campos médicos considera que faltan en el registro sanitario?
+14. ¿La sección de actividades le serviría para programar visitas, controles o seguimientos?
+15. ¿Las alertas o estados sanitarios son fáciles de identificar dentro del dashboard?
+16. ¿La sección de analíticas le da información útil sobre clientes, animales o eventos sanitarios?
+17. ¿La sección IoT le parece útil para monitorear animales o fincas de sus clientes?
+18. ¿El menú y la organización de la aplicación coinciden con la forma en que usted trabaja?
+19. ¿Hubo alguna pantalla, botón o texto que no entendió durante la prueba?
+20. Después de probar AniTec, ¿la recomendaría como herramienta de apoyo veterinario? ¿Qué cambios serían prioritarios?
+
+## 5.3.2. Registro de entrevistas
+
+A continuación, se presentan los cuadros de registro para las entrevistas de validación. Estos cuadros serán completados manualmente con los datos del entrevistado, evidencia, enlace de la entrevista y transcripción correspondiente.
+
+**Segmento Objetivo 1: Ganaderos**
+
+| **ENTREVISTA N°1** | |
+|------------------|----------------------------|
+| **Nombre del entrevistado** |Rodrigo Alfaro |
+| **Edad** | 25 |
+| **Profesión** | Ganadero |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00:13 |
+| **Fin del video** | 00:09:36 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI |
+| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevistaRodrigo2.jpeg) |
+| **Resumen** | En la entrevista, el ganadero Rodrigo Alfaro comenta que trabaja en la crianza de bovinos, ovinos y aves en una finca familiar, donde actualmente registra la información de manera poco ordenada en cuadernos y Excel. Señala que AniTec le parece una solución clara y confiable para organizar mejor la gestión de sus animales, la sanidad, las actividades y las finanzas, destacando especialmente el dashboard y las funcionalidades principales. También sugiere mejoras como incluir más datos en el registro de animales, recordatorios automáticos, fotos y una versión móvil más práctica. En general, considera que la aplicación sería muy útil para su trabajo diario. |
+
+<br>
+
+| **ENTREVISTA N°2** | |
+|------------------|----------------------------|
+| **Nombre del entrevistado** |Kiara Gallardo  |
+| **Edad** | 22 |
+| **Profesión** | Ganadero |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:06:30 |
+| **Fin del video** | 00:17:25 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD |
+| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevistaKiara.png) |
+| **Resumen** | La ganadera Kiara señaló que actualmente gestiona información de su ganado mediante registros manuales y consideró que AniTec comunica de forma clara su propósito y beneficios desde el landing page. Destacó la facilidad para navegar por la aplicación, la utilidad del dashboard para visualizar información relevante y la claridad de las secciones relacionadas con animales, sanidad, actividades, finanzas e IoT. Asimismo, valoró positivamente las herramientas para registrar eventos sanitarios, organizar tareas y controlar ingresos y gastos de la finca. En general, tuvo una experiencia satisfactoria, no identificó dificultades importantes durante el uso y afirmó que utilizaría AniTec en sus actividades diarias, recomendando únicamente ampliar la cantidad de reportes y estadísticas disponibles para apoyar una mejor toma de decisiones. |
+
+<br>
+
+| **ENTREVISTA N°3** | |
+|------------------|----------------------------|
+| **Nombre del entrevistado** | Vicente |
+| **Edad** | 61 |
+| **Profesión** | Ganadero |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00:00 |
+| **Fin del video** | 00:07:30 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0 |
+| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevista-bruno.png) |
+| **Resumen** | Entrevistado: Vicente, quien es ganadero y se dedica a la crianza de vacunos, lo cual aporta un perfil técnico y práctico necesario para validar la utilidad de la aplicación. ​Problemática Actual del Entrevistado: ​Vicente menciona que, actualmente, el registro de información sobre sus animales, fincas, actividades y gastos lo realiza de manera espontánea utilizando una hoja de cálculo en Excel, lo cual indica una oportunidad clara para digitalizar y automatizar estos procesos.  ​Validación de la Solución (AniTec): ​Confianza y Usabilidad: Aunque Vicente no afirma estar convencido al 100% de inmediato, reconoce la utilidad de la aplicación para llevar un mejor control y organizar actividades, como el control de vacunas, tratamientos y alimentación, basándose en la edad y tipo de ganado. ​Sugerencias de Mejora: Vicente sugiere que la aplicación debería permitir agregar variables adicionales, como el tipo de suelo o clima, para complementar los datos sanitarios y de alimentación, lo que ayudaría a una toma de decisiones más precisa. ​Valor del Dashboard: El entrevistado coincide en que el panel de control (dashboard) es una herramienta valiosa para obtener información útil y rápida para la toma de decisiones, especialmente si la información se puede centralizar en un solo lugar. |
+
+<br>
+
+**Segmento Objetivo 2: Veterinarios**
+
+<br>
+
+| **ENTREVISTA N°4** | |
+|------------------|----------------------------|
+| **Nombre del entrevistado** | Andrea Solis  |
+| **Edad** | 24 |
+| **Profesión** | Veterinario |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00:00 |
+| **Fin del video** | 00:07:00 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevistaAndrea1.jpeg) |
+| **Resumen** | En la entrevista, la veterinaria Andrea comenta que actualmente organiza la información de sus clientes, pacientes y visitas de forma manual, con cuadernos y Excel. Señala que el landing page de AniTec deja claro que la plataforma también está pensada para veterinarios, destacando el historial médico completo, la comunicación con el ganadero y las estadísticas de salud. Al probar la aplicación, valora el dashboard por mostrarle rápidamente sus clientes y pacientes asignados, así como la facilidad para agregar clientes, revisar sus fincas y registrar eventos sanitarios completos. Como mejoras, sugiere agregar más campos clínicos (dosis, vía de administración, signos vitales) y aclarar mejor el funcionamiento del seguimiento de visitas.   |
+
+<br>
+
+| **ENTREVISTA N°5** | |
+|------------------|----------------------------|
+| **Nombre del entrevistado** | Hugo Jorge  |
+| **Edad** | 25 |
+| **Profesión** | Veterinario |
+| **Departamento** | Lima |
+| **Inicio del video** | 00:00:00 |
+| **Fin del video** | 00:04:30 |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN |
+| **Foto entrevista** | ![Entrevista](./markdown/assets/chapter-5/entrevista-hugo.png) |
+| **Resumen** | Como resultado de la entrevista, el veterinario indicó que actualmente organiza la información de clientes, pacientes y visitas mediante registros manuales y herramientas básicas, por lo que valoró que AniTec centralice toda la información en una sola plataforma. Señaló que el landing page transmite de manera general el propósito de la aplicación, aunque recomendó destacar con mayor claridad los beneficios específicos para veterinarios mediante ejemplos de uso, testimonios y detalles sobre la gestión sanitaria del ganado para generar mayor confianza. Respecto al registro sanitario, sugirió incorporar campos adicionales relacionados con tratamientos, historial clínico, vacunaciones y observaciones médicas. Consideró que la sección de actividades sería útil para programar visitas, controles y seguimientos periódicos, mientras que las alertas y estados sanitarios del dashboard le parecieron comprensibles y fáciles de identificar. Finalmente, destacó que la sección de analíticas proporciona información relevante para el seguimiento de clientes, animales y eventos sanitarios, facilitando la toma de decisiones y el monitoreo integral de la salud del ganado. |
+
+<br>
+
+## 5.3.3. Evaluaciones según heurísticas
+
+La evaluación heurística de AniTec se realizó a partir de las sesiones de validación con usuarios de los segmentos ganadero y veterinario. Durante estas sesiones, los entrevistados interactuaron con la landing page y con la aplicación web, revisando los flujos principales según su rol. La evaluación considera criterios de usabilidad, arquitectura de información e inclusive design, con el objetivo de identificar fortalezas, problemas de experiencia de usuario y oportunidades de mejora.
+
+Para registrar los hallazgos se utilizó una escala de severidad simple:
+
+| Severidad | Descripción |
+| --------- | ----------- |
+| 0 | No representa un problema de experiencia de usuario. |
+| 1 | Problema menor que puede corregirse sin afectar el flujo principal. |
+| 2 | Problema moderado que puede generar dudas o fricción en algunos usuarios. |
+| 3 | Problema importante que puede dificultar el cumplimiento de una tarea. |
+| 4 | Problema crítico que impide completar una tarea principal. |
+
+**Evaluación heurística - Segmento Ganadero:**
+
+| Criterio evaluado | Evidencia observada | Severidad | Recomendación |
+| ----------------- | ------------------- | --------- | ------------- |
+| Visibilidad del estado del sistema | El dashboard ganadero permite visualizar animales, hatos, eventos sanitarios y actividades principales. Sin embargo, algunas vistas podrían reforzar mensajes de carga o confirmación. | 1 | Mantener estados visibles de carga, éxito y error en formularios y listados. |
+| Correspondencia entre el sistema y el mundo real | Los términos animales, hatos, sanidad, actividades, finanzas e IoT fueron comprensibles para los ganaderos entrevistados. | 0 | Mantener vocabulario cercano al contexto ganadero. |
+| Control y libertad del usuario | Los usuarios pueden navegar por módulos, registrar datos y volver al dashboard, pero algunos formularios podrían tener acciones de cancelación más visibles. | 1 | Hacer más claros los botones para cancelar o volver sin guardar cambios. |
+| Consistencia y estándares | La aplicación mantiene navegación lateral, formularios y tarjetas con estructura similar entre módulos. | 0 | Mantener la consistencia visual y de interacción en futuras pantallas. |
+| Prevención de errores | Los formularios incluyen campos definidos, pero algunos datos importantes podrían necesitar validaciones o ayudas adicionales. | 2 | Añadir mensajes claros para campos obligatorios y formatos esperados. |
+| Reconocimiento antes que memoria | El menú lateral permite reconocer las secciones disponibles sin memorizar rutas. | 0 | Mantener iconos y nombres de menú visibles. |
+| Flexibilidad y eficiencia de uso | El dashboard y accesos por módulo facilitan tareas frecuentes, aunque podrían agregarse accesos rápidos a registros usados con frecuencia. | 1 | Añadir accesos rápidos a registrar animal, evento sanitario o actividad. |
+| Diseño estético y minimalista | La interfaz presenta información organizada, aunque algunos dashboards podrían priorizar mejor los datos más importantes. | 1 | Jerarquizar indicadores críticos y reducir contenido secundario en primer vistazo. |
+| Ayuda al usuario a reconocer y recuperarse de errores | Algunas operaciones muestran mensajes, pero no todos los errores de conexión o guardado son suficientemente descriptivos. | 2 | Mostrar mensajes de error más específicos cuando falle el backend o una operación. |
+| Inclusive design y accesibilidad | La aplicación usa textos comprensibles y navegación por rol, pero se debe seguir cuidando contraste, tamaño de texto y legibilidad en mobile. | 1 | Validar contraste, tamaños de texto y uso en pantallas pequeñas. |
+
+**Evaluación heurística - Segmento Veterinario:**
+
+| Criterio evaluado | Evidencia observada | Severidad | Recomendación |
+| ----------------- | ------------------- | --------- | ------------- |
+| Visibilidad del estado del sistema | El dashboard veterinario muestra clientes, pacientes y alertas, lo que ayuda a entender la carga de trabajo inicial. | 0 | Mantener indicadores visibles de clientes y pacientes asignados. |
+| Correspondencia entre el sistema y el mundo real | Los conceptos clientes, pacientes, historial clínico, eventos sanitarios y actividades coinciden con tareas veterinarias básicas. | 0 | Reforzar textos específicos para veterinarios en landing page y aplicación. |
+| Control y libertad del usuario | El veterinario puede revisar clientes y pacientes, pero el flujo depende de seleccionar un cliente para ver información asociada. | 1 | Explicar mejor el paso de selección de cliente antes de revisar animales o historial. |
+| Consistencia y estándares | Las vistas mantienen estructura similar al resto de la aplicación, lo que facilita aprendizaje. | 0 | Mantener componentes y patrones ya definidos. |
+| Prevención de errores | El registro sanitario funciona para casos básicos, pero los entrevistados sugirieron campos clínicos adicionales. | 2 | Añadir campos como dosis, vía de administración, signos vitales u observaciones cuando el alcance lo permita. |
+| Reconocimiento antes que memoria | La navegación por menú facilita encontrar clientes, pacientes, sanidad, actividades e IoT. | 0 | Mantener agrupación de módulos por rol. |
+| Flexibilidad y eficiencia de uso | El dashboard centraliza información útil, pero podrían existir accesos rápidos para registrar visita o evento sanitario. | 1 | Agregar accesos directos a tareas veterinarias frecuentes. |
+| Diseño estético y minimalista | La información se presenta de forma ordenada, aunque las vistas clínicas podrían beneficiarse de una jerarquía más clara. | 1 | Diferenciar visualmente datos clínicos, historial y acciones principales. |
+| Ayuda al usuario a reconocer y recuperarse de errores | Los mensajes de error pueden mejorar cuando no se cargan clientes, pacientes o eventos sanitarios. | 2 | Mostrar mensajes específicos para errores de conexión o ausencia de datos asignados. |
+| Inclusive design y accesibilidad | La experiencia por rol ayuda a reducir información innecesaria, pero se debe seguir validando legibilidad en dispositivos pequeños. | 1 | Revisar responsive, contraste y claridad de textos médicos. |
+
+**Resumen de hallazgos heurísticos:**
+
+La evaluación muestra que AniTec cumple adecuadamente con criterios de correspondencia con el mundo real, consistencia, reconocimiento y organización general de la información. Los usuarios comprenden la división por roles y reconocen la utilidad de centralizar animales, sanidad, actividades, finanzas, clientes, pacientes, IoT y suscripciones en una sola plataforma.
+
+Los principales puntos de mejora se concentran en prevención de errores, mensajes de retroalimentación y detalle de formularios. En el segmento ganadero, se recomienda reforzar validaciones y accesos rápidos a tareas frecuentes. En el segmento veterinario, se recomienda ampliar progresivamente campos clínicos y explicar con mayor claridad el flujo de selección de cliente antes de revisar pacientes o historial sanitario.
+
+<div style="page-break-before: always;"></div>
+
+# 5.4. Video About-the-Product
+
+En esta sección se presenta el video About-the-Product de AniTec, elaborado para explicar la propuesta de valor del producto, el problema que busca resolver y las principales funcionalidades disponibles en la landing page, la aplicación web y el backend desplegado. El video está dirigido a visitantes del landing page, ganaderos, veterinarios y usuarios interesados en conocer cómo AniTec apoya la gestión ganadera y veterinaria.
+
+El video muestra cómo AniTec centraliza información sobre animales, hatos, eventos sanitarios, actividades, finanzas, dispositivos IoT, analíticas, clientes veterinarios y suscripciones. También evidencia los avances logrados durante el proyecto, incluyendo la landing page publicada, el frontend desplegado, el backend publicado en Render y la documentación de servicios mediante Swagger.
+
+**Datos del video:**
+
+| Elemento | Información |
+| -------- | ----------- |
+| Título | Video About-the-Product - AniTec |
+| Duración | 26:19 minutos |
+| Público objetivo | Visitantes del landing page, ganaderos y veterinarios |
+| URL publicado en Microsoft Stream | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQDKp9O2dI9BTIMQdaH8TI7yAelzQwleVVzl8G81UmsVVu8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VcXd7z |
+| URL publicado en YouTube | https://www.youtube.com/watch?v=U_xCv93ybkI |
+| Uso en landing page | El video de YouTube se utiliza para incrustarlo en la sección About Us de la landing page. |
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/imagenvideoproduct.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia. Screenshot representativo del Video About-the-Product.</i></p>
+</div>
+
+**Estructura del contenido del video:**
+
+| Parte | Responsable | Timing en el video | Contenido explicado | Duración referencial |
+| ----- | ----------- | ------------------- | ------------------- | -------------------- |
+| Parte 1: Introducción, problema y landing page | Jorge | 00:00:00 - 00:05:10 | Presentación de AniTec, problema de gestión dispersa de animales, sanidad, actividades, finanzas y monitoreo. Se presentan los segmentos objetivo, el recorrido por la landing page, la propuesta de valor, beneficios, funcionalidades principales, call-to-action y modelo de negocio basado en planes. | 5:10 min |
+| Parte 2: Acceso a la aplicación y dashboard ganadero | Abigail | 00:05:10 - 00:10:25 | Inicio de sesión como ganadero, redirección según rol y presentación del dashboard ganadero con resumen de animales, hatos, eventos sanitarios, próximas actividades, alertas e información relevante para la toma de decisiones. | 5:15 min |
+| Parte 3: Funciones del ganadero | Josep | 00:10:25 - 00:16:20 | Gestión de hatos, registro y edición de animales, eventos sanitarios, actividades, visitas, ingresos y gastos. Se explica cómo estas funciones centralizan la información del productor ganadero. | 5:55 min |
+| Parte 4: Dashboard y funciones del veterinario | Luciana | 00:16:20 - 00:22:05 | Inicio de sesión como veterinario, dashboard veterinario, clientes asignados, pacientes, alertas sanitarias, próximas actividades, gestión de clientes, revisión de animales por ganadero e historial clínico. | 5:45 min |
+| Parte 5: IoT, suscripciones, testimonio y cierre | Bruno | 00:22:05 - 00:26:19 | Módulo IoT, registro y asociación de dispositivos a finca o animal, revisión de estado, tipo y métricas. También se presentan planes, plan activo, historial de pagos de prueba, testimonio de validación y cierre del valor de AniTec. | 4:14 min |
+
+**Testimonio incluido:**
+
+Durante el cierre del video se incluye un testimonio positivo tomado como referencia de las entrevistas de validación. El testimonio resume la percepción de utilidad del producto:
+
+> “La aplicación me parece útil porque reúne en un solo lugar la información de animales, controles sanitarios y actividades, lo que facilitaría el seguimiento diario.”
+
+Este testimonio refuerza que AniTec responde a una necesidad identificada en los segmentos objetivo: reducir la dispersión de información y mejorar la organización para la gestión ganadera y veterinaria.
+
+**Resumen del valor comunicado:**
+
+El video concluye destacando que AniTec busca mejorar la trazabilidad, organización y toma de decisiones dentro de la actividad ganadera. Para ello, conecta una landing page informativa, una aplicación web por roles y un backend real con persistencia en MySQL, permitiendo que ganaderos y veterinarios gestionen información relevante desde una sola plataforma.
+
+<div style="page-break-before: always;"></div>
+
 # Conclusiones
 
 ## Conclusiones y recomendaciones
 
 ### Conclusiones
 
-El diseño del sistema basado en Domain-Driven Design (DDD) establece una arquitectura robusta y escalable mediante la segmentación en Bounded Contexts como Identidad, Gestión Animal, Historial Clínico y Finanzas. Esta estructura permite una clara separación de responsabilidades, mejorando la trazabilidad de la información y la mantenibilidad del sistema. Asimismo, la definición de épicas y user stories asegura que el desarrollo se mantenga alineado a las necesidades reales de ganaderos y veterinarios.
+El proyecto AniTec permitio validar la necesidad de una solucion digital orientada a ganaderos y veterinarios, debido a que ambos segmentos requieren mayor orden, trazabilidad y disponibilidad de informacion sobre animales, fincas, actividades, sanidad y gastos. Las entrevistas y validaciones realizadas confirmaron que el problema identificado es real y que una plataforma web puede aportar valor si mantiene una experiencia simple, clara y cercana al contexto ganadero.
 
-Las validaciones del Problem Statement confirman la existencia del problema identificado: los ganaderos gestionan su información mediante métodos manuales como cuadernos o Excel, lo que genera desorden, pérdida de datos y baja trazabilidad. Esto también afecta a los veterinarios, quienes no cuentan con historiales clínicos completos para realizar tratamientos efectivos, evidenciando una necesidad real de digitalización en el sector.
+El diseño del sistema basado en Domain-Driven Design permitio organizar AniTec mediante bounded contexts como IAM, Profiles, Livestock, Sanitary, Financial, Activities, Analytics, Clients, Devices, Metrics y Subscriptions. Esta separacion favorece la mantenibilidad del sistema, facilita la asignacion de responsabilidades dentro del equipo y permite que cada modulo evolucione sin afectar innecesariamente al resto de la aplicacion.
 
-Las Business Assumptions fueron validadas parcialmente a través de entrevistas. Se confirmó la necesidad de un sistema confiable de registro, la pertinencia del perfil de usuarios objetivo y la importancia de alertas automáticas. Sin embargo, se identificó una posible barrera de adopción en ganaderos de mayor edad, lo que refuerza la necesidad de una interfaz simple e intuitiva. En general, las Feature Assumptions también fueron validadas, destacando el valor de alertas sanitarias y calendarios de vacunación.
+Durante el Sprint 1 se logro establecer la presencia digital del producto mediante una landing page funcional desplegada en GitHub Pages. Este avance permitio comunicar la propuesta de valor de AniTec, presentar los beneficios principales para ganaderos y veterinarios, y generar una primera base de validacion frente a usuarios potenciales.
 
-Las Hypothesis Statements presentan validación inicial positiva, ya que los usuarios muestran alta disposición a adoptar la plataforma y reconocen el valor de funcionalidades como alertas automáticas, reportes visuales y reducción de errores en el registro. Sin embargo, su validación completa requiere la implementación y uso real del sistema en producción.
+Durante el Sprint 2 se implemento la aplicacion web frontend con Vue, organizada por bounded contexts y conectada inicialmente a datos de prueba mediante my-json-server. Este sprint permitio construir las principales vistas funcionales de la plataforma, validar flujos de navegacion y preparar la estructura necesaria para reemplazar progresivamente los datos mock por servicios reales.
 
-Los criterios de éxito aún no pueden medirse de forma cuantitativa, pero la validación cualitativa confirma que están correctamente definidos. El desarrollo del Sprint 1 permitió establecer la presencia digital del proyecto mediante una Landing Page funcional y desplegada, cumpliendo el objetivo del entregable y sentando las bases para la captación de usuarios.
+Durante el Sprint 3 se desarrollo el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL. La API implementa autenticacion con JWT, gestion de usuarios, perfiles, hatos, animales, eventos sanitarios, actividades, registros financieros, clientes veterinarios, analiticas, dispositivos IoT, metricas, planes, suscripciones y pagos mock. Con ello, el proyecto dejo de depender solamente de datos simulados y paso a contar con una base de servicios persistentes.
 
-Finalmente, la arquitectura basada en DDD con múltiples Bounded Contexts, junto con una SPA en VueJS y un backend en .NET, proporciona una base técnica sólida, escalable y mantenible. Los diagramas C4 facilitan la comprensión del sistema y respaldan su evolución futura dentro del proyecto AniTec.
+La documentacion de servicios mediante Swagger/OpenAPI permitio verificar los endpoints implementados y facilitar las pruebas manuales del backend. Asimismo, las migraciones de Entity Framework Core permitieron mantener alineada la estructura de la base de datos con las entidades del dominio, reduciendo errores en la configuracion y mejorando la trazabilidad tecnica del sistema.
 
----
+El despliegue del backend en Render representa un avance importante para el proyecto, ya que la API queda disponible desde internet y puede ser consumida por el frontend desplegado. Esto permite validar AniTec en un entorno mas cercano a produccion, comprobar la disponibilidad publica del servicio y preparar futuras pruebas de integracion entre frontend, backend y base de datos.
+
+En relacion con el Student Outcome, el equipo evidencio trabajo colaborativo y liderazgo conjunto durante los tres avances. Cada integrante asumio responsabilidades claras por modulo o artefacto, participo en la planificacion de tareas, colaboro en la integracion del sistema y aporto a la documentacion del producto. Esto permitio cumplir los objetivos de cada sprint de forma progresiva y mantener coherencia entre la propuesta, el diseño, el frontend, el backend y el despliegue.
+
+**Contraste con Lean UX y validaciones:**
+
+| Elemento Lean UX | Planteamiento inicial | Resultado de validación | Conclusión |
+| ---------------- | --------------------- | ----------------------- | ---------- |
+| Problem Statement | Los pequeños y medianos ganaderos, junto con veterinarios, dependen de registros manuales, cuadernos, hojas de cálculo o herramientas poco integradas para gestionar información sanitaria, productiva y económica. | En las entrevistas de validación, los participantes confirmaron que actualmente registran información mediante medios manuales o poco centralizados. | El problema identificado se mantiene vigente y AniTec responde a una necesidad real de organización y trazabilidad. |
+| Business Assumptions | Se asumió que los usuarios necesitan una plataforma web accesible para registrar información clave, generar alertas y consultar reportes útiles. | Los usuarios valoraron la centralización de animales, sanidad, actividades, finanzas, IoT y clientes veterinarios. | La propuesta de valor fue validada en términos generales, aunque se requiere reforzar reportes, alertas y campos específicos. |
+| User Assumptions | Se asumió que ganaderos y veterinarios valorarían una interfaz simple, cercana y pensada para usuarios con poca experiencia tecnológica. | Los entrevistados comprendieron la navegación por roles y consideraron útiles los dashboards y módulos principales. | La interfaz resulta comprensible para una primera versión, pero debe seguir simplificándose en formularios y mensajes de error. |
+| Feature Assumptions | Se propuso registro digital de animales, eventos sanitarios, finanzas, reportes, clientes veterinarios e historial clínico. | Los usuarios identificaron valor en registrar animales, eventos sanitarios, actividades, finanzas y seguimiento veterinario. | Las funcionalidades principales son pertinentes, aunque deben ampliarse campos clínicos, datos del animal y métricas para decisiones. |
+| Hypothesis Statements | Se planteó que AniTec mejoraría la adopción digital, gestión sanitaria, toma de decisiones, organización de datos y colaboración veterinario-ganadero. | Las validaciones muestran aceptación inicial y percepción positiva de utilidad, especialmente por centralizar información en un solo lugar. | Las hipótesis fueron parcialmente validadas: existe interés y utilidad percibida, pero la adopción dependerá de mejorar confianza, reportes, recordatorios y facilidad de uso. |
+| Criterios de éxito | Se esperaba reducir registros manuales, mejorar precisión de registros, facilitar historial sanitario y apoyar decisiones basadas en datos. | Las entrevistas no prueban aún reducción real de errores, pero sí confirman intención de uso y reconocimiento del valor de centralizar información. | Los criterios de éxito quedan como metas para una siguiente etapa con uso real de la aplicación desplegada y medición continua. |
 
 ### Recomendaciones
 
-Se recomienda continuar con el desarrollo priorizando los módulos de Gestión Animal y Gestión Sanitaria (EP02 y EP04), ya que estos concentran las funcionalidades de mayor valor para ambos segmentos de usuarios, según lo validado en las entrevistas. El registro de animales y el historial clínico fueron las funcionalidades más mencionadas por ganaderos y veterinarios respectivamente.
+**Corto plazo:** Se recomienda continuar con la integracion completa entre el frontend desplegado en GitHub Pages y el backend desplegado en Render, asegurando que las variables de entorno del frontend apunten a la API real y que los flujos principales funcionen sin depender de my-json-server.
 
-Se recomienda realizar validación continua con 3 ganaderos y 2 veterinarios previamente entrevistados, evaluando prototipos en cada sprint. Esto permitirá ajustar el producto según necesidades reales y validar hipótesis del proyecto. Dado el perfil de usuarios (ganaderos con baja familiaridad tecnológica), se recomienda: Interfaz simple e intuitiva (tipografía legible, colores cálidos e iconografía clara), Onboarding con tutoriales interactivos y la “Academia Ganadera”, modelo freemium (plan Basic gratuito) para facilitar adopción inicial.
+**Corto plazo:** Se recomienda fortalecer la autenticacion y autorizacion del sistema, definiendo permisos por rol para ganaderos, veterinarios y administradores. Esto permitiria proteger los endpoints sensibles y asegurar que cada usuario solo acceda a la informacion correspondiente a su perfil.
 
-Se recomienda evaluar la evolución del sistema hacia una aplicación móvil, integrando servicios de mensajería como WhatsApp Business API o notificaciones push, considerando que los usuarios utilizan estos canales como principal medio de comunicación. Esto permitiría enviar alertas sanitarias, recordatorios y eventos críticos en tiempo real, mejorando la trazabilidad y respuesta oportuna en la gestión ganadera.
+**Mediano plazo:** Se recomienda continuar la validacion con ganaderos y veterinarios usando la aplicacion desplegada, no solo prototipos. Esto permitira identificar problemas reales de uso, comprension del lenguaje, dificultad en formularios, utilidad de dashboards y necesidades adicionales en los modulos de sanidad, actividades, finanzas e IoT.
 
-Se sugiere considerar la incorporación de dispositivos IoT (Internet of Things) en el futuro, como sensores de monitoreo de salud animal, ubicación o temperatura. Estos dispositivos permitirían la captura automática de datos en tiempo real, alimentando la plataforma móvil y web para una toma de decisiones más precisa y basada en datos.
+**Mediano plazo:** Se recomienda mejorar la experiencia de usuario del frontend en una siguiente iteracion, priorizando claridad en dashboards, simplificacion de formularios, estados visuales para dispositivos IoT y mejor organizacion del flujo veterinario por clientes asignados.
 
-A medida que el sistema crezca, se recomienda evolucionar la arquitectura mediante la implementación de un API Gateway para gestionar la comunicación entre la SPA y los distintos Bounded Contexts, el uso de Azure SQL Database como servicio administrado para garantizar escalabilidad y alta disponibilidad, y la incorporación de herramientas de monitoreo y logging centralizado (como Application Insights) para la detección temprana de incidencias en producción. Asimismo, se debe mantener la actualización continua de los diagramas C4, asegurando que la documentación arquitectónica refleje de manera precisa la evolución del sistema.
+**Mediano plazo:** Se recomienda completar y fortalecer las pruebas del backend, incluyendo pruebas de endpoints, validacion de reglas de negocio, manejo de errores y pruebas de integracion con la base de datos. Esto ayudara a asegurar mayor estabilidad antes de seguir ampliando funcionalidades.
+
+**Futuro roadmap:** Se recomienda mantener actualizada la documentacion tecnica, incluyendo endpoints, migraciones, evidencias de despliegue, diagramas C4 y decisiones de arquitectura. A medida que AniTec crezca, esta documentacion sera clave para sostener la colaboracion del equipo y facilitar futuras mejoras del producto.
 
 ---
+
+## Video About The Team
+
+El video About The Team presenta la participación de los integrantes del equipo Titan Team 4 durante el desarrollo de AniTec, destacando las actividades realizadas, los logros alcanzados en el curso y el desarrollo de competencias asociadas al trabajo colaborativo, liderazgo conjunto, planificación de tareas y cumplimiento de objetivos.
+
+**Datos del video:**
+
+| Elemento | Información |
+| -------- | ----------- |
+| Título | Video About The Team - AniTec |
+| Duración | 8:02 minutos |
+| Público objetivo | Docente del curso, visitantes del landing page e interesados en conocer el proceso de trabajo del equipo |
+| URL publicado en Microsoft Stream | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQAyofYgaVNZSKGbK9yprnnhAfTvMhJAbfJQ2HpwhuOl0FA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8Ff9cQ |
+| URL publicado en YouTube | https://www.youtube.com/watch?v=Ai-0rShYlvI |
+| Uso en landing page | El video de YouTube se utiliza como evidencia pública del proceso de trabajo del equipo. |
+
+**URL del video publicado en Microsoft Stream:**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQAyofYgaVNZSKGbK9yprnnhAfTvMhJAbfJQ2HpwhuOl0FA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8Ff9cQ
+
+**URL del video publicado en YouTube:**
+
+https://www.youtube.com/watch?v=Ai-0rShYlvI
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/screenshot-video-about-the-team.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+**Pauta de secuencias del video:**
+
+| Sección | Timing de inicio | Contenido |
+| ------- | ---------------- | --------- |
+| Introducción del equipo y presentación de AniTec | 00:00:00 | Presentación general de Titan Team 4, propósito del producto y contexto del trabajo final. |
+| Organización del trabajo y roles del equipo | 00:01:00 | Explicación de la distribución de responsabilidades, planificación de sprints y colaboración en repositorios. |
+| Desarrollo de landing page y aplicación web | 00:02:30 | Resumen del trabajo realizado en diseño, frontend, navegación por roles y validaciones visuales. |
+| Desarrollo del backend y servicios | 00:04:30 | Explicación de la implementación del backend, base de datos, endpoints, Swagger y despliegue. |
+| Testimonios de integrantes y Student Outcome | 00:06:30 | Participación de los integrantes comentando aprendizajes, trabajo colaborativo, liderazgo y competencias desarrolladas. |
+| Cierre del proceso de trabajo | 00:07:20 | Resumen de logros, dificultades superadas y valor del proyecto AniTec. |
+
+El contenido del video complementa la sección Student Outcome porque muestra la participación de los integrantes, la coordinación del equipo y las competencias desarrolladas durante la construcción de la landing page, la aplicación web, el backend y la documentación del proyecto.
+
+<div style="page-break-before: always;"></div>
 
 # Bibliografía
 
-Bourgau, P. (29 de marzo de 2022). _Step by Step Guide to run your Big Picture Event Storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
+Bourgau, P. (2022, marzo 29). _Step by step guide to run your big picture event storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
 
 Evans, E. (2003). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley Professional.
 
-Bourgau, P. ( 2022, 29 de marzo). _Step by Step Guide to run your Big Picture Event Storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
+Food and Agriculture Organization of the United Nations. (2022). _Digital agriculture: Technologies transforming agriculture and food systems_. https://www.fao.org/digital-agriculture/en/
 
-Chandrasekaran, P. (2024, 9 de agosto). _Remote EventStorming in Practice. Domain-driven Design: A Practitioner’s Guide_. https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
+Food and Agriculture Organization of the United Nations. (2023). _Livestock and the environment_. https://www.fao.org/livestock-environment/en/
 
-Cohn, M. (2006). _Historias de usuario: Un enfoque ágil_. Pearson Educación. https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+Chandrasekaran, P. (2023, marzo 20). _Remote EventStorming in practice_. Domain-driven Design: A Practitioner's Guide. https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
 
-Evans, E. (2003). _Domain-Driven Design: Tackling Complexity in the Heart of Software_. Addison-Wesley Professional.
+Cohn, M. (2006). _User stories applied: For agile software development_. Addison-Wesley Professional.
 
-Gothelf, J., & Seiden, J. (2021). _Lean UX_. O’Reilly Media, Inc.
+Gothelf, J., & Seiden, J. (2021). _Lean UX: Designing great products with agile teams_ (3rd ed.). O'Reilly Media.
 
-Pressman, R. S. (2010). _Ingeniería de Software: Un enfoque práctico_. McGraw-Hill. https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+Microsoft. (2026). _ASP.NET Core documentation_. https://learn.microsoft.com/aspnet/core/
 
----
+Microsoft. (2026). _Entity Framework Core documentation_. https://learn.microsoft.com/ef/core/
+
+MySQL. (2026). _MySQL 8.0 reference manual_. https://dev.mysql.com/doc/refman/8.0/en/
+
+OpenAPI Initiative. (2026). _OpenAPI specification_. https://spec.openapis.org/oas/latest.html
+
+Pressman, R. S. (2010). _Ingeniería de software: Un enfoque práctico_ (7a ed.). McGraw-Hill.
+
+Scrum.org. (2020). _The Scrum Guide_. https://scrumguides.org/scrum-guide.html
+
+Structurizr. (2026). _Structurizr documentation_. https://docs.structurizr.com/
+
+Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
+
+<div style="page-break-before: always;"></div>
 
 # Anexos
 
+<div style="page-break-before: always;"></div>
+
 ## Anexo A. Videos de exposiciones
 
-- Exposicion Avance 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD
-- Exposicion TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1
+- Exposición Avance 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD
+- Exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1
+- Exposición AV2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQBNbZRIWFzfSZQT4mSa7cCyAa-felpel01CsMzjW-O3eFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BKHhcW
+
+<div style="page-break-before: always;"></div>
 
 ## Anexo B. Videos de entrevistas
 
@@ -4367,54 +7373,85 @@ Pressman, R. S. (2010). _Ingeniería de Software: Un enfoque práctico_. McGraw-
 - Entrevista 4 - Angela Moran, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx
 - Entrevista 5 - Aldahir Sillo, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi
 
-## Anexo C. Materiales de ideacion y diseño
+<div style="page-break-before: always;"></div>
+
+## Anexo C. Videos de entrevistas de validación
+
+- Entrevista 1 - Rodrigo Alfaro: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI
+- Entrevista 2 - Kiara Gallardo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD
+- Entrevista 3 - Vicente: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0
+- Entrevista 4 - Andrea Solis: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- Entrevista 5 - Hugo Jorge: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN
+
+<div style="page-break-before: always;"></div>
+
+## Anexo D. Materiales de ideación y diseño
 
 - Lean UX Canvas del proyecto AniTec: https://app.mural.co/t/abbys5223/m/abbys5223/1776842322847/c87d07f08ed60b5b4bd30ba955608fa8ce7d468a?sender=u5608641741a75560d5d68781
 - Big Picture EventStorming y Design-Level EventStorming: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
 - Big Picture EventStorming, enlace alternativo usado en el capítulo 2: https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
 - Wireframe de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=5-678&t=Erdbu1dwId9dtDbq-1
 - Mock-up de la landing page: https://www.figma.com/design/WbTy5Gd0VpFbXolfe3OQ0C/ExamenIHCJorgeAyala?node-id=0-1&t=Erdbu1dwId9dtDbq-1
-- Wireframes de la aplicacion web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
-- Wireflows de la aplicacion web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
-- Mock-ups de la aplicacion web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
-- Prototipo de la aplicacion web: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw
+- Wireframes de la aplicación web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
+- Wireflows de la aplicación web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
+- Mock-ups de la aplicación web: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
+- Prototipo de la aplicación web: https://1drv.ms/v/c/fa8e2d4d5f95cf55/IQCahhrF7amZTIeIIL2qif1SAZwhS2QghQaWCuODMLn1hes?e=sXJwXw
 - Diagrama de clases del sistema: https://lucid.app/lucidchart/2cf9b98f-737c-43ac-9833-a2e6a387c4af/edit?viewport_loc=-5835%2C-1184%2C9341%2C3780%2C0_0&invitationId=inv_26c88d5c-929c-4141-bbb1-e3a73b17aa13
 
-## Anexo D. Repositorios y despliegues
+<div style="page-break-before: always;"></div>
+
+## Anexo E. Repositorios y despliegues
 
 - Repositorio del informe del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - Repositorio de la landing page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
 - Repositorio del frontend web: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
+- Repositorio del backend web: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend
 - Repositorio de datos de prueba: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
 - Despliegue de la landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
-- Despliegue del frontend web: https://anitecfrontendtitan.web.app
+- Despliegue del frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- Despliegue del backend web: https://anitec-backend.onrender.com/swagger/index.html
 - API mock del frontend: https://my-json-server.typicode.com/upc-1asi0730-2610-12206-titan-team-4/anitec-jsonserver
 - Tablero del Sprint Backlog 1: https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1
 - Tablero del Sprint Backlog 2: https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2
+- Tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTIe8f4417969b123401b08cdf15fc123be01FAB4B6/sprint3-anitec
 
-## Anexo E. Herramientas utilizadas
+<div style="page-break-before: always;"></div>
 
-- Trello, para gestion del backlog y tareas del proyecto: https://trello.com
-- Gherkin, para criterios de aceptacion en formato Given-When-Then: https://cucumber.io/docs/gherkin/
-- Miro, para dinamicas de EventStorming: https://miro.com/
+## Anexo F. Herramientas utilizadas
+
+- Trello, para gestión del backlog y tareas del proyecto: https://trello.com
+- Gherkin, para criterios de aceptación en formato Given-When-Then: https://cucumber.io/docs/gherkin/
+- Miro, para dinámicas de EventStorming: https://miro.com/
 - Figma, para wireframes, mock-ups y prototipos: https://www.figma.com
 - Canva, para recursos visuales del producto: https://www.canva.com
 - UXPressia, para User Personas y Customer Journey Maps: https://uxpressia.com
 - Lucidchart, para diagramas del sistema: https://www.lucidchart.com/ / https://lucidchart.com
-- GitHub, para control de versiones y colaboracion: https://github.com
-- Visual Studio Code, para edicion de codigo y archivos Markdown: https://code.visualstudio.com/
+- GitHub, para control de versiones y colaboración: https://github.com
+- Visual Studio Code, para edición de código y archivos Markdown: https://code.visualstudio.com/
 - WebStorm, para desarrollo del frontend: https://www.jetbrains.com/webstorm/
-- Rider, para desarrollo de backend en caso de usar .NET: https://www.jetbrains.com/rider/
-- GitHub Pages, para despliegue de la landing page: https://pages.github.com
-- Firebase, para despliegue del frontend web: https://firebase.google.com
-- Mockapi, para datos de prueba: https://mockapi.io/
+- Rider, para desarrollo del backend ASP.NET Core: https://www.jetbrains.com/rider/
+- GitHub Pages, para despliegue de la landing page y frontend web: https://pages.github.com
+- Render, para despliegue del backend web: https://render.com/
+- My JSON Server, para datos de prueba: https://my-json-server.typicode.com/
 - Structurizr, para diagramas C4: https://structurizr.com
 - Vertabelo, para diagramas de base de datos: https://vertabelo.com
 
-## Anexo F. Referencias bibliograficas con enlace
+<div style="page-break-before: always;"></div>
 
-- Guia para ejecutar Big Picture Event Storming: https://bit.ly/bpes-guide
-- Guia practica de EventStorming remoto: https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
+## Anexo G. Referencias bibliográficas con enlace
+
+- Guía para ejecutar Big Picture Event Storming: https://bit.ly/bpes-guide
+- Guía práctica de EventStorming remoto: https://ddd-practitioners.com/2023/03/20/remote-eventstorming-workshop/
 - Material sobre historias de usuario: https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
-- Libro de ingenieria de software usado como referencia: https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+- Libro de ingeniería de software usado como referencia: https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
 
+<div style="page-break-before: always;"></div>
+
+## Anexo H. Videos de cierre
+
+- Video About The Team: https://www.youtube.com/watch?v=Ai-0rShYlvI
+- Video About The Product: https://www.youtube.com/watch?v=U_xCv93ybkI
+
+<div style="page-break-before: always;"></div>
+
+</div>
