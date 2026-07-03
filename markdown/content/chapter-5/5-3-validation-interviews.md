@@ -75,7 +75,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Experiencia** | 20 años |
 | **Inicio del video** | 00:00:13 |
 | **Fin del video** | 00:09:36 |
-| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI) |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI |
 | **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaRodrigo2.jpeg) |
 | **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
 | Frustración: pierde registros | Confirma uso de cuadernos y hojas sueltas; causa pérdida de información. / Sí |
@@ -98,7 +98,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Ocupación** | Ganadera |
 | **Inicio del video** | 00:06:30 |
 | **Fin del video** | 00:17:25 |
-| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD) |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD |
 | **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaKiara.png) |
 | **Objetivo** | Validar si la *landing page* y la aplicación web AniTec responden a las necesidades del *User Persona*, enfocándose en la gestión, organización y el valor de la herramienta. |
 | **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
@@ -120,7 +120,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Ocupación** | Ganadero (vacuno) |
 | **Inicio del video** | 00:00:00 |
 | **Fin del video** | 00:07:30 |
-| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0) |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0 |
 | **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-bruno.png) |
 | **Objetivo** | Validar si la *landing page* y la aplicación web AniTec responden a las necesidades del *User Persona* para la gestión de ganado, con un enfoque en la organización sanitaria y administrativa. |
 | **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
@@ -143,7 +143,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Ocupación** | Veterinario |
 | **Inicio del video** | 00:00:00 |
 | **Fin del video** | 00:07:00 |
-| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
 | **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaAndrea1.jpeg) |
 | **Objetivo** | Validar si la aplicación AniTec responde a las necesidades del *User Persona* del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del *dashboard*. |
 | **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
@@ -164,7 +164,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Ocupación** | Veterinario |
 | **Inicio del video** | 00:00:00 |
 | **Fin del video** | 00:04:30 |
-| **Link del video** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN) |
+| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN |
 | **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevista-hugo.png) |
 | **Objetivo** | Validar si la aplicación AniTec responde a las necesidades del *User Persona* del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del *dashboard*. |
 | **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
