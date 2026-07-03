@@ -538,5 +538,54 @@ El Product Backlog de AniTec organiza las User Stories y Technical Stories ident
       <td><b>Como</b> Developer frontend, <b>quiero</b> configurar el ambiente de produccion <b>para</b> que la aplicacion desplegada consuma el backend real y no el servicio mock utilizado durante prototipado.</td>
       <td>3</td>
     </tr>
+    <tr>
+      <td><b>76</b></td>
+      <td><b>TS-016</b></td>
+      <td>Integracion backend con Stripe para suscripciones</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> integrar Stripe en el bounded context de suscripciones <b>para</b> crear sesiones de pago y relacionarlas con los planes de AniTec.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>77</b></td>
+      <td><b>TS-017</b></td>
+      <td>Integracion frontend del flujo de pago con Stripe</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> conectar la vista de planes con el checkout de Stripe <b>para</b> que el usuario pueda iniciar el pago desde la aplicacion web.</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td><b>78</b></td>
+      <td><b>TS-018</b></td>
+      <td>Mejora del IAM backend para autenticacion y autorizacion por rol</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> mejorar el IAM <b>para</b> validar credenciales, roles y datos de sesion de forma consistente en la API.</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td><b>79</b></td>
+      <td><b>TS-019</b></td>
+      <td>Proteccion de endpoints principales mediante JWT y roles</td>
+      <td><b>Como</b> Developer backend, <b>quiero</b> proteger los endpoints principales con JWT y roles <b>para</b> evitar el acceso no autorizado a informacion de AniTec.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>80</b></td>
+      <td><b>TS-020</b></td>
+      <td>Adaptacion del IAM frontend para sesion, token y rutas protegidas</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> adaptar el IAM para guardar sesion, token y rol del usuario <b>para</b> proteger la navegacion segun el tipo de cuenta.</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td><b>81</b></td>
+      <td><b>TS-021</b></td>
+      <td>Consumo autenticado de endpoints desde stores y servicios frontend</td>
+      <td><b>Como</b> Developer frontend, <b>quiero</b> enviar el token JWT en las peticiones Axios <b>para</b> consumir endpoints protegidos desde los stores de AniTec.</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td><b>82</b></td>
+      <td><b>TS-022</b></td>
+      <td>Documentacion y validacion del flujo de seguridad y suscripcion</td>
+      <td><b>Como</b> Developer, <b>quiero</b> documentar y validar el flujo de IAM, endpoints protegidos y Stripe <b>para</b> evidenciar que el Sprint 4 cumple su objetivo.</td>
+      <td>3</td>
+    </tr>
   </tbody>
 </table>

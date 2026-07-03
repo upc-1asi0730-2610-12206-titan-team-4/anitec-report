@@ -69,138 +69,139 @@
 
 </div>
 
-### [Registro de Versiones del Informe](./markdown/content/registro-versiones.md)
+### [Registro de Versiones del Informe](#toc-registro-de-versiones-del-informe)
 
-### [Project Report Collaboration Insights](./markdown/content/report-collaboration.md)
+### [Project Report Collaboration Insights](#toc-project-report-collaboration-insights)
 
-### [Student Outcome](./markdown/content/student-outcome.md)
+### [Student Outcome](#toc-student-outcome)
 
 ## Capítulo I: Introducción
 
-- [1.1. Startup Profile](./markdown/content/chapter-1/1-1-startup-profile.md)
-  - [1.1.1. Descripción de la Startup](./markdown/content/chapter-1/1-1-startup-profile.md)
-  - [1.1.2. Perfiles de integrantes del equipo](./markdown/content/chapter-1/1-1-startup-profile.md)
-- [1.2. Solution Profile](./markdown/content/chapter-1/1-2-solution-profile.md)
-  - [1.2.1. Antecedentes y problemática](./markdown/content/chapter-1/1-2-solution-profile.md)
-  - [1.2.2. Lean UX Process](./markdown/content/chapter-1/1-2-solution-profile.md)
-    - [1.2.2.1. Lean UX Problem Statements](./markdown/content/chapter-1/1-2-solution-profile.md)
-    - [1.2.2.2. Lean UX Assumptions](./markdown/content/chapter-1/1-2-solution-profile.md)
-    - [1.2.2.3. Lean UX Hypothesis Statements](./markdown/content/chapter-1/1-2-solution-profile.md)
-    - [1.2.2.4. Lean UX Canvas](./markdown/content/chapter-1/1-2-solution-profile.md)
-- [1.3. Segmentos objetivo](./markdown/content/chapter-1/1-3-segmentos-objetivo.md)
+- [1.1. Startup Profile](#toc-1-1-startup-profile)
+  - [1.1.1. Descripción de la Startup](#toc-1-1-1-descripcion-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#toc-1-1-2-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#toc-1-2-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#toc-1-2-1-antecedentes-y-problematica)
+  - [1.2.2. Lean UX Process](#toc-1-2-2-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#toc-1-2-2-1-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#toc-1-2-2-2-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#toc-1-2-2-3-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#toc-1-2-2-4-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#toc-1-3-segmentos-objetivo)
 
 ## Capítulo II: Requirements Elicitation & Analysis
 
-- [2.1. Competidores](./markdown/content/chapter-2/2-1-competidores.md)
-  - [2.1.1. Análisis competitivo](./markdown/content/chapter-2/2-1-competidores.md)
-  - [2.1.2. Estrategias y tácticas frente a competidores](./markdown/content/chapter-2/2-1-competidores.md)
-- [2.2. Entrevistas](./markdown/content/chapter-2/2-2-entrevistas.md)
-  - [2.2.1. Diseño de entrevistas](./markdown/content/chapter-2/2-2-entrevistas.md)
-  - [2.2.2. Registro de entrevistas](./markdown/content/chapter-2/2-2-entrevistas.md)
-  - [2.2.3. Análisis de entrevistas](./markdown/content/chapter-2/2-2-entrevistas.md)
-- [2.3. Needfinding](./markdown/content/chapter-2/2-3-needfinding.md)
-  - [2.3.1. User Personas](./markdown/content/chapter-2/2-3-needfinding.md)
-  - [2.3.2. User Task Matrix](./markdown/content/chapter-2/2-3-needfinding.md)
-  - [2.3.3. User Journey Mapping](./markdown/content/chapter-2/2-3-needfinding.md)
-  - [2.3.4. Empathy Mapping](./markdown/content/chapter-2/2-3-needfinding.md)
-  - [2.3.5. As-is Scenario Mapping](./markdown/content/chapter-2/2-3-needfinding.md)
-- [2.4. Big Picture EventStorming](./markdown/content/chapter-2/2-4-big-picture-eventstorming.md)
-- [2.5. Ubiquitous Language](./markdown/content/chapter-2/2-5-ubiquitous-language.md)
+- [2.1. Competidores](#toc-2-1-competidores)
+  - [2.1.1. Análisis competitivo](#toc-2-1-1-analisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#toc-2-1-2-estrategias-y-tacticas-frente-a-competidores)
+- [2.2. Entrevistas](#toc-2-2-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#toc-2-2-1-diseno-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#toc-2-2-2-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#toc-2-2-3-analisis-de-entrevistas)
+- [2.3. Needfinding](#toc-2-3-needfinding)
+  - [2.3.1. User Personas](#toc-2-3-1-user-personas)
+  - [2.3.2. User Task Matrix](#toc-2-3-2-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#toc-2-3-3-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#toc-2-3-4-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#toc-2-3-5-as-is-scenario-mapping)
+- [2.4. Big Picture EventStorming](#toc-2-4-big-picture-eventstorming)
+- [2.5. Ubiquitous Language](#toc-2-5-ubiquitous-language)
 
 ## Capítulo III: Requirements Specification
 
-- [3.1. User Stories](./markdown/content/chapter-3/3-1-user-stories.md)
-- [3.2. Impact Mapping](./markdown/content/chapter-3/3-2-impact-mapping.md)
-- [3.3. Product Backlog](./markdown/content/chapter-3/3-3-product-backlog.md)
+- [3.1. User Stories](#toc-3-1-user-stories)
+- [3.2. Impact Mapping](#toc-3-2-impact-mapping)
+- [3.3. Product Backlog](#toc-3-3-product-backlog)
 
 ## Capítulo IV: Product Design
 
-- [4.1. Style Guidelines](./markdown/content/chapter-4/4-1-style-guidelines.md)
-  - [4.1.1. General Style Guidelines](./markdown/content/chapter-4/4-1-style-guidelines.md)
-  - [4.1.2. Web Style Guidelines](./markdown/content/chapter-4/4-1-style-guidelines.md)
-- [4.2. Information Architecture](./markdown/content/chapter-4/4-2-information-architecture.md)
-  - [4.2.1. Organization Systems](./markdown/content/chapter-4/4-2-information-architecture.md)
-  - [4.2.2. Labeling Systems](./markdown/content/chapter-4/4-2-information-architecture.md)
-  - [4.2.3. SEO Tags and Meta Tags](./markdown/content/chapter-4/4-2-information-architecture.md)
-  - [4.2.4. Searching Systems](./markdown/content/chapter-4/4-2-information-architecture.md)
-  - [4.2.5. Navigation Systems](./markdown/content/chapter-4/4-2-information-architecture.md)
-- [4.3. Landing Page UI Design](./markdown/content/chapter-4/4-3-landing-page-ui-design.md)
-  - [4.3.1. Landing Page Wireframe](./markdown/content/chapter-4/4-3-landing-page-ui-design.md)
-  - [4.3.2. Landing Page Mock-up](./markdown/content/chapter-4/4-3-landing-page-ui-design.md)
-- [4.4. Web Applications UX/UI Design](./markdown/content/chapter-4/4-4-web-applications-ux-ui-design.md)
-  - [4.4.1. Web Applications Wireframes](./markdown/content/chapter-4/4-4-web-applications-ux-ui-design.md)
-  - [4.4.2. Web Applications Wireflow Diagrams](./markdown/content/chapter-4/4-4-web-applications-ux-ui-design.md)
-  - [4.4.2. Web Applications Mock-ups](./markdown/content/chapter-4/4-4-web-applications-ux-ui-design.md)
-  - [4.4.3. Web Applications User Flow Diagrams](./markdown/content/chapter-4/4-4-web-applications-ux-ui-design.md)
-- [4.5. Web Applications Prototyping](./markdown/content/chapter-4/4-5-web-applications-prototyping.md)
-- [4.6. Domain-Driven Software Architecture](./markdown/content/chapter-4/4-6-domain-driven-software-architecture.md)
-  - [4.6.1. Design-Level EventStorming](./markdown/content/chapter-4/4-6-domain-driven-software-architecture.md)
-  - [4.6.2. Software Architecture Context Diagram](./markdown/content/chapter-4/4-6-domain-driven-software-architecture.md)
-  - [4.6.3. Software Architecture Container Diagrams](./markdown/content/chapter-4/4-6-domain-driven-software-architecture.md)
-  - [4.6.4. Software Architecture Components Diagrams](./markdown/content/chapter-4/4-6-domain-driven-software-architecture.md)
-- [4.7. Software Object-Oriented Design](./markdown/content/chapter-4/4-7-software-object-oriented-design.md)
-  - [4.7.1. Class Diagrams](./markdown/content/chapter-4/4-7-software-object-oriented-design.md)
-- [4.8. Database Design](./markdown/content/chapter-4/4-8-database-design.md)
-  - [4.8.1. Database Diagrams](./markdown/content/chapter-4/4-8-database-design.md)
+- [4.1. Style Guidelines](#toc-4-1-style-guidelines)
+  - [4.1.1. General Style Guidelines](#toc-4-1-1-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#toc-4-1-2-web-style-guidelines)
+- [4.2. Information Architecture](#toc-4-2-information-architecture)
+  - [4.2.1. Organization Systems](#toc-4-2-1-organization-systems)
+  - [4.2.2. Labeling Systems](#toc-4-2-2-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#toc-4-2-3-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#toc-4-2-4-searching-systems)
+  - [4.2.5. Navigation Systems](#toc-4-2-5-navigation-systems)
+- [4.3. Landing Page UI Design](#toc-4-3-landing-page-ui-design)
+  - [4.3.1. Landing Page Wireframe](#toc-4-3-1-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#toc-4-3-2-landing-page-mock-up)
+- [4.4. Web Applications UX/UI Design](#toc-4-4-web-applications-ux-ui-design)
+  - [4.4.1. Web Applications Wireframes](#toc-4-4-1-web-applications-wireframes)
+  - [4.4.2. Web Applications Wireflow Diagrams](#toc-4-4-2-web-applications-wireflow-diagrams)
+  - [4.4.2. Web Applications Mock-ups](#toc-4-4-2-web-applications-mock-ups)
+  - [4.4.3. Web Applications User Flow Diagrams](#toc-4-4-3-web-applications-user-flow-diagrams)
+- [4.5. Web Applications Prototyping](#toc-4-5-web-applications-prototyping)
+- [4.6. Domain-Driven Software Architecture](#toc-4-6-domain-driven-software-architecture)
+  - [4.6.1. Design-Level EventStorming](#toc-4-6-1-design-level-eventstorming)
+  - [4.6.2. Software Architecture Context Diagram](#toc-4-6-2-software-architecture-context-diagram)
+  - [4.6.3. Software Architecture Container Diagrams](#toc-4-6-3-software-architecture-container-diagrams)
+  - [4.6.4. Software Architecture Components Diagrams](#toc-4-6-4-software-architecture-components-diagrams)
+- [4.7. Software Object-Oriented Design](#toc-4-7-software-object-oriented-design)
+  - [4.7.1. Class Diagrams](#toc-4-7-1-class-diagrams)
+- [4.8. Database Design](#toc-4-8-database-design)
+  - [4.8.1. Database Diagrams](#toc-4-8-1-database-diagrams)
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
-- [5.1. Software Configuration Management](./markdown/content/chapter-5/5-1-software-configuration-management.md)
-  - [5.1.1. Software Development Environment Configuration](./markdown/content/chapter-5/5-1-software-configuration-management.md)
-  - [5.1.2. Source Code Management](./markdown/content/chapter-5/5-1-software-configuration-management.md)
-  - [5.1.3. Source Code Style Guide & Conventions](./markdown/content/chapter-5/5-1-software-configuration-management.md)
-  - [5.1.4. Software Deployment Configuration](./markdown/content/chapter-5/5-1-software-configuration-management.md)
-- [5.2. Landing Page, Services & Applications Implementation](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-  - [5.2.1. Sprint 1](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.1. Sprint Planning 1](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.3. Sprint Backlog 1](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-    - [5.2.1.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-1-Sprint1.md)
-  - [5.2.2. Sprint 2](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.1. Sprint Planning 2](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.3. Sprint Backlog 2](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-    - [5.2.2.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-2-Sprint2.md)
-  - [5.2.3. Sprint 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.1. Sprint Planning 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.2. Aspects Leaders and Collaborators](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.3. Sprint Backlog 3](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-    - [5.2.3.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-3-Sprint3.md)
-  - [5.2.4. Sprint 4](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.1. Sprint Planning 4](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.2. Aspect Leaders and Collaborators](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.3. Sprint Backlog 4](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.4. Development Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.5. Execution Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.6. Services Documentation Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.7. Software Deployment Evidence for Sprint Review](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-    - [5.2.4.8. Team Collaboration Insights during Sprint](./markdown/content/chapter-5/5-2-4-Sprint4.md)
-- [5.3. Validation Interviews](./markdown/content/chapter-5/5-3-validation-interviews.md)
-  - [5.3.1. Diseño de Entrevistas](./markdown/content/chapter-5/5-3-validation-interviews.md)
-  - [5.3.2. Registro de Entrevistas](./markdown/content/chapter-5/5-3-validation-interviews.md)
-  - [5.3.3. Evaluaciones según heurísticas](./markdown/content/chapter-5/5-3-validation-interviews.md)
-- [5.4. Video About-the-Product](./markdown/content/chapter-5/5-4-video-about-the-product.md)
+- [5.1. Software Configuration Management](#toc-5-1-software-configuration-management)
+  - [5.1.1. Software Development Environment Configuration](#toc-5-1-1-software-development-environment-configuration)
+  - [5.1.2. Source Code Management](#toc-5-1-2-source-code-management)
+  - [5.1.3. Source Code Style Guide & Conventions](#toc-5-1-3-source-code-style-guide-and-conventions)
+  - [5.1.4. Software Deployment Configuration](#toc-5-1-4-software-deployment-configuration)
+- [5.2. Landing Page, Services & Applications Implementation](#toc-5-2-landing-page-services-and-applications-implementation)
+  - [5.2.1. Sprint 1](#toc-5-2-1-sprint-1)
+    - [5.2.1.1. Sprint Planning 1](#toc-5-2-1-1-sprint-planning-1)
+    - [5.2.1.2. Aspect Leaders and Collaborators](#toc-5-2-1-2-aspect-leaders-and-collaborators)
+    - [5.2.1.3. Sprint Backlog 1](#toc-5-2-1-3-sprint-backlog-1)
+    - [5.2.1.4. Development Evidence for Sprint Review](#toc-5-2-1-4-development-evidence-for-sprint-review)
+    - [5.2.1.5. Execution Evidence for Sprint Review](#toc-5-2-1-5-execution-evidence-for-sprint-review)
+    - [5.2.1.6. Services Documentation Evidence for Sprint Review](#toc-5-2-1-6-services-documentation-evidence-for-sprint-review)
+    - [5.2.1.7. Software Deployment Evidence for Sprint Review](#toc-5-2-1-7-software-deployment-evidence-for-sprint-review)
+    - [5.2.1.8. Team Collaboration Insights during Sprint](#toc-5-2-1-8-team-collaboration-insights-during-sprint)
+  - [5.2.2. Sprint 2](#toc-5-2-2-sprint-2)
+    - [5.2.2.1. Sprint Planning 2](#toc-5-2-2-1-sprint-planning-2)
+    - [5.2.2.2. Aspect Leaders and Collaborators](#toc-5-2-2-2-aspect-leaders-and-collaborators)
+    - [5.2.2.3. Sprint Backlog 2](#toc-5-2-2-3-sprint-backlog-2)
+    - [5.2.2.4. Development Evidence for Sprint Review](#toc-5-2-2-4-development-evidence-for-sprint-review)
+    - [5.2.2.5. Execution Evidence for Sprint Review](#toc-5-2-2-5-execution-evidence-for-sprint-review)
+    - [5.2.2.6. Services Documentation Evidence for Sprint Review](#toc-5-2-2-6-services-documentation-evidence-for-sprint-review)
+    - [5.2.2.7. Software Deployment Evidence for Sprint Review](#toc-5-2-2-7-software-deployment-evidence-for-sprint-review)
+    - [5.2.2.8. Team Collaboration Insights during Sprint](#toc-5-2-2-8-team-collaboration-insights-during-sprint)
+  - [5.2.3. Sprint 3](#toc-5-2-3-sprint-3)
+    - [5.2.3.1. Sprint Planning 3](#toc-5-2-3-1-sprint-planning-3)
+    - [5.2.3.2. Aspects Leaders and Collaborators](#toc-5-2-3-2-aspects-leaders-and-collaborators)
+    - [5.2.3.3. Sprint Backlog 3](#toc-5-2-3-3-sprint-backlog-3)
+    - [5.2.3.4. Development Evidence for Sprint Review](#toc-5-2-3-4-development-evidence-for-sprint-review)
+    - [5.2.3.5. Execution Evidence for Sprint Review](#toc-5-2-3-5-execution-evidence-for-sprint-review)
+    - [5.2.3.6. Services Documentation Evidence for Sprint Review](#toc-5-2-3-6-services-documentation-evidence-for-sprint-review)
+    - [5.2.3.7. Software Deployment Evidence for Sprint Review](#toc-5-2-3-7-software-deployment-evidence-for-sprint-review)
+    - [5.2.3.8. Team Collaboration Insights during Sprint](#toc-5-2-3-8-team-collaboration-insights-during-sprint)
+  - [5.2.4. Sprint 4](#toc-5-2-4-sprint-4)
+    - [5.2.4.1. Sprint Planning 4](#toc-5-2-4-1-sprint-planning-4)
+    - [5.2.4.2. Aspect Leaders and Collaborators](#toc-5-2-4-2-aspect-leaders-and-collaborators)
+    - [5.2.4.3. Sprint Backlog 4](#toc-5-2-4-3-sprint-backlog-4)
+    - [5.2.4.4. Development Evidence for Sprint Review](#toc-5-2-4-4-development-evidence-for-sprint-review)
+    - [5.2.4.5. Execution Evidence for Sprint Review](#toc-5-2-4-5-execution-evidence-for-sprint-review)
+    - [5.2.4.6. Services Documentation Evidence for Sprint Review](#toc-5-2-4-6-services-documentation-evidence-for-sprint-review)
+    - [5.2.4.7. Software Deployment Evidence for Sprint Review](#toc-5-2-4-7-software-deployment-evidence-for-sprint-review)
+    - [5.2.4.8. Team Collaboration Insights during Sprint](#toc-5-2-4-8-team-collaboration-insights-during-sprint)
+- [5.3. Validation Interviews](#toc-5-3-validation-interviews)
+  - [5.3.1. Diseño de Entrevistas](#toc-5-3-1-diseno-de-entrevistas)
+  - [5.3.2. Registro de Entrevistas](#toc-5-3-2-registro-de-entrevistas)
+  - [5.3.3. Evaluaciones según heurísticas](#toc-5-3-3-evaluaciones-segun-heuristicas)
+- [5.4. Video About-the-Product](#toc-5-4-video-about-the-product)
 
-### [Conclusiones](./markdown/content/conclusiones.md)
+### [Conclusiones](#toc-conclusiones)
 
-### [Bibliografía](./markdown/content/bibliografia.md)
+### [Bibliografía](#toc-bibliografia)
 
-### [Anexos](./markdown/content/anexos.md)
+### [Anexos](#toc-anexos)
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-registro-de-versiones-del-informe"></a>
 # Registro de versiones del informe
 
 | Versión |   Fecha    |                Autor                | Descripción de modificación                                                           |
@@ -220,6 +221,7 @@
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-project-report-collaboration-insights"></a>
 # Project Report Collaboration Insights
 
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
@@ -369,6 +371,7 @@ Los siguientes espacios corresponden a las evidencias de colaboración del equip
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-student-outcome"></a>
 # Student Outcomes
 
 En esta sección se describe cómo las actividades realizadas durante el desarrollo de AniTec contribuyen al logro del Student Outcome 5 de ABET, relacionado con la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen metas. Para ello, se presentan las acciones realizadas por cada integrante en las distintas entregas del proyecto y las conclusiones grupales asociadas a cada criterio.
@@ -380,10 +383,12 @@ En esta sección se describe cómo las actividades realizadas durante el desarro
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-1-1-startup-profile"></a>
 # 1.1. Startup Profile
 
 En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
 
+<a id="toc-1-1-1-descripcion-de-la-startup"></a>
 ## 1.1.1. Descripción del startup.
 
 Titan es una startup enfocada en brindar soluciones tecnológicas accesibles y efectivas para los pequeños y medianos ganaderos de Latinoamérica. A través de una plataforma web intuitiva, AniTec digitaliza la gestión del ganado mediante una estructura organizada en módulos clave que abarcan toda la operación productiva. Asimismo, la solución considera al segmento veterinario, permitiendo que los profesionales puedan revisar clientes asignados, consultar pacientes, registrar eventos sanitarios y dar seguimiento clínico a los animales atendidos.
@@ -402,6 +407,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 
 **Visión:** AniTec se proyecta como una de las plataformas más destacadas del sector ganadero en el registro y control integral de animales durante los próximos tres años. La startup busca consolidarse como un modelo de negocio sostenible, confiable y orientado a la mejora continua de la productividad rural a través de tecnología simple y efectiva.
 
+<a id="toc-1-1-2-perfiles-de-integrantes-del-equipo"></a>
 ## 1.1.2. Perfiles de los integrantes del equipo.
 
 <table>
@@ -473,8 +479,10 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-1-2-solution-profile"></a>
 # 1.2. Solution Profile
 
+<a id="toc-1-2-1-antecedentes-y-problematica"></a>
 ## 1.2.1. Antecedentes y Problemática.
 
 **Qué (What)**
@@ -547,8 +555,10 @@ El objetivo principal del proyecto es mejorar la organización y trazabilidad de
 
 Como restricciones del proyecto, la solución debe mantenerse simple de usar, estar alineada con las tecnologías trabajadas en el curso y considerar que parte del público objetivo no tiene alta experiencia usando plataformas digitales. Por ello, AniTec prioriza flujos claros, formularios directos y funcionalidades esenciales antes que procesos complejos de automatización.
 
+<a id="toc-1-2-2-lean-ux-process"></a>
 ## 1.2.2. Lean UX Process.
 
+<a id="toc-1-2-2-1-lean-ux-problem-statements"></a>
 ### 1.2.2.1. Lean UX Problem Statements.
 
 **Problem Statement:**
@@ -563,6 +573,7 @@ Nuestro enfoque inicial será pequeños y medianos ganaderos que actualmente dep
 
 Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de registros manuales, un aumento en la precisión y frecuencia de los registros ganaderos, una mejora en el cumplimiento de vacunaciones y tratamientos, una mejor consulta de historiales sanitarios por parte de veterinarios y una mayor capacidad de los usuarios para tomar decisiones basadas en datos.
 
+<a id="toc-1-2-2-2-lean-ux-assumptions"></a>
 ### 1.2.2.2. Lean UX Assumptions.
 
 ### **Business Assumptions:**
@@ -623,6 +634,7 @@ Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de r
 
 **Sabremos que esta funcionalidad es valiosa cuando** los veterinarios utilicen la plataforma como herramienta principal para registrar y consultar la información sanitaria de los animales atendidos.
 
+<a id="toc-1-2-2-3-lean-ux-hypothesis-statements"></a>
 ### 1.2.2.3. Lean UX Hypothesis Statements.
 
 - **Hypothesis Statement 01:**
@@ -678,6 +690,7 @@ Sabremos que hemos tenido éxito cuando observemos una reducción en el uso de r
 
   **Con** un módulo para veterinarios integrado dentro de la plataforma AniTec.
 
+<a id="toc-1-2-2-4-lean-ux-canvas"></a>
 ### 1.2.2.4. Lean UX Canvas.
 
 El Lean UX Canvas es una herramienta utilizada en el marco del diseño centrado en el usuario (UX) y la metodología Lean, cuyo objetivo es apoyar la creación y mejora de productos de manera ágil y eficiente. Su propósito principal es proporcionar una estructura organizada que fomente la colaboración entre equipos multidisciplinarios. A continuación, se presenta el Lean UX Canvas elaborado por el equipo utilizando la plataforma digital Mural.
@@ -687,6 +700,7 @@ Enlace para acceder al https://app.mural.co/t/abbys5223/m/abbys5223/177684232284
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-1-3-segmentos-objetivo"></a>
 # 1.3. Segmentos objetivo.
 
 De acuerdo con el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023), el Perú cuenta con más de 5 millones de cabezas de ganado vacuno, siendo la ganadería una actividad clave en regiones como Cajamarca, Puno, Cusco y La Libertad. El valor bruto de la producción ganadera supera los 3 mil millones de soles anuales, y más del 65 % de estas unidades son manejadas por pequeños y medianos productores, quienes en muchos casos no disponen de herramientas tecnológicas para una gestión eficiente de sus hatos.
@@ -708,10 +722,12 @@ Entre los posibles usuarios se encuentran:
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-2-1-competidores"></a>
 # 2.1. Competidores.
 
 Comprender el entorno competitivo es crucial para el éxito de cualquier negocio. En esta sección realizaremos un análisis profundo de nuestros competidores, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades.
 
+<a id="toc-2-1-1-analisis-competitivo"></a>
 ## 2.1.1. Análisis competitivo.
 
 Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y riesgos en el mercado, así como para posicionar a AniTec de manera estratégica. Este análisis permite comprender cómo los competidores atienden las necesidades de los clientes, identificar vacíos en el mercado y destacar nuestra solución a través de ventajas diferenciadoras. También facilita la elaboración de estrategias más efectivas de marketing, precios y distribución, garantizando una propuesta de valor sólida y sostenible.
@@ -822,6 +838,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
 </body>
 </html>
 
+<a id="toc-2-1-2-estrategias-y-tacticas-frente-a-competidores"></a>
 ## 2.1.2. Estrategias y tácticas frente a competidores.
 
 Entre las principales estrategias y tácticas que ejecutaremos como startup son las siguientes:
@@ -843,6 +860,7 @@ Por otro lado, estas son nuestras tácticas específicas:
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-2-2-entrevistas"></a>
 # 2.2. Entrevistas.
 
 Las entrevistas son una herramienta esencial para comprender a fondo a nuestro público objetivo. Para que sean efectivas, deben seguir una estructura clara y directa, utilizando preguntas específicas que permitan recolectar información de valor y datos precisos de los participantes.
@@ -851,6 +869,7 @@ Las entrevistas son una herramienta esencial para comprender a fondo a nuestro p
 
 Objetivo: Identificar frustraciones, necesidades, dispositivos disponibles, grado de digitalización y percepción sobre el registro de información ganadera.
 
+<a id="toc-2-2-1-diseno-de-entrevistas"></a>
 ## 2.2.1. Diseño de entrevistas.
 
 ### Segmentos entrevistados:
@@ -954,6 +973,7 @@ Preguntas principales:
 
 Variables demográficas a recolectar: Edad, género, distrito de residencia, educación, tipo de hacienda, frecuencia de registros, ocupación alterna, herramientas digitales que maneja, tipo de celular, acceso a internet, objetivos personales, frustraciones, marcas preferidas, influencia de técnicos o asociaciones.
 
+<a id="toc-2-2-2-registro-de-entrevistas"></a>
 ## 2.2.2. Registro de entrevistas.
 
 ### Entrevistas al segmento de ganaderos
@@ -1115,6 +1135,7 @@ El entrevistado mostró una personalidad analítica, práctica y orientada a la 
 
 Según sus respuestas, AniTec podría aportar valor si permite acceder al historial sanitario del animal, registrar diagnósticos y tratamientos, programar próximas visitas y mantener comunicación clara con el ganadero. También resaltó que la herramienta debe ser intuitiva, rápida y adaptada al contexto de campo, donde puede haber conectividad limitada. La entrevista refuerza el arquetipo de veterinario de campo que ya usa herramientas digitales básicas, pero necesita una plataforma integrada para reducir errores, evitar pérdida de información y mejorar la continuidad del tratamiento.
 
+<a id="toc-2-2-3-analisis-de-entrevistas"></a>
 ## 2.2.3. Análisis de entrevistas.
 
 ### Análisis del segmento de Ganaderos
@@ -1165,10 +1186,12 @@ En cuanto a características subjetivas, ambos veterinarios se muestran más fam
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-2-3-needfinding"></a>
 # 2.3. Needfinding.
 
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
 
+<a id="toc-2-3-1-user-personas"></a>
 ## 2.3.1. User Personas.
 
 A continuación, se presentan los User Personas diseñados para representar a los segmentos objetivo identificados durante la fase de investigación. Estos arquetipos detallan variables demográficas, rasgos psicográficos, motivaciones y comportamientos, así como los pains (frustraciones) y gains (objetivos) que enfrentan en su gestión diaria. Asimismo, se analiza su nivel digital y su interacción con soluciones tecnológicas del sector agropecuario. Toda la información ha sido sintetizada a partir de los insights recolectados en las entrevistas y estructurada mediante la plataforma UXPressia para garantizar una representación fiel de las necesidades del usuario.
@@ -1181,6 +1204,7 @@ A continuación, se presentan los User Personas diseñados para representar a lo
 
 ![User-Persona Veterinario](./markdown/assets/chapter-2/user_persona_veterinario.png)
 
+<a id="toc-2-3-2-user-task-matrix"></a>
 ## 2.3.2. User Task Matrix.
 
 A través de la User Task Matrix, es posible identificar y organizar las principales actividades que los usuarios realizan actualmente dentro de su contexto de trabajo. Al categorizar estas tareas según su frecuencia e importancia, se logra comprender cuáles representan mayores dificultades y necesidades para cada perfil de usuario, permitiendo detectar oportunidades de mejora en la gestión ganadera y veterinaria.
@@ -1200,6 +1224,7 @@ A través de la User Task Matrix, es posible identificar y organizar las princip
 
 La User Task Matrix evidencia que tanto Jorge Luis como Valeria realizan constantemente actividades relacionadas con el control sanitario y el seguimiento del ganado. Mientras Jorge Luis depende principalmente de registros físicos y de su memoria para organizar la información de sus animales, Valeria necesita acceder rápidamente a datos precisos durante sus visitas de campo y procedimientos veterinarios. Asimismo, ambos perfiles presentan dificultades relacionadas con la organización, trazabilidad y acceso oportuno a la información, especialmente en procesos de vacunación, historial clínico y monitoreo del ganado. Estas tareas permiten comprender mejor el contexto actual de los usuarios e identificar necesidades reales dentro del entorno ganadero y veterinario.
 
+<a id="toc-2-3-3-user-journey-mapping"></a>
 ## 2.3.3. User Journey Mapping.
 
 En este apartado se describe de manera detallada el recorrido y la experiencia actual de los usuarios dentro de su contexto de trabajo cotidiano, enfocándose específicamente en los dos perfiles clave identificados: productores ganaderos y médicos veterinarios. A través de los User Journey Maps As-Is, se analizan las actividades, emociones, problemas y necesidades que experimentan los usuarios durante la gestión y seguimiento del ganado, sin considerar aún la existencia de una solución tecnológica implementada.
@@ -1214,6 +1239,7 @@ User Veterinario:
 
 ![User-Veterinario-Journey](./markdown/assets/chapter-2/User-Veterinario-Journey.png)
 
+<a id="toc-2-3-4-empathy-mapping"></a>
 ## 2.3.4. Empathy Mapping.
 
 En esta sección se presenta el proceso de elaboración de los Empathy Maps correspondientes a los User Personas identificados para el proyecto: el productor ganadero y la médica veterinaria. Para el desarrollo de estos mapas de empatía, el equipo analizó la información obtenida durante la etapa de investigación y needfinding, considerando las necesidades, comportamientos, preocupaciones y motivaciones de cada perfil dentro de su contexto laboral cotidiano.
@@ -1230,6 +1256,7 @@ User Veterinario:
 
 ![User-Mapping-Empathy](./markdown/assets/chapter-2/User-Veterinario-Empathy.png)
 
+<a id="toc-2-3-5-as-is-scenario-mapping"></a>
 ## 2.3.5. As-is Scenario Mapping.
 
 El As-is Scenario Mapping permite representar cómo los usuarios realizan actualmente sus actividades antes de utilizar AniTec. Este análisis se construye a partir de las entrevistas, los User Personas, el User Task Matrix, los User Journey Maps y los Empathy Maps. Su objetivo es identificar acciones, pensamientos, emociones y oportunidades de mejora dentro del flujo actual de trabajo de cada segmento.
@@ -1262,6 +1289,7 @@ El As-is Scenario Mapping permite representar cómo los usuarios realizan actual
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-2-4-big-picture-eventstorming"></a>
 # 2.4. Big Picture EventStorming.
 
 El presente Big Picture Event Storming se ha desarrollado de manera colaborativa utilizando la plataforma Miro, siguiendo la metodología de Philippe Bourgau para explorar el dominio del negocio de forma holística y establecer un entendimiento compartido. A través de un proceso iterativo en este entorno digital, que incluyó la generación de eventos de dominio, el ordenamiento cronológico y la identificación de puntos críticos dentro de los procesos, se ha logrado mapear la complejidad del sector ganadero en una narrativa visual coherente. Este artefacto no solo permitió identificar riesgos y oportunidades de mejora en la gestión de AniTec, sino que también sentó las bases para la comprensión del dominio y el diseño posterior de la arquitectura del sistema alineada con la realidad operativa de los ganaderos y veterinarios.
@@ -1282,6 +1310,7 @@ Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-2-5-ubiquitous-language"></a>
 # 2.5. Ubiquitous Language.
 
 Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2003)** en su obra _Domain-Driven Design: Tackling Complexity in the Heart of Software_, se presenta el siguiente glosario. Este conjunto de términos constituye el lenguaje común del proyecto, eliminando ambigüedades entre el equipo de ingeniería y los expertos del dominio ganadero.
@@ -1308,6 +1337,7 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-3-1-user-stories"></a>
 # 3.1. User Stories.
 
 En esta sección se presentan los Epics, User Stories y Technical Stories identificados para AniTec a partir del análisis de entrevistas, needfinding, definición de segmentos objetivo y alcance actual de la solución. Las User Stories describen necesidades funcionales de ganaderos, veterinarios, usuarios autenticados y visitantes de la landing page. Las Technical Stories describen necesidades técnicas del frontend y del RESTful API, usando el rol Developer y criterios de aceptación en formato Given-When-Then.
@@ -1972,6 +2002,7 @@ En esta sección se presentan los Epics, User Stories y Technical Stories identi
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-3-2-impact-mapping"></a>
 # 3.2. Impact Mapping.
 
 El Impact Mapping permite relacionar los objetivos de negocio de AniTec con los segmentos objetivo, los cambios esperados en su comportamiento, los entregables necesarios y las User Stories que permiten construir dichos entregables. Para esta versión se consideran los User Personas definidos en el capítulo de Needfinding: Jorge Luis Rivas, representante del segmento ganadero, y Valeria Mendoza, representante del segmento veterinario.
@@ -1982,6 +2013,7 @@ Los objetivos de negocio planteados son incrementar en 40% el registro digital d
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-3-3-product-backlog"></a>
 # 3.3. Product Backlog.
 
 El Product Backlog de AniTec organiza las User Stories y Technical Stories identificadas para el desarrollo de la landing page, la aplicación web y el backend RESTful API. El orden se define priorizando el valor para el negocio y la experiencia del usuario, por lo que las historias de la landing page se ubican al inicio para validar la propuesta de valor, seguidas por funcionalidades principales de acceso, navegación, gestión ganadera, gestión veterinaria, analíticas, IoT, suscripciones e integración técnica.
@@ -2527,6 +2559,7 @@ El Product Backlog de AniTec organiza las User Stories y Technical Stories ident
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-1-style-guidelines"></a>
 # 4.1. Style Guidelines
 
 Las directrices de estilo establecen los principios visuales y de diseño que deben seguirse al desarrollar la interfaz de usuario (UI) de AniTec. El objetivo es crear una experiencia digital clara, accesible e intuitiva que responda a las necesidades de pequeños y medianos ganaderos, así como de veterinarios que realizan seguimiento sanitario de animales en campo.
@@ -2537,6 +2570,7 @@ El diseño debe priorizar la facilidad de uso, incluso para personas con poca ex
 
 AniTec se desarrolla como una experiencia responsive web, por lo que las decisiones de estilo móvil se integran dentro del Web Style Guide. No se plantea una aplicación móvil nativa independiente; en su lugar, la landing page y la aplicación web deben adaptarse correctamente a desktop, tablet y celulares mediante layouts flexibles, componentes legibles y navegación simplificada.
 
+<a id="toc-4-1-1-general-style-guidelines"></a>
 ## 4.1.1. General Style Guidelines
 
 Los colores resultan fundamentales para transmitir la identidad visual de la marca. En este sector, la paleta cromática seleccionada fue inspirada en la naturaleza y el entorno rural, utilizando tonos tierra, verdes orgánicos y acentos neutros. Estos colores reflejan sostenibilidad, confianza y cercanía con el campo.
@@ -2599,6 +2633,7 @@ El tono de AniTec debe ser claro, cercano y respetuoso. Se busca una comunicaci�
 
 El espaciado debe favorecer la lectura rápida y la separación clara entre módulos. En desktop se priorizan paneles amplios, tablas o tarjetas con información resumida; en pantallas pequeñas se organizan los elementos en una sola columna para mantener legibilidad. Los formularios deben agrupar campos relacionados y evitar saturar al usuario con demasiada información en una misma vista.
 
+<a id="toc-4-1-2-web-style-guidelines"></a>
 ## 4.1.2. Web Style Guidelines
 
 El Web Style Guide de AniTec nos ayuda a mostrar una identidad visual coherente y accesible en toda la plataforma. Definimos colores, tipografías y elementos de diseño inspirados en el entorno rural para transmitir confianza, tecnología cercana y facilidad de uso.
@@ -2653,12 +2688,14 @@ La landing page y la aplicación web deben mantener la misma identidad de marca,
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-2-information-architecture"></a>
 # 4.2. Information Architecture
 
 La arquitectura de información de AniTec organiza el contenido de la landing page y de la aplicación web para que visitantes, ganaderos y veterinarios encuentren con facilidad las secciones que necesitan. La propuesta considera que los usuarios pueden tener distintos niveles de experiencia digital, por lo que se priorizan etiquetas claras, recorridos simples y una separación de módulos según el rol.
 
 En la landing page, la información se organiza para presentar la propuesta de valor, beneficios, segmentos, testimonios, planes y llamadas a la acción. En la aplicación web, la información se organiza por tareas operativas: gestión de fincas, animales, sanidad, actividades, finanzas, clientes veterinarios, pacientes, analíticas, IoT y suscripciones.
 
+<a id="toc-4-2-1-organization-systems"></a>
 ## 4.2.1. Organization Systems
 
 - **Organización jerárquica:** Se aplica en dashboards, landing page y vistas principales para destacar primero los datos más importantes. Por ejemplo, el dashboard del ganadero prioriza indicadores de animales, fincas, alertas y actividades; mientras que el dashboard veterinario prioriza clientes, pacientes, eventos sanitarios y seguimientos.
@@ -2673,6 +2710,7 @@ En la landing page, la información se organiza para presentar la propuesta de v
 
 - **Organización matricial:** Se utiliza en dashboards, reportes y analíticas, donde el usuario puede comparar indicadores por finca, animal, cliente, estado sanitario o tipo de evento.
 
+<a id="toc-4-2-2-labeling-systems"></a>
 ## 4.2.2. Labeling Systems
 
 El sistema de etiquetado de AniTec usa palabras breves y familiares para evitar confusión. Las etiquetas deben ser entendibles tanto para ganaderos con poca experiencia digital como para veterinarios que necesitan revisar información clínica con rapidez.
@@ -2698,6 +2736,7 @@ El sistema de etiquetado de AniTec usa palabras breves y familiares para evitar 
 
 Las etiquetas de acción también se mantienen simples: "Registrar", "Guardar", "Editar", "Eliminar", "Cancelar", "Buscar", "Agregar cliente" y "Ver historial". Estas palabras describen directamente la acción esperada y reducen la posibilidad de interpretación ambigua.
 
+<a id="toc-4-2-3-seo-tags-and-meta-tags"></a>
 ## 4.2.3. SEO Tags and Meta Tags
 
 **Landing Page:**
@@ -2714,6 +2753,7 @@ Las etiquetas de acción también se mantienen simples: "Registrar", "Guardar", 
 - **Keywords:** AniTec app, dashboard ganadero, dashboard veterinario, gestión de animales, eventos sanitarios, clientes veterinarios, pacientes, finanzas ganaderas, analíticas ganaderas, métricas IoT, suscripciones AniTec
 - **Author:** AniTec
 
+<a id="toc-4-2-4-searching-systems"></a>
 ## 4.2.4. Searching Systems
 
 El sistema de búsqueda en AniTec ayuda a encontrar información dentro de módulos con muchos registros. Las opciones de búsqueda deben mostrar resultados filtrados de forma inmediata y acompañarse de estados vacíos cuando no existan coincidencias.
@@ -2728,6 +2768,7 @@ El sistema de búsqueda en AniTec ayuda a encontrar información dentro de módu
 
 Después de una búsqueda, los datos deben mostrarse en tarjetas, listas o tablas según el módulo. Si no hay coincidencias, la interfaz debe mostrar mensajes claros como "No se encontraron animales" o "No hay registros disponibles".
 
+<a id="toc-4-2-5-navigation-systems"></a>
 ## 4.2.5. Navigation Systems
 
 Los sistemas de navegación de AniTec se diseñan para guiar a visitantes y usuarios autenticados de forma clara. La landing page utiliza navegación superior, mientras que la aplicación web utiliza menú lateral adaptado al rol.
@@ -2764,12 +2805,14 @@ La navegación por rol permite que cada usuario acceda solo a las secciones rele
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-3-landing-page-ui-design"></a>
 # 4.3. Landing Page UI Design
 
 El diseño de la Landing Page de AniTec fue desarrollado con el propósito de ofrecer al visitante una primera impresión clara, atractiva y funcional sobre la aplicación y sus beneficios. La interfaz busca comunicar de manera efectiva la propuesta de valor de la plataforma, enfocándose en la digitalización y optimización de la gestión ganadera y veterinaria mediante herramientas tecnológicas accesibles e intuitivas.
 
 La propuesta visual toma como base las decisiones definidas en las Style Guidelines y en la Information Architecture. Por ello, la landing page organiza el contenido con una jerarquía clara, navegación simple, mensajes dirigidos a ganaderos y veterinarios, y secciones adaptadas para una experiencia responsive en desktop y mobile web.
 
+<a id="toc-4-3-1-landing-page-wireframe"></a>
 ## 4.3.1. Landing Page Wireframe
 
 El wireframe de la landing page de AniTec actúa como una guía visual preliminar que organiza los elementos esenciales de la página sin entrar en detalles gráficos. Este esquema muestra la distribución de secciones clave como el encabezado con el logo y menú de navegación, una propuesta de valor centrada en la digitalización ganadera, testimonios de usuarios reales del campo, y llamadas a la acción destacadas que invitan a conocer la aplicación. El objetivo es garantizar una experiencia intuitiva para el visitante y facilitar su conversión en usuario activo de la plataforma.
@@ -2796,6 +2839,7 @@ La propuesta del wireframe aplica principios de diseño, diseño inclusivo y arq
   </p>
 </div>
 
+<a id="toc-4-3-2-landing-page-mock-up"></a>
 ## 4.3.2. Landing Page Mock-up
 
 El mock-up de la landing page de AniTec representa una versión detallada y cercana al diseño final, integrando colores, tipografías e imágenes que reflejan la identidad visual de la plataforma. Este diseño ofrece una vista realista de cómo se presentará la página a los usuarios, destacando una estética moderna, accesible y alineada con el sector agroindustrial ganadero. Además, refuerza la importancia de mantener coherencia visual y claridad en la propuesta de valor, transmitiendo confianza, profesionalismo y compromiso con la innovación tecnológica en el campo.
@@ -2826,10 +2870,12 @@ El mock-up aplica la paleta de colores, tipografía, navegación y jerarquía vi
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-4-web-applications-ux-ui-design"></a>
 # 4.4. Web Applications UX/UI Design.
 
 La aplicación web de AniTec contempla una experiencia diferenciada para ganaderos y veterinarios. El ganadero utiliza la plataforma para administrar fincas, animales, sanidad, actividades, finanzas, dispositivos IoT y planes; mientras que el veterinario la utiliza para revisar clientes, pacientes, registros clínicos, seguimientos y analíticas. Esta separación permite que cada rol acceda a las funciones necesarias para cumplir sus tareas dentro de la solución.
 
+<a id="toc-4-4-1-web-applications-wireframes"></a>
 ## 4.4.1. Web Applications Wireframes.
 
 Los wireframes de la aplicación web de AniTec ilustran la estructura y distribución de las principales pantallas dirigidas al ámbito agroindustrial, con énfasis en el sector ganadero. Estos bocetos permiten validar la estructura, navegación y jerarquía de la información antes de avanzar hacia el diseño visual definitivo. También permiten visualizar la organización de los componentes de la interfaz y el flujo de navegación entre las distintas secciones, sirviendo como referencia para el diseño definitivo. De este modo, se asegura una experiencia de usuario clara, ágil y alineada con las necesidades reales de los productores. Fueron elaborados utilizando Figma. Enlace para acceder a los wireframes: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=0-1&t=q2mM6e2YoQyJLZaK-1
@@ -2964,6 +3010,8 @@ Dashboard donde se presentan los reportes generados
 
 </div>
 
+<a id="toc-4-4-2-web-applications-wireflow-diagrams"></a>
+<a id="toc-4-4-2-web-applications-mock-ups"></a>
 ## 4.4.2. Web Applications Wireflow Diagrams.
 
 En esta sección se presentan los Wireflows para cada objetivo del usuario. Para ello se consideró los User Persona correspondientes. Cada diagrama muestra el flujo de interacción entre pantallas a nivel de wireframe. Enlace para acceder a los wireflows en Figma: https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=44-1275&t=fdPLEZQXM0PqMAv3-1
@@ -3028,6 +3076,7 @@ En esta sección se presentan los Wireflows para cada objetivo del usuario. Para
 
 </div>
 
+<a id="toc-4-4-3-web-applications-user-flow-diagrams"></a>
 ## 4.4.3. Web Applications Mock-ups.
 
 En esta sección se exponen y analizan los mockups de la aplicación web AniTec, diseñada para apoyar la gestión del sector ganadero y el seguimiento veterinario. En ellos se aprecia la implementación de principios fundamentales de diseño visual, accesibilidad, arquitectura de la información y del Design System definido para el producto. Cada mockup muestra cómo estos elementos se integran en una interfaz orientada a optimizar la trazabilidad, el control sanitario, la gestión eficiente del ganado y la consulta de información por rol. Asimismo, los mockups aplican la navegación por rol definida para ganaderos y veterinarios. Se incluye el enlace para acceder al contenido. https://www.figma.com/design/9RliVy9r8aEzyfyEof3DGr/Untitled?node-id=42-837&t=fdPLEZQXM0PqMAv3-1
@@ -3195,6 +3244,7 @@ En esta parte se detallan los diagramas de flujo de usuario, donde se describen 
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-5-web-applications-prototyping"></a>
 # 4.5. Web Applications Prototyping.
 
 El prototipado de la aplicación web de AniTec permite validar la navegación e interacción entre las principales pantallas antes de la implementación final. Los criterios considerados para el prototipo fueron claridad en los recorridos, consistencia visual con el Style Guide, separación de acciones por rol y facilidad para completar tareas frecuentes como iniciar sesión, consultar animales, registrar eventos, revisar historial médico, controlar ingresos y egresos, y visualizar reportes.
@@ -3213,12 +3263,14 @@ El prototipo se relaciona directamente con la arquitectura de información defin
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-6-domain-driven-software-architecture"></a>
 # 4.6. Domain-Driven Software Architecture.
 
 El Domain-Driven Design (DDD) tiene como objetivo central establecer un entendimiento mutuo sobre el dominio del negocio, promoviendo la sinergia entre el equipo técnico y los expertos del área a través de un lenguaje ubicuo. Este marco de trabajo trasciende el vocabulario técnico al integrar patrones estratégicos, metodologías de diseño y diagramas arquitectónicos que garantizan que el software evolucione en total sintonía con las prioridades empresariales. De esta forma, se logra una solución técnica robusta, profundamente ligada al conocimiento del negocio y capaz de resolver problemas complejos de manera eficiente.
 
 Para ilustrar la aplicación práctica de estos conceptos en el proyecto, se detallan a continuación los primeros tres niveles del modelo C4, implementados mediante Structurizr, los cuales brindan una visión clara y estructurada del sistema en desarrollo.
 
+<a id="toc-4-6-1-design-level-eventstorming"></a>
 ## 4.6.1. Design Level EventStorming
 
 El Design-Level EventStorming de AniTec se presenta desde el paso 4 porque los primeros pasos del proceso, correspondientes a la exploración general del dominio mediante Big Picture EventStorming, fueron desarrollados previamente en la sección de Needfinding. Por ello, esta sección continúa con los pasos orientados al diseño del dominio, la identificación de comandos, políticas, modelos de lectura, sistemas externos, agregados y bounded contexts.
@@ -3339,6 +3391,7 @@ El Design-Level EventStorming de AniTec se presenta desde el paso 4 porque los p
 
 Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
 
+<a id="toc-4-6-2-software-architecture-context-diagram"></a>
 ## 4.6.2. Software Architecture Context Diagram.
 
 El Software Architecture Context Level Diagram presenta una vista general del sistema Anitec y sus interacciones con usuarios y sistemas externos. Este diagrama permite identificar los principales actores de la plataforma, así como los servicios externos utilizados para funcionalidades como procesamiento de pagos y envío de correos electrónicos.
@@ -3353,6 +3406,7 @@ El Software Architecture Context Level Diagram presenta una vista general del si
   </p>
 </div>
 
+<a id="toc-4-6-3-software-architecture-container-diagrams"></a>
 ## 4.6.3. Software Architecture Container Diagrams.
 
 El Software Architecture Container Diagram permite visualizar la descomposición interna del sistema de gestión ganadera en unidades técnicas desplegables. Se presenta una infraestructura donde el Rancher y el Veterinarian interactúan con una Single Page Application (SPA) de Vue.js y Vite, la cual es entregada por una Web Application y complementada por una Landing Page informativa. Esta estructura se explica mediante el flujo de datos hacia una API Application que procesa la lógica del negocio, gestiona módulos como IAM, perfiles, ganadería, sanidad, actividades, finanzas, analíticas, dispositivos y suscripciones, y almacena la información en una base de datos MySQL.
@@ -3367,6 +3421,7 @@ El Software Architecture Container Diagram permite visualizar la descomposición
   </p>
 </div>
 
+<a id="toc-4-6-4-software-architecture-components-diagrams"></a>
 ## 4.6.4. Software Architecture Components Diagrams.
 
 Los Software Architecture Component Diagrams presentan la descomposición interna del contenedor API Application de AniTec. Estos diagramas permiten identificar los principales bounded contexts, sus responsabilidades, los controladores REST, servicios de aplicación, repositorios, componentes compartidos y la interacción con la base de datos MySQL.
@@ -3507,12 +3562,14 @@ El Shared Component Diagram presenta los componentes transversales utilizados po
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-7-software-object-oriented-design"></a>
 # 4.7. Software Object-Oriented Design.
 
 El diseño orientado a objetos de AniTec representa las principales clases, entidades, relaciones y responsabilidades que permiten implementar la lógica de la aplicación. Para mantener coherencia con la arquitectura del backend, el diseño se organiza tomando como referencia los bounded contexts definidos en la solución: IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Devices, Subscriptions y Shared.
 
 El objetivo de esta sección es mostrar cómo los conceptos principales del dominio se transforman en clases del sistema, considerando entidades persistentes, servicios de aplicación, repositorios y componentes compartidos. De esta manera, el diseño orientado a objetos mantiene relación directa con la arquitectura por capas utilizada en el backend de AniTec.
 
+<a id="toc-4-7-1-class-diagrams"></a>
 ## 4.7.1. Class Diagrams.
 
 El Class Diagram de AniTec presenta una vista general de las clases principales utilizadas para representar usuarios, perfiles, animales, hatos, eventos sanitarios, actividades, registros financieros, métricas, dispositivos, suscripciones y pagos. Este diagrama permite visualizar la relación entre los elementos principales del dominio y sirve como base para comprender la estructura lógica de la solución.
@@ -3566,6 +3623,7 @@ Diccionario de clases usado para el desarrollo de AniTec.
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-4-8-database-design"></a>
 # 4.8. Database Design.
 
 El diseño de base de datos de AniTec se plantea sobre un modelo relacional implementado con MySQL. Esta decisión permite organizar la información principal de la aplicación en tablas relacionadas mediante primary keys y foreign keys, manteniendo consistencia entre los datos de usuarios, ganadería, sanidad, actividades, finanzas, analíticas, dispositivos IoT y suscripciones.
@@ -3574,6 +3632,7 @@ La persistencia se encuentra organizada de acuerdo con los bounded contexts defi
 
 El modelo relacional permite reflejar las dependencias entre estas áreas mediante claves primarias y foráneas. Por ejemplo, los animales pertenecen a un hato, los eventos sanitarios se asocian a animales, los dispositivos pueden relacionarse con hatos o animales, las métricas pertenecen a dispositivos y las suscripciones se vinculan con usuarios y planes.
 
+<a id="toc-4-8-1-database-diagrams"></a>
 ## 4.8.1. Database Diagram.
 
 El siguiente Database Diagram presenta las tablas, columnas principales, constraints y relaciones necesarias para la persistencia de información de AniTec. El diagrama muestra la estructura actualizada de la base de datos relacional utilizada por el backend de la aplicación.
@@ -3590,10 +3649,12 @@ El siguiente Database Diagram presenta las tablas, columnas principales, constra
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-5-1-software-configuration-management"></a>
 # 5.1. Software Configuration Management.
 
 En esta sección se detallan todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar la Landing Page y Aplicación Web de AniTec. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
 
+<a id="toc-5-1-1-software-development-environment-configuration"></a>
 ## 5.1.1. Software Development Environment Configuration.
 
 En este apartado se describe la configuración del entorno de desarrollo de AniTec, establecida para garantizar la correcta integración, colaboración y trazabilidad de las actividades realizadas por los miembros del equipo. Se definen las herramientas, plataformas y productos de software utilizados a lo largo del ciclo de vida de la ejecución, desde la gestión del proyecto hasta el despliegue y la documentación técnica.
@@ -3660,6 +3721,7 @@ Agrupa herramientas a emplear para documentar la arquitectura, procesos, modelos
 | Structurizr              | Modelado de la arquitectura del sistema mediante el enfoque C4 (contexto, contenedores y componentes). | https://structurizr.com |
 | Vertabelo                | Diseño y documentación del modelo de base de datos relacional del sistema AniTec.                      | https://vertabelo.com   |
 
+<a id="toc-5-1-2-source-code-management"></a>
 ## 5.1.2. Source Code Management.
 
 En esta sección, el equipo de desarrollo de AniTec define los mecanismos y la estructura organizativa utilizados para el control de versiones y el seguimiento de cambios, empleando **GitHub** como plataforma principal.
@@ -3715,6 +3777,7 @@ La estructura básica será: `git commit -m "<type>[optional scope]:<title>" -m"
 - **test**: creación o actualización de pruebas unitarias o de integración.
 - **chore**: tareas de mantenimiento, configuración o actualización de dependencias.
 
+<a id="toc-5-1-3-source-code-style-guide-and-conventions"></a>
 ## 5.1.3. Source Code Style Guide & Conventions.
 
 En esta sección, el equipo de desarrollo de AniTec define las convenciones de nomenclatura y estilo de código adoptadas para garantizar consistencia, legibilidad y mantenibilidad en todos los componentes del sistema. Estas convenciones aplican a la Landing Page, la Web Application frontend y los Web Services backend, manteniendo coherencia entre HTML, CSS, JavaScript, Vue, PrimeVue, ASP.NET Core y la API REST.
@@ -3816,6 +3879,7 @@ Se adoptan convenciones simples para mantener endpoints claros y coherentes con 
 - Respuestas orientadas a datos necesarios para el frontend, evitando exponer detalles internos de persistencia.
 - Documentación de endpoints mediante Swagger/OpenAPI.
 
+<a id="toc-5-1-4-software-deployment-configuration"></a>
 ## 5.1.4. Software Deployment Configuration.
 
 En esta sección se describe la configuración y el proceso de despliegue de los distintos componentes del sistema AniTec, detallando los pasos necesarios para publicar cada producto digital a partir de sus respectivos repositorios de código fuente.
@@ -3920,14 +3984,17 @@ El backend queda disponible públicamente para la integración con el frontend. 
 <br>
 <br>
 
+<a id="toc-5-2-landing-page-services-and-applications-implementation"></a>
 # 5.2. Landing Page, Services & Applications Implementation.
 
+<a id="toc-5-2-1-sprint-1"></a>
 ## 5.2.1. Sprint 1.
 
 En el Sprint 1, el equipo de AniTec se enfocó en la construcción de la Landing Page como primer entregable del producto digital, con el objetivo de establecer la presencia inicial del sistema y validar la propuesta de valor frente a los usuarios objetivo (ganaderos y veterinarios).
 
 Durante este Sprint se desarrolló la estructura base de la Landing Page, incluyendo la organización de las secciones principales, la navegación entre páginas, la presentación de la propuesta de valor y los llamados a la acción orientados a la captación de usuarios.
 
+<a id="toc-5-2-1-1-sprint-planning-1"></a>
 ### 5.2.1.1. Sprint Planning 1.
 
 El Sprint Planning del Sprint 1 tuvo como objetivo definir el alcance inicial del proyecto, priorizando la creación de la Landing Page como primer punto de contacto con los usuarios finales.
@@ -4017,6 +4084,7 @@ La selección de estos User Stories para el Sprint 1 responde a la necesidad de 
 
 La distribución de Story Points fue diseñada para que cada miembro del equipo tuviera una carga de trabajo equilibrada. Se priorizaron las tareas de implementación técnica (estructura HTML y estilos) sobre las tareas de configuración, reconociendo que la visibilidad del progreso es fundamental para mantener la motivación del equipo durante las primeras etapas del proyecto.
 
+<a id="toc-5-2-1-2-aspect-leaders-and-collaborators"></a>
 ### 5.2.1.2. Aspects Leaders and Collaborators.
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX), que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
@@ -4102,6 +4170,7 @@ El aspecto responsive/mobile fue cubierto dentro del desarrollo HTML/CSS y media
 
 - **Landing Page - Responsive / Mobile:** Responsable de verificar que la navegación, secciones, botones e imágenes se adapten correctamente en desktop, tablet y mobile, evitando solapamientos o pérdida de legibilidad.
 
+<a id="toc-5-2-1-3-sprint-backlog-1"></a>
 ### 5.2.1.3. Sprint Backlog 1.
 
 El Sprint Backlog 1 tiene el objetivo principal de establecer la presencia digital de AniTec mediante una Landing Page multipágina funcional para los segmentos de ranchers y veterinarians. Este documento representa el compromiso del equipo para completar las tareas identificadas durante el Sprint Planning y representa la base para el seguimiento del progreso durante la iteración.
@@ -4245,6 +4314,7 @@ El Sprint Backlog refleja 9 tareas principales, alineadas con los 34 Story Point
 
 El equipo se compromete a completar todas las tareas del Sprint Backlog antes de la fecha de Sprint Review programada para el final de la iteración. Se realizará seguimiento diario del progreso mediante las daily standups y se tomarán acciones correctivas en caso de identificar desviaciones significativas del plan.
 
+<a id="toc-5-2-1-4-development-evidence-for-sprint-review"></a>
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint 1: Landing Page Multipágina. La sección resume los principales avances logrados durante este Sprint inicial y sirve como evidencia de que el equipo cumplió con el objetivo planificado.
@@ -4293,6 +4363,7 @@ El equipo realizó un total de 8 commits relacionados con la implementación de 
 - Total de commits registrados: 8
 - Total de contribuciones: 5 miembros del equipo
 
+<a id="toc-5-2-1-5-execution-evidence-for-sprint-review"></a>
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 
 Esta sección resume lo alcanzado en el Sprint 1 y presenta las capturas de pantalla de las principales vistas implementadas, junto con enlaces que ilustran la visualización y navegación logradas durante este Sprint inicial. Las evidencias presentadas demuestran que el equipo cumplió satisfactoriamente con el Sprint Goal establecido durante el Planning.
@@ -4359,6 +4430,7 @@ Las Landing Pages implementadas incluyen las siguientes secciones principales:
 - **Efectos hover:** Transiciones suaves en botones, cards, e imágenes.
 - **CTA con imágenes:** Secciones CTA con imágenes rancher-2.png y veterinarian-2.png.
 
+<a id="toc-5-2-1-6-services-documentation-evidence-for-sprint-review"></a>
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante el Sprint 1 no se implementaron Web Services ni endpoints REST, debido a que el alcance de la iteración estuvo centrado en la construcción de una Landing Page estática para presentar AniTec, sus segmentos objetivo, beneficios principales y llamados a la acción. Por ello, la documentación de servicios se enfoca en los recursos estáticos publicados y en las rutas disponibles dentro del sitio.
@@ -4381,6 +4453,7 @@ https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 Los servicios REST de AniTec fueron planificados para sprints posteriores, cuando la aplicación web necesitara consumir datos dinámicos desde una API. En este primer Sprint, el objetivo fue validar la presencia pública del producto y la comunicación inicial de valor para ganaderos y veterinarios.
 
+<a id="toc-5-2-1-7-software-deployment-evidence-for-sprint-review"></a>
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 
 La landing page de AniTec fue desplegada exitosamente en **GitHub Pages**, la plataforma de hosting gratuita proporcionada por GitHub que permite publicar proyectos estáticos directamente desde un repositorio. El despliegue se realizó configurando el branch `main` como fuente de contenido estático en la configuración de GitHub Pages del repositorio `anitec-landing-page`.
@@ -4407,6 +4480,7 @@ Después del despliegue, se verificó que todas las páginas estuvieran accesibl
 
 El sitio desplegado está disponible públicamente para usuarios externos y puede ser compartido mediante la URL de GitHub Pages para revisiones del Sprint.
 
+<a id="toc-5-2-1-8-team-collaboration-insights-during-sprint"></a>
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Esta información permite evaluar la efectividad del equipo y identificar oportunidades de mejora para sprints futuros.
@@ -4468,12 +4542,14 @@ El equipo identifica las siguientes lecciones de este Sprint 1:
 
 # 5.2. Landing Page, Services & Applications Implementation.
 
+<a id="toc-5-2-2-sprint-2"></a>
 ## 5.2.2. Sprint 2.
 
 En el Sprint 2, el equipo de AniTec se enfocó en la construcción de la aplicación web frontend completa utilizando Vue 3, implementando todos los módulos funcionales de gestión ganadera: autenticación y roles, gestión de fincas y animales, control sanitario y clínico, gestión financiera, calendario de eventos, dashboards y reportes estadísticos. El objetivo fue entregar una aplicación web funcional que permita a ganaderos y veterinarios gestionar digitalmente sus operaciones.
 
 Durante este Sprint se desarrolló la arquitectura completa del frontend siguiendo los principios de Domain-Driven Design (DDD), con bounded contexts independientes para cada módulo, stores de Pinia para la gestión de estado, integración con una API REST mock mediante my-json-server, y despliegue en GitHub Pages.
 
+<a id="toc-5-2-2-1-sprint-planning-2"></a>
 ### 5.2.2.1. Sprint Planning 2.
 
 El Sprint Planning del Sprint 2 tuvo como objetivo definir el alcance para el desarrollo de la aplicación web de AniTec, priorizando la implementación de los módulos centrales de gestión ganadera que aportan valor directo a los usuarios finales.
@@ -4562,6 +4638,7 @@ La selección de estos User Stories para el Sprint 2 responde a la necesidad de 
 
 La distribución de Story Points fue diseñada considerando las dependencias técnicas entre módulos. Se priorizó la configuración inicial y el módulo IAM como base, seguido de los módulos CRUD centrales (animales y sanidad), y finalmente los módulos de soporte (finanzas y reportes).
 
+<a id="toc-5-2-2-2-aspect-leaders-and-collaborators"></a>
 ### 5.2.2.2. Aspects Leaders and Collaborators.
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 2, que indica por cada aspecto dentro del alcance del Sprint, quién es el líder y quién o quiénes son colaboradores en dicho aspecto, con el fin de brindar mayor claridad y efectividad en la comunicación al interior del equipo.
@@ -4664,6 +4741,7 @@ Para este segundo Sprint, los aspectos están centrados en el desarrollo de la a
 
 - **Frontend - Deployment and Mock API:** Responsable de publicar la aplicación web en GitHub Pages, configurar el consumo de datos desde my-json-server y verificar que la URL pública permita navegar las vistas principales con datos de prueba.
 
+<a id="toc-5-2-2-3-sprint-backlog-2"></a>
 ### 5.2.2.3. Sprint Backlog 2.
 
 El Sprint Backlog 2 tiene el objetivo principal de desarrollar la aplicación web frontend de AniTec con los módulos de autenticación, navegación, gestión de animales, sanidad, finanzas, eventos y reportes. Este documento representa el compromiso del equipo para completar las tareas identificadas durante el Sprint Planning y representa la base para el seguimiento del progreso durante la iteración.
@@ -4807,6 +4885,7 @@ El Sprint Backlog refleja 9 tareas que totalizan aproximadamente 47 horas estima
 
 El equipo se compromete a completar todas las tareas del Sprint Backlog antes de la fecha de Sprint Review programada para el final de la iteración. Se realizará seguimiento diario del progreso mediante las daily standups y se tomarán acciones correctivas en caso de identificar desviaciones significativas del plan.
 
+<a id="toc-5-2-2-4-development-evidence-for-sprint-review"></a>
 ### 5.2.2.4. Development Evidence for Sprint Review.
 
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint 2: Aplicación Web Frontend. La sección resume los principales avances logrados durante este Sprint y sirve como evidencia de que el equipo cumplió con el objetivo planificado.
@@ -4939,6 +5018,7 @@ https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-frontend
 - Archivos fuente: 47 archivos distribuidos en 6 bounded contexts
 - Líneas de código: ~3,500 líneas entre componentes Vue, stores, servicios y estilos
 
+<a id="toc-5-2-2-5-execution-evidence-for-sprint-review"></a>
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 
 Esta sección resume lo alcanzado en el Sprint 2 y presenta la descripción de las principales vistas implementadas, junto con las funcionalidades que ilustran la visualización y navegación logradas durante este Sprint. Las evidencias presentadas demuestran que el equipo cumplió satisfactoriamente con el Sprint Goal establecido durante el Planning.
@@ -5026,6 +5106,7 @@ A continuación, se detallan las principales vistas de la aplicación web:
 - **Notificaciones Toast:** Mensajes de éxito y error después de cada operación CRUD.
 - **Filtrado por rol:** Cada módulo muestra únicamente la información correspondiente al rol del usuario (ganadero solo ve sus datos, veterinario solo ve datos de sus clientes).
 
+<a id="toc-5-2-2-6-services-documentation-evidence-for-sprint-review"></a>
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 Para el Sprint 2, el equipo utilizó **my-json-server** como servicio de mock API para alimentar de datos a la aplicación web frontend. My JSON Server es un servicio gratuito que permite crear una API REST falsa a partir de un archivo JSON alojado en un repositorio de GitHub, ideal para prototipado y desarrollo frontend sin necesidad de un backend real.
@@ -5092,6 +5173,7 @@ La configuración de la API se maneja mediante variables de entorno de Vite, per
 
 Esta arquitectura permite que, en futuros sprints, el reemplazo de my-json-server por un backend real (.NET) requiera únicamente cambiar la URL base de la API sin modificar el código de los servicios o las vistas. Este servicio fue temporal y se utilizó para prototipado frontend antes de contar con el backend real de AniTec.
 
+<a id="toc-5-2-2-7-software-deployment-evidence-for-sprint-review"></a>
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
 La aplicación web frontend de AniTec fue desplegada exitosamente en **GitHub Pages**, la plataforma de hosting de GitHub que permite publicar aplicaciones web estáticas y SPA directamente desde el repositorio del proyecto. Adicionalmente, los datos de prueba fueron desplegados en **my-json-server** para simular el backend de la aplicación.
@@ -5147,6 +5229,7 @@ Después del despliegue, se verificaron los siguientes puntos:
 - La internacionalización español/inglés funciona en todas las vistas
 - Los gráficos de Chart.js se renderizan correctamente con datos reales
 
+<a id="toc-5-2-2-8-team-collaboration-insights-during-sprint"></a>
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presenta los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo durante el Sprint 2.
@@ -5209,12 +5292,14 @@ El equipo identifica las siguientes lecciones de este Sprint 2:
 
 # 5.2. Landing Page, Services & Applications Implementation.
 
+<a id="toc-5-2-3-sprint-3"></a>
 ## 5.2.3. Sprint 3.
 
 En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real y en la integración progresiva de la solución completa. El backend permitió reemplazar la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL, mientras que el frontend comenzó a consumir datos reales desde dicha API. Además, se incorporaron mejoras en la landing page para presentar los videos About the Team y About the Product dentro de la página About Us.
 
 Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. En paralelo, el frontend de AniTec fue ajustado para consumir endpoints reales, agregar los apartados de dispositivos IoT y suscripciones, y mantener una navegación coherente con los nuevos servicios disponibles. La landing page también fue actualizada con contenido audiovisual orientado a explicar el equipo y el producto.
 
+<a id="toc-5-2-3-1-sprint-planning-3"></a>
 ### 5.2.3.1. Sprint Planning 3.
 
 El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec y su integración inicial con la solución web existente. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
@@ -5303,6 +5388,7 @@ La selección de estas Technical Stories responde a la necesidad de construir la
 - **Frontend Web Application:** 10 Story Points - Enfocados en consumir la API real, configurar endpoints mediante `.env.development`, ajustar stores, APIs y assemblers, y añadir los apartados de dispositivos IoT y suscripciones.
 - **Landing Page:** 2 Story Points - Enfocados en incorporar los videos About the Team y About the Product dentro de la página About Us.
 
+<a id="toc-5-2-3-2-aspects-leaders-and-collaborators"></a>
 ### 5.2.3.2. Aspects Leaders and Collaborators.
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 3, indicando por cada aspecto dentro del alcance del Sprint quién es el líder y quiénes son colaboradores.
@@ -5422,6 +5508,7 @@ Los aspectos de frontend y landing page se presentan en una tabla complementaria
 
 - **Landing Page - About Videos:** Responsable de añadir los videos About the Team y About the Product en la página About Us mediante iframes de YouTube, manteniendo la estructura responsive de la landing page.
 
+<a id="toc-5-2-3-3-sprint-backlog-3"></a>
 ### 5.2.3.3. Sprint Backlog 3.
 
 El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible, y conectar progresivamente la aplicación web con los servicios reales. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por el frontend. Además, el Sprint incluye mejoras en la landing page para presentar los videos About the Team y About the Product.
@@ -5583,6 +5670,7 @@ A continuación, la tabla de control de estado para el Sprint 3:
 
 El Sprint Backlog refleja 11 tareas principales, con aproximadamente 57 horas estimadas de tareas, alineadas con 57 Story Points. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts, la necesidad de mantener una estructura similar al backend trabajado en clase, la integración del frontend con la API real y la actualización de la landing page.
 
+<a id="toc-5-2-3-4-development-evidence-for-sprint-review"></a>
 ### 5.2.3.4. Development Evidence for Sprint Review.
 
 En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec, la integración inicial del frontend con la API real y la actualización de la landing page. La evidencia muestra que el equipo logró construir una API funcional conectada a MySQL, ajustar la aplicación web para consumir servicios reales e incorporar contenido audiovisual en la página About Us.
@@ -5736,6 +5824,7 @@ https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 - Rutas frontend agregadas: `/iot` para dispositivos IoT y `/subscriptions` para planes, suscripciones y pagos de prueba.
 - Landing page actualizada: videos About the Team y About the Product integrados en About Us.
 
+<a id="toc-5-2-3-5-execution-evidence-for-sprint-review"></a>
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
 Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend, frontend y landing page. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba. Además, se verificó que el frontend pueda consumir datos reales del backend y que la landing page muestre los videos incorporados.
@@ -5829,6 +5918,7 @@ Como evidencia adicional, el Video About-the-Product también muestra la navegac
 4. **Mock checkout:** Consumo del endpoint `/subscriptions/mock-checkout` para validar el flujo de pagos simulados durante el Sprint.
 5. **Landing page:** Presentación de los videos About the Team y About the Product dentro de la página About Us.
 
+<a id="toc-5-2-3-6-services-documentation-evidence-for-sprint-review"></a>
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando ASP.NET Core. Esta API reemplaza progresivamente al servicio mock utilizado durante el Sprint 2 y permite que el frontend consuma información persistida en MySQL.
@@ -6096,6 +6186,7 @@ La cadena de conexión se configura en `appsettings.Development.json` y apunta a
 "DefaultConnection": "server=localhost;user=root;password=password;database=anitec-platform"
 ```
 
+<a id="toc-5-2-3-7-software-deployment-evidence-for-sprint-review"></a>
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 3, la evidencia de despliegue incluyó backend, frontend y landing page. El backend se publicó en Render como Web Service para exponer la API REST, mientras que la landing page y el frontend web se mantuvieron accesibles mediante despliegues públicos. El objetivo de esta evidencia fue comprobar que AniTec pueda presentarse y probarse desde internet, conectando la comunicación pública del producto, la aplicación web y los servicios backend.
@@ -6182,6 +6273,7 @@ Después de desplegar el backend en Render, se verificaron los siguientes puntos
 - Los endpoints principales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, dispositivos y suscripciones responden desde Swagger.
 - El backend mantiene una estructura modular por bounded contexts, lo que facilita su integración con el frontend.
 
+<a id="toc-5-2-3-8-team-collaboration-insights-during-sprint"></a>
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend, integración del frontend y actualización de la landing page. También se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
@@ -6269,12 +6361,14 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 
 # 5.2. Landing Page, Services & Applications Implementation.
 
+<a id="toc-5-2-4-sprint-4"></a>
 ## 5.2.3. Sprint 3.
 
 En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real de la aplicación web, reemplazando la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL. El objetivo principal fue implementar la capa de servicios necesaria para almacenar, consultar y procesar los datos de la plataforma de forma persistente, manteniendo una estructura similar a la trabajada en clase con el proyecto `learning-center-platform-master`.
 
 Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. También se configuraron migraciones automáticas con Entity Framework Core para MySQL, documentación con Swagger y datos iniciales para facilitar las pruebas de integración con el frontend.
 
+<a id="toc-5-2-4-1-sprint-planning-4"></a>
 ### 5.2.3.1. Sprint Planning 3.
 
 El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
@@ -6358,6 +6452,7 @@ La selección de estas Technical Stories responde a la necesidad de construir la
 
 - **Backend ASP.NET Core:** 45 Story Points - Enfocados en la creación del proyecto `anitec-platform-main`, organización por bounded contexts, configuración de MySQL, migraciones, endpoints REST, autenticación JWT, seed de datos y documentación Swagger.
 
+<a id="toc-5-2-4-2-aspect-leaders-and-collaborators"></a>
 ### 5.2.3.2. Aspects Leaders and Collaborators.
 
 En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 3, indicando por cada aspecto dentro del alcance del Sprint quién es el líder y quiénes son colaboradores.
@@ -6458,6 +6553,7 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
 
 - **Sanchez Silva, Luciana Celeste (Clients Lead):** Responsable de la relación entre veterinarios y ganaderos, incluyendo clientes asignados, ganaderos disponibles y operaciones de asociación.
 
+<a id="toc-5-2-4-3-sprint-backlog-4"></a>
 ### 5.2.3.3. Sprint Backlog 3.
 
 El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por la aplicación web frontend.
@@ -6589,6 +6685,7 @@ A continuación, la tabla de control de estado para el Sprint 3:
 
 El Sprint Backlog refleja 8 tareas principales, con aproximadamente 45 horas de trabajo estimadas. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts y la necesidad de mantener una estructura similar al backend trabajado en clase.
 
+<a id="toc-5-2-4-4-development-evidence-for-sprint-review"></a>
 ### 5.2.3.4. Development Evidence for Sprint Review.
 
 En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec. La evidencia muestra que el equipo logró construir una API funcional, conectada a MySQL y preparada para integrarse con el frontend.
@@ -6686,6 +6783,7 @@ https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
 - Migraciones generadas: 3
 - Endpoints principales: autenticación, usuarios, perfiles, fincas, animales, sanidad, finanzas, actividades, analíticas, clientes, dispositivos, métricas y suscripciones.
 
+<a id="toc-5-2-4-5-execution-evidence-for-sprint-review"></a>
 ### 5.2.3.5. Execution Evidence for Sprint Review.
 
 Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba.
@@ -6720,6 +6818,7 @@ El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró co
 11. **Subscriptions:** Gestión de planes, suscripciones, pagos y mock checkout.
 12. **Shared:** Repositorios base, Unit of Work, persistencia, recursos comunes y manejo de errores.
 
+<a id="toc-5-2-4-6-services-documentation-evidence-for-sprint-review"></a>
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
 Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando ASP.NET Core. Esta API reemplaza progresivamente al servicio mock utilizado durante el Sprint 2 y permite que el frontend consuma información persistida en MySQL.
@@ -6873,6 +6972,7 @@ La cadena de conexión se configura en `appsettings.Development.json` y apunta a
 "DefaultConnection": "server=localhost;user=root;password=password;database=anitec-platform"
 ```
 
+<a id="toc-5-2-4-7-software-deployment-evidence-for-sprint-review"></a>
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Durante el Sprint 3, la evidencia de despliegue del backend se realizó en internet utilizando Render como plataforma de hosting. El objetivo de esta evidencia fue comprobar que la API de AniTec pueda ejecutarse fuera del entorno local, conectarse a una base de datos configurada para el ambiente de despliegue, aplicar las migraciones de Entity Framework Core y exponer sus endpoints mediante Swagger/OpenAPI.
@@ -6937,6 +7037,7 @@ Después de desplegar el backend en Render, se verificaron los siguientes puntos
 - Los endpoints principales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, dispositivos y suscripciones responden desde Swagger.
 - El backend mantiene una estructura modular por bounded contexts, lo que facilita su integración con el frontend.
 
+<a id="toc-5-2-4-8-team-collaboration-insights-during-sprint"></a>
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend y se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
@@ -6988,8 +7089,10 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-5-3-validation-interviews"></a>
 # 5.3. Validation Interviews
 
+<a id="toc-5-3-1-diseno-de-entrevistas"></a>
 ## 5.3.1. Diseño de entrevistas
 
 Las entrevistas de validación se plantean con el objetivo de evaluar la percepción de los usuarios después de interactuar con la landing page y la Web Application de AniTec. A diferencia de las entrevistas exploratorias realizadas en capítulos anteriores, esta etapa se enfoca en validar la claridad de la propuesta de valor, la facilidad de navegación, la comprensión de las funcionalidades principales y la utilidad percibida por los segmentos objetivo.
@@ -7049,6 +7152,7 @@ En el caso del segmento ganadero, la evaluación se orienta a la gestión de hat
 19. ¿Hubo alguna pantalla, botón o texto que no entendió durante la prueba?
 20. Después de probar AniTec, ¿la recomendaría como herramienta de apoyo veterinario? ¿Qué cambios serían prioritarios?
 
+<a id="toc-5-3-2-registro-de-entrevistas"></a>
 ## 5.3.2. Registro de entrevistas
 
 A continuación, se presentan los cuadros de registro para las entrevistas de validación. Estos cuadros serán completados manualmente con los datos del entrevistado, evidencia, enlace de la entrevista y transcripción correspondiente.
@@ -7129,6 +7233,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 
 <br>
 
+<a id="toc-5-3-3-evaluaciones-segun-heuristicas"></a>
 ## 5.3.3. Evaluaciones según heurísticas
 
 La evaluación heurística de AniTec se realizó a partir de las sesiones de validación con usuarios de los segmentos ganadero y veterinario. Durante estas sesiones, los entrevistados interactuaron con la landing page y con la aplicación web, revisando los flujos principales según su rol. La evaluación considera criterios de usabilidad, arquitectura de información e inclusive design, con el objetivo de identificar fortalezas, problemas de experiencia de usuario y oportunidades de mejora.
@@ -7181,6 +7286,7 @@ Los principales puntos de mejora se concentran en prevención de errores, mensaj
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-5-4-video-about-the-product"></a>
 # 5.4. Video About-the-Product
 
 En esta sección se presenta el video About-the-Product de AniTec, elaborado para explicar la propuesta de valor del producto, el problema que busca resolver y las principales funcionalidades disponibles en la landing page, la aplicación web y el backend desplegado. El video está dirigido a visitantes del landing page, ganaderos, veterinarios y usuarios interesados en conocer cómo AniTec apoya la gestión ganadera y veterinaria.
@@ -7227,6 +7333,7 @@ El video concluye destacando que AniTec busca mejorar la trazabilidad, organizac
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-conclusiones"></a>
 # Conclusiones
 
 ## Conclusiones y recomendaciones
@@ -7319,6 +7426,7 @@ El contenido del video complementa la sección Student Outcome porque muestra la
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-bibliografia"></a>
 # Bibliografía
 
 Bourgau, P. (2022, marzo 29). _Step by step guide to run your big picture event storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
@@ -7353,6 +7461,7 @@ Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
 
 <div style="page-break-before: always;"></div>
 
+<a id="toc-anexos"></a>
 # Anexos
 
 <div style="page-break-before: always;"></div>

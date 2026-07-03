@@ -657,5 +657,54 @@ En esta sección se presentan los Epics, User Stories y Technical Stories identi
       <td><b>URL productiva configurada.</b><br>Given existe una API backend desplegada<br>When se prepara el build de produccion del frontend<br>Then la variable VITE_ANITEC_API_URL apunta al backend real<br><br><b>Endpoints completos.</b><br>Given el frontend usa modulos de IoT y suscripciones<br>When se revisa la configuracion productiva<br>Then existen rutas para dispositivos, metricas, planes y pagos</td>
       <td>EP-001, EP-012, EP-013</td>
     </tr>
+    <tr>
+      <td><b>TS-016</b></td>
+      <td>Integracion backend con Stripe para suscripciones</td>
+      <td>Como Developer backend, quiero integrar Stripe en el bounded context de suscripciones para crear sesiones de pago y relacionarlas con los planes de AniTec.</td>
+      <td><b>Sesion de pago creada.</b><br>Given existe un plan de suscripcion activo<br>When el usuario solicita iniciar el pago<br>Then el backend crea una sesion de Stripe y devuelve la URL de checkout<br><br><b>Resultado registrado.</b><br>Given Stripe confirma el resultado del pago<br>When el backend procesa la respuesta correspondiente<br>Then la suscripcion o pago queda registrado para el usuario</td>
+      <td>EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-017</b></td>
+      <td>Integracion frontend del flujo de pago con Stripe</td>
+      <td>Como Developer frontend, quiero conectar la vista de planes con el checkout de Stripe para que el usuario pueda iniciar el pago desde la aplicacion web.</td>
+      <td><b>Inicio de checkout.</b><br>Given el usuario autenticado selecciona un plan<br>When presiona el boton de pago<br>Then el frontend solicita la sesion de pago al backend<br><br><b>Redireccion a Stripe.</b><br>Given el backend devuelve una URL de checkout<br>When el frontend recibe la respuesta<br>Then redirige al usuario hacia la pasarela de pago de Stripe</td>
+      <td>EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-018</b></td>
+      <td>Mejora del IAM backend para autenticacion y autorizacion por rol</td>
+      <td>Como Developer backend, quiero mejorar el IAM para validar credenciales, roles y datos de sesion de forma consistente en la API.</td>
+      <td><b>Token con rol.</b><br>Given un usuario inicia sesion correctamente<br>When el backend genera el JWT<br>Then el token incluye la informacion necesaria para identificar usuario y rol<br><br><b>Autorizacion por rol.</b><br>Given un endpoint requiere un rol especifico<br>When un usuario con otro rol intenta acceder<br>Then la API rechaza la solicitud con una respuesta de autorizacion</td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td><b>TS-019</b></td>
+      <td>Proteccion de endpoints principales mediante JWT y roles</td>
+      <td>Como Developer backend, quiero proteger los endpoints principales con JWT y roles para evitar el acceso no autorizado a informacion de AniTec.</td>
+      <td><b>Endpoint protegido sin token.</b><br>Given una peticion no incluye token JWT<br>When intenta acceder a un endpoint protegido<br>Then la API responde con estado no autorizado<br><br><b>Endpoint protegido con token valido.</b><br>Given una peticion incluye un token valido y rol permitido<br>When consume un endpoint protegido<br>Then la API procesa la solicitud correctamente</td>
+      <td>EP-001, EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009, EP-012, EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-020</b></td>
+      <td>Adaptacion del IAM frontend para sesion, token y rutas protegidas</td>
+      <td>Como Developer frontend, quiero adaptar el IAM para guardar sesion, token y rol del usuario, protegiendo la navegacion segun el tipo de cuenta.</td>
+      <td><b>Sesion persistida.</b><br>Given un usuario inicia sesion correctamente<br>When el backend devuelve el token y rol<br>Then el frontend guarda la sesion necesaria para navegar<br><br><b>Ruta protegida.</b><br>Given un usuario no autenticado intenta ingresar a una vista privada<br>When el router valida el acceso<br>Then lo redirige al inicio de sesion</td>
+      <td>EP-001</td>
+    </tr>
+    <tr>
+      <td><b>TS-021</b></td>
+      <td>Consumo autenticado de endpoints desde stores y servicios frontend</td>
+      <td>Como Developer frontend, quiero enviar el token JWT en las peticiones Axios para consumir endpoints protegidos desde los stores de AniTec.</td>
+      <td><b>Token enviado.</b><br>Given existe un token de sesion guardado<br>When un store realiza una peticion al backend<br>Then la solicitud incluye el header Authorization<br><br><b>Error de autenticacion.</b><br>Given el token expiro o no es valido<br>When el backend rechaza la peticion<br>Then el frontend muestra un error o redirige al inicio de sesion segun corresponda</td>
+      <td>EP-003, EP-004, EP-005, EP-006, EP-007, EP-008, EP-009, EP-012, EP-013</td>
+    </tr>
+    <tr>
+      <td><b>TS-022</b></td>
+      <td>Documentacion y validacion del flujo de seguridad y suscripcion</td>
+      <td>Como Developer, quiero documentar y validar el flujo de IAM, endpoints protegidos y Stripe para evidenciar que el Sprint 4 cumple su objetivo.</td>
+      <td><b>Evidencia de seguridad.</b><br>Given los endpoints principales estan protegidos<br>When se documenta el Sprint<br>Then se incluyen evidencias de acceso con token y rechazo sin token<br><br><b>Evidencia de suscripcion.</b><br>Given el flujo de Stripe esta integrado<br>When se documenta el Sprint<br>Then se incluyen evidencias del checkout y resultado del proceso de pago</td>
+      <td>EP-001, EP-013</td>
+    </tr>
   </tbody>
 </table>
