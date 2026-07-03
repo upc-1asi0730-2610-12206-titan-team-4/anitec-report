@@ -12,6 +12,10 @@ Chandrasekaran, P. (2023, marzo 20). _Remote EventStorming in practice_. Domain-
 
 Cohn, M. (2006). _User stories applied: For agile software development_. Addison-Wesley Professional.
 
+Ddd-By-Examples. (s. f.). library/docs/big-picture.md at master. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
+
+Ddd-By-Examples. (s. f.-b). library/docs/design-level.md at master. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/design-level.md
+
 Gothelf, J., & Seiden, J. (2021). _Lean UX: Designing great products with agile teams_ (3rd ed.). O'Reilly Media.
 
 Microsoft. (2026). _ASP.NET Core documentation_. https://learn.microsoft.com/aspnet/core/
@@ -29,9 +33,5 @@ Scrum.org. (2020). _The Scrum Guide_. https://scrumguides.org/scrum-guide.html
 Structurizr. (2026). _Structurizr documentation_. https://docs.structurizr.com/
 
 Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
-
-Ddd-By-Examples. (s. f.). library/docs/big-picture.md at master. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md
-
-Ddd-By-Examples. (s. f.-b). library/docs/design-level.md at master. GitHub. https://github.com/ddd-by-examples/library/blob/master/docs/design-level.md
 
 Weerakoon, S. (2020, 1 noviembre). How to Write a User Story for an API Product. Medium. https://sameera17w.medium.com/how-to-write-a-user-story-for-an-api-product-7af6abd4ad2e
