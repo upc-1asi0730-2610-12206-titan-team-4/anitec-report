@@ -128,7 +128,7 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 | Tamaño aproximado del ganado | 25 cabezas de ganado |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:07:43 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M |
+| URL del video | https://tinyurl.com/entrevista1VicenteHuaman |
 
 </div>
 
@@ -159,7 +159,7 @@ La entrevista permitió identificar que Vicente estaría dispuesto a usar una pl
 | Tamaño aproximado del ganado | Hato pequeño familiar |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:06:53 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| URL del video | https://tinyurl.com/entrevista2RebecaQuiroz |
 
 </div>
 
@@ -190,7 +190,7 @@ Respecto a tecnología, utiliza smartphone y navegación básica desde el celula
 | Tamaño aproximado del ganado | Hato pequeño gestionado con apoyo de 2 a 3 personas |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:13:55 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg |
+| URL del video | https://tinyurl.com/entrevista3PorfirioSalazar |
 
 </div>
 
@@ -223,7 +223,7 @@ La entrevista permitió reconocer que Porfirio necesita una solución que no sol
 | Tipo de atención | Atención sanitaria de ganado |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:06:55 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx |
+| URL del video | https://tinyurl.com/entrevista4AngelaMendoza |
 
 </div>
 
@@ -254,7 +254,7 @@ La entrevistada considera que una herramienta como AniTec sería útil si permit
 | Tipo de atención | Atención clínica y sanitaria de ganado |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:08:09 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi |
+| URL del video | https://tinyurl.com/entrevista5AldahirSantos |
 
 </div>
 

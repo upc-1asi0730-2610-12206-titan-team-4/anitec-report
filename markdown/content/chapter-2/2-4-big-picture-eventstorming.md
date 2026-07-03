@@ -14,4 +14,4 @@ El presente Big Picture Event Storming se ha desarrollado de manera colaborativa
 
 ![Event-Storming](../../assets/chapter-2/EventStormingPaso3.jpeg)
 
-Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WE1QbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud01rejllQVpDT1AzczYyS0t6YWtZTk9xSS9JKO5WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEF0MmJXWXBBPT0hdjE=?share_link_id=376749116517
+Enlace para acceder al miro: https://tinyurl.com/eventStormingMiro
