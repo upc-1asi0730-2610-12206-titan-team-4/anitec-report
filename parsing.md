@@ -7170,7 +7170,17 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Fin del video</strong></td><td>00:09:36</td></tr>
   <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionAlfaro">https://tinyurl.com/EntrevistaValidacionAlfaro</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaRodrigo2.jpeg" alt="Entrevista" width="350"></div></td></tr>
-  <tr><td><strong>Resumen</strong></td><td>En la entrevista, el ganadero Rodrigo Alfaro comenta que trabaja en la crianza de bovinos, ovinos y aves en una finca familiar, donde actualmente registra la información de manera poco ordenada en cuadernos y Excel. Señala que AniTec le parece una solución clara y confiable para organizar mejor la gestión de sus animales, la sanidad, las actividades y las finanzas, destacando especialmente el dashboard y las funcionalidades principales. También sugiere mejoras como incluir más datos en el registro de animales, recordatorios automáticos, fotos y una versión móvil más práctica. En general, considera que la aplicación sería muy útil para su trabajo diario.</td></tr>
+  <tr><td><strong>Objetivo</strong></td><td>Validar si la landing page y la aplicación web AniTec responden a las necesidades del User Persona ganadero, evaluando la organización de información, la utilidad del dashboard y la percepción de valor de la plataforma.</td></tr>
+  <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
+  <tr><td>Frustración: pierde registros</td><td>Confirma uso de cuadernos y hojas sueltas; esto causa pérdida o desorden de información. / Sí</td></tr>
+  <tr><td>Frustración: recordar vacunas</td><td>Necesita revisar cuadernos; la aplicación sería útil para no olvidar vacunas y tratamientos. / Sí</td></tr>
+  <tr><td>Meta: controlar ganado</td><td>El dashboard facilita la visualización del estado de sus animales. / Sí</td></tr>
+  <tr><td>Meta: reducir pérdidas</td><td>El registro de ingresos y egresos ayuda a tomar mejores decisiones. / Sí</td></tr>
+  <tr><td>Motivación: negocio organizado</td><td>La plataforma centraliza la información y profesionaliza la gestión. / Sí</td></tr>
+  <tr><td><strong>Aspectos positivos</strong></td><td>Navegación intuitiva, propósito claro y secciones con nombres entendibles.</td></tr>
+  <tr><td><strong>Dificultades</strong></td><td>La sección IoT puede ser difícil de comprender y encontrar; requiere mayor apoyo visual.</td></tr>
+  <tr><td><strong>Recomendaciones</strong></td><td>Agregar alertas automáticas para actividades, fotos de animales y una versión móvil optimizada.</td></tr>
+  <tr><td><strong>Conclusión</strong></td><td>AniTec resuelve problemas reales relacionados con el registro manual. Se requiere simplificar la sección IoT y mejorar la usabilidad móvil.</td></tr>
 </table>
 
 <br>
@@ -7185,9 +7195,18 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
   <tr><td><strong>Inicio del video</strong></td><td>00:06:30</td></tr>
   <tr><td><strong>Fin del video</strong></td><td>00:17:25</td></tr>
-  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionGallardo">https://tinyurl.com/EntrevistaValidacionGallardo</a></td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacion2">https://tinyurl.com/EntrevistaValidacion2</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaKiara.png" alt="Entrevista" width="350"></div></td></tr>
-  <tr><td><strong>Resumen</strong></td><td>La ganadera Kiara señaló que actualmente gestiona información de su ganado mediante registros manuales y consideró que AniTec comunica de forma clara su propósito y beneficios desde el landing page. Destacó la facilidad para navegar por la aplicación, la utilidad del dashboard para visualizar información relevante y la claridad de las secciones relacionadas con animales, sanidad, actividades, finanzas e IoT. Asimismo, valoró positivamente las herramientas para registrar eventos sanitarios, organizar tareas y controlar ingresos y gastos de la finca. En general, tuvo una experiencia satisfactoria, no identificó dificultades importantes durante el uso y afirmó que utilizaría AniTec en sus actividades diarias, recomendando únicamente ampliar la cantidad de reportes y estadísticas disponibles para apoyar una mejor toma de decisiones.</td></tr>
+  <tr><td><strong>Objetivo</strong></td><td>Validar si la landing page y la aplicación web AniTec responden a las necesidades del User Persona, enfocándose en la gestión, organización y el valor de la herramienta.</td></tr>
+  <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
+  <tr><td>Frustración: desorden manual</td><td>Registra información en papeles y libros; le resulta difícil de ordenar. / Sí</td></tr>
+  <tr><td>Frustración: control de fechas</td><td>El control de fechas es un desafío constante; la aplicación ayudaría a no olvidarlas. / Sí</td></tr>
+  <tr><td>Meta: información organizada</td><td>Valora la centralización de información y el filtrado de animales. / Sí</td></tr>
+  <tr><td>Meta: decisiones basadas en datos</td><td>El dashboard y la sección financiera ayudan a visualizar ganancias, pérdidas y salud. / Sí</td></tr>
+  <tr><td><strong>Aspectos positivos</strong></td><td>Interfaz clara e intuitiva, dashboard muy útil y eliminación del uso de papel.</td></tr>
+  <tr><td><strong>Dificultades</strong></td><td>Desconocimiento del concepto y utilidad de IoT, además de familiarización inicial con el dashboard.</td></tr>
+  <tr><td><strong>Recomendaciones</strong></td><td>Incluir una explicación didáctica sobre IoT, versión móvil optimizada y mejores recordatorios automáticos.</td></tr>
+  <tr><td><strong>Conclusión</strong></td><td>AniTec satisface las necesidades de organización y control, validando su valor, aunque requiere mejorar la comunicación sobre tecnologías avanzadas como IoT.</td></tr>
 </table>
 
 <br>
@@ -7202,9 +7221,18 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
   <tr><td><strong>Inicio del video</strong></td><td>00:00:00</td></tr>
   <tr><td><strong>Fin del video</strong></td><td>00:07:30</td></tr>
-  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionVicente">https://tinyurl.com/EntrevistaValidacionVicente</a></td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/ValidacionAppWebVicente">https://tinyurl.com/ValidacionAppWebVicente</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevista-bruno.png" alt="Entrevista" width="350"></div></td></tr>
-  <tr><td><strong>Resumen</strong></td><td>Entrevistado: Vicente, quien es ganadero y se dedica a la crianza de vacunos, lo cual aporta un perfil técnico y práctico necesario para validar la utilidad de la aplicación. Actualmente registra la información de sus animales, fincas, actividades y gastos en Excel. Considera que AniTec es útil para organizar actividades, controlar vacunas, tratamientos y alimentación. Sugiere incorporar variables como el tipo de suelo o clima para complementar la información sanitaria. También destaca el dashboard como una herramienta valiosa para centralizar información y facilitar la toma de decisiones.</td></tr>
+  <tr><td><strong>Objetivo</strong></td><td>Validar si la landing page y la aplicación web AniTec responden a las necesidades del User Persona para la gestión de ganado, con enfoque en la organización sanitaria y administrativa.</td></tr>
+  <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
+  <tr><td>Frustración: registros manuales</td><td>Utiliza Excel y anotaciones manuales; el proceso es ineficiente y propenso a errores. / Sí</td></tr>
+  <tr><td>Meta: control preciso</td><td>Valora la centralización de datos estadísticos para mayor control y precisión. / Sí</td></tr>
+  <tr><td>Meta: decisiones basadas en datos</td><td>El dashboard facilita la toma de decisiones rápidas y precisas. / Sí</td></tr>
+  <tr><td>Motivación: organización sanitaria</td><td>Reconoce la importancia del módulo sanitario para gestionar el control de enfermedades. / Sí</td></tr>
+  <tr><td><strong>Aspectos positivos</strong></td><td>Herramienta fácil y efectiva; una versión móvil simplificaría las tareas diarias.</td></tr>
+  <tr><td><strong>Dificultades</strong></td><td>Requiere familiarización con el dashboard y puede existir confusión inicial en registros sanitarios.</td></tr>
+  <tr><td><strong>Recomendaciones</strong></td><td>Ampliar con funciones agrícolas, como suelo y cultivos, e implementar alertas automáticas.</td></tr>
+  <tr><td><strong>Conclusión</strong></td><td>AniTec centraliza la gestión y mejora la eficiencia. La integración de funciones agrícolas consolidaría su valor como solución integral.</td></tr>
 </table>
 
 <br>
@@ -7225,7 +7253,16 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Fin del video</strong></td><td>00:07:00</td></tr>
   <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionSolis">https://tinyurl.com/EntrevistaValidacionSolis</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaAndrea1.jpeg" alt="Entrevista" width="350"></div></td></tr>
-  <tr><td><strong>Resumen</strong></td><td>Andrea comenta que organiza la información de sus clientes y pacientes mediante cuadernos y Excel. Considera que AniTec comunica claramente que también está orientado a veterinarios. Destaca el historial médico, la comunicación con el ganadero y las estadísticas de salud. Sugiere agregar más campos clínicos como dosis, vía de administración y signos vitales, además de mejorar la explicación del seguimiento de visitas.</td></tr>
+  <tr><td><strong>Objetivo</strong></td><td>Validar si la aplicación AniTec responde a las necesidades del User Persona del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del dashboard.</td></tr>
+  <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
+  <tr><td>Frustración: falta de historial clínico organizado</td><td>Destaca la importancia y utilidad del historial médico de los animales como herramienta de trabajo. / Sí</td></tr>
+  <tr><td>Meta: acceder a información para tratamientos</td><td>Considera que disponer del historial médico permite un mejor tratamiento y seguimiento clínico. / Sí</td></tr>
+  <tr><td>Motivación: mejorar la eficiencia</td><td>Valora la centralización de la información y la posibilidad de ver problemas pasados de cada animal de forma organizada. / Sí</td></tr>
+  <tr><td>Meta: reducir carga administrativa</td><td>Considera que el sistema agiliza el trabajo diario en comparación con métodos tradicionales como Excel. / Sí</td></tr>
+  <tr><td><strong>Aspectos positivos</strong></td><td>El historial clínico se percibe como la funcionalidad más valiosa para el trabajo clínico diario. El dashboard permite obtener una visión general rápida del estado de salud de los animales.</td></tr>
+  <tr><td><strong>Dificultades</strong></td><td>Desconocimiento inicial sobre las funciones de los dispositivos inteligentes IoT, por lo que la terminología podría ser un reto.</td></tr>
+  <tr><td><strong>Recomendaciones</strong></td><td>Incluir una explicación didáctica sobre el significado y las ventajas de los dispositivos IoT. Integrar funcionalidades para registrar datos técnicos y clínicos más detallados.</td></tr>
+  <tr><td><strong>Conclusión</strong></td><td>La entrevista confirma que AniTec satisface necesidades clave del veterinario, especialmente la organización y acceso al historial médico. La plataforma optimiza el tiempo y mejora la calidad de la atención veterinaria, aunque requiere mejorar la comunicación sobre IoT.</td></tr>
 </table>
 
 <br>
@@ -7242,7 +7279,16 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Fin del video</strong></td><td>00:04:30</td></tr>
   <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionHugo">https://tinyurl.com/EntrevistaValidacionHugo</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevista-hugo.png" alt="Entrevista" width="350"></div></td></tr>
-  <tr><td><strong>Resumen</strong></td><td>El veterinario indicó que actualmente organiza la información mediante registros manuales y herramientas básicas. Valoró que AniTec centralice toda la información en una sola plataforma. Recomendó destacar mejor los beneficios para veterinarios en el landing page e incorporar más campos relacionados con tratamientos, historial clínico y vacunaciones. También resaltó la utilidad de las actividades, alertas, dashboard y analíticas para el seguimiento sanitario y la toma de decisiones.</td></tr>
+  <tr><td><strong>Objetivo</strong></td><td>Validar si la aplicación AniTec responde a las necesidades del User Persona del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del dashboard.</td></tr>
+  <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
+  <tr><td>Frustración: falta de historial organizado</td><td>Destaca la importancia y utilidad del historial médico como herramienta de trabajo. / Sí</td></tr>
+  <tr><td>Meta: acceder a información de tratamiento</td><td>Considera que el historial médico permite un mejor tratamiento y seguimiento clínico. / Sí</td></tr>
+  <tr><td>Motivación: mejorar eficiencia</td><td>Valora la centralización de información y la visualización organizada de problemas pasados. / Sí</td></tr>
+  <tr><td>Meta: reducir carga administrativa</td><td>Considera que el sistema agiliza el trabajo diario frente a métodos tradicionales como Excel. / Sí</td></tr>
+  <tr><td><strong>Aspectos positivos</strong></td><td>El historial clínico es la funcionalidad más valiosa; el dashboard resulta útil para una visión general rápida.</td></tr>
+  <tr><td><strong>Dificultades</strong></td><td>Desconocimiento sobre funciones de dispositivos inteligentes IoT y terminología técnica compleja.</td></tr>
+  <tr><td><strong>Recomendaciones</strong></td><td>Agregar explicación didáctica sobre ventajas de IoT e integrar registros clínicos más detallados.</td></tr>
+  <tr><td><strong>Conclusión</strong></td><td>AniTec satisface necesidades de organización y acceso al historial médico, optimizando el tiempo y la atención veterinaria, aunque requiere mejor comunicación sobre el alcance de IoT.</td></tr>
 </table>
 
 <a id="toc-5-3-3-evaluaciones-segun-heuristicas"></a>
