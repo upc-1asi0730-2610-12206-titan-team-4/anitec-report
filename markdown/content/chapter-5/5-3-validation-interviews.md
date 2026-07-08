@@ -95,10 +95,10 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
 | **Código** | E02 |
 | **Edad** | 22 años |
 | **Ocupación** | Ganadera |
-| **Inicio del video** | 00:06:30 |
-| **Fin del video** | 00:17:25 |
-| **Link del video** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD |
-| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaKiara.png) |
+| **Inicio del video** | 00:00:20 |
+| **Fin del video** | 00:15:53 |
+| **Link del video** | https://tinyurl.com/EntrevistaValidacion2 |
+| **Foto entrevista** | ![Entrevista](../../assets/chapter-5/entrevistaKaori.png) |
 | **Objetivo** | Validar si la *landing page* y la aplicación web AniTec responden a las necesidades del *User Persona*, enfocándose en la gestión, organización y el valor de la herramienta. |
 | **Aspecto del User Persona** | **Resultado obtenido** / **¿Se valida?** |
 | Frustración: desorden manual | Registra información en papeles y libros; le resulta difícil de ordenar. / Sí |
