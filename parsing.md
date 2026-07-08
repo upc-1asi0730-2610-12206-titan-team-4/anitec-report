@@ -202,6 +202,7 @@
 <div style="page-break-before: always;"></div>
 
 <a id="toc-registro-de-versiones-del-informe"></a>
+
 # Registro de versiones del informe
 
 | Versión |   Fecha    |                Autor                | Descripción de modificación                                                           |
@@ -218,6 +219,19 @@
 |   2.3   | 13/05/2026 |    Ayala Fernandez, Jorge Brayan    | Corrección del capítulo V y avance de la documentación del sprint 2                   |
 |   2.4   | 14/05/2026 | Raymundo Villarroel, Nadhim Abigail | Corrección del capítulo I y avance de la documentación del sprint 2                   |
 |   2.5   | 14/05/2026 |    Huaman Gallardo, Bruno Aldair    | Corrección del capítulo II y III                                                      |
+|   3.0   | 05/06/2026 |    Melgarejo Quiroz, Josep Eliu     | Correción de entregas pasadas y avance de la documentación del sprint 3               |
+|   3.1   | 05/06/2026 |    Sanchez Silva, Luciana Celeste   | Avance del capítulo 5 y la documentación del sprint 3                                 |
+|   3.2   | 06/06/2026 |    Ayala Fernandez, Jorge Brayan    | Avance del capítulo 5 y la documentación del sprint 3                                 |
+|   3.3   | 06/06/2026 | Raymundo Villarroel, Nadhim Abigail | Entrevistas de validación y avance de la documentación del sprint  3                  |
+|   3.4   | 07/06/2026 |    Huaman Gallardo, Bruno Aldair    | Entrevistas de validación y avance de la documentación del sprint 3                   |
+|   4.0   | 30/06/2026 |    Melgarejo Quiroz, Josep Eliu     | Correcciones puntuales de los capítulos 1,2,3,4,5 y sprint review 4                   |
+|   4.1   | 01/07/2026 |    Sanchez Silva, Luciana Celeste   | Correcciones puntuales de los capítulos 1,2,3,4,5 y sprint backlog 4                  |
+|   4.2   | 05/06/2026 |    Ayala Fernandez, Jorge Brayan    | Correcciones puntuales de los capítulos 4 y 5, y avance de recomendaciones            |
+|   4.3   | 05/06/2026 | Raymundo Villarroel, Nadhim Abigail | Correcciones puntuales de los capítulos 4 y 5, y avance del report insights           |
+|   4.4   | 05/06/2026 |    Huaman Gallardo, Bruno Aldair    | Correcciones puntuales de los capítulos 2 y 3, y avance de conclusiones               |
+
+
+
 
 <div style="page-break-before: always;"></div>
 
@@ -4378,7 +4392,7 @@ https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 **Video/demo de navegación del Sprint 1:**
 
-[Agregar URL del video/demo de navegación del Sprint 1]
+https://tinyurl.com/Sprint1Evidence
 
 **Capturas de Pantalla - Landing Pages:**
 
@@ -7416,14 +7430,17 @@ En relacion con el Student Outcome, el equipo evidencio trabajo colaborativo y l
 
 **Contraste con Lean UX y validaciones:**
 
-| Elemento Lean UX | Planteamiento inicial | Resultado de validación | Conclusión |
-| ---------------- | --------------------- | ----------------------- | ---------- |
-| Problem Statement | Los pequeños y medianos ganaderos, junto con veterinarios, dependen de registros manuales, cuadernos, hojas de cálculo o herramientas poco integradas para gestionar información sanitaria, productiva y económica. | En las entrevistas de validación, los participantes confirmaron que actualmente registran información mediante medios manuales o poco centralizados. | El problema identificado se mantiene vigente y AniTec responde a una necesidad real de organización y trazabilidad. |
-| Business Assumptions | Se asumió que los usuarios necesitan una plataforma web accesible para registrar información clave, generar alertas y consultar reportes útiles. | Los usuarios valoraron la centralización de animales, sanidad, actividades, finanzas, IoT y clientes veterinarios. | La propuesta de valor fue validada en términos generales, aunque se requiere reforzar reportes, alertas y campos específicos. |
-| User Assumptions | Se asumió que ganaderos y veterinarios valorarían una interfaz simple, cercana y pensada para usuarios con poca experiencia tecnológica. | Los entrevistados comprendieron la navegación por roles y consideraron útiles los dashboards y módulos principales. | La interfaz resulta comprensible para una primera versión, pero debe seguir simplificándose en formularios y mensajes de error. |
-| Feature Assumptions | Se propuso registro digital de animales, eventos sanitarios, finanzas, reportes, clientes veterinarios e historial clínico. | Los usuarios identificaron valor en registrar animales, eventos sanitarios, actividades, finanzas y seguimiento veterinario. | Las funcionalidades principales son pertinentes, aunque deben ampliarse campos clínicos, datos del animal y métricas para decisiones. |
-| Hypothesis Statements | Se planteó que AniTec mejoraría la adopción digital, gestión sanitaria, toma de decisiones, organización de datos y colaboración veterinario-ganadero. | Las validaciones muestran aceptación inicial y percepción positiva de utilidad, especialmente por centralizar información en un solo lugar. | Las hipótesis fueron parcialmente validadas: existe interés y utilidad percibida, pero la adopción dependerá de mejorar confianza, reportes, recordatorios y facilidad de uso. |
-| Criterios de éxito | Se esperaba reducir registros manuales, mejorar precisión de registros, facilitar historial sanitario y apoyar decisiones basadas en datos. | Las entrevistas no prueban aún reducción real de errores, pero sí confirman intención de uso y reconocimiento del valor de centralizar información. | Los criterios de éxito quedan como metas para una siguiente etapa con uso real de la aplicación desplegada y medición continua. |
+El Problem Statement se mantiene vigente, ya que las validaciones confirmaron que ganaderos y veterinarios siguen enfrentando problemas de desorden, registros manuales y falta de trazabilidad. AniTec responde a una necesidad real al centralizar información sanitaria, productiva, económica y operativa en una sola plataforma.
+
+Las Business Assumptions fueron validadas de forma general, debido a que los usuarios reconocieron valor en contar con una solución web para registrar animales, eventos sanitarios, actividades, finanzas, dispositivos IoT y clientes veterinarios. Sin embargo, todavía se requiere reforzar reportes, alertas y campos específicos para aumentar la utilidad percibida.
+
+Las User Assumptions se confirmaron parcialmente, porque los entrevistados comprendieron la navegación por roles y consideraron útiles los dashboards y módulos principales. Aun así, la experiencia debe seguir simplificándose, especialmente en formularios, mensajes de error y explicación de funciones más técnicas como IoT.
+
+Las Feature Assumptions resultaron pertinentes para una primera versión del producto, ya que los usuarios identificaron valor en el registro de animales, historial sanitario, actividades, finanzas y seguimiento veterinario. Como mejora futura, se deben ampliar los campos clínicos, datos del animal y métricas disponibles para apoyar mejores decisiones.
+
+Las Hypothesis Statements fueron parcialmente validadas. Existe interés inicial y una percepción positiva sobre la utilidad de AniTec, especialmente por la centralización de información; no obstante, la adopción dependerá de fortalecer la confianza, mejorar recordatorios, optimizar reportes y facilitar el uso continuo de la plataforma.
+
+Los criterios de éxito quedan planteados como metas para una siguiente etapa de validación con uso real de la aplicación desplegada. Las entrevistas permiten confirmar intención de uso y valor percibido, pero aún falta medir reducción de errores, mejora en precisión de registros y apoyo efectivo a decisiones basadas en datos.
 
 ### Recomendaciones
 
