@@ -583,10 +583,12 @@ El despliegue final del Sprint 4 se planifica sobre Render para backend, fronten
 
 **URLs pendientes de completar:**
 
-- Frontend en Render: [Agregar URL del frontend desplegado en Render]
-- Backend en Render: [Agregar URL del backend desplegado en Render]
-- Swagger en Render: [Agregar URL de Swagger]
-- Base de datos MySQL en Render: [Agregar referencia de base de datos]
+- Frontend web: https://anitec-12206.web.app/iam/sign-in
+- Backend en Render: https://anitec-backend.onrender.com
+- Backend Swagger en Render: https://anitec-backend.onrender.com/swagger/index.html
+
+**Video/demo de navegación del Sprint 3:**
+
 
 **Evidencias pendientes de despliegue:**
 
