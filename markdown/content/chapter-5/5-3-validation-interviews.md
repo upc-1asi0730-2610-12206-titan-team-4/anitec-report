@@ -74,7 +74,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
   <tr><td><strong>Inicio del video</strong></td><td>00:00:13</td></tr>
   <tr><td><strong>Fin del video</strong></td><td>00:09:36</td></tr>
-  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionAlfaro">https://tinyurl.com/EntrevistaValidacionAlfaro</a></td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/ValidacionRodrigoAlfaro">https://tinyurl.com/ValidacionRodrigoAlfaro</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="../../assets/chapter-5/entrevistaRodrigo2.jpeg" alt="Entrevista" width="350"></div></td></tr>
   <tr><td><strong>Objetivo</strong></td><td>Validar si la landing page y la aplicación web AniTec responden a las necesidades del User Persona ganadero, evaluando la organización de información, la utilidad del dashboard y la percepción de valor de la plataforma.</td></tr>
   <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>

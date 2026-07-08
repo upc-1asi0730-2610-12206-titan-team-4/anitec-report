@@ -392,8 +392,8 @@ En esta sección se describe cómo las actividades realizadas durante el desarro
 
 | Criterio especifico | Acciones realizadas | Conclusiones |
 | - | :- | - |
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:**<br>**Josep Melgarejo:** Participe en el desarrollo del Event Storming, los diagramas C4, el diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros decisiones importantes para lograr un trabajo satisfactorio.<br>**Jorge Ayala:** Participe de manera activa en la creacion de la Landing Page de AniTec y en la elaboracion de historias de usuario relacionadas con este primer avance.<br>**Bruno Huaman:** Lidere la fase estrategica mediante la elaboracion del Impact Mapping, conectando los objetivos de negocio con las necesidades de ganaderos y veterinarios.<br>**Abigail Raymundo:** Participe en el desarrollo de los capitulos 1 y 2, principalmente en la definicion del problema, segmentos objetivo y competidores.<br>**Luciana Sanchez:** Participe en la definicion de epicas, historias de usuario y criterios de aceptacion, aportando ideas y coordinando responsabilidades con el equipo.<br><br>**TB1:**<br>**Josep Melgarejo:** Apoye en la coordinacion del equipo para el Sprint 2, facilitando la comunicacion entre integrantes y asegurando el cumplimiento de tareas asignadas.<br>**Jorge Ayala:** Me encargue de una parte importante del frontend, incluyendo el bounded context de Activities, y participe en la documentacion del Sprint 2.<br>**Bruno Huaman:** Realice una evaluacion del documento, especialmente de las historias de usuario, colaborando con el equipo para reordenarlas adecuadamente.<br>**Abigail Raymundo:** Realice la correccion del Capitulo I, colabore en el Capitulo II, participe en la documentacion del Sprint 2 y aporte en uno de los Bounded Context del sistema.<br>**Luciana Sanchez:** Realice la correccion y mejora de los diagramas C4, asegurando consistencia con la arquitectura del sistema y los requerimientos del Sprint 2.<br><br>**AV2:**<br>**Josep Melgarejo:** Lidere la documentacion del Sprint 3, la organizacion de la evidencia de endpoints, migraciones, commits y configuracion de servicios, ademas de apoyar en los modulos de Financial, Analytics y Subscriptions.<br>**Jorge Ayala:** Lidere la configuracion base del backend, el desarrollo del bounded context de IAM y el despliegue del backend en Render, incluyendo autenticacion, usuarios, hashing de contraseñas, generacion de JWT y pruebas iniciales desde Swagger.<br>**Bruno Huaman:** Lidere la implementacion de Livestock y Devices, aportando en endpoints de hatos, animales, dispositivos IoT y metricas asociadas, manteniendo la estructura por bounded contexts definida por el equipo.<br>**Abigail Raymundo:** Lidere la implementacion de Sanitary y Activities, aportando en eventos sanitarios, actividades de granja y seguimiento de informacion relevante para ganaderos y veterinarios.<br>**Luciana Sanchez:** Lidere la implementacion del modulo de Clients, permitiendo representar la relacion entre veterinarios y ganaderos, asi como la consulta de clientes asignados y ganaderos disponibles. | **AV1:**<br>El equipo ejercio liderazgo conjunto al coordinar responsabilidades y tomar decisiones colaborativas, permitiendo organizar el primer entregable y alinear AniTec con las necesidades de los usuarios.<br><br>**TB1:**<br>El equipo consolido un liderazgo colaborativo durante el Sprint 2, mejorando artefactos de diseño e implementando la primera version funcional del frontend.<br><br>**AV2:**<br>Durante el Sprint 3, el liderazgo conjunto se evidencio en la construccion del backend real de AniTec. Cada integrante asumio un bounded context o responsabilidad tecnica clara, y el equipo logro integrar persistencia con MySQL, autenticacion, endpoints REST, documentacion Swagger y despliegue en Render. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **AV1:**<br>**Josep Melgarejo:** Explique al equipo la estructura del Event Storming y los diagramas asignados, ayudando a aclarar ideas y proponer mejoras.<br>**Jorge Ayala:** Comunique los avances realizados en la Landing Page y los commits asociados, permitiendo que el equipo conociera el estado del desarrollo.<br>**Bruno Huaman:** Fomente la lluvia de ideas para definir las historias de usuario del backlog, asegurando que se incluyeran funcionalidades criticas para el producto.<br>**Abigail Raymundo:** Explique los problemas encontrados en los primeros capitulos y ayude a organizar mejor la estructura del documento.<br>**Luciana Sanchez:** Propuse y explique las epicas e historias de usuario necesarias para el proyecto, promoviendo la participacion de todos los integrantes.<br><br>**TB1:**<br>**Josep Melgarejo:** Coordine la asignacion de tareas del Sprint 2, promoviendo la participacion del equipo y el cumplimiento de plazos.<br>**Jorge Ayala:** Participe en la planificacion de tareas del frontend, enfocandome en un bounded context esencial para el funcionamiento del sistema.<br>**Bruno Huaman:** Planifique el bounded context de Financial considerando las necesidades del dominio y su integracion con el resto del frontend.<br>**Abigail Raymundo:** Participe en la revision y correccion de capitulos, documentacion del Sprint 2 y definicion de componentes del sistema.<br>**Luciana Sanchez:** Explique las correcciones necesarias en los diagramas C4, ayudando al equipo a comprender mejor la arquitectura del sistema.<br><br>**AV2:**<br>**Josep Melgarejo:** Organice el trabajo de cierre del Sprint 3 mediante la actualizacion de evidencias, tablas de commits, endpoints implementados y conclusiones del avance.<br>**Jorge Ayala:** Coordino con el equipo la configuracion tecnica del backend y se encargo del despliegue en Render para que la API quedara disponible publicamente desde Swagger.<br>**Bruno Huaman:** Colaboro con el equipo para validar que las entidades ganaderas, dispositivos y metricas mantuvieran coherencia con los datos usados previamente en el frontend.<br>**Abigail Raymundo:** Aporto en la organizacion de tareas relacionadas con sanidad y actividades, asegurando que los endpoints respondieran a necesidades reales del trabajo ganadero.<br>**Luciana Sanchez:** Colaboro en la planificacion del flujo veterinario, definiendo la relacion entre usuarios ganaderos y veterinarios para que el backend soporte el trabajo por clientes asignados. | **AV1:**<br>La planificacion y el trabajo colaborativo permitieron cumplir los objetivos dentro del plazo establecido, manteniendo comunicacion constante y orientacion hacia las necesidades de ganaderos y veterinarios.<br><br>**TB1:**<br>La coordinacion del equipo permitio ejecutar el Sprint 2 de manera eficiente, integrando mejoras en los artefactos del reporte y avanzando en la implementacion del sistema.<br><br>**AV2:**<br>El equipo cumplio el objetivo principal del Sprint 3 al pasar de un frontend con datos mock a una API real desplegada en internet. La planificacion por bounded contexts, el uso de GitHub para integrar ramas y la documentacion de Swagger permitieron mantener un entorno colaborativo, organizado y verificable. |
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta | **AV1:**<br>**Josep Melgarejo:** Participe en el desarrollo del Event Storming, los diagramas C4, el diagrama de clases y el diagrama de base de datos, coordinando con mis compañeros decisiones importantes para lograr un trabajo satisfactorio.<br>**Jorge Ayala:** Participe de manera activa en la creacion de la Landing Page de AniTec y en la elaboracion de historias de usuario relacionadas con este primer avance.<br>**Bruno Huaman:** Lidere la fase estrategica mediante la elaboracion del Impact Mapping, conectando los objetivos de negocio con las necesidades de ganaderos y veterinarios.<br>**Abigail Raymundo:** Participe en el desarrollo de los capitulos 1 y 2, principalmente en la definicion del problema, segmentos objetivo y competidores.<br>**Luciana Sanchez:** Participe en la definicion de epicas, historias de usuario y criterios de aceptacion, aportando ideas y coordinando responsabilidades con el equipo.<br><br>**TB1:**<br>**Josep Melgarejo:** Apoye en la coordinacion del equipo para el Sprint 2, facilitando la comunicacion entre integrantes y asegurando el cumplimiento de tareas asignadas.<br>**Jorge Ayala:** Me encargue de una parte importante del frontend, incluyendo el bounded context de Activities, y participe en la documentacion del Sprint 2.<br>**Bruno Huaman:** Realice una evaluacion del documento, especialmente de las historias de usuario, colaborando con el equipo para reordenarlas adecuadamente.<br>**Abigail Raymundo:** Realice la correccion del Capitulo I, colabore en el Capitulo II, participe en la documentacion del Sprint 2 y aporte en uno de los Bounded Context del sistema.<br>**Luciana Sanchez:** Realice la correccion y mejora de los diagramas C4, asegurando consistencia con la arquitectura del sistema y los requerimientos del Sprint 2.<br><br>**AV2:**<br>**Josep Melgarejo:** Lidere la documentacion del Sprint 3, la organizacion de la evidencia de endpoints, migraciones, commits y configuracion de servicios, ademas de apoyar en los modulos de Financial, Analytics y Subscriptions.<br>**Jorge Ayala:** Lidere la configuracion base del backend, el desarrollo del bounded context de IAM y el despliegue del backend en Render, incluyendo autenticacion, usuarios, hashing de contraseñas, generacion de JWT y pruebas iniciales desde Swagger.<br>**Bruno Huaman:** Lidere la implementacion de Livestock y Devices, aportando en endpoints de hatos, animales, dispositivos IoT y metricas asociadas, manteniendo la estructura por bounded contexts definida por el equipo.<br>**Abigail Raymundo:** Lidere la implementacion de Sanitary y Activities, aportando en eventos sanitarios, actividades de granja y seguimiento de informacion relevante para ganaderos y veterinarios.<br>**Luciana Sanchez:** Lidere la implementacion del modulo de Clients, permitiendo representar la relacion entre veterinarios y ganaderos, asi como la consulta de clientes asignados y ganaderos disponibles. <br><br>**TB2:**<br>**Josep Melgarejo:** Lids.<br>**Jorge Ayala:** Lr.<br>**Bruno Huaman:** Lio.<br>**Abigail Raymundo:** Realicé correcciones importantes siguiendo el statement corresponidente al curso. Asimismo, lideré la reestructuración completa de la bibliografía del informe final aplicando el formato APA 7, asegurando que cada referencia conectara con los anexos del proyecto y con las herramientas utilizadas durante el desarrollo, como ASP.NET Core, Vue.js, Entity Framework Core, MySQL y Swagger.<br>**Luciana Sanchez:** Lideré la revisión y corrección de funcionalidades del módulo de clientes asignados, asegurando su correcta integración con el flujo veterinario durante este último sprint 4.| **AV1:**<br>El equipo ejercio liderazgo conjunto al coordinar responsabilidades y tomar decisiones colaborativas, permitiendo organizar el primer entregable y alinear AniTec con las necesidades de los usuarios.<br><br>**TB1:**<br>El equipo consolido un liderazgo colaborativo durante el Sprint 2, mejorando artefactos de diseño e implementando la primera version funcional del frontend.<br><br>**AV2:**<br>Durante el Sprint 3, el liderazgo conjunto se evidencio en la construccion del backend real de AniTec. Cada integrante asumio un bounded context o responsabilidad tecnica clara, y el equipo logro integrar persistencia con MySQL, autenticacion, endpoints REST, documentacion Swagger y despliegue en Render. |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos. | **AV1:**<br>**Josep Melgarejo:** Explique al equipo la estructura del Event Storming y los diagramas asignados, ayudando a aclarar ideas y proponer mejoras.<br>**Jorge Ayala:** Comunique los avances realizados en la Landing Page y los commits asociados, permitiendo que el equipo conociera el estado del desarrollo.<br>**Bruno Huaman:** Fomente la lluvia de ideas para definir las historias de usuario del backlog, asegurando que se incluyeran funcionalidades criticas para el producto.<br>**Abigail Raymundo:** Explique los problemas encontrados en los primeros capitulos y ayude a organizar mejor la estructura del documento.<br>**Luciana Sanchez:** Propuse y explique las epicas e historias de usuario necesarias para el proyecto, promoviendo la participacion de todos los integrantes.<br><br>**TB1:**<br>**Josep Melgarejo:** Coordine la asignacion de tareas del Sprint 2, promoviendo la participacion del equipo y el cumplimiento de plazos.<br>**Jorge Ayala:** Participe en la planificacion de tareas del frontend, enfocandome en un bounded context esencial para el funcionamiento del sistema.<br>**Bruno Huaman:** Planifique el bounded context de Financial considerando las necesidades del dominio y su integracion con el resto del frontend.<br>**Abigail Raymundo:** Participe en la revision y correccion de capitulos, documentacion del Sprint 2 y definicion de componentes del sistema.<br>**Luciana Sanchez:** Explique las correcciones necesarias en los diagramas C4, ayudando al equipo a comprender mejor la arquitectura del sistema.<br><br>**AV2:**<br>**Josep Melgarejo:** Organice el trabajo de cierre del Sprint 3 mediante la actualizacion de evidencias, tablas de commits, endpoints implementados y conclusiones del avance.<br>**Jorge Ayala:** Coordino con el equipo la configuracion tecnica del backend y se encargo del despliegue en Render para que la API quedara disponible publicamente desde Swagger.<br>**Bruno Huaman:** Colaboro con el equipo para validar que las entidades ganaderas, dispositivos y metricas mantuvieran coherencia con los datos usados previamente en el frontend.<br>**Abigail Raymundo:** Aporto en la organizacion de tareas relacionadas con sanidad y actividades, asegurando que los endpoints respondieran a necesidades reales del trabajo ganadero.<br>**Luciana Sanchez:** Colaboro en la planificacion del flujo veterinario, definiendo la relacion entre usuarios ganaderos y veterinarios para que el backend soporte el trabajo por clientes asignados. <br><br>**TB2:**<br>**Josep Melgarejo:** Lids.<br>**Jorge Ayala:** Lr.<br>**Bruno Huaman:** Lio.<br>**Abigail Raymundo:** Contribuí activamente a la calidad del informe final realizando correcciones importantes siguiendo el statement establecido en el curso.  Apliqué el formato APA 7 correcto en la sección de bibliografía, incorporando nuevas fuentes válidas relacionadas con las herramientas del proyecto y verificando que cada entrada estuviera vinculada a los anexos correspondientes.<br>**Luciana Sanchez:** Colaboré de forma proactiva en la implementación de la pasarela de pago con Stripe, durante este último sprint 4. | **AV1:**<br>La planificacion y el trabajo colaborativo permitieron cumplir los objetivos dentro del plazo establecido, manteniendo comunicacion constante y orientacion hacia las necesidades de ganaderos y veterinarios.<br><br>**TB1:**<br>La coordinacion del equipo permitio ejecutar el Sprint 2 de manera eficiente, integrando mejoras en los artefactos del reporte y avanzando en la implementacion del sistema.<br><br>**AV2:**<br>El equipo cumplio el objetivo principal del Sprint 3 al pasar de un frontend con datos mock a una API real desplegada en internet. La planificacion por bounded contexts, el uso de GitHub para integrar ramas y la documentacion de Swagger permitieron mantener un entorno colaborativo, organizado y verificable. |
 
 <div style="page-break-before: always;"></div>
 
@@ -1007,7 +1007,7 @@ Variables demográficas a recolectar: Edad, género, distrito de residencia, edu
 | Tamaño aproximado del ganado | 25 cabezas de ganado |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:07:43 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M |
+| URL del video | https://tinyurl.com/entrevista1VicenteHuaman |
 
 </div>
 
@@ -1038,7 +1038,7 @@ La entrevista permitió identificar que Vicente estaría dispuesto a usar una pl
 | Tamaño aproximado del ganado | Hato pequeño familiar |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:06:53 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| URL del video | https://tinyurl.com/entrevista2RebecaQuiroz |
 
 </div>
 
@@ -1069,7 +1069,7 @@ Respecto a tecnología, utiliza smartphone y navegación básica desde el celula
 | Tamaño aproximado del ganado | Hato pequeño gestionado con apoyo de 2 a 3 personas |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:13:55 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg |
+| URL del video | https://tinyurl.com/entrevista3PorfirioSalazar |
 
 </div>
 
@@ -1102,7 +1102,7 @@ La entrevista permitió reconocer que Porfirio necesita una solución que no sol
 | Tipo de atención | Atención sanitaria de ganado |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:06:55 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx |
+| URL del video | https://tinyurl.com/entrevista4AngelaMendoza |
 
 </div>
 
@@ -1133,7 +1133,7 @@ La entrevistada considera que una herramienta como AniTec sería útil si permit
 | Tipo de atención | Atención clínica y sanitaria de ganado |
 | Inicio de la entrevista | 00:00 |
 | Duración | 00:08:09 |
-| URL del video | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi |
+| URL del video | https://tinyurl.com/entrevista5AldahirSantos |
 
 </div>
 
@@ -6375,34 +6375,44 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 
 # 5.2. Landing Page, Services & Applications Implementation.
 
+<br>
+<br>
+
+<div align="center">
+    <img src="./markdown/assets/chapter-5/capitulo-5.png" alt="Capitulo 5" />
+</div>
+
+<br>
+<br>
+
+# 5.2. Landing Page, Services & Applications Implementation.
+
 <a id="toc-5-2-4-sprint-4"></a>
-## 5.2.3. Sprint 3.
+## 5.2.4. Sprint 4.
 
-En el Sprint 3, el equipo de AniTec se enfocó en la construcción del backend real de la aplicación web, reemplazando la dependencia inicial de servicios mock por una API REST desarrollada con ASP.NET Core, Entity Framework Core y MySQL. El objetivo principal fue implementar la capa de servicios necesaria para almacenar, consultar y procesar los datos de la plataforma de forma persistente, manteniendo una estructura similar a la trabajada en clase con el proyecto `learning-center-platform-master`.
+En el Sprint 4, el equipo de AniTec se enfoca en fortalecer la seguridad, autenticacion y monetizacion de la aplicacion web. A partir del backend real implementado en el Sprint 3, este Sprint busca evolucionar el IAM basico hacia un flujo mas completo, proteger los endpoints principales de la API y reemplazar el flujo de pagos de prueba por una integracion con Stripe para el modulo de suscripciones.
 
-Durante este Sprint se desarrolló el proyecto `anitec-platform-main`, organizado mediante bounded contexts y siguiendo una arquitectura por capas. El backend implementa autenticación, gestión de usuarios, perfiles, fincas, animales, eventos sanitarios, actividades, registros financieros, reportes, clientes veterinarios, dispositivos, métricas de dispositivos y suscripciones. También se configuraron migraciones automáticas con Entity Framework Core para MySQL, documentación con Swagger y datos iniciales para facilitar las pruebas de integración con el frontend.
+El alcance del Sprint incluye trabajo coordinado en backend y frontend. En backend, se planifica mejorar el bounded context de IAM, aplicar proteccion con JWT en los controladores, validar roles de usuario y preparar los servicios de suscripcion para trabajar con Stripe. En frontend, se planifica adaptar el inicio de sesion, la gestion de sesion, las rutas protegidas, el consumo autenticado de endpoints y la experiencia de pago desde la vista de planes. De esta manera, AniTec avanza hacia una version mas cercana al producto final, donde ganaderos y veterinarios pueden acceder segun su rol, trabajar con informacion protegida y gestionar suscripciones mediante una pasarela de pago.
 
 <a id="toc-5-2-4-1-sprint-planning-4"></a>
-### 5.2.3.1. Sprint Planning 3.
+### 5.2.4.1. Sprint Planning 4.
 
-El Sprint Planning del Sprint 3 tuvo como objetivo definir el alcance para la implementación del backend de AniTec. A partir de lo avanzado en el Sprint 2, donde el frontend consumía datos desde `my-json-server`, el equipo identificó la necesidad de desarrollar una API propia que permita manejar reglas de negocio, persistencia real y una integración más cercana al funcionamiento final del producto.
+El Sprint Planning del Sprint 4 tuvo como objetivo definir el trabajo necesario para cerrar brechas de seguridad y monetizacion identificadas luego de la integracion frontend-backend del Sprint 3. El equipo determino que el sistema ya contaba con servicios REST, persistencia en MySQL y consumo desde el frontend, pero aun necesitaba un IAM mas completo, proteccion consistente de endpoints y una integracion realista con una pasarela de pago.
 
-Se decidió construir el backend utilizando ASP.NET Core y Entity Framework Core, ya que estas tecnologías fueron trabajadas durante las clases del curso. Además, se eligió MySQL como sistema gestor de base de datos porque fue la tecnología indicada para el desarrollo de backend en esta etapa del curso.
-
-Durante la planificación se definieron los bounded contexts principales, las responsabilidades de cada integrante y las funcionalidades mínimas necesarias para que el backend pueda reemplazar progresivamente al servicio mock utilizado en el Sprint 2.
+Durante la planificacion se priorizaron tres frentes principales: integracion de Stripe para suscripciones, fortalecimiento del IAM en backend y frontend, y proteccion de endpoints mediante autenticacion y autorizacion. Estos frentes fueron seleccionados porque impactan directamente en la confianza de los usuarios, el control de acceso por rol y el modelo de negocio basado en planes de suscripcion.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
         <tr>
             <td><b>Sprint #</b></td>
-            <td>Sprint 3</td>
+            <td>Sprint 4</td>
         </tr>
         <tr>
             <td colspan="2"><b>Sprint Planning Background</b></td>
         </tr>
         <tr>
             <td>Date</td>
-            <td>2026-06-05</td>
+            <td>2026-07-03</td>
         </tr>
         <tr>
             <td>Time</td>
@@ -6410,7 +6420,7 @@ Durante la planificación se definieron los bounded contexts principales, las re
         </tr>
         <tr>
             <td>Location</td>
-            <td>Reunión virtual via Discord - Canal #sprint-planning</td>
+            <td>Reunion virtual via Discord - Canal #sprint-planning</td>
         </tr>
         <tr>
             <td>Prepared by</td>
@@ -6422,89 +6432,90 @@ Durante la planificación se definieron los bounded contexts principales, las re
         </tr>
         <tr>
             <td>Sprint n - 1 Review Summary</td>
-            <td>El Sprint 2 permitió construir la aplicación web frontend de AniTec con Vue 3, PrimeVue, Pinia, Vue Router, módulos por bounded context y consumo de datos mediante una API REST mock con my-json-server.</td>
+            <td>El Sprint 3 permitio implementar el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL, conectar progresivamente el frontend con la API real, incorporar los modulos de dispositivos IoT y suscripciones, y actualizar la landing page con los videos About the Team y About the Product.</td>
         </tr>
         <tr>
             <td>Sprint n - 1 Retrospective Summary</td>
-            <td>El equipo identificó que el uso de datos mock permitió avanzar rápidamente en el frontend, pero limitaba la validación de reglas de negocio, persistencia real, autenticación segura y operaciones entre módulos. Por ello, se priorizó el desarrollo del backend en el Sprint 3.</td>
+            <td>El equipo identifico que la API ya permitia persistir y consultar informacion real, pero el IAM seguia siendo basico, varios endpoints necesitaban proteccion uniforme y el flujo de pagos aun funcionaba como simulacion. Por ello, se priorizo mejorar seguridad, control de acceso y suscripciones en el Sprint 4.</td>
         </tr>
         <tr>
             <td colspan="2"><b>Sprint Goal / User Stories</b></td>
         </tr>
         <tr>
-            <td>Sprint 3 Goal</td>
-            <td>Nuestro enfoque está en implementar el backend real de AniTec con ASP.NET Core, Entity Framework Core y MySQL, manteniendo una arquitectura por bounded contexts similar a la desarrollada en clase. Creemos que esto permitirá reemplazar progresivamente la API mock y dar soporte real a la autenticación, gestión ganadera, sanidad, finanzas, analíticas, dispositivos y suscripciones. Esto se confirmará cuando la API pueda compilar, ejecutar migraciones, exponer endpoints REST documentados y responder correctamente a las consultas principales del frontend.</td>
+            <td>Sprint 4 Goal</td>
+            <td>Nuestro enfoque esta en ofrecer una experiencia segura de acceso y suscripcion para ganaderos y veterinarios dentro de AniTec. Creemos que esto entrega mayor confianza y control sobre la informacion del sistema, permitiendo que cada usuario acceda a funciones segun su rol y pueda gestionar su plan mediante una pasarela de pago integrada. Esto se confirmara cuando los usuarios puedan iniciar sesion con un IAM mas completo, navegar por rutas protegidas, consumir endpoints autenticados, realizar el flujo de pago con Stripe desde el frontend y mantener protegidas las operaciones principales del backend mediante JWT y roles.</td>
         </tr>
         <tr>
-            <td>Sprint 3 Velocity</td>
-            <td>El equipo estimó un velocity de 45 Story Points, enfocado en la construcción del backend, configuración de persistencia, implementación de bounded contexts, endpoints REST y documentación de servicios.</td>
+            <td>Sprint 4 Velocity</td>
+            <td>El equipo estima un velocity de 48 Story Points, considerando la integracion de Stripe, mejora del IAM en backend, adaptacion del IAM en frontend, proteccion de endpoints, ajustes de consumo autenticado y validacion funcional del flujo por roles.</td>
         </tr>
         <tr>
-            <td>Sprint of Story Points</td>
-            <td>Total: 45 SP - Distribuidos en 5 SP para configuración base, 8 SP para persistencia con MySQL, 8 SP para IAM con JWT, 8 SP para bounded contexts de gestión ganadera, 6 SP para analíticas y clientes veterinarios, 6 SP para dispositivos, métricas y suscripciones, y 4 SP para documentación y pruebas con Swagger.</td>
+            <td>Sum of Story Points</td>
+            <td>Total: 48 SP - Distribuidos en 12 SP para integracion de Stripe, 12 SP para mejora del IAM backend, 8 SP para IAM frontend y rutas protegidas, 8 SP para proteccion de endpoints con JWT y roles, 5 SP para ajustes de consumo autenticado desde el frontend, y 3 SP para documentacion, pruebas y validacion del flujo completo.</td>
         </tr>
     </tbody>
 </table>
 
-El Sprint Planning Meeting del Sprint 3 duró aproximadamente 2.5 horas. El equipo revisó la estructura del backend usado como referencia en clase, definió los bounded contexts necesarios para AniTec y acordó mantener patrones conocidos como Repository, Unit of Work, Command Services, Query Services, REST Resources y Entity Framework Core para la persistencia.
+El Sprint Planning Meeting del Sprint 4 duro aproximadamente 2 horas. El equipo reviso los modulos de IAM y Subscriptions implementados previamente, identifico los endpoints que requieren proteccion y acordo mantener las tecnologias y patrones ya utilizados en el proyecto: ASP.NET Core, Entity Framework Core, MySQL, JWT, Vue, Pinia, Vue Router, Axios, stores por bounded context y servicios API simples. La integracion con Stripe se planifica como una extension del bounded context de Subscriptions, sin modificar la arquitectura general definida en los Sprints anteriores.
 
-**Technical Stories incluidas en el Sprint 3:**
+**Technical Stories incluidas en el Sprint 4:**
 
-| ID     | Technical Story                                                     | Prioridad   | Story Points |
-| ------ | ------------------------------------------------------------------- | ----------- | ------------ |
-| TS-005 | Configuración inicial del backend con ASP.NET Core                  | Must Have   | 5            |
-| TS-006 | Persistencia con Entity Framework Core y MySQL                      | Must Have   | 8            |
-| TS-007 | Autenticación backend con JWT y BCrypt                              | Must Have   | 8            |
-| TS-008 | Implementación de bounded contexts de gestión ganadera              | Must Have   | 8            |
-| TS-009 | Servicios backend para analíticas y clientes veterinarios           | Should Have | 6            |
-| TS-010 | Servicios backend para dispositivos, métricas y suscripciones       | Should Have | 6            |
-| TS-011 | Documentación y pruebas de API con Swagger                          | Should Have | 4            |
+| ID     | Technical Story                                                       | Prioridad   | Story Points |
+| ------ | --------------------------------------------------------------------- | ----------- | ------------ |
+| TS-016 | Integracion backend con Stripe para suscripciones                     | Must Have   | 8            |
+| TS-017 | Integracion frontend del flujo de pago con Stripe                     | Must Have   | 4            |
+| TS-018 | Mejora del IAM backend para autenticacion y autorizacion por rol       | Must Have   | 12           |
+| TS-019 | Proteccion de endpoints principales mediante JWT y roles              | Must Have   | 8            |
+| TS-020 | Adaptacion del IAM frontend para sesion, token y rutas protegidas     | Must Have   | 8            |
+| TS-021 | Consumo autenticado de endpoints desde stores y servicios frontend    | Should Have | 5            |
+| TS-022 | Documentacion y validacion del flujo de seguridad y suscripcion       | Should Have | 3            |
 
-La selección de estas Technical Stories responde a la necesidad de construir la base de datos y la lógica principal del sistema. El equipo priorizó primero la configuración del backend, IAM y persistencia, ya que estos elementos sirven como base para el consumo posterior desde el frontend.
+La seleccion de estas Technical Stories responde a la necesidad de consolidar AniTec como una aplicacion web con acceso controlado y un modelo de suscripcion funcional. El equipo priorizo primero IAM y proteccion de endpoints, porque ambos permiten resguardar los datos de ganaderos y veterinarios. Luego se planifico la integracion con Stripe para mejorar el modulo de planes y acercarlo al modelo de negocio planteado en el proyecto.
 
-**Distribución de Trabajo por Componente:**
+**Distribucion de Trabajo por Componente:**
 
-- **Backend ASP.NET Core:** 45 Story Points - Enfocados en la creación del proyecto `anitec-platform-main`, organización por bounded contexts, configuración de MySQL, migraciones, endpoints REST, autenticación JWT, seed de datos y documentación Swagger.
+- **Backend ASP.NET Core:** 28 Story Points - Enfocados en mejorar IAM, proteger controladores con JWT y roles, configurar servicios de Stripe, ajustar suscripciones y validar endpoints protegidos.
+- **Frontend Web Application:** 17 Story Points - Enfocados en adaptar login, sesion, rutas protegidas, consumo autenticado con token y flujo de pago desde la vista de planes.
+- **Documentacion y Validacion:** 3 Story Points - Enfocados en documentar el alcance del Sprint, evidenciar endpoints protegidos, flujo de Stripe y pruebas funcionales por rol.
 
 <a id="toc-5-2-4-2-aspect-leaders-and-collaborators"></a>
-### 5.2.3.2. Aspects Leaders and Collaborators.
+### 5.2.4.2. Aspects Leaders and Collaborators.
 
-En esta sección el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 3, indicando por cada aspecto dentro del alcance del Sprint quién es el líder y quiénes son colaboradores.
+En esta seccion el equipo elabora el artefacto Leadership-and-Collaboration Matrix (LACX) para el Sprint 4, indicando por cada aspecto dentro del alcance del Sprint quien es el lider y quienes colaboran. La matriz permite organizar responsabilidades segun los frentes principales de trabajo: Stripe, IAM backend, IAM frontend, endpoints protegidos, consumo autenticado y documentacion.
 
-Para este tercer Sprint, los aspectos están centrados en el desarrollo del backend de AniTec, abarcando desde la configuración inicial del proyecto ASP.NET Core hasta la implementación de bounded contexts, persistencia con MySQL, migraciones y documentación de servicios.
+Para este Sprint, los aspectos se enfocan en seguridad y suscripciones, ya que el sistema necesita controlar el acceso a la informacion y permitir que el modelo de planes funcione con una pasarela de pago. La distribucion se realiza manteniendo relacion con los bounded contexts y modulos trabajados en los Sprints anteriores.
 
-**Aspectos del Sprint 3:**
+**Aspectos del Sprint 4:**
 
-1. **Backend - Configuración y Arquitectura Base:** Creación de la solución ASP.NET Core, configuración de Swagger, CORS, inyección de dependencias, Entity Framework Core y estructura de carpetas.
-2. **Backend - IAM y Profiles:** Implementación de usuarios basicas
-3. **Backend - Livestock, Sanitary y Activities:** Implementación de fincas, animales, eventos sanitarios y actividades de granja mediante entidades, comandos, consultas, servicios y controladores REST.
-4. **Backend - Financial y Analytics:** Implementación de registros financieros, report metrics y endpoints de dashboard para ganaderos y veterinarios.
-5. **Backend - Clients, Devices y Metrics:** Implementación de clientes veterinarios, dispositivos ganaderos y métricas generadas por dispositivos.
-6. **Backend - Subscriptions y Payments:** Implementación de planes, suscripciones, pagos mock y preparación de campos para una futura integración con Stripe.
-7. **Base de Datos, Migraciones y Seed:** Configuración de MySQL, migraciones de Entity Framework Core y datos iniciales para pruebas.
-8. **Documentación:** Documentación técnica del Sprint, endpoints disponibles y evidencias de ejecución.
+1. **Backend - Stripe y Subscriptions:** Configuracion de Stripe, creacion de sesiones de pago, actualizacion del flujo de suscripciones y registro del resultado de pagos.
+2. **Backend - IAM Completo:** Mejora de autenticacion, manejo de usuarios, roles, generacion de tokens y validacion de credenciales.
+3. **Backend - Endpoints Protegidos:** Aplicacion de JWT y roles en controladores para limitar el acceso a operaciones segun usuario autenticado.
+4. **Frontend - IAM y Rutas Protegidas:** Adaptacion del inicio de sesion, almacenamiento de token, cierre de sesion, guards de rutas y redireccion por rol.
+5. **Frontend - Stripe y Planes:** Integracion del flujo de pago desde la vista de suscripciones, comunicacion con endpoints de Stripe y manejo de estados de pago.
+6. **Frontend - Consumo Autenticado:** Ajuste de servicios API, stores y peticiones Axios para enviar token y manejar errores de autenticacion.
+7. **Documentacion y Validacion:** Registro de decisiones, evidencias del Sprint, pruebas del flujo por rol, endpoints protegidos y flujo de pago.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
     <tbody>
         <tr>
             <td><b>Team Member (Last Name, First Name)</b></td>
             <td><b>GitHub Username</b></td>
-            <td><b>Config/Arq Backend / L or C</b></td>
-            <td><b>IAM & Profiles / L or C</b></td>
-            <td><b>Livestock/Sanitary/Activities / L or C</b></td>
-            <td><b>Financial/Analytics / L or C</b></td>
-            <td><b>Clients/Devices/Metrics / L or C</b></td>
-            <td><b>Subscriptions / L or C</b></td>
-            <td><b>Documentación / L or C</b></td>
+            <td><b>Stripe & Subscriptions Backend / L or C</b></td>
+            <td><b>IAM Backend / L or C</b></td>
+            <td><b>Protected Endpoints / L or C</b></td>
+            <td><b>IAM Frontend / L or C</b></td>
+            <td><b>Stripe Frontend / L or C</b></td>
+            <td><b>Authenticated API Consumption / L or C</b></td>
+            <td><b>Documentation & Validation / L or C</b></td>
         </tr>
         <tr>
             <td>Ayala Fernandez, Jorge Brayan</td>
             <td>jorgeayaladev</td>
+            <td>C</td>
             <td>L</td>
             <td>L</td>
             <td>C</td>
             <td>C</td>
-            <td>-</td>
             <td>C</td>
             <td>C</td>
         </tr>
@@ -6513,10 +6524,10 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
             <td>BrunoHG10</td>
             <td>C</td>
             <td>C</td>
-            <td>L</td>
+            <td>C</td>
             <td>C</td>
             <td>L</td>
-            <td>-</td>
+            <td>L</td>
             <td>C</td>
         </tr>
         <tr>
@@ -6527,7 +6538,7 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
             <td>C</td>
             <td>L</td>
             <td>C</td>
-            <td>L</td>
+            <td>C</td>
             <td>L</td>
         </tr>
         <tr>
@@ -6535,10 +6546,10 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
             <td>AbigailRV</td>
             <td>C</td>
             <td>C</td>
-            <td>L</td>
             <td>C</td>
             <td>C</td>
-            <td>-</td>
+            <td>C</td>
+            <td>C</td>
             <td>C</td>
         </tr>
         <tr>
@@ -6546,560 +6557,463 @@ Para este tercer Sprint, los aspectos están centrados en el desarrollo del back
             <td>Luccsss</td>
             <td>C</td>
             <td>C</td>
-            <td>C</td>
-            <td>C</td>
             <td>L</td>
+            <td>C</td>
+            <td>C</td>
             <td>C</td>
             <td>C</td>
         </tr>
     </tbody>
 </table>
 
-**Distribución detallada de responsabilidades:**
+**Distribucion detallada de responsabilidades:**
 
-- **Ayala Fernandez, Jorge Brayan (Configuración & IAM Lead):** Responsable de la configuración inicial del backend, autenticación, generación de tokens JWT, manejo de credenciales y endpoints de usuarios.
+- **Ayala Fernandez, Jorge Brayan (IAM Backend & Protected Endpoints Lead):** Responsable de fortalecer el IAM en backend, validar roles de usuario, aplicar proteccion con JWT en endpoints principales y revisar que las operaciones criticas no queden expuestas sin autenticacion.
 
-- **Huaman Gallardo, Bruno Aldair (Livestock & Devices Lead):** Responsable de los módulos relacionados con la gestión ganadera, incluyendo fincas, animales, dispositivos y métricas asociadas.
+- **Huaman Gallardo, Bruno Aldair (Stripe Frontend & Authenticated API Consumption Lead):** Responsable de adaptar la vista de planes para iniciar el flujo de pago, ajustar peticiones autenticadas desde el frontend y verificar que los stores consuman endpoints protegidos enviando el token correspondiente.
 
-- **Melgarejo Quiroz, Josep Eliu (Financial, Analytics & Documentation Lead):** Responsable de registros financieros, reportes, dashboards, suscripciones, pagos mock y documentación del Sprint.
+- **Melgarejo Quiroz, Josep Eliu (Stripe Backend, IAM Frontend & Documentation Lead):** Responsable de integrar el servicio backend de Stripe dentro del bounded context de Subscriptions, adaptar la experiencia de sesion en el frontend y documentar el avance del Sprint.
 
-- **Raymundo Villarroel, Nadhim Abigail (Sanitary & Activities Lead):** Responsable de eventos sanitarios, actividades de granja y seguimiento de información clínica del ganado.
+- **Raymundo Villarroel, Nadhim Abigail (Validation Collaborator):** Colabora en la validacion de flujos por rol, revision de errores de autenticacion, pruebas funcionales de acceso como ganadero y veterinario, y verificacion de que las vistas principales respondan correctamente con endpoints protegidos.
 
-- **Sanchez Silva, Luciana Celeste (Clients Lead):** Responsable de la relación entre veterinarios y ganaderos, incluyendo clientes asignados, ganaderos disponibles y operaciones de asociación.
+- **Sanchez Silva, Luciana Celeste (Protected Endpoints Collaborator):** Responsable de apoyar la proteccion de endpoints relacionados con clientes veterinarios, flujo por rol y validacion de acceso a informacion correspondiente a ganaderos y veterinarios.
 
 <a id="toc-5-2-4-3-sprint-backlog-4"></a>
-### 5.2.3.3. Sprint Backlog 3.
+### 5.2.4.3. Sprint Backlog 4.
 
-El Sprint Backlog 3 tiene como objetivo principal implementar el backend de AniTec con una estructura modular y mantenible. Este backend permite centralizar la lógica de negocio, persistir datos en MySQL y exponer endpoints REST que serán consumidos por la aplicación web frontend.
+El Sprint Backlog 4 organiza las tareas necesarias para implementar el IAM completo y la pasarela de pago con Stripe en AniTec. A diferencia del Sprint 3, donde se construyo la API real y se conecto progresivamente el frontend, este Sprint se enfoca en consolidar seguridad, roles, registro de usuarios, rutas protegidas, consumo autenticado y pagos de suscripciones.
 
-El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Primero se priorizó la configuración base del proyecto y la persistencia; luego se implementaron los bounded contexts principales; finalmente se añadieron endpoints de analítica, dispositivos, suscripciones y datos iniciales para pruebas.
-
-**Trello Board:**
-El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
-
-Enlace al tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTI8abaa26cc7e6f8b81250a5d3862a2d6574E3BF7E/sprint3-anitec
-
-<div align="center">
-    <img src="./markdown/assets/chapter-5/trello-sprint3.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-**Estructura del Trello Board:**
-
-- **Sprint Goal:** Lista que contiene el objetivo principal del Sprint.
-- **To Do:** Lista con las tareas pendientes por iniciar.
-- **In Progress:** Lista con las tareas que se encuentran en desarrollo.
-- **To Review:** Lista con tareas completadas pendientes de revisión.
-- **Done:** Lista con tareas aprobadas e integradas al backend.
-
-A continuación, la tabla de control de estado para el Sprint 3:
+Las tareas fueron distribuidas considerando los dos productos principales de la solucion: backend y frontend. En backend se trabajaron autenticacion, autorizacion, proteccion de endpoints, configuracion de Stripe y persistencia de pagos. En frontend se trabajaron los formularios de registro e inicio de sesion, guards de rutas, almacenamiento del token, envio del token en peticiones Axios y flujo visual de pago desde el modulo de planes.
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>User/Technical Story</th>
+            <th>Task Title</th>
+            <th>Description</th>
+            <th>Estimation</th>
+            <th>Assigned To</th>
+            <th>Status</th>
+        </tr>
+    </thead>
     <tbody>
         <tr>
-            <td><b>Sprint #</b></td>
-            <td colspan="7">Sprint 3</td>
-        </tr>
-        <tr>
-            <td colspan="2">User Story</td>
-            <td colspan="6">Work-Item / Task</td>
-        </tr>
-        <tr>
-            <td>Id</td>
-            <td>Title</td>
-            <td>Id</td>
-            <td>Title</td>
-            <td>Description</td>
-            <td>Estimation (Hours)</td>
-            <td>Assigned to</td>
-            <td>Status</td>
-        </tr>
-        <tr>
-            <td>TS-005</td>
-            <td>Configuración inicial del backend con ASP.NET Core</td>
             <td>T001</td>
-            <td>Configurar solución backend</td>
-            <td>Crear la solución anitec-platform, configurar proyecto ASP.NET Core, Swagger, CORS, appsettings, estructura base y paquetes NuGet necesarios.</td>
-            <td>5</td>
+            <td>TS-018</td>
+            <td>Actualizar sign-up backend con roles</td>
+            <td>Permitir registro de usuarios con username, password, fullName y role, validando roles Rancher y Veterinarian.</td>
+            <td>5 SP</td>
             <td>Ayala Fernandez, Jorge Brayan</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>TS-006</td>
-            <td>Persistencia con Entity Framework Core y MySQL</td>
             <td>T002</td>
-            <td>Configurar persistencia con Entity Framework Core</td>
-            <td>Crear AppDbContext, configurar conexión a MySQL, repositorio base, Unit of Work, convenciones de nombres, migraciones y seed de datos iniciales.</td>
-            <td>8</td>
-            <td>Melgarejo Quiroz, Josep Eliu</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>TS-007</td>
-            <td>Autenticación backend con JWT y BCrypt</td>
-            <td>T003</td>
-            <td>Implementar usuarios, sign-in y sign-up</td>
-            <td>Crear entidades, comandos, consultas, servicios, recursos REST y controladores para autenticación, registro de usuarios, hashing de contraseñas y generación de JWT.</td>
-            <td>8</td>
+            <td>TS-018</td>
+            <td>Mantener autenticacion segura con JWT y BCrypt</td>
+            <td>Asegurar que el inicio de sesion genere token JWT, incluya rol del usuario y mantenga contrasenas encriptadas con BCrypt.</td>
+            <td>4 SP</td>
             <td>Ayala Fernandez, Jorge Brayan</td>
-            <td>In progress</td>
-        </tr>
-        <tr>
-            <td>TS-008</td>
-            <td>Implementación de bounded contexts de gestión ganadera</td>
-            <td>T004</td>
-            <td>Implementar Livestock</td>
-            <td>Crear bounded context para fincas y animales, incluyendo entidades Herd y Animal, repositorios, servicios de comando/consulta y controladores REST.</td>
-            <td>4</td>
-            <td>Huaman Gallardo, Bruno Aldair</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>TS-008</td>
-            <td>Implementación de bounded contexts de gestión ganadera</td>
-            <td>T005</td>
-            <td>Implementar Sanitary y Activities</td>
-            <td>Crear endpoints para eventos sanitarios y actividades de granja, siguiendo la estructura de commands, queries, resources y assemblers.</td>
-            <td>4</td>
-            <td>Raymundo Villarroel, Nadhim Abigail</td>
-            <td>Done</td>
-        </tr>
-        <tr>
-            <td>TS-009</td>
-            <td>Servicios backend para analíticas y clientes veterinarios</td>
-            <td>T006</td>
-            <td>Implementar Analytics y Clients</td>
-            <td>Crear endpoints para dashboards, resúmenes sanitarios/financieros, clientes asignados al veterinario y ganaderos disponibles.</td>
-            <td>6</td>
+            <td>T003</td>
+            <td>TS-019</td>
+            <td>Proteger endpoints principales</td>
+            <td>Aplicar atributos de autorizacion en controladores de livestock, sanitary, activities, financial, analytics, devices, subscriptions, profiles, clients e IAM.</td>
+            <td>8 SP</td>
             <td>Sanchez Silva, Luciana Celeste</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>TS-010</td>
-            <td>Servicios backend para dispositivos, métricas y suscripciones</td>
-            <td>T007</td>
-            <td>Implementar Devices, Metrics y Subscriptions</td>
-            <td>Crear endpoints para dispositivos, métricas generadas por sensores, planes de suscripción, suscripciones, pagos mock y mock checkout.</td>
-            <td>6</td>
+            <td>T004</td>
+            <td>TS-020</td>
+            <td>Crear registro de usuario en frontend</td>
+            <td>Implementar vista de sign-up con nombre completo, usuario, contrasena, confirmacion de contrasena y seleccion de rol ganadero o veterinario.</td>
+            <td>5 SP</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T005</td>
+            <td>TS-020</td>
+            <td>Mejorar login, sesion y redireccion por rol</td>
+            <td>Eliminar usuarios demo, usar credenciales reales del backend, guardar token, mantener sesion y redirigir a dashboard ganadero o veterinario.</td>
+            <td>3 SP</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T006</td>
+            <td>TS-021</td>
+            <td>Enviar token en peticiones API</td>
+            <td>Ajustar BaseApi y stores para consumir endpoints protegidos enviando Authorization Bearer Token.</td>
+            <td>5 SP</td>
             <td>Huaman Gallardo, Bruno Aldair</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>TS-011</td>
-            <td>Documentación y pruebas de API con Swagger</td>
-            <td>T008</td>
-            <td>Documentar y probar endpoints REST</td>
-            <td>Verificar Swagger, compilar el proyecto, ejecutar la API, probar endpoints principales y documentar evidencias del Sprint.</td>
-            <td>4</td>
+            <td>T007</td>
+            <td>TS-016</td>
+            <td>Configurar Stripe en backend</td>
+            <td>Agregar configuracion de SecretKey, SuccessUrl y CancelUrl para Stripe Checkout en modo test.</td>
+            <td>4 SP</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T008</td>
+            <td>TS-016</td>
+            <td>Crear endpoint de Stripe Checkout</td>
+            <td>Implementar POST /api/v1/subscriptions/stripe-checkout para generar sesiones de pago usando el plan seleccionado y el usuario autenticado.</td>
+            <td>4 SP</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T009</td>
+            <td>TS-016</td>
+            <td>Confirmar sesion de Stripe</td>
+            <td>Implementar GET /api/v1/subscriptions/stripe-checkout/{sessionId}/confirm para validar pago, registrar suscripcion activa y registrar pago en MySQL.</td>
+            <td>4 SP</td>
+            <td>Melgarejo Quiroz, Josep Eliu</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T010</td>
+            <td>TS-017</td>
+            <td>Integrar Stripe desde frontend</td>
+            <td>Actualizar vista de planes para llamar al endpoint de checkout, redirigir a Stripe y manejar los estados success/cancel.</td>
+            <td>4 SP</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T011</td>
+            <td>TS-017</td>
+            <td>Crear vistas de pago confirmado y cancelado</td>
+            <td>Implementar rutas /subscriptions/success y /subscriptions/cancel para confirmar la sesion de Stripe o volver al modulo de planes.</td>
+            <td>3 SP</td>
+            <td>Huaman Gallardo, Bruno Aldair</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>T012</td>
+            <td>TS-022</td>
+            <td>Validar flujo completo IAM y suscripciones</td>
+            <td>Probar registro, login, redireccion por rol, acceso a endpoints protegidos, pago Stripe test y registro de suscripcion/pago.</td>
+            <td>3 SP</td>
+            <td>Raymundo Villarroel, Nadhim Abigail</td>
             <td>Done</td>
         </tr>
     </tbody>
 </table>
 
-El Sprint Backlog refleja 8 tareas principales, con aproximadamente 45 horas de trabajo estimadas. Cada tarea fue planificada considerando la complejidad técnica, las dependencias entre bounded contexts y la necesidad de mantener una estructura similar al backend trabajado en clase.
+El Sprint Backlog 4 contiene 12 tareas principales, alineadas con los 48 Story Points planificados. Todas las tareas fueron cerradas como Done porque el sistema ya permite registrar usuarios reales por rol, iniciar sesion con JWT, consumir endpoints protegidos y ejecutar el flujo de suscripcion mediante Stripe Checkout en modo test.
 
 <a id="toc-5-2-4-4-development-evidence-for-sprint-review"></a>
-### 5.2.3.4. Development Evidence for Sprint Review.
+### 5.2.4.4. Development Evidence for Sprint Review.
 
-En esta sección se presentan los avances de implementación realizados durante el Sprint 3 con relación al backend de AniTec. La evidencia muestra que el equipo logró construir una API funcional, conectada a MySQL y preparada para integrarse con el frontend.
+Durante el Sprint 4 se registraron avances en los repositorios del backend y frontend. La evidencia de desarrollo se organiza en dos bloques: primero, los cambios relacionados con IAM completo; segundo, los cambios relacionados con Stripe y suscripciones. Los commits exactos deben completarse con la informacion final de GitHub del equipo.
 
-Durante el Sprint 3, el equipo completó la implementación del proyecto `anitec-platform-main`. El backend fue construido utilizando ASP.NET Core, Entity Framework Core, MySQL, JWT y BCrypt. La estructura interna sigue una organización por bounded contexts con capas de dominio, aplicación, infraestructura e interfaces REST.
+**Commits del repositorio anitec-backend:**
 
-**Resumen de Avances Implementados:**
+| Repository | Branch | Commit Id | Commit Message | Commit Description | Date |
+| ---------- | ------ | --------- | -------------- | ------------------ | ---- |
+| anitec-backend | develop | [Agregar commit] | feat: implement complete iam flow | Implementacion de registro, inicio de sesion, roles Rancher/Veterinarian, JWT y BCrypt para usuarios reales. | [Agregar fecha] |
+| anitec-backend | develop | [Agregar commit] | feat: protect api endpoints by role | Aplicacion de autorizacion en controladores principales para limitar operaciones segun rol del usuario. | [Agregar fecha] |
+| anitec-backend | develop | [Agregar commit] | feat: add stripe checkout subscriptions | Creacion de endpoints para iniciar y confirmar sesiones de Stripe Checkout en modo test. | [Agregar fecha] |
+| anitec-backend | develop | [Agregar commit] | fix: persist stripe subscription payments | Registro de suscripciones activas y pagos asociados en MySQL luego de confirmar la sesion de Stripe. | [Agregar fecha] |
 
-- **Creación del proyecto backend:** Solución `anitec-platform.sln` con proyecto principal `Anitec.Platform`.
-- **Configuración de ASP.NET Core:** Uso de controladores REST, Swagger/OpenAPI, CORS, configuración por ambiente y middleware de errores.
-- **Persistencia con MySQL:** Configuración de `AppDbContext`, repositorios, Unit of Work y migraciones de Entity Framework Core.
-- **Autenticación JWT:** Implementación de sign-in, sign-up, hashing de contraseñas con BCrypt y emisión de token.
-- **Arquitectura por bounded contexts:** Implementación de Shared, IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Clients, Devices, Metrics y Subscriptions.
-- **Servicios de aplicación:** Uso de Command Services y Query Services para separar operaciones de escritura y lectura.
-- **REST Resources:** Uso de recursos y assemblers para transformar entidades de dominio en respuestas de API.
-- **Seed de datos:** Carga inicial de usuarios, fincas, animales, eventos, dispositivos, planes y suscripciones para pruebas.
-- **Migraciones automáticas:** Configuración para aplicar migraciones pendientes al ejecutar la API.
+**Commits del repositorio anitec-frontend:**
 
-**Estructura principal del backend:**
+| Repository | Branch | Commit Id | Commit Message | Commit Description | Date |
+| ---------- | ------ | --------- | -------------- | ------------------ | ---- |
+| anitec-frontend | develop | [Agregar commit] | feat: add sign up flow by role | Implementacion del formulario de registro con seleccion de rol ganadero o veterinario. | [Agregar fecha] |
+| anitec-frontend | develop | [Agregar commit] | feat: consume protected endpoints with token | Ajuste de BaseApi, stores y sesion para enviar token JWT en peticiones al backend. | [Agregar fecha] |
+| anitec-frontend | develop | [Agregar commit] | feat: integrate stripe checkout in subscriptions | Integracion del boton de pago con Stripe y redireccion al checkout generado por backend. | [Agregar fecha] |
+| anitec-frontend | develop | [Agregar commit] | feat: add subscription success and cancel views | Creacion de vistas para confirmar pago o manejar cancelacion del flujo de Stripe. | [Agregar fecha] |
 
-```text
-anitec-platform-main/
-├── Anitec.Platform/
-│   ├── Activities/
-│   ├── Analytics/
-│   ├── Clients/
-│   ├── Devices/
-│   ├── Financial/
-│   ├── Iam/
-│   ├── Livestock/
-│   ├── Metrics/
-│   ├── Profiles/
-│   ├── Sanitary/
-│   ├── Shared/
-│   └── Subscriptions/
-├── anitec-platform.sln
-└── README.md
-```
+**Evidencia de archivos modificados:**
 
-**Commits Realizados:**
+- Backend IAM: `Iam/Interfaces/Rest/AuthenticationController.cs`, `Iam/Application/Internal/CommandServices/UserCommandService.cs`, `Iam/Infrastructure/Tokens/Jwt/Services/TokenService.cs`, `Iam/Infrastructure/Pipeline/Middleware`.
+- Backend Subscriptions: `Subscriptions/Interfaces/Rest/SubscriptionsController.cs`, resources de Stripe Checkout, entidades `Subscription` y `Payment`.
+- Frontend IAM: `src/iam/presentation/views/sign-in-form.vue`, `src/iam/presentation/views/sign-up-form.vue`, `src/iam/application/iam.store.js`, `src/iam/infrastructure/iam-api.js`.
+- Frontend Subscriptions: `src/subscriptions/application/subscriptions.store.js`, `src/subscriptions/infrastructure/subscriptions-api.js`, `src/subscriptions/presentation/views/subscription-plans.vue`, `subscription-success.vue`, `subscription-cancel.vue`.
+- Shared Frontend: `src/shared/infrastructure/base-api.js`, `src/router.js`, `src/shared/presentation/components/layout.vue`.
 
-| Repository           | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
-| -------------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
-| anitec-platform-main | develop | a7f3c91 | chore: initial-folder-structure | Creación de la estructura base del backend ASP.NET Core, carpetas por bounded context y configuración inicial de dependencias. | 01/06/2026 |
-| anitec-platform-main | feature/get-all-herds | 4b83e0d | feat: create herds controller | Creación del controlador REST para exponer operaciones principales de hatos. | 02/06/2026 |
-| anitec-platform-main | feature/get-all-users | 74b5e23 | feat: implement get all users endpoint | Implementación del endpoint `GET /users` para consultar usuarios registrados en la plataforma. | 02/06/2026 |
-| anitec-platform-main | feature/get-all-herds | e41fc9a | feat: add herds query service | Implementación del servicio de consultas para listar hatos desde la base de datos. | 03/06/2026 |
-| anitec-platform-main | feature/get-all-animals | 39eb2fd | feat: map animal resource response | Definición de recursos REST y assembler para devolver animales con especie, raza, peso, estado y hato asociado. | 03/06/2026 |
-| anitec-platform-main | develop | 0a9d8bf | Merge pull request #33 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-herds | Integración del listado de hatos al branch de desarrollo. | 04/06/2026 |
-| anitec-platform-main | feature/get-user-by-id | d24ab70 | feat: implement get user by id endpoint | Implementación del endpoint `GET /users/{id}` para consultar un usuario específico mediante su identificador. | 04/06/2026 |
-| anitec-platform-main | feature/add-new-health-event | d80a2bf | feat: create health event command | Creación del comando de aplicación para registrar vacunas, diagnósticos, tratamientos y seguimientos. | 05/06/2026 |
-| anitec-platform-main | feature/get-all-animals | 5a73b6e | feat: implement get all animals endpoint | Implementación del endpoint `GET /animals` para consultar animales registrados. | 05/06/2026 |
-| anitec-platform-main | feature/add-new-herd | 92d7ac1 | feat: implement add new herd endpoint | Implementación del endpoint `POST /herds` para registrar nuevos hatos o unidades productivas. | 06/06/2026 |
-| anitec-platform-main | feature/get-all-financial-records | e7b30f1 | feat: add financial record repository | Implementación del repositorio para consultar ingresos y egresos persistidos en MySQL. | 06/06/2026 |
-| anitec-platform-main | feature/get-all-health-events | b6d14ca | feat: implement get all health events endpoint | Implementación del endpoint `GET /health-events` para consultar vacunas, tratamientos e incidencias. | 07/06/2026 |
-| anitec-platform-main | develop | 21d9f5e | Merge pull request #36 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-animals | Integración del listado de animales al branch de desarrollo. | 07/06/2026 |
-| anitec-platform-main | feature/get-rancher-dashboard | 2ed4b73 | feat: build rancher dashboard summary | Implementación del resumen de animales, hatos, eventos sanitarios y métricas principales para ganaderos. | 08/06/2026 |
-| anitec-platform-main | feature/add-new-health-event | 11ae7d9 | feat: expose add health event endpoint | Exposición del endpoint `POST /health-events` para registrar eventos sanitarios desde la aplicación web. | 08/06/2026 |
-| anitec-platform-main | feature/get-all-farm-events | 1c7d80e | feat: implement get all farm events endpoint | Implementación del endpoint `GET /farm-events` para consultar actividades, visitas y tareas programadas. | 09/06/2026 |
-| anitec-platform-main | feature/get-clients-by-veterinarian | 6fa28c0 | feat: create veterinarian clients resource | Creación de recursos REST para representar clientes asignados a un veterinario. | 09/06/2026 |
-| anitec-platform-main | develop | 63fa0dd | Merge pull request #39 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-health-events | Integración de la consulta de eventos sanitarios al branch de desarrollo. | 10/06/2026 |
-| anitec-platform-main | feature/get-all-devices | 58d14e7 | feat: implement get all devices endpoint | Implementación del endpoint `GET /devices` para listar dispositivos IoT asociados a animales o hatos. | 10/06/2026 |
-| anitec-platform-main | feature/get-veterinarian-dashboard | cb8a3e5 | feat: implement veterinarian dashboard endpoint | Implementación del endpoint `GET /analytics/veterinarians/{veterinarianId}/dashboard` para mostrar clientes, pacientes y eventos sanitarios. | 11/06/2026 |
-| anitec-platform-main | feature/get-clients-by-veterinarian | 47bd918 | feat: implement get clients by veterinarian endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/clients` para listar ganaderos asignados. | 11/06/2026 |
-| anitec-platform-main | feature/get-active-subscription-by-user | 71ad8e0 | feat: implement active subscription query | Implementación de consulta para obtener la suscripción activa de un usuario. | 12/06/2026 |
-| anitec-platform-main | develop | a4b9df0 | Merge pull request #43 from upc-1asi0730-2610-12206-titan-team-4/feature/get-rancher-dashboard | Integración del dashboard de ganadero al branch de desarrollo. | 12/06/2026 |
-| anitec-platform-main | feature/get-device-latest-metric | f0e2a69 | feat: implement latest device metric endpoint | Implementación del endpoint `GET /devices/{id}/latest-metric` para obtener la última lectura registrada. | 13/06/2026 |
-| anitec-platform-main | feature/add-client-to-veterinarian | bf5a127 | feat: implement add client to veterinarian endpoint | Implementación del endpoint `POST /veterinarian/{veterinarianId}/clients/{rancherId}` para asociar un ganadero a un veterinario. | 13/06/2026 |
-| anitec-platform-main | feature/get-all-subscription-plans | 87a0d6c | feat: create subscription plan resource | Creación de recursos REST para representar planes de suscripción. | 14/06/2026 |
-| anitec-platform-main | feature/get-all-subscription-plans | e314ac7 | feat: implement get all subscription plans endpoint | Implementación del endpoint `GET /subscription-plans` para listar planes disponibles. | 14/06/2026 |
-| anitec-platform-main | feature/get-available-ranchers-for-veterinarian | 2a0fca9 | feat: implement available ranchers endpoint | Implementación del endpoint `GET /veterinarian/{veterinarianId}/available-ranchers` para consultar ganaderos disponibles. | 15/06/2026 |
-| anitec-platform-main | develop | 47f8c2d | Merge pull request #69 from upc-1asi0730-2610-12206-titan-team-4/feature/get-clients-by-veterinarian | Integración de la consulta de clientes asignados al branch de desarrollo. | 15/06/2026 |
-| anitec-platform-main | feature/get-payments-by-user | 4f2bc8a | feat: implement get payments by user endpoint | Implementación del endpoint `GET /subscriptions/users/{userId}/payments` para consultar pagos asociados a un usuario. | 16/06/2026 |
-| anitec-platform-main | feature/mock-checkout | 9b8e430 | feat: create mock checkout command | Creación del flujo de comando para simular checkout y generar pagos de prueba. | 16/06/2026 |
-| anitec-platform-main | feature/mock-checkout | 5e64a1d | feat: implement mock checkout endpoint | Implementación del endpoint `POST /subscriptions/mock-checkout` para validar pagos mock durante el Sprint. | 17/06/2026 |
-| anitec-platform-main | feature/remove-client-from-veterinarian | 3fe60ab | feat: implement remove client from veterinarian endpoint | Implementación del endpoint `DELETE /veterinarian/{veterinarianId}/clients/{rancherId}` para retirar un cliente asignado. | 17/06/2026 |
-| anitec-platform-main | develop | 92e03bf | Merge pull request #71 from upc-1asi0730-2610-12206-titan-team-4/feature/get-all-devices | Integración de dispositivos IoT y lectura de últimas métricas al branch de desarrollo. | 18/06/2026 |
-| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | c6a01de | fix: configure dateonly converters for mysql | Corrección de conversores DateOnly para evitar errores de persistencia y lectura en MySQL. | 18/06/2026 |
-| anitec-platform-main | hotfix/fix-dateonly-mysql-converters | e0b71ac | fix: update migration snapshot dates | Ajuste del snapshot de migraciones para mantener consistencia con las columnas de fecha. | 18/06/2026 |
-| anitec-platform-main | develop | d0af82c | Merge pull request #73 from upc-1asi0730-2610-12206-titan-team-4/hotfix/fix-dateonly-mysql-converters | Integración del hotfix de conversión de fechas al branch de desarrollo. | 19/06/2026 |
-| anitec-platform-main | develop | 8f6d1be | Merge pull request #72 from upc-1asi0730-2610-12206-titan-team-4/feature/mock-checkout | Integración del flujo de pagos mock y suscripciones al branch de desarrollo. | 19/06/2026 |
-| anitec-platform-main | main | 7e9c4b2 | Merge pull request #74 from upc-1asi0730-2610-12206-titan-team-4/develop | Integración final del Sprint 3 desde `develop` hacia `main`, consolidando endpoints, migraciones, seed de datos y documentación Swagger. | 19/06/2026 |
+**Screenshots de evidencia de desarrollo:**
 
-**Repositorio del Backend:**
-
-https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
-
-**Estadísticas del repositorio:**
-
-- Total de bounded contexts implementados: 12
-- Base de datos: MySQL
-- ORM: Entity Framework Core
-- Seguridad: JWT y BCrypt
-- Documentación de servicios: Swagger/OpenAPI
-- Migraciones generadas: 3
-- Endpoints principales: autenticación, usuarios, perfiles, fincas, animales, sanidad, finanzas, actividades, analíticas, clientes, dispositivos, métricas y suscripciones.
+- [Agregar screenshot de commits del repositorio anitec-backend relacionados con IAM y Stripe]
+- [Agregar screenshot de commits del repositorio anitec-frontend relacionados con IAM y Stripe]
+- [Agregar screenshot de Pull Requests o ramas integradas en develop]
 
 <a id="toc-5-2-4-5-execution-evidence-for-sprint-review"></a>
-### 5.2.3.5. Execution Evidence for Sprint Review.
+### 5.2.4.5. Execution Evidence for Sprint Review.
 
-Esta sección resume lo alcanzado en el Sprint 3 y presenta las principales evidencias de ejecución del backend. El objetivo fue comprobar que la API pueda compilar, ejecutar, aplicar migraciones, conectarse a MySQL y responder a peticiones HTTP desde Swagger o herramientas de prueba.
+La ejecucion del Sprint 4 se valido mediante pruebas funcionales locales del flujo completo de autenticacion, autorizacion y suscripcion. Debido a que el despliegue final aun no se ha realizado, los enlaces publicos de frontend, backend y base de datos se dejan como placeholders para completarlos cuando los servicios esten publicados en Render.
 
-**Resumen de lo Alcanzado:**
+**URLs de despliegue pendientes:**
 
-El Sprint 3 permitió desarrollar el backend real de AniTec. El equipo logró configurar la solución ASP.NET Core, conectar la API con MySQL, implementar migraciones, crear datos iniciales y exponer endpoints REST para los módulos principales del sistema.
+- Backend desplegado en Render: [Agregar URL del backend en Render]
+- Frontend desplegado en Render: [Agregar URL del frontend en Render]
+- Base de datos MySQL desplegada en Render: [Agregar referencia del servicio/base de datos en Render]
+- Swagger publicado: [Agregar URL de Swagger en Render]
 
-**Evidencias de ejecución:**
+**Validaciones funcionales realizadas:**
 
-1. **Compilación del backend:** Se ejecutó el comando `dotnet build` para validar que el proyecto compile correctamente.
+1. Registro de usuario ganadero desde el frontend mediante `/iam/sign-up`.
+2. Registro de usuario veterinario desde el frontend mediante `/iam/sign-up`.
+3. Inicio de sesion con usuario real mediante `/iam/sign-in`.
+4. Redireccion automatica hacia dashboard ganadero o veterinario segun rol.
+5. Persistencia de sesion mediante token JWT en localStorage.
+6. Cierre de sesion y limpieza de datos locales.
+7. Bloqueo de rutas privadas cuando no existe sesion activa.
+8. Envio de `Authorization: Bearer <token>` en peticiones hacia el backend.
+9. Acceso a endpoints protegidos usando token valido.
+10. Flujo de pago con Stripe Checkout en modo test desde la vista de suscripciones.
+11. Confirmacion de sesion de Stripe desde `/subscriptions/success`.
+12. Registro de suscripcion activa y pago en MySQL.
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back1.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
+**Evidencias visuales pendientes de insertar:**
 
+- [Agregar screenshot del formulario de registro con seleccion de rol]
+- [Agregar screenshot del login real sin usuarios demo]
+- [Agregar screenshot de dashboard ganadero con usuario autenticado]
+- [Agregar screenshot de dashboard veterinario con usuario autenticado]
+- [Agregar screenshot de endpoint protegido en Swagger con token JWT]
+- [Agregar screenshot de vista de planes con boton Pagar con Stripe]
+- [Agregar screenshot de Stripe Checkout en modo test]
+- [Agregar screenshot de pago confirmado en `/subscriptions/success`]
+- [Agregar screenshot de suscripcion activa e historial de pagos]
 
+**Resultado de pruebas locales:**
 
-**Funcionalidades implementadas en backend:**
-
-1. **IAM:** Inicio de sesión, registro de usuarios, generación de token JWT y consulta de usuarios.
-2. **Profiles:** Gestión de perfiles asociados a usuarios.
-3. **Livestock:** Gestión de fincas y animales.
-4. **Sanitary:** Gestión de eventos sanitarios y registros de salud.
-5. **Activities:** Gestión de actividades y eventos de granja.
-6. **Financial:** Gestión de ingresos, egresos y registros económicos.
-7. **Analytics:** Dashboards y resúmenes para ganaderos y veterinarios.
-8. **Clients:** Gestión de relación entre veterinarios y ganaderos.
-9. **Devices:** Gestión de dispositivos como balanzas, collares inteligentes, cámaras térmicas, aretes de identificación, estaciones meteorológicas y sensores ambientales.
-10. **Metrics:** Gestión de métricas generadas por dispositivos.
-11. **Subscriptions:** Gestión de planes, suscripciones, pagos y mock checkout.
-12. **Shared:** Repositorios base, Unit of Work, persistencia, recursos comunes y manejo de errores.
+| Prueba | Resultado |
+| ------ | --------- |
+| Registro de ganadero | Correcto |
+| Registro de veterinario | Correcto |
+| Login con usuario real | Correcto |
+| Redireccion por rol | Correcto |
+| Acceso a ruta protegida sin sesion | Redirecciona a login |
+| Consumo de endpoint protegido con token | Correcto |
+| Flujo Stripe Checkout test | Correcto |
+| Confirmacion de pago y registro en backend | Correcto |
 
 <a id="toc-5-2-4-6-services-documentation-evidence-for-sprint-review"></a>
-### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
 
-Para el Sprint 3, el equipo implementó una API REST real para AniTec utilizando ASP.NET Core. Esta API reemplaza progresivamente al servicio mock utilizado durante el Sprint 2 y permite que el frontend consuma información persistida en MySQL.
+En el Sprint 4 se documentan los servicios relacionados con IAM completo, autorizacion por rol y pagos con Stripe. Estos servicios complementan la API desarrollada en el Sprint 3 y permiten que AniTec funcione con usuarios reales, endpoints protegidos y suscripciones pagadas mediante una pasarela de pago en modo test.
 
-**Configuración del Servicio Backend:**
+**Servicios principales de IAM:**
 
-- **Plataforma:** ASP.NET Core
-- **ORM:** Entity Framework Core
-- **Base de datos:** MySQL
-- **Autenticación:** JWT Bearer Token
-- **Hashing de contraseñas:** BCrypt
-- **Documentación:** Swagger/OpenAPI
-- **Repositorio:** https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git
-- **URL pública del backend:** https://anitec-backend.onrender.com
-- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
-
-**Migraciones implementadas:**
-
-| Migración | Descripción |
-| --------- | ----------- |
-| `20260605202323_InitialCreate` | Creación inicial de tablas principales del sistema. |
-| `20260607213722_AddRolesClientsAndMockPayments` | Agrega roles, clientes veterinarios y pagos mock. |
-| `20260607235600_AddDateOnlyConverters` | Ajustes para conversión de fechas con DateOnly. |
-
-**Endpoints principales implementados:**
-
-| Bounded Context | Método | Endpoint | Descripción |
+| Bounded Context | Method | Endpoint | Description |
 | --------------- | ------ | -------- | ----------- |
-| IAM | POST | `/api/v1/authentication/sign-in` | Inicio de sesión de usuarios registrados y generación de token JWT. |
-| IAM | POST | `/api/v1/authentication/sign-up` | Registro de nuevos usuarios con contraseña encriptada. |
-| IAM | GET | `/api/v1/users` | Consulta de usuarios del sistema. |
-| IAM | GET | `/api/v1/users/{id}` | Consulta de un usuario por identificador. |
-| Profiles | GET | `/api/v1/profiles` | Consulta de perfiles registrados. |
-| Profiles | GET | `/api/v1/profiles/{profileId}` | Consulta de un perfil por identificador. |
-| Profiles | POST | `/api/v1/profiles` | Creación de perfiles de usuario. |
-| Livestock | GET | `/api/v1/herds` | Consulta de hatos o unidades productivas. |
-| Livestock | GET | `/api/v1/herds/{id}` | Consulta de un hato por identificador. |
-| Livestock | POST | `/api/v1/herds` | Registro de nuevos hatos. |
-| Livestock | PUT | `/api/v1/herds/{id}` | Actualización de información de un hato. |
-| Livestock | DELETE | `/api/v1/herds/{id}` | Eliminación de un hato registrado. |
-| Livestock | GET | `/api/v1/animals` | Consulta de animales registrados. |
-| Livestock | GET | `/api/v1/animals/{id}` | Consulta de un animal por identificador. |
-| Livestock | POST | `/api/v1/animals` | Registro de nuevos animales. |
-| Livestock | PUT | `/api/v1/animals/{id}` | Actualización de información de un animal. |
-| Livestock | DELETE | `/api/v1/animals/{id}` | Eliminación de un animal registrado. |
-| Sanitary | GET | `/api/v1/health-events` | Consulta de eventos sanitarios. |
-| Sanitary | GET | `/api/v1/health-events/{id}` | Consulta de un evento sanitario por identificador. |
-| Sanitary | POST | `/api/v1/health-events` | Registro de vacunas, tratamientos, diagnósticos o incidencias. |
-| Sanitary | PUT | `/api/v1/health-events/{id}` | Actualización de un evento sanitario. |
-| Sanitary | DELETE | `/api/v1/health-events/{id}` | Eliminación de un evento sanitario. |
-| Financial | GET | `/api/v1/financial-records` | Consulta de ingresos y egresos ganaderos. |
-| Financial | GET | `/api/v1/financial-records/{id}` | Consulta de un registro financiero por identificador. |
-| Financial | POST | `/api/v1/financial-records` | Registro de ingresos o gastos. |
-| Financial | PUT | `/api/v1/financial-records/{id}` | Actualización de un registro financiero. |
-| Financial | DELETE | `/api/v1/financial-records/{id}` | Eliminación de un registro financiero. |
-| Activities | GET | `/api/v1/farm-events` | Consulta de actividades, visitas o tareas de granja. |
-| Activities | GET | `/api/v1/farm-events/{id}` | Consulta de una actividad por identificador. |
-| Activities | POST | `/api/v1/farm-events` | Registro de nuevas actividades de granja. |
-| Activities | PUT | `/api/v1/farm-events/{id}` | Actualización de una actividad. |
-| Activities | DELETE | `/api/v1/farm-events/{id}` | Eliminación de una actividad. |
-| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/dashboard` | Dashboard de métricas principales para ganaderos. |
-| Analytics | GET | `/api/v1/analytics/veterinarians/{veterinarianId}/dashboard` | Dashboard de métricas principales para veterinarios. |
-| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/health-summary` | Resumen sanitario del ganadero. |
-| Analytics | GET | `/api/v1/analytics/ranchers/{rancherId}/financial-summary` | Resumen financiero del ganadero. |
-| Analytics | GET | `/api/v1/report-metrics` | Consulta de métricas de reportes. |
-| Analytics | GET | `/api/v1/report-metrics/{id}` | Consulta de una métrica de reporte por identificador. |
-| Analytics | POST | `/api/v1/report-metrics` | Registro de métricas de reportes. |
-| Analytics | PUT | `/api/v1/report-metrics/{id}` | Actualización de una métrica de reporte. |
-| Analytics | DELETE | `/api/v1/report-metrics/{id}` | Eliminación de una métrica de reporte. |
-| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/clients` | Consulta de clientes asignados a un veterinario. |
-| Clients | GET | `/api/v1/veterinarian/{veterinarianId}/available-ranchers` | Consulta de ganaderos disponibles para asociar. |
-| Clients | POST | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Asociación de un ganadero a un veterinario. |
-| Clients | DELETE | `/api/v1/veterinarian/{veterinarianId}/clients/{rancherId}` | Eliminación de la relación entre veterinario y ganadero. |
-| Devices | GET | `/api/v1/devices` | Consulta de dispositivos IoT registrados. |
-| Devices | GET | `/api/v1/devices/{id}` | Consulta de un dispositivo por identificador. |
-| Devices | POST | `/api/v1/devices` | Registro de nuevos dispositivos IoT. |
-| Devices | PUT | `/api/v1/devices/{id}` | Actualización de un dispositivo IoT. |
-| Devices | DELETE | `/api/v1/devices/{id}` | Eliminación de un dispositivo IoT. |
-| Devices | GET | `/api/v1/devices/{id}/metrics` | Consulta de métricas asociadas a un dispositivo. |
-| Devices | GET | `/api/v1/devices/{id}/latest-metric` | Consulta de la última métrica registrada por un dispositivo. |
-| Metrics | GET | `/api/v1/device-metrics` | Consulta de métricas de dispositivos. |
-| Metrics | GET | `/api/v1/device-metrics/{id}` | Consulta de una métrica de dispositivo por identificador. |
-| Metrics | POST | `/api/v1/device-metrics` | Registro de métricas de dispositivos. |
-| Metrics | PUT | `/api/v1/device-metrics/{id}` | Actualización de una métrica de dispositivo. |
-| Metrics | DELETE | `/api/v1/device-metrics/{id}` | Eliminación de una métrica de dispositivo. |
-| Subscriptions | GET | `/api/v1/subscription-plans` | Consulta de planes de suscripción disponibles. |
-| Subscriptions | GET | `/api/v1/subscription-plans/{id}` | Consulta de un plan de suscripción por identificador. |
-| Subscriptions | POST | `/api/v1/subscription-plans` | Registro de nuevos planes de suscripción. |
-| Subscriptions | PUT | `/api/v1/subscription-plans/{id}` | Actualización de un plan de suscripción. |
-| Subscriptions | DELETE | `/api/v1/subscription-plans/{id}` | Eliminación de un plan de suscripción. |
-| Subscriptions | GET | `/api/v1/subscriptions` | Consulta de suscripciones registradas. |
-| Subscriptions | GET | `/api/v1/subscriptions/{id}` | Consulta de una suscripción por identificador. |
-| Subscriptions | POST | `/api/v1/subscriptions` | Registro de nuevas suscripciones. |
-| Subscriptions | PUT | `/api/v1/subscriptions/{id}` | Actualización de una suscripción. |
-| Subscriptions | DELETE | `/api/v1/subscriptions/{id}` | Eliminación de una suscripción. |
-| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/active` | Consulta de la suscripción activa de un usuario. |
-| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Consulta de pagos asociados a un usuario. |
-| Subscriptions | POST | `/api/v1/subscriptions/mock-checkout` | Simulación de pago para pruebas del flujo de suscripción. |
+| IAM | POST | `/api/v1/authentication/sign-up` | Registra un usuario nuevo con username, password, fullName y role. |
+| IAM | POST | `/api/v1/authentication/sign-in` | Autentica credenciales y devuelve token JWT con datos del usuario. |
+| IAM | GET | `/api/v1/users` | Lista usuarios registrados. Requiere token. |
+| IAM | GET | `/api/v1/users/{id}` | Obtiene usuario por identificador. Requiere token. |
 
+**Servicios principales de Stripe y suscripciones:**
 
-**Swagger/OpenAPI:** Se verificó que la documentación de endpoints esté disponible en el navegador.
+| Bounded Context | Method | Endpoint | Description |
+| --------------- | ------ | -------- | ----------- |
+| Subscriptions | GET | `/api/v1/subscription-plans` | Lista planes disponibles para suscripcion. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/active` | Obtiene la suscripcion activa de un usuario. |
+| Subscriptions | GET | `/api/v1/subscriptions/users/{userId}/payments` | Obtiene historial de pagos del usuario. |
+| Subscriptions | POST | `/api/v1/subscriptions/stripe-checkout` | Crea una sesion de Stripe Checkout para el plan seleccionado. |
+| Subscriptions | GET | `/api/v1/subscriptions/stripe-checkout/{sessionId}/confirm` | Confirma una sesion de Stripe, registra suscripcion activa y pago. |
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back1.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
+**Servicios protegidos por JWT y roles:**
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back2.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
+| Area | Roles principales | Description |
+| ---- | ----------------- | ----------- |
+| Livestock | Rancher, Veterinarian | Consulta de hatos y animales. Creacion/edicion principalmente para ganadero. |
+| Sanitary | Rancher, Veterinarian | Gestion de eventos sanitarios, tratamientos, vacunas e incidencias. |
+| Activities | Rancher, Veterinarian | Gestion de actividades y tareas relacionadas al ganado. |
+| Financial | Rancher | Gestion de ingresos y egresos del ganadero. |
+| Clients | Veterinarian | Gestion de clientes ganaderos asignados al veterinario. |
+| Devices | Rancher, Veterinarian | Consulta de dispositivos y metricas. Creacion/edicion principalmente para ganadero. |
+| Subscriptions | Rancher, Veterinarian | Consulta de planes, pagos y suscripcion activa. |
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back3.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back4.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back5.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back6.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-<div align="center">
-    <img src="./markdown/assets/chapter-5/back7.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
-
-**Estructura de capas aplicada:**
-
-1. **Domain:** Entidades, comandos, consultas y contratos de repositorios.
-2. **Application:** Command Services y Query Services para manejar casos de uso.
-3. **Infrastructure:** Repositorios, Entity Framework Core, Unit of Work y servicios técnicos.
-4. **Interfaces REST:** Controladores, recursos y assemblers para exponer la API.
-5. **Shared:** Elementos comunes reutilizables en todos los bounded contexts.
-
-**Variables y configuración:**
-
-La cadena de conexión se configura en `appsettings.Development.json` y apunta a la base de datos MySQL local. También se dejó preparada la posibilidad de usar una variable de entorno para cambiar la conexión según el ambiente.
+**Ejemplo de registro de usuario:**
 
 ```json
-"DefaultConnection": "server=localhost;user=root;password=password;database=anitec-platform"
+POST /api/v1/authentication/sign-up
+{
+  "username": "ganadero01",
+  "password": "Password123!",
+  "fullName": "Ganadero Demo",
+  "role": "Rancher"
+}
 ```
 
+**Respuesta esperada:**
+
+```json
+{
+  "id": 12,
+  "username": "ganadero01",
+  "fullName": "Ganadero Demo",
+  "role": "Rancher"
+}
+```
+
+**Ejemplo de inicio de sesion:**
+
+```json
+POST /api/v1/authentication/sign-in
+{
+  "username": "ganadero01",
+  "password": "Password123!"
+}
+```
+
+**Respuesta esperada:**
+
+```json
+{
+  "id": 12,
+  "username": "ganadero01",
+  "fullName": "Ganadero Demo",
+  "role": "Rancher",
+  "token": "jwt_token_generado"
+}
+```
+
+**Ejemplo de creacion de Stripe Checkout:**
+
+```json
+POST /api/v1/subscriptions/stripe-checkout
+Authorization: Bearer jwt_token_generado
+{
+  "planId": 2
+}
+```
+
+**Respuesta esperada:**
+
+```json
+{
+  "sessionId": "cs_test_...",
+  "checkoutUrl": "https://checkout.stripe.com/c/pay/cs_test_..."
+}
+```
+
+**Ejemplo de confirmacion de pago:**
+
+```json
+GET /api/v1/subscriptions/stripe-checkout/cs_test_123/confirm
+Authorization: Bearer jwt_token_generado
+```
+
+**Respuesta esperada:**
+
+```json
+{
+  "subscription": {
+    "id": 8,
+    "userId": 12,
+    "planId": 2,
+    "status": "Active"
+  },
+  "payment": {
+    "id": 15,
+    "amount": 99,
+    "currency": "PEN",
+    "provider": "StripeTest",
+    "status": "Paid"
+  }
+}
+```
+
+La documentacion completa de servicios sera validada desde Swagger cuando el backend este desplegado en Render:
+
+[Agregar URL de Swagger en Render]
+
 <a id="toc-5-2-4-7-software-deployment-evidence-for-sprint-review"></a>
-### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-Durante el Sprint 3, la evidencia de despliegue del backend se realizó en internet utilizando Render como plataforma de hosting. El objetivo de esta evidencia fue comprobar que la API de AniTec pueda ejecutarse fuera del entorno local, conectarse a una base de datos configurada para el ambiente de despliegue, aplicar las migraciones de Entity Framework Core y exponer sus endpoints mediante Swagger/OpenAPI.
+El despliegue final del Sprint 4 se planifica sobre Render para backend, frontend y base de datos. En este Sprint se considera Render como plataforma principal para ejecutar la aplicacion completa, debido a que el flujo de IAM, endpoints protegidos y Stripe requiere una configuracion mas controlada de variables de entorno y servicios conectados.
 
-Este despliegue permitió validar que los servicios backend desarrollados en ASP.NET Core pueden estar disponibles públicamente para ser consumidos por la aplicación web frontend. De esta manera, el backend deja de depender únicamente de la ejecución local y queda preparado para pruebas de integración en un entorno accesible desde internet.
+**Estrategia de despliegue prevista:**
 
-**Configuración de despliegue en Render - Backend:**
+| Component | Platform | Deployment Type | Status |
+| --------- | -------- | --------------- | ------ |
+| Backend ASP.NET Core | Render | Web Service | Pendiente de URL final |
+| Frontend Vue/Vite | Render | Static Site o Web Service | Pendiente de URL final |
+| MySQL Database | Render | Managed Database / servicio configurado | Pendiente de referencia final |
+| Stripe Checkout | Stripe Test Mode | Servicio externo de pagos | Configurado en modo test |
 
-- **Proyecto:** `anitec-platform-main`
-- **Framework:** ASP.NET Core
-- **Plataforma de despliegue:** Render
-- **Tipo de servicio:** Web Service
-- **Repositorio:** `https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-backend.git`
-- **Branch desplegada:** `main`
-- **Proyecto de inicio:** `Anitec.Platform`
-- **Base de datos:** MySQL configurada para el ambiente de despliegue
-- **URL pública del backend:** https://anitec-backend.onrender.com
-- **Documentación pública:** https://anitec-backend.onrender.com/swagger/index.html
-- **Archivo de configuración base:** `appsettings.json`
-- **Variables de entorno:** cadena de conexión, ambiente de ejecución y configuración de token JWT
+**Variables de entorno previstas para backend en Render:**
 
-**Procedimiento de despliegue en Render:**
+| Variable | Purpose |
+| -------- | ------- |
+| `ConnectionStrings__DefaultConnection` | Cadena de conexion hacia MySQL. |
+| `TokenSettings__Secret` | Clave secreta para firmar JWT. |
+| `TokenSettings__Issuer` | Emisor del token JWT. |
+| `TokenSettings__Audience` | Audiencia del token JWT. |
+| `StripeSettings__SecretKey` | Llave secreta test de Stripe. |
+| `StripeSettings__SuccessUrl` | URL del frontend para pago exitoso. |
+| `StripeSettings__CancelUrl` | URL del frontend para pago cancelado. |
 
-1. Crear un nuevo Web Service en Render.
-2. Conectar el repositorio de GitHub del backend de AniTec.
-3. Seleccionar la rama `main` como fuente del despliegue.
-4. Configurar el proyecto ASP.NET Core indicando como proyecto principal `Anitec.Platform`.
-5. Definir las variables de entorno necesarias para el ambiente de producción o staging.
-6. Configurar la cadena de conexión de MySQL para que el backend pueda acceder a la base de datos remota.
-7. Ejecutar el proceso de build del backend desde Render.
-8. Iniciar el servicio web y verificar que la API quede disponible mediante la URL pública generada.
-9. Abrir la documentación Swagger desde la URL pública del backend.
-10. Probar endpoints principales como autenticación, usuarios, animales, hatos, dispositivos y suscripciones.
+**Variables de entorno previstas para frontend en Render:**
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/backendDespliegue1.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
+| Variable | Purpose |
+| -------- | ------- |
+| `VITE_ANITEC_API_URL` | URL publica del backend desplegado en Render con prefijo `/api/v1`. |
+| `VITE_SIGNIN_ENDPOINT_PATH` | Ruta de sign-in del backend. |
+| `VITE_SIGNUP_ENDPOINT_PATH` | Ruta de sign-up del backend. |
+| `VITE_USERS_ENDPOINT_PATH` | Ruta de usuarios del backend. |
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/backendDespliegue2.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
+**URLs pendientes de completar:**
 
-<div align="center">
-    <img src="./markdown/assets/chapter-5/backendDespliegue3.jpeg" width="700">
-    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
-</div>
+- Frontend en Render: [Agregar URL del frontend desplegado en Render]
+- Backend en Render: [Agregar URL del backend desplegado en Render]
+- Swagger en Render: [Agregar URL de Swagger]
+- Base de datos MySQL en Render: [Agregar referencia de base de datos]
 
-**Verificación Post-Despliegue:**
+**Evidencias pendientes de despliegue:**
 
-Después de desplegar el backend en Render, se verificaron los siguientes puntos:
-
-- Render compila correctamente el proyecto `Anitec.Platform`.
-- El servicio web se inicia correctamente desde la plataforma.
-- El backend queda disponible mediante una URL pública.
-- Swagger muestra los controladores y endpoints implementados desde internet.
-- La conexión con la base de datos MySQL configurada para despliegue se realiza correctamente.
-- Entity Framework Core valida y aplica las migraciones necesarias sobre la base de datos.
-- La base de datos contiene las tablas y datos semilla necesarios para pruebas.
-- El endpoint de autenticación responde correctamente y devuelve un token JWT.
-- Los endpoints principales de usuarios, hatos, animales, sanidad, finanzas, actividades, analíticas, dispositivos y suscripciones responden desde Swagger.
-- El backend mantiene una estructura modular por bounded contexts, lo que facilita su integración con el frontend.
+- [Agregar screenshot del servicio backend en Render]
+- [Agregar screenshot del frontend desplegado en Render]
+- [Agregar screenshot de variables de entorno configuradas en Render, ocultando secretos]
+- [Agregar screenshot de Swagger ejecutandose desde Render]
+- [Agregar screenshot de la base de datos conectada al backend]
 
 <a id="toc-5-2-4-8-team-collaboration-insights-during-sprint"></a>
-### 5.2.3.8. Team Collaboration Insights during Sprint.
+### 5.2.4.8. Team Collaboration Insights during Sprint.
 
-En esta sección el equipo explica cómo se desarrollaron las actividades de implementación del backend y se presentan los analíticos de colaboración y commits realizados durante el Sprint 3.
+Durante el Sprint 4, la colaboracion del equipo se centro en cerrar funcionalidades transversales que afectan a toda la aplicacion. El IAM completo no solo implico crear formularios de registro e inicio de sesion, sino tambien asegurar que el backend reconozca usuarios reales, genere tokens, valide roles y proteja operaciones sensibles. De forma similar, la integracion de Stripe requirio coordinar backend, frontend, configuracion de entorno y validacion funcional.
 
-**Distribución de Trabajo:**
+**Mecanismos de colaboracion utilizados:**
 
-Todos los miembros del equipo participaron en la construcción del backend según las responsabilidades definidas en la matriz LACX. El equipo trabajó manteniendo reuniones de coordinación para revisar la estructura del proyecto, resolver dudas sobre Entity Framework Core, coordinar nombres de endpoints y asegurar que la API mantenga compatibilidad con los módulos ya desarrollados en el frontend.
+- Coordinacion de tareas mediante ramas de GitHub y revisiones entre integrantes.
+- Validacion local de flujos antes de integrar cambios a la rama principal de desarrollo.
+- Comunicacion por Discord para resolver errores de autenticacion, configuracion de Stripe y consumo de endpoints protegidos.
+- Division por frentes de trabajo: IAM backend, IAM frontend, Stripe backend, Stripe frontend, endpoints protegidos y documentacion.
+- Revision cruzada de los flujos por rol para ganadero y veterinario.
 
-El trabajo colaborativo se apoyó en GitHub para el control de versiones y en Discord para la comunicación diaria. Las revisiones se enfocaron principalmente en mantener la misma estructura de carpetas en cada bounded context, reutilizar los patrones aprendidos en clase y evitar soluciones demasiado avanzadas que se alejen del nivel técnico trabajado durante el curso.
+**Principales aprendizajes del Sprint:**
 
-**Métricas de Colaboración:**
+- El equipo comprendio que la seguridad debe trabajarse tanto en backend como en frontend: el frontend puede ocultar rutas, pero el backend debe proteger endpoints y validar roles.
+- La integracion con Stripe requiere separar responsabilidades: el backend crea y confirma la sesion de pago, mientras el frontend redirige al usuario y muestra el resultado.
+- El uso de JWT permitio mantener una sesion simple y compatible con la estructura aprendida en clase.
+- El despliegue completo en Render exige preparar variables de entorno para backend, frontend, base de datos y URLs de retorno de Stripe.
 
-<div align="center">
-  <p>
-    <b>Commits gráficas - Sprint 3</b>
-  </p>
-  <img src="./markdown/assets/chapter-5/Sprint3GraficosCommits.jpeg" alt="Commits Sprint 3" width="600">
-</div>
+**Dificultades encontradas:**
 
-**Reflexiones del Equipo:**
+- Ajustar el registro de usuarios para aceptar roles sin romper el flujo de sign-in existente.
+- Evitar que el frontend siga dependiendo de usuarios demo o datos locales.
+- Confirmar pagos de Stripe sin duplicar registros de suscripcion o pago.
+- Mantener el estilo de arquitectura del curso mientras se incorporaba una pasarela externa.
+- Coordinar URLs de retorno para Stripe considerando que el despliegue final aun estaba pendiente.
 
-- Ayala Fernandez, Jorge Brayan: "El Sprint 3 permitió aplicar lo aprendido en clase sobre backend con ASP.NET Core. La implementación de IAM fue importante porque permitió pasar de usuarios demo a una autenticación con token, más cercana a una aplicación real."
+**Conclusiones del Sprint 4:**
 
-- Huaman Gallardo, Bruno Aldair: "La implementación de los módulos de ganadería y dispositivos ayudó a convertir los datos del frontend en entidades reales dentro de una base de datos. Fue importante mantener la separación por bounded contexts para que el código sea más ordenado."
+El Sprint 4 permitio consolidar AniTec como una aplicacion mas cercana a un producto real, ya que incorpora registro de usuarios por rol, autenticacion con JWT, autorizacion en endpoints protegidos y pagos de suscripcion mediante Stripe Checkout en modo test. Con este avance, ganaderos y veterinarios pueden acceder a una experiencia diferenciada, trabajar con datos protegidos y gestionar planes desde la aplicacion web.
 
-- Melgarejo Quiroz, Josep Eliu: "Trabajar con Entity Framework Core y MySQL permitió entender mejor cómo las entidades del dominio se convierten en tablas reales. Las migraciones ayudaron a mantener la base de datos alineada con los cambios del backend."
-
-- Raymundo Villarroel, Nadhim Abigail: "La implementación de eventos sanitarios y actividades permitió llevar al backend una parte esencial del seguimiento del ganado. El reto principal fue mantener consistencia entre los datos clínicos y los animales registrados."
-
-- Sanchez Silva, Luciana Celeste: "El módulo de clientes veterinarios permitió representar la relación entre ganaderos y veterinarios dentro del backend. Esto es importante porque el veterinario necesita consultar únicamente la información de sus clientes asignados."
-
-**Lecciones Aprendidas:**
-
-El equipo identifica las siguientes lecciones de este Sprint 3:
-
-1. **La estructura por bounded contexts facilita el crecimiento del backend:** Separar los módulos permitió trabajar de forma ordenada y mantener responsabilidades claras.
-
-2. **Entity Framework Core simplifica la persistencia:** Las migraciones permitieron crear y actualizar la base de datos sin escribir manualmente todo el SQL.
-
-3. **La autenticación debe definirse temprano:** IAM es una base importante porque muchos módulos dependen de saber qué usuario está usando la aplicación.
-
-4. **Los datos mock ayudaron a diseñar el backend:** El `db.json` del Sprint 2 sirvió como referencia para definir entidades, recursos y endpoints.
-
-5. **Swagger facilita las pruebas manuales:** La documentación automática permitió probar endpoints sin depender todavía del frontend.
-
-6. **MySQL requiere una configuración cuidadosa:** La cadena de conexión, credenciales y migraciones deben estar correctamente configuradas para evitar errores al ejecutar la API.
-
-7. **Mantener patrones conocidos reduce la complejidad:** Usar Repository, Unit of Work, Command Services y Query Services permitió seguir una estructura parecida al backend trabajado en clase.
+El equipo tambien identifico que el siguiente paso natural es completar el despliegue en Render de backend, frontend y base de datos, configurar las URLs finales de Stripe, validar el flujo desde internet y agregar evidencias visuales definitivas al reporte.
 
 <div style="page-break-before: always;"></div>
 
@@ -7182,7 +7096,7 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
   <tr><td><strong>Inicio del video</strong></td><td>00:00:13</td></tr>
   <tr><td><strong>Fin del video</strong></td><td>00:09:36</td></tr>
-  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionAlfaro">https://tinyurl.com/EntrevistaValidacionAlfaro</a></td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/ValidacionRodrigoAlfaro">https://tinyurl.com/ValidacionRodrigoAlfaro</a></td></tr>
   <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaRodrigo2.jpeg" alt="Entrevista" width="350"></div></td></tr>
   <tr><td><strong>Objetivo</strong></td><td>Validar si la landing page y la aplicación web AniTec responden a las necesidades del User Persona ganadero, evaluando la organización de información, la utilidad del dashboard y la percepción de valor de la plataforma.</td></tr>
   <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
@@ -7259,14 +7173,14 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr>
     <th colspan="2">ENTREVISTA N°4</th>
   </tr>
-  <tr><td><strong>Nombre del entrevistado</strong></td><td>Andrea Solis</td></tr>
-  <tr><td><strong>Edad</strong></td><td>24</td></tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Ariana Fernandez</td></tr>
+  <tr><td><strong>Edad</strong></td><td>21</td></tr>
   <tr><td><strong>Profesión</strong></td><td>Veterinario</td></tr>
   <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
   <tr><td><strong>Inicio del video</strong></td><td>00:00:00</td></tr>
-  <tr><td><strong>Fin del video</strong></td><td>00:07:00</td></tr>
-  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionSolis">https://tinyurl.com/EntrevistaValidacionSolis</a></td></tr>
-  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaAndrea1.jpeg" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:15:45</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/muxwt3cd">https://tinyurl.com/muxwt3cd</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="./markdown/assets/chapter-5/entrevistaAriana1.jpeg" alt="Entrevista" width="350"></div></td></tr>
   <tr><td><strong>Objetivo</strong></td><td>Validar si la aplicación AniTec responde a las necesidades del User Persona del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del dashboard.</td></tr>
   <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
   <tr><td>Frustración: falta de historial clínico organizado</td><td>Destaca la importancia y utilidad del historial médico de los animales como herramienta de trabajo. / Sí</td></tr>
@@ -7543,29 +7457,29 @@ Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
 
 ## Anexo A. Videos de exposiciones
 
-- Exposición Avance 1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDN94I7tP4zR5oi4SQ2DX8eAVkHQVl6iFgvfYON_Pk_MJ4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3TsNmD
-- Exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQD3zV-JF-mvQpL-RG1INwKMAZgIgvPHQQOJrwQ3ZDJCtBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=tuVcO1
-- Exposición AV2: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQBNbZRIWFzfSZQT4mSa7cCyAa-felpel01CsMzjW-O3eFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BKHhcW
+- Exposición Avance 1: https://tinyurl.com/ExposicionAvance1
+- Exposición TB1: https://tinyurl.com/ExposicionTB1
+- Exposición AV2: https://tinyurl.com/ExposicionAvance2
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo B. Videos de entrevistas
 
-- Entrevista 1 - Vicente Alacutte, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAU-FMwcUpMQqNyx-1l6AsjAW9l1-P7CpTEPJHtZx_3L2M
-- Entrevista 2 - Rebeca Reyes, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQC_8-haUlvvTKtz13hlN8A0AViAvdEwyAyAZIs0wpCnLeY?e=b3mVxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- Entrevista 3 - Porfirio Sandoval, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBGB9K9t4xxSLIv1YP6eBZMAeSNzMREmpWxJjIX0MPuCR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S6qUbg
-- Entrevista 4 - Angela Moran, ganadera: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDfgaIlKdrsRYAp9VQvfR_MAWflO45zpjWnZwgtAt9KBow?e=pHnnWx
-- Entrevista 5 - Aldahir Sillo, ganadero: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQDOnRpzZINmRpVNnHMoBaTkAX_PDnT76W11xtMZH3wIXTk?e=KdBhPi
+- Entrevista 1 - Vicente Huaman, ganadero: https://tinyurl.com/entrevista1VicenteHuaman
+- Entrevista 2 - Rebeca Quiroz, ganadera: https://tinyurl.com/entrevista2RebecaQuiroz
+- Entrevista 3 - Porfirio Salazar, ganadero: https://tinyurl.com/entrevista3PorfirioSalazar
+- Entrevista 4 - Angela Mendoza, veterinaria: https://tinyurl.com/entrevista4AngelaMendoza
+- Entrevista 5 - Aldahir Santos, veterinario: https://tinyurl.com/entrevista5AldahirSantos
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo C. Videos de entrevistas de validación
 
-- Entrevista 1 - Rodrigo Alfaro: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQB3jgi-SsJVRaDxAD4WBuuzAdv4R--qmXO3IsM5X73FAj0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Og6bCI
-- Entrevista 2 - Kiara Gallardo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215979_upc_edu_pe/IQDXvgr4zSyQRbJPZ_MKamHQAWNiwEL0lA77pqyKGoapDp4?e=Kxl4eD
-- Entrevista 3 - Vicente: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202117762_upc_edu_pe/IQAcuZYMhm2TSbQHRmvx5kZPAd4rO0W-0WAR1zuU1uec-B8?e=72Oeb0
-- Entrevista 4 - Andrea Solis: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202318001_upc_edu_pe/IQCjt9DrP5xjSIvKAQVIBCDDASY5mLJCHcIyhAF5pOw79MQ?e=Xa0RZ7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-- Entrevista 5 - Hugo Jorge: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241c030_upc_edu_pe/IQBk6WHPWWegRLsPsIbW_2NCAalBgUYGvvdIoqI2kTZtxOk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iZTorN
+- Entrevista 1 - Rodrigo Alfaro: https://tinyurl.com/ValidacionRodrigoAlfaro
+- Entrevista 2 - Kiara Gallardo: https://tinyurl.com/EntrevistaValidacion2
+- Entrevista 3 - Vicente: https://tinyurl.com/ValidacionAppWebVicente
+- Entrevista 4 - Ariana Fernandez: https://tinyurl.com/muxwt3cd
+- Entrevista 5 - Hugo Jorge: https://tinyurl.com/EntrevistaValidacionHugo
 
 <div style="page-break-before: always;"></div>
 

@@ -15,18 +15,18 @@
 - Entrevista 1 - Vicente Huaman, ganadero: https://tinyurl.com/entrevista1VicenteHuaman
 - Entrevista 2 - Rebeca Quiroz, ganadera: https://tinyurl.com/entrevista2RebecaQuiroz
 - Entrevista 3 - Porfirio Salazar, ganadero: https://tinyurl.com/entrevista3PorfirioSalazar
-- Entrevista 4 - Angela Mendoza, ganadera: https://tinyurl.com/entrevista4AngelaMendoza
-- Entrevista 5 - Aldahir Santos, ganadero: https://tinyurl.com/entrevista5AldahirSantos
+- Entrevista 4 - Angela Mendoza, veterinaria: https://tinyurl.com/entrevista4AngelaMendoza
+- Entrevista 5 - Aldahir Santos, veterinario: https://tinyurl.com/entrevista5AldahirSantos
 
 <div style="page-break-before: always;"></div>
 
 ## Anexo C. Videos de entrevistas de validación
 
-- Entrevista 1 - Rodrigo Alfaro: 
-- Entrevista 2 - Kiara Gallardo: 
-- Entrevista 3 - Vicente: 
-- Entrevista 4 - Andrea Solis: 
-- Entrevista 5 - Hugo Jorge: 
+- Entrevista 1 - Rodrigo Alfaro: https://tinyurl.com/ValidacionRodrigoAlfaro
+- Entrevista 2 - Kiara Gallardo:  https://tinyurl.com/EntrevistaValidacion2
+- Entrevista 3 - Vicente: https://tinyurl.com/ValidacionAppWebVicente
+- Entrevista 4 - Ariana Fernandez: https://tinyurl.com/muxwt3cd
+- Entrevista 5 - Hugo Jorge: https://tinyurl.com/EntrevistaValidacionHugo
 
 <div style="page-break-before: always;"></div>
 
