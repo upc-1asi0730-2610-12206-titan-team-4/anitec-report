@@ -548,12 +548,12 @@ El Sprint 3 permitió desarrollar el backend real de AniTec e iniciar la integra
 **URLs públicas revisadas durante el Sprint 3:**
 
 - Landing page: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
-- Frontend web: https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+- Frontend web: https://anitec-12206.web.app/iam/sign-in
 - Backend Swagger: https://anitec-backend.onrender.com/swagger/index.html
 
 **Video/demo de navegación del Sprint 3:**
 
-[Agregar URL del video/demo de navegación del Sprint 3]
+https://tinyurl.com/sprint3ExecutionEvidence
 
 Como evidencia adicional, el Video About-the-Product también muestra la navegación y funcionamiento general de AniTec.
 
