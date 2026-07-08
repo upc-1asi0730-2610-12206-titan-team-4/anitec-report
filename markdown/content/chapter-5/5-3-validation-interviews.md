@@ -151,14 +151,14 @@ A continuación, se presentan los cuadros de registro para las entrevistas de va
   <tr>
     <th colspan="2">ENTREVISTA N°4</th>
   </tr>
-  <tr><td><strong>Nombre del entrevistado</strong></td><td>Andrea Solis</td></tr>
-  <tr><td><strong>Edad</strong></td><td>24</td></tr>
+  <tr><td><strong>Nombre del entrevistado</strong></td><td>Ariana Fernandez</td></tr>
+  <tr><td><strong>Edad</strong></td><td>21</td></tr>
   <tr><td><strong>Profesión</strong></td><td>Veterinario</td></tr>
   <tr><td><strong>Departamento</strong></td><td>Lima</td></tr>
   <tr><td><strong>Inicio del video</strong></td><td>00:00:00</td></tr>
-  <tr><td><strong>Fin del video</strong></td><td>00:07:00</td></tr>
-  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/EntrevistaValidacionSolis">https://tinyurl.com/EntrevistaValidacionSolis</a></td></tr>
-  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="../../assets/chapter-5/entrevistaAndrea1.jpeg" alt="Entrevista" width="350"></div></td></tr>
+  <tr><td><strong>Fin del video</strong></td><td>00:15:45</td></tr>
+  <tr><td><strong>Link del video</strong></td><td><a href="https://tinyurl.com/muxwt3cd">https://tinyurl.com/muxwt3cd</a></td></tr>
+  <tr><td><strong>Foto entrevista</strong></td><td><div align="center"><img src="../../assets/chapter-5/entrevistaAriana1.jpeg" alt="Entrevista" width="350"></div></td></tr>
   <tr><td><strong>Objetivo</strong></td><td>Validar si la aplicación AniTec responde a las necesidades del User Persona del segmento veterinario, evaluando funcionalidades clave como el historial clínico y la utilidad del dashboard.</td></tr>
   <tr><td><strong>Aspecto del User Persona</strong></td><td><strong>Resultado obtenido / ¿Se valida?</strong></td></tr>
   <tr><td>Frustración: falta de historial clínico organizado</td><td>Destaca la importancia y utilidad del historial médico de los animales como herramienta de trabajo. / Sí</td></tr>
