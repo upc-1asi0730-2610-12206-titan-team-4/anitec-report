@@ -492,11 +492,11 @@ El Sprint 2 permitió desarrollar la aplicación web funcional de AniTec. El equ
 
 **URL pública del frontend:**
 
-https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-frontend/iam/sign-in
+https://anitec-12206.web.app/iam/sign-in
 
 **Video/demo de navegación del Sprint 2:**
 
-[Agregar URL del video/demo de navegación del Sprint 2]
+https://tinyurl.com/sprint2ExecutionEvidence
 
 **Vistas Implementadas:**
 
