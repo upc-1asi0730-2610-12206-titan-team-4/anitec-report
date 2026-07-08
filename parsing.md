@@ -59,9 +59,10 @@
 <h2 align="center"><strong>Período 202610</strong></h2>
 <h2 align="center"><strong>Julio 2026</strong></h2>
 
-<div style="page-break-before: always;"></div>
+</div>
+<div style="font-size: 18px; line-height: 1.65;">
 
----
+<div style="page-break-before: always;"></div
 
 <div align="center">
 
