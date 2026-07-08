@@ -395,7 +395,7 @@ https://upc-1asi0730-2610-12206-titan-team-4.github.io/anitec-landing-page/
 
 **Video/demo de navegación del Sprint 1:**
 
-[Agregar URL del video/demo de navegación del Sprint 1]
+https://tinyurl.com/Sprint1Evidence
 
 **Capturas de Pantalla - Landing Pages:**
 
