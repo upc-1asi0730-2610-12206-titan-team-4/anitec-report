@@ -14,3 +14,14 @@
 |   2.3   | 13/05/2026 |    Ayala Fernandez, Jorge Brayan    | Corrección del capítulo V y avance de la documentación del sprint 2                   |
 |   2.4   | 14/05/2026 | Raymundo Villarroel, Nadhim Abigail | Corrección del capítulo I y avance de la documentación del sprint 2                   |
 |   2.5   | 14/05/2026 |    Huaman Gallardo, Bruno Aldair    | Corrección del capítulo II y III                                                      |
+|   3.0   | 05/06/2026 |    Melgarejo Quiroz, Josep Eliu     | Correción de entregas pasadas y avance de la documentación del sprint 3               |
+|   3.1   | 05/06/2026 |    Sanchez Silva, Luciana Celeste   | Avance del capítulo 5 y la documentación del sprint 3                                 |
+|   3.2   | 06/06/2026 |    Ayala Fernandez, Jorge Brayan    | Avance del capítulo 5 y la documentación del sprint 3                                 |
+|   3.3   | 06/06/2026 | Raymundo Villarroel, Nadhim Abigail | Entrevistas de validación y avance de la documentación del sprint  3                  |
+|   3.4   | 07/06/2026 |    Huaman Gallardo, Bruno Aldair    | Entrevistas de validación y avance de la documentación del sprint 3                   |
+|   4.0   | 30/06/2026 |    Melgarejo Quiroz, Josep Eliu     | Correcciones puntuales de los capítulos 1,2,3,4,5 y sprint review 4                   |
+|   4.1   | 01/07/2026 |    Sanchez Silva, Luciana Celeste   | Correcciones puntuales de los capítulos 1,2,3,4,5 y sprint backlog 4                  |
+|   4.2   | 05/06/2026 |    Ayala Fernandez, Jorge Brayan    | Correcciones puntuales de los capítulos 4 y 5, y avance de recomendaciones            |
+|   4.3   | 05/06/2026 | Raymundo Villarroel, Nadhim Abigail | Correcciones puntuales de los capítulos 4 y 5, y avance del report insights           |
+|   4.4   | 05/06/2026 |    Huaman Gallardo, Bruno Aldair    | Correcciones puntuales de los capítulos 2 y 3, y avance de conclusiones               |
+

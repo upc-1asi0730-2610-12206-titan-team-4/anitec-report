@@ -63,6 +63,26 @@ Para el desarrollo del informe perteneciente a la entrega AV2, el equipo organiz
 
 Durante AV2, el trabajo colaborativo se enfocó en consolidar el backend de AniTec, documentar los servicios implementados y evidenciar el despliegue público de la API. Para mantener la trazabilidad, se usaron ramas `feature/` asociadas a endpoints específicos, ramas `develop` para integración, una rama `hotfix/` para correcciones críticas y la rama `main` como versión estable del entregable.
 
+---
+
+**TB2**
+
+Para el desarrollo del informe perteneciente a la entrega TB2, el equipo organizó sus actividades en torno al cierre del Sprint 4, la documentación del backend, la validación de usuarios y la preparación de evidencias finales del producto. La distribución de tareas fue la siguiente:
+
+<div align="center">
+
+| Integrante       | Tareas Asignadas |
+| ---------------- | ---------------- |
+| Abigail Raymundo |  |
+| Bruno Huaman     |  |
+| Jorge Ayala      |  |
+| Josep Melgarejo  |  |
+| Luciana Sanchez  |  |
+
+</div>
+
+Durante AV2, el trabajo colaborativo se enfocó en consolidar el backend de AniTec, documentar los servicios implementados y evidenciar el despliegue público de la API. Para mantener la trazabilidad, se usaron ramas `feature/` asociadas a endpoints específicos, ramas `develop` para integración, una rama `hotfix/` para correcciones críticas y la rama `main` como versión estable del entregable.
+
 **Github Collaboration Insights**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
