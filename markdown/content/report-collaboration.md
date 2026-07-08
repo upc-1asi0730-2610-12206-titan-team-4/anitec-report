@@ -73,15 +73,15 @@ Para el desarrollo del informe perteneciente a la entrega TB2, el equipo organiz
 
 | Integrante       | Tareas Asignadas |
 | ---------------- | ---------------- |
-| Abigail Raymundo |  |
-| Bruno Huaman     |  |
-| Jorge Ayala      |  |
-| Josep Melgarejo  |  |
-| Luciana Sanchez  |  |
+| Abigail Raymundo | Corrección de entrevistas de validación de acuerdo al statement |
+| Bruno Huaman     | Encargado de corregir errores de despliegue  |
+| Jorge Ayala      | Documentación del sprint 4 y conexion de la pasarela de pagos |
+| Josep Melgarejo  | Corrección de comentarios, avance del IAM |
+| Luciana Sanchez  | Corrección de URLs no explicitos y actualización del report collaboration |
 
 </div>
 
-Durante AV2, el trabajo colaborativo se enfocó en consolidar el backend de AniTec, documentar los servicios implementados y evidenciar el despliegue público de la API. Para mantener la trazabilidad, se usaron ramas `feature/` asociadas a endpoints específicos, ramas `develop` para integración, una rama `hotfix/` para correcciones críticas y la rama `main` como versión estable del entregable.
+Durante la TB2, el trabajo colaborativo se centró en completar el backend de AniTec, abarcando el bounded context de IAM e integrando la pasarela de pagos. Además, se actualizaron los despliegues y se resolvieron conflictos relacionados con la publicación de la API. Para asegurar la trazabilidad del desarrollo, se utilizaron ramas feature/ vinculadas a endpoints específicos, ramas develop para la integración de avances, una rama hotfix/ para atender correcciones críticas y la rama main como versión estable del entregable.
 
 **Github Collaboration Insights**
 
