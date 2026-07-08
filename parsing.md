@@ -65,7 +65,7 @@
 
 <div align="center">
 
-# Índice general
+## Índice general
 
 </div>
 
@@ -203,7 +203,7 @@
 
 <a id="toc-registro-de-versiones-del-informe"></a>
 
-# Registro de versiones del informe
+## Registro de versiones del informe
 
 | Versión |   Fecha    |                Autor                | Descripción de modificación                                                           |
 | :-----: | :--------: | :---------------------------------: | ------------------------------------------------------------------------------------- |
@@ -236,7 +236,7 @@
 <div style="page-break-before: always;"></div>
 
 <a id="toc-project-report-collaboration-insights"></a>
-# Project Report Collaboration Insights
+## Project Report Collaboration Insights
 
 - URL del repositorio para el reporte del proyecto: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-report
 - URL del repositorio para la Landing Page: https://github.com/upc-1asi0730-2610-12206-titan-team-4/anitec-landing-page
@@ -386,7 +386,7 @@ Los siguientes espacios corresponden a las evidencias de colaboración del equip
 <div style="page-break-before: always;"></div>
 
 <a id="toc-student-outcome"></a>
-# Student Outcomes
+## Student Outcomes
 
 En esta sección se describe cómo las actividades realizadas durante el desarrollo de AniTec contribuyen al logro del Student Outcome 5 de ABET, relacionado con la capacidad de funcionar efectivamente en un equipo cuyos miembros proporcionan liderazgo, crean un entorno colaborativo e inclusivo, establecen objetivos, planifican tareas y cumplen metas. Para ello, se presentan las acciones realizadas por cada integrante en las distintas entregas del proyecto y las conclusiones grupales asociadas a cada criterio.
 
@@ -398,7 +398,7 @@ En esta sección se describe cómo las actividades realizadas durante el desarro
 <div style="page-break-before: always;"></div>
 
 <a id="toc-1-1-startup-profile"></a>
-# 1.1. Startup Profile
+## 1.1. Startup Profile
 
 En esta sección se presenta la descripción del startup y los perfiles de los miembros del equipo.
 
@@ -494,7 +494,7 @@ Gracias a la integración de datos históricos y actualizados en tiempo real, An
 <div style="page-break-before: always;"></div>
 
 <a id="toc-1-2-solution-profile"></a>
-# 1.2. Solution Profile
+## 1.2. Solution Profile
 
 <a id="toc-1-2-1-antecedentes-y-problematica"></a>
 ## 1.2.1. Antecedentes y Problemática.
@@ -715,7 +715,7 @@ Enlace para acceder al https://app.mural.co/t/abbys5223/m/abbys5223/177684232284
 <div style="page-break-before: always;"></div>
 
 <a id="toc-1-3-segmentos-objetivo"></a>
-# 1.3. Segmentos objetivo.
+## 1.3. Segmentos objetivo.
 
 De acuerdo con el Ministerio de Desarrollo Agrario y Riego (MIDAGRI, 2023), el Perú cuenta con más de 5 millones de cabezas de ganado vacuno, siendo la ganadería una actividad clave en regiones como Cajamarca, Puno, Cusco y La Libertad. El valor bruto de la producción ganadera supera los 3 mil millones de soles anuales, y más del 65 % de estas unidades son manejadas por pequeños y medianos productores, quienes en muchos casos no disponen de herramientas tecnológicas para una gestión eficiente de sus hatos.
 
@@ -737,7 +737,7 @@ Entre los posibles usuarios se encuentran:
 <div style="page-break-before: always;"></div>
 
 <a id="toc-2-1-competidores"></a>
-# 2.1. Competidores.
+## 2.1. Competidores.
 
 Comprender el entorno competitivo es crucial para el éxito de cualquier negocio. En esta sección realizaremos un análisis profundo de nuestros competidores, tanto directos como indirectos, evaluando las estrategias que aplican, así como sus principales fortalezas y debilidades.
 
@@ -750,7 +750,7 @@ Llevar a cabo un análisis competitivo es clave para reconocer oportunidades y r
 <body>
     <table >
         <tr>
-           <td colspan="6" class="sub">  <h1>Competitive Analysis Landscape</h1></td>
+           <td colspan="6" class="sub">  <h2>Competitive Analysis Landscape</h2></td>
         </tr>
         <tr>
             <td colspan="2" rowspan="2" class="sub">¿Por qué llevar a cabo este análisis?</td>
@@ -875,7 +875,7 @@ Por otro lado, estas son nuestras tácticas específicas:
 <div style="page-break-before: always;"></div>
 
 <a id="toc-2-2-entrevistas"></a>
-# 2.2. Entrevistas.
+## 2.2. Entrevistas.
 
 Las entrevistas son una herramienta esencial para comprender a fondo a nuestro público objetivo. Para que sean efectivas, deben seguir una estructura clara y directa, utilizando preguntas específicas que permitan recolectar información de valor y datos precisos de los participantes.
 
@@ -1201,7 +1201,7 @@ En cuanto a características subjetivas, ambos veterinarios se muestran más fam
 <div style="page-break-before: always;"></div>
 
 <a id="toc-2-3-needfinding"></a>
-# 2.3. Needfinding.
+## 2.3. Needfinding.
 
 En esta sección se presentarán los artefactos resultantes del proceso de análisis de la información recolectada de los segmentos objetivos. Aquí se incluyen secciones para User Personas, User Task Matrix, User Journey Maps, Empathy Mapping y As-is Scenario Mapping.
 
@@ -1304,7 +1304,7 @@ El As-is Scenario Mapping permite representar cómo los usuarios realizan actual
 <div style="page-break-before: always;"></div>
 
 <a id="toc-2-4-big-picture-eventstorming"></a>
-# 2.4. Big Picture EventStorming.
+## 2.4. Big Picture EventStorming.
 
 El presente Big Picture Event Storming se ha desarrollado de manera colaborativa utilizando la plataforma Miro, siguiendo la metodología de Philippe Bourgau para explorar el dominio del negocio de forma holística y establecer un entendimiento compartido. A través de un proceso iterativo en este entorno digital, que incluyó la generación de eventos de dominio, el ordenamiento cronológico y la identificación de puntos críticos dentro de los procesos, se ha logrado mapear la complejidad del sector ganadero en una narrativa visual coherente. Este artefacto no solo permitió identificar riesgos y oportunidades de mejora en la gestión de AniTec, sino que también sentó las bases para la comprensión del dominio y el diseño posterior de la arquitectura del sistema alineada con la realidad operativa de los ganaderos y veterinarios.
 
@@ -1325,7 +1325,7 @@ Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL
 <div style="page-break-before: always;"></div>
 
 <a id="toc-2-5-ubiquitous-language"></a>
-# 2.5. Ubiquitous Language.
+## 2.5. Ubiquitous Language.
 
 Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2003)** en su obra _Domain-Driven Design: Tackling Complexity in the Heart of Software_, se presenta el siguiente glosario. Este conjunto de términos constituye el lenguaje común del proyecto, eliminando ambigüedades entre el equipo de ingeniería y los expertos del dominio ganadero.
 
@@ -1352,7 +1352,7 @@ Siguiendo los conceptos de **Ubiquitous Language** definidos por **Eric Evans (2
 <div style="page-break-before: always;"></div>
 
 <a id="toc-3-1-user-stories"></a>
-# 3.1. User Stories.
+## 3.1. User Stories.
 
 En esta sección se presentan los Epics, User Stories y Technical Stories identificados para AniTec a partir del análisis de entrevistas, needfinding, definición de segmentos objetivo y alcance actual de la solución. Las User Stories describen necesidades funcionales de ganaderos, veterinarios, usuarios autenticados y visitantes de la landing page. Las Technical Stories describen necesidades técnicas del frontend y del RESTful API, usando el rol Developer y criterios de aceptación en formato Given-When-Then.
 
@@ -2017,7 +2017,7 @@ En esta sección se presentan los Epics, User Stories y Technical Stories identi
 <div style="page-break-before: always;"></div>
 
 <a id="toc-3-2-impact-mapping"></a>
-# 3.2. Impact Mapping.
+## 3.2. Impact Mapping.
 
 El Impact Mapping permite relacionar los objetivos de negocio de AniTec con los segmentos objetivo, los cambios esperados en su comportamiento, los entregables necesarios y las User Stories que permiten construir dichos entregables. Para esta versión se consideran los User Personas definidos en el capítulo de Needfinding: Jorge Luis Rivas, representante del segmento ganadero, y Valeria Mendoza, representante del segmento veterinario.
 
@@ -2028,7 +2028,7 @@ Los objetivos de negocio planteados son incrementar en 40% el registro digital d
 <div style="page-break-before: always;"></div>
 
 <a id="toc-3-3-product-backlog"></a>
-# 3.3. Product Backlog.
+## 3.3. Product Backlog.
 
 El Product Backlog de AniTec organiza las User Stories y Technical Stories identificadas para el desarrollo de la landing page, la aplicación web y el backend RESTful API. El orden se define priorizando el valor para el negocio y la experiencia del usuario, por lo que las historias de la landing page se ubican al inicio para validar la propuesta de valor, seguidas por funcionalidades principales de acceso, navegación, gestión ganadera, gestión veterinaria, analíticas, IoT, suscripciones e integración técnica.
 
@@ -2574,7 +2574,7 @@ El Product Backlog de AniTec organiza las User Stories y Technical Stories ident
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-1-style-guidelines"></a>
-# 4.1. Style Guidelines
+## 4.1. Style Guidelines
 
 Las directrices de estilo establecen los principios visuales y de diseño que deben seguirse al desarrollar la interfaz de usuario (UI) de AniTec. El objetivo es crear una experiencia digital clara, accesible e intuitiva que responda a las necesidades de pequeños y medianos ganaderos, así como de veterinarios que realizan seguimiento sanitario de animales en campo.
 
@@ -2703,7 +2703,7 @@ La landing page y la aplicación web deben mantener la misma identidad de marca,
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-2-information-architecture"></a>
-# 4.2. Information Architecture
+## 4.2. Information Architecture
 
 La arquitectura de información de AniTec organiza el contenido de la landing page y de la aplicación web para que visitantes, ganaderos y veterinarios encuentren con facilidad las secciones que necesitan. La propuesta considera que los usuarios pueden tener distintos niveles de experiencia digital, por lo que se priorizan etiquetas claras, recorridos simples y una separación de módulos según el rol.
 
@@ -2820,7 +2820,7 @@ La navegación por rol permite que cada usuario acceda solo a las secciones rele
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-3-landing-page-ui-design"></a>
-# 4.3. Landing Page UI Design
+## 4.3. Landing Page UI Design
 
 El diseño de la Landing Page de AniTec fue desarrollado con el propósito de ofrecer al visitante una primera impresión clara, atractiva y funcional sobre la aplicación y sus beneficios. La interfaz busca comunicar de manera efectiva la propuesta de valor de la plataforma, enfocándose en la digitalización y optimización de la gestión ganadera y veterinaria mediante herramientas tecnológicas accesibles e intuitivas.
 
@@ -2885,7 +2885,7 @@ El mock-up aplica la paleta de colores, tipografía, navegación y jerarquía vi
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-4-web-applications-ux-ui-design"></a>
-# 4.4. Web Applications UX/UI Design.
+## 4.4. Web Applications UX/UI Design.
 
 La aplicación web de AniTec contempla una experiencia diferenciada para ganaderos y veterinarios. El ganadero utiliza la plataforma para administrar fincas, animales, sanidad, actividades, finanzas, dispositivos IoT y planes; mientras que el veterinario la utiliza para revisar clientes, pacientes, registros clínicos, seguimientos y analíticas. Esta separación permite que cada rol acceda a las funciones necesarias para cumplir sus tareas dentro de la solución.
 
@@ -3259,7 +3259,7 @@ En esta parte se detallan los diagramas de flujo de usuario, donde se describen 
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-5-web-applications-prototyping"></a>
-# 4.5. Web Applications Prototyping.
+## 4.5. Web Applications Prototyping.
 
 El prototipado de la aplicación web de AniTec permite validar la navegación e interacción entre las principales pantallas antes de la implementación final. Los criterios considerados para el prototipo fueron claridad en los recorridos, consistencia visual con el Style Guide, separación de acciones por rol y facilidad para completar tareas frecuentes como iniciar sesión, consultar animales, registrar eventos, revisar historial médico, controlar ingresos y egresos, y visualizar reportes.
 
@@ -3278,7 +3278,7 @@ El prototipo se relaciona directamente con la arquitectura de información defin
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-6-domain-driven-software-architecture"></a>
-# 4.6. Domain-Driven Software Architecture.
+## 4.6. Domain-Driven Software Architecture.
 
 El Domain-Driven Design (DDD) tiene como objetivo central establecer un entendimiento mutuo sobre el dominio del negocio, promoviendo la sinergia entre el equipo técnico y los expertos del área a través de un lenguaje ubicuo. Este marco de trabajo trasciende el vocabulario técnico al integrar patrones estratégicos, metodologías de diseño y diagramas arquitectónicos que garantizan que el software evolucione en total sintonía con las prioridades empresariales. De esta forma, se logra una solución técnica robusta, profundamente ligada al conocimiento del negocio y capaz de resolver problemas complejos de manera eficiente.
 
@@ -3577,7 +3577,7 @@ El Shared Component Diagram presenta los componentes transversales utilizados po
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-7-software-object-oriented-design"></a>
-# 4.7. Software Object-Oriented Design.
+## 4.7. Software Object-Oriented Design.
 
 El diseño orientado a objetos de AniTec representa las principales clases, entidades, relaciones y responsabilidades que permiten implementar la lógica de la aplicación. Para mantener coherencia con la arquitectura del backend, el diseño se organiza tomando como referencia los bounded contexts definidos en la solución: IAM, Profiles, Livestock, Sanitary, Activities, Financial, Analytics, Devices, Subscriptions y Shared.
 
@@ -3638,7 +3638,7 @@ Diccionario de clases usado para el desarrollo de AniTec.
 <div style="page-break-before: always;"></div>
 
 <a id="toc-4-8-database-design"></a>
-# 4.8. Database Design.
+## 4.8. Database Design.
 
 El diseño de base de datos de AniTec se plantea sobre un modelo relacional implementado con MySQL. Esta decisión permite organizar la información principal de la aplicación en tablas relacionadas mediante primary keys y foreign keys, manteniendo consistencia entre los datos de usuarios, ganadería, sanidad, actividades, finanzas, analíticas, dispositivos IoT y suscripciones.
 
@@ -3664,7 +3664,7 @@ El siguiente Database Diagram presenta las tablas, columnas principales, constra
 <div style="page-break-before: always;"></div>
 
 <a id="toc-5-1-software-configuration-management"></a>
-# 5.1. Software Configuration Management.
+## 5.1. Software Configuration Management.
 
 En esta sección se detallan todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar la Landing Page y Aplicación Web de AniTec. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
 
@@ -3999,7 +3999,7 @@ El backend queda disponible públicamente para la integración con el frontend. 
 <br>
 
 <a id="toc-5-2-landing-page-services-and-applications-implementation"></a>
-# 5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
 <a id="toc-5-2-1-sprint-1"></a>
 ## 5.2.1. Sprint 1.
@@ -4059,7 +4059,7 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 1 Goal</td>
-            <td>Nuestro enfoque está en establecer la presencia digital inicial de AniTec mediante una Landing Page responsive orientada a ganaderos y veterinarios. Creemos que esto entrega claridad sobre la propuesta de valor y genera interés inicial en los segmentos objetivo. Esto se confirmará cuando los visitantes puedan acceder a la página principal, conocer beneficios, revisar secciones para ganaderos y veterinarios, y usar los llamados a la acción desde desktop y mobile.</td>
+            <td>Nuestro enfoque está en ofrecer una primera experiencia informativa y responsive para visitantes ganaderos y veterinarios que desean entender el valor de AniTec antes de usar la aplicación, estableciendo además una base pública inicial para el Frontend Developer mediante una landing page navegable. Creemos que esto entrega claridad y confianza inicial a ganaderos y veterinarios, porque los ganaderos pueden identificar beneficios relacionados con control de animales, sanidad y finanzas, mientras que los veterinarios pueden reconocer apoyo para seguimiento clínico y atención de clientes. Esto se confirmará cuando los visitantes puedan acceder a la landing page desde desktop y mobile, comprender la propuesta de valor, revisar secciones diferenciadas para ganaderos y veterinarios, conocer beneficios principales y utilizar los llamados a la acción sin problemas de navegación.</td>
         </tr>
         <tr>
             <td>Sprint 1 Velocity</td>
@@ -4554,7 +4554,7 @@ El equipo identifica las siguientes lecciones de este Sprint 1:
 <br>
 
 
-# 5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
 <a id="toc-5-2-2-sprint-2"></a>
 ## 5.2.2. Sprint 2.
@@ -4614,7 +4614,7 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 2 Goal</td>
-            <td>Nuestro enfoque está en permitir que ganaderos y veterinarios gestionen digitalmente información básica de sus operaciones desde una aplicación web funcional. Creemos que esto entrega mayor organización y control sobre animales, eventos sanitarios, finanzas y reportes a los usuarios de AniTec. Esto se confirmará cuando un usuario pueda iniciar sesión, navegar según su rol, registrar animales, documentar eventos sanitarios, registrar movimientos financieros y visualizar reportes desde la aplicación web.</td>
+            <td>Nuestro enfoque está en ofrecer a ganaderos y veterinarios una aplicación web funcional para gestionar sus procesos principales según su rol, construida sobre una base frontend modular para el Frontend Developer. Creemos que esto entrega mayor organización operativa a los ganaderos, porque pueden registrar hatos, animales, eventos sanitarios, actividades, finanzas y reportes; y entrega mayor seguimiento profesional a los veterinarios, porque pueden navegar hacia clientes, pacientes, historial sanitario y analíticas básicas. Esto se confirmará cuando un usuario pueda iniciar sesión, ser dirigido a su dashboard correspondiente, navegar por los módulos de su rol, registrar información ganadera o sanitaria y visualizar datos resumidos desde la aplicación web.</td>
         </tr>
         <tr>
             <td>Sprint 2 Velocity</td>
@@ -5304,7 +5304,7 @@ El equipo identifica las siguientes lecciones de este Sprint 2:
 <br>
 <br>
 
-# 5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
 <a id="toc-5-2-3-sprint-3"></a>
 ## 5.2.3. Sprint 3.
@@ -5364,7 +5364,7 @@ Durante la planificación se definieron los bounded contexts principales, las re
         </tr>
         <tr>
             <td>Sprint 3 Goal</td>
-            <td>Nuestro enfoque está en permitir que AniTec funcione con servicios reales e integración entre backend, frontend y landing page. Creemos que esto entrega una experiencia más cercana al producto final para ganaderos y veterinarios, reemplazando datos mock por información persistente y habilitando nuevos módulos como IoT y suscripciones. Esto se confirmará cuando el frontend consuma datos desde la API real, los usuarios puedan acceder a dispositivos IoT y planes de suscripción, la API exponga endpoints documentados en Swagger y la landing page presente los videos About the Team y About the Product.</td>
+            <td>Nuestro enfoque está en ofrecer servicios backend reales e integración con la aplicación web para que ganaderos y veterinarios trabajen con información persistente en AniTec, habilitando a Backend Developers y Frontend Developers mediante endpoints documentados, migraciones y contratos de API. Creemos que esto entrega una experiencia más confiable a los ganaderos, porque sus hatos, animales, finanzas, actividades, dispositivos IoT y suscripciones dejan de depender de datos mock; y entrega mayor continuidad a los veterinarios, porque pueden consultar clientes, pacientes, eventos sanitarios y analíticas desde datos expuestos por la API. Esto se confirmará cuando el frontend consuma endpoints reales, la API documente sus servicios en Swagger, los usuarios puedan acceder a módulos IoT y suscripciones, y la landing page comunique el producto mediante los videos About the Team y About the Product.</td>
         </tr>
         <tr>
             <td>Sprint 3 Velocity</td>
@@ -6373,7 +6373,7 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 <br>
 <br>
 
-# 5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
 <br>
 <br>
@@ -6385,7 +6385,7 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 <br>
 <br>
 
-# 5.2. Landing Page, Services & Applications Implementation.
+## 5.2. Landing Page, Services & Applications Implementation.
 
 <a id="toc-5-2-4-sprint-4"></a>
 ## 5.2.4. Sprint 4.
@@ -6443,7 +6443,7 @@ Durante la planificacion se priorizaron tres frentes principales: integracion de
         </tr>
         <tr>
             <td>Sprint 4 Goal</td>
-            <td>Nuestro enfoque esta en ofrecer una experiencia segura de acceso y suscripcion para ganaderos y veterinarios dentro de AniTec. Creemos que esto entrega mayor confianza y control sobre la informacion del sistema, permitiendo que cada usuario acceda a funciones segun su rol y pueda gestionar su plan mediante una pasarela de pago integrada. Esto se confirmara cuando los usuarios puedan iniciar sesion con un IAM mas completo, navegar por rutas protegidas, consumir endpoints autenticados, realizar el flujo de pago con Stripe desde el frontend y mantener protegidas las operaciones principales del backend mediante JWT y roles.</td>
+            <td>Nuestro enfoque esta en ofrecer a ganaderos y veterinarios una experiencia segura de identidad, acceso por rol y gestion de suscripcion dentro de AniTec, integrando el trabajo de Backend Developers y Frontend Developers en autenticacion, autorizacion y pagos. Creemos que esto entrega mayor confianza a los ganaderos, porque su informacion productiva, financiera y sanitaria queda protegida; y entrega mayor control a los veterinarios, porque acceden a clientes y pacientes segun su rol y pueden gestionar su suscripcion dentro de una plataforma segura. Esto se confirmara cuando un usuario pueda registrarse como Rancher o Veterinarian, iniciar sesion con JWT, navegar solo por rutas autorizadas, consumir endpoints protegidos, seleccionar un plan, completar el checkout de Stripe y ver su suscripcion activa registrada en el sistema.</td>
         </tr>
         <tr>
             <td>Sprint 4 Velocity</td>
@@ -7018,7 +7018,7 @@ El equipo tambien identifico que el siguiente paso natural es completar el despl
 <div style="page-break-before: always;"></div>
 
 <a id="toc-5-3-validation-interviews"></a>
-# 5.3. Validation Interviews
+## 5.3. Validation Interviews
 
 <a id="toc-5-3-1-diseno-de-entrevistas"></a>
 ## 5.3.1. Diseño de entrevistas
@@ -7273,7 +7273,7 @@ Los principales puntos de mejora se concentran en prevención de errores, mensaj
 <div style="page-break-before: always;"></div>
 
 <a id="toc-5-4-video-about-the-product"></a>
-# 5.4. Video About-the-Product
+## 5.4. Video About-the-Product
 
 En esta sección se presenta el video About-the-Product de AniTec, elaborado para explicar la propuesta de valor del producto, el problema que busca resolver y las principales funcionalidades disponibles en la landing page, la aplicación web y el backend desplegado. El video está dirigido a visitantes del landing page, ganaderos, veterinarios y usuarios interesados en conocer cómo AniTec apoya la gestión ganadera y veterinaria.
 
@@ -7320,7 +7320,7 @@ El video concluye destacando que AniTec busca mejorar la trazabilidad, organizac
 <div style="page-break-before: always;"></div>
 
 <a id="toc-conclusiones"></a>
-# Conclusiones
+## Conclusiones
 
 ## Conclusiones y recomendaciones
 
@@ -7416,7 +7416,7 @@ El contenido del video complementa la sección Student Outcome porque muestra la
 <div style="page-break-before: always;"></div>
 
 <a id="toc-bibliografia"></a>
-# Bibliografía
+## Bibliografía
 
 Bourgau, P. (2022, marzo 29). _Step by step guide to run your big picture event storming_. Philippe Bourgau's Blog. https://bit.ly/bpes-guide
 
@@ -7451,7 +7451,7 @@ Vue.js. (2026). _Vue.js documentation_. https://vuejs.org/guide/
 <div style="page-break-before: always;"></div>
 
 <a id="toc-anexos"></a>
-# Anexos
+## Anexos
 
 <div style="page-break-before: always;"></div>
 

@@ -67,7 +67,7 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 2 Goal</td>
-            <td>Nuestro enfoque está en permitir que ganaderos y veterinarios gestionen digitalmente información básica de sus operaciones desde una aplicación web funcional. Creemos que esto entrega mayor organización y control sobre animales, eventos sanitarios, finanzas y reportes a los usuarios de AniTec. Esto se confirmará cuando un usuario pueda iniciar sesión, navegar según su rol, registrar animales, documentar eventos sanitarios, registrar movimientos financieros y visualizar reportes desde la aplicación web.</td>
+            <td>Nuestro enfoque está en ofrecer a ganaderos y veterinarios una aplicación web funcional para gestionar sus procesos principales según su rol, construida sobre una base frontend modular para el Frontend Developer. Creemos que esto entrega mayor organización operativa a los ganaderos, porque pueden registrar hatos, animales, eventos sanitarios, actividades, finanzas y reportes; y entrega mayor seguimiento profesional a los veterinarios, porque pueden navegar hacia clientes, pacientes, historial sanitario y analíticas básicas. Esto se confirmará cuando un usuario pueda iniciar sesión, ser dirigido a su dashboard correspondiente, navegar por los módulos de su rol, registrar información ganadera o sanitaria y visualizar datos resumidos desde la aplicación web.</td>
         </tr>
         <tr>
             <td>Sprint 2 Velocity</td>

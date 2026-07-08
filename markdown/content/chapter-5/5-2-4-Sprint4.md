@@ -64,7 +64,7 @@ Durante la planificacion se priorizaron tres frentes principales: integracion de
         </tr>
         <tr>
             <td>Sprint 4 Goal</td>
-            <td>Nuestro enfoque esta en ofrecer una experiencia segura de acceso y suscripcion para ganaderos y veterinarios dentro de AniTec. Creemos que esto entrega mayor confianza y control sobre la informacion del sistema, permitiendo que cada usuario acceda a funciones segun su rol y pueda gestionar su plan mediante una pasarela de pago integrada. Esto se confirmara cuando los usuarios puedan iniciar sesion con un IAM mas completo, navegar por rutas protegidas, consumir endpoints autenticados, realizar el flujo de pago con Stripe desde el frontend y mantener protegidas las operaciones principales del backend mediante JWT y roles.</td>
+            <td>Nuestro enfoque esta en ofrecer a ganaderos y veterinarios una experiencia segura de identidad, acceso por rol y gestion de suscripcion dentro de AniTec, integrando el trabajo de Backend Developers y Frontend Developers en autenticacion, autorizacion y pagos. Creemos que esto entrega mayor confianza a los ganaderos, porque su informacion productiva, financiera y sanitaria queda protegida; y entrega mayor control a los veterinarios, porque acceden a clientes y pacientes segun su rol y pueden gestionar su suscripcion dentro de una plataforma segura. Esto se confirmara cuando un usuario pueda registrarse como Rancher o Veterinarian, iniciar sesion con JWT, navegar solo por rutas autorizadas, consumir endpoints protegidos, seleccionar un plan, completar el checkout de Stripe y ver su suscripcion activa registrada en el sistema.</td>
         </tr>
         <tr>
             <td>Sprint 4 Velocity</td>

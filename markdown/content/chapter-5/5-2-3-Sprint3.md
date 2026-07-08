@@ -66,7 +66,7 @@ Durante la planificación se definieron los bounded contexts principales, las re
         </tr>
         <tr>
             <td>Sprint 3 Goal</td>
-            <td>Nuestro enfoque está en permitir que AniTec funcione con servicios reales e integración entre backend, frontend y landing page. Creemos que esto entrega una experiencia más cercana al producto final para ganaderos y veterinarios, reemplazando datos mock por información persistente y habilitando nuevos módulos como IoT y suscripciones. Esto se confirmará cuando el frontend consuma datos desde la API real, los usuarios puedan acceder a dispositivos IoT y planes de suscripción, la API exponga endpoints documentados en Swagger y la landing page presente los videos About the Team y About the Product.</td>
+            <td>Nuestro enfoque está en ofrecer servicios backend reales e integración con la aplicación web para que ganaderos y veterinarios trabajen con información persistente en AniTec, habilitando a Backend Developers y Frontend Developers mediante endpoints documentados, migraciones y contratos de API. Creemos que esto entrega una experiencia más confiable a los ganaderos, porque sus hatos, animales, finanzas, actividades, dispositivos IoT y suscripciones dejan de depender de datos mock; y entrega mayor continuidad a los veterinarios, porque pueden consultar clientes, pacientes, eventos sanitarios y analíticas desde datos expuestos por la API. Esto se confirmará cuando el frontend consuma endpoints reales, la API documente sus servicios en Swagger, los usuarios puedan acceder a módulos IoT y suscripciones, y la landing page comunique el producto mediante los videos About the Team y About the Product.</td>
         </tr>
         <tr>
             <td>Sprint 3 Velocity</td>

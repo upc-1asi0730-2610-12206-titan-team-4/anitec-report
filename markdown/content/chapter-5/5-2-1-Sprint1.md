@@ -66,7 +66,7 @@ Durante la planificación se definieron las historias de usuario del Sprint, se 
         </tr>
         <tr>
             <td>Sprint 1 Goal</td>
-            <td>Nuestro enfoque está en establecer la presencia digital inicial de AniTec mediante una Landing Page responsive orientada a ganaderos y veterinarios. Creemos que esto entrega claridad sobre la propuesta de valor y genera interés inicial en los segmentos objetivo. Esto se confirmará cuando los visitantes puedan acceder a la página principal, conocer beneficios, revisar secciones para ganaderos y veterinarios, y usar los llamados a la acción desde desktop y mobile.</td>
+            <td>Nuestro enfoque está en ofrecer una primera experiencia informativa y responsive para visitantes ganaderos y veterinarios que desean entender el valor de AniTec antes de usar la aplicación, estableciendo además una base pública inicial para el Frontend Developer mediante una landing page navegable. Creemos que esto entrega claridad y confianza inicial a ganaderos y veterinarios, porque los ganaderos pueden identificar beneficios relacionados con control de animales, sanidad y finanzas, mientras que los veterinarios pueden reconocer apoyo para seguimiento clínico y atención de clientes. Esto se confirmará cuando los visitantes puedan acceder a la landing page desde desktop y mobile, comprender la propuesta de valor, revisar secciones diferenciadas para ganaderos y veterinarios, conocer beneficios principales y utilizar los llamados a la acción sin problemas de navegación.</td>
         </tr>
         <tr>
             <td>Sprint 1 Velocity</td>
