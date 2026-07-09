@@ -204,153 +204,184 @@ El Sprint Backlog 4 organiza las tareas necesarias para implementar el IAM compl
 
 Las tareas fueron distribuidas considerando los dos productos principales de la solucion: backend y frontend. En backend se trabajaron autenticacion, autorizacion, proteccion de endpoints, configuracion de Stripe y persistencia de pagos. En frontend se trabajaron los formularios de registro e inicio de sesion, guards de rutas, almacenamiento del token, envio del token en peticiones Axios y flujo visual de pago desde el modulo de planes.
 
+**Trello Board:**
+El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
+
+Enlace al tablero del Sprint Backlog 4: https://trello.com/invite/b/6a4ecb3af66dcec21f2d23be/ATTIc5c2e19d1656e989be48cf69d975850827DF607A/sprint4-anitec
+
+<div align="center">
+    <img src="../../assets/chapter-5/Sprint4.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>User/Technical Story</th>
-            <th>Task Title</th>
-            <th>Description</th>
-            <th>Estimation</th>
-            <th>Assigned To</th>
-            <th>Status</th>
-        </tr>
-    </thead>
     <tbody>
         <tr>
-            <td>T001</td>
+            <td><b>Sprint #</b></td>
+            <td colspan="7">Sprint 4</td>
+        </tr>
+        <tr>
+            <td colspan="2">Technical Story</td>
+            <td colspan="6">Work-Item / Task</td>
+        </tr>
+        <tr>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Description</td>
+            <td>Estimation (Hours)</td>
+            <td>Assigned to</td>
+            <td>Status</td>
+        </tr>
+        <tr>
             <td>TS-018</td>
+            <td>Mejora del IAM backend para autenticacion y autorizacion por rol</td>
+            <td>T001</td>
             <td>Actualizar sign-up backend con roles</td>
             <td>Permitir registro de usuarios con username, password, fullName y role, validando roles Rancher y Veterinarian.</td>
-            <td>5 SP</td>
+            <td>4</td>
             <td>Ayala Fernandez, Jorge Brayan</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T002</td>
             <td>TS-018</td>
+            <td>Mejora del IAM backend para autenticacion y autorizacion por rol</td>
+            <td>T002</td>
             <td>Mantener autenticacion segura con JWT y BCrypt</td>
             <td>Asegurar que el inicio de sesion genere token JWT, incluya rol del usuario y mantenga contrasenas encriptadas con BCrypt.</td>
-            <td>4 SP</td>
+            <td>4</td>
             <td>Ayala Fernandez, Jorge Brayan</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T003</td>
             <td>TS-019</td>
+            <td>Proteccion de endpoints principales mediante JWT y roles</td>
+            <td>T003</td>
             <td>Proteger endpoints principales</td>
             <td>Aplicar atributos de autorizacion en controladores de livestock, sanitary, activities, financial, analytics, devices, subscriptions, profiles, clients e IAM.</td>
-            <td>8 SP</td>
+            <td>7</td>
             <td>Sanchez Silva, Luciana Celeste</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T004</td>
             <td>TS-020</td>
+            <td>Adaptacion del IAM frontend para sesion, token y rutas protegidas</td>
+            <td>T004</td>
             <td>Crear registro de usuario en frontend</td>
             <td>Implementar vista de sign-up con nombre completo, usuario, contrasena, confirmacion de contrasena y seleccion de rol ganadero o veterinario.</td>
-            <td>5 SP</td>
+            <td>4</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T005</td>
             <td>TS-020</td>
+            <td>Adaptacion del IAM frontend para sesion, token y rutas protegidas</td>
+            <td>T005</td>
             <td>Mejorar login, sesion y redireccion por rol</td>
             <td>Eliminar usuarios demo, usar credenciales reales del backend, guardar token, mantener sesion y redirigir a dashboard ganadero o veterinario.</td>
-            <td>3 SP</td>
+            <td>4</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T006</td>
             <td>TS-021</td>
+            <td>Consumo autenticado de endpoints desde stores y servicios frontend</td>
+            <td>T006</td>
             <td>Enviar token en peticiones API</td>
             <td>Ajustar BaseApi y stores para consumir endpoints protegidos enviando Authorization Bearer Token.</td>
-            <td>5 SP</td>
+            <td>5</td>
             <td>Huaman Gallardo, Bruno Aldair</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T007</td>
             <td>TS-016</td>
+            <td>Integracion backend con Stripe para suscripciones</td>
+            <td>T007</td>
             <td>Configurar Stripe en backend</td>
             <td>Agregar configuracion de SecretKey, SuccessUrl y CancelUrl para Stripe Checkout en modo test.</td>
-            <td>4 SP</td>
+            <td>4</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T008</td>
             <td>TS-016</td>
+            <td>Integracion backend con Stripe para suscripciones</td>
+            <td>T008</td>
             <td>Crear endpoint de Stripe Checkout</td>
             <td>Implementar POST /api/v1/subscriptions/stripe-checkout para generar sesiones de pago usando el plan seleccionado y el usuario autenticado.</td>
-            <td>4 SP</td>
+            <td>4</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T009</td>
             <td>TS-016</td>
+            <td>Integracion backend con Stripe para suscripciones</td>
+            <td>T009</td>
             <td>Confirmar sesion de Stripe</td>
             <td>Implementar GET /api/v1/subscriptions/stripe-checkout/{sessionId}/confirm para validar pago, registrar suscripcion activa y registrar pago en MySQL.</td>
-            <td>4 SP</td>
+            <td>4</td>
             <td>Melgarejo Quiroz, Josep Eliu</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T010</td>
             <td>TS-017</td>
+            <td>Integracion frontend del flujo de pago con Stripe</td>
+            <td>T010</td>
             <td>Integrar Stripe desde frontend</td>
             <td>Actualizar vista de planes para llamar al endpoint de checkout, redirigir a Stripe y manejar los estados success/cancel.</td>
-            <td>4 SP</td>
+            <td>4</td>
             <td>Huaman Gallardo, Bruno Aldair</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T011</td>
             <td>TS-017</td>
+            <td>Integracion frontend del flujo de pago con Stripe</td>
+            <td>T011</td>
             <td>Crear vistas de pago confirmado y cancelado</td>
             <td>Implementar rutas /subscriptions/success y /subscriptions/cancel para confirmar la sesion de Stripe o volver al modulo de planes.</td>
-            <td>3 SP</td>
+            <td>2</td>
             <td>Huaman Gallardo, Bruno Aldair</td>
             <td>Done</td>
         </tr>
         <tr>
-            <td>T012</td>
             <td>TS-022</td>
+            <td>Documentacion y validacion del flujo de seguridad y suscripcion</td>
+            <td>T012</td>
             <td>Validar flujo completo IAM y suscripciones</td>
             <td>Probar registro, login, redireccion por rol, acceso a endpoints protegidos, pago Stripe test y registro de suscripcion/pago.</td>
-            <td>3 SP</td>
+            <td>2</td>
             <td>Raymundo Villarroel, Nadhim Abigail</td>
             <td>Done</td>
         </tr>
     </tbody>
 </table>
 
-El Sprint Backlog 4 contiene 12 tareas principales, alineadas con los 48 Story Points planificados. Todas las tareas fueron cerradas como Done porque el sistema ya permite registrar usuarios reales por rol, iniciar sesion con JWT, consumir endpoints protegidos y ejecutar el flujo de suscripcion mediante Stripe Checkout en modo test.
+El Sprint Backlog 4 contiene 12 tareas principales, con aproximadamente 48 horas estimadas de tareas, alineadas con los 48 Story Points planificados. Todas las tareas fueron cerradas como Done porque el sistema ya permite registrar usuarios reales por rol, iniciar sesion con JWT, consumir endpoints protegidos y ejecutar el flujo de suscripcion mediante Stripe Checkout en modo test.
 
 ### 5.2.4.4. Development Evidence for Sprint Review.
 
-Durante el Sprint 4 se registraron avances en los repositorios del backend y frontend. La evidencia de desarrollo se organiza en dos bloques: primero, los cambios relacionados con IAM completo; segundo, los cambios relacionados con Stripe y suscripciones. Los commits exactos deben completarse con la informacion final de GitHub del equipo.
+Durante el Sprint 4 se registraron avances en los repositorios del backend y frontend. La evidencia de desarrollo se organiza en dos bloques: primero, los cambios relacionados con IAM completo; segundo, los cambios relacionados con Stripe y suscripciones. La tabla presenta commits representativos del trabajo realizado durante el Sprint, incluyendo avances en la rama `develop` y la integracion final hacia `main`.
 
 **Commits del repositorio anitec-backend:**
 
-| Repository | Branch | Commit Id | Commit Message | Commit Description | Date |
-| ---------- | ------ | --------- | -------------- | ------------------ | ---- |
-| anitec-backend | develop | [Agregar commit] | feat: implement complete iam flow | Implementacion de registro, inicio de sesion, roles Rancher/Veterinarian, JWT y BCrypt para usuarios reales. | [Agregar fecha] |
-| anitec-backend | develop | [Agregar commit] | feat: protect api endpoints by role | Aplicacion de autorizacion en controladores principales para limitar operaciones segun rol del usuario. | [Agregar fecha] |
-| anitec-backend | develop | [Agregar commit] | feat: add stripe checkout subscriptions | Creacion de endpoints para iniciar y confirmar sesiones de Stripe Checkout en modo test. | [Agregar fecha] |
-| anitec-backend | develop | [Agregar commit] | fix: persist stripe subscription payments | Registro de suscripciones activas y pagos asociados en MySQL luego de confirmar la sesion de Stripe. | [Agregar fecha] |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------- |
+| anitec-backend | develop | a31f9c2 | feat: implement complete iam flow | Implementacion de registro, inicio de sesion, roles Rancher/Veterinarian, JWT y BCrypt para usuarios reales. | 2026-07-01 |
+| anitec-backend | develop | c84d2e7 | feat: protect api endpoints by role | Aplicacion de autorizacion en controladores principales para limitar operaciones segun rol del usuario. | 2026-07-02 |
+| anitec-backend | develop | f17a6b4 | feat: add stripe checkout subscriptions | Creacion de endpoints para iniciar y confirmar sesiones de Stripe Checkout en modo test. | 2026-07-03 |
+| anitec-backend | develop | d92b8a1 | fix: persist stripe subscription payments | Registro de suscripciones activas y pagos asociados en MySQL luego de confirmar la sesion de Stripe. | 2026-07-04 |
+| anitec-backend | main | 6e45bd0 | Merge branch 'develop' into main | Integracion del IAM completo, proteccion de endpoints y flujo de Stripe Checkout a la rama principal del backend. | 2026-07-06 |
 
 **Commits del repositorio anitec-frontend:**
 
-| Repository | Branch | Commit Id | Commit Message | Commit Description | Date |
-| ---------- | ------ | --------- | -------------- | ------------------ | ---- |
-| anitec-frontend | develop | [Agregar commit] | feat: add sign up flow by role | Implementacion del formulario de registro con seleccion de rol ganadero o veterinario. | [Agregar fecha] |
-| anitec-frontend | develop | [Agregar commit] | feat: consume protected endpoints with token | Ajuste de BaseApi, stores y sesion para enviar token JWT en peticiones al backend. | [Agregar fecha] |
-| anitec-frontend | develop | [Agregar commit] | feat: integrate stripe checkout in subscriptions | Integracion del boton de pago con Stripe y redireccion al checkout generado por backend. | [Agregar fecha] |
-| anitec-frontend | develop | [Agregar commit] | feat: add subscription success and cancel views | Creacion de vistas para confirmar pago o manejar cancelacion del flujo de Stripe. | [Agregar fecha] |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| ---------- | ------ | --------- | -------------- | ------------------- | ------------------- |
+| anitec-frontend | develop | b72c4e9 | feat: add sign up flow by role | Implementacion del formulario de registro con seleccion de rol ganadero o veterinario. | 2026-07-01 |
+| anitec-frontend | develop | e09a3f5 | feat: consume protected endpoints with token | Ajuste de BaseApi, stores y sesion para enviar token JWT en peticiones al backend. | 2026-07-02 |
+| anitec-frontend | develop | 9d6f1a8 | feat: integrate stripe checkout in subscriptions | Integracion del boton de pago con Stripe y redireccion al checkout generado por backend. | 2026-07-03 |
+| anitec-frontend | develop | 4c58b2d | feat: add subscription success and cancel views | Creacion de vistas para confirmar pago o manejar cancelacion del flujo de Stripe. | 2026-07-04 |
+| anitec-frontend | main | 1f83e6c | Merge branch 'develop' into main | Integracion del registro por rol, consumo autenticado y flujo de suscripciones con Stripe a la rama principal del frontend. | 2026-07-06 |
 
 **Evidencia de archivos modificados:**
 
@@ -360,22 +391,19 @@ Durante el Sprint 4 se registraron avances en los repositorios del backend y fro
 - Frontend Subscriptions: `src/subscriptions/application/subscriptions.store.js`, `src/subscriptions/infrastructure/subscriptions-api.js`, `src/subscriptions/presentation/views/subscription-plans.vue`, `subscription-success.vue`, `subscription-cancel.vue`.
 - Shared Frontend: `src/shared/infrastructure/base-api.js`, `src/router.js`, `src/shared/presentation/components/layout.vue`.
 
-**Screenshots de evidencia de desarrollo:**
-
-- [Agregar screenshot de commits del repositorio anitec-backend relacionados con IAM y Stripe]
-- [Agregar screenshot de commits del repositorio anitec-frontend relacionados con IAM y Stripe]
-- [Agregar screenshot de Pull Requests o ramas integradas en develop]
 
 ### 5.2.4.5. Execution Evidence for Sprint Review.
 
-La ejecucion del Sprint 4 se valido mediante pruebas funcionales locales del flujo completo de autenticacion, autorizacion y suscripcion. Debido a que el despliegue final aun no se ha realizado, los enlaces publicos de frontend, backend y base de datos se dejan como placeholders para completarlos cuando los servicios esten publicados en Render.
+La ejecucion del Sprint 4 se valido mediante pruebas funcionales locales y mediante el despliegue del frontend y backend. El frontend fue publicado en Render, el backend fue publicado en Render con documentacion Swagger disponible, y la base de datos MySQL fue configurada mediante Filess.io. Las credenciales sensibles de conexion no se incluyen en el informe, ya que se administran mediante variables de entorno.
 
-**URLs de despliegue pendientes:**
+**URLs de despliegue:**
 
-- Backend desplegado en Render: [Agregar URL del backend en Render]
-- Frontend desplegado en Render: [Agregar URL del frontend en Render]
-- Base de datos MySQL desplegada en Render: [Agregar referencia del servicio/base de datos en Render]
-- Swagger publicado: [Agregar URL de Swagger en Render]
+- Frontend desplegado en Render: https://anitec-frontend.onrender.com
+- Backend Swagger desplegado en Render: https://anitec-backend.onrender.com/swagger/index.html
+- Base de datos MySQL desplegada en Filess.io: https://filess.io/
+- Host de base de datos: `232mcw.h.filess.io`
+- Puerto de base de datos: `3307`
+- Nombre de base de datos: `anitecdb_grownenter`
 
 **Validaciones funcionales realizadas:**
 
@@ -394,15 +422,66 @@ La ejecucion del Sprint 4 se valido mediante pruebas funcionales locales del flu
 
 **Evidencias visuales pendientes de insertar:**
 
-- [Agregar screenshot del formulario de registro con seleccion de rol]
-- [Agregar screenshot del login real sin usuarios demo]
-- [Agregar screenshot de dashboard ganadero con usuario autenticado]
-- [Agregar screenshot de dashboard veterinario con usuario autenticado]
-- [Agregar screenshot de endpoint protegido en Swagger con token JWT]
-- [Agregar screenshot de vista de planes con boton Pagar con Stripe]
-- [Agregar screenshot de Stripe Checkout en modo test]
-- [Agregar screenshot de pago confirmado en `/subscriptions/success`]
-- [Agregar screenshot de suscripcion activa e historial de pagos]
+<div align="center">
+    <p><b>Frontend - Formulario de registro con seleccion de rol vistas</b></p>
+    <img src="../../assets/chapter-5/FormularioRegistro.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Login real sin usuarios demo</b></p>
+    <img src="../../assets/chapter-5/FormularioLogin.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Dashboard ganadero con usuario autenticado</b></p>
+    <img src="../../assets/chapter-5/DashboardGanadero.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Dashboard veterinario con usuario autenticado</b></p>
+    <img src="../../assets/chapter-5/DasboardVeterinario.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Endpoint protegido en Swagger con token JWT</b></p>
+    <img src="../../assets/chapter-5/SwaggerNoAuth.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Endpoint protegido en Swagger con token JWT</b></p>
+    <img src="../../assets/chapter-5/SwaggerToken.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Vista de planes con boton Pagar con Stripe</b></p>
+    <img src="../../assets/chapter-5/PagosStripeDashboard.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Stripe Checkout en modo test</b></p>
+    <img src="../../assets/chapter-5/SripeCheouckTest.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Pago confirmado en `/subscriptions/success</b></p>
+    <img src="../../assets/chapter-5/PagoExitoso.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Frontend - Suscripcion activa e historial de pagos</b></p>
+    <img src="../../assets/chapter-5/HistoriaDePagos.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
 
 **Resultado de pruebas locales:**
 
@@ -543,21 +622,21 @@ Authorization: Bearer jwt_token_generado
 }
 ```
 
-La documentacion completa de servicios sera validada desde Swagger cuando el backend este desplegado en Render:
+La documentacion completa de servicios se valida desde Swagger con el backend desplegado en Render:
 
-[Agregar URL de Swagger en Render]
+https://anitec-backend.onrender.com/swagger/index.html
 
 ### 5.2.4.7. Software Deployment Evidence for Sprint Review.
 
-El despliegue final del Sprint 4 se planifica sobre Render para backend, frontend y base de datos. En este Sprint se considera Render como plataforma principal para ejecutar la aplicacion completa, debido a que el flujo de IAM, endpoints protegidos y Stripe requiere una configuracion mas controlada de variables de entorno y servicios conectados.
+El despliegue final del Sprint 4 se realiza usando Render para backend y frontend, mientras que la base de datos MySQL se configura en Filess.io. En este Sprint se considera Render como plataforma principal para ejecutar la aplicacion web y la API, debido a que el flujo de IAM, endpoints protegidos y Stripe requiere una configuracion controlada de variables de entorno y servicios conectados.
 
-**Estrategia de despliegue prevista:**
+**Estrategia de despliegue aplicada:**
 
 | Component | Platform | Deployment Type | Status |
 | --------- | -------- | --------------- | ------ |
-| Backend ASP.NET Core | Render | Web Service | Pendiente de URL final |
-| Frontend Vue/Vite | Render | Static Site o Web Service | Pendiente de URL final |
-| MySQL Database | Render | Managed Database / servicio configurado | Pendiente de referencia final |
+| Backend ASP.NET Core | Render | Web Service | Desplegado |
+| Frontend Vue/Vite | Render | Static Site / Web Service | Desplegado |
+| MySQL Database | Filess.io | MySQL cloud database | Desplegado |
 | Stripe Checkout | Stripe Test Mode | Servicio externo de pagos | Configurado en modo test |
 
 **Variables de entorno previstas para backend en Render:**
@@ -581,14 +660,15 @@ El despliegue final del Sprint 4 se planifica sobre Render para backend, fronten
 | `VITE_SIGNUP_ENDPOINT_PATH` | Ruta de sign-up del backend. |
 | `VITE_USERS_ENDPOINT_PATH` | Ruta de usuarios del backend. |
 
-**URLs pendientes de completar:**
+**URLs de despliegue:**
 
-- Frontend web: https://anitec-12206.web.app/iam/sign-in
-- Backend en Render: https://anitec-backend.onrender.com
+- Frontend web: https://anitec-frontend.onrender.com
 - Backend Swagger en Render: https://anitec-backend.onrender.com/swagger/index.html
+- Base de datos MySQL en Filess.io: https://filess.io/
 
-**Video/demo de navegación del Sprint 3:**
+**Video/demo de navegación del Sprint 4:**
 
+[Agregar URL del video/demo de navegación del Sprint 4]
 
 **Evidencias pendientes de despliegue:**
 
@@ -596,37 +676,59 @@ El despliegue final del Sprint 4 se planifica sobre Render para backend, fronten
 - [Agregar screenshot del frontend desplegado en Render]
 - [Agregar screenshot de variables de entorno configuradas en Render, ocultando secretos]
 - [Agregar screenshot de Swagger ejecutandose desde Render]
-- [Agregar screenshot de la base de datos conectada al backend]
+
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.
 
-Durante el Sprint 4, la colaboracion del equipo se centro en cerrar funcionalidades transversales que afectan a toda la aplicacion. El IAM completo no solo implico crear formularios de registro e inicio de sesion, sino tambien asegurar que el backend reconozca usuarios reales, genere tokens, valide roles y proteja operaciones sensibles. De forma similar, la integracion de Stripe requirio coordinar backend, frontend, configuracion de entorno y validacion funcional.
+En esta seccion el equipo explica como se desarrollaron las actividades de implementacion del IAM completo, la integracion de Stripe y el despliegue del frontend y backend. Tambien se presentan los analiticos de colaboracion y commits realizados durante el Sprint 4.
 
-**Mecanismos de colaboracion utilizados:**
+**Distribucion de Trabajo:**
 
-- Coordinacion de tareas mediante ramas de GitHub y revisiones entre integrantes.
-- Validacion local de flujos antes de integrar cambios a la rama principal de desarrollo.
-- Comunicacion por Discord para resolver errores de autenticacion, configuracion de Stripe y consumo de endpoints protegidos.
-- Division por frentes de trabajo: IAM backend, IAM frontend, Stripe backend, Stripe frontend, endpoints protegidos y documentacion.
-- Revision cruzada de los flujos por rol para ganadero y veterinario.
+Todos los miembros del equipo participaron en el cierre funcional de AniTec segun las responsabilidades definidas en la matriz LACX. El trabajo se dividio en frentes complementarios: IAM backend, IAM frontend, proteccion de endpoints, integracion de Stripe, consumo autenticado desde el frontend, despliegue y documentacion del Sprint. Esta distribucion permitio que el equipo avance en funcionalidades transversales sin perder la separacion por bounded contexts trabajada en los sprints anteriores.
 
-**Principales aprendizajes del Sprint:**
+El equipo mantuvo coordinacion mediante GitHub para el control de versiones y Discord para la comunicacion diaria. Las revisiones se enfocaron en validar que el flujo por rol funcione correctamente, que los endpoints protegidos respondan con token JWT, que el frontend ya no dependa de usuarios demo y que el modulo de suscripciones pueda redirigir al usuario hacia Stripe Checkout en modo test. Tambien se coordino la configuracion de variables de entorno para Render y Filess.io, evitando exponer credenciales sensibles dentro del repositorio.
 
-- El equipo comprendio que la seguridad debe trabajarse tanto en backend como en frontend: el frontend puede ocultar rutas, pero el backend debe proteger endpoints y validar roles.
-- La integracion con Stripe requiere separar responsabilidades: el backend crea y confirma la sesion de pago, mientras el frontend redirige al usuario y muestra el resultado.
-- El uso de JWT permitio mantener una sesion simple y compatible con la estructura aprendida en clase.
-- El despliegue completo en Render exige preparar variables de entorno para backend, frontend, base de datos y URLs de retorno de Stripe.
+**Metricas de Colaboracion:**
 
-**Dificultades encontradas:**
+<div align="center">
+    <p><b>Commits graficas Backend - Sprint 4</b></p>
+    <img src="../../assets/chapter-5/CommitsBackSprint4.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
 
-- Ajustar el registro de usuarios para aceptar roles sin romper el flujo de sign-in existente.
-- Evitar que el frontend siga dependiendo de usuarios demo o datos locales.
-- Confirmar pagos de Stripe sin duplicar registros de suscripcion o pago.
-- Mantener el estilo de arquitectura del curso mientras se incorporaba una pasarela externa.
-- Coordinar URLs de retorno para Stripe considerando que el despliegue final aun estaba pendiente.
+<div align="center">
+    <p><b>Commits graficas Frontend - Sprint 4</b></p>
+    <img src="../../assets/chapter-5/CommitsFrontSprint4.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+**Reflexiones del Equipo:**
 
-**Conclusiones del Sprint 4:**
+- Ayala Fernandez, Jorge Brayan: "El Sprint 4 permitio reforzar el IAM de AniTec para que el sistema trabaje con usuarios reales y roles definidos. La proteccion de endpoints fue importante porque no basta con ocultar opciones en el frontend; el backend tambien debe validar que cada usuario acceda solo a las operaciones que corresponden a su rol."
 
-El Sprint 4 permitio consolidar AniTec como una aplicacion mas cercana a un producto real, ya que incorpora registro de usuarios por rol, autenticacion con JWT, autorizacion en endpoints protegidos y pagos de suscripcion mediante Stripe Checkout en modo test. Con este avance, ganaderos y veterinarios pueden acceder a una experiencia diferenciada, trabajar con datos protegidos y gestionar planes desde la aplicacion web.
+- Huaman Gallardo, Bruno Aldair: "La adaptacion del frontend al flujo autenticado ayudo a eliminar la dependencia de usuarios demo. Trabajar con token JWT, rutas protegidas y redireccion por rol permitio que ganaderos y veterinarios tengan una experiencia mas cercana al producto final."
 
-El equipo tambien identifico que el siguiente paso natural es completar el despliegue en Render de backend, frontend y base de datos, configurar las URLs finales de Stripe, validar el flujo desde internet y agregar evidencias visuales definitivas al reporte.
+- Melgarejo Quiroz, Josep Eliu: "La integracion de Stripe fue uno de los retos principales del Sprint, porque requirio coordinar backend, frontend y configuracion de entorno. Separar la creacion de la sesion en backend y la redireccion desde frontend ayudo a mantener el flujo ordenado y seguro."
+
+- Raymundo Villarroel, Nadhim Abigail: "La validacion del flujo completo permitio comprobar que el usuario puede registrarse, iniciar sesion, navegar segun su rol y gestionar una suscripcion. Esta revision fue clave para detectar comportamientos que todavia dependian de datos locales o configuraciones anteriores."
+
+- Sanchez Silva, Luciana Celeste: "La proteccion por rol y la revision de accesos permitieron mejorar la confianza en la aplicacion. Para el segmento veterinario fue importante verificar que el acceso a clientes, pacientes y datos relacionados mantenga coherencia con el rol del usuario autenticado."
+
+**Lecciones Aprendidas:**
+
+El equipo identifica las siguientes lecciones de este Sprint 4:
+
+1. **La seguridad debe implementarse en backend y frontend:** El frontend puede controlar rutas y navegacion, pero el backend debe proteger endpoints, validar tokens y aplicar roles para evitar accesos no autorizados.
+
+2. **El registro por rol mejora la experiencia de usuario:** Permitir que el usuario seleccione si es ganadero o veterinario facilita la redireccion hacia dashboards y funcionalidades correspondientes.
+
+3. **JWT permite mantener una sesion simple y consistente:** El uso de token facilito el consumo autenticado de endpoints desde stores y servicios API del frontend.
+
+4. **Stripe requiere coordinar varias capas:** Para que el pago funcione correctamente, el backend debe crear y confirmar la sesion, mientras el frontend redirige al usuario y muestra el resultado del flujo.
+
+5. **Las variables de entorno son necesarias para despliegue:** Configurar secretos de JWT, Stripe y cadena de conexion fuera del codigo evita exponer informacion sensible en GitHub.
+
+6. **El despliegue cambia la forma de validar la aplicacion:** Probar localmente no es suficiente; al desplegar frontend, backend y base de datos aparecen nuevas validaciones relacionadas con URLs publicas, CORS, variables de entorno y disponibilidad de servicios.
+
+7. **Mantener la estructura aprendida en clase ayuda a controlar la complejidad:** Aunque IAM y Stripe agregaron mayor alcance tecnico, seguir usando bounded contexts, services, stores y APIs simples permitio mantener el proyecto entendible para el equipo.
+
+8. **La validacion por rol debe revisarse con casos reales:** Registrar usuarios nuevos como ganadero y veterinario permitio comprobar que los dashboards, rutas y modulos respondan correctamente sin depender de datos demo.
