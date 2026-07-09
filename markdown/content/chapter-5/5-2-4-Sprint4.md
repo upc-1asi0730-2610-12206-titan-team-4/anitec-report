@@ -681,7 +681,7 @@ El despliegue final del Sprint 4 se realiza usando Render para backend y fronten
 
 **Video/demo de navegación del Sprint 4:**
 
-[Agregar URL del video/demo de navegación del Sprint 4]
+https://tinyurl.com/DemoSprint4
 
 **Evidencias pendientes de despliegue:**
 
