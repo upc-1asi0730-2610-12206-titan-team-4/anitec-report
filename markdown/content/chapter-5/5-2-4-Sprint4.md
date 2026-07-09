@@ -533,8 +533,10 @@ En el Sprint 4 se documentan los servicios relacionados con IAM completo, autori
 
 **Ejemplo de registro de usuario:**
 
-```json
+```http
 POST /api/v1/authentication/sign-up
+Content-Type: application/json
+
 {
   "username": "ganadero01",
   "password": "Password123!",
@@ -547,17 +549,16 @@ POST /api/v1/authentication/sign-up
 
 ```json
 {
-  "id": 12,
-  "username": "ganadero01",
-  "fullName": "Ganadero Demo",
-  "role": "Rancher"
+  "message": "User created successfully"
 }
 ```
 
 **Ejemplo de inicio de sesion:**
 
-```json
+```http
 POST /api/v1/authentication/sign-in
+Content-Type: application/json
+
 {
   "username": "ganadero01",
   "password": "Password123!"
@@ -578,9 +579,11 @@ POST /api/v1/authentication/sign-in
 
 **Ejemplo de creacion de Stripe Checkout:**
 
-```json
+```http
 POST /api/v1/subscriptions/stripe-checkout
 Authorization: Bearer jwt_token_generado
+Content-Type: application/json
+
 {
   "planId": 2
 }
@@ -595,9 +598,11 @@ Authorization: Bearer jwt_token_generado
 }
 ```
 
+Para ejecutar endpoints protegidos desde Swagger, el usuario debe iniciar sesion, copiar el valor del campo `token`, presionar el boton `Authorize` y pegar el token JWT. Swagger envia la cabecera como `Authorization: Bearer <token>`. Si el token no se envia o es invalido, el backend responde `401 Unauthorized`.
+
 **Ejemplo de confirmacion de pago:**
 
-```json
+```http
 GET /api/v1/subscriptions/stripe-checkout/cs_test_123/confirm
 Authorization: Bearer jwt_token_generado
 ```
@@ -639,19 +644,18 @@ El despliegue final del Sprint 4 se realiza usando Render para backend y fronten
 | MySQL Database | Filess.io | MySQL cloud database | Desplegado |
 | Stripe Checkout | Stripe Test Mode | Servicio externo de pagos | Configurado en modo test |
 
-**Variables de entorno previstas para backend en Render:**
+**Variables de entorno configuradas para backend en Render:**
 
 | Variable | Purpose |
 | -------- | ------- |
+| `ASPNETCORE_ENVIRONMENT` | Define el ambiente de ejecucion del backend en Render. |
 | `ConnectionStrings__DefaultConnection` | Cadena de conexion hacia MySQL. |
-| `TokenSettings__Secret` | Clave secreta para firmar JWT. |
-| `TokenSettings__Issuer` | Emisor del token JWT. |
-| `TokenSettings__Audience` | Audiencia del token JWT. |
+| `TokenSettings__Secret` | Clave secreta para firmar JWT. Se configura como secreto y no se publica en el repositorio. |
 | `StripeSettings__SecretKey` | Llave secreta test de Stripe. |
 | `StripeSettings__SuccessUrl` | URL del frontend para pago exitoso. |
 | `StripeSettings__CancelUrl` | URL del frontend para pago cancelado. |
 
-**Variables de entorno previstas para frontend en Render:**
+**Variables de entorno configuradas para frontend en Render:**
 
 | Variable | Purpose |
 | -------- | ------- |
@@ -659,6 +663,15 @@ El despliegue final del Sprint 4 se realiza usando Render para backend y fronten
 | `VITE_SIGNIN_ENDPOINT_PATH` | Ruta de sign-in del backend. |
 | `VITE_SIGNUP_ENDPOINT_PATH` | Ruta de sign-up del backend. |
 | `VITE_USERS_ENDPOINT_PATH` | Ruta de usuarios del backend. |
+| `VITE_HERDS_ENDPOINT_PATH` | Ruta de hatos/fincas del backend. |
+| `VITE_ANIMALS_ENDPOINT_PATH` | Ruta de animales del backend. |
+| `VITE_HEALTH_EVENTS_ENDPOINT_PATH` | Ruta de eventos sanitarios del backend. |
+| `VITE_FINANCIAL_RECORDS_ENDPOINT_PATH` | Ruta de registros financieros del backend. |
+| `VITE_FARM_ACTIVITIES_ENDPOINT_PATH` | Ruta de actividades del backend. |
+| `VITE_ANALYTICS_METRICS_ENDPOINT_PATH` | Ruta de metricas y reportes analiticos del backend. |
+| `VITE_DEVICES_ENDPOINT_PATH` | Ruta de dispositivos IoT del backend. |
+| `VITE_DEVICE_METRICS_ENDPOINT_PATH` | Ruta de metricas de dispositivos IoT del backend. |
+| `VITE_SUBSCRIPTION_PLANS_ENDPOINT_PATH` | Ruta de planes de suscripcion del backend. |
 
 **URLs de despliegue:**
 
@@ -672,10 +685,36 @@ El despliegue final del Sprint 4 se realiza usando Render para backend y fronten
 
 **Evidencias pendientes de despliegue:**
 
-- [Agregar screenshot del servicio backend en Render]
-- [Agregar screenshot del frontend desplegado en Render]
-- [Agregar screenshot de variables de entorno configuradas en Render, ocultando secretos]
-- [Agregar screenshot de Swagger ejecutandose desde Render]
+<div align="center">
+    <p><b>Servicio Backend en Render</b></p>
+    <img src="../../assets/chapter-5/BackendRender.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Servicio Frontend en Render</b></p>
+    <img src="../../assets/chapter-5/FrontendRender.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Variables de entorno Backend</b></p>
+    <img src="../../assets/chapter-5/BackendVariables.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Variables de entorno Frontend</b></p>
+    <img src="../../assets/chapter-5/FrontendVariables.jpeg" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
+<div align="center">
+    <p><b>Swagger ejecutandose desde Render</b></p>
+    <img src="../../assets/chapter-5/BackendRenderSprint4.png" width="700">
+    <p><i><b>Fuente</b>: Elaboración propia.</i></p>
+</div>
+
 
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint.

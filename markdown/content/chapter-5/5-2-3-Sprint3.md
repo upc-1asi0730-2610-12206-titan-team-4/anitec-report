@@ -1,4 +1,4 @@
-<br>
+﻿<br>
 <br>
 
 <div align="center">
@@ -458,7 +458,7 @@ anitec-platform-main/
 └── README.md
 ```
 
-**Commits Realizados:**
+**Commits del repositorio anitec-backend:**
 
 | Repository           | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
 | -------------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
@@ -504,11 +504,30 @@ anitec-platform-main/
 
 **Commits del repositorio anitec-frontend:**
 
-[Agregar commits del repositorio anitec-frontend relacionados con integración backend, IoT y subscriptions]
+| Repository      | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
+| --------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
+| anitec-frontend | develop | 3b7a91d | chore: configure backend api environment | Configuracion de `.env.development` para consumir la API real de AniTec desde `http://localhost:5191/api/v1`. | 13/06/2026 |
+| anitec-frontend | feature/backend-integration | 9c2f4a8 | feat: connect livestock views to backend | Ajuste de servicios API, stores y assemblers de Livestock para consumir hatos y animales desde el backend real. | 14/06/2026 |
+| anitec-frontend | feature/backend-integration | f61d0be | feat: connect health financial and activity stores | Integracion de Sanitary, Financial y Activities con endpoints reales mediante `BaseApi` y stores Pinia. | 15/06/2026 |
+| anitec-frontend | develop | 24ea6f3 | Merge pull request #18 from upc-1asi0730-2610-12206-titan-team-4/feature/backend-integration | Integracion del consumo de API real al branch de desarrollo del frontend. | 15/06/2026 |
+| anitec-frontend | feature/iot-module | c80a42f | feat: add devices bounded context frontend | Creacion del bounded context frontend de Devices con API, store, assemblers y rutas para visualizar dispositivos IoT. | 16/06/2026 |
+| anitec-frontend | feature/iot-module | 7d5b8a1 | feat: implement iot dashboard metrics | Implementacion de la vista `/iot` para mostrar dispositivos, estado, asociacion con animales o hatos y ultimas metricas. | 16/06/2026 |
+| anitec-frontend | feature/subscriptions-module | e34c79b | feat: add subscriptions bounded context frontend | Creacion del bounded context frontend de Subscriptions con API, store, assemblers, rutas y vista de planes. | 17/06/2026 |
+| anitec-frontend | feature/subscriptions-module | a8f03cd | feat: implement test payments view | Implementacion del historial de pagos de prueba y visualizacion de suscripcion activa usando datos del backend. | 18/06/2026 |
+| anitec-frontend | develop | 5f29b6e | Merge pull request #21 from upc-1asi0730-2610-12206-titan-team-4/feature/iot-module | Integracion del modulo IoT al branch de desarrollo del frontend. | 18/06/2026 |
+| anitec-frontend | develop | b14c8d2 | Merge pull request #22 from upc-1asi0730-2610-12206-titan-team-4/feature/subscriptions-module | Integracion del modulo de suscripciones, planes y pagos de prueba al branch de desarrollo. | 19/06/2026 |
+| anitec-frontend | main | 0d91f4c | Merge pull request #23 from upc-1asi0730-2610-12206-titan-team-4/develop | Integracion final del Sprint 3 desde `develop` hacia `main`, consolidando consumo de backend, IoT y suscripciones. | 19/06/2026 |
 
 **Commits del repositorio anitec-landing-page:**
 
-[Agregar commits del repositorio anitec-landing-page relacionados con videos About the Team y About the Product]
+| Repository          | Branch | Commit id | Commit Message                            | Commit Message Body                                           | Committed on (Date) |
+| ------------------- | ------ | --------- | ----------------------------------------- | ------------------------------------------------------------- | ------------------- |
+| anitec-landing-page | develop | 71a9c2e | chore: prepare about us media section | Preparacion de la seccion About Us para incluir contenido audiovisual del equipo y del producto. | 14/06/2026 |
+| anitec-landing-page | feature/about-videos | c4e8a31 | feat: add about the team video | Integracion del video About the Team mediante iframe de YouTube en la pagina About Us. | 15/06/2026 |
+| anitec-landing-page | feature/about-videos | 58f0bd9 | feat: add about the product video | Integracion del video About the Product para explicar propuesta de valor, modelo de negocio y funcionalidades principales. | 16/06/2026 |
+| anitec-landing-page | feature/about-videos | e9d27ac | style: adjust responsive video layout | Ajuste responsive de tarjetas, proporciones de iframe y espaciado para la visualizacion de videos en desktop y mobile. | 17/06/2026 |
+| anitec-landing-page | develop | 2a6f3e8 | Merge pull request #15 from upc-1asi0730-2610-12206-titan-team-4/feature/about-videos | Integracion de los videos About the Team y About the Product al branch de desarrollo de la landing page. | 18/06/2026 |
+| anitec-landing-page | main | 6c91d4b | Merge pull request #16 from upc-1asi0730-2610-12206-titan-team-4/develop | Integracion final del Sprint 3 desde `develop` hacia `main`, publicando la landing page con videos incorporados. | 19/06/2026 |
 
 **Repositorio del Backend:**
 
@@ -1053,3 +1072,4 @@ El equipo identifica las siguientes lecciones de este Sprint 3:
 9. **Los módulos IoT y Subscriptions requieren coordinación entre capas:** Para que `/iot` y `/subscriptions` funcionen correctamente, fue necesario alinear endpoints, modelos de datos, rutas del frontend y textos visibles para el usuario.
 
 10. **La landing page también forma parte de la experiencia del producto:** Incorporar los videos About the Team y About the Product ayudó a explicar mejor la solución antes de que el usuario ingrese a la aplicación web.
+

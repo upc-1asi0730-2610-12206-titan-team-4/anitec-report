@@ -108,7 +108,15 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 
 **AV1**
 
+**Grafo de commits AV1**
+
+![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg)
+
+**Commits durante AV1**
+
 ![Commit_Graph](../assets/chapter-1/CommitOvertime.png)
+
+**Commits por integrante durante AV1**
 
 ![Commit_Graph_Individual1](../assets/chapter-1/Comit1.png)
 
@@ -120,11 +128,19 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 
 ![Commit_Graph_Individual5](../assets/chapter-1/Comit5.png)
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap1.jpeg)
+
 
 **TB1** 
 
+**Grafo de commits TB1**
+
+![Pull_Graphs](../assets/chapter-1/GraficosCap12.png)
+
+**Commits durante TB1**
+
 ![Commit_Graph](../assets/chapter-1/CommitOvertime2.png)
+
+**Commits por integrante durante TB1**
 
 ![Commit_Graph_Individual1](../assets/chapter-1/Comit11.png)
 
@@ -136,11 +152,10 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 
 ![Commit_Graph_Individual5](../assets/chapter-1/Comit55.png)
 
-![Pull_Graphs](../assets/chapter-1/GraficosCap12.png)
+
 
 **AV2**
 
-Los siguientes espacios corresponden a las evidencias de colaboración del equipo durante AV2. En esta entrega se debe evidenciar el uso de ramas por funcionalidad, commits distribuidos entre integrantes, integraciones a `develop`, correcciones mediante `hotfix` y la integración final hacia `main`.
 
 **Grafo de commits AV2**
 
@@ -164,4 +179,32 @@ Los siguientes espacios corresponden a las evidencias de colaboración del equip
 ![Commit_Graph_AV2_Individual4](../assets/chapter-5/5.png)
 
 ![Commit_Graph_AV2_Individual5](../assets/chapter-5/6.png)
+
+
+**TB2**
+
+
+**Grafo de commits TB2**
+
+
+![Branch_Graph_AV2](../assets/chapter-5/CommitGraphTB2.png)
+
+**Commits durante TB2**
+
+
+![Commit_Graph_AV2](../assets/chapter-5/CommitOverTimeTB2.png)
+
+**Commits por integrante durante TB2**
+
+
+![Commit_Graph_AV2_Individual1](../assets/chapter-5/Melga1502's%20Commits.png)
+
+![Commit_Graph_AV2_Individual2](../assets/chapter-5/AbigailRV's%20Commits.png)
+
+![Commit_Graph_AV2_Individual3](../assets/chapter-5/jorgeayaladev's%20Commits.png)
+
+![Commit_Graph_AV2_Individual4](../assets/chapter-5/luccsss's%20Commits.png)
+
+![Commit_Graph_AV2_Individual5](../assets/chapter-5/BrunoHG10's%20Commits.png)
+
 
