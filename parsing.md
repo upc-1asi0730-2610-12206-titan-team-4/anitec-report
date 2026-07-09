@@ -60,7 +60,7 @@
 <h2 align="center"><strong>Julio 2026</strong></h2>
 
 </div>
-<div style="font-size: 18px; line-height: 1.65;">
+<div style="font-size: 20px; line-height: 1.65;">
 
 <div style="page-break-before: always;"></div><div align="center">
 
@@ -197,9 +197,6 @@
 ### [Bibliografía](#toc-bibliografia)
 
 ### [Anexos](#toc-anexos)
-
-<div style="page-break-before: always;"></div>>
-
 
 <div style="page-break-before: always;"></div>
 
@@ -7855,7 +7852,7 @@ Weerakoon, S. (2020, 1 noviembre). How to Write a User Story for an API Product.
 - Exposición Avance 1: https://tinyurl.com/ExposicionAvance1
 - Exposición TB1: https://tinyurl.com/ExposicionTB1
 - Exposición AV2: https://tinyurl.com/ExposicionAvance2
-- Exposición TB2: 
+- Exposición TB2: https://tinyurl.com/ExpoTB2
 
 <div style="page-break-before: always;"></div>
 
