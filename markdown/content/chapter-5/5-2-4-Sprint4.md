@@ -207,7 +207,7 @@ Las tareas fueron distribuidas considerando los dos productos principales de la 
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
 
-Enlace al tablero del Sprint Backlog 4: https://trello.com/invite/b/6a4ecb3af66dcec21f2d23be/ATTIc5c2e19d1656e989be48cf69d975850827DF607A/sprint4-anitec
+Enlace al tablero del Sprint Backlog 4: https://tinyurl.com/TrelloSprint4Anitec
 
 <div align="center">
     <img src="../../assets/chapter-5/Sprint4.png" width="700">

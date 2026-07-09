@@ -232,7 +232,7 @@ El Sprint Backlog fue elaborado considerando las dependencias entre módulos. Pr
 **Trello Board:**
 El equipo utiliza un Trello Board para gestionar visualmente el Sprint Backlog. El Board contiene las listas estándar de Scrum: "Sprint Goal", "To Do", "In Progress", "To Review" y "Done".
 
-Enlace al tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTI8abaa26cc7e6f8b81250a5d3862a2d6574E3BF7E/sprint3-anitec
+Enlace al tablero del Sprint Backlog 3: https://tinyurl.com/TrelloSprint3Anitec 
 
 <div align="center">
     <img src="../../assets/chapter-5/trello-sprint3.jpeg" width="700">

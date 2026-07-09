@@ -14,4 +14,4 @@ El presente Big Picture Event Storming se ha desarrollado de manera colaborativa
 
 ![Event-Storming](../../assets/chapter-2/EventStormingPaso3.jpeg)
 
-Enlace para acceder al miro: https://tinyurl.com/eventStormingMiro
+Enlace para acceder al miro: https://tinyurl.com/EventSorming

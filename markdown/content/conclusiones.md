@@ -61,13 +61,13 @@ El video About The Team presenta la participación de los integrantes del equipo
 | Título | Video About The Team - AniTec |
 | Duración | 8:02 minutos |
 | Público objetivo | Docente del curso, visitantes del landing page e interesados en conocer el proceso de trabajo del equipo |
-| URL publicado en Microsoft Stream | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQAyofYgaVNZSKGbK9yprnnhAfTvMhJAbfJQ2HpwhuOl0FA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8Ff9cQ |
+| URL publicado en Microsoft Stream | https://tinyurl.com/aboutTheTeamAnitec |
 | URL publicado en YouTube | https://www.youtube.com/watch?v=Ai-0rShYlvI |
 | Uso en landing page | El video de YouTube se utiliza como evidencia pública del proceso de trabajo del equipo. |
 
 **URL del video publicado en Microsoft Stream:**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202315165_upc_edu_pe/IQAyofYgaVNZSKGbK9yprnnhAfTvMhJAbfJQ2HpwhuOl0FA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=8Ff9cQ
+https://tinyurl.com/aboutTheTeamAnitec
 
 **URL del video publicado en YouTube:**
 

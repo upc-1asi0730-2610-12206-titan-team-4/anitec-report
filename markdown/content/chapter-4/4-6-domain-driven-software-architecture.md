@@ -122,7 +122,7 @@ El Design-Level EventStorming de AniTec se presenta desde el paso 4 porque los p
   </p>
 </div>
 
-Enlace para acceder al https://miro.com/welcomeonboard/T1gvUmlKRzZiWjFQV0VFK1VsL1VDbFN1WElQbzV3WjVVd2NYR1d3NVRSdVFOUFd4ZVlIbk4rSmxBN1J3UUtjQjg3cHlKK2VKZ3cwVXB5ZXJoK0MyNmxud0lrejllQVpDT1AzczYyS0t6YWtZTk9xSS9JK05WR2x1cVZvYldTbzRnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=376749116517
+Enlace para acceder al miro https://tinyurl.com/EventSorming
 
 ## 4.6.2. Software Architecture Context Diagram.
 
