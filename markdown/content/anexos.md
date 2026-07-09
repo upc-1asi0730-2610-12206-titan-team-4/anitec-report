@@ -23,7 +23,7 @@
 ## Anexo C. Videos de entrevistas de validación
 
 - Entrevista 1 - Rodrigo Alfaro: https://tinyurl.com/ValidacionRodrigoAlfaro
-- Entrevista 2 - Kiara Gallardo:  https://tinyurl.com/EntrevistaValidacion2
+- Entrevista 2 - Kaori Portocarrero:  https://tinyurl.com/EntrevistaValidacion2
 - Entrevista 3 - Vicente: https://tinyurl.com/ValidacionAppWebVicente
 - Entrevista 4 - Ariana Fernandez: https://tinyurl.com/muxwt3cd
 - Entrevista 5 - Hugo Jorge: https://tinyurl.com/EntrevistaValidacionHugo
@@ -59,6 +59,7 @@
 - Tablero del Sprint Backlog 1: https://trello.com/invite/b/6a06e9662903eb17cb2c9d0b/ATTI6d55852ea11badb2245aa4b7cf40d70dCFCD8EFC/sprint-backlog-1
 - Tablero del Sprint Backlog 2: https://trello.com/invite/b/6a06efb192d6c5dc5bae0657/ATTIdd80e2d6d8ef041aa25bc7e7f76a46bf605EEC03/sprint-backlog-2
 - Tablero del Sprint Backlog 3: https://trello.com/invite/b/6a35c1fc2aa4cb4656e49c3b/ATTIe8f4417969b123401b08cdf15fc123be01FAB4B6/sprint3-anitec
+- Tablero del Sprint Backlog 4: https://trello.com/invite/b/6a4ecb3af66dcec21f2d23be/ATTIc5c2e19d1656e989be48cf69d975850827DF607A/sprint4-anitec
 
 <div style="page-break-before: always;"></div>
 
