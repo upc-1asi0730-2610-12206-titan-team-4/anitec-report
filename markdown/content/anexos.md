@@ -7,7 +7,7 @@
 - Exposición Avance 1: https://tinyurl.com/ExposicionAvance1
 - Exposición TB1: https://tinyurl.com/ExposicionTB1
 - Exposición AV2: https://tinyurl.com/ExposicionAvance2
-- Exposición TB2: 
+- Exposición TB2: https://tinyurl.com/ExpoTB2
 
 <div style="page-break-before: always;"></div>
 
